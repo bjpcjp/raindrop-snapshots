@@ -1,0 +1,206 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>network-effects + platforms &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-08-14T12:27:48.338Z | tags: behaviors, influence-persuasion, network-effects, platforms -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/html/2508.03385v1">Can We Fix Social Media? Testing Prosocial Interventions using Generative Social Simulation</a>
+          <div class="card-meta">14 Aug 2025</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-25T23:39:26.707Z | tags: network-effects, platforms -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/corporate-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/16-ways-to-measure-network-effects/">16 Ways to Measure Network Effects | Andreessen Horowitz</a>
+          <div class="card-meta">25 Nov 2024</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>Network effects are one of the most important dynamics in software and marketplace businesses. But they’re often spoken of in a binary way: either you have them, or you don’t. In practice, most companies’ network effects are much more complex, falling along a spectrum of different types and strengths. They’re also dynamic and evolve as...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:15:02.000Z | tags: network-effects, platforms, prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://platformed.info/virality-viral-growth-network-effects">http://platformed.info/virality-viral-growth-network-effects</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">platformed.info</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:00:20.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://mattturck.com/wp-content/uploads/2018/01/data-network-blog-pic.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://mattturck.com/2016/01/04/the-power-of-data-network-effects">The Power of Data Network Effects</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">mattturck.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the furiously competitive world of tech startups, where good entrepreneurs tend to think of comparable ideas around the same time and &quot;hot spaces&quot; get crowded quickly with well-funded hopefuls, competitive moats matter more than ever.  Ideally, as your startup scales, you want to not only be able</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:47:26.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2016/04/apr16-25-471454159.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2016/04/the-real-power-of-platforms-is-helping-people-self-organize">The Real Power of Platforms Is Helping People Self-Organize</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Centralized planning is no longer required.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:42:17.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2016/03/R1604D_RATHOD-e1457464814406.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2016/04/network-effects-arent-enough">Network Effects Aren’t Enough</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>In many ways, online marketplaces are the perfect business model. Since they facilitate transactions between independent suppliers and customers rather than take possession of and responsibility for the products or services in question, they have inherently low cost structures and fat gross margins. They are highly defensible once established, owing to network effects. Yet online marketplaces remain extremely difficult to build, say Andrei Hagiu of Harvard Business School and venture capitalist Simon Rothman of Greylock Partners. Most entrepreneurs and investors attribute this to the challenge of quickly attracting a critical mass of buyers and suppliers. But it is wrong to assume that once a marketplace has overcome this hurdle, the sailing will be smooth. Several other important pitfalls can threaten marketplaces: growing too fast too early; failing to foster sufficient trust and safety; resorting to sticks, rather than carrots, to deter user disintermediation; and ignoring the risks of regulation. This article draws on company examples such as eBay, Lending Club, and Airbnb to offer practical advice for avoiding those hazards.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:20:04.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://platformed.info/twitter-whatsapp-uber-airbnb-network-effects">http://platformed.info/twitter-whatsapp-uber-airbnb-network-effects/</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">platformed.info</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-04T23:07:00.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2013/04/foxconn.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2013/04/27/economies-of-scale-as-a-service">Economies Of Scale As A Service | TechCrunch</a>
+          <div class="card-meta">4 Jun 2022</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>Credit where it&#39;s definitely due: this post was inspired by a Twitter conversation with Box CEO Aaron Levie.  Don&#39;t look now, but something remarkable is happening.  Instagram had twelve employees when it was purchased for $700 million; all of its actual computing power was outsourced to Amazon Web Services. Mighty ARM has only 2300 employees, but there are more than 35 billion ARM-based chips out there. They do no manufacturing; instead they license their designs to companies like Apple, who in turn contract with companies like TSMC for the actual fabrication. Nest Labs and Ubiquiti are both 200-employee hardware companies worth circa $1 billion...who subcontract their actual manufacturing out to China.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-02T18:01:48.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2012%2F12%2Fpeople.jpg&amp;signature=131dae38abc92df463f826bc2021d648" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/insider/2012/12/22/reverse-network-effects-why-scale-may-be-the-biggest-threat-facing-todays-social-networks#.tnw_Wfinkp7Y">Reverse Network Effects: Why Scale Threatens Today’s Social Networks</a>
+          <div class="card-meta">2 Jun 2022</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>To explore the future of online networks, it&#39;s important to note how network effects correlate with value and the factors that make these network effects work in reverse.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-14T13:15:13.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://julian.digital/wp-content/uploads/2021/12/defaultpreview.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://julian.digital/2021/12/20/the-power-of-defaults">The power of defaults</a>
+          <div class="card-meta">14 Jan 2022</div>
+          <div class="card-meta card-domain">julian.digital</div>
+        </div>
+        <div class="card-section">
+          <p>The world’s most successful companies all exhibit some form of structural competitive advantage: A defensibility mechanism that protects their margins and profits from competitors over long periods of time. Business strategy books like to refer to these competitive advantages as “economic moats”.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-24T16:20:24.000Z | tags: network-effects, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://a16z.com/wp-content/themes/a16z/assets/images/opegraph_images/corporate-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2018/12/13/network-effects-dynamics-in-practice">The Dynamics of Network Effects</a>
+          <div class="card-meta">24 Dec 2018</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most successful companies and products of the internet era have all been predicated on the concept of network effects, where the network becomes more valuable to users as more people use it. This is as true of companies like Amazon and Google as it is for open source projects like Wikipedia and some cryptocurrencies....</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,388 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + ui-ux &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-01-17T07:15:14.000Z | tags: behaviors, emotions, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Psych_SG_61.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/psychology-study-guide">Psychology for UX: Study Guide</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unsure where to start? Use this collection of links to our articles and videos to learn about some principles of human psychology and how they relate to UX design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-21T18:52:24.000Z | tags: behaviors, music, ui-ux -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/01/Screen-Shot-2019-01-08-at-6.14.42-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/gaming/2019/03/the-ux-of-vinyl-the-medium-is-the-message">Why vinyl records survive in the digital age | Ars Technica</a>
+          <div class="card-meta">21 Dec 2022</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Don’t underestimate ritual and tactility.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:43:36.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://uxmovement.com/wp-content/uploads/2012/04/email-note.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://uxmovement.com/forms/8-reasons-users-arent-filling-out-your-sign-up-form">8 Reasons Users Don’t Fill Out Sign Up Forms</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">uxmovement.com</div>
+        </div>
+        <div class="card-section">
+          <p>Signing up for a website is a big commitment to most people. Users who sign up for your site are giving you their personal information. If you misuse their personal information, you could abuse their trust. Most users today are more wary than ever about who handles their personal information. In a cyber world full of […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:58:03.000Z | tags: behaviors, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://whatculture.com/gaming/gta-v-9-facts-that-will-blow-your-mind?page=4">GTA V: 9 Facts That Will Blow Your Mind</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">whatculture.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-15T17:03:22.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Personas_vs_Archetypes_Social_Posts_2022_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/personas-archetypes">Personas vs. Archetypes</a>
+          <div class="card-meta">15 May 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Archetypes and personas used for UX work contain similar insights, are based on similar kinds of data, and differ mainly in presentation. Personas are presented as a single human character, whereas archetypes are not tied to specific names or faces.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-24T01:23:05.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rQWWhw-apPi-kPs_xhNgZg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.muz.li/using-interactions-to-shape-user-behavior-patterns-e7dac087eebe">Using interactions to shape user behavior patterns</a>
+          <div class="card-meta">24 Feb 2022</div>
+          <div class="card-meta card-domain">medium.muz.li</div>
+        </div>
+        <div class="card-section">
+          <p>Facebook Messenger: Long Press to Swipe</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:29:40.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://www.visualcapitalist.com/wp-content/uploads/2018/03/18-cognitive-bias-examples-share.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.visualcapitalist.com/18-cognitive-bias-examples-mental-mistakes">18 Cognitive Bias Examples Show Why Mental Mistakes Get Made</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">visualcapitalist.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here are 18 of the most common mental mistakes in business and investing. Make sure to learn from these cognitive bias examples to make better decisions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:42:52.000Z | tags: behaviors, moats, platforms, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F83c38ed4-76a1-4835-9488-66737324a22d_540x361.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://floodstate.substack.com/p/storming-reddits-moat">Storming Reddit&#39;s Moat</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">floodstate.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Guide to Reddit, Its Key Competitive Advantages, and How to Unbundle It</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:13.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*-XgzQw76IgZE2gwbOrNSCA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a">Scarcity in UX: The psychological bias that became the norm</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">uxdesign.cc</div>
+        </div>
+        <div class="card-section">
+          <p>Short analysis on the current state of affairs and a few tips to keep in mind.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:34.000Z | tags: behaviors, storytelling, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*I9_EDoXn0McpW5xOaJSFkA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/Umv40tMA9cb">A Game Designer’s Analysis Of QAnon</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Playing with reality</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:12:32.000Z | tags: behaviors, design, design-patterns, influence-persuasion, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://thehipperelement.com/post/87574750438/ux-crash-course-user-psychology">UX Crash Course: User Psychology</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">thehipperelement.com</div>
+        </div>
+        <div class="card-section">
+          <p>My mission for 2014 was to get more people started in User Experience (UX) Design. In January, hundreds of thousands of people did the original UX Crash Course and it was translated into Spanish, Portuguese and Korean by amazing volunteers. In May we continued with a User Psychology lesson every day.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:12:14.000Z | tags: behaviors, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://unintendedconsequenc.es/wp-content/uploads/2019/08/Glass-polishers-image-Vaclav-Smil-879x800.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://unintendedconsequenc.es/do-we-create-shoplifters">Do We Create Shoplifters? - Unintended Consequences</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">unintendedconsequenc.es</div>
+        </div>
+        <div class="card-section">
+          <p>The history of technology is one of subtracting humans and replacing them with machines. Do the unintended consequences include creating shoplifters?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:22:14.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2015%2F01%2Fbehaviordata.jpg&amp;signature=e27a2b5456549d4ab102facc1c9f7b6b" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/dd/2015/01/18/gather-quantitative-data-user-behaviors-mental-models">How to Gather Quantitative Data on User Behaviors</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>The quantitative methods we used were all time and cost-efficient, demonstrating that user research doesn’t require thousands of dollars and endless time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:21:24.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2020/04/design-system-metrics-copy-1.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design">UX Design Psychology Tricks for Design Excellence</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Human brain processes information as well as how it forms certain patterns of behavior. Discover cognitive psychology tips for UX.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:20:14.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/ux-public-bathrooms.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/ux-public-bathrooms">The User Experience of Public Bathrooms [APRIL FOOLS]</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Public restrooms are plagued by unusable toilet-paper dispensers, difficult flushing controls, and poor stall-status visibility. Many of these issues can be addressed by following standard usability practices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:20:13.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/authority-principle-ux-design.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/authority-principle">The Authority Principle</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>A perceived high-authority status of the person making a request can make people more compliant with that request. Applying this principle in UX can ease users&#39; decision-making process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:19:31.000Z | tags: behaviors, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/creepiness.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/creepiness">Creepiness–Convenience Tradeoff</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>As people consider whether to use the new &quot;creepy&quot; technologies, they do a type of cost-benefit analysis weighing the loss of privacy against the benefits they will receive in return.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:44.000Z | tags: behaviors, empathy, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/sympathy-vs-empathy.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux">Sympathy vs. Empathy in UX</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>The majority of UX professionals practice sympathy instead of empathy for their users.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:06:57.000Z | tags: behaviors, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/twg-content/images/askaresearcher-howdoneedsdriveintent_FI_V1.width-1200.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thinkwithgoogle.com/consumer-insights/consumer-needs-research">Ask a researcher: How do needs drive intent?</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">thinkwithgoogle.com</div>
+        </div>
+        <div class="card-section">
+          <p>Consumer needs spark consumer journeys. How can marketers identify those needs and address them? The latest consumer research from Google will help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:51:07.000Z | tags: behaviors, empathy, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*9-8xPocLU9TE3wocC8XwBA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/RZ1Whcgiqq?ssr=true">How privilege impacts empathy</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>Who are we excluding from “user-centered” design</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-12T20:49:19.000Z | tags: behaviors, reciprocity, ui-ux, prospect-theory -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/5da817383e548853bed9550a/5e67c7efa72423416e6ccb04_5b9a31b02d798e1bffc6f694_Reciprocity%2520Decay.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.coglode.com/gem/reciprocity-decay?goal=0_d9e2d04969-288a6a3df8-348202825&amp;mc_cid=288a6a3df8&amp;mc_eid=2236fd6cd5&amp;ref=weekly.ui-patterns.com">Reciprocity Decay</a>
+          <div class="card-meta">12 Mar 2019</div>
+          <div class="card-meta card-domain">coglode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our desire to give back wanes rapidly with time - Why if you want people to return a favor, you need to act fast</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-05T19:42:43.000Z | tags: behaviors, marketing, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/heath-freepopsicle-1630_1.jpg.webp?itok=88UcTvGJ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gsb.stanford.edu/insights/power-free-popsicle?Date=20180223&amp;linkId=48424986">The Power of a Free Popsicle | Stanford Graduate School of Business</a>
+          <div class="card-meta">5 Mar 2018</div>
+          <div class="card-meta card-domain">gsb.stanford.edu</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

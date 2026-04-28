@@ -1,0 +1,311 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>best-practices + execution &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-10-27T13:28:12.225Z | tags: analytics, execution, best-practices -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2023/01/goodhart_law_not_useful.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/goodharts-law-not-useful/">Goodhart&#39;s Law Isn&#39;t as Useful as You Might Think</a>
+          <div class="card-meta">27 Oct 2024</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Goodhart&#39;s Law is useless. It tells you about a phenomenon, but it doesn&#39;t tell you how to solve it. We look at how organisations actually prevent Goodhart&#39;s Law, and illustrate this with Amazon&#39;s Weekly Business Review as an example.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-29T17:05:27.000Z | tags: best-practices, execution, finance -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/c/cases/danaher-lean-capital-allocation">Danaher: Masterful Capital Allocation and Lean Manufacturing, Combined</a>
+          <div class="card-meta">29 Apr 2024</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>How Danaher combines Lean manufacturing with masterful capital allocation to build a remarkable manufacturing company in the United States.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-01T01:38:27.000Z | tags: best-practices, execution, post-mortems -->
+      <div class="card-image">
+        <img src="https://asteriskmag.com/media/pages/issues/05/why-you-ve-never-been-in-a-plane-crash/7c5258c59a-1705939485/120623_am_05_opener_mm_web-1200x630-crop.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://asteriskmag.com/issues/05/why-you-ve-never-been-in-a-plane-crash">Why You’ve Never Been In A Plane Crash—Asterisk</a>
+          <div class="card-meta">1 Feb 2024</div>
+          <div class="card-meta card-domain">asteriskmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>The United States leads the world in airline safety. That’s because of the way we assign blame when accidents do happen.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-04T01:21:28.000Z | tags: analytics, best-practices, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2023/10/operational_definitions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/whats-operational-definition">What’s an Operational Definition Anyway?</a>
+          <div class="card-meta">4 Oct 2023</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two principles on collecting data, from the field of Statistical Process Control. As with most principles in SPC, this is both simpler and more important than you might think.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-27T20:18:18.000Z | tags: best-practices, execution, astronomy-space -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fmattrickard.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1129272927%26version%3D9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/r/c8ccacfb?m=5ba63d9b-6620-4051-8686-515cd8a8f374">Akin&#39;s Laws of Spacecraft Design</a>
+          <div class="card-meta">27 Aug 2023</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve been involved in spacecraft and space systems design and development for my entire career, including teaching the senior-level capstone spacecraft design course, for ten years at MIT and now at the University of Maryland for more than three decades.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-10T14:38:52.000Z | tags: best-practices, execution, finance, management -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9b2c053-6001-4555-a5cf-983c317da90f_1920x1080.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/r/a17b6a29?m=5ba63d9b-6620-4051-8686-515cd8a8f374">Intellectual Laziness</a>
+          <div class="card-meta">10 Jul 2023</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>Book Review: Power Failure</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-26T00:39:56.000Z | tags: best-practices, execution, food-drink -->
+      <div class="card-image">
+        <img src="https://assets.bonappetit.com/photos/57bf30906a6acdf3485df7c7/16:9/w_1280,c_limit/hillstone-featured-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bonappetit.com/restaurants-travel/article/hillstone">Welcome to Hillstone, America&#39;s Favorite Restaurant | Bon Appétit</a>
+          <div class="card-meta">26 Feb 2023</div>
+          <div class="card-meta card-domain">bonappetit.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s never going to win a James Beard Award. Or try to wow you with its foam experiments or ingredients you’ve never heard of. But it is the best-run, most-loved, relentlessly respected restaurant in America. And, oh yeah, Danny Meyer, David Chang, and Shaq all agree. Welcome to Hillstone.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-03T01:14:02.000Z | tags: best-practices, execution, prodmgmt, writing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*mcgfntL_QZnleRG_Tnv5Bw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9">The Anatomy of an Amazon 6-pager</a>
+          <div class="card-meta">3 Sep 2022</div>
+          <div class="card-meta card-domain">writingcooperative.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep dive into writing detailed planning docs from one of the most successful companies in the world</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:14:56.000Z | tags: best-practices, execution -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.samaltman.com/super-successful-companies">Super successful companies</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.samaltman.com</div>
+        </div>
+        <div class="card-section">
+          <p>I spent some time recently thinking about what companies that grow up to be extremely successful do when they are very young. I came up with the following list. It’s from personal experience and...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:06:52.000Z | tags: best-practices, execution, webdev -->
+      <div class="card-image">
+        <img src="https://blog.pragmaticengineer.com/content/images/size/w1200/2019/09/RFC.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs">Scaling Engineering Teams via RFCs: Writing Things Down</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.pragmaticengineer.com</div>
+        </div>
+        <div class="card-section">
+          <p>I have recently been talking at small and mid-size companies, sharing engineering best practices I see us use at Uber, which I would recommend any tech company adopt as they are growing. The one topic that gets both the most raised eyebrows, as well the most &quot;aha!&quot; moments is the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:47:22.000Z | tags: best-practices, execution, management -->
+      <div class="card-image">
+        <img src="https://foldingburritos.com/assets/img/logo/social-share-og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://foldingburritos.com/articles/2018/02/13/report-templates-less-status-meetings">Report templates for fewer status meetings | Folding Burritos</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">foldingburritos.com</div>
+        </div>
+        <div class="card-section">
+          <p>Report templates, and guided steps to create them, so Product Managers spend less time in status meetings and more time out of the building</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:42:33.000Z | tags: best-practices, execution -->
+      <div class="card-image">
+        <img src="https://eleganthack.com/wp-content/uploads/2016/07/compare2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://eleganthack.com/why-key-results-need-to-be-results">Why Key Results Need to Be Results</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">eleganthack.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you know nothing about OKRs, please start here: Art of the OKR. Or buy my book, Radical Focus. I think it’s rather good.  An Objective is the goal you wish to achieve in a g…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:17:34.000Z | tags: best-practices, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fjbgpt9rrsza2ei8xmlic_frc_ceo16_159-cr.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://firstround.com/review/make-operations-your-secret-weapon-heres-how">Make Operations Your Secret Weapon - Here’s How</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Etsy COO Linda Kozlowski knows an operations leader is critical to the success of a company. Here, she sheds light on the most mysterious role in the C-suite — and how startups can hire and empower the right COO for their company.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:29:54.000Z | tags: best-practices, execution, inventions-innovation, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://steveblank.com/wp-content/uploads/2013/05/hbr-reprint1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steveblank.com/2015/03/11/fear-of-failure-and-lack-of-speed-in-a-large-corporation">Steve Blank Fear of Failure and Lack of Speed In a Large Corporation</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">steveblank.com</div>
+        </div>
+        <div class="card-section">
+          <p>I just spent a day working with Bob, the Chief Innovation Officer of a very smart large company I’ll call Acme Widgets. Bob summarized Acme’s impediments to innovation. “At our company we have a cu…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:37:27.000Z | tags: best-practices, execution -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2019/04/Apr19_23_989729938.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2019/04/what-process-mining-is-and-why-companies-should-do-it">What Process Mining Is, and Why Companies Should Do It</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>There have long been a few fundamental challenges associated with business process management. But a relatively new and innovative technology, process mining, has the capability to revitalize process management in firms where it has lain fallow for years. One problem involves the creation of “current state” processes — a description of how a business process is being performed today. In business process reengineering, organizations are primarily interested in an improved “to be” process, so often they have little interest in exploring “as is,” or how the process is currently performed. The other general problem with process management is the lack of connections between business processes and an organization’s enterprise information systems. Enter process mining. Process mining software can help organizations easily capture information from enterprise transaction systems and provides detailed — and data-driven — information about how key processes are performing. It creates event logs as work is done: an order is received, a product is delivered, a payment is made. The logs make visible how computer-mediated work is really happening, including who did it, how long it takes, and how it departs from the average. Process analytics create key performance indicators for the process, which enables a company to focus on the priority steps to improve.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T14:32:13.000Z | tags: best-practices, execution, management, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/03/Mar22_10200284152-001.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/03/3-practices-that-set-resilient-teams-apart">3 Practices That Set Resilient Teams Apart</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>New research reveals that how we perform work as a team contributes more to resilience than external stressors. On resilient teams, individuals feel responsible for energizing each other. This is in stark contrast to teams who are challenged by frustrating ways of working and fractured relationships. As we move into the third year of pandemic uncertainty, adopting three simple practices will help managers build more resilient — and re-energized — teams.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-29T17:52:04.000Z | tags: best-practices, execution, projmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html">42 things I learned from building a production database</a>
+          <div class="card-meta">29 Nov 2021</div>
+          <div class="card-meta card-domain">maheshba.bitbucket.io</div>
+        </div>
+        <div class="card-section">
+          <p>In 2017, I went to Facebook on a sabbatical from my faculty position at Yale. I created a team to build a storage system called Delos at the bottom of the Facebook stack (think of it as Facebook’s version of Chubby). We hit production with a 3-person team in less than a year; and subsequently scaled the team to 30+ engineers spanning multiple sub-teams. In the four years that I led the team (until Spring 2021), we did not experience a single severe outage (nothing higher than a SEV3). The Delos design is well-documented in two academic papers (in OSDI 2020 and SOSP 2021). Delos is currently replacing all uses of ZooKeeper at Facebook.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

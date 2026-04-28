@@ -1,0 +1,1486 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>chip-design + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-25T01:03:31.125Z | tags: chip-design, lithography, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2026/04/How-to-Overcome-the-Advanced-Node-Physical-Verification-Bottleneck-.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/eda/synopsys/368490-how-to-overcome-the-advanced-node-physical-verification-bottleneck/">How to Overcome the Advanced Node Physical Verification...</a>
+          <div class="card-meta">25 Apr 2026</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog looks at the details of how Synopsys IC Validator can overcome the advanced node physical verification bottleneck.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-04-20T10:48:55.832Z | tags: semiconductors, chip-design, packaging -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/AdobeStock_617037143-scaled.jpeg?fit=2560%2C1707&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/panel-level-packagings-second-wave-meets-engineering-reality/">Panel-Level Packaging&#39;s Second Wave Meets Engineering Reality</a>
+          <div class="card-meta">20 Apr 2026</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>The cost case is strengthening, but glass, warpage, and bonding yield stand in the way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-04-02T11:27:48.447Z | tags: semiconductors, sram, chip-design, semiconductor-memory -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_373262549-scaled.jpeg?fit=2560%2C1713&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/reinventing-embedded-memory-solving-the-sram-scaling-wall/">Reinventing Embedded Memory: Solving The SRAM Scaling Wall</a>
+          <div class="card-meta">2 Apr 2026</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new embedded memory architecture with a three-transistor cell.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-11T10:41:31.302Z | tags: tpu, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://lh7-us.googleusercontent.com/docs/AHkbwyJcZ_cwSMEpp8v3U8jPzcp-5P-FPdShGHaV8Ws0CKkcKuCYINFZWwbAVIjRZDCTwEb0Zl0wQFQ4ImRAZi8S-BrWawaLXj5VCCjTFJ8qEkQzAAgnA-q3=w1200-h630-p" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.google.com/document/d/1dZ3vF8GE8_gx6tl52sOaUVEPq0ybmai1xvu3uk89_is/mobilebasic">Designing AI Chip Software and Hardware</a>
+          <div class="card-meta">11 Mar 2026</div>
+          <div class="card-meta card-domain">docs.google.com</div>
+        </div>
+        <div class="card-section">
+          <p>Designing AI Chip Hardware and Software Bjarke Hammersholt Roune 2026  This document is, for now, open for comments. You can use the Google Docs comment feature to add comments anywhere. Thanks!  What is this document? I was going to start an AI chip company and this document contains my thinking...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-09T17:26:09.564Z | tags: semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/scanning-electron-microscope-image-of-the-top-of-a-three-dimensional-bulk-resistive-ram.jpg?id=63929015&amp;width=210" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-and-memory-wall">Bulk RRAM: Scaling the AI Memory Wall</a>
+          <div class="card-meta">9 Feb 2026</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>UC San Diego researchers have reimagined RRAM, creating a device that could redefine AI&#39;s memory challenges. Discover how this could impact edge computing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-09T17:17:27.462Z | tags: semiconductors, chip-design, foundries -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2026/01/Gate-All-Around-Technology-for-Sustainable-AI-SemiWiki.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/events/366230-gate-all-around-gaa-technology-for-sustainable-ai/">Gate-All-Around (GAA) Technology for Sustainable AI - SemiWiki</a>
+          <div class="card-meta">9 Feb 2026</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Key takeaways ▼ The transition from FinFET to Gate-All-Around (GAA) transistor technology represents a pivotal moment in the evolution of logic devices, driven by both physical scaling limits and the … Continue reading &quot;Gate-All-Around (GAA) Technology for Sustainable AI&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-25T19:07:28.556Z | tags: semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Understanding_the_PDK_Generation_Process_thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/understanding-the-pdk-generation-process/">Understanding the PDK Generation Process - Technical Articles</a>
+          <div class="card-meta">25 Jan 2026</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we&#39;ll walk through the steps of generating a Process Design Kit (PDK) for digital standard cell libraries.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-10T18:21:09.082Z | tags: fpgas, open-source, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/FPGAs-Boston-Hardware_800x450.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/industry-articles/fpgas-need-a-new-future/">FPGAs Need a New Future</a>
+          <div class="card-meta">10 Dec 2025</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>FPGAs are limited by outdated proprietary software. Learn how embracing open-source tools is necessary to modernize FPGA development and unlock their full potential.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-23T19:25:52.287Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sHEs77-md-8JpdwaSV2qfrUiDDAiGV7qut1flInr3kyAGR09bHqHyO18DfkxiBbBkaSmoKO1MLht0nuRuVDbYHfS215MN4QM1FZTNSydIl9YQsHIHajzhudhTZjtQ894iQzGq2BxIv_Q=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html?m=1">Unusual circuits in the Intel 386&#39;s standard cell logic</a>
+          <div class="card-meta">23 Nov 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve been studying the standard cell circuitry in the Intel 386 processor recently. The 386, introduced in 1985, was Intel&#39;s most complex pr...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-23T11:55:51.988Z | tags: semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2025/10/Screenshot-2025-10-22-at-5.34.26-PM.png?fit=726%2C540&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/why-in-memory-computation-is-so-important-for-edge-ai/">Why In-Memory Computation Is So Important For Edge AI</a>
+          <div class="card-meta">23 Oct 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers focus on limiting data movement to reduce power and latency in edge devices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-14T12:11:05.626Z | tags: hbm, interconnects, packaging, semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2025/10/Onto_Interconnect-Innovations-in-HBM-part2-fig1.webp?fit=975%2C606&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/interconnect-innovations-in-high-bandwidth-memory-part-2/">Interconnect Innovations In High Bandwidth Memory: Part 2</a>
+          <div class="card-meta">14 Oct 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Bump technologies are being pushed beyond what was thought to be their physical and performance limits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-11T14:08:11.550Z | tags: chip-design, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/AdobeStock_594956379-data-center-MARch-26-2025-scaled.jpeg?fit=2560%2C1440&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/the-demise-of-static-timing-verification/">The Demise Of Static Timing Verification?</a>
+          <div class="card-meta">11 Sep 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Timing is increasingly dependent on vectors. Can static techniques continue to deliver the necessary results? Maybe.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-31T20:35:21.235Z | tags: semiconductors, chip-design, hbm -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2025/08/Back-Side-Power-Delivery-BSPD-SemiWiki.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/wikis/industry-wikis/backside-power-delivery-bspd-wiki/">Backside Power Delivery (BSPD) Wiki</a>
+          <div class="card-meta">31 Aug 2025</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Backside Power Delivery (BSPD), also called Backside Power Delivery Network (BSPDN) or backside power via (BPV) technology, is a semiconductor manufacturing innovation in which the chip’s primary power distribution network … Continue reading &quot;Backside Power Delivery (BSPD) Wiki&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-02T10:48:54.547Z | tags: semiconductors, testing, chip-design -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/Screenshot-2025-07-01-at-6.22.55%E2%80%AFPM-1.png?fit=1540%2C1231&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/rethinking-scan-chains-in-semiconductor-test/">Rethinking Scan Chains In Semiconductor Test</a>
+          <div class="card-meta">2 Jul 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding defects now requires multiple data types, and a much more thorough search.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-19T23:22:03.047Z | tags: chip-design, semiconductors, ideas -->
+      <div class="card-image">
+        <img src="https://assets.rbl.ms/60263459/origin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/thermodynamic-computing-normal-computing">Prototype Computer Uses Noise to Its Advantage</a>
+          <div class="card-meta">19 May 2025</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Thermodynamic computing isn&#39;t just a rebrand of probabilistic computing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-17T11:36:13.921Z | tags: semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2025/05/fig1-metal-fill.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/eda/355779-metal-fill-extraction-breaking-the-speed-accuracy-tradeoff/">Metal fill extraction: Breaking the speed-accuracy tradeoff</a>
+          <div class="card-meta">17 May 2025</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>An adaptive metal fill extraction technique dynamically adjusts the level of detail based on the design context, such as the density of...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-15T16:14:47.847Z | tags: semiconductors, interconnects, chip-design, hbm -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/LPHP-May-2025-Bryon-UCle.png?fit=1458%2C1312&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/die-to-die-interconnect-standards-in-flux/">Die-to-die Interconnect Standards In Flux</a>
+          <div class="card-meta">15 May 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many features of UCIe 2.0 seen as “heavy” are optional, causing confusion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-31T20:09:58.987Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uLu_ers44BB7LDfTyOP1Bssj491qpngd0aBSUccN1ckEFHeOgyLMktRcmFc_0BmkB76mULyeA4NZJPvpna9bS1F2ZTllFIqGeZ3jzEzjs46DaOYwhShaSX2vl3C2qIWC6UiMllM-ex1teCWniXlQM=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1">Notes on the Pentium&#39;s microcode circuitry</a>
+          <div class="card-meta">31 Mar 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most people think of machine instructions as the fundamental steps that a computer performs. However, many processors have another layer of ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-27T12:51:37.646Z | tags: semiconductors, chip-design, execution, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Screenshot-2025-03-26-at-8.06.55%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/first-time-silicon-success-plummets/">First-Time Silicon Success Plummets</a>
+          <div class="card-meta">27 Mar 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Number of designs that are late increases. Rapidly rising complexity is the leading cause, but tools, training, and workflows need to improve.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-15T00:18:39.707Z | tags: semiconductors, cpus, gpus, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchipsandcheese.substack.com%2Fapi%2Fv1%2Fpost_preview%2F154782290%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/p/amds-strix-halo-under-the-hood">AMD&#39;s Strix Halo - Under the Hood</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello you fine Internet folks,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-16T00:53:35.381Z | tags: semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://cerebras.ai/wp-content/uploads/2025/01/100x-GPUs-per-wafer-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cerebras.ai/blog/100x-defect-tolerance-how-cerebras-solved-the-yield-problem">100x Defect Tolerance: How Cerebras Solved the Yield Problem - Cerebras</a>
+          <div class="card-meta">16 Jan 2025</div>
+          <div class="card-meta card-domain">cerebras.ai</div>
+        </div>
+        <div class="card-section">
+          <p>[vc_row][vc_column column_width_percent=”90″ gutter_size=”3″ overlay_alpha=”50″ shift_x=”0″ shift_y=”0″ shift_y_down=”0″ z_index=”0″ medium_width=”0″ mobile_width=”0″ width=”1/1″ uncode_shortcode_id=”158708″][vc_column_text uncode_shortcode_id=”154284″] Conventional wisdom in semiconductor manufacturing has long […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-08T18:59:07.101Z | tags: cpus, chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/66468/content/small_hero-amd-ryzen-9-9950x3d-dual.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/amd-no-dual-vcache-cpus">AMD Reveals Real Reason It Won&#39;t Put 3D V-Cache On Multiple CCDs</a>
+          <div class="card-meta">8 Jan 2025</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>After persistent rumors refused to recede, AMD steps in with a clear explanation why dual-CCD V-Cache doesn&#39;t exist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-29T01:38:57.441Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-fdiv/fdiv-bug-here-w500.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html?m=1">Intel&#39;s $475 million error: the silicon behind the Pentium division bug</a>
+          <div class="card-meta">29 Dec 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 1993, Intel released the high-performance Pentium processor, the start of the long-running Pentium line. The Pentium had many improvement...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-21T00:43:25.274Z | tags: llms, semiconductors, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/12/Screenshot-2024-12-20-at-4.36.50%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/12/20/slim-llama-an-energy-efficient-llm-asic-processor-supporting-3-billion-parameters-at-just-4-69mw/">Slim-Llama: An Energy-Efficient LLM ASIC Processor Supporting 3-Billion Parameters at Just 4.69mW</a>
+          <div class="card-meta">21 Dec 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Large Language Models (LLMs) have become a cornerstone of artificial intelligence, driving advancements in natural language processing and decision-making tasks. However, their extensive power demands, resulting from high computational overhead and frequent external memory access, significantly hinder their scalability and deployment, especially in energy-constrained environments such as edge devices. This escalates the cost of operation while also limiting accessibility to these LLMs, which therefore calls for energy-efficient approaches designed to handle billion-parameter models. Current approaches to reduce the computational and memory needs of LLMs are based either on general-purpose processors or on GPUs, with a combination of weight quantization and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-01T02:09:23.356Z | tags: cpus, semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc6a6496-65ff-48b9-857c-a465f897ca92_958x716.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/chipsandcheese/p/amd-disables-zen-4s-loop-buffer?r=oc5d&amp;utm_medium=ios">AMD Disables Zen 4&#39;s Loop Buffer</a>
+          <div class="card-meta">1 Dec 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A loop buffer sits at a CPU&#39;s frontend, where it holds a small number of previously fetched instructions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-25T23:48:22.560Z | tags: semiconductors, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://asap.asu.edu/wp-content/uploads/sites/47/2021/11/arm-asu-website-bg3-scaled-1-1536x614.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://asap.asu.edu/">Predictive PDK (ASAP) – ASU Engineering</a>
+          <div class="card-meta">25 Nov 2024</div>
+          <div class="card-meta card-domain">asap.asu.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-24T00:00:20.996Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-antenna/diodes-w450.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/11/antenna-diodes-in-pentium-processor.html?m=1">Antenna diodes in the Pentium processor</a>
+          <div class="card-meta">24 Nov 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I was studying the silicon die of the Pentium processor and noticed some puzzling structures where signal lines were connected to the silico...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-31T15:52:11.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4dadf0f-e811-452a-a3ef-35d8dbb1212e_318x225.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/viksnewsletter/p/understanding-two-port-amplifier?r=oc5d">Understanding Two Port Amplifier Power Gains</a>
+          <div class="card-meta">31 Jul 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Transducer, Unilateral, Available and Power Gain; what they mean and how to calculate them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-30T18:56:30.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5b24c86-6a29-4d8e-91fd-83dc223c6258_1456x1048.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/viksnewsletter/p/pa-classes-foundations?r=oc5d">ABCs of Power Amplifier Classes: Foundations</a>
+          <div class="card-meta">30 Jul 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Basic concepts required to understand classes of operation in power amplifiers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-27T14:37:15.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e6e8cab-5e3a-4080-a769-16f98d65184b_787x378.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks">Zen 5’s 2-Ahead Branch Predictor Unit: How a 30 Year Old Idea Allows for Ne</a>
+          <div class="card-meta">27 Jul 2024</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>When I recently interviewed Mike Clark, he told me, “…you’ll see the actual foundational lift play out in the future on Zen 6, even though it was really Zen 5 that set the table for that.” And at that same Zen 5 architecture event, AMD’s Chief Technology Officer Mark Papermaster said, “Zen 5 is a ground-up redesign of the Zen architecture,” which has brought numerous and impactful changes to the design of the core.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-10T20:06:13.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-stdcell/die-regions2-w600.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/07/pentium-standard-cells.html?m=1">Standard cells: Looking at individual gates in the Pentium processor</a>
+          <div class="card-meta">10 Jul 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel released the powerful Pentium processor in 1993, a chip  to &quot;separate the really power-hungry folks from ordinary mortals.&quot; The origin...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-20T02:10:15.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_78507548-feb-13-2023-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/competitive-open-source-eda-tools">Competitive Open-Source EDA Tools</a>
+          <div class="card-meta">20 May 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A technical paper titled “Basilisk: Achieving Competitive Performance with Open EDA Tools on an Open-Source Linux-Capable RISC-V SoC” was published by researchers at ETH Zurich and University of Bologna. Abstract: “We introduce Basilisk, an optimized application-specific integrated circuit (ASIC) implementation and design flow building on the end-to-end open-source Iguana system-on-chip (SoC). We present enhancements to... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-07T21:45:44.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://ieeexplore.ieee.org/assets/img/ieee_logo_smedia_200X200.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ieeexplore.ieee.org/document/10192908">A Comprehensive RF Characterization and Modeling Methodology for the 5nm Te</a>
+          <div class="card-meta">7 Oct 2023</div>
+          <div class="card-meta card-domain">ieeexplore.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>This paper aims to provide insights into the thermal, analog, and RF attributes, as well as a novel modeling methodology, for the FinFET at the industry standard 5nm CMOS technology node. Thermal characterization shows that for a 165K change in temperature, the Sub-threshold Slope (SS) and threshold voltage vary by 69 % and ~70 mV, respectively. At room temperature, a single gate contacted n-FinFET RF device exhibits a cutoff and maximum oscillation frequency of ~100 GHz and ~170 GHz, respectively. Analog and RF Figures of Merit (FoMs) for 5 nm technology at a device level and their temperature sensitivity are also reported. The industry standard BSIM-CMG model is modified to capture the impact of self-heating (SH) and parasitics. The SH model is based on measured data, and the modeling approach renders it independent of other model parameters. To the authors’ knowledge, an iteration free approach to develop a model-card for RF applications is explained for the very first time. Excellent agreement between the measured data and the model indicates that our methodology is accurate and can be used for faster PDK development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-02T14:54:39.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2023/05/Depositphotos_371451720_L-chip-ss.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/the-ultimate-signoff-tapeout-checklist">The Ultimate Signoff (TapeOut) Checklist</a>
+          <div class="card-meta">2 Oct 2023</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>In semiconductor design, “sign-off” during the tape-out (tapeout) of a chip refers to the formal approval process to ensure that the chip design is error-free, meets all specifications, and is ready for manufacturing at the foundry. It is essential because it minimizes the risk of costly errors, ensures compliance with foundry requirements, and validates that</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-27T21:53:37.000Z | tags: books, chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ifte.de/books/eda/index.html">VLSI Physical Design</a>
+          <div class="card-meta">27 Sep 2023</div>
+          <div class="card-meta card-domain">ifte.de</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-19T13:36:19.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://skywater-pdk.readthedocs.io/en/main/rules/assumptions.html">Criteria &amp; Assumptions — SkyWater SKY130 PDK 0.0.0-356-g49d3c73 documentati</a>
+          <div class="card-meta">19 Aug 2023</div>
+          <div class="card-meta card-domain">skywater-pdk.readthedocs.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-08T19:31:10.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44e4e3df-897f-45a3-955a-f7434ec401d3_936x368.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/the-future-of-the-transistor">The Future of the Transistor</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Planar to FinFET to Nanosheet to Complementary FET to 2D</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-06T13:01:38.000Z | tags: chip-design, reinforcement-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/six-squares-contain-variously-sized-rectangles-of-four-colors-with-differently-colored-blobs-filling-in-gaps-between-the-rectang.png?id=33530592&amp;width=1200&amp;height=600&amp;coordinates=0%2C150%2C0%2C150" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/chip-design-controversy">Ending an Ugly Chapter in Chip Design</a>
+          <div class="card-meta">6 Apr 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Study tries to settle a bitter disagreement over Google’s chip design AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:56:17.000Z | tags: chip-design, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Fig01_Cadence-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/true-3d-is-much-tougher-than-2-5d">True 3D Is Much Tougher Than 2.5D</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>While terms often are used interchangeably, they are very different technologies with different challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:55:59.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://static-content.springer.com/cover/book/978-981-19-0083-9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.springer.com/chapter/10.1007/978-981-19-0083-9_13">RDL and Flip Chip Design</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">link.springer.com</div>
+        </div>
+        <div class="card-section">
+          <p>RDL, an abbreviation for Redistribution Layer, that is, to make one or more layers of metal on the active chip side to redistribute the pins of the chip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:08:43.000Z | tags: chip-design, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/06/Intel-Ponte-Vecchio-1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/04/04/the-most-complex-chip-ever-made">The Most Complex Chip Ever Made?</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Historically Intel put all its cumulative chip knowledge to work advancing Moore&#39;s Law and applying those learnings to its future CPUs. Today, some of</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:08:31.000Z | tags: chip-design, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/news-resources16-emib-tech.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/news-and-resources/video-intel-emib-technology-explained.html">Video: Intel EMIB Technology Explained</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">intel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel&#39;s multi-die interconnect bridge (EMIB) is an approach to in-package high-density interconnect of heterogeneous chips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:08:29.000Z | tags: chip-design, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-10/chipsact-social-dotcom-1920x1080-r5.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/news-and-resources/video-intel-foveros-technology-explained.html">US Semiconductor Manufacturing | CHIPS and Science Act | Intel®</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">intel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Powered by the promises of the CHIPS Act, Intel is investing more than $100 billion to increase domestic chip manufacturing capacity and capabilities.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T01:19:45.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://tinytapeout.com/images/tinytapeout6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tinytapeout.com">Tiny Tapeout - Tiny Tapeout</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">tinytapeout.com</div>
+        </div>
+        <div class="card-section">
+          <p>From idea to chip design in minutes! TT09 Closes in TT09 Closes in 44 DAYS 44 HOURS 44 MINS 44 SECS Tiles   PCBs   Tiny Tapeout is an educational project that makes it easier and cheaper than ever to get your designs manufactured on a real chip! Read the paper here. See what other people are making by taking a look at what was submitted on our previous shuttles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-05T13:49:32.000Z | tags: chip-design, circuits-electronics, deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_309524207-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/asynchronously-parallel-optimization-method-for-sizing-analog-transistors-using-deep-neural-network-learning">Asynchronously Parallel Optimization Method For Sizing Analog Transistors U</a>
+          <div class="card-meta">5 Mar 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning” was published by researchers at UT Austin and Analog Devices. Abstract “Analog circuit sizing is a high-cost process in terms of the manual effort invested and the computation time spent. With rapidly developing technology and high market demand, bringing... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T15:57:11.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/0408qZsDPojhFjEOfcWBIgU/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/extreme/342959-an-ai-engineer-has-now-designed-100-chips">An AI &#39;Engineer&#39; Has Now Designed 100 Chips - ExtremeTech</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI firm Synopsys has announced that its DSO.ai tool has successfully aided in the design of 100 chips, and it expects that upward trend to continue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-17T12:18:59.000Z | tags: books, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/581326365/298ef77c-97fc-46bc-a31d-fb42ea684e24" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bmurmann/Book-on-MOS-stages">bmurmann/Book-on-MOS-stages: Book repository &quot;Analysis and Design of Elementary MOS Amplifier Stages&quot;</a>
+          <div class="card-meta">17 Jan 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Book repository &quot;Analysis and Design of Elementary MOS Amplifier Stages&quot; - bmurmann/Book-on-MOS-stages</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T18:44:23.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/images/site/og_default.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://forum.allaboutcircuits.com/ubs/my-articles-on-aac-page-i.1135">My Articles on AAC (Page I)</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">forum.allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>The following is a list of my articles on various topics. Besides technical articles, news pieces that might have useful technical information are also included. You can find my articles on FPGA...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T18:43:48.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/rf_design_basics_thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/basic-concepts-in-rf-design-introduction-to-transmission-lines">RF Design Basics—Introduction to Transmission Lines</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about voltage waves and how they relate to an important basic concept of radio frequency (RF) circuit design: transmission lines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-02T22:30:14.000Z | tags: chip-design, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/six-short-black-pillars-with-a-tall-pillar-at-center-bridge-two-light-grey-areas.jpg?id=32417203&amp;width=1200&amp;height=600&amp;coordinates=0%2C72%2C0%2C72" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/interconnect-back-side-power">Big Trouble in Little Interconnects</a>
+          <div class="card-meta">2 Jan 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Interconnects—those sometimes nanometers-wide metal wires that link transistors into circuits on an IC—are in need of a major overhaul. And as chip fabs march toward the outer reaches of Moore’s Law, interconnects are also becoming the industry’s choke point.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-31T01:07:17.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/581326365/298ef77c-97fc-46bc-a31d-fb42ea684e24" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bmurmann/Book-on-MOS-stages/blob/3573b49921660eefe0ceb7a369119c6d6ef505a8/book/Analysis%20and%20Design%20of%20Elementary%20MOS%20Amplifier%20Stages.pdf">Book-on-MOS-stages/Analysis and Design of Elementary MOS Amplifier Stages.p</a>
+          <div class="card-meta">31 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Book repository &quot;Analysis and Design of Elementary MOS Amplifier Stages&quot; - bmurmann/Book-on-MOS-stages</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T19:58:19.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2022/09/clock-tree-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/clock-tree-synthesis">Ultimate Guide: Clock Tree Synthesis</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>A vast majority of modern digital integrated circuits are synchronous designs. They rely on storage elements called registers or flip-flops, all of which change their stored data in a lockstep manner with respect to a control signal called the clock. In many ways, the clock signal is like blood flowing through the veins of a</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T01:16:42.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://easyperf.net/blog/2022/09/01/Utilizing-Huge-Pages-For-Code">Performance Benefits of Using Huge Pages for Code. | Easyperf</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">easyperf.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-03T01:14:46.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mailchi.mp/574276e3c9d7/tinytapeout">Page Not Available | Mailchimp</a>
+          <div class="card-meta">3 Sep 2022</div>
+          <div class="card-meta card-domain">mailchi.mp</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T14:07:33.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Siemens_high-perf-5G-needs-high-perf-PEX-fig2-orig-layout-schematic.png?fit=833%2C324&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/high-performance-5g-ic-designs-need-high-performance-parasitic-extraction">High-Performance 5G IC Designs Need High-Performance Parasitic Extraction</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>The high frequencies and data rates involved in 5G designs makes layout verification all the more important.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:36:17.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Yellow-orange-10-12-20-AdobeStock_350508082-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/designing-and-simulating-low-voltage-cmos-circuits-using-four-parameter-model">Designing and Simulating Low-Voltage CMOS Circuits Using Four-Parameter Mod</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New technical paper titled “Bridging the Gap between Design and Simulation of Low-Voltage CMOS Circuits” from researchers at Federal University of Santa Catarina, Brazil. Abstract “This work proposes a truly compact MOSFET model that contains only four parameters to assist an integrated circuits (IC) designer in a design by hand. The four-parameter model (4PM) is... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:32:35.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2017/05/semi_fb_thumb.jpg?fit=250%2C250&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/thermal-management-challenges-and-requirements-of-3-types-of-microelectronic-devices">Thermal Management Challenges and Requirements of 3 types of Microelectroni</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New technical paper titled “A Review on Transient Thermal Management of Electronic Devices” from researchers at Indian Institute of Technology Bombay. Abstract “Much effort in the area of electronics thermal management has focused on developing cooling solutions that cater to steady-state operation. However, electronic devices are increasingly being used in applications involving time-varying workloads. These... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-02T12:55:30.000Z | tags: arxiv, chip-design, deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/04/25/business/00aiexodus1/merlin_178423734_12da72a6-6b6b-495e-b905-a3c7cba1d7a4-largeHorizontalJumbo.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=a7b83807f6b081a41aec120db60eed38e88b9162eac453381f720c296eb9a02b&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/05/02/technology/google-fires-ai-researchers.html">Another Firing Among Google’s A.I. Brain Trust, and More Discord (Published 2022)</a>
+          <div class="card-meta">2 May 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The researchers are considered a key to the company’s future. But they have had a hard time shaking infighting and controversy over a variety of issues.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-30T15:31:29.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/overlapping-circles-on-a-yellow-background-show-a-computer-generated-surface-textured-in-seemingly-random-patterns-of-copper-ext.jpg?id=29720947&amp;width=1200&amp;height=600&amp;coordinates=0%2C552%2C0%2C553" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/chip-x-ray">The X-Ray Tech That Reveals Chip Designs</a>
+          <div class="card-meta">30 Apr 2022</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>When you’re baking a cake, it’s hard to know when the inside is in the state you want it to be. The same is true—with much higher stakes—for microelectronic chips: How can engineers confirm that what’s inside has truly met the intent of the designers? How can a semiconductor design company tell wh</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T11:24:00.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/5b163c6c1eb77c4e0adb7eb311200e2236565b981c8493847691f6141f787f47/HewlettPackard/cacti" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/HewlettPackard/cacti">HewlettPackard/cacti: An integrated cache and memory access time, cycle time, area, leakage, and dynamic power model</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>An integrated cache and memory access time, cycle time, area, leakage, and dynamic power model - HewlettPackard/cacti</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:18:08.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://spectrum.ieee.org/tech-talk/semiconductors/design/how-to-make-multicore-chips-faster-more-efficient">How to make multicore chips faster more efficient</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-05T02:34:15.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://opencircuitdesign.com/magic">Magic VLSI</a>
+          <div class="card-meta">5 Dec 2021</div>
+          <div class="card-meta card-domain">opencircuitdesign.com</div>
+        </div>
+        <div class="card-section">
+          <p>Magic VLSI:  Resource Page</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:57:24.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theopenroadproject.org">OpenROAD – Home</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">theopenroadproject.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:57:11.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://silvaco.com/wp-content/uploads/2020/03/lib_des_opt_flow1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.nangate.com/?page_id=2328">Library Design - Silvaco</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">nangate.com</div>
+        </div>
+        <div class="card-section">
+          <p>Silvaco provides standard cell library design and optimization services</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:56:18.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2020/05/TSMC-N7-Density-Analysis-SemiWiki-1024x576.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/semiconductor-manufacturers/tsmc/285856-effect-of-design-on-transistor-density">Effect of Design on Transistor Density - Semiwiki</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>I have written a lot of articles looking at leading…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:57:03.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2019/07/clock-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/understanding-soc-clock-design">Understanding SoC Clock Design - AnySilicon</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>SoC clock tree overview, metrics that help qualify a clock tree and most commonly used clock tree distribution methodologies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:55:04.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://en.wikipedia.org/wiki/Category:EDA_file_formats">Category:EDA file formats</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">en.wikipedia.org</div>
+        </div>
+        <div class="card-section">
+          <p>File formats used by EDA tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-17T13:44:33.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/GAApic.png?fit=974%2C279&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/impact-of-gaa-transistors-at-3-2nm">Impact Of GAA Transistors At 3/2nm</a>
+          <div class="card-meta">17 Aug 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some things will get better from a design perspective, while others will be worse.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-23T13:17:01.000Z | tags: chip-design, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Ryzen.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/bumps-vs-hybrid-bonding-for-advanced-packaging">Bumps Vs. Hybrid Bonding For Advanced Packaging</a>
+          <div class="card-meta">23 Jun 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New interconnects offer speed improvements, but tradeoffs include higher cost, complexity, and new manufacturing challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-03T18:43:14.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2021/02/clock-gating-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/the-ultimate-guide-to-clock-gating">The Ultimate Guide to Clock Gating</a>
+          <div class="card-meta">3 Feb 2021</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Clock Gating is defined as: “Clock gating is a technique/methodology to turn off the clock to certain parts of the digital design when not needed”.   The Need for Clock Gating   With most of the SoCs heavily constrained by power budgets, it is of utmost importance to reduce power consumption as much as possible</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-02T16:16:26.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/MOS_transistor_leakage_current_featured1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/6-causes-of-mos-transistor-leakage-current">6 Causes of MOS Transistor Leakage Current</a>
+          <div class="card-meta">2 Feb 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Leakage current can contribute to power dissipation, especially at lower threshold voltages. Learn about six types of leakage current that can be found in MOS transistors.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-25T14:05:01.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/SiGe-Channels_IBM-paper.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/new-transistor-structures-at-3nm-2nm">New Transistor Structures At 3nm/2nm</a>
+          <div class="card-meta">25 Jan 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Gate-all-around FETs will replace finFETs, but the transition will be costly and difficult.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-15T17:24:37.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2013/08/die-per-wafer-calculator.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/die-per-wafer-formula-free-calculators">Die Per Wafer (free) Calculator</a>
+          <div class="card-meta">15 Jan 2021</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>How can you calculate the number of dies per wafer? A free online tool, DPW equation and reference to two other DPW calculators. Trusted by Amkor and GF.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-15T17:23:36.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2021/01/static-timing-anaysis-overview-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/the-ultimate-guide-to-static-timing-analysis-sta">The Ultimate Guide to Static Timing Analysis (STA)</a>
+          <div class="card-meta">15 Jan 2021</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Static Timing Analysis? Read here the best overview to STA, including theory, real examples, ilustrations, tips and tricks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-15T17:23:18.000Z | tags: chip-design, semiconductors, thermal -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/psi_jt_featured.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/learn-about-the-thermal-characterization-parameters">Introduction to Thermal Characterization Parameters</a>
+          <div class="card-meta">15 Jan 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we’ll discuss another group of thermal data, called thermal characterization parameters denoted by the Greek letter Psi (Ψ).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-15T17:23:02.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://isine.com/wp-content/uploads/2023/11/resource-wafer-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.isine.com/resources/die-yield-calculator">Die Yield Calculator | iSine Analog, Digital &amp; Mixed Signal IC Solutions</a>
+          <div class="card-meta">15 Jan 2021</div>
+          <div class="card-meta card-domain">isine.com</div>
+        </div>
+        <div class="card-section">
+          <p>DIE YIELD CALCULATOR Use this online calculator to figure out die yield using Murphy’s model. You’ll need to know the die size, wafer diameter, and defect density. iSine is your complete resource for ASIC design – from concept to manufacturing and testing. We have expertise in system architecture, VHDL, Verilog, gate arrays, mixed signal, full...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:37.000Z | tags: chip-design, semiconductors, thermal -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Case_Thermal_Resistance_measuring_R-thetaJC_featured1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/junction-to-case-thermal-resistance-in-thermal-design">Junction-to-Case Thermal Resistance in Thermal Design</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about an important thermal metric for designing the interface between an IC package and a heat sink.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:30.000Z | tags: chip-design, semiconductors, thermal -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Case_Thermal_Resistance_featured1_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/designing-with-a-heat-sink-for-junction-to-case-thermal-resistance">Designing with a Heat Sink for Junction-to-Case Thermal Resistance</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Watch the thermal measurement, junction-to-case thermal resistance, in action as we use it to calculate the thermal considerations for a given system.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-29T15:54:15.000Z | tags: chip-design, packaging, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.electronicproducts.com/wp-content/uploads/Samsung-Through-silicon-via.jpg?fit=706%2C686" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.electronicproducts.com/10-basic-advanced-ic-packaging-terms-to-know">10 basic advanced IC packaging terms to know</a>
+          <div class="card-meta">29 Dec 2020</div>
+          <div class="card-meta card-domain">electronicproducts.com</div>
+        </div>
+        <div class="card-section">
+          <p>Engineers must keep pace with advanced IC packaging technology as it evolves rapidly, starting with understanding the basic terms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-27T18:09:36.000Z | tags: chip-design, semiconductors, thermal -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Ambient_Thermal_Resistance_of_an_IC_Package_featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/junction-to-ambient-thermal-resistance-ic-package-thermal-performance">How Junction-to-Ambient Thermal Resistance of an IC Package Affects Thermal</a>
+          <div class="card-meta">27 Dec 2020</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Assessing the thermal performance of an IC package becomes easier if you understand this common, but often misapplied, parameter known as theta JA.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:21:44.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Linear_delay_model_featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/transistor-sizing-vlsi-design-linear-delay-model">Transistor Sizing in VLSI Design Using the Linear Delay Model - Technical A</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we will learn how to find the optimal size of a transistor/logic gate present in a larger circuit to provide the desired performance using the linear delay model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-19T14:29:54.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.lamresearch.com/finfets-give-way-to-gate-all-around">FinFETs Give Way to Gate-All-Around | Lam Research</a>
+          <div class="card-meta">19 Nov 2020</div>
+          <div class="card-meta card-domain">blog.lamresearch.com</div>
+        </div>
+        <div class="card-section">
+          <p>When they were first commercialized at the 22 nm node, finFETs represented a revolutionary change to the way we build transistors, the tiny switches in the “brains” of a chip. As compared to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-12T11:44:33.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Elmore_delay_featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/elmore-delay-model-transistor-sizing-vlsi-design">The Elmore Delay Model in VLSI Design</a>
+          <div class="card-meta">12 Nov 2020</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we&#39;ll discuss the Elmore delay model, which provides a simplistic delay analysis that avoids time-consuming numerical integration/differential equations of an RC network.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:05:52.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2020/08/eInfochips-clock-flow.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/semiconductor-services/290148-techniques-to-reduce-timing-violations-using-clock-tree-optimizations-in-synopsys-icc2">Techniques to Reduce Timing Violations using Clock Tree Optimizations in Synopsys IC Compiler II - Semiwiki</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>The semiconductor industry growth is increasing exponentially with high speed…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:05:50.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2020/08/64Mb-SRAM-example-min.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/eda/synopsys/290067-making-full-memory-ip-robust-during-design">Making Full Memory IP Robust During Design - Semiwiki</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking at a typical SoC design today it&#39;s likely to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:07:18.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/Synopsys_multi-cycle-and-false-paths-verif-fig1.png?fit=807%2C290&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/verification-of-multi-cycle-paths-and-false-paths">Verification Of Multi-Cycle Paths And False Paths</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Single-clock design is not always as easy as it seems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-31T17:13:34.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://qtxasset.com/quartz/qcloud4/media/image/fierceelectronics/1581545036/Screen%20Shot%202020-02-12%20at%205.00.32%20PM.png/Screen%20Shot%202020-02-12%20at%205.00.32%20PM.png?VersionId=TNO67VXT0zMW2mPGuwrl7MnmG4taRtHq" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fierceelectronics.com/electronics/making-spice-available-for-everyone">Making SPICE available for everyone</a>
+          <div class="card-meta">31 Mar 2020</div>
+          <div class="card-meta card-domain">fierceelectronics.com</div>
+        </div>
+        <div class="card-section">
+          <p>SPICE (Simulation Program with Integrated Circuit Emphasis) is an open-source analog electronic circuit simulator. | SPICE is undoubtedly one of the most popular modeling libraries available, and Japanese e-commerce company MoDeCH is seeking to make the power of SPICE available to everyone.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:36:30.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://cmosedu.com/cmos1/book.htm">CMOS Circuit Design, Layout, and Simulation</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">cmosedu.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-22T11:01:48.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/12/Fig1_Fieldsolver-PEX.jpg?fit=1307%2C748&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/five-rules-for-correlating-rule-based-and-field-solver-parasitic-extraction-results">Five Rules For Correlating Rule-based And Field Solver Parasitic Extraction</a>
+          <div class="card-meta">22 Dec 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Accurately determine parasitic effects with the proper set up of two different methods.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-15T12:12:42.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2018/09/cubes-677092_640.png?fit=640%2C360&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/process-corner-explosion">Process Corner Explosion</a>
+          <div class="card-meta">15 Sep 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Process Corner Explosion, At 7nm and below, modeling what will actually show up in silicon is a lot more complicated.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-06T16:36:13.000Z | tags: chip-design, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.gpleda.org">gplEDA Homepage</a>
+          <div class="card-meta">6 May 2018</div>
+          <div class="card-meta card-domain">gpleda.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-10-18T16:44:29.000Z | tags: chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/139fVEst3T-t86RkNqpu95dpR8HpopqcGlcCrHQzcgLPlokDaVpiEThrKuRCeNmudkcqAg=w16383" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.paripath.com/blog/characterization-blog/comparing-nldm-and-ccs-delay-models">Comparing NLDM And CCS delay models - Paripath - improving sign-off</a>
+          <div class="card-meta">18 Oct 2017</div>
+          <div class="card-meta card-domain">paripath.com</div>
+        </div>
+        <div class="card-section">
+          <p>Post date: Sep 19, 2014 10:01:08 PM</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2002-10-24T00:00:00.000Z | tags: semiconductors, foundries, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F616af44f-7281-492e-9bf8-0cdd7e1e3fcf_2912x1632.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/semianalysis/p/clash-of-the-foundries?r=oc5d">Clash of the Foundries: Gate All Around + Backside Power at 2nm</a>
+          <div class="card-meta">24 Oct 2002</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fab Cost, WFE Implications, Backside Power Details</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

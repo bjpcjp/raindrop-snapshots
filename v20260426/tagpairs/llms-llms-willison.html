@@ -1,0 +1,412 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>llms + llms-willison &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-23T11:50:31.068Z | tags: llms, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2026/Mar/17/llm/">Release: llm 0.29</a>
+          <div class="card-meta">23 Mar 2026</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Access large language models from the command-line</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-01T02:03:46.333Z | tags: llms, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/metr-long-task-2025.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Dec/31/the-year-in-llms/">2025: The year in LLMs</a>
+          <div class="card-meta">1 Jan 2026</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>This is the third in my annual series reviewing everything that happened in the LLM space over the past 12 months. For previous years see Stuff we figured out about …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-24T10:56:28.757Z | tags: llms, llms-gpt, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/gpt-5-codex-api-pelican.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Sep/23/gpt-5-codex/#atom-everything">GPT-5-Codex</a>
+          <div class="card-meta">24 Sep 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>OpenAI half-relased this model earlier this month, adding it to their Codex CLI tool but not their API. Today they&#39;ve fixed that - the new model can now be accessed …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-07T21:31:03.448Z | tags: llms, command-line, llms-willison -->
+      <div class="card-image">
+        <img src="https://simonwillison.net/card/2025/Jul/7/become-a-command-line-superhero-with-simon-willisons-llm-tool/" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jul/7/become-a-command-line-superhero-with-simon-willisons-llm-tool/#atom-everything">Become a command-line superhero with Simon Willison’s llm tool</a>
+          <div class="card-meta">7 Jul 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Christopher Smith ran a mini hackathon in Albany New York at the weekend around uses of my LLM - the first in-person event I&#39;m aware of dedicated to that project! …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-04T00:02:39.452Z | tags: llms, command-line, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/building-apps-on-llms/llm-tutorial-intro.001.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/15/building-on-llms/">Building software on top of Large Language Models</a>
+          <div class="card-meta">4 Jul 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>I presented a three hour workshop at PyCon US yesterday titled Building software on top of Large Language Models. The goal of the workshop was to give participants everything they …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-25T22:26:35.802Z | tags: gemini, llms, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/gemini-cli-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jun/25/gemini-cli/#atom-everything">Gemini CLI</a>
+          <div class="card-meta">25 Jun 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>First there was Claude Code in February, then OpenAI Codex (CLI) in April, and now Gemini CLI in June. All three of the largest AI labs now have their own …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-27T21:13:08.386Z | tags: llms, command-line, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/27/llm-tools/#atom-everything">Large Language Models can run tools in your terminal with LLM 0.26</a>
+          <div class="card-meta">27 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>LLM 0.26 is out with the biggest new feature since I started the project: support for tools. You can now use the LLM CLI tool—and Python library—to grant LLMs from …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-27T13:43:56.426Z | tags: llms, prompt-engineering, llms-claude, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/opus-sonnet-diff.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/25/claude-4-system-prompt/">Highlights from the Claude 4 system prompt</a>
+          <div class="card-meta">27 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic publish most of the system prompts for their chat models as part of their release notes. They recently shared the new prompts for both Claude Opus 4 and Claude …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-25T18:27:13.843Z | tags: llms, llms-claude, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/claude-social-bliss.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/25/claude-4-system-card/">System Card: Claude Opus 4 &amp; Claude Sonnet 4</a>
+          <div class="card-meta">25 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Direct link to a PDF on Anthropic&#39;s CDN because they don&#39;t appear to have a landing page anywhere for this document. Anthropic&#39;s system cards are always worth a look, and …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-22T20:08:34.382Z | tags: llms, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/22/llm-anthropic-016/#atom-everything">llm-anthropic 0.16</a>
+          <div class="card-meta">22 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New release of my LLM plugin for Anthropic adding the new Claude 4 Opus and Sonnet models. You can see pelicans on bicycles generated using the new plugin at the …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-04T23:55:09.372Z | tags: llms, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/4/llm-sampling/#atom-everything">Dummy’s Guide to Modern LLM Sampling</a>
+          <div class="card-meta">4 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>This is an extremely useful, detailed set of explanations by [@AlpinDale](https://x.com/AlpinDale) covering the various different sampling strategies used by modern LLMs. LLMs return a set of next-token probabilities for every …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-10T10:55:34.906Z | tags: llms, prompt-engineering, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything">An LLM Query Understanding Service</a>
+          <div class="card-meta">10 Apr 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Doug Turnbull recently wrote about how [all search is structured now](https://softwaredoug.com/blog/2025/04/02/all-search-structured-now):  Many times, even a small open source LLM will be able to turn a search query into reasonable …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-28T01:02:54.009Z | tags: llms, llms-claude, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/27/tracing-the-thoughts-of-a-large-language-model/#atom-everything">Tracing the thoughts of a large language model</a>
+          <div class="card-meta">28 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>In a follow-up to the research that brought us the [delightful Golden Gate Claude](https://simonwillison.net/2024/May/24/golden-gate-claude/) last year, Anthropic have published two new papers about LLM interpretability: - [Circuit Tracing: Revealing Computational …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-26T20:27:15.494Z | tags: llms, prompt-engineering, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/26/function-calling-with-gemma/">Function calling with Gemma</a>
+          <div class="card-meta">26 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s Gemma 3 model (the 27B variant is particularly capable, I&#39;ve been trying it out [via Ollama](https://ollama.com/library/gemma3)) supports function calling exclusively through prompt engineering. The official documentation describes two recommended …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-26T13:12:49.272Z | tags: gemini, llms, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/gemini-pelicans-bbox.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/25/gemini/">Putting Gemini 2.5 Pro through its paces</a>
+          <div class="card-meta">26 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>There’s a new release from Google Gemini this morning: the first in the Gemini 2.5 series. Google call it “a thinking model, designed to tackle increasingly complex problems”. It’s already …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-17T21:56:31.903Z | tags: llms, mistral, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/17/mistral-small-31/#atom-everything">Mistral Small 3.1</a>
+          <div class="card-meta">17 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Mistral Small 3 [came out in January](https://simonwillison.net/2025/Jan/30/mistral-small-3/) and was a notable, genuinely excellent local model that used an Apache 2.0 license. Mistral Small 3.1 offers a significant improvement: it&#39;s multi-modal …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-07T02:10:10.294Z | tags: ocr, llms, mistral, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/mixtral-as-html.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/7/mistral-ocr/#atom-everything">Mistral OCR</a>
+          <div class="card-meta">7 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New closed-source specialist OCR model by Mistral - you can feed it images or a PDF and it produces Markdown with optional embedded images. It&#39;s available [via their API](https://docs.mistral.ai/api/#tag/ocr), or …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-04T11:34:12.492Z | tags: llms, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/4/llm-ollama-090/">llm-ollama 0.9.0</a>
+          <div class="card-meta">4 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>This release of the `llm-ollama` plugin adds support for [schemas](https://simonwillison.net/2025/Feb/28/llm-schemas/), thanks to a [PR by Adam Compton](https://github.com/taketwo/llm-ollama/pull/36). Ollama provides very robust support for this pattern thanks to their [structured outputs](https://ollama.com/blog/structured-outputs) …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-07T12:21:09.207Z | tags: llms, pip, python, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/smol-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Feb/7/pip-install-llm-smollm2/">Using pip to install a Large Language Model that’s under 100MB</a>
+          <div class="card-meta">7 Feb 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>I just released llm-smollm2, a new plugin for LLM that bundles a quantized copy of the SmolLM2-135M-Instruct LLM inside of the Python package. This means you can now pip install …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-31T22:38:31.484Z | tags: llms, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jan/31/o3-mini/#atom-everything">OpenAI o3-mini, now available in LLM</a>
+          <div class="card-meta">31 Jan 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>o3-mini is out today. As with other o-series models it’s a slightly difficult one to evaluate—we now need to decide if a prompt is best run using GPT-4o, o1, o3-mini …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-23T11:57:42.065Z | tags: llms, linux, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jan/23/llm-020/#atom-everything">LLM 0.20</a>
+          <div class="card-meta">23 Jan 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New release of my [LLM](https://llm.datasette.io/) CLI tool and Python library. A bunch of accumulated fixes and features since the start of December, most notably: - Support for OpenAI&#39;s [o1 model](https://platform.openai.com/docs/models#o1) …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-20T16:47:25.624Z | tags: llms, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/r1-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jan/20/deepseek-r1/#atom-everything">DeepSeek-R1 and exploring DeepSeek-R1-Distill-Llama-8B</a>
+          <div class="card-meta">20 Jan 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>DeepSeek are the Chinese AI lab who dropped the best currently available open weights LLM on Christmas day, DeepSeek v3. That model was trained in part using their unreleased R1 …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-18T18:16:59.269Z | tags: llms, malware, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jan/18/lessons-from-red-teaming/">Lessons From Red Teaming 100 Generative AI Products</a>
+          <div class="card-meta">18 Jan 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New paper from Microsoft describing their top eight lessons learned red teaming (deliberately seeking security vulnerabilities in) 100 different generative AI models and products over the past few years.  …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-31T22:36:07.349Z | tags: llms, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2024/arena-dec-2024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2024/Dec/31/llms-in-2024/">Things we learned out about LLMs in 2024</a>
+          <div class="card-meta">31 Dec 2024</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>A lot has happened in the world of Large Language Models over the course of 2024. Here’s a review of things we figured out about the field in the past …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T22:41:46.000Z | tags: llms, video, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2024/gemini-pro-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2024/Feb/21/gemini-pro-video">The killer app of Gemini Pro 1.5 is video</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Last week Google introduced Gemini Pro 1.5, an enormous upgrade to their Gemini series of AI models. Gemini Pro 1.5 has a 1,000,000 token context size. This is huge—previously that …</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

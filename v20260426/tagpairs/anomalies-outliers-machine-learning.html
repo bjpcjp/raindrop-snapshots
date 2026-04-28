@@ -1,0 +1,221 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>anomalies-outliers + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-06-20T23:22:29.000Z | tags: machine-learning, anomalies-outliers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:386/1*KJUu2-8KGSxeIsj63yUvMQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/counts-outlier-detector-interpretable-outlier-detection-ead0d469557a?source=rss----7f60cf5620c9---4">Counts Outlier Detector: Interpretable Outlier Detection</a>
+          <div class="card-meta">20 Jun 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An interpretable outlier detector based on multi-dimensional histograms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-10T14:38:52.000Z | tags: anomalies-outliers, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:660/1*JdnneJ0Ktw73gpAfXZ8_FA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-basics-of-anomaly-detection-65aff59949b7">The Basics of Anomaly Detection</a>
+          <div class="card-meta">10 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Basics of anomaly detection, its use-cases, and an implementation of simple yet powerful algorithm in Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T22:41:31.000Z | tags: machine-learning, python, anomalies-outliers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*-7d6JMFbU1Lp_d1UJaU5LQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-perform-multivariate-outlier-detection-in-python-pyod-for-machine-learning-b0a9c557a21c?source=rss----7f60cf5620c9---4">How to Perform Multivariate Outlier Detection in Python PyOD For Machine Le</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover how to effectively detect multivariate outliers in machine learning with PyOD in Python. Learn to convert anomaly scores to probability confidence, choose the best outlier classifier and determine the right probability threshold for improved model accuracy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-28T19:19:50.000Z | tags: anomalies-outliers, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:957/0*6t0AqDbIAHaHDmec.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-effective-approach-for-image-anomaly-detection-7b1d08a9935b?source=rss----7f60cf5620c9---4">An Effective Approach for Image Anomaly Detection</a>
+          <div class="card-meta">28 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Utilize Anomalib from Intel OpenVinoToolkit to benchmark, develop, and deploy deep learning based image anomaly detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-27T14:13:32.000Z | tags: anomalies-outliers, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*sWqfoNNKtg1gTH5T" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-essential-qualities-of-anomaly-detection-systems-fcd1ec5ee9d5?source=rss----7f60cf5620c9---4">5 Essential Qualities of Anomaly Detection Systems</a>
+          <div class="card-meta">27 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ensuring your business is proactive and risk-proof.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-14T14:21:33.000Z | tags: machine-learning, visualization, anomalies-outliers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VcPO-EiZlPD8zcLzwo8niQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-use-umap-for-much-faster-and-effective-outlier-detection-e4608f336915?source=rss----7f60cf5620c9---4">How to Use UMAP For Much Faster And Effective Outlier Detection</a>
+          <div class="card-meta">14 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s catch those high-dimensional outliers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-28T17:22:20.000Z | tags: anomalies-outliers, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*arqMz7t4q5VWI2IfFlGe8w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/4-machine-learning-techniques-for-outlier-detection-in-python-21e9cfacb81d?source=rss----7f60cf5620c9---4">4 Machine learning techniques for outlier detection in Python</a>
+          <div class="card-meta">28 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning-based outlier detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-26T15:03:00.000Z | tags: anomalies-outliers, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2021/03/updated-using-r-and-h2o-to-identify-product-anomalies-during-the-manufacturing-process">UPDATED: Using R and H2O to identify product anomalies during the manufactu</a>
+          <div class="card-meta">26 Mar 2021</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Note. This is an update to article: Using R and H2O to identify product anomalies during the manufacturing process.It has some updates but also code optimization from Yana Kane-Esrig( https://www.linkedin.com/in/ykaneesrig/ ), as sh...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-21T14:08:24.000Z | tags: machine-learning, anomalies-outliers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Gr-Vnn54SY4tISymtylHtg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/two-outlier-detection-techniques-you-should-know-in-2021-1454bef89331?source=rss----7f60cf5620c9---4">Two outlier detection techniques you should know in 2021</a>
+          <div class="card-meta">21 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Elliptic Envelope and IQR-based detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-08T19:11:37.000Z | tags: machine-learning, anomalies-outliers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2018/12/four-techniques-outlier-detection.html">Four Techniques for Outlier Detection</a>
+          <div class="card-meta">8 Dec 2018</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are many techniques to detect and optionally remove outliers from a dataset. In this blog post, we show an implementation in KNIME Analytics Platform of four of the most frequently used - traditional and novel - techniques for outlier detection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:10:02.000Z | tags: anomalies-outliers, machine-learning -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/kuana2sp/production-main/2563f561f5db0197df16b81c99971c659bc4aa1d-1304x670.jpg?w=1230&amp;fit=max&amp;auto=format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.dominodatalab.com/numenta-anomaly-benchmark?mkt_tok=eyJpIjoiWXprMVlqQmtPVGhqWVRjNCIsInQiOiJicnNHaElkT1R1TG9nUHd2SnpqZUZtR3A4RlwvRGlzdHFmVVZDc0tNYkJHNVRLYkJZajZVRk9NN0ZCWENudXdXOVwvd0RiQ2JQOTczNFJuTU5KUFJvUmF1S3Z6MHVlR1wvZFFTNncrRE0zRWIxdER2SmlnK25PVW1wd2FZWlg5dERvRyJ9">Numenta Anomaly Benchmark: A Benchmark for Streaming Anomaly Detection</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">blog.dominodatalab.com</div>
+        </div>
+        <div class="card-section">
+          <p>Numenta created the open source Numenta Anomaly Benchmark (NAB)  to test and their own anomaly detection algorithms. Learn more about how Numenta and Domino worked together to develop the NAB.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,426 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ecommerce + marketing &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-23T13:47:40.598Z | tags: ecommerce, marketing -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2026/04/Rethink-Your-Product-Pages.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/rethink-your-product-detail-pages">Rethink Your Product Detail Pages - Practical Ecommerce</a>
+          <div class="card-meta">23 Apr 2026</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>In today&#39;s environment, product detail pages must be &quot;AI consumable&quot; to provide answers and model items as structured entities.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-17T00:51:23.703Z | tags: email, marketing, ecommerce -->
+      <div class="card-image">
+        <img src="https://www.sitebuilderreport.com/email-marketing-tools/assets/images/steve-benjamins-avatar.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sitebuilderreport.com/email-marketing-tools/">I tried every email marketing tool — these are the best (2024)</a>
+          <div class="card-meta">17 Nov 2024</div>
+          <div class="card-meta card-domain">sitebuilderreport.com</div>
+        </div>
+        <div class="card-section">
+          <p>After 14 years with MailChimp, I decided to switch. I researched the top 26 email marketing tools to find a replacement and here’s what I discovered.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-23T16:55:57.000Z | tags: affiliates, ecommerce, ideas, marketing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*GYvgfNPNrO12ckkh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@petervoica/how-an-ugly-single-page-website-makes-5-000-a-month-with-affiliate-marketing-c4974a8d1d69">How an Ugly Single-Page Website Makes $5,000 a Month with Affiliate Marketi</a>
+          <div class="card-meta">23 Jan 2024</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>No need to create a fancy and modern website with hundreds of pages to make money online.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-29T12:08:48.000Z | tags: analytics, ecommerce, marketing -->
+      <div class="card-image">
+        <img src="https://posthog.com/og-images/foundersdev-marketing-paid-ads.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://posthog.com/blog/dev-marketing-paid-ads">Burning money on paid ads for a dev tool – what we&#39;ve learned</a>
+          <div class="card-meta">29 Sep 2023</div>
+          <div class="card-meta card-domain">posthog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Since starting PostHog in 2020, we’ve learned a bunch about what does and doesn’t work when it comes to  marketing to engineers . Paid ads is a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-08T16:07:11.000Z | tags: copywriting, ecommerce, marketing -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/05/Descriptive-Product-Labels-Drive-Conversions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/11-product-labels-for-max-conversions">11 Product Labels for Max Conversions</a>
+          <div class="card-meta">8 May 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Paraphrasing technical product details into easy-to-understand labels drives ecommerce conversions. Here&#39;s how, with examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-24T11:49:05.000Z | tags: discovery, ecommerce, marketing, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/04/The-Future-of-Ecommerce-How-a-Product-Becomes-a-Purchase.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2023/03/23/the-future-of-ecommerce">The Future of Ecommerce: How a Product Becomes a Purchase</a>
+          <div class="card-meta">24 Mar 2023</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>General Partner Connie Chan on how leading brands are using AI and other technology to combine the serendipitous discovery of offline shopping with the infinite options of online shopping. Today, most of the Western world revolves around search-based online commerce. This means that most shoppers type directly what they want into a store search bar,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-20T13:28:50.000Z | tags: advertising-commercials, china, ecommerce, marketing -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kawo.com/en/resources/chinas-digital-landscape-b-in-2020">China’s Digital Landscape in 2020 | KAWO 科握</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">kawo.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comprehensive overview of the China social media landscape in 2020 - know how to navigate and help marketing teams achieve success in Chinese social!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-17T18:06:31.000Z | tags: ecommerce, marketing -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/01/15-Press-Release-Distribution-Services.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/press-release-tools">15 Press Release Distribution Services</a>
+          <div class="card-meta">17 Jan 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Spreading the word on product launches, updates, and collaborations is difficult. Press releases can help, especially when distributed to targeted media outlets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-28T13:42:32.000Z | tags: ecommerce, email, marketing -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2022/12/paico-oficial-7jFMs5vzsSQ-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/business-online/ultimate-guide-on-working-with-suppression-lists.html">Ultimate Guide on Working with Suppression Lists</a>
+          <div class="card-meta">28 Dec 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>Email suppression lists are a powerful tool that every email marketer should use. Since suppression lists allow keeping your sending reputation and email</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T18:47:57.000Z | tags: catalogs, ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/07/Jul22_19_118078009.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/07/how-paper-catalogs-remain-relevant-in-a-digital-age">How Paper Catalogs Remain Relevant in a Digital Age</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Whether or not you should pursue a catalog strategy is a question that deserves significant thought. As digital marketing becomes more complex, it may make a lot of sense to send out correctly designed catalogs to the right customers. For e-commerce retailers without physical stores, catalogs can effectively mimic stores’ sensory experiences to enhance customer affinity. For multichannel retailers, by understanding the channel preferences of current customers through transactional data, multichannel retailers can add an effective catalog marketing channel to their store and e-commerce channel strategies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:14:41.000Z | tags: affiliates, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://makeawebsitehub.com/wp-content/uploads/2016/03/How-to-Build-an-Amazon-Affiliate-Website.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://makeawebsitehub.com/build-amazon-affiliate-website">How to Build an Amazon Affiliate Website - 2024 Guide - Make A Website Hub</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">makeawebsitehub.com</div>
+        </div>
+        <div class="card-section">
+          <p>When it comes to making money online you’re going to have a lot of options at your disposal. Frankly, it can be quite overwhelming just choosing an online</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:06:55.000Z | tags: ecommerce, marketing, packaging, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.kissmetrics.com/custom-shipping-supplies">Neil Patel&#39;s Digital Marketing Blog</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.kissmetrics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your #1 resource for digital marketing tips, trends, and strategy to help you build a successful online business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:48:24.000Z | tags: due-diligence, ecommerce, marketing, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/hbr_opengraph_940x490.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2012/03/five-questions-companies-shoul">Five Questions Companies Should Ask Before Making an Innovation-Driven Acquisition</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>The Swiss pharmaceutical giant Roche is nothing if not determined in its quest to acquire Illumina, the San Diego-based leader in genetic-sequencing equipment. In January, after Illumina’s board rebuffed Roche’s initial overtures, Roche made a $5.7 billion tender offer directly to shareholders. When that didn’t succeed, it extended the offer to midnight last Friday. Now […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:07:42.000Z | tags: ecommerce, email, marketing -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0070/7032/articles/transactional_20email.jpg?v=1727453112" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.shopify.com/blog/9834846-4-ecommerce-transaction-emails-you-should-be-optimizing-and-how-to-do-it">What Is a Transactional Email? Types and Best Practices (2024) - Shopify</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">shopify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dive into the world of transactional emails and their importance for ecommerce stores. Learn the types and best practices, with examples, in this guide.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:05:33.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/05/BEST-MARKETING-AUTOMATION-TOOLS-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2022/05/13-marketing-automation-tools-that-can-help-you-boost-your-sales">13 marketing automation tools that can help you boost your sales</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The way we live our lives has an impact on our work. Long lists of typical chores may turn your</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:24.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/May22_13_1055306876.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/05/when-keyword-poaching-pays-off">When Keyword Poaching Pays Off</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Competitive poaching refers to the practice of bidding on ads for a competitor’s search terms, in order to poach customers searching for that brand. It’s a common tactic in the world of digital ads — but is it effective? The author shares results from the first-ever empirical study of this practice, which found that poaching can work well for higher-end brands, but may backfire for lower-end or mass market offerings. Specifically, the study found that when an ad poached customers who searched for a high-end brand, users clicked on it more, but when an ad poached a low-end or mass market target, users were less likely to click. Of course, the author notes that clickthrough rate is just one metric, and there may be other ways in which a poaching campaign could be harmful or beneficial. But these findings can help marketers add a bit of science to the art that is digital advertising, helping them to optimize campaigns for their unique products and customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T20:01:57.000Z | tags: ecommerce, keywords-ppc-seo, marketing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*GqFsZIkFbEGgUHusf7Ac7Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.usejournal.com/how-one-affiliate-used-amazon-s3-to-outrank-everyone-on-google-9744c8e7322f">How One Website Exploited Amazon S3 to Outrank Everyone on Google</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">blog.usejournal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick Intro to the World of SEO, Affiliate Marketing, and Amazon S3</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:52.000Z | tags: affiliates, ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://neilpatel.com/wp-content/uploads/2020/12/affiliate-marketing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://neilpatel.com/blog/affiliate-marketing-networks">The Top Affiliate Marketing Networks</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">neilpatel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking to grow your affiliate marketing site but aren&#39;t sure which affiliate network is right for you? Here&#39;s everything you need to know.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T16:52:03.000Z | tags: ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.coryzue.com/images/black-friday/total-profits-social.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.coryzue.com/writing/black-friday">Lessons from Running a Sale that Earned 3 Month&#39;s Profit in a Week</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">coryzue.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tips on running successful Black Friday sales for creators and Indie Hackers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2020/02/dcm-table-1920x1080-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/introducing-the-periodic-table-of-digital-commerce-marketing-329436">Introducing the Periodic Table of Digital Commerce Marketing</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Packing an astonishing amount of information into an easy-to-digest visual, it&#39;s well worth the download.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: advertising-commercials, ecommerce, marketing, retail -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/oIwGLLgU80ATFLgn2trJ_6F5jLI=/0x80:2000x1122/1200x625/media/img/2020/02/anim/original.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/magazine/archive/2020/03/why-restoration-hardware-sends-catalogs-the-size-of-a-toddler/605524">Why Restoration Hardware Sends Catalogs the Size of a Toddler</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The surprising persistence of the mail-order business</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-08T01:17:14.000Z | tags: ecommerce, marketing, retail -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/QTqHbCdsUBH8ueFJNfvKAR-1200-80.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theweek.com/articles/859739/meet-man-keeping-americas-dead-malls-alive">Meet the man keeping America&#39;s dead malls alive</a>
+          <div class="card-meta">8 Sep 2019</div>
+          <div class="card-meta card-domain">theweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>Is there hope for our once-beloved social and commercial centers?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T22:55:49.000Z | tags: ecommerce, keywords-ppc-seo, marketing -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/07/SEO-Checklist-for-Website-Redesigns-and-Replatforms.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/seo-checklist-for-website-redesigns-and-replatforms">SEO Checklist for Website Redesigns and Replatforms</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Major website redesigns and replatforms can kill organic search traffic. Use this checklist to minimize the impact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-13T22:37:58.000Z | tags: ecommerce, marketing, mobile, prodmgmt -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2017/02/mobilestock.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/media/popsugar-learned-selling-products-text-messages">What PopSugar learned from selling products through text messages</a>
+          <div class="card-meta">13 Aug 2018</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>PopSugar said it expects to have 20,000 subscribers by year&#39;s end to its text message program, which it&#39;s used to sell protein bars and housewares.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

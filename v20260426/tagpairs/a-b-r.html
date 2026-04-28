@@ -1,0 +1,80 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>a-b + _r_ &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-07-11T04:21:35.000Z | tags: a-b, survival-analysis, _r_ -->
+      <div class="card-image">
+        <img src="https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2024/07/better-a-b-testing-with-survival-analysis">Better A/B testing with survival analysis</a>
+          <div class="card-meta">11 Jul 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pic by author - using DALL-E 3 When running experiments don’t forget to bring your survival kit I’ve already made the case in several blog posts (part 1, part 2, part 3) that using survival analysis can improve churn prediction. In this blog post I’ll ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:03:06.000Z | tags: a-b, _r_ -->
+      <div class="card-image">
+        <img src="https://www.inwt-statistics.com/assets/images/e/examplePValue-8416878e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/tips-for-ab-testing-with-r">Tips for A/B Testing with R</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which layout of an advertisement leads to more clicks? Would a different color or position of the purchase button lead to a higher conversion rate? Does a special offer really attract more customers – and which of two phrasings would be better? For a long time, people have trusted their gut feeling to answer these questions. Today all these questions could be answered by conducting an A/B test. For this purpose, visitors of a website are randomly assigned to one of two groups between which the target metric (i.e. click-through rate, conversion rate…) can then be compared. Due to this randomization, the groups do not systematically differ in all other relevant dimensions. This means: If your target metric takes a significantly higher value in one group, you can be quite sure that it is because of your treatment and not because of any other variable. In comparison to other methods, conducting an A/B test does not require extensive statistical knowledge. Nevertheless, some caveats have to be taken into account. When making a statistical decision, there are two possible errors (see also table 1): A Type I error means that we observe a significant result although there is no real difference between our groups. A Type II error means that we do not observe a significant result although there is in fact a difference. The Type I error can be controlled and set to a fixed number in advance, e.g., at 5%, often denoted as α or the significance level. The Type II error in contrast cannot be controlled directly. It decreases with the sample size and the magnitude of the actual effect. When, for example, one of the designs performs way better than the other one, it’s more likely that the difference is actually detected by the test in comparison to a situation where there is only a small difference with respect to the target metric. Therefore, the required sample size can be computed in advance, given α and the minimum effect size you want to be able to detect (statistical power analysis). Knowing the average traffic on the website you can get a rough idea of the time you have to wait for the test to complete. Setting the rule for the end of the test in advance is often called “fixed-horizon testing”. Table 1: Overview over possible errors and correct decisions in statistical tests Effect really exists No Yes Statistical test is significant No True negative Type II error (false negative) Yes Type I error (false positive) True positive Statistical tests generally provide the p-value which reflects the probability of obtaining the observed result (or an even more extreme one) just by chance, given that there is no effect. If the p-value is smaller than α, the result is denoted as “significant”. When running an A/B test you may not always want to wait until the end but take a look from time to time to see how the test performs. What if you suddenly observe that your p-value has already fallen below your significance level – doesn’t that mean that the winner has already been identified and you could stop the test? Although this conclusion is very appealing, it can also be very wrong. The p-value fluctuates strongly during the experiment and even if the p-value at the end of the fixed-horizon is substantially larger than α, it can go below α at some point during the experiment. This is the reason why looking at your p-value several times is a little bit like cheating, because it makes your actual probability of a Type I error substantially larger than the α you chose in advance. This is called “α inflation”. At best you only change the color or position of a button although it does not have any impact. At worst, your company provides a special offer which causes costs but actually no gain. The more often you check your p-value during the data collection, the more likely you are to draw wrong conclusions. In short: As attractive as it may seem, don’t stop your A/B test early just because you are observing a significant result. In fact you can prove that if you increase your time horizon to infinity, you are guaranteed to get a significant p-value at some point in time. The following code simulates some data and plots the course of the p-value during the test. (For the first samples which are still very small R returns a warning that the chi square approximation may be incorrect.) library(timeDate) library(ggplot2) # Choose parameters: pA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

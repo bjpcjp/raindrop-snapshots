@@ -1,0 +1,325 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>books + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-07-28T16:54:25.850Z | tags: github, books, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/9f3e06b5f262ec8d8fec3a8abc85cbb5a5c08e72e4697e6f1fb1196ebbdb13ef/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources?tab=readme-ov-file#natural-language-processing-nlp-and-large-language-models-llm">Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources: Compendium of free ML reading resources</a>
+          <div class="card-meta">28 Jul 2025</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Compendium of free ML reading resources</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-24T23:16:48.794Z | tags: machine-learning, books -->
+      <div class="card-image">
+        <img src="http://themlbook.com/images/og-image3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://themlbook.com/">The Hundred-Page Machine Learning Book by Andriy Burkov</a>
+          <div class="card-meta">24 May 2025</div>
+          <div class="card-meta card-domain">themlbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>All you need to know about Machine Learning in a hundred pages. Supervised and unsupervised learning, support vector machines, neural networks, ensemble methods, gradient descent, cluster analysis and dimensionality reduction, autoencoders and transfer learning, feature engineering and hyperparameter tuning! Math, intuition, illustrations, all in just a hundred pages!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-20T01:13:17.000Z | tags: books, machine-learning -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/mltechniques.com/wp-content/uploads/2022/06/gd.png?fit=600%2C400&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books?fbclid=IwAR1EqjGCauwVRTR7YlSxgKURCZg4Met5FiWNbhgiejRMbchi48PMoFx2LwY">Math for Machine Learning: 14 Must-Read Books</a>
+          <div class="card-meta">20 Oct 2023</div>
+          <div class="card-meta card-domain">mltechniques.com</div>
+        </div>
+        <div class="card-section">
+          <p>It is possible to design and deploy advanced machine learning algorithms that are essentially math-free and stats-free. People working on that are typically professional mathematicians. These algorithms are not necessarily simpler. See for instance a math-free regression technique with prediction intervals, here. Or supervised classification and alternative to t-SNE, here. Interestingly, this latter math-free machine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-21T22:11:25.000Z | tags: books, datasets, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Ne1AhCdOnOCgo5cDe_8aKg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dirty-secrets-of-bookcorpus-a-key-dataset-in-machine-learning-6ee2927e8650">Dirty Secrets of BookCorpus, a Key Dataset in Machine Learning</a>
+          <div class="card-meta">21 Sep 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>BookCorpus has helped train at least thirty influential language models (including Google’s BERT, OpenAI’s GPT, and Amazon’s Bort), according to HuggingFace. This is the research question that…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-12T23:52:39.000Z | tags: books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://probml.github.io/pml-book/book2.html">Probabilistic Machine Learning: Advanced Topics</a>
+          <div class="card-meta">12 Sep 2023</div>
+          <div class="card-meta card-domain">probml.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-27T14:15:28.000Z | tags: books, machine-learning -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/mltechniques.com/wp-content/uploads/2022/06/mnist2.png?fit=600%2C394&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mltechniques.com/2022/05/17/new-book-approaching-almost-any-machine-learning-problem?fbclid=IwAR3Sfo1wPhXv46z-1c2h0o_kuErOANdGSLovxbAaNlnkBcqbJ0gBx7MtfDI">New Book: Approaching (Almost) Any Machine Learning Problem - Machine Learning Techniques</a>
+          <div class="card-meta">27 Oct 2022</div>
+          <div class="card-meta card-domain">mltechniques.com</div>
+        </div>
+        <div class="card-section">
+          <p>This self-published book is dated July 2020 according to Amazon. But it appears to be an ongoing project. Like many new books, the material is on GitHub, here. The most recent version, dated June 2021, is available in PDF format, here. This is not a traditional book. It feels like a repository of Python code,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-22T20:38:54.000Z | tags: books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlstory.org">Patterns, Predictions, and Actions</a>
+          <div class="card-meta">22 Aug 2022</div>
+          <div class="card-meta card-domain">mlstory.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-22T19:18:16.000Z | tags: books, machine-learning, dimensionality-reduction -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://twitter.com/freakonometrics/status/1550439602594484225?s=12&amp;t=5dAyRh9A5Nw53A3oNf4HPg">https://twitter.com/freakonometrics/status/1550439602594484225?s=12&amp;t=5dAyRh9A5Nw53A3oNf4HPg</a>
+          <div class="card-meta">22 Jul 2022</div>
+          <div class="card-meta card-domain">twitter.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-10T10:51:17.000Z | tags: algorithms-math, books, linear-algebra, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://substack.com/redirect/bb5ad843-c722-433f-96d1-ff729a3bef7c?u=1135489">Probabilistic Numerics | Textbooks</a>
+          <div class="card-meta">10 Jul 2022</div>
+          <div class="card-meta card-domain">substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quantifying Uncertainty in Computation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T14:06:52.000Z | tags: algorithms-math, books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://superstudy.guide">Super Study Guides</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">superstudy.guide</div>
+        </div>
+        <div class="card-section">
+          <p>Illustrated study guides ideal for visual learners.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T23:04:04.000Z | tags: books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dafriedman97.github.io/mlbook/content/introduction.html">Introduction — Machine Learning from Scratch</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">dafriedman97.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T21:04:09.000Z | tags: books, machine-learning, nlp -->
+      <div class="card-image">
+        <img src="https://transformersbook.com/images/logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://transformersbook.com">Natural Language Processing with Transformers Book</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">transformersbook.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-21T20:39:15.000Z | tags: books, machine-learning, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://adv-r.had.co.nz">Welcome · Advanced R.</a>
+          <div class="card-meta">21 Mar 2022</div>
+          <div class="card-meta card-domain">adv-r.had.co.nz</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-21T20:38:21.000Z | tags: books, command-line, machine-learning -->
+      <div class="card-image">
+        <img src="https://datascienceatthecommandline.com/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://datascienceatthecommandline.com/2e">Welcome | Data Science at the Command Line, 2e</a>
+          <div class="card-meta">21 Mar 2022</div>
+          <div class="card-meta card-domain">datascienceatthecommandline.com</div>
+        </div>
+        <div class="card-section">
+          <p>This thoroughly revised guide demonstrates how the flexibility of the command line can help you become a more efficient and productive data scientist. You’ll learn how to combine small yet powerful command-line tools to quickly obtain, scrub, explore, and model your data. To get you started, author Jeroen Janssens provides a Docker image packed with over 100 Unix power tools—useful whether you work with Windows, macOS, or Linux.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-19T19:55:37.000Z | tags: books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/3T7n57qBjG?ssr=true">3 t7n57q bj g</a>
+          <div class="card-meta">19 Mar 2022</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-24T00:00:00.000Z | tags: machine-learning, deep-learning, books, algorithms-math, github -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/45f1f4dfb2cc2652c0a1f9376fc10dda71150a108f61d3d42f8705578824e25b/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources">Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources</a>
+          <div class="card-meta">24 Sep 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Compendium of free ML reading resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-05T16:59:23.000Z | tags: books, machine-learning, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statlearning.com">An Introduction to Statistical Learning</a>
+          <div class="card-meta">5 Aug 2021</div>
+          <div class="card-meta card-domain">statlearning.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-13T21:54:56.000Z | tags: books, deep-learning, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=25716581">Algorithms for Decision Making | Hacker News</a>
+          <div class="card-meta">13 Jan 2021</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:09:33.000Z | tags: books, machine-learning -->
+      <div class="card-image">
+        <img src="https://s0.wp.com/i/webclip.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tinymlbook.com">TinyML Book</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">tinymlbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Visit the post for more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-28T23:30:38.000Z | tags: books, machine-learning, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jakevdp.github.io/PythonDataScienceHandbook">Python Data Science Handbook | Python Data Science Handbook</a>
+          <div class="card-meta">28 Aug 2019</div>
+          <div class="card-meta card-domain">jakevdp.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T20:46:01.000Z | tags: algorithms-math, books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jeffe.cs.illinois.edu/teaching/algorithms#book">Algorithms by Jeff Erickson</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">jeffe.cs.illinois.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-14T01:32:14.000Z | tags: books, devops, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataintensive.net">Designing Data-Intensive Applications (DDIA) — an O’Reilly book by Martin Kleppmann (The Wild Boar Book)</a>
+          <div class="card-meta">14 May 2019</div>
+          <div class="card-meta card-domain">dataintensive.net</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

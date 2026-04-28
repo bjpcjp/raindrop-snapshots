@@ -1,0 +1,257 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + _r_ &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-03-14T12:56:29.607Z | tags: boosting, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/01/sta-r-programming-10.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/how-to-implement-catboost-in-r/">How to Implement CatBoost in R</a>
+          <div class="card-meta">14 Mar 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>This article shows how to implement CatBoost in R.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-20T12:36:19.346Z | tags: machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://freakonometrics.hypotheses.org/files/2024/10/islr358.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2024/10/the-m%e2%88%9ap-rule-for-random-forests/">The m=√p rule for random forests | R-bloggers</a>
+          <div class="card-meta">20 Oct 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>A couple of days ago, in our lab session, we discussed random forrests, and, since it was based on the example in ISLR, we had a quick discussion about the random choice of features, and the “” rule Interestingly, on that one, we can play a bit, and try all choices, and do it again, on a different train/test split, library(randomForest) library(ISLR2) set.seed(123) sim = function(t){ train = sample(nrow(Boston), size = nrow(Boston)*.7) subsim = function(i){ rf.boston</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-07T10:26:38.000Z | tags: clustering, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.business-science.io/assets/063_tidyclust_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2023/07/a-gentle-introduction-to-k-means-clustering-in-r-feat-tidyclust">A Gentle Introduction to K-Means Clustering in R (Feat. Tidyclust)</a>
+          <div class="card-meta">7 Jul 2023</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>To be successful as a Data Scientist, you’re often put in positions where you need to find groups within your data. One key business use-case is finding clusters of customers that behave similarly. And that’s a powerful skill that I’m going to help you...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-16T16:27:02.000Z | tags: machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*OigNoAIlGNKT7ZfyQ5L7UQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/brief-introduction-to-correspondence-analysis-a88297ebba2a?source=rss----7f60cf5620c9---4">Brief Introduction to Correspondence Analysis</a>
+          <div class="card-meta">16 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn the basic steps to run a Multiple Correspondence Analysis in R</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-11T21:19:22.000Z | tags: machine-learning, survival-analysis, _r_ -->
+      <div class="card-image">
+        <img src="https://www.business-science.io/assets/survival_plots-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2022/06/survival-analysis-in-r-in-under-10-minutes">Survival Analysis in R (in under 10-minutes)</a>
+          <div class="card-meta">11 Jun 2022</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Making a survival analysis can be a challenge even for experienced R users, but the good news is I’ll help you make beautiful, publication-quality survival plots in under 10-minutes. Here’s what WE are going to do: Make your first survival model an...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-21T20:39:15.000Z | tags: books, machine-learning, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://adv-r.had.co.nz">Welcome · Advanced R.</a>
+          <div class="card-meta">21 Mar 2022</div>
+          <div class="card-meta card-domain">adv-r.had.co.nz</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-28T21:46:22.000Z | tags: machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*o_JMwR-YJXwIv2A9P-5euA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/three-r-libraries-every-data-scientist-should-know-even-if-you-use-python-7e9d95e4a415">Three R Libraries Every Data Scientist Should Know (Even if You Use Python)</a>
+          <div class="card-meta">28 Nov 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Powerful R libraries built by the World’s Biggest Tech Companies</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-05T16:59:23.000Z | tags: books, machine-learning, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statlearning.com">An Introduction to Statistical Learning</a>
+          <div class="card-meta">5 Aug 2021</div>
+          <div class="card-meta card-domain">statlearning.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-05T14:43:59.000Z | tags: machine-learning, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gexijin.github.io/learnR/index.html">Learn R through examples</a>
+          <div class="card-meta">5 Jun 2021</div>
+          <div class="card-meta card-domain">gexijin.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>This is a draft of a book for learning data analysis with the R language. This book emphasizes hands activities. Comments and suggestions are welcome.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-26T15:03:00.000Z | tags: anomalies-outliers, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2021/03/updated-using-r-and-h2o-to-identify-product-anomalies-during-the-manufacturing-process">UPDATED: Using R and H2O to identify product anomalies during the manufactu</a>
+          <div class="card-meta">26 Mar 2021</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Note. This is an update to article: Using R and H2O to identify product anomalies during the manufacturing process.It has some updates but also code optimization from Yana Kane-Esrig( https://www.linkedin.com/in/ykaneesrig/ ), as sh...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:11.000Z | tags: machine-learning, risk, _r_ -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:612/1*86MFunZoy0P1c962Dw5UsA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/insurance-risk-pricing-tweedie-approach-1d71207268fc">Insurance Risk Pricing — Tweedie Approach - Towards Data Science</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An illustrative guide to estimate the pure premium using Tweedie models in GLMs and Machine Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:31.000Z | tags: machine-learning, text, _r_ -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*In50ISWWARri4ZcPU08RXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/text-mining-with-r-gathering-and-cleaning-data-8f8b0d65e67c?source=rss----7f60cf5620c9---4">Text Mining with R: Gathering and Cleaning Data</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Case study of tweets from comments on Indonesia’s biggest media</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:31.000Z | tags: machine-learning, regressions, _r_ -->
+      <div class="card-image">
+        <img src="https://s0.wp.com/latex.php?latex=%28x_1%2C+y_1%29%2C+%5Cdots%2C+%28x_n%2C+y_n%29+%5Cin+%5Cmathbb%7BR%7D%5E2&amp;bg=ffffff&amp;%23038;fg=333333&amp;%23038;s=0" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/what-is-isotonic-regression">What is isotonic regression?</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Isotonic regression is a method for obtaining a monotonic fit for 1-dimensional data. Let’s say we have data such that . (We assume no ties among the ‘s for simplicity.) Informally, isotonic regression looks for such that the ‘s approximate … Continue reading →</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:10:12.000Z | tags: machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.datasciencecentral.com/wp-content/uploads/2021/10/2808319304.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.datasciencecentral.com/profiles/blogs/one-page-r-a-survival-guide-to-data-science-with-r">One-page R: a survival guide to data science with R - DataScienceCentral.com</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">datasciencecentral.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article comes from Togaware. A Survival Guide to Data Science with R These draft chapters weave together a collection of tools for the data scientist—tools that are all part of the R Statistical Software Suite. Each chapter is a  collection of one (or more) pages that cover particular aspects of the topic. The chapters can be… Read More »One-page R: a survival guide to data science with R</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,138 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + llms-gpt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-03-20T10:16:00.000Z | tags: arxiv, deep-learning, llms-gpt -->
+      <div class="card-image">
+        <img src="https://static.wixstatic.com/media/111555_f4dabd45181244a89a61cc2abc1c7785~mv2.jpg/v1/fill/w_1000,h_618,al_c,q_85,usm_0.66_1.00_0.01/111555_f4dabd45181244a89a61cc2abc1c7785~mv2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.zeta-alpha.com/post/must-read-the-100-most-cited-ai-papers-in-2022">Must read: the 100 most cited AI papers in 2022</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">zeta-alpha.com</div>
+        </div>
+        <div class="card-section">
+          <p>Who Is publishing the most Impactful AI research right now? With the breakneck pace of innovation in AI, it is crucial to pick up some signal as soon as possible. No one has the time to read everything, but these 100 papers are sure to bend the road as to where our AI technology is going. The real test of impact of R&amp;D teams is of course how the technology appears in products, and OpenAI shook the world by releasing ChatGPT at the end of November 2022, following fast on their March 2022 paper “T</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-25T19:33:58.000Z | tags: deep-learning, generative, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/02/meta_llm_hero_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2023/02/chatgpt-on-your-pc-meta-unveils-new-ai-model-that-can-run-on-a-single-gpu">Meta unveils a new large language model that can run on a single GPU</a>
+          <div class="card-meta">25 Feb 2023</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>LLaMA-13B reportedly outperforms ChatGPT-like tech despite being 10x smaller.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-24T03:30:19.000Z | tags: deep-learning, generative, llms-gpt -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2301.04655">ChatGPT is not all you need. A State of the Art Review of large...</a>
+          <div class="card-meta">24 Jan 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>During the last two years there has been a plethora of large generative models such as ChatGPT or Stable Diffusion that have been published. Concretely, these models are able to perform tasks such...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-16T01:53:18.000Z | tags: deep-learning, generative, ideas, machine-learning, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/639997a380800648445acf3f/1718919976911/B4AAC213-3764-4A49-A1F1-CA18B3368CF0.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2022/12/14/ChatGPT-imagenet">ChatGPT and the Imagenet moment — Benedict Evans</a>
+          <div class="card-meta">16 Dec 2022</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>The wave of enthusiasm around generative networks feels like another Imagenet moment - a step change in what ‘AI’ can do that could generalise far beyond the cool demos. What can it create, and where are the humans in the loop?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-11T17:03:38.000Z | tags: arxiv, deep-learning, nlp, llms-gpt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2212.03551.pdf">2212.03551.pdf</a>
+          <div class="card-meta">11 Dec 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-07T23:08:53.000Z | tags: deep-learning, language-linguistics, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/stratechery.com/wp-content/uploads/2020/03/Stratechery-2020-03-11-23.03.59.png?fit=1200%2C811&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stratechery.com/2022/ai-homework">AI Homework – Stratechery by Ben Thompson</a>
+          <div class="card-meta">7 Dec 2022</div>
+          <div class="card-meta card-domain">stratechery.com</div>
+        </div>
+        <div class="card-section">
+          <p>The first obvious casualty of large language models is homework: the real training for everyone, though, and the best way to leverage AI, will be in verifying and editing information.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

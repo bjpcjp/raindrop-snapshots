@@ -1,0 +1,488 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>css + design &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-03-15T11:33:33.170Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://speckyboy.com/wp-content/uploads/2025/03/css-glow-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://speckyboy.com/glow-effects-css-javascript/">https://speckyboy.com/glow-effects-css-javascript/</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">speckyboy.com</div>
+        </div>
+        <div class="card-section">
+          <p>Glow effects are a design staple, adding style and setting the mood. Here’s a collection of CSS and JavaScript snippets for creating those stunning glow effects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-17T19:33:02.133Z | tags: color, css, design -->
+      <div class="card-image">
+        <img src="https://uchu.style/asset/image/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uchu.style/">uchū — the color palette for internet lovers</a>
+          <div class="card-meta">17 Feb 2025</div>
+          <div class="card-meta card-domain">uchu.style</div>
+        </div>
+        <div class="card-section">
+          <p>uchū is the color palette for internet lovers, by NetOperator Wibby.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-07T00:54:02.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftfw3mg1mfnyng0ca29pp.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/alvaromontoro/10-cool-codepen-demos-june-2023-3g58">10 Cool CodePen Demos (June&amp;nbsp;2023)</a>
+          <div class="card-meta">7 Jul 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of 10 cool and exciting front-end demos shared on CodePen during June 2023</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-07T22:09:49.000Z | tags: css, design, ui-ux, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anthonyhobday.com/sideprojects/saferules">Visual design rules you can safely follow every time</a>
+          <div class="card-meta">7 Feb 2023</div>
+          <div class="card-meta card-domain">anthonyhobday.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T13:48:58.000Z | tags: css, design, design-patterns, fonts-typography, keywords-ppc-seo, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2022/06/amy-hirschi-JaoVGh5aJ3E-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/in-demand-marketing-skills-for-your-design-cv.html">6 In-demand Marketing Skills for Your Design CV</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>In today’s tech-savvy world, being a great designer is not all about being a whiz at tools such as Adobe Photoshop and Adobe Illustrator. The job is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T12:01:35.000Z | tags: color, css, design, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjojcoiwwnmw37inqcnd7.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/devash98/15-beautiful-colour-gradients-using-css-4em1">15 Beautiful Color Gradients using CSS</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>👋, I am here with another list. In this post I have enlisted 15 aesthetic color gradients using CSS...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-12T11:18:06.000Z | tags: css, design, webdev -->
+      <div class="card-image">
+        <img src="https://markodenic.com/wp-content/uploads/2020/04/Discuss-product-requirements-e1613893235653.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://markodenic.com/css-tips">CSS Tips - Marko Denic - Web Developer</a>
+          <div class="card-meta">12 May 2022</div>
+          <div class="card-meta card-domain">markodenic.com</div>
+        </div>
+        <div class="card-section">
+          <p>CSS tips and tricks you will not see in most tutorials.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-13T15:49:51.000Z | tags: css, design, html, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mailchi.mp/smashingmagazine/339-modern-css-techniques?e=01c6bebc27">Smashing Newsletter</a>
+          <div class="card-meta">13 Feb 2022</div>
+          <div class="card-meta card-domain">mailchi.mp</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:16:13.000Z | tags: css, design, html, language-linguistics, webdev -->
+      <div class="card-image">
+        <img src="https://randomwire.com/wp-content/uploads/rakuten-ichiba.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://randomwire.com/why-japanese-web-design-is-so-different">Why Japanese Web Design Is So… Different</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">randomwire.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:59.000Z | tags: css, design, ui-ux -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F12%2FCopy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5.png&amp;signature=5f758f534c41b1a833cfb11cfe4d53f7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/syndication/2019/12/23/how-to-design-better-buttons">How to design better buttons</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>A button is an interactive element that results in the action described on it. If it says “save” on a button, clicking it will most likely “save” something. It’s also one of the most important interactive elements of any digital product. It</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:51.000Z | tags: css, design, ui-ux, cognition-neurology-perception -->
+      <div class="card-image">
+        <img src="https://theness.com/neurologicablog/wp-content/uploads/sites/3/2019/08/weberplot.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theness.com/neurologicablog/index.php/webers-law">Weber’s Law - NeuroLogica Blog</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">theness.com</div>
+        </div>
+        <div class="card-section">
+          <p>I confess I have never heard (or at least don&#39;t remember ever hearing) about Weber&#39;s Law (pronouned vayber) until reading about it with this news item. It is the Law of Just Noticeable Differences. It deals with the minimum difference in a stimulus necessary to notice. While clearly established, and there are many hypotheses to</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:24.000Z | tags: css, design, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_small.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.com/books/front-end-handbook/2019">Front-end Developer Handbook 2019 - Learn the entire JavaScript, CSS and HTML development practice!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">frontendmasters.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:32:32.000Z | tags: css, design, html -->
+      <div class="card-image">
+        <img src="https://every-layout.dev/images/card.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://every-layout.dev/layouts/stack">The Stack</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">every-layout.dev</div>
+        </div>
+        <div class="card-section">
+          <p>A composable CSS layout primitive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-05T09:39:11.000Z | tags: css, design, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F89ou2ank61a635tx3elp.JPG" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/metajunaid/10-super-easy-css-shapes-for-beginners-19kf">10 Super easy CSS Shapes for beginners</a>
+          <div class="card-meta">5 Aug 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Hello there,  In this post we will be talking about creating basic shapes in HTML &amp; CSS. Many...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T12:48:34.000Z | tags: css, design, ui-ux -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2021/07/HTML-Line-Spacing.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/hmtl-line-spacing-good-bad">HTML Line Spacing: The Fine Line Between Good and Bad UX Design</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>HTML line spacing matters in UX design. Read all you need to know about line height and how it can help your UX.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-03T01:40:22.000Z | tags: css, design, ecommerce, fonts-typography, javascript, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox">Improving The Performance Of An Online Store (Case Study)</a>
+          <div class="card-meta">3 Jun 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-27T22:11:14.000Z | tags: css, design, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fissnpq0gw956xq0ybri0.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/nimritee12/15-advanced-css-techniques-to-master-in-2021-1g9d">15 Advanced CSS Techniques To Master In 2021</a>
+          <div class="card-meta">27 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>CSS is used to describe how HTML elements should be presented on the web page. CSS can not only...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-24T03:51:50.000Z | tags: css, design, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr76hf0pnliq0rc1d2ndz.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/terrythreatt/css-flexbox-in-5-minutes-1fcl">CSS Flexbox in 5 Minutes</a>
+          <div class="card-meta">24 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>What is CSS Flexbox   CSS Flexbox is a one-dimensional layout module that can be used to mak...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:04:12.000Z | tags: cards, css, design, html -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.google.com/presentation/d/1hvnPpsJo44BTPfJx28CV95vqk_dt6na1awUbk0kmZYM/edit#slide=id.g3e31444916_0_115">Details on - Google Slides</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">docs.google.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:03:56.000Z | tags: cards, css, design, html -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/283765" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/using-details-for-menus-and-dialogs-is-an-interesting-idea">Using for Menus and Dialogs is an Interesting Idea | CSS-Tricks</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using  for a menu may be an interesting idea, but perhaps not something to actually ship in production. See &quot;More Details on &quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-20T00:29:18.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fof6mzn79o2kahcw2pw1w.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/kiranrajvjd/10-awesome-css-resources-14mh">10 Awesome CSS Resources</a>
+          <div class="card-meta">20 Apr 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>A list of few CSS resource that help me design the CSS code better. I will give you a brief intro to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-12T23:04:35.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F783bky4dxguatfbhr98y.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/ahmadbassamemran/create-awesome-product-card-ui-design-e-commerce-card-using-only-html5-css3-553p">Create Awesome Product Card | UI Design | E-commerce Card | Using Only Html</a>
+          <div class="card-meta">12 Apr 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Please do not forget to subscribe in my channel:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-12T23:04:30.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://shots.codepen.io/username/pen/GRryraq-512.jpg?version=1633330604" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codepen.io/ahmadbassamemran/pen/GRryraq">Product Card | Using Only Html5 &amp; CSS3</a>
+          <div class="card-meta">12 Apr 2021</div>
+          <div class="card-meta card-domain">codepen.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-28T19:24:45.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fwmrt85hrvn38e2l4l6ci.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/alexmercedcoder/ultimate-css-reference-guide-30nk">Ultimate CSS Reference Guide</a>
+          <div class="card-meta">28 Dec 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>What is this guide?   This guide will be a compilation of several bits about CSS syntax and...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-06T23:43:41.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/308076" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/phuoc-nguyens-one-page-wonders">Phuoc Nguyen’s One Page Wonders</a>
+          <div class="card-meta">6 May 2020</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>I keep running across these super useful one page sites, and they keep being by the same person! Like this one with over 100 vanilla JavaScript DOM</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-06T23:41:44.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fjvhvs1f1piiqknbxjdo8.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bipinrajbhar/creating-a-floating-label-using-html-and-css-2edn">Creating a floating label using HTML and CSS</a>
+          <div class="card-meta">6 May 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Hello everyone 👋, I hope you are doing great.  So, Today we are going to learn how to create a floati...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-06T23:39:03.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://leerob.com/opengraph-image.png?48197077839ee922" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://leerob.io/blog/how-stripe-designs-beautiful-websites">Lee Robinson</a>
+          <div class="card-meta">6 May 2020</div>
+          <div class="card-meta card-domain">leerob.io</div>
+        </div>
+        <div class="card-section">
+          <p>Frontend developer, optimist, community builder.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-21T16:54:43.000Z | tags: css, design -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/179574410/54cd7e80-6142-11e9-8f2e-c3774582a097" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/kognise/water.css">kognise/water.css: A drop-in collection of CSS styles to make simple websites just a little nicer</a>
+          <div class="card-meta">21 Apr 2019</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A drop-in collection of CSS styles to make simple websites just a little nicer - kognise/water.css</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-05T16:18:23.000Z | tags: css, design, html, sass -->
+      <div class="card-image">
+        <img src="https://tutorialzine.com/media/2018/06/10-awesome-sass-libraries.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tutorialzine.com/2018/06/10-awesome-sass-libraries-you-should-know-about">10 Awesome Sass Libraries You Should Know About</a>
+          <div class="card-meta">5 Jul 2018</div>
+          <div class="card-meta card-domain">tutorialzine.com</div>
+        </div>
+        <div class="card-section">
+          <p>We share with you a collection of interesting Sass libraries that you should check out.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

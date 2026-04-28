@@ -1,0 +1,622 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>circuits-electronics + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-07-19T22:16:47.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/RF-PCB-Smith-Chart.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/lossy-transmission-lines-introduction-to-the-skin-effect">Lossy Transmission Lines: Introduction to the Skin Effect</a>
+          <div class="card-meta">19 Jul 2023</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article introduces high-frequency conductor losses in transmission lines caused by a phenomenon known as the skin effect.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-27T22:02:04.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://octopart.com/blog/archives/2023/03/what-are-the-different-types-of-fets">https://octopart.com/blog/archives/2023/03/what-are-the-different-types-of-fets</a>
+          <div class="card-meta">27 Mar 2023</div>
+          <div class="card-meta card-domain">octopart.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-05T13:49:32.000Z | tags: chip-design, circuits-electronics, deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_309524207-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/asynchronously-parallel-optimization-method-for-sizing-analog-transistors-using-deep-neural-network-learning">Asynchronously Parallel Optimization Method For Sizing Analog Transistors U</a>
+          <div class="card-meta">5 Mar 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning” was published by researchers at UT Austin and Analog Devices. Abstract “Analog circuit sizing is a high-cost process in terms of the manual effort invested and the computation time spent. With rapidly developing technology and high market demand, bringing... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T18:44:23.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/images/site/og_default.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://forum.allaboutcircuits.com/ubs/my-articles-on-aac-page-i.1135">My Articles on AAC (Page I)</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">forum.allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>The following is a list of my articles on various topics. Besides technical articles, news pieces that might have useful technical information are also included. You can find my articles on FPGA...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T18:43:48.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/rf_design_basics_thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/basic-concepts-in-rf-design-introduction-to-transmission-lines">RF Design Basics—Introduction to Transmission Lines</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about voltage waves and how they relate to an important basic concept of radio frequency (RF) circuit design: transmission lines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-13T12:53:11.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Transistor-free_CIM.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/researchers-develop-transistor-free-compute-in-memory-architecture">Researchers Develop Transistor-free Compute-in-Memory Architecture</a>
+          <div class="card-meta">13 Oct 2022</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using new materials, UPenn researchers recently demonstrated how analog compute-in-memory circuits can provide a programmable solution for AI computing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-02T11:43:20.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2970cbe-890b-441f-a5ad-84a707a02406_1012x666.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fabricatedknowledge.com/p/timing-market-primer-and-overview">What Time is It? A Timing Market Primer and Overview</a>
+          <div class="card-meta">2 Oct 2022</div>
+          <div class="card-meta card-domain">fabricatedknowledge.com</div>
+        </div>
+        <div class="card-section">
+          <p>How do we keep track of time? A deeper look into Quartz timers and the emerging field of MEMS</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-26T23:40:40.000Z | tags: circuits-electronics, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Fig01_Rambus.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/how-memory-design-optimizes-system-performance">How Memory Design Optimizes System Performance</a>
+          <div class="card-meta">26 Sep 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Changes are steady in the memory hierarchy, but how and where that memory is accessed is having a big impact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-08T00:25:09.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/H4NQ5H3X6FFONL3CJHBWX7JS7A.jpg&amp;w=1440" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/technology/2022/08/02/why-gadgets-die">Perspective | Electronics are built with death dates. Let’s not keep them a secret.</a>
+          <div class="card-meta">8 Aug 2022</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our analysis of 14 popular consumer devices found most could stop working in 3 to 4 years because of irreplaceable batteries. Here’s how we get the tech industry to design products that last longer — and do less damage to the environment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-04T02:34:37.000Z | tags: semiconductors, circuits-electronics -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/featured-image-introduction-to-mems-vibratory-gyroscopes.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/introduction-to-mems-gyroscopes-vibratory-gyroscope">An Introduction to MEMS Vibratory Gyroscopes</a>
+          <div class="card-meta">4 Jul 2022</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Microelectromechanical systems (MEMS) vibratory gyroscopes can be a bit mysterious and math-intensive. Let&#39;s break the math down, and go over gyroscope basics and structures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T11:23:39.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/GaAs_cover_image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/gallium-arsenide-another-player-in-semiconductor-technology">Gallium Arsenide: Another Player in Semiconductor Technology - News</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article looks at gallium arsenide, comparing it to other semiconductor materials, and explores how different compounds are used in components.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-10T21:19:55.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/TDK_TMR_sensor_featured1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/magnetic-field-sensors-tunnel-applications-magnetoresistance-TMR-sensors">Magnetoresistance in Magnetic Field Sensors: Applications for TMR Sensors - News</a>
+          <div class="card-meta">10 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>What are TMR sensors and what applications are they best suited to? This article provides a snapshot of this sensor type and what TMR-based components are available for designers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:01:54.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Mays_power_semiconductors_featured1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/fet-vs-bjt-vs-igbt-whats-the-right-choice-for-your-power-stage-design">FET vs. BJT vs. IGBT: What’s the Right Choice for Your Power Stage Design? - Technical Articles</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article will help the reader understand the different types of power semiconductors: how they work, their key parameters, and trade-offs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:56:23.000Z | tags: antennas, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/02/Screen-Shot-2019-02-06-at-4.51.01-PM.png?fit=565%2C436&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/5g-beamforming-antennas-create-design-test-problems">Issues In Designing 5G Beamforming Antennas</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>5G Beamforming Antennas Create Design, Test Problems Assuring quality under changing conditions with shifting standards and use models is a major challenge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:55:16.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/RFT_ch4_pg3_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/what-exactly-is-a-phase-locked-loop-anyways">What Exactly Is a Phase-Locked Loop, Anyways? - Technical Articles</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article introduces a phase-based feedback system that plays an important role in many applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:44:11.000Z | tags: circuits-electronics, lidar, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/01/lidar-car-road.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/cars/2019/02/the-ars-technica-guide-to-the-lidar-industry">How 10 leading companies are trying to make powerful, low-cost lidar</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lidar is essential for self-driving cars—here’s how some leading lidar sensors work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:44:07.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/TB_captypes_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/x7r-x5r-c0g...-a-concise-guide-to-ceramic-capacitor-types">X7R, X5R, C0G…: A Concise Guide to Ceramic Capacitor Types - Technical Articles</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This technical brief attempts to dispel some of the fog surrounding the three-character naming convention used to describe ceramic caps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:43:56.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Xilinx-FPGAThumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/use-of-clock-gating-to-reduce-power-consumption">How to Reduce Power Consumption with Clock Gating - Technical Articles</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article will discuss the basic concepts of clock gating and how it can be used to reduce the power consumption of synchronous digital systems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:43:22.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.futurity.org/wp/wp-content/uploads/2019/02/unclonable-IoT-security_1600.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.futurity.org/security-physically-unclonable-function-1993382">&#39;Unclonable&#39; digital fingerprints boost IoT device security</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">futurity.org</div>
+        </div>
+        <div class="card-section">
+          <p>The new technology is 10 times as reliable as what&#39;s come before for keeping internet-connected devices secure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:43:01.000Z | tags: circuits-electronics, semiconductors, verilog -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Thumbnail-m2272019.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/using-verilog-to-describe-a-sequential-circuit">Using Verilog to Describe a Sequential Circuit - Technical Articles</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article focuses on using Verilog to describe synchronous sequential circuits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:42:26.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/techarticle_PLLA-FM_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/understanding-pll-applications-frequency-multiplication">Understanding PLL Applications: Frequency Multiplication - Technical Articles</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article explains how a PLL can be used to produce a high-frequency clock from a low-frequency reference signal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:41:59.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.silabs.com/content/dam/siliconlabs/images/white-papers/low-power-wi-fi-for-industrial-iot-connectivity-poster.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.silabs.com/whitepapers/wireless-protocols">Whitepapers - Silicon Labs</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">silabs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Review whitepapers written by our expert engineers to help you understand new concepts or implement best practices in your product design and development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:56:08.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2017/08/Depositphotos_99225156_l-2015_small.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/overview-and-types-of-capacitors-in-asic-design">Overview and Types of Capacitors in ASIC Design - AnySilicon</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn more on the various capacitors in ASIC design that can improve your chip performance and recude it&#39;s cost.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-30T21:26:59.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/verilog_part_2_AAC.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/describing-combinational-circuits-in-verilog">Describing Combinational Circuits in Verilog - Technical Articles</a>
+          <div class="card-meta">30 Nov 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article introduces the techniques for describing combinational circuits in Verilog by examining how to use the conditional operator to describe combinational truth tables.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-30T20:24:47.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/CUI_thumbnail.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/industry-articles/understanding-and-addressing-5-key-power-supply-issues">Understanding and Addressing 5 Key Power Supply Issues - Industry Articles</a>
+          <div class="card-meta">30 Nov 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article will take a deeper look at five key power supply problems, how to know when they arise, and the best ways to address or mitigate them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:49:38.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://blog.sigplan.org/wp-content/uploads/2021/05/shutterstock_1913080369-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.sigplan.org/2021/05/18/circuit-synthesis-for-analog-computing">Circuit Synthesis for Analog Computing | SIGPLAN Blog</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">blog.sigplan.org</div>
+        </div>
+        <div class="card-section">
+          <p>Modern analog computers offer unique programming challenges which make them challenging compilation targets. How do we automatically program an analog computer to implement a computation?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-13T16:43:38.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://blog.apnic.net/wp-content/uploads/2021/03/router-history-FT.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.apnic.net/2021/03/12/a-brief-history-of-router-architecture">A brief history of router architecture</a>
+          <div class="card-meta">13 Mar 2021</div>
+          <div class="card-meta card-domain">blog.apnic.net</div>
+        </div>
+        <div class="card-section">
+          <p>Here&#39;s what we&#39;ve learnt about networks and the routers that interconnect them in the last 50 years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-05T17:55:48.000Z | tags: antennas, circuits-electronics, optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/oam-lasers-1360px.jpg?fit=1360%2C765" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/optical-antennas-promise-unlimited-data-capacity">Optical Antennas Promise ‘Unlimited’ Data Capacity</a>
+          <div class="card-meta">5 Mar 2021</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The breakthrough is taking full advantage of the orbital angular momentum properties of a coherent light source, thus enabling multiplexing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T11:17:22.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/intro_to_phototransistors_featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/introduction-to-phototransistors">Introduction to Phototransistors</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this series of articles, we’ll explore higher-output-current alternatives to photodiodes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-25T14:53:15.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-25-at-8.18.30-AM.png?fit=844%2C446&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/electromagnetic-challenges-in-high-speed-designs">Electromagnetic Challenges In High-Speed Designs</a>
+          <div class="card-meta">25 Nov 2019</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Runaway complexity is making it more difficult and critical to deal with signal integrity in a system context.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-11T14:40:14.000Z | tags: apis, circuits-electronics, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://developers.arrow.com/api">http://developers.arrow.com/api/</a>
+          <div class="card-meta">11 Mar 2019</div>
+          <div class="card-meta card-domain">developers.arrow.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-11T14:40:12.000Z | tags: apis, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.digikey.com/-/media/Images/Header/DigiKey_rgb_600x600.png?la=en-US&amp;ts=88c6251c-ba44-4c88-ac2d-d52e8cc4af42" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digikey.com/en/resources/api-solutions">API Solutions | DigiKey</a>
+          <div class="card-meta">11 Mar 2019</div>
+          <div class="card-meta card-domain">digikey.com</div>
+        </div>
+        <div class="card-section">
+          <p>DigiKey offers a complete set of APIs to share information and automate the ordering process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-30T18:47:43.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Intro_to_Supercapacitors_featured1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/introduction-to-supercapacitors">Introduction to Supercapacitors</a>
+          <div class="card-meta">30 Jan 2019</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get a primer on the basics of supercapacitors, their functionality, and which applications they&#39;re best for.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-22T11:01:48.000Z | tags: chip-design, circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/12/Fig1_Fieldsolver-PEX.jpg?fit=1307%2C748&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/five-rules-for-correlating-rule-based-and-field-solver-parasitic-extraction-results">Five Rules For Correlating Rule-based And Field Solver Parasitic Extraction</a>
+          <div class="card-meta">22 Dec 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Accurately determine parasitic effects with the proper set up of two different methods.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-04T17:08:56.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://octopart.com/electronic-parts#search/requestData&amp;q=NO%20MATCH">Electronic Parts by Category - Octopart</a>
+          <div class="card-meta">4 Jun 2018</div>
+          <div class="card-meta card-domain">octopart.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-27T21:46:26.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.digikey.com/-/media/Images/Article%20Library/TechZone%20Articles/2017/December/Comparing%20Low%20Power%20Wireless%20Technologies%20Part%203/article-2017december-comparing-low-power-part-3-fig1.jpg?ts=8ce79fec-ed18-4ad4-8372-dc89dfcb0c93&amp;amp;la=en-US" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digikey.com/en/articles/techzone/2017/dec/comparing-low-power-wireless-technologies-part-3">Comparing Low Power Wireless Technologies (Part 3) | DigiKey</a>
+          <div class="card-meta">27 Mar 2018</div>
+          <div class="card-meta card-domain">digikey.com</div>
+        </div>
+        <div class="card-section">
+          <p>Low power wireless technologies are adapting to the Internet of Things by including IP connectivity and mesh networking.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-27T21:45:46.000Z | tags: circuits-electronics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.digikey.com/-/media/Images/Article%20Library/TechZone%20Articles/2017/October/Comparing%20Low-Power%20Wireless%20Technologies/article-2017october-comparing-low-power-fig1.jpg?ts=6a78f78c-d8ca-4d72-982b-82e637fe9a9f&amp;amp;h=367&amp;amp;w=300&amp;amp;la=en-US" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digikey.com/en/articles/techzone/2017/oct/comparing-low-power-wireless-technologies">Comparing Low-Power Wireless Technologies (Part 1) | DigiKey</a>
+          <div class="card-meta">27 Mar 2018</div>
+          <div class="card-meta card-domain">digikey.com</div>
+        </div>
+        <div class="card-section">
+          <p>The multitude of short-range wireless technologies provides engineers with optimized solutions for their applications, but makes careful selection paramount.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

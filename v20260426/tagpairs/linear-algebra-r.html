@@ -1,0 +1,64 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>linear-algebra + _r_ &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2021-12-04T20:46:52.000Z | tags: linear-algebra, _r_ -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/www.r-bloggers.com/wp-content/uploads/2016/02/VfmfWJi.jpg?fit=600%2C373&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/large-scale-eigenvalue-decomposition-and-svd-with-rarpack">Large scale eigenvalue decomposition and SVD with rARPACK | R-bloggers</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>In January 2016, I was honored to receive an “Honorable Mention” of the John Chambers Award 2016. This article was written for R-bloggers, whose builder, Tal Galili, kindly invited me to write an introduction to the rARPACK package. A Short Story of rARPACK Eigenvalue decomposition is a commonly used technique in numerous statistical problems. For example, principal component analysis (PCA) basically conducts eigenvalue decomposition on the sample covariance of a data matrix: the eigenvalues are the component variances, and eigenvectors are the variable loadings. In R, the standard way to compute eigenvalues is the eigen() function. However, when the matrix becomes large, eigen() can be very time-consuming: the complexity to calculate all eigenvalues of a $n times n$ matrix is $O(n^3)$. While in real applications, we usually only need to compute a few eigenvalues or eigenvectors, for example to visualize high dimensional data using PCA, we may only use the first two or three components to draw a scatterplot. Unfortunately in eigen(), there is no option to limit the number of eigenvalues to be computed. This means that we always need to do the full eigen decomposition, which can cause a huge waste in computation. And this is why the rARPACK package was developed. As the name indicates, rARPACK was originally an R wrapper of the ARPACK library, a FORTRAN package that is used to calculate a few eigenvalues of a square matrix. However ARPACK has stopped development for a long time, and it has some compatibility issues with the current version of LAPACK. Therefore to maintain rARPACK in a good state, I wrote a new backend for rARPACK, and that is the C++ library Spectra. The name of rARPACK was POORLY designed, I admit. Starting from version 0.8-0, rARPACK no longer relies on ARPACK, but due to CRAN polices and reverse dependence, I have to keep using the old name. Features and Usage The usage of rARPACK is simple. If you want to calculate some eigenvalues of a square matrix A, just call the function eigs() and tells it how many eigenvalues you want (argument k), and which eigenvalues to calculate (argument which). By default, which = &quot;LM&quot; means to pick the eigenvalues with the largest magnitude (modulus for complex numbers and absolute value for real numbers). If the matrix is known to be symmetric, calling eigs_sym() is preferred since it guarantees that the eigenvalues are real. library(rARPACK) set.seed(123) ## Some random data x = matrix(rnorm(1000 * 100), 1000) ## If retvec == FALSE, we don&#39;t calculate eigenvectors eigs_sym(cov(x), k = 5, which = &quot;LM&quot;, opts = list(retvec = FALSE)) For really large data, the matrix is usually in sparse form. rARPACK supports several sparse matrix types defined in the Matrix package, and you can even pass an implicit matrix defined by a function to eigs(). See ?rARPACK::eigs for details. library(Matrix) spmat = as(cov(x), &quot;dgCMatrix&quot;) eigs_sym(spmat, 2) ## Implicitly define the matrix by a function that calculates A %*% x ## Below represents a diagonal matrix diag(c(1:10)) fmat = function(x, args) { return(x * (1:10)) } eigs_sym(fmat, 3, n = 10, args = NULL) From Eigenvalue to SVD An extension to eigenvalue decomposition is the singular value decomposition (SVD), which works for general rectangular matrices. Still take PCA as an example. To calculate variable loadings, we can perform an SVD on the centered data matrix, and the loadings will be contained in the right singular vectors. This method avoids computing the covariance matrix, and is generally more stable and accurate than using cov() and eigen(). Similar to eigs(), rARPACK provides the function svds() to conduct partial SVD, meaning that only part of the singular pairs (values and vectors) are to be computed. Below shows an example that computes the first three PCs of a 2000x500 matrix, and I compare the timings of three different algorithms: library(microbenchmark) set.seed(123) ## Some random data x = matrix(rnorm(2000 * 500), 2000) pc = function(x, k) { ## First center data xc = scale(x, center = TRUE, scale = FALSE) ## Partial SVD decomp = svds(xc, k, nu = 0, nv = k) return(list(loadings = decomp$v, scores = xc %*% decomp$v)) } microbenchmark(princomp(x), prcomp(x), pc(x, 3), times = 5) The princomp() and prcomp() functions are the standard approaches in R to do PCA, which will call eigen() and svd() respectively. On my machine (Fedora Linux 23, R 3.2.3 with optimized single-threaded OpenBLAS), the timing results are as follows: Unit: milliseconds expr min lq mean median uq max neval princomp(x) 274.7621 276.1187 304.3067 288.7990 289.5324 392.3211 5 prcomp(x) 306.4675 391.9723 408.9141 396.8029 397.3183 552.0093 5 pc(x, 3) 162.2127 163.0465 188.3369 163.3839 186.1554 266.8859 5 Applications SVD has some interesting applications, and one of them is image compression. The basic idea is to perform a partial SVD on the image matrix, and then recover it using the calculated singular values and singular vectors. Below shows an image of size 622x1000: (Orignal image) If we use the first five singular pairs to recover the image, then we need to store 8115 elements, which is only 1.3% of the original data size. The recovered image will look like below: (5 singular pairs) Even if the recovered image is quite blurred, it already reveals the main structure of the original image. And if we increase the number of singular pairs to 50, then the difference is almost imperceptible, as is shown below. (50 singular pairs) There is also a nice Shiny App developed by Nan Xiao, Yihui Xie and Tong He that allows users to upload an image and visualize the effect of compression using this algorithm. The code is available on GitHub. Performance Finally, I would like to use some benchmark results to show the performance of rARPACK. As far as I know, there are very few packages available in R that can do the partial eigenvalue decomposition, so the results here are based on partial SVD. The first plot compares different SVD functions on a 1000x500 matrix, with dense format on the left panel, and sparse format on the right. The second plot shows the results on a 5000x2500 matrix. The functions used corresponding to the axis labels are as follows: svd: svd() from base R, which computes the full SVD irlba: irlba() from irlba package, partial SVD propack, trlan: propack.svd() and trlan.svd() from svd package, partial SVD svds: svds() from rARPACK The code for benchmark and the environment to run the code can be found here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

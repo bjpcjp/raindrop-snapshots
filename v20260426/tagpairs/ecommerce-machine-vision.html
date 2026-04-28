@@ -1,0 +1,96 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ecommerce + machine-vision &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-01-17T07:19:04.000Z | tags: datasets, ecommerce, machine-vision, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/01/Screenshot-2024-01-14-at-4.05.26-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/01/14/lets-go-shopping-lgs-dataset-a-large-scale-public-dataset-with-15m-image-caption-pairs-from-publicly-available-e-commerce-websites">‘Let’s Go Shopping (LGS)’ Dataset: A Large-Scale Public Dataset with 15M Im</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Developing large-scale datasets has been critical in computer vision and natural language processing. These datasets, rich in visual and textual information, are fundamental to developing algorithms capable of understanding and interpreting images. They serve as the backbone for enhancing machine learning models, particularly those tasked with deciphering the complex interplay between visual elements in images and their corresponding textual descriptions. A significant challenge in this field is the need for large-scale, accurately annotated datasets. These are essential for training models but are often not publicly accessible, limiting the scope of research and development. The ImageNet and OpenImages datasets, containing human-annotated</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-07T16:51:03.000Z | tags: ecommerce, machine-vision, object-detection, prodmgmt -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-632621434.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2023/09/07/ebay-rolls-out-a-tool-that-generates-product-listings-from-photos">eBay rolls out a tool that generates product listings from photos</a>
+          <div class="card-meta">7 Sep 2023</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>eBay&#39;s new generative AI tool, rolling out on iOS first, can write a product listing from a single photo -- or so the company claims.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-10T12:56:13.000Z | tags: clothes, ecommerce, machine-vision, ui-ux -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/9409265/og_image/optimized/UI-UX-Design-for-Virtual-Clothing-Try-On_Technology_Social__1_-bca6c6bfca76c09aeaca1d62696dbc61.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/designers/ux/virtual-clothing-try-on">Shopping for Apparel in an Online World: UI/UX Design for Virtual Clothing</a>
+          <div class="card-meta">10 Feb 2023</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>How AR and VR are reshaping apparel e-commerce.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,317 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>llms + llms-claude &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-02T12:47:13.472Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://claude.com/import-memory">Switch to Claude without starting over | Claude</a>
+          <div class="card-meta">2 Mar 2026</div>
+          <div class="card-meta card-domain">claude.com</div>
+        </div>
+        <div class="card-section">
+          <p>Transfer your preferences, projects, and context from other AI providers into Claude. Switch without losing what makes your AI useful.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-21T12:04:05.313Z | tags: llms, prompt-engineering, command-line, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.notion.so/image/attachment%3A17eae015-00f4-4de9-a5a6-9c81d2da28f9%3ASocialMediaPreviewImage.png?table=block&amp;id=2ff8d191-e151-8138-9405-c1a10d0229c9&amp;spaceId=0c08d191-e151-814a-bb81-00033d26e436&amp;width=2000&amp;userId=&amp;cache=v2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.notion.so/Claude-Code-Beginners-Guide-Multi-Agent-Orchestration-Run-Claude-Code-Like-a-5-Person-Team-2ff8d191e15181389405c1a10d0229c9">🐣(Claude Code Beginners Guide) Multi-Agent Orchestration: Run Claude Code Like a 5-Person Team | Notion</a>
+          <div class="card-meta">21 Feb 2026</div>
+          <div class="card-meta card-domain">notion.so</div>
+        </div>
+        <div class="card-section">
+          <p>Quick note before you jump in:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-05T15:07:23.494Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/13433bf9ef53025269e7ca7251e76b229c069343ea0da8bdb2d83ac8d5f7ecb2/ComposioHQ/awesome-claude-skills" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/ComposioHQ/awesome-claude-skills">ComposioHQ/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows</a>
+          <div class="card-meta">5 Feb 2026</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows - ComposioHQ/awesome-claude-skills</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-13T01:16:32.726Z | tags: llms, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no">Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required</a>
+          <div class="card-meta">13 Jan 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic’s Cowork brings Claude Code–style AI agents to the desktop, letting Claude access and manage local files and browse the web—boosting productivity while raising new security and trust risks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-13T00:46:50.995Z | tags: llms, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2026/claude-cowork.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2026/Jan/12/claude-cowork/">First impressions of Claude Cowork, Anthropic’s general agent</a>
+          <div class="card-meta">13 Jan 2026</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New from Anthropic today is Claude Cowork, a “research preview” that they describe as “Claude Code for the rest of your work”. It’s currently available only to Max subscribers ($100 …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-02T11:21:49.365Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!xy3j!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fshrivu.substack.com%2Fapi%2Fv1%2Fpost_preview%2F177742847%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.sshh.io/p/how-i-use-every-claude-code-feature">How I Use Every Claude Code Feature</a>
+          <div class="card-meta">2 Nov 2025</div>
+          <div class="card-meta card-domain">blog.sshh.io</div>
+        </div>
+        <div class="card-section">
+          <p>A brain dump of all the ways I&#39;ve been using Claude Code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-27T13:43:56.426Z | tags: llms, prompt-engineering, llms-claude, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/opus-sonnet-diff.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/25/claude-4-system-prompt/">Highlights from the Claude 4 system prompt</a>
+          <div class="card-meta">27 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic publish most of the system prompts for their chat models as part of their release notes. They recently shared the new prompts for both Claude Opus 4 and Claude …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-25T18:27:13.843Z | tags: llms, llms-claude, llms-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/claude-social-bliss.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/25/claude-4-system-card/">System Card: Claude Opus 4 &amp; Claude Sonnet 4</a>
+          <div class="card-meta">25 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Direct link to a PDF on Anthropic&#39;s CDN because they don&#39;t appear to have a landing page anywhere for this document. Anthropic&#39;s system cards are always worth a look, and …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-16T23:06:37.244Z | tags: llms, prompt-engineering, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://ampcode.com/og-how-to-build-an-agent.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ampcode.com/how-to-build-an-agent">How To Build An Agent | Amp</a>
+          <div class="card-meta">16 Apr 2025</div>
+          <div class="card-meta card-domain">ampcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a fully functional, code-editing agent in less than 400 lines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-05T17:30:54.224Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/67dc466ffa0c3a77d4f8f567/16:9/w_2496,h_1404,c_limit/WIRED_ANTHROPIC_002-V2_web.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/anthropic-benevolent-artificial-intelligence/">If Anthropic Succeeds, a Nation of Benevolent AI Geniuses Could Be Born</a>
+          <div class="card-meta">5 Apr 2025</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>The brother goes on vision quests. The sister is a former English major. Together, they defected from OpenAI, started Anthropic, and built (they say) AI’s most upstanding citizen, Claude.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-28T01:02:54.009Z | tags: llms, llms-claude, llms-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/27/tracing-the-thoughts-of-a-large-language-model/#atom-everything">Tracing the thoughts of a large language model</a>
+          <div class="card-meta">28 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>In a follow-up to the research that brought us the [delightful Golden Gate Claude](https://simonwillison.net/2024/May/24/golden-gate-claude/) last year, Anthropic have published two new papers about LLM interpretability: - [Circuit Tracing: Revealing Computational …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-27T17:27:47.833Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2025/03/anthropic-rabbit-hole.jpg?resize=854,569" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2025/03/27/1113916/anthropic-can-now-track-the-bizarre-inner-workings-of-a-large-language-model/">Anthropic can now track the bizarre inner workings of a large language model</a>
+          <div class="card-meta">27 Mar 2025</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>What they found challenges some basic assumptions about how this technology really works.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-20T17:02:13.254Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2025/03/website-hero-websearch.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/anthropic-just-gave-claude-a-superpower-real-time-web-search-heres-why-it-changes-everything/">Anthropic just gave Claude a superpower: real-time web search. Here’s why it changes everything</a>
+          <div class="card-meta">20 Mar 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic launches real-time web search for Claude AI, challenging ChatGPT&#39;s dominance while securing $3.5 billion in funding at a $61.5 billion valuation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-26T21:26:19.886Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/4zrzovbb/website/9b52e961f8f275e21e75c477c99672abd13fe66b-2400x1260.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet and Claude Code</a>
+          <div class="card-meta">26 Feb 2025</div>
+          <div class="card-meta card-domain">anthropic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today, we’re announcing Claude 3.7 Sonnet, our most intelligent model to date and the first hybrid reasoning model generally available on the market.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-28T18:57:00.532Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/4zrzovbb/website/393cf77dd5c15761c47f2db9f80e30b4f6309708-2880x1620.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anthropic.com/research/developing-computer-use?ref=thediff.co">Developing a computer use model</a>
+          <div class="card-meta">28 Oct 2024</div>
+          <div class="card-meta card-domain">anthropic.com</div>
+        </div>
+        <div class="card-section">
+          <p>A discussion of how Anthropic&#39;s researchers developed Claude&#39;s new computer use skill, along with some relevant safety considerations</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-15T22:58:04.000Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/4zrzovbb/website/8a4eb6c412e5e7ffa38f07233344f4b7e6644994-2400x1200.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anthropic.com/news/claude-3-5-sonnet">Claude 3.5 Sonnet</a>
+          <div class="card-meta">15 Jul 2024</div>
+          <div class="card-meta card-domain">anthropic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introducing Claude 3.5 Sonnet—our most intelligent model yet. Sonnet now outperforms competitor models and Claude 3 Opus on key evaluations, at twice the speed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-17T12:58:21.000Z | tags: llms, llms-claude -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/745bc9c2a06a632586be86215858e9baa9db7dd47ef54f48c99a0cc906248e09/anthropics/anthropic-cookbook" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/anthropics/anthropic-cookbook">anthropics/anthropic-cookbook: A collection of notebooks/recipes showcasing</a>
+          <div class="card-meta">17 Apr 2024</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. - anthropics/anthropic-cookbook</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

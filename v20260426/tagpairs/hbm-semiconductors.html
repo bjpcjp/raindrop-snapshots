@@ -1,0 +1,1003 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>hbm + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-10-14T12:11:05.626Z | tags: hbm, interconnects, packaging, semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2025/10/Onto_Interconnect-Innovations-in-HBM-part2-fig1.webp?fit=975%2C606&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/interconnect-innovations-in-high-bandwidth-memory-part-2/">Interconnect Innovations In High Bandwidth Memory: Part 2</a>
+          <div class="card-meta">14 Oct 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Bump technologies are being pushed beyond what was thought to be their physical and performance limits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-11T14:08:11.550Z | tags: chip-design, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/AdobeStock_594956379-data-center-MARch-26-2025-scaled.jpeg?fit=2560%2C1440&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/the-demise-of-static-timing-verification/">The Demise Of Static Timing Verification?</a>
+          <div class="card-meta">11 Sep 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Timing is increasingly dependent on vectors. Can static techniques continue to deliver the necessary results? Maybe.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-05T16:54:43.306Z | tags: arxiv, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2508.20425">The Future of Memory: Limits and Opportunities</a>
+          <div class="card-meta">5 Sep 2025</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Memory latency, bandwidth, capacity, and energy increasingly limit performance. In this paper, we reconsider proposed system architectures that consist of huge (many-terabyte to petabyte scale) memories shared among large numbers of CPUs. We argue two practical engineering challenges, scaling and signaling, limit such designs. We propose the opposite approach. Rather than create large, shared, homogenous memories, systems explicitly break memory up into smaller slices more tightly coupled with compute elements. Leveraging advances in 2.5D/3D integration, this compute-memory node provisions private local memory, enabling accesses of node-exclusive data through micrometer-scale distances, and dramatically reduced access cost. In-package memory elements support shared state within a processor, providing far better bandwidth and energy-efficiency than DRAM, which is used as main memory for large working sets and cold data. Hardware making memory capacities and distances explicit allows software to efficiently compose this hierarchy, managing data placement and movement.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-31T20:35:21.235Z | tags: semiconductors, chip-design, hbm -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2025/08/Back-Side-Power-Delivery-BSPD-SemiWiki.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/wikis/industry-wikis/backside-power-delivery-bspd-wiki/">Backside Power Delivery (BSPD) Wiki</a>
+          <div class="card-meta">31 Aug 2025</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Backside Power Delivery (BSPD), also called Backside Power Delivery Network (BSPDN) or backside power via (BPV) technology, is a semiconductor manufacturing innovation in which the chip’s primary power distribution network … Continue reading &quot;Backside Power Delivery (BSPD) Wiki&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-03T23:24:46.630Z | tags: semiconductors, interconnects, hbm -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/fig1_interposers.png?fit=2024%2C1028&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/physics-limits-interposer-line-lengths/">Physics Limits Interposer Line Lengths</a>
+          <div class="card-meta">3 Jul 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Thin lines and limited ground planes keep RDL interconnects short.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-17T01:58:22.790Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4D22AQGvtGYacRncdw/feedshare-shrink_1280/B4DZdyHOW.HMAk-/0/1749966189214?e=2147483647&amp;v=beta&amp;t=v9a-lw6wv45J2iAuQgofaoAZzQfZMsQniDfDrEMhyd0" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/vademilyasov_hbm-highbandwidthmemory-semiconductors-activity-7339890191878316033-bAYl?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">HBM roadmap</a>
+          <div class="card-meta">17 Jun 2025</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>A slide deck revealing the plans (and expectations) for next-generation High Bandwidth Memory (HBM) technology was published by Korea Advanced Institute of Science and Technology and TERA (Terabyte Interconnection and Package Laboratory).
+
+Starting with HBM4. This will be the go-to standard for next-gen data centers and AI GPUs that are launching in 2026. Both AMD and NVIDIA have confirmed the use of HBM for their MI400 and Rubin offerings.
+
+Next-gen memory will continue to scale in stacked layers, but each layer will become thinner. HBM thickness is expected not to exceed 720 micrometers, with HBM5 targeting 36µm per DRAM die.
+
+Given the increase in power consumption, KAIST and TERA expect that HBM5 (100W) and HBM6 (120W) will already require immersion cooling, while HBM7 (160W) and HBM8 (180W) could feature embedded cooling solutions.
+
+With the arrival of glass-based silicon interposers, the research firm highlights the use of embedded cooling as the standard approach, which will go through the interposer and offer direct-cooling to the HBM, HBF, and GPU IPs.
+
+Read more by Wccftech: https://lnkd.in/d--5qUwx
+
+#HBM #HighBandwidthMemory #Semiconductors #AdvancedPackaging #MemoryTechnology #AIHardware #GPU #ChipDesign #ImmersionCooling #ThermalManagement #TechInnovation #FutureOfComputing #NVIDIA #AMD #HighPerformanceComputing #DeepTech #DataCenterTechnology #KAIST #KoreaTech #TERA | 15 comments on LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-15T16:14:47.847Z | tags: semiconductors, interconnects, chip-design, hbm -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/LPHP-May-2025-Bryon-UCle.png?fit=1458%2C1312&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/die-to-die-interconnect-standards-in-flux/">Die-to-die Interconnect Standards In Flux</a>
+          <div class="card-meta">15 May 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many features of UCIe 2.0 seen as “heavy” are optional, causing confusion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-24T19:40:59.302Z | tags: semiconductors, packaging, hbm -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2025/04/tsmc-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/tsmc-cutting-edge-sow-x-packaging-set-for-mass-production-by-2027/">TSMC’s Cutting-Edge SoW-X Packaging Set For Mass Production By 2027; Delivering 40x Higher Computi…</a>
+          <div class="card-meta">24 Apr 2025</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>TSMC also revealed developments in advanced packaging technologies at the NA Technology Symposium, and they look interesting.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-26T21:35:46.061Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4E22AQH5L9oZ_HqKmw/feedshare-shrink_800/B4EZXKVKTeHUAk-/0/1742856301268?e=2147483647&amp;v=beta&amp;t=9sAsYWDWAetgGE6IJhvBhgTdIQKpuqJD_bDZKI_STbg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/nader-el-masri-coo_the-future-of-ai-accelerators-a-roadmap-activity-7310216406921281536-EGE2?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">The Future of AI Accelerators: A Roadmap of Industry Leaders The AI… | Nader EL-Masri</a>
+          <div class="card-meta">26 Mar 2025</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Future of AI Accelerators: A Roadmap of Industry Leaders
+
+The AI hardware race is heating up, with major players like NVIDIA, AMD, Intel, Google, Amazon, and more unveiling their upcoming AI accelerators. Here’s a quick breakdown of the latest trends:
+
+Key Takeaways:
+
+NVIDIA Dominance: NVIDIA continues to lead with a robust roadmap, extending from H100 to future Rubin and Rubin Ultra chips with HBM4 memory by 2026-2027.
+
+AMD’s Competitive Push: AMD’s MI300 series is already competing, with MI350 and future MI400 models on the horizon.
+
+Intel’s AI Ambitions: Gaudi accelerators are growing, with Falcon Shores on track for a major memory upgrade.
+
+Google &amp;amp; Amazon’s Custom Chips: Google’s TPU lineup expands rapidly, while Amazon’s Trainium &amp;amp; Inferentia gain traction.
+
+Microsoft &amp;amp; Meta’s AI Expansion: Both companies are pushing their AI chip strategies with Maia and MTIA projects, respectively.
+
+Broadcom &amp;amp; ByteDance Join the Race: New challengers are emerging, signaling increased competition in AI hardware.
+
+
+What This Means:
+
+With the growing demand for AI and LLMs, companies are racing to deliver high-performance AI accelerators with advanced HBM (High Bandwidth Memory) configurations. The next few years will be crucial in shaping the AI infrastructure landscape.
+
+$NVDA $AMD $INTC $GOOGL $AMZN $META $AVGO $ASML $BESI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-30T11:37:18.220Z | tags: cpus, semiconductors, datacenters, hbm -->
+      <div class="card-image">
+        <img src="http://www.nextplatform.com/wp-content/uploads/2022/03/chiplet-logo-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2025/01/29/the-road-ahead-for-datacenter-compute-engines-the-cpus/">The Road Ahead For Datacenter Compute Engines: The CPUs</a>
+          <div class="card-meta">30 Jan 2025</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>It is often said that companies – particularly large companies with enormous IT budgets – do not buy products, they buy roadmaps. No one wants to go to</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-12T11:12:55.152Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Bryon-IMC-1.png?fit=908%2C796&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/is-in-memory-compute-still-alive/">Is In-Memory Compute Still Alive?</a>
+          <div class="card-meta">12 Dec 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>It hasn’t achieved commercial success, but there is still plenty of development happening; analog IMC is getting a second chance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-27T13:14:31.706Z | tags: interconnects, optics-photonics, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/10/xscape-photonics-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/10/17/one-laser-to-pump-up-ai-interconnect-bandwidth-by-10x/">One Laser To Pump Up AI Interconnect Bandwidth By 10X</a>
+          <div class="card-meta">27 Oct 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>According to rumors, Nvidia is not expected to deliver optical interconnects for its GPU memory-lashing NVLink protocol until the “Rubin Ultra” GPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-25T14:13:43.231Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/MSSCorps_Figure3-600x340-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/gate-all-around-gaa-the-ultimate-solution-to-reduce-leakage/">Gate-All-Around (GAA): The Ultimate Solution to Reduce Leakage - EE Times</a>
+          <div class="card-meta">25 Oct 2024</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>As awareness of environmental, social, and governance (ESG) issues grows, companies are adopting strategies for sustainable operations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-17T11:58:31.074Z | tags: interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/10/xscape-photonics-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/10/16/one-laser-to-pump-up-ai-interconnect-bandwidth-by-10x/">One Laser To Pump Up AI Interconnect Bandwidth By 10X</a>
+          <div class="card-meta">17 Oct 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>According to rumors, Nvidia is not expected to deliver optical interconnects for its GPU memory-lashing NVLink protocol until the “Rubin Ultra” GPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-27T23:43:02.000Z | tags: foundries, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/intel-vs-samsung-vs-tsmc">Intel Vs. Samsung Vs. TSMC</a>
+          <div class="card-meta">27 Jul 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Foundry competition heats up in three dimensions and with novel technologies as planar scaling benefits diminish.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-13T04:35:16.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/64987/content/hero-hbm-dram-example.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/jedec-finalizes-hbm4-spec">JEDEC Finalizes HBM4 Spec With A Key Upgrade For Memory Manufacturers</a>
+          <div class="card-meta">13 Jul 2024</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>HBM4 is going to double the bandwidth of HBM3, but not through the usual increase in clock rate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-25T00:52:17.000Z | tags: materials, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/warp1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/controlling-warpage-in-advanced-packages">Controlling Warpage In Advanced Packages</a>
+          <div class="card-meta">25 Jun 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Mechanical stresses increase with larger sizes and heterogeneous materials.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-17T00:27:18.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://medias.yolegroup.com/uploads/2024/02/reseau-mainboard-service-radiodiffusion-jouets.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.yolegroup.com/press-release/dram-an-industry-in-full-flight">DRAM: an industry in full flight</a>
+          <div class="card-meta">17 Jun 2024</div>
+          <div class="card-meta card-domain">yolegroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Generative AI and High Bandwidth Memory (HBM) fuel DRAM market growth. OUTLINE The HBM market has the potential to grow to US$14 billion in 2024. Yole Group expects HBM revenue growth to continue with a CAGR23-29 of ~38%, reaching about US$37.7 billion in 2029. 4F2 cell designs, hybrid bonding, and monolithic 3D DRAM will enable […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-07T19:46:24.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/four-lines-of-gray-rectangular-shapes-the-center-two-lines-connect.png?id=53149519&amp;width=1200&amp;height=600&amp;coordinates=0%2C217%2C0%2C217" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/hybrid-bonding">Hybrid Bonding Plays Starring Role in 3D Chips</a>
+          <div class="card-meta">7 Jun 2024</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Tech makes millions of connections in a square millimeter of silicon</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-11T21:50:29.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fcms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F6%2F8%2F2%2F47662864-1-eng-GB%2F198616488_l.jpg?width=1260&amp;fit=cover&amp;gravity=faces&amp;dpr=2&amp;quality=medium&amp;source=nar-cms&amp;format=auto&amp;height=630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://asia.nikkei.com/Business/Business-Spotlight/AI-memory-emerges-as-new-battleground-for-SK-Hynix-Samsung-and-others">AI memory emerges as new battleground for SK Hynix, Samsung and others</a>
+          <div class="card-meta">11 May 2024</div>
+          <div class="card-meta card-domain">asia.nikkei.com</div>
+        </div>
+        <div class="card-section">
+          <p>Demand for high-bandwidth memory is driving competition -- and prices -- higher</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-23T18:47:06.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2024/04/Rambus-GDDR7-Memory-Controller-IP-Main-FT.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/rambus-gddr7-memory-controller-ip-pam3-signaling-48-gbps-192-gbps-bandwidth">Rambus Unveils GDDR7 Memory Controller IP: PAM3 Signaling, Up To 48 Gbps Da</a>
+          <div class="card-meta">23 Apr 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Rambus has unveiled its next-gen GDDR7 memory controller IP, featuring PAM3 Signaling, and up to 48 Gbps transfer speeds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-05T16:42:27.000Z | tags: gpus, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/03/eliyan-logo2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/03/28/how-to-build-a-better-blackwell-gpu-than-nvidia-did">How To Build A Better “Blackwell” GPU Than Nvidia Did</a>
+          <div class="card-meta">5 Apr 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>While a lot of people focus on the floating point and integer processing architectures of various kinds of compute engines, we are spending more and more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-14T05:25:25.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsemianalysis.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D319720432%26version%3D9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/accelerator-model">Accelerator Industry Model</a>
+          <div class="card-meta">14 Mar 2024</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>The SemiAnalysis AI accelerator model is used to gauge historical and future accelerator production by company and type.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T06:08:51.000Z | tags: inference, semiconductors, tpu, hbm, sram -->
+      <div class="card-image">
+        <img src="https://blocksandfiles.com/wp-content/uploads/2024/01/Jonathan-Ross.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blocksandfiles.com/2024/01/23/grokking-groqs-groqness">Grokking Groq’s Groqness</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">blocksandfiles.com</div>
+        </div>
+        <div class="card-section">
+          <p>Startup Groq has developed an machine learning processor that it claims blows GPUs away in large language model workloads – 10x faster than an Nvidia GPU at 10 percent of the cost, and needing a tenth of the electricity. Update: Groq model compilation time and time from access to getting it up and running clarified. […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T01:46:07.000Z | tags: inference, llms, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aad86a5-7fda-444f-9179-7912e9196547_2156x1100.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/groq-inference-tokenomics-speed-but">Groq Inference Tokenomics: Speed, But At What Cost?</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Faster than Nvidia? Dissecting the economics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-17T17:36:28.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Siemens_fig02_.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/the-seven-pillars-of-ic-package-physical-design">The Seven Pillars Of IC Package Physical Design</a>
+          <div class="card-meta">17 Feb 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Embracing emerging approaches is essential for crafting packages that address the evolving demands of sustainability, technology, and consumer preferences.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-30T23:51:03.000Z | tags: china, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F593e99c8-f0f4-468c-88f0-45c79e4d2544_1792x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/wafer-wars-deciphering-latest-restrictions?publication_id=329241&amp;r=oc5d&amp;triggerShare=true">Wafer Wars: Deciphering Latest Restrictions On AI And Semiconductor Manufacturing</a>
+          <div class="card-meta">30 Oct 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>China&#39;s Countermove: How Beijing is Dodging New Semiconductor Restrictions</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-21T22:21:18.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/62866/content/Samsung-HBM3E-news.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/samsung-unveils-shinebolt-hbm3e-memory-nearly-10gbps-blistering-gddr7">Samsung Unveils Shinebolt HBM3E Memory At Nearly 10Gbps And Blistering 32Gb</a>
+          <div class="card-meta">21 Oct 2023</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>We&#39;re getting a first glimpses of Samsung&#39;s next-generation HBM3E and GDDR7 memory chips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-09T15:32:48.000Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7200eed5-4750-42ef-9709-755af8ec5f0e_2387x2025.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/ai-capacity-constraints-cowos-and">AI Capacity Constraints - CoWoS and HBM Supply Chain</a>
+          <div class="card-meta">9 Jul 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quarterly Ramp for Nvidia, Broadcom, Google, AMD, AMD Embedded (Xilinx), Amazon, Marvell, Microsoft, Alchip, Alibaba T-Head, ZTE Sanechips, Samsung, Micron, and SK Hynix</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-22T21:59:39.000Z | tags: cpus, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f05107e-aad1-4b2d-922c-ddbcafb39085_1252x704.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/ai-server-cost-analysis-memory-is">AI Server Cost Analysis – Memory Is The Biggest Loser</a>
+          <div class="card-meta">22 Jun 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Micron $MU looks very weak in AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-05T20:06:05.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://blocksandfiles.com/wp-content/uploads/2022/01/stars.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blocksandfiles.com/2023/05/05/50784">3D DRAM could be revolutionary – if it works</a>
+          <div class="card-meta">5 May 2023</div>
+          <div class="card-meta card-domain">blocksandfiles.com</div>
+        </div>
+        <div class="card-section">
+          <p>We asked memory semiconductor industry analyst Jim Handy of Objective Analysis how he views 3D DRAM technology.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-06T19:41:08.000Z | tags: cpus, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2023/03/Core-counts-min.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/artificial-intelligence/326727-interconnect-under-the-spotlight-as-core-counts-accelerate">Interconnect Under the Spotlight as Core Counts Accelerate - SemiWiki</a>
+          <div class="card-meta">6 Apr 2023</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the march to more capable, faster, smaller, and lower…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:56:17.000Z | tags: chip-design, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Fig01_Cadence-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/true-3d-is-much-tougher-than-2-5d">True 3D Is Much Tougher Than 2.5D</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>While terms often are used interchangeably, they are very different technologies with different challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-25T13:18:03.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/HBM-Diagram-copy.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/choosing-the-correct-high-bandwidth-memory">Choosing The Correct High-Bandwidth Memory</a>
+          <div class="card-meta">25 Jan 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New applications require a deep understanding of the tradeoffs for different types of DRAM.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-22T20:43:26.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/877a1d39a9ea1dac835e0ee883ce8ecb936e1d8936e09bc4197544afab41ba88/aolofsson/awesome-opensource-hardware" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/aolofsson/awesome-hardware-tools">aolofsson/awesome-opensource-hardware: List of awesome open source hardware tools, generators, and reusable designs</a>
+          <div class="card-meta">22 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>List of awesome open source hardware tools, generators, and reusable designs - aolofsson/awesome-opensource-hardware</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-26T23:40:40.000Z | tags: circuits-electronics, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Fig01_Rambus.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/how-memory-design-optimizes-system-performance">How Memory Design Optimizes System Performance</a>
+          <div class="card-meta">26 Sep 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Changes are steady in the memory hierarchy, but how and where that memory is accessed is having a big impact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T21:49:34.000Z | tags: interconnects, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9745ff9a-f152-492a-848b-500586c6f853_1280x720.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fabricatedknowledge.com/p/cxl-protocol-for-heterogenous-datacenters">CXL: Protocol for Heterogenous Datacenters</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">fabricatedknowledge.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s learn more about the world&#39;s most important manufactured product. Meaningful insight, timely analysis, and an occasional investment idea.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-06T21:49:59.000Z | tags: gpus, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/12/nvidia-dpu-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2022/01/06/nvidia-research-plots-a-course-to-multiple-multichip-gpu-engines">Nvidia Research Plots A Course To Multiple Multichip GPU Engines</a>
+          <div class="card-meta">6 Jan 2022</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are two types of packaging that represent the future of computing, and both will have validity in certain domains: Wafer scale integration and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-05T10:57:02.000Z | tags: deep-learning, semiconductors, tpu, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gwern.net/docs/ai/2021-jouppi.pdf">Ten Lessons From Three Generations Shaped Google’s TPUv4i - 2021-jouppi.pdf</a>
+          <div class="card-meta">5 Jan 2022</div>
+          <div class="card-meta card-domain">gwern.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:48:26.000Z | tags: fpgas, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://images.synopsys.com/is/image/synopsys/blogs-social-share-1200x628?ts=1726609273994&amp;$responsive$" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blogs.synopsys.com/breakingthethreelaws/2015/02/how-many-asic-gates-does-it-take-to-fill-an-fpga">Synopsys Blog | Latest Insights on EDA, IP &amp; Systems Design</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">blogs.synopsys.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore Synopsys Blog for the latest insights and trends in EDA, IP, and Systems Design. Stay updated with expert articles and industry news.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:54:20.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/06/K3QMuk7N.jpeg?fit=1600%2C534&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/dram-tradeoffs-speed-vs-energy">DRAM Tradeoffs: Speed Vs. Energy</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Experts at the Table: Which type of DRAM is best for different applications, and why performance and power can vary so much.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:44:34.000Z | tags: deep-learning, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2016/06/ab_53434447820.jpe" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/02/02/memory-core-new-deep-learning-research-chip">Memory at the Core of New Deep Learning Research Chip</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the last two years, there has been a push for novel architectures to feed the needs of machine learning and more specifically, deep neural networks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T15:59:46.000Z | tags: deep-learning, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2018/04/baidu_front.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/25/a-look-at-baidus-industrial-scale-gpu-training-architecture">A Look at Baidu’s Industrial-Scale GPU Training Architecture</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Like its U.S. counterpart, Google, Baidu has made significant investments to build robust, large-scale systems to support global advertising programs. As</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-23T13:17:01.000Z | tags: chip-design, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Ryzen.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/bumps-vs-hybrid-bonding-for-advanced-packaging">Bumps Vs. Hybrid Bonding For Advanced Packaging</a>
+          <div class="card-meta">23 Jun 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New interconnects offer speed improvements, but tradeoffs include higher cost, complexity, and new manufacturing challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-09T01:44:43.000Z | tags: cpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/07zI5HXgv0QhKowK8q7KJaf/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/computing/321658-sapphire-rapids-cpu-leak-up-to-56-cores-64gb-of-onboard-hbm2">Sapphire Rapids CPU Leak: Up to 56 Cores, 64GB of Onboard HBM2</a>
+          <div class="card-meta">9 Apr 2021</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sapphire Rapids, Intel&#39;s next server architecture, looks like a large leap over the just-launched Ice Lake SP.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-17T11:47:38.000Z | tags: semiconductors, startups, tpu, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/02/TPU_featured_image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/02/16/what-chip-startups-can-learn-from-googles-tpu-design-team">What Chip Startups Can Learn from Google’s TPU Design Team</a>
+          <div class="card-meta">17 Feb 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>The inception of Google’s effort to build its own AI chips is quite well known by now but in the interests of review, we’ll note that as early 2013 the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-29T15:54:15.000Z | tags: chip-design, packaging, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.electronicproducts.com/wp-content/uploads/Samsung-Through-silicon-via.jpg?fit=706%2C686" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.electronicproducts.com/10-basic-advanced-ic-packaging-terms-to-know">10 basic advanced IC packaging terms to know</a>
+          <div class="card-meta">29 Dec 2020</div>
+          <div class="card-meta card-domain">electronicproducts.com</div>
+        </div>
+        <div class="card-section">
+          <p>Engineers must keep pace with advanced IC packaging technology as it evolves rapidly, starting with understanding the basic terms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-27T17:43:37.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/16036/Tsubasa_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/16036/2023-interposers-tsmc-hints-at-2000mm2-12x-hbm-in-one-package">2023 Interposers: TSMC Hints at 3400mm2 12x HBM in one Package</a>
+          <div class="card-meta">27 Aug 2020</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-25T11:38:10.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.digitimes.com/newsshow/20200825pd201_files/1_b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitimes.com/news/a20200825PD201.html">CXMT scaling up 19nm DRAM output with better yield rates</a>
+          <div class="card-meta">25 Aug 2020</div>
+          <div class="card-meta card-domain">digitimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>China-based DRAM chipmaker ChangXin Memory Technologies (CXMT) is scaling up its 19nm chip output with better yield rates, with the monthly production likely to top 70,000 wafers by the end of 2020, according to industry sources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-14T18:11:17.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/15978/micron_dram_bare_die_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/15978/micron-spills-on-gddr6x-pam4-signaling-for-higher-rates-coming-to-nvidias-rtx-3090">Micron Spills on GDDR6X: PAM4 Signaling For Higher Rates, Coming to NVIDIA’</a>
+          <div class="card-meta">14 Aug 2020</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-23T01:07:44.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://fuse.wikichip.org/wp-content/uploads/2020/03/n5-shuttle.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fuse.wikichip.org/news/3398/tsmc-details-5-nm">TSMC Details 5 nm</a>
+          <div class="card-meta">23 Mar 2020</div>
+          <div class="card-meta card-domain">fuse.wikichip.org</div>
+        </div>
+        <div class="card-section">
+          <p>TSMC details its 5-nanometer node for mobile and HPC applications. The process features the industry&#39;s highest density transistors with a high-mobility channel and highest-density SRAM cells.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-31T19:59:23.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2019/10/packaging2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/whats-the-best-advanced-packaging-option">What’s The Best Advanced Packaging Option?</a>
+          <div class="card-meta">31 Oct 2019</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A dizzying array of choices and options pave the way for the next phase of scaling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-07T12:09:20.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.jameswhanlon.com/new-chips-for-machine-intelligence.html">New chips for machine intelligence</a>
+          <div class="card-meta">7 Oct 2019</div>
+          <div class="card-meta card-domain">jameswhanlon.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:36:31.000Z | tags: semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/11/whychipsdie2.png?fit=974%2C679&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/why-chips-die">Why Chips Die</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why Chips Die Semiconductor devices face many hazards before and after manufacturing that can cause them to fail prematurely.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-06T15:28:18.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/09/Mythic-architecture.png?fit=1640%2C746&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/processing-in-memory">Processing In Memory</a>
+          <div class="card-meta">6 Sep 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Processing In Memory Growing volume of data and limited improvements in performance create new opportunities for approaches that never got off the ground.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-12T02:49:05.000Z | tags: deep-learning, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/05/tpu2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www-nextplatform-com.cdn.ampproject.org/c/s/www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/amp">Tearing Apart Google’s TPU 3.0 AI Coprocessor</a>
+          <div class="card-meta">12 May 2018</div>
+          <div class="card-meta card-domain">www-nextplatform-com.cdn.ampproject.org</div>
+        </div>
+        <div class="card-section">
+          <p>Google did its best to impress this week at its annual IO conference. While Google rolled out a bunch of benchmarks that were run on its current Cloud TPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-09-24T00:00:00.000Z | tags: hbm, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Screenshot-2024-09-12-at-10.39.17%E2%80%AFAM-758x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/memory-fundamentals-for-engineers">Memory Fundamentals For Engineers</a>
+          <div class="card-meta">24 Sep 2017</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>eBook: Nearly everything you need to know about memory, including detailed explanations of the different types of memory; how and where these are used today; what&#39;s changing, which memories are successful and which ones might be in the future; and the limitations of each memory type.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-10T21:36:19.000Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2015/11/legos_oh.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.nextplatform.com/2016/10/10/memory-next-platform">Memory is the Next Platform</a>
+          <div class="card-meta">10 Oct 2016</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new crop of applications is driving the market along some unexpected routes, in some cases bypassing the processor as the landmark for performance and</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

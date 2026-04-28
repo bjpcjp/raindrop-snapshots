@@ -1,0 +1,1868 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + python &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-06-21T21:25:03.885Z | tags: python, machine-learning, ml-ops -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2025/06/mlm-10-python-libraries-mlops.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/10-must-know-python-libraries-for-mlops-in-2025/">10 Must-Know Python Libraries for MLOps in 2025</a>
+          <div class="card-meta">21 Jun 2025</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we’ll explore 10 Python libraries that every machine learning professional should know in 2025.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-11T14:08:24.283Z | tags: python, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/Ferrer_10_little_known_libraries1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/10-little-known-python-libraries-data-wizard">10 Little-Known Python Libraries That Will Make You Feel Like a Data Wizard - KDnuggets</a>
+          <div class="card-meta">11 Feb 2025</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I will introduce you to 10 little-known Python libraries every data scientist should know.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-07T12:20:50.087Z | tags: python, machine-learning -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2025/02/50-Projects-to-Learn-Data-Analysis.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2025/02/07/50-projects-to-learn-data-analysis/">50+ Projects to Learn Data Analysis | Aman Kharwal</a>
+          <div class="card-meta">7 Feb 2025</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through a list of 50+ Data Analysis Projects you should try to learn Data Analysis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-31T12:21:37.878Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2025/01/80-Hands-on-Data-Science-Projects.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2025/01/31/80-data-science-projects/">80+ Data Science Projects | Aman Kharwal</a>
+          <div class="card-meta">31 Jan 2025</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through a list of 80+ hands-on Data Science projects you should try to learn everything in Data Science.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-24T11:57:24.621Z | tags: python, machine-learning -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2025/01/50-AI-ML-Projects-with-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2025/01/24/50-ai-ml-projects-with-python/">50+ AI &amp; ML Projects with Python | Aman Kharwal</a>
+          <div class="card-meta">24 Jan 2025</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through a list of 50+ AI &amp; ML projects solved &amp; explained with Python that you should try.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-18T00:38:14.166Z | tags: llms, nlp, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/bonus/bpe-from-scratch/bpe-overview.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sebastianraschka.com/blog/2025/bpe-from-scratch.html">Implementing A Byte Pair Encoding (BPE) Tokenizer From Scratch</a>
+          <div class="card-meta">18 Jan 2025</div>
+          <div class="card-meta card-domain">sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is a standalone notebook implementing the popular byte pair encoding (BPE) tokenization algorithm, which is used in models like GPT-2 to GPT-4, Llama 3,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-10T17:02:44.903Z | tags: python, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/awan_7_essential_python_libraries_mlops_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/7-essential-python-libraries-mlops">7 Essential Python Libraries for MLOps - KDnuggets</a>
+          <div class="card-meta">10 Dec 2024</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Popular MLOps Python tools that will make machine learning model deployment a piece of cake.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-16T01:27:42.425Z | tags: analytics, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*HojAeCqsrX-W2e61iKlt_Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/marketing-mix-modeling-mmm-how-to-avoid-biased-channel-estimates-f9201fc3e91d?source=rss----7f60cf5620c9---4">Marketing Mix Modeling (MMM): How to Avoid Biased Channel Estimates</a>
+          <div class="card-meta">16 Oct 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn which variables you should and should not take into account in your model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-18T19:53:35.000Z | tags: algorithms-math, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*AesSE_wxa1UCZKKHZLt8rg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-perfect-way-to-smooth-your-noisy-data-4f3fe6b44440?source=rss----7f60cf5620c9---4">The Perfect Way to Smooth Your Noisy Data</a>
+          <div class="card-meta">18 Jan 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Insanely fast and reliable smoothing and interpolation with the Whittaker-Eilers method.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-30T23:53:51.000Z | tags: algorithms-math, machine-learning, market-basket, python, analytics -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/10/Market-Basket-Analysis-using-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/10/16/market-basket-analysis-using-python">Market Basket Analysis using Python</a>
+          <div class="card-meta">30 Oct 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through the task of Market Basket Analysis using Python. Market Basket Analysis using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T00:57:40.000Z | tags: machine-learning, python, survival-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*TGrU4kiM0nMnlz2M" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-complete-introduction-to-survival-analysis-in-python-7523e17737e6">The Complete Introduction to Survival Analysis in Python | by Marco Peixeir</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understand survival analysis, its use in the industry, and how to apply it in Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:42.000Z | tags: analytics, machine-learning, prodmgmt, python, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*0IhNM1bWxPaxFGz7bGqobw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-a-data-scientists-guide-to-optimizing-a-credit-card-renewal-campaign-9f02f863067a">Uplift Modeling — A Data Scientist’s Guide to Optimizing a Credit Card Rene</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Applying causal machine learning to trim the campaign target audience</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-31T10:51:16.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VTH67RVNsQSjiHJWVsB_5Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/sklearn-pipelines-for-the-modern-ml-engineer-9-techniques-you-cant-ignore-637788f05df5">Sklearn Pipelines for the Modern ML Engineer: 9 Techniques You Can’t Ignore</a>
+          <div class="card-meta">31 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Master Sklearn pipelines for effortless and efficient machine learning. Discover the art of building, optimizing, and scaling models with ease. Level up your data preprocessing skills and supercharge your ML workflow today</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T16:53:08.000Z | tags: association-rules, machine-learning, market-basket, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ap-ZMb3c6aIRhPFb" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-guide-to-association-rule-mining-96c42968ba6?source=rss----7f60cf5620c9---4">A Guide to Association Rule Mining</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create insights from frequent patterns using market basket analysis with Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T13:22:49.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:630/0*ueAbHTAlJ7SNZnkF" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://moez-62905.medium.com/announcing-pycaret-3-0-an-open-source-low-code-machine-learning-library-in-python-7479e9190fa1">Announcing PyCaret 3.0: Open-source, Low-code Machine Learning in Python</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">moez-62905.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Exploring the Latest Enhancements and Features of PyCaret 3.0</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T12:43:50.000Z | tags: machine-learning, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*WDU93_y4BTEMT_iL" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-make-40-interactive-plots-to-analyze-your-machine-learning-pipeline-ee718afd7bc2">How to make 40 interactive plots to analyze your machine learning pipeline</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A quick guide on how to make clean-looking, interactive Python plots to validate your data and model</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-12T01:25:16.000Z | tags: machine-learning, python, testing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*AzyYWzYX8FpJqnD99QZtcw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/write-readable-tests-for-your-machine-learning-models-with-behave-ec4a27b91490?source=rss----7f60cf5620c9---4">Write Readable Tests for Your Machine Learning Models with Behave</a>
+          <div class="card-meta">12 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use natural language to test the behavior of your ML models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T22:41:31.000Z | tags: machine-learning, python, anomalies-outliers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*-7d6JMFbU1Lp_d1UJaU5LQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-perform-multivariate-outlier-detection-in-python-pyod-for-machine-learning-b0a9c557a21c?source=rss----7f60cf5620c9---4">How to Perform Multivariate Outlier Detection in Python PyOD For Machine Le</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover how to effectively detect multivariate outliers in machine learning with PyOD in Python. Learn to convert anomaly scores to probability confidence, choose the best outlier classifier and determine the right probability threshold for improved model accuracy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-02T12:07:28.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/noyan_skops_new_library_improve_scikitlearn_production_3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/02/skops-new-library-improve-scikitlearn-production.html">skops: a new library to improve scikit-learn in production</a>
+          <div class="card-meta">2 Feb 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are various challenges in MLOps and model sharing, including, security and reproducibility. To tackle these for scikit-learn models, we&#39;ve developed a new open-source library: skops. In this article, I will walk you through how it works and how to use it with an end-to-end example.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-27T14:32:08.000Z | tags: hyperparameters, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/miradi-hyperparameter-optimization-header.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/01/hyperparameter-optimization-10-top-python-libraries.html">Hyperparameter Optimization: 10 Top Python Libraries</a>
+          <div class="card-meta">27 Jan 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Become familiar with some of the most popular Python libraries available for hyperparameter optimization.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-24T21:33:16.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*9pECXqHe6hGrTYc4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introducing-pycircular-a-python-library-for-circular-data-analysis-bfd696a6a42b">Introducing PyCircular: A Python Library for Circular Data Analysis</a>
+          <div class="card-meta">24 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Circular data can present unique challenges when it comes to analysis and modeling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-13T17:50:11.000Z | tags: best-practices, machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*NZ46dHnSgDayNmsN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/7-scikit-learn-best-practices-for-data-scientists-f232a6ed2756">7 Scikit-Learn Best Practices For Data Scientists</a>
+          <div class="card-meta">13 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tips for taking full advantage of this machine learning package</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-01T15:13:37.000Z | tags: geometry, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://geometric-kernels.github.io/assets/banner.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://geometric-kernels.github.io">Geometric Kernels</a>
+          <div class="card-meta">1 Jan 2023</div>
+          <div class="card-meta card-domain">geometric-kernels.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>A cross-framework package for kernels and Gaussian processes on manifolds, graphs, and meshes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-25T19:05:10.000Z | tags: feature-engineering, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/3921b2adb2d8faa2ca4eab4057b5e8bfa414a53ac9b4d7df19fc6a722aaa3f39/PacktPublishing/Python-Feature-Engineering-Cookbook-Second-Edition" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/PacktPublishing/Python-Feature-Engineering-Cookbook-Second-Edition">PacktPublishing/Python-Feature-Engineering-Cookbook-Second-Edition: Python</a>
+          <div class="card-meta">25 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Python Feature Engineering Cookbook Second Edition, published by Packt - PacktPublishing/Python-Feature-Engineering-Cookbook-Second-Edition</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-07T23:13:33.000Z | tags: machine-learning, python, supply-chain -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*sHWNnTn8_g9wUu2m" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/last-mile-delivery-from-multiple-depots-in-python-26c4325407b4?source=rss----7f60cf5620c9---4">Last Mile Delivery From Multiple Depots in Python</a>
+          <div class="card-meta">7 Nov 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Mathematical Modeling, Solution, and Visualization Using PuLP and VeRoViz</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:02:02.000Z | tags: machine-learning, metrics, python, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*p5_lEAB_bMtMgPNt" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/product-quantization-for-similarity-search-2f1f67c5fddd">Product Quantization for Similarity Search</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to compress and fit a humongous set of vectors in memory for similarity search with asymmetric distance computation (ADC)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:01:57.000Z | tags: analytics, bayes, forecasting-predictions, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*UAUwlqs4Seck0i5b" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://buff.ly/3zzJfUy">Bayesian Hierarchical Marketing Mix Modeling in PyMC</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">buff.ly</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to build MMMs for different countries the right way</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-08T23:06:03.000Z | tags: machine-learning, python, visualization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.einblick.ai/blog/problems-with-notebooks-msftpaper">https://www.einblick.ai/blog/problems-with-notebooks-msftpaper/</a>
+          <div class="card-meta">8 Sep 2022</div>
+          <div class="card-meta card-domain">einblick.ai</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-08T01:19:39.000Z | tags: machine-learning, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Sw4KsZy5gILA-h1vVJhD_w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091">9 Visualizations with Python that Catch More Attention than a Bar Chart</a>
+          <div class="card-meta">8 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Creating eye-catching graphs with Python to use instead of bar charts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-04T22:56:41.000Z | tags: clustering, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*arWl57BFDl1ke9Rk" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-to-graph-partitioning-algorithms-and-community-detection-29e7c962d10e?source=rss----7f60cf5620c9---4">An Introduction to Graph Partitioning Algorithms and Community Detection</a>
+          <div class="card-meta">4 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Graph partitioning has been a long-lasting problem and has a wide range of applications. This post shares the methodology for graph…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-04T16:59:34.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*tyYjYxa8DvbvQG4mQwXpOw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-less-known-python-libraries-that-can-help-in-your-next-data-science-project-5970a81b32de">5 Less-Known Python Libraries That Can Help in Your Next Data Science Proje</a>
+          <div class="card-meta">4 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reduce time in your data science workflow with these libraries.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:56:46.000Z | tags: machine-learning, python, splines -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Cf7bd5ZrpdOe7rfjg7_wbw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/modeling-marketing-mix-using-smoothing-splines-98dc8e84c367">Modeling Marketing Mix Using Smoothing Splines</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Capturing non-linear advertising saturation and diminishing returns without explicitly transforming media variables</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-13T12:28:22.000Z | tags: machine-learning, python, scikit-learn, time-series -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*SWU0R_Xl2Uxj_2Zb" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/build-complex-time-series-regression-pipelines-with-sktime-910bc25c96b6?source=rss----7f60cf5620c9---4">Build Complex Time Series Regression Pipelines with sktime</a>
+          <div class="card-meta">13 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to forecast with scikit-learn and XGBoost models with sktime</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-13T01:18:20.000Z | tags: algorithms-math, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:720/1*X10Usd9AgRGfdQqvmVR2VQ.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-self-organising-map-neural-network-with-python-code-7a77f501e985">Understanding Self-Organising Map Neural Network with Python Code</a>
+          <div class="card-meta">13 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Brain-inspired unsupervised machine learning through competition, cooperation and adaptation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-11T19:15:42.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VKIGzmJrYBzcPlB6USx8OA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-solve-scheduling-problems-in-python-36a9af8de451">How to Solve Scheduling Problems in Python</a>
+          <div class="card-meta">11 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use linear programming to minimize the difference between required and scheduled resources</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T23:24:44.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://bair.berkeley.edu/blog/assets/figs/figs_intro.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://bair.berkeley.edu/blog/2022/06/30/figs">FIGS: Attaining XGBoost-level performance with the interpretability and spe</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">bair.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>The BAIR Blog</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T17:47:20.000Z | tags: geography, machine-learning, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:807/1*-KH2xQlqnHZIFJyKhgNZ3g.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-battle-of-choropleths-part-3-folium-86ab1232afc?source=rss----7f60cf5620c9---4">The Battle of Choropleths — Part 3 — Folium</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using the Folium Package to Create Stunning Choropleths</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T01:09:51.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:686/1*5QhldA6cwZclTb3azvZmuw.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/neighborhood-analysis-kd-trees-and-octrees-for-meshes-and-point-clouds-in-python-19fa96527b77">Neighborhood Analysis, KD-Trees, and Octrees for Meshes and Point Clouds in</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to use Python libraries like Open3D, PyVista, and Vedo for neighborhood analysis of point clouds and meshes through KD-Trees/Octrees</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T00:57:37.000Z | tags: decorators, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://bytepawn.com/images/decorators-ds.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bytepawn.com/python-decorators-for-data-scientists.html">Useful Python decorators for Data Scientists</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">bytepawn.com</div>
+        </div>
+        <div class="card-section">
+          <p>I show toy implementations of Python decorator patterns that may be useful for Data Scientists.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:11:00.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:972/1*hKuJSM0GmY2pW7jm3BvEyQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/one-line-of-code-to-accelerate-your-sklearn-algorithms-on-big-data-9c26190a0dc5">One Line of Code to Accelerate Your Sklearn Algorithms on Big Data</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The introduction of the intel sklearn extension. Make your Random Forest even faster than XGBoost.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:10:42.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*HWRT6au2SxhwdFV6" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924">CatBoost vs. LightGBM vs. XGBoost</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which is the best algorithm?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-08T20:51:36.000Z | tags: clustering, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SZO7fJFlgsoEptAYSmY0-w.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/ctsNVqOMVob">Louvain’s Algorithm for Community Detection in Python</a>
+          <div class="card-meta">8 Apr 2022</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Apply Louvain’s Algorithm in Python for Community Detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-10T13:27:31.000Z | tags: machine-learning, prophet, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*bJI97qZAxmQWtQcmYzuc3w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/real-world-website-visitor-forecast-with-facebook-prophet-a-complete-tutorial-8d135b848c5e">Real-world website visitor forecast with Facebook Prophet: A Complete Tutor</a>
+          <div class="card-meta">10 Mar 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>As a data analyst at Microsoft, I must investigate and understand time-series data every day. Besides looking at some key performance…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-11T19:30:49.000Z | tags: machine-learning, nlp, python, topic-modeling -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8960432/og_image/optimized/OPEN_GRAPH-34c741d3173c84f2101c6fbf01ca0e3c.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/python/topic-modeling-python?_hsenc=p2ANqtz-8ybqarqyXA4h4xlCYx-0A2xAVmpd7wIV0KTjaT5itQUz0hFZMYJBjj5DqlBz_BJnoqL5geXtZMXYuZ9dGU9kOtiIObDw&amp;_hsmi=203516612">Topic Modeling in Python | Toptal</a>
+          <div class="card-meta">11 Feb 2022</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Topic modeling can bring NLP to the next level. Here’s how.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-02T00:46:01.000Z | tags: algorithms-math, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*x_WiMjF0s6_gGRqPmDZ1Eg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513">Data Scientists, The 5 Graph Algorithms that you should know</a>
+          <div class="card-meta">2 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Because Graph Analytics is the future</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:07.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/89253020/f05d4100-6839-11eb-8595-9c797a965b17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb">scikit-and-tensorflow-workbooks/ch03-classification.ipynb at master · bjpcjp/scikit-and-tensorflow-workbooks</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>based on &quot;Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow&quot; (O&#39;Reilly, Aurelien Geron) - bjpcjp/scikit-and-tensorflow-workbooks</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-21T16:09:42.000Z | tags: machine-learning, python, survival-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*ofcmBQ79oNJHD7RJ6ckxIw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/survival-analysis-in-python-a-quick-guide-to-the-weibull-analysis-5babd4f137f6">Survival Analysis in Python: A Quick Guide to The Weibull Analysis</a>
+          <div class="card-meta">21 Jan 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Quick Guide to The Weibull Analysis</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:09:21.000Z | tags: machine-learning, prophet, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/6c9c036ecc14617d886e9ecfd7c580ecf42ffc141cbaf8ef37a43bd29a060ae2/bjpcjp/fb-prophet" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/fb-prophet/blob/master/01_docs.ipynb">fb-prophet/01_docs.ipynb at master · bjpcjp/fb-prophet</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Prophet (FB time series prediction package) docs to Python code. - bjpcjp/fb-prophet</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:50:30.000Z | tags: machine-learning, python, svm -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/89253020/f05d4100-6839-11eb-8595-9c797a965b17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb">scikit-and-tensorflow-workbooks/ch05-support-vector-machines.ipynb at master · bjpcjp/scikit-and-tensorflow-workbooks</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>based on &quot;Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow&quot; (O&#39;Reilly, Aurelien Geron) - bjpcjp/scikit-and-tensorflow-workbooks</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T19:15:02.000Z | tags: hyperparameters, machine-learning, optimization, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*AI-YmX3qqycS1Weo" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-kaggle-way-to-tune-hyperparameters-with-optuna-285e59a0b95a?source=rss----7f60cf5620c9---4">The Kaggle Way to Tune Hyperparameters with Optuna</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Easily and efficiently optimize your model’s hyperparameters with Optuna with a mini project</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T00:58:08.000Z | tags: csv, machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SFqrLpBamc7ZgTkncBLZXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-and-half-powerful-tricks-to-effectively-read-csv-data-in-python-c4699a4f9d07?source=rss----7f60cf5620c9---4">3 (and Half) Powerful Tricks To Effectively Read CSV Data In Python</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Master usecols, chunksize, parse_dates in pandas read_csv().</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:43:55.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*LUIFxh4CyQ8I8sGebTPjDg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/DzsxqYtGIlb">Mito: One of the Coolest Python Libraries You Have Ever Seen</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here is my take on this cool Python library and why you should give it a try</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T12:44:37.000Z | tags: machine-learning, python, dimensionality-reduction -->
+      <div class="card-image">
+        <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2021-11/dimensionality-reduction-python.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://builtin.com/data-science/dimensionality-reduction-python">A Guide to Dimensionality Reduction in Python</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">builtin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dimensionality reduction is a vital tool for data scientists across industries. Here is a guide to getting started with it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-03T21:07:47.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2021/08/20-awesome-sources-of-free-data-612c26257336f-sej.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.mihaileric.com/posts/setting-up-a-machine-learning-project">A Complete Machine Learning Project From Scratch: Setting Up</a>
+          <div class="card-meta">3 Nov 2021</div>
+          <div class="card-meta card-domain">mihaileric.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this first post in a series on how to build a complete machine learning product from scratch, I describe how to setup your project and tooling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T00:12:46.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*k7m_lgr--sBapUz9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/pNqb8FM5nkb">Clustering Made Easy with PyCaret</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Low-code Machine Learning with a Powerful Python Library</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-12T14:13:50.000Z | tags: machine-learning, python, streamlit -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2019/02/data-science-mitchell-e1633969798233.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/10/11/streamlit-which-helps-data-scientists-build-apps-hits-version-1-0">Streamlit, which helps data scientists build apps, hits version 1.0</a>
+          <div class="card-meta">12 Oct 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Streamlit releases v1.0 of its DataOps platform for data science apps to make it easier for data scientists to share code and components.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-28T23:01:52.000Z | tags: machine-learning, python, regressions, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*F2f1whiAvABj6le6mrLkBg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-practical-introduction-to-9-regression-algorithms-389057f86eb9?source=rss----7f60cf5620c9---4">A Practical Introduction to 9 Regression Algorithms</a>
+          <div class="card-meta">28 Sep 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hands-on tutorial to effectively use different Regression Algorithms</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-30T12:19:50.000Z | tags: machine-learning, machine-vision, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*7SF7Ai0xkGVZ5i-Xi5ABxg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-ultimate-python-libraries-for-image-processing-13f89d32769e?source=rss----7f60cf5620c9---4">5 Ultimate Python Libraries for Image Processing</a>
+          <div class="card-meta">30 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>OpenCV is not the only one</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-20T11:03:45.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://pypi.org/static/images/twitter.abaf4b19.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pypi.org/project/scikit-learn-intelex">scikit-learn-intelex · PyPI</a>
+          <div class="card-meta">20 Jul 2021</div>
+          <div class="card-meta card-domain">pypi.org</div>
+        </div>
+        <div class="card-section">
+          <p>Intel(R) Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-04T12:11:26.000Z | tags: algorithms-math, machine-learning, python, survival-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Zqk9SXBRdwmuaxd_phazag.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hands-on-survival-analysis-with-python-270fa1e6fb41?source=rss----7f60cf5620c9---4">Hands-on Survival Analysis with Python</a>
+          <div class="card-meta">4 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What companies can learn from employee turnover data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-03T21:36:51.000Z | tags: excel, machine-learning, pandas, python, supply-chain -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:728/0*OWlt7BQBEGHNNtLp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8">Read Excel files with Python. 1000x Faster.</a>
+          <div class="card-meta">3 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I’ll show you five ways to load data in Python. Achieving a speedup of 3 orders of magnitude.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-25T10:46:53.000Z | tags: boosting, gaussian, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/bb48dfabc35fc78e86b77c5a542aad051f30f9336f626594be3de3de5f2eddad/fabsig/GPBoost" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/fabsig/GPBoost">GPBoost: Combining Tree-Boosting with Gaussian Process and Mixed Effects Mo</a>
+          <div class="card-meta">25 Jun 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Combining tree-boosting with Gaussian process and mixed effects models - fabsig/GPBoost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-30T22:52:58.000Z | tags: machine-learning, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NdrqMURvbkj1oNZgbepGJg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/interpreting-scattertext-a-seductive-tool-for-plotting-text-2e94e5824858">Interpreting Scattertext: a seductive tool for plotting text</a>
+          <div class="card-meta">30 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Scroll down to see how to interpret a plot created by a great tool for comparing two classes and their corpora.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:53:57.000Z | tags: machine-learning, python, pytorch -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*x3i5Poku0ZpFzdHF" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-of-pytorch-lightning-230d03bcb262?source=rss----7f60cf5620c9---4">An Introduction to PyTorch Lightning</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Word on the street is that PyTorch lightning is a much better version of normal PyTorch. But what could it possibly have that it brought such consensus in our world? Well, it helps researchers scale…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-05T21:29:08.000Z | tags: machine-learning, prophet, python, time-series -->
+      <div class="card-image">
+        <img src="https://facebook.github.io/prophet/static/og_image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://facebook.github.io/prophet">Prophet | Forecasting at scale.</a>
+          <div class="card-meta">5 May 2021</div>
+          <div class="card-meta card-domain">facebook.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Prophet is a forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:07:14.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*MsyrS218gRTUwyniuuR4Bw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/nine-emerging-python-libraries-you-should-add-to-your-data-science-toolkit-in-2021-85ce3d239846">Nine Emerging Python Libraries You Should Add to Your Data Science Toolkit in 2022</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>As Data Science continues to grow and develop, it’s only natural for new tools to emerge, especially considering the fact that data…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-28T08:56:45.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*mMaaHlhVlIaGjocRUj5KlA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-summary-of-active-learning-frameworks-3165159baae9?source=rss----7f60cf5620c9---4">A Summary of Active Learning Frameworks</a>
+          <div class="card-meta">28 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you are dealing with a classification task, I recommend the modAL. As for the sequence labeling task, the AlpacaTag is the only choice for you. Active learning could decrease the number of labels…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-22T13:12:09.000Z | tags: machine-learning, pycaret, python, time-series -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2021/04/time-series-forecasting-pycaret-regression-module.html">Time Series Forecasting with PyCaret Regression Module</a>
+          <div class="card-meta">22 Apr 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with few lines only. See how to use PyCaret&#39;s Regression Module for Time Series Forecasting.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-13T11:43:16.000Z | tags: boosting, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*v7uP108oJifBZXrj" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/diy-xgboost-library-in-less-than-200-lines-of-python-69b6bf25e7d9?source=rss----7f60cf5620c9---4">DIY XGBoost library in less than 200 lines of python</a>
+          <div class="card-meta">13 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>XGBoost explained as well as gradient boosting method and HP tuning by building your own gradient boosting library for decision trees.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-23T10:26:05.000Z | tags: boosting, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Q6IdeF35djYrU177L_PoKA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/xgboost-regression-training-on-cpu-and-gpu-in-python-5a8187a43395?source=rss----7f60cf5620c9---4">Xgboost regression training on CPU and GPU in python</a>
+          <div class="card-meta">23 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>GPU vs CPU training speed comparison for xgboost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-21T23:23:18.000Z | tags: jupyter, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rx7ieFoK6dGNeuwJNx9hvA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/conda-essential-concepts-and-tricks-e478ed53b5b?source=rss----7f60cf5620c9---4">Conda: essential concepts and tricks</a>
+          <div class="card-meta">21 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>for beginners as well as advanced users</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-06T22:17:22.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*q1Zn-vbaMahA9kIOhVJ-kQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-use-pycaret-the-library-for-lazy-data-scientists-91343f960bd2?source=rss----7f60cf5620c9---4">How to use PyCaret — the library for lazy data scientists</a>
+          <div class="card-meta">6 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Train, visualize, evaluate, interpret, and deploy models with minimal code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-01T20:33:14.000Z | tags: machine-learning, optimization, python -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/252927263/9aa25580-5122-11eb-9d2e-f8879d82b1d5" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/SimonBlanke/Gradient-Free-Optimizers">Gradient-Free-Optimizers A collection of modern optimization methods in Pyt</a>
+          <div class="card-meta">1 Mar 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Simple and reliable optimization with local, global, population-based and sequential techniques in numerical discrete search spaces. - SimonBlanke/Gradient-Free-Optimizers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-25T23:18:40.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pycaret.readthedocs.io/en/latest/index.html">PyCaret — pycaret 2.2.0 documentation</a>
+          <div class="card-meta">25 Feb 2021</div>
+          <div class="card-meta card-domain">pycaret.readthedocs.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-25T22:18:39.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pycaret.org">Home - PyCaret</a>
+          <div class="card-meta">25 Feb 2021</div>
+          <div class="card-meta card-domain">pycaret.org</div>
+        </div>
+        <div class="card-section">
+          <p>[et_pb_section fb_built=”1″ admin_label=”Header” _builder_version=”4.12.0″ background_color=”#01012C” collapsed=”on” global_colors_info=”{}”][et_pb_row column_structure=”1_2,1_2″ _builder_version=”4.12.0″ collapsed=”on” global_colors_info=”{}”][et_pb_column type=”1_2″ _builder_version=”4.12.0″ z_index=”10″ custom_padding=”18%||||false|false” global_colors_info=”{}”][et_pb_text _builder_version=”4.14.7″ text_font=”Montserrat|800|||||||” text_text_color=”#01012C” text_font_size=”470px” text_line_height=”1em” positioning=”absolute” custom_margin=”|-30%||-10%|false|false” custom_margin_tablet=”|0%||-5%|false|false” custom_margin_phone=”|0%|||false|false” custom_margin_last_edited=”on|desktop” text_font_size_tablet=”40vw” text_font_size_phone=”40vw” text_font_size_last_edited=”on|tablet” text_text_shadow_style=”preset5″ text_text_shadow_horizontal_length=”-1.5px” text_text_shadow_vertical_length=”-1.5px” text_text_shadow_color=”#DB0EB7″ global_colors_info=”{}”] pc [/et_pb_text][et_pb_text _builder_version=”4.14.7″ header_font=”Barlow Condensed|500|||||||” header_text_color=”#FFFFFF” header_font_size=”122px” custom_margin=”||0px||false|false” header_font_size_tablet=”42px” header_font_size_phone=”26px” header_font_size_last_edited=”on|tablet” global_colors_info=”{}”] low-code machine learning [/et_pb_text][et_pb_button button_url=”https://pycaret.gitbook.io” url_new_window=”on” button_text=”GET STARTED” _builder_version=”4.14.7″ […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-24T18:45:00.000Z | tags: machine-learning, python, survival-analysis -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2020/07/guide-survival-analysis-python-part-3.html">A Complete Guide To Survival Analysis In Python, part 3 - KDnuggets</a>
+          <div class="card-meta">24 Feb 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Concluding this three-part series covering a step-by-step review of statistical survival analysis, we look at a detailed example implementing the Kaplan-Meier fitter based on different groups, a Log-Rank test, and Cox Regression, all with examples and shared code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-10T03:12:39.000Z | tags: graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*QW7XwbzFHl4Hp6dp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/generative-graph-models-with-networkx-727b154ceda4?source=rss----7f60cf5620c9---4">Generative Graph Models with NetworkX</a>
+          <div class="card-meta">10 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comprehensive guide on standard generative graph approaches with implementation in NetworkX</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-28T21:25:54.000Z | tags: images, machine-learning, python, scikit-image -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WNpAl0gOxuIJcQpaCr2T1A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/image-processing-with-python-blob-detection-using-scikit-image-5df9a8380ade?source=rss----7f60cf5620c9---4">Image Processing with Python — Blob Detection using Scikit-Image</a>
+          <div class="card-meta">28 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to identify and segregate specific blobs in your image</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-19T01:35:09.000Z | tags: machine-learning, python, kernels, svm -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.49:0.48/1*eTraVvz2Xe4BRXVW3tQOcg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/svm-classifier-and-rbf-kernel-how-to-make-better-models-in-python-73bb4914af5b?source=rss----7f60cf5620c9---4">SVM Classifier and RBF Kernel — How to Make Better Models in Python</a>
+          <div class="card-meta">19 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A complete explanation of the inner workings of Support Vector Machines (SVM) and Radial Basis Function (RBF) kernel</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-08T00:57:22.000Z | tags: machine-learning, python, scikit-learn -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*TZpAO2AoHDYSqcsh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/new-features-of-scikit-learn-fbbfe7652bfb">New Features of Scikit-Learn. An Overview of the Most Important… | by Ankit</a>
+          <div class="card-meta">8 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Overview of the Most Important Features in Version 0.24</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-23T14:43:08.000Z | tags: algorithms-math, machine-learning, optimization, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*QdcaMRVvRVkjDMGAhZW4Ug.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/bfgs-in-a-nutshell-an-introduction-to-quasi-newton-methods-21b0e13ee504?source=rss----7f60cf5620c9---4">BFGS in a Nutshell: An Introduction to Quasi-Newton Methods</a>
+          <div class="card-meta">23 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Demystifying the inner workings of BFGS optimization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T01:27:24.000Z | tags: graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uxiSBdVZlhmMe6OcKbVPzw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matching-of-bipartite-graphs-using-networkx-6d355b164567?source=rss----7f60cf5620c9---4">Matching of Bipartite Graphs using NetworkX</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A simple introduction to matching in bipartite graphs with Python code examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-19T14:40:32.000Z | tags: machine-learning, python, speech-recognition -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.52:0.51/1*X90jc9fD9AbgcTfG3IBT2g.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/automatic-speech-recognition-in-python-programs-a64851ad29b3">Speech Recognition with Python. Learn which of the 9 most prominent… | by S</a>
+          <div class="card-meta">19 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn which of the 9 most prominent automatic speech recognition engines is best for your needs, and how to use it in Python programs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-19T14:12:10.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*nkfjFAv8N_ObLWVceeCkpA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/4-rarely-used-yet-very-useful-pandas-tricks-b43ef4b726fb?source=rss----7f60cf5620c9---4">4 Rarely-Used Yet Very Useful Pandas Tricks</a>
+          <div class="card-meta">19 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explained with examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:39:38.000Z | tags: machine-learning, python, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1050/1*VBC37s6C0e4XFgy4tvvv_w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/what-is-perspective-warping-opencv-and-python-750e7a13d386?source=rss----7f60cf5620c9---4">What is Perspective Warping&amp;nbsp;? | OpenCV and Python</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A step-by-step guide to apply perspective transformation on  images</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:08:50.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:992/1*KWJKsBFR3z8f39AbQK5whQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/vectorizing-code-matters-66c5f95ddfd5?source=rss----7f60cf5620c9---4">Vectorizing code matters</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>I come from the world of MATLAB and numerical computing, where for loops are shorn and vectors are king. During my PhD at UVM, Professor…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:06:56.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Xs1Xe1Hh4P6IGyWN8fImXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/latent-dirichlet-allocation-intuition-math-implementation-and-visualisation-63ccb616e094?source=rss----7f60cf5620c9---4">Latent Dirichlet Allocation: Intuition, math, implementation and visualisat</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A tour of one of the most popular topic modelling techniques and a guide to implementing and visualising it using pyLDAvis</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:54:03.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*DTWPztKbOw_yI7u_" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/python-3-9-new-features-how-to-use-them-be73100ec91a">Python 3.9 New Features &amp; How to Use Them</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Python 3.9 New Feature Guide</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:33:55.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*KtqlCde2b8X6Tm4x" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/new-features-in-scikit-learn-f0ceb7e9d2ad?source=rss----7f60cf5620c9---4">New features in scikit-learn</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Overview of the latest developments in version 0.23</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-02T17:36:52.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*yq3cG5r1aQxk7wUcD27ZYg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-fabulous-python-packages-for-data-science-nobody-knows-about-9fa192f312e4">5 Fabulous Python Packages For Data-Science Nobody Knows About</a>
+          <div class="card-meta">2 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Do you know about these packages?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:47:34.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*4EO6SXl3HJoY2FRm" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/eigenfaces-face-classification-in-python-7b8d2af3d3ea?source=rss----7f60cf5620c9---4">Eigenfaces — Face Classification in Python</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Not enough data for Deep Learning? Try Eigenfaces.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:46:41.000Z | tags: machine-learning, nlp, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:754/1*rdmUrn-Qvmfpdx0nCCMNiQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/short-technical-information-about-word2vec-glove-and-fasttext-d38e4f529ca8?source=rss----7f60cf5620c9---4">Short technical information about Word2Vec, GloVe and Fasttext</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:11.000Z | tags: machine-learning, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2020/04/five-cool-python-libraries-data-science.html">Five Cool Python Libraries for Data Science - KDnuggets</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Check out these 5 cool Python libraries that the author has come across during an NLP project, and which have made their life easier.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:54.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:835/1*mEmVBrqcHd1MQux6SnptGQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dot-product-in-linear-algebra-for-data-science-using-python-f113fb60c8f?source=rss----7f60cf5620c9---4">Dot Product in Linear Algebra for Data Science using Python</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building up the intuition for how matrices help to solve a system of linear equations and thus regressions problems</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:31.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SEt-YxTpvWqymh989hpKUA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-simplified-approach-using-pycaret-for-anomaly-detection-7d33aca3f066?source=rss----7f60cf5620c9---4">A Simplified approach using PyCaret for Anomaly Detection</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explaining outlier detection with PyCaret library in python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:31.000Z | tags: feature-engineering, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2020/02/Box-Plot-of-RFE-Number-of-Selected-Features-vs-Classification-Accuracy.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/rfe-feature-selection-in-python">Recursive Feature Elimination (RFE) for Feature Selection in Python</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>Recursive Feature Elimination, or RFE for short, is a popular feature selection algorithm. RFE is popular because it is easy to configure and use and because it is effective at selecting those features (columns) in a training dataset that are more or most relevant in predicting the target variable. There are two important configuration options when using RFE: the choice…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:57.000Z | tags: devops, machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*CqjQ6XHJkzch4HuCtTv9LQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/mlmachine-clean-ml-experiments-elegant-eda-pandas-pipelines-daba951dde0a?source=rss----7f60cf5620c9---4">mlmachine - Clean ML Experiments, Elegant EDA &amp; Pandas Pipelines</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This new Python package accelerates notebook-based machine learning experimentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:50.000Z | tags: algorithms-math, machine-learning, numpy, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*pvADcGrbHeiFJIHeTBDlUg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/using-q-learning-in-numpy-to-teach-an-agent-to-play-a-game-4fee32eb922a?source=rss----7f60cf5620c9---4">Using Q-Learning in Numpy to teach an agent to play a game</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using q-learning for sequential decision making and therefore learning to play a simple game.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:22.000Z | tags: machine-learning, pycaret, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*BWdJQGj2xJ6PuRlnx4bNsg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/modeling-in-seconds-using-pycaret-as-a-tool-for-data-science-fast-decision-making-17c2c5642e17?source=rss----7f60cf5620c9---4">Modeling in Seconds: Using PyCaret as a Tool for Data Science Fast Decision</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>I came across Pycaret while I was browsing on a slack for data scientists. It&#39;s a versatile library in which you can apply/evaluate/tune…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T13:57:39.000Z | tags: algorithms-math, machine-learning, numpy, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*YGcMQSr0ge_DGn96WnEkZw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-complete-beginners-guide-to-matrix-multiplication-for-data-science-with-python-numpy-9274ecfc1dc6?source=rss----7f60cf5620c9---4">A Complete Beginners Guide to Matrix Multiplication for Data Science with P</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn matrix multiplication for machine learning by following along with Python examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T17:45:00.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_gu2ctyUqKGYe2Q6KbgDJA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/pandas-tips-i-wish-i-knew-before-ef4ea6a39e1a?source=rss----7f60cf5620c9---4">Pandas tips I wish I knew before</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How does pivot work? What is the main pandas building block? And more …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:26:36.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:390/0*POJPMl2GZ03ROY2D.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-lesser-known-pandas-tricks-e8ab1dd21431">Lesser-known pandas tricks (2019)</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>5 lesser-known pandas tricks that  help you be more productive</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:23:58.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://share.redd.it/preview/post/forx08" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/MachineLearning/comments/forx08/p_pycm_26_released_multiclass_confusion_matrix">[P] PyCM 2.6 released : Multi-class confusion matrix library in Python</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>https://github.com/sepandhaghighi/pycm https://www.pycm.ir custom_rounder function added #279 complement function added sparse_matrix attribute added…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:23:38.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:340:179/g:fp:0.7:0.22/0*miu7OIUgraivaOfj.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/learn-how-to-read-data-into-a-pandas-dataframe-in-5-minutes-122af8e0b9db?source=rss----7f60cf5620c9---4">Learn how to read data into a Pandas DataFrame in 5 minutes</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extract data from different sources</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-31T23:24:13.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*qgWVwi0JRHbFDcaYKPKK5Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/less-known-but-very-useful-pandas-functions-1e1756afb2a9?source=rss----7f60cf5620c9---4">Less Known but Very Useful Pandas Functions</a>
+          <div class="card-meta">31 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Expedite your data analysis process</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-31T15:45:44.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/0*BmSCDp3q9mqCQZJn.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hyperparameter-tuning-with-python-keras-xgboost-guide-7cb3ef480f9c?source=rss----7f60cf5620c9---4">Hyperparameter Tuning with Python: Complete Step-by-Step Guide</a>
+          <div class="card-meta">31 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why and How to use with examples of Keras/XGBoost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:11:14.000Z | tags: machine-learning, python, time-series -->
+      <div class="card-image">
+        <img src="https://www.machinelearningplus.com/wp-content/uploads/2019/02/arima_forecasting_feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python">Arima Model – Complete Guide to Time Series Forecasting in Python</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">machinelearningplus.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using ARIMA model, you can forecast a time series using the series past values. In this post, we build an optimal ARIMA model from scratch and extend it to Seasonal ARIMA (SARIMA) and SARIMAX models. You will also see how to build autoarima models in python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:00:59.000Z | tags: images, machine-learning, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://l.facebook.com/l.php?h=AT36pxF8XUidMH58n2H5jgUQhCzHY73yokD-WmrlM2hucFkdf_nygzWtO4FP6wIGJorSedlQ8lZbo2ImvR7D0xzxHeaWgQ8Dh9WoCLAgw-Wcdykv31Uvb9mSJHDhfn8ltyJJdEkX2_x2_6uYHTgAa1zqccDLur_dtiru8OYwm_AKGwR_e8AnrR_dXFvDXccVDXavOY-b6qhZKx6LODlsZktgqJ2NPRFepY4iviXjINVXHamRP7qPwOmvOGcxLGURKsBzyH3EHO6PPSbmu-7uH46aJuragH8bRQCJVuNlHJqpeAgwcVBkpxpYWOmbJLnKvBjOFKH_WmdIy8VgmMVclRCFey-_JXC2s98suIUZ2_JhNDk1S7yYtQTKQBPhsoL_PvtyYFM8oJP9QGXr3ueYl7Qwjhh78bk5RyCqomgyL5aGM6cQhg3xlQ6gec1DLzi-VyBUALbY2bi-CTQwiglKqWU7q7bw-3l59UsghdUk4XECUKsZ_cZ7C4cZhNpvOjsk7-4JVD34H3Ki8ZbF9ci0Il9kqTLn-w9y6kUakysgSMjJRVpY4ve9IHEkGRwkoI2GyMErFG_uoZyuylMM81kfR70hpP6_0Do0zAhLLQkqG8VLGxF1xPYbebUtHpXtTGwzBe1C-9ZbJkUUNDY4ORbjzlLRlxsi0HMsRyw&amp;u=https://buff.ly/2WoAupL?fbclid=IwAR1i3kmW9Q0hnG5KCnmeaxk5tj5ypZ0nseAlU0CAa1aSOi_sJ79JxHup_i0">L</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">l.facebook.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-28T23:30:38.000Z | tags: books, machine-learning, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jakevdp.github.io/PythonDataScienceHandbook">Python Data Science Handbook | Python Data Science Handbook</a>
+          <div class="card-meta">28 Aug 2019</div>
+          <div class="card-meta card-domain">jakevdp.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-25T18:54:24.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/5b9df86cfb61179abdc5f47b10c4f9d9417d2b08f1cdda3305b293285207f1d3/yzhao062/pyod" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/yzhao062/pyod">yzhao062/pyod: A Python Toolbox for Scalable Outlier Detection (Anomaly Det</a>
+          <div class="card-meta">25 Jul 2019</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Python Library for Outlier and Anomaly Detection, Integrating Classical and Deep Learning Techniques - yzhao062/pyod</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-31T20:42:30.000Z | tags: bayes, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://www.georgeho.org/assets/images/asterism.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://eigenfoo.xyz/bayesian-modelling-cookbook">Cookbook — Bayesian Modelling with PyMC3</a>
+          <div class="card-meta">31 Aug 2018</div>
+          <div class="card-meta card-domain">eigenfoo.xyz</div>
+        </div>
+        <div class="card-section">
+          <p>Recently I’ve started using PyMC3 for Bayesian modelling, and it’s an amazing piece of software! The API only exposes as much of heavy machinery of MCMC as you need — by which I mean, just the pm.sample() method (a.k.a., as Thomas Wiecki puts it, the Magic Inference Button™). This really frees up your mind to think about your data and model, which is really the heart and soul of data science! That being said however, I quickly realized that the water gets very deep very fast: I explored my data set, specified a hierarchical model that made sense to me, hit the Magic Inference Button™, and… uh, what now? I blinked at the angry red warnings the sampler spat out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-30T12:07:29.000Z | tags: feature-engineering, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rqeNwjiakRS-SqsW9wCgrA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0">A Feature Selection Tool for Machine Learning in Python</a>
+          <div class="card-meta">30 Aug 2018</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using the FeatureSelector for efficient machine learning workflows</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:46:39.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://pbpython.com/images/pbpython-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://pbpython.com/market-basket-analysis.html">Introduction to Market Basket Analysis in Python</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">pbpython.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using mlxtend to perform market basket analysis on online retail data set.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:43:54.000Z | tags: machine-learning, python -->
+      <div class="card-image">
+        <img src="https://pypi.org/static/images/twitter.abaf4b19.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pypi.python.org/pypi/scikit-surprise">scikit-surprise 1.0.5 : Python Package Index</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">pypi.python.org</div>
+        </div>
+        <div class="card-section">
+          <p>An easy-to-use library for recommender systems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2011-10-24T00:00:00.000Z | tags: python, machine-learning, deep-learning -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2024/10/40-Projects-to-Master-AI-ML-with-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2024/10/11/ai-ml-projects-with-python">AI &amp; ML Projects with Python</a>
+          <div class="card-meta">24 Oct 2011</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through a list of guided projects to master AI &amp; ML with Python. AI &amp; ML Projects with Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2010-09-24T00:00:00.000Z | tags: gradio, python, machine-learning -->
+      <div class="card-image">
+        <img src="https://raw.githubusercontent.com/gradio-app/gradio/main/js/_website/src/lib/assets/img/header-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gradio.app/docs">Gradio Documentation</a>
+          <div class="card-meta">24 Sep 2010</div>
+          <div class="card-meta card-domain">gradio.app</div>
+        </div>
+        <div class="card-section">
+          <p>Documentation, tutorials and guides for the Gradio ecosystem..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

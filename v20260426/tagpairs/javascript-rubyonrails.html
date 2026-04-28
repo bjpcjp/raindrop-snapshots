@@ -1,0 +1,154 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>javascript + rubyonrails &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-06-04T01:47:04.000Z | tags: html, javascript, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hotwired.dev">HTML Over The Wire</a>
+          <div class="card-meta">4 Jun 2024</div>
+          <div class="card-meta card-domain">hotwired.dev</div>
+        </div>
+        <div class="card-section">
+          <p>Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-23T18:51:01.000Z | tags: html, javascript, rubyonrails, ui-ux -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkhvdHdpcmUgTW9kYWxzIGluIFJ1Ynkgb24gUmFpbHMgd2l0aCBTdGltdWx1cyBhbmQgVHVyYm8gRnJhbWVzIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyNC0wMi9ob3R3aXJlLXAxLmpwZyJ9LHsibmFtZSI6ImNhdGVnb3J5X2xvZ28iLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2xvZ29zL3J1YnktbG9nby5wbmcifV0&amp;s=ce18d1f1edeba06dbbe83d2b58298b437d29a7ce2a13f007ae44dd30fab56545" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2024/02/21/hotwire-modals-in-ruby-on-rails-with-stimulus-and-turbo-frames.html">Hotwire Modals in Ruby on Rails with Stimulus and Turbo Frames</a>
+          <div class="card-meta">23 Feb 2024</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the first part of our series, we&#39;ll explore two Hotwire methods to make modals accessible in your Rails application.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T00:35:45.000Z | tags: javascript, rubyonrails -->
+      <div class="card-image">
+        <img src="https://rubyonrails.org/assets/images/opengraph.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision">Rails 7.0: Fulfilling a vision</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">rubyonrails.org</div>
+        </div>
+        <div class="card-section">
+          <p>This version of Rails has been years in the conceptual making. It’s the fulfillment of a vision to present a truly full-stack approach to web development that tackles both the front- and back-end challenges with equal vigor. An omakase menu that includes everything from the aperitif to the dessert.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:33:12.000Z | tags: javascript, rubyonrails, webdev, webpacker -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6">Understanding Webpacker in Rails 6 | Road to Rails 6</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">prathamesh.tech</div>
+        </div>
+        <div class="card-section">
+          <p>Starting with Rails 6, Webpacker is the default JavaScript compiler. It means that all the JavaScript code will be handled by Webpacker instead of the old assets pipeline aka Sprockets. Webpacker is different from asset pipeline in terms of philosophy as well as implementation. In this blog post, we will</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-20T00:09:05.000Z | tags: javascript, rubyonrails, webpack -->
+      <div class="card-image">
+        <img src="https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755">Modern web apps without JavaScript bundling or transpiling</a>
+          <div class="card-meta">20 Aug 2021</div>
+          <div class="card-meta card-domain">world.hey.com</div>
+        </div>
+        <div class="card-section">
+          <p>I didn&#39;t much care for vanilla JavaScript prior to ES6. Through all of the 2000s, I chased different approaches to avoid writing too much of it. First there was RJS (Ruby-to-JavaScript). Then there was CoffeeScript. Both transpiling approaches that turned more enjoyable-to-write source code into the kind of JavaScript that browsers wou...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:53:23.000Z | tags: javascript, rubyonrails, webpacker -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyibamky1ohcwypyfumnd.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bdavidxyz/rails-with-webpacker-a-full-setup-3h49">Rails with Webpacker : a full setup</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Article was originally published here : https://bootrails.com/blog/rails-webpacker-full-setup  Webpac...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T13:23:35.000Z | tags: javascript, rubyonrails -->
+      <div class="card-image">
+        <img src="https://rossta.net/assets/images/blog/stock/julian-ebert-farmland-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rossta.net/blog/why-does-rails-install-both-webpacker-and-sprockets.html">Why does Rails 6 include both Webpacker and Sprockets?</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">rossta.net</div>
+        </div>
+        <div class="card-section">
+          <p>A new Rails 6 application will install both Webpacker and Sprockets by default. Don&#39;t they solve the same problem? This article dives into why Sprockets lives on even though webpack has surpassed most of its features ...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,1223 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>prodmgmt + startups &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-12T21:56:49.616Z | tags: prodmgmt, food-drink, startups, post-mortems -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!dtuC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fc43502-1fe0-4222-8972-63d46199eed3_633x429.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/changinglanesnewsletter/p/what-ghost-kitchens-got-wrong?r=oc5d&amp;utm_medium=ios">What Ghost Kitchens Got Wrong</a>
+          <div class="card-meta">12 Apr 2026</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two good ideas and one bad mistake</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-07T17:54:49.218Z | tags: startups, failure, post-mortems, prodmgmt -->
+      <div class="card-image">
+        <img src="https://loot-drop.io/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.loot-drop.io/">Loot Drop - The Startup Graveyard</a>
+          <div class="card-meta">7 Feb 2026</div>
+          <div class="card-meta card-domain">loot-drop.io</div>
+        </div>
+        <div class="card-section">
+          <p>Explore 925+ failed startups and learn from $32.5B+ in burned venture capital. Discover why they failed, their market potential, and how to rebuild them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-04T00:17:50.209Z | tags: prodmgmt, startups, execution, physical-products, supply-chain -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!qGw_!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsberens.substack.com%2Fapi%2Fv1%2Fpost_preview%2F186376663%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.simonberens.com/p/lessons-learned-shipping-500-units">Lessons Learned Shipping 500 Units of my First Hardware Product</a>
+          <div class="card-meta">4 Feb 2026</div>
+          <div class="card-meta card-domain">simonberens.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building in consumer hardware as a software engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-09T00:33:23.285Z | tags: mvp, discovery, startups, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/aEccJrh8WN-LV5_m_default-article-background.png?auto=format%2Ccompress&amp;blend-mode=normal&amp;blend-x=0&amp;blend-y=0&amp;blend=https%3A%2F%2Fimages.prismic.io%2Fthoughtbot-website%2FZ1tQFJbqstJ98cGP_default.png&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0tMTUmdHh0LXRyYWNrPTAmdHh0NjQ9VkhWeWJpQkJibmtnU1dSbFlTQkpiblJ2SUdFZ1ZtRnNhV1JoZEdWa0lFMVdVQSUzRCUzRCZ0eHRjbHI9ZjVmNWY1JnR4dGZvbnQ9SUJNUGxleFNhbnNKUC1TZW1pQm9sZCZ0eHRwYWQ9MCZ0eHRzaXplPTc2Jnc9ODAw&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Moses+Amama" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thoughtbot.com/blog/turn-any-idea-into-a-validated-mvp">Turn Any Idea Into a Validated MVP</a>
+          <div class="card-meta">9 Dec 2025</div>
+          <div class="card-meta card-domain">thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A step-by-step path to validate your idea fast by defining the problem, testing assumptions, prototyping the critical flow, and shaping a focused MVP you can learn from.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-21T23:12:41.897Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3640/full_page_cover_Screenshot_2025-06-13_at_9.50.43_AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://every.to/the-crazy-ones/the-man-who-beat-ibm?ref=thediff.co">The Man Who Beat IBM</a>
+          <div class="card-meta">21 Jun 2025</div>
+          <div class="card-meta card-domain">every.to</div>
+        </div>
+        <div class="card-section">
+          <p>Compaq’s Rod Canion broke Big Blue’s hold on the PC market—and changed computing forever</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-13T19:29:47.547Z | tags: leadership, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/1ecb86cc095ee5e0d12075d8a42d38808b844141d9a9554295809c975d91734b/ZachGoldberg/Startup-CTO-Handbook" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md">Startup-CTO-Handbook/StartupCTOHandbook.md at main · ZachGoldberg/Startup-CTO-Handbook</a>
+          <div class="card-meta">13 Mar 2025</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Startup CTO&#39;s Handbook, a book covering leadership, management and technical topics for leaders of software engineering teams - ZachGoldberg/Startup-CTO-Handbook</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-30T05:45:50.000Z | tags: food-drink, pricing, prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F77adbaf1-6c37-4e83-9aec-919c7a02940d_4032x2268.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.readmargins.com/p/doordash-and-pizza-arbitrage">Doordash and Pizza Arbitrage</a>
+          <div class="card-meta">30 Jun 2024</div>
+          <div class="card-meta card-domain">readmargins.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is such a thing as a free lunch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-18T01:38:00.000Z | tags: prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2024/08/PILOT.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/pilots-path-to-product-market-fit">Pilot’s Path to Product-Market Fit — Three-Peat Founders on Picking the Rig</a>
+          <div class="card-meta">18 Jan 2024</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>The founders of Pilot have started three times over, starting with Ksplice (sold to Oracle in 2011) and then Zulip (acquired by Dropbox in 2014).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-18T14:09:37.000Z | tags: prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jacquesmattheij.com/be-consultant">How to be a Consultant, a Freelancer, or an Independent Contractor · Jacque</a>
+          <div class="card-meta">18 Jul 2023</div>
+          <div class="card-meta card-domain">jacquesmattheij.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-12T18:44:20.000Z | tags: ideas, platforms, prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*McTz81wNxP2gHc4_q42uhA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/point-nine-news/wtf-is-marketplace-liquidity-f2caca3802c0">WTF is Marketplace Liquidity?</a>
+          <div class="card-meta">12 Mar 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Methodologies for understanding and measuring marketplace liquidity</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-26T18:45:26.000Z | tags: devops, pricing, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo4cpuwckfwonrkykpoys.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/lago/why-billing-systems-are-a-nightmare-for-engineers-45j3">?‍? Why billing systems are a nightmare for engineers</a>
+          <div class="card-meta">26 Jan 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This article was initially published on Lago&#39;s blog, an open-source billing API, and was ranked #1 on...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-10T14:44:42.000Z | tags: leadership, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/403bf5b8e497f74dd2e7a889b7d69d3e02e07f2381fb3817bb174baee24c4332/kuchin/awesome-cto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/kuchin/awesome-cto">GitHub - kuchin/awesome-cto: A curated and opinionated list of resources fo</a>
+          <div class="card-meta">10 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups - kuchin/awesome-cto</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-09T11:39:09.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://images.axios.com/kTdZdn-g1sxlPjSIA8t85NFNbe8=/0x0:1920x1080/1366x768/2022/12/08/1670523561830.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.axios.com/2022/12/09/axios-finish-line-why-you-should-start-a-company">Why you should start a company</a>
+          <div class="card-meta">9 Dec 2022</div>
+          <div class="card-meta card-domain">axios.com</div>
+        </div>
+        <div class="card-section">
+          <p>Few things are more liberating or intoxicating than controlling your own fate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-22T12:49:35.000Z | tags: finance, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://blog.pragmaticengineer.com/content/images/2022/10/Copy-of-Copy-of-The-Scoop--1-.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.pragmaticengineer.com/the-scoop-pollen">Pollen’s enormous debt left behind: exclusive details</a>
+          <div class="card-meta">22 Oct 2022</div>
+          <div class="card-meta card-domain">blog.pragmaticengineer.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two months after the startup went bankrupt, administrators have summarized the $80M+ debt the company has accumulated, most of which will not be paid. The highest offer to buy Pollen’s business assets - but without its liabilities - currently stands at only $250K. Details.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-01T23:10:44.000Z | tags: focus-distractions, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fgettyimages-1336203619.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/how-product-strategy-fails-in-the-real-world-what-to-avoid-when-building-highly-technical-products">How Product Strategy Fails in the Real World — What to Avoid When Building</a>
+          <div class="card-meta">1 Oct 2022</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why does strategy tend to stall when the rubber hits the road? Nate Stewart, Chief Product Officer of Cockroach Labs, shares an essential guide for creating a resilient strategy that’s still standing next year.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-15T00:57:05.000Z | tags: finance, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.thediff.co/content/images/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https-3a-2f-2fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com-2fpublic-2fimages-2f5b730ae4-aa35-496e-8198-965a187e2e43_600x600.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/p/a-taxonomy-of-drawdowns">A Taxonomy of Drawdowns</a>
+          <div class="card-meta">15 Sep 2022</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>Plus! Watercooler Shows; Smart Thermostats; Substitutes and Complements; Monetization; Apple Ads; Diff Jobs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-12T01:18:57.000Z | tags: finance, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:536/1*VK_Tg-_58I8d-ABio2bVGg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blossomstreetventures.medium.com/saas-spend-ratios-on-r-d-s-m-g-a-1a0b30931b0">SaaS spend ratios on R&amp;D/S&amp;M/G&amp;A</a>
+          <div class="card-meta">12 Sep 2022</div>
+          <div class="card-meta card-domain">blossomstreetventures.medium.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T19:08:36.000Z | tags: friction-traction, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2023/05/fast-moving-water-social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/find-the-fast-moving-water">Find The Fast Moving Water</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>We work with our NFX Guild on this mental model for greatness from day 1. Now, we are sharing it with the rest of the startup community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-27T20:38:18.000Z | tags: platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/04/Two-Sided-Networks-in-Healthcare-a-Founder8217s-Playbook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2022/07/27/two-sided-networks-a-founders-playbook">Two-Sided Networks in Healthcare, a Founder’s Playbook</a>
+          <div class="card-meta">27 Jul 2022</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most significant bottleneck in the adoption of healthcare technology to date has been distribution. Over the last decade, generations of digital health companies have struggled to reach escape velocity—not because their products and services weren’t transformative, but because they failed to find an executable path for sustainable distribution and value capture. Some of that...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:29.000Z | tags: prodmgmt, risk, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://tomtunguz.com/the-11-risks-vcs-evaluate">The 11 Risks VCs Evaluate by @ttunguz</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Though the industry is called venture capital, the goal of a VC isn’t to maximize every risk. Instead, we try to understand all the risks a business might face and weigh those risks with the reward - the exit. Here are the major risks that I typically review when a startup pitches. Market timing risk - Is now the right time for the business? It’s often hard to evaluate this risk, but nevertheless, it’s an important consideration.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:19.000Z | tags: mvp, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://readwrite.com/2012/10/10/dont-settle-for-the-minimum-in-your-minimum-viable-product-mvp#awesm=~orHs1yUOOPwRAN">Why You Can&#39;t Settle For The &quot;Minimum&quot; In Your Minimum Viable Product</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">readwrite.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many startups scramble to create a &quot;minimum viable product,&quot; or MVP, to get a version of their product to market quickly for testing. It’s a great way to cost-effectively test a website or app with real users. But be careful, if your MVP is too minimalist, it could torpedo your company&#39;s future.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:56.000Z | tags: discovery, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://hubstaff.com/blog/wp-content/uploads/2015/03/Startup-Idea-01-780x390.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.hubstaff.com/test-your-startup-idea">Test your startup idea!</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">blog.hubstaff.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hubstaff founder Dave Nevogt shares how to test your startup idea by analyzing model, market and concept.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:45:30.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.saasacademy.com/hubfs/Imported_Blog_Media/Screen-Shot-2015-01-26-at-9_20_21-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.danmartell.com/liquidity">3 Strategies To Building a Marketplace Startup | SaaS Academy</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">danmartell.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a two-sided market is probably the hardest thing you can build as an entrepreneur. It&#39;s so hard that a few weeks ago, I organized a Marketplace</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:09:48.000Z | tags: growth-hacks, leadgen-leadmgmt, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2ffrqz6prtrqqllq8mdhju_6a0115714b7dbf970c01675f67f4e0970b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://firstround.com/review/give-away-your-legos-and-other-commandments-for-scaling-startups">‘Give Away Your Legos’ and Other Commandments for Scaling Startups</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Molly Graham helped forge a work culture at Facebook that&#39;s withstood huge amounts of growth. Today, she&#39;s something of a rapid scaling expert. Here&#39;s the key to doing it right, she says.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:08:59.000Z | tags: ideas, ideation, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://platformed.info/how-to-get-startup-ideas">http://platformed.info/how-to-get-startup-ideas/</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">platformed.info</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:01:31.000Z | tags: prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.asmartbear.com/startup-business-plan.html">Startup Therapy: Ten questions to ask yourself every month</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.asmartbear.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:59:12.000Z | tags: best-practices, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.defmacro.org/2013/07/23/startup-lessons.html">57 startup lessons</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">defmacro.org</div>
+        </div>
+        <div class="card-section">
+          <p>There are already very good lists of startup lessons written by really talented, experienced people (here and here). I’d like to add another one. I learned these lessons the hard way in the past four years. If you’re starting a company, I hope you have an easier path.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:55:13.000Z | tags: platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/consumer-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2018/11/27/services-marketplaces-service-economy-evolution-whats-next">What’s Next for Marketplace Startups? | Andreessen Horowitz</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>Goods versus Services: The next trillion dollar opportunity Marketplace startups have done incredibly well over the first few decades of the internet, reinventing the way we shop for goods, but less so for services. In this essay, we argue that a breakthrough is on its way: The first phase of the internet has been...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-17T21:33:17.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/bd978bb536350a710e8efb012513429cabdc4c28700604261aeda246d0f980b7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@blobshake/30-useful-tools-for-growth-hackers-and-startups-29eca9e230ce#.q94zl4jh">30 Useful Tools for Growth Hackers and Startups</a>
+          <div class="card-meta">17 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>I’m a startup product growth guy with a social gaming background. I currently work as VP of Growth at Relcy, a mobile search engine. A few companies I’ve worked with on growth in the past (HIRED $702…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-17T21:32:58.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://blog.intercomassets.com/blog/wp-content/uploads/2016/07/How_We_Build_Software_Related.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.intercom.com/how-we-build-software">Lessons learned from scaling a product team</a>
+          <div class="card-meta">17 Jul 2022</div>
+          <div class="card-meta card-domain">blog.intercom.com</div>
+        </div>
+        <div class="card-section">
+          <p>There&#39;s lots written about how you should build software, but few concrete examples of the messy reality as implemented by startups. Here&#39;s our process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-11T19:32:50.000Z | tags: datasets, learning, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*7NEw_Q5BiovJr1I1h_XfqA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@muellerfreitag/10-data-acquisition-strategies-for-startups-47166580ee48#.h0146q9vp">10 Data Acquisition Strategies for Startups</a>
+          <div class="card-meta">11 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>The “unreasonable effectiveness” of data for machine-learning applications has been widely debated over the years (see here, here and…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:48:52.000Z | tags: finance, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*fg99u6o8MmwWWpYQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mondaynote.com/cash-is-a-fact-profit-is-an-opinion-b90b8fb2d089">Cash is a fact, profit is an opinion</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">mondaynote.com</div>
+        </div>
+        <div class="card-section">
+          <p>Apologies in advance: If you’re fluent in the language of accounting, please skip to the bonus Verizon iPhone feature at the end. What I’m about to describe will strike you as oversimplified and…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-04T01:56:57.000Z | tags: failure, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F157b555a-c18a-466c-9e8d-f40ae80c066b_1550x1270.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://startupwin.kelsus.com/p/watching-an-acquirer-ruin-your-company">Watching an acquirer ruin your company - by Jon Christensen</a>
+          <div class="card-meta">4 Jul 2022</div>
+          <div class="card-meta card-domain">startupwin.kelsus.com</div>
+        </div>
+        <div class="card-section">
+          <p>What happens on the other side of the acquisition doesn&#39;t get much startup press</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:29:54.000Z | tags: best-practices, execution, inventions-innovation, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://steveblank.com/wp-content/uploads/2013/05/hbr-reprint1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steveblank.com/2015/03/11/fear-of-failure-and-lack-of-speed-in-a-large-corporation">Steve Blank Fear of Failure and Lack of Speed In a Large Corporation</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">steveblank.com</div>
+        </div>
+        <div class="card-section">
+          <p>I just spent a day working with Bob, the Chief Innovation Officer of a very smart large company I’ll call Acme Widgets. Bob summarized Acme’s impediments to innovation. “At our company we have a cu…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:25:17.000Z | tags: ideation, prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://eleganthack.com/wp-content/uploads/2016/09/picking-markets-1024x669.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://eleganthack.com/picking-a-market">Picking a Market</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">eleganthack.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the Creative Founder, students are paired semi-randomly, and then spend a semester trying to get to product-market fit. I always start them with market selection. A market has three key elements…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:57:23.000Z | tags: physical-products, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://o.aolcdn.com/hss/storage/midas/4d5ffd02985bec7c08824014bfa1c704/200696002/dysonfiull.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.engadget.com/2014/09/04/why-dysons-robot-vacuum-took-16-years-and-why-its-headed-to-j">Why Dyson&#39;s robot vacuum took 16 years, and why it&#39;s headed to Japan first</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">engadget.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dyson almost launched a robot vacuum. Back in 2001, after three years in development. Its first effort, shown to the British public in London looked nothing (and we mean nothing) like the eventual 360 Eye unveiled today. Sixteen years is a long time in tech. The DC06, as it was called, never made it past home-trial stages in 2012 -- apparently too pricey and heavy. Between then and now, technology got better. A lot better. At the Tokyo launch of its new robot vacuum, Sir James Dyson himself, told us how it all came together, and why it&#39;s not his native UK, but Japan, that&#39;ll get to buy it first.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-15T01:04:27.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.georgesequeira.com/writing/zapier-the-5b-unbundling-opportunity">Zapier: The $5B unbundling opportunity</a>
+          <div class="card-meta">15 Apr 2022</div>
+          <div class="card-meta card-domain">georgesequeira.com</div>
+        </div>
+        <div class="card-section">
+          <p>Zapier has 3M+ users and generates $125M in ARR.  At a $5B valuation, its fast-growing horizontal platform is unable to meet the demands of all of its customers.  The increase of underserved Zapier customers presents an opportunity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-27T01:12:24.000Z | tags: execution, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.wave.com/img/blog/wave-retreat-2019.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wave.com/en/blog/early-execution">A case study in early-stage startup execution</a>
+          <div class="card-meta">27 Mar 2022</div>
+          <div class="card-meta card-domain">wave.com</div>
+        </div>
+        <div class="card-section">
+          <p>Before joining Wave four years ago, I spoke to a former employee about his experience. He said something that has stayed in my memory ever since: “Wave is really good at execution, so by working at Wave, you’ll learn how to execute very well.” Now that I’ve been here a while, I thought it would be good to write down what really good execution actually looks like in practice and the counterintuitive lessons I’ve learned along the way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T21:03:03.000Z | tags: growth-hacks, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fcristina-20review-20story.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/23-tactical-company-building-lessons-learned-from-scaling-stripe-and-notion">23 Tactical Company Building Lessons, Learned From Scaling Stripe &amp; Notion</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>From Stripe to Notion, Cristina Cordova has worked on some of the biggest products in tech. She shares tactical tidbits on what she’s learned about about scaling companies and shaping your career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T20:01:55.000Z | tags: focus-distractions, pricing, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors">http://limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors/</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">limedaring.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-10T13:51:54.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F327acaff-a3e7-4699-9073-09f64dc1456c_2492x1245.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://summation.us6.list-manage.com/track/click?e=5127b069ae&amp;id=d91c333d4a&amp;u=3d19f711bea06312aefdb0a00">The Economics of Data Businesses</a>
+          <div class="card-meta">10 Mar 2022</div>
+          <div class="card-meta card-domain">summation.us6.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>How data businesses start, and how they keep going, and growing, and growing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T22:54:35.000Z | tags: advertising-commercials, attention, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://obryant.dev/cards/33542b6fd643d2fc191b573cc2b7ce2c58dba074.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thesample.ai/blog/advertising">Why I changed my mind about advertising | The Sample blog</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">thesample.ai</div>
+        </div>
+        <div class="card-section">
+          <p>I used to be very anti-advertising. Fast forward two years and several pivots, and my slightly-less-early-stage business is doing $900 per month in revenue... from ads.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-13T11:32:53.000Z | tags: leadership, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://jeffgothelf.com/wp-content/uploads/2021/09/hippo-hippopotamus-animal-look-46540.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jeffgothelf.com/blog/highest-paid-persons-opinion">The Highest Paid Person&#39;s Opinion</a>
+          <div class="card-meta">13 Nov 2021</div>
+          <div class="card-meta card-domain">jeffgothelf.com</div>
+        </div>
+        <div class="card-section">
+          <p>Every company makes decisions based on the highest paid person&#39;s opinion. It turns out it&#39;s just a hypothesis. Here&#39;s how to tame it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T01:37:20.000Z | tags: comedy-fun-humor, prodmgmt, startups, toys -->
+      <div class="card-image">
+        <img src="https://phaven-prod.s3.amazonaws.com/files/profile_pic/asset/2838769/T2ocdTctJ8tzk7zrrkHZzbf3YBA/large_Headshopt_Crop_3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.aaronkharris.com/why-build-toys">Why Build Toys</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">blog.aaronkharris.com</div>
+        </div>
+        <div class="card-section">
+          <p>I first wrote this essay a few years ago. A founder mentioned it to me over the weekend, and so I decided to re-publish it here. One thing that&#39;s bothered me in the time since I wrote it is the way...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-10T10:12:14.000Z | tags: prodmgmt, realestate, startups -->
+      <div class="card-image">
+        <img src="https://images.caretaker.com/users/a500408b-3b8a-4884-90e2-bf48093b88a0/uploads/1623941858968_primary-image-v3.png?fit=crop&amp;min-w=1376" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://caretaker.com/blog/we-replaced-rental-brokers-with-software-and-filled-200-vacant-apartments">We replaced rental brokers with software</a>
+          <div class="card-meta">10 Jul 2021</div>
+          <div class="card-meta card-domain">caretaker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Check the requirements, book the viewing, let yourself in, and submit your application, all without emails or phone tag.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-05T02:55:55.000Z | tags: execution, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fn4w8fjcftngdt5gsak97_cto15_0294.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/the-right-way-to-ship-software">The Right Way to Ship Software | First Round Review</a>
+          <div class="card-meta">5 Jul 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>An open letter from a former Facebook and VMware engineering executive on how startups can best structure their release processes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-02T19:00:48.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2021/02/OG-V4-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/enterprise-gateway-marketplaces">Enterprise Gateway Marketplaces Will Turn Large Organizations Inside-Out</a>
+          <div class="card-meta">2 Mar 2021</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>The marketplace revolution is still just beginning and the enterprise gateway is the newest type of marketplace.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-02T16:45:23.000Z | tags: mailchimp, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://entrepreneurshandbook.co/a-web-designer-turned-his-side-project-into-a-700m-year-revenue-business-without-vc-money-55cd13ee560">The Abandoned Side Project That Quietly Turned Into a $700m/year Revenue Bu</a>
+          <div class="card-meta">2 Mar 2021</div>
+          <div class="card-meta card-domain">entrepreneurshandbook.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-01T19:58:24.000Z | tags: prodmgmt, reddit, startups -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/5f73bbd13fa8b95aedaf300b/60327bd8945b76bf377da146_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.readthegeneralist.com/briefing/reddit">Reddit: Organized Lightning | The Generalist</a>
+          <div class="card-meta">1 Mar 2021</div>
+          <div class="card-meta card-domain">readthegeneralist.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of social media&#39;s oldest companies is also its most undervalued.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-22T18:36:00.000Z | tags: lean, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://fibery.io/blog/static/f2220ce6a19056a7dd0efe983501c85e/6247c/niche.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fibery.io/blog/start-with-a-niche">Start with a Niche</a>
+          <div class="card-meta">22 Feb 2021</div>
+          <div class="card-meta card-domain">fibery.io</div>
+        </div>
+        <div class="card-section">
+          <p>The most popular products don’t become mass popular overnight. It’s a process. Usually they popularity is uneven, they are unknown in some niches, but very popular in another niches.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-19T01:27:32.000Z | tags: culture, leadership, prodmgmt, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8d4f4834-b6f6-4e9d-a626-5ac59dd6ca11_1200x900.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://askgib.substack.com/p/what-leaders-over-your-product-career?r=159d3">What leader(s) over your product career truly changed how you approach prod</a>
+          <div class="card-meta">19 Feb 2021</div>
+          <div class="card-meta card-domain">askgib.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>I learned from bosses &amp; peers, including some famous peeps like Reed Hastings, Patty McCord, and Dan Rosensweig. But mainly I learned by doing, supercharged by feedback from many &quot;Friends of Gib.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-30T10:34:14.000Z | tags: grocery, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://imageio.forbes.com/specials-images/imageserve/5ff384274e238413b701c2b9/0x0.jpg?format=jpg&amp;height=900&amp;width=1600&amp;fit=bounds" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.forbes.com/sites/chloesorvino/2021/01/27/instacart-survived-covid-chaos---but-can-it-keep-delivering-after-the-pandemic">Instacart Survived Covid Chaos — But Can It Keep Delivering After The Pandemic?</a>
+          <div class="card-meta">30 Jan 2021</div>
+          <div class="card-meta card-domain">forbes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Apoorva Mehta’s grocery delivery app is now an essential—and booming—business. Now the 34-year-old billionaire has to show he can outfox Bezos, dodge an avalanche of new competitors and calm his rebellious workers and restless partners.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-19T15:52:00.000Z | tags: prodmgmt, startups, health-medicine -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7be1a270-05eb-4656-9908-ee4988acce04_1200x765.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tjcx.me/p/i-wasted-40k-on-a-fantastic-startup-idea">Hacker News</a>
+          <div class="card-meta">19 Jan 2021</div>
+          <div class="card-meta card-domain">tjcx.me</div>
+        </div>
+        <div class="card-section">
+          <p>When good ideas make bad business</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-14T15:18:02.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2021/01/what_bill_gurley_saw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/blog/what-bill-gurley-saw">What Bill Gurley Saw - Commonplace - The Commoncog Blog</a>
+          <div class="card-meta">14 Jan 2021</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some careers can be made on the back of a single, wonderful idea. We take a look at what that looks like, through Bill Gurley&#39;s VC career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:19:51.000Z | tags: ideation, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.starterscode.com/startup-idea-validation-tools">Startup Idea Validation Tools</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">starterscode.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-05T14:10:58.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://20627419.fs1.hubspotusercontent-na1.net/hubfs/20627419/The%20Hustle/Assets/GIFs/1391652188-ezgif.com-optimize.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thehustle.co/the-economics-of-vending-machines">The economics of vending machines</a>
+          <div class="card-meta">5 Nov 2020</div>
+          <div class="card-meta card-domain">thehustle.co</div>
+        </div>
+        <div class="card-section">
+          <p>The pandemic has boosted interest in vending machine ownership. We surveyed 20+ operators to find out how much they make.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-08T14:08:52.000Z | tags: clothes, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2020/08/09/magazine/09mag-Sweatpants/09mag-Sweatpants-facebookJumbo.jpg?year=2020&amp;h=550&amp;w=1050&amp;s=5ccc92b922d9887b6fe75474538d2354d87d9497de11cdb23cea7dc870715a8f&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/interactive/2020/08/06/magazine/fashion-sweatpants.html">Sweatpants Forever: How the Fashion Industry Collapsed (Published 2020)</a>
+          <div class="card-meta">8 Aug 2020</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Even before the pandemic, it had started to unravel. What happens now that no one has a reason to dress up?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T18:26:16.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://static.ghost.org/v5.0.0/images/publication-cover.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://secondbreakfast.co/patio11-s-law">Patio11’s Law</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">secondbreakfast.co</div>
+        </div>
+        <div class="card-section">
+          <p>@mmcgrana: Patio11’s Law: The software economy is bigger than you think, even when you take into account Patio11’s Law.1  A few years ago, I woke up in Sunriver, OR, and went to make coffee. The house had one of those bed-and-breakfast-type coffee trays. Drip machine. A stack</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-10T20:44:39.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kamerontanseli.ghost.io/first-it-was-craiglist-next-its-zapier">https://kamerontanseli.ghost.io/first-it-was-craiglist-next-its-zapier/</a>
+          <div class="card-meta">10 May 2020</div>
+          <div class="card-meta card-domain">kamerontanseli.ghost.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: ideas, prodmgmt, startups, ideation -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/indie-hackers.appspot.com/shareable-images/posts/ZapGeYz8jaaTzG8iOL3p" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c">How to brainstorm great business ideas</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s been said that ideas don&#39;t matter, and that only execution does. I wholeheartedly disagree. You need both to succeed, but you can only get so good...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:10:51.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/5cd8a5010b77bdf83fb4df1d/5cd8aaf0652dea9d7c14d9cf/5ce44b95b0bfdb0001dacee4/1587981944368/shen+yun+poster+new.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.packym.com/blog/shen-yun-startup">Startup Economic Lessons from Shen Yun’s Empire — Packy McCormick</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">packym.com</div>
+        </div>
+        <div class="card-section">
+          <p>You probably think startups have nothing in common with a classical Chinese dance performance. You’re wrong.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-03T22:45:14.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://cdn.geekwire.com/wp-content/uploads/2020/02/yesler.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.geekwire.com/2020/startup-built-around-building-materials-yesler-marketplace-like-expedia-lumber-industry">A startup built around building materials: Yesler marketplace is like Exped</a>
+          <div class="card-meta">3 Feb 2020</div>
+          <div class="card-meta card-domain">geekwire.com</div>
+        </div>
+        <div class="card-section">
+          <p>Matt Meyers spent two decades at Weyerhaeuser dealing with product engineering, manufacturing, software engineering, product development, sales and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-12T14:59:04.000Z | tags: prodmgmt, startups, virality -->
+      <div class="card-image">
+        <img src="https://www.webprofits.com.au/blog/wp-content/uploads/canva-1200x630-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.growthmanifesto.com/canva-growth-study">Canva’s Digital Growth Strategy</a>
+          <div class="card-meta">12 Jan 2020</div>
+          <div class="card-meta card-domain">growthmanifesto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Canva are one of Australia&#39;s most successfull startups. In this case study we analyse how they use digital channels to attract and acquire new users</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-12T14:47:47.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3291e53a-75dc-4380-a20c-fe778060aa0a_1920x1080.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.eladgil.com/2019/05/a-brief-guide-to-startup-pivots-4-types.html">Elad Blog: A Brief Guide To Startup Pivots (4 Types Of Pivots)</a>
+          <div class="card-meta">12 Jan 2020</div>
+          <div class="card-meta card-domain">blog.eladgil.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most of the times, startup don&#39;t work. At some point it may make sense to either (1) give up on your original product and to sell the company, (2) shut down what you are doing and return money to investors, or (3) to pivot. You can read more on making the decision to give up in a future article. This post focuses on pivoting for small, early stage companies (e.g. 10 or fewer people).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-03T02:44:32.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/www.vccafe.com/wp-content/uploads/2019/11/blackboard-calculate-calculating-2714073.jpg?fit=800%2C1200&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vccafe.com/2019/11/02/benchmarks">Startup Benchmarks</a>
+          <div class="card-meta">3 Nov 2019</div>
+          <div class="card-meta card-domain">vccafe.com</div>
+        </div>
+        <div class="card-section">
+          <p>I joked the other day that some of the best fairytales are written in Excel. While there isn’t a single magic number or set formula, understanding industry benchmarks can be really helpful to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-31T17:53:41.000Z | tags: habits, ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2VU7PSHHS4I6RBCJD7ZGGYE2GE.jpg&amp;w=1440" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/business/2018/11/14/how-an-economist-found-an-ideal-dataset-inside-facebook-knitting">This researcher studied 400,000 knitters and discovered what turns a hobby</a>
+          <div class="card-meta">31 Aug 2019</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>An MIT Sloan Ph.D. candidate discovered what turned skilled hobbyists into entrepreneurs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:41:12.000Z | tags: friction-traction, onboarding, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://openviewpartners.com/wp-content/uploads/2019/06/user-onboarding.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://openviewpartners.com/blog/the-subtle-art-of-user-onboarding-adoption">The Subtle Art of User Onboarding &amp; Adoption</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">openviewpartners.com</div>
+        </div>
+        <div class="card-section">
+          <p>The “traditional” user onboarding flows and walkthroughs are dead. Learn about the next era of user onboarding and how to adapt to the changes in your org.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T21:45:16.000Z | tags: prodmgmt, startups, premature-optimization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*dzRX81BmHkI1ezYGZyF1AA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/the-year-of-the-looking-glass/the-4-stages-of-0-1-products-cdb8236dbf66">The 4 Stages of 0-&gt;1 Products</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>This was first published on my mailing list The Looking Glass. Every week, I answer a reader’s question.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-05T14:17:35.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://producthabits.com/wp-content/uploads/2019/02/Product-Habits-Share@2x.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://producthabits.com/duolingo-built-700-million-company-without-charging-users">How Duolingo Built a $700 Million Company Without Charging Users</a>
+          <div class="card-meta">5 Aug 2019</div>
+          <div class="card-meta card-domain">producthabits.com</div>
+        </div>
+        <div class="card-section">
+          <p>“We believe true equality is when spending more can’t buy you a better education.” – Duolingo founders When the language learning software company Rosetta Stone went public in 2009, they… Keep reading</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-04T18:26:51.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="http://www.todayifoundout.com/wp-content/uploads/2019/06/Liquid-soap-640x427.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.todayifoundout.com/index.php/2019/06/time-guy-cornered-liquid-soap-market-buying-literally-piece-inventory-available-u-s">That Time a Guy Cornered the Liquid Soap Market by Sneakily Buying Nearly Every Hand Soap Pump Available in the World</a>
+          <div class="card-meta">4 Jul 2019</div>
+          <div class="card-meta card-domain">todayifoundout.com</div>
+        </div>
+        <div class="card-section">
+          <p>Robert R. Taylor is a name you’ve probably never heard before. But this serial entrepreneur made his mark on the world of business by coming up with several products you are almost certainly very familiar with. Today we’re going to talk about, on the surface, the most boring of those- liquid hand soap. Something you can thank Mr. Taylor and [...]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-12T21:49:35.000Z | tags: ideas, images, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*OJeWAGH-Tjest77r" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://500ish.com/the-camera-as-the-app-layer-8aefd7dd8361">The Camera as the App Layer</a>
+          <div class="card-meta">12 May 2019</div>
+          <div class="card-meta card-domain">500ish.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your phone increasingly knows what you’re taking a picture of. And which apps you have installed. So…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-27T03:06:04.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.46/1*cufFG8OsK1K0z2zTmdaDnw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@lennysan/what-seven-years-at-airbnb-taught-me-about-building-a-company-e1d035d49c56">What Seven Years at Airbnb Taught Me About Building a Business</a>
+          <div class="card-meta">27 Apr 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create strong culture, stay laser-focused on problems, and set wildly ambitious goals</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-20T02:27:51.000Z | tags: platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*CjJn31R31kIHyQcaVS9_Pw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bothsidesofthetable.com/the-truth-about-the-scooter-economy-an-insiders-perspective-9ad304317b11?source=rss----97f98e5df342---4">The Truth About the Scooter Economy — An Insider’s Perspective</a>
+          <div class="card-meta">20 Apr 2019</div>
+          <div class="card-meta card-domain">bothsidesofthetable.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is a story arc of the electric scooter market that took the world by storm in 2018, was second-guessed late in the year and has…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-05T03:14:45.000Z | tags: prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2019/07/V4-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/9-habits-world-class-startups">9 Habits of World Class Startups</a>
+          <div class="card-meta">5 Feb 2019</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>A discussion of the 9 core operating principles that world class companies tend to embrace, by NFX Managing Partner James Currier.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-26T15:52:29.000Z | tags: friction-traction, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://i.imgur.com/hG36XnH.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kapwing.com/blog/dont-pay-to-acquire-your-first-users">Don&#39;t Pay to Acquire Your First Users</a>
+          <div class="card-meta">26 Jan 2019</div>
+          <div class="card-meta card-domain">kapwing.com</div>
+        </div>
+        <div class="card-section">
+          <p>Recently, a founder asked to chat with me about SEO. During our call, the founder - whose startup is backed by a top-tier VC - said to me “I assume that you acquired your first users through paid marketing.” Really? Is this an assumption nowadays?  Since we’ve raised money</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-13T01:25:38.000Z | tags: ecommerce, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/01/How-PopSockets-Prospered-after-Leaving-Amazon.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/how-popsockets-prospered-after-leaving-amazon">How PopSockets Prospered after Leaving Amazon</a>
+          <div class="card-meta">13 Jan 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>PopSockets opted not to be a direct vendor to Amazon. Instead, it chose one major reseller to represent it on the marketplace. But, Amazon would not allow it. So, PopSockets walked away.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-13T01:03:56.000Z | tags: habits, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fkq79lsosaydvmwdckt8a_dave-20hero.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://firstround.com/review/speed-as-a-habit">Speed as a Habit</a>
+          <div class="card-meta">13 Jan 2019</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>All things being equal, speed will determine whether your company succeeds or not. Here&#39;s how to make it core to your culture.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,115 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>llms + youtube &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-06-19T00:20:56.000Z | tags: llms, youtube -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/l8pRSuU81PU/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://m.youtube.com/watch?feature=youtu.be&amp;v=l8pRSuU81PU">Let&#39;s reproduce GPT-2 (124M)</a>
+          <div class="card-meta">19 Jun 2024</div>
+          <div class="card-meta card-domain">m.youtube.com</div>
+        </div>
+        <div class="card-section">
+          <p>We reproduce the GPT-2 (124M) from scratch. This video covers the whole process: First we build the GPT-2 network, then we optimize its training to be really fast, then we set up the training run following the GPT-2 and GPT-3 paper and their hyperparameters, then we hit run, and come back the next morning to see our results, and enjoy some amusing model generations. Keep in mind that in some places this video builds on the knowledge from earlier videos in the Zero to Hero Playlist (see my channel). You could also see this video as building my nanoGPT repo, which by the end is about 90% similar.
+
+Links:
+- build-nanogpt GitHub repo, with all the changes in this video as individual commits: https://github.com/karpathy/build-nanogpt
+- nanoGPT repo: https://github.com/karpathy/nanoGPT
+- llm.c repo: https://github.com/karpathy/llm.c
+- my website: https://karpathy.ai
+- my twitter: https://twitter.com/karpathy
+- our Discord channel: https://discord.gg/3zy8kqD9Cp
+
+Supplementary links:
+- Attention is All You Need paper: https://arxiv.org/abs/1706.03762
+- OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 - OpenAI GPT-2 paper: https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf- The GPU I&#39;m training the model on is from Lambda GPU Cloud, I think the best and easiest way to spin up an on-demand GPU instance in the cloud that you can ssh to: https://lambdalabs.com 
+
+Chapters:
+00:00:00 intro: Let’s reproduce GPT-2 (124M)
+00:03:39 exploring the GPT-2 (124M) OpenAI checkpoint
+00:13:47 SECTION 1: implementing the GPT-2 nn.Module
+00:28:08 loading the huggingface/GPT-2 parameters
+00:31:00 implementing the forward pass to get logits
+00:33:31 sampling init, prefix tokens, tokenization
+00:37:02 sampling loop
+00:41:47 sample, auto-detect the device
+00:45:50 let’s train: data batches (B,T) → logits (B,T,C)
+00:52:53 cross entropy loss
+00:56:42 optimization loop: overfit a single batch
+01:02:00 data loader lite
+01:06:14 parameter sharing wte and lm_head
+01:13:47 model initialization: std 0.02, residual init
+01:22:18 SECTION 2: Let’s make it fast. GPUs, mixed precision, 1000ms
+01:28:14 Tensor Cores, timing the code, TF32 precision, 333ms
+01:39:38 float16, gradient scalers, bfloat16, 300ms
+01:48:15 torch.compile, Python overhead, kernel fusion, 130ms
+02:00:18 flash attention, 96ms
+02:06:54 nice/ugly numbers. vocab size 50257 → 50304, 93ms
+02:14:55 SECTION 3: hyperpamaters, AdamW, gradient clipping
+02:21:06 learning rate scheduler: warmup + cosine decay
+02:26:21 batch size schedule, weight decay, FusedAdamW, 90ms
+02:34:09 gradient accumulation
+02:46:52 distributed data parallel (DDP)
+03:10:21 datasets used in GPT-2, GPT-3, FineWeb (EDU)
+03:23:10 validation data split, validation loss, sampling revive
+03:28:23 evaluation: HellaSwag, starting the run
+03:43:05 SECTION 4: results in the morning! GPT-2, GPT-3 repro
+03:56:21 shoutout to llm.c, equivalent but faster code in raw C/CUDA
+03:59:39 summary, phew, build-nanogpt github repo
+
+Corrections:
+I will post all errata and followups to the build-nanogpt GitHub repo (link above)
+
+SuperThanks:
+I experimentally enabled them on my channel yesterday. Totally optional and only use if rich. All revenue goes to to supporting my work in AI + Education.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

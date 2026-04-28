@@ -1,0 +1,1145 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>cpus + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-20T10:24:06.253Z | tags: semiconductors, cpus, llms-attention, llms-rag -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2024/11/AMD-3D-V-Cache.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/amd-3d-v-cache-turns-ryzen-into-surprise-rag-ai-weapon-88-percent-boost-vs-non-x3d/">AMD 3D V-Cache Turns Ryzen Into a Surprise RAG AI Weapon, With An 88% Boost Over Non-X3D CPUs</a>
+          <div class="card-meta">20 Apr 2026</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>AMD&#39;s 3D V-Cache CPUs deliver a huge boost versus the Non-X3D part in AI benchmarks, showcasing why they are best suited for RAG pipelines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-23T19:25:52.287Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sHEs77-md-8JpdwaSV2qfrUiDDAiGV7qut1flInr3kyAGR09bHqHyO18DfkxiBbBkaSmoKO1MLht0nuRuVDbYHfS215MN4QM1FZTNSydIl9YQsHIHajzhudhTZjtQ894iQzGq2BxIv_Q=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html?m=1">Unusual circuits in the Intel 386&#39;s standard cell logic</a>
+          <div class="card-meta">23 Nov 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve been studying the standard cell circuitry in the Intel 386 processor recently. The 386, introduced in 1985, was Intel&#39;s most complex pr...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-31T20:09:58.987Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uLu_ers44BB7LDfTyOP1Bssj491qpngd0aBSUccN1ckEFHeOgyLMktRcmFc_0BmkB76mULyeA4NZJPvpna9bS1F2ZTllFIqGeZ3jzEzjs46DaOYwhShaSX2vl3C2qIWC6UiMllM-ex1teCWniXlQM=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1">Notes on the Pentium&#39;s microcode circuitry</a>
+          <div class="card-meta">31 Mar 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most people think of machine instructions as the fundamental steps that a computer performs. However, many processors have another layer of ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-15T00:18:39.707Z | tags: semiconductors, cpus, gpus, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchipsandcheese.substack.com%2Fapi%2Fv1%2Fpost_preview%2F154782290%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/p/amds-strix-halo-under-the-hood">AMD&#39;s Strix Halo - Under the Hood</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello you fine Internet folks,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-30T11:37:18.220Z | tags: cpus, semiconductors, datacenters, hbm -->
+      <div class="card-image">
+        <img src="http://www.nextplatform.com/wp-content/uploads/2022/03/chiplet-logo-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2025/01/29/the-road-ahead-for-datacenter-compute-engines-the-cpus/">The Road Ahead For Datacenter Compute Engines: The CPUs</a>
+          <div class="card-meta">30 Jan 2025</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>It is often said that companies – particularly large companies with enormous IT budgets – do not buy products, they buy roadmaps. No one wants to go to</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-08T18:59:07.101Z | tags: cpus, chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/66468/content/small_hero-amd-ryzen-9-9950x3d-dual.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/amd-no-dual-vcache-cpus">AMD Reveals Real Reason It Won&#39;t Put 3D V-Cache On Multiple CCDs</a>
+          <div class="card-meta">8 Jan 2025</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>After persistent rumors refused to recede, AMD steps in with a clear explanation why dual-CCD V-Cache doesn&#39;t exist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-29T01:38:57.441Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-fdiv/fdiv-bug-here-w500.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html?m=1">Intel&#39;s $475 million error: the silicon behind the Pentium division bug</a>
+          <div class="card-meta">29 Dec 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 1993, Intel released the high-performance Pentium processor, the start of the long-running Pentium line. The Pentium had many improvement...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-21T11:18:35.571Z | tags: semiconductors, cpus, sram -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2024/10/Ryzen-7-9800X3D-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/amd-ryzen-7-9800x3d-uses-a-thick-dummy-silicon-that-comprises-93-of-the-ccd/">AMD Ryzen 7 9800X3D Uses A Thick Dummy Silicon That Comprises 93% Of The CCD Stack And Has No Performance Purpose</a>
+          <div class="card-meta">21 Dec 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>The CCD stack with 3D V-Cache on the AMD Ryzen 7 9800X3D is only 40-45µm in total, but the rest of the layers add up to a whopping 750µm.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-01T02:09:23.356Z | tags: cpus, semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc6a6496-65ff-48b9-857c-a465f897ca92_958x716.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/chipsandcheese/p/amd-disables-zen-4s-loop-buffer?r=oc5d&amp;utm_medium=ios">AMD Disables Zen 4&#39;s Loop Buffer</a>
+          <div class="card-meta">1 Dec 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A loop buffer sits at a CPU&#39;s frontend, where it holds a small number of previously fetched instructions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-24T00:00:20.996Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-antenna/diodes-w450.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/11/antenna-diodes-in-pentium-processor.html?m=1">Antenna diodes in the Pentium processor</a>
+          <div class="card-meta">24 Nov 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I was studying the silicon die of the Pentium processor and noticed some puzzling structures where signal lines were connected to the silico...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-23T04:50:59.105Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.slashgear.com/img/gallery/why-intel-lost-its-cpu-crown-to-amd-and-how-ryzen-changed-the-game/l-intro-1730497076.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.slashgear.com/1703799/intel-vs-amd-ryzen-cpu-performance-history/">Why Intel Lost Its CPU Crown To AMD (And How Ryzen Changed The Game) - SlashGear</a>
+          <div class="card-meta">23 Nov 2024</div>
+          <div class="card-meta card-domain">slashgear.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel was a dominant leader in the CPU market for the better part of a decade, but AMD has seen massive success in recent years thanks to its Ryzen chips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-04T13:06:40.704Z | tags: semiconductors, cloud, cpus -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4e551c4-2704-4e1c-9c88-b6a827c22fcf_1921x1080.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will?utm_campaign=post&amp;utm_medium=web">Amazon’s Cloud Crisis: How AWS Will Lose The Future Of Computing</a>
+          <div class="card-meta">4 Nov 2024</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nitro, Graviton, EFA, Inferentia, Trainium, Nvidia Cloud, Microsoft Azure, Google Cloud, Oracle Cloud, Handicapping Infrastructure, AI As A Service, Enterprise Automation, Meta, Coreweave, TCO</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-27T14:37:15.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e6e8cab-5e3a-4080-a769-16f98d65184b_787x378.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks">Zen 5’s 2-Ahead Branch Predictor Unit: How a 30 Year Old Idea Allows for Ne</a>
+          <div class="card-meta">27 Jul 2024</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>When I recently interviewed Mike Clark, he told me, “…you’ll see the actual foundational lift play out in the future on Zen 6, even though it was really Zen 5 that set the table for that.” And at that same Zen 5 architecture event, AMD’s Chief Technology Officer Mark Papermaster said, “Zen 5 is a ground-up redesign of the Zen architecture,” which has brought numerous and impactful changes to the design of the core.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-12T04:15:54.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2024/06/flow-computing-header.jpg?resize=1200,781" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2024/06/11/flow-claims-it-can-100x-any-cpus-power-with-its-companion-chip-and-some-elbow-grease">Flow claims it can 100x any CPU’s power with its companion chip and some el</a>
+          <div class="card-meta">12 Jun 2024</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Finnish startup called Flow Computing is making one of the wildest claims ever heard in silicon engineering: by adding its proprietary companion chip,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-31T02:10:43.000Z | tags: cpus, semiconductors, quality -->
+      <div class="card-image">
+        <img src="https://a.fsdn.com/sd/topics/hardware_64.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hardware.slashdot.org/story/24/03/29/198209/half-of-russian-made-chips-are-defective">Half of Russian-Made Chips Are Defective</a>
+          <div class="card-meta">31 Mar 2024</div>
+          <div class="card-meta card-domain">hardware.slashdot.org</div>
+        </div>
+        <div class="card-section">
+          <p>Anton Shilov reports via Tom&#39;s Hardware:  About half of the processors packaged in Russia are defective. This has prompted Baikal Electronics, a Russian processor developer, to expand the number of packaging partners in the country, according to a report in Vedomosti, a Russian-language business dai...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-10T15:50:41.000Z | tags: cpus, security, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/08/DSC09738.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2023/08/data-leaking-downfall-bug-affects-six-generations-of-intel-pc-and-server-cpus">“Downfall” bug affects years of Intel CPUs, can leak encryption keys and mo</a>
+          <div class="card-meta">10 Aug 2023</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers also disclosed a separate bug called “Inception” for newer AMD CPUs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-09T22:34:37.000Z | tags: cpus, security, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://downfall.page/images/share.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://downfall.page">Downfall Attacks</a>
+          <div class="card-meta">9 Aug 2023</div>
+          <div class="card-meta card-domain">downfall.page</div>
+        </div>
+        <div class="card-section">
+          <p>Downfall attacks targets a critical weakness found in billions of modern processors used in personal and cloud computers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-18T14:09:35.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://igoro.com/archive/gallery-of-processor-cache-effects">Gallery of Processor Cache Effects</a>
+          <div class="card-meta">18 Jul 2023</div>
+          <div class="card-meta card-domain">igoro.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-16T11:01:44.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff6107e1-e212-4d6f-b7d1-ea376ee6dc8d_547x513.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2023/07/12/kryo-qualcomms-last-in-house-mobile-core">Kryo: Qualcomm’s Last In-House Mobile Core</a>
+          <div class="card-meta">16 Jul 2023</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>CPU design is hard.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-22T21:59:39.000Z | tags: cpus, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f05107e-aad1-4b2d-922c-ddbcafb39085_1252x704.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/ai-server-cost-analysis-memory-is">AI Server Cost Analysis – Memory Is The Biggest Loser</a>
+          <div class="card-meta">22 Jun 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Micron $MU looks very weak in AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-09T21:59:59.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/grey-blocks-the-sizes-of-which-decrease-toward-a-thin-horizontal-white-line-and-then-increase-again-toward-the-top-of-the-image.jpg?id=33959767&amp;width=1200&amp;height=600&amp;coordinates=0%2C155%2C0%2C155" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/backside-power-delivery">Intel Is All-In on Back-Side Power Delivery</a>
+          <div class="card-meta">9 Jun 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>The company’s PowerVia interconnect tech demonstrated a 6 percent performance gain</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-02T00:01:45.000Z | tags: cpus, deep-learning, gpus, llms, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/an-intel-xeon-processor-on-a-black-backdrop-the-processor-is-shown-from-both-above-and-below-displaying-the-thousands-of-conta.jpg?id=33743986&amp;width=1200&amp;height=600&amp;coordinates=0%2C698%2C0%2C698" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-cpu">The Case for Running AI on CPUs Isn’t Dead Yet</a>
+          <div class="card-meta">2 Jun 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>GPUs may dominate, but CPUs could be perfect for smaller AI models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T16:24:20.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8839954c-4c99-4bd9-8d93-f6f84ab8dfc4_1375x1440.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2023/05/28/arms-cortex-a53-tiny-but-important">ARM’s Cortex A53: Tiny But Important</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tech enthusiasts probably know ARM as a company that develops reasonably performant CPU architectures with a focus on power efficiency.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T16:24:18.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F637189f3-ab80-4abf-b8b7-7251cc96a96d_677x438.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jprahman.substack.com/p/intel-cpu-die-topology">Intel CPU Die Topology - by Jason Rahman - Delayed Branch</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">jprahman.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the past 10-15 years, per-core throughput increases have slowed, and in response CPU designers have scaled up core counts and socket counts to continue increasing performance across generations of new CPU models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-06T23:18:26.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2304.02410">Hacker News</a>
+          <div class="card-meta">6 Apr 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>While microprocessors are used in various applications, they are precluded from the use in high-energy physics applications due to the harsh radiation present. To overcome this limitation a...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-06T19:41:08.000Z | tags: cpus, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2023/03/Core-counts-min.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/artificial-intelligence/326727-interconnect-under-the-spotlight-as-core-counts-accelerate">Interconnect Under the Spotlight as Core Counts Accelerate - SemiWiki</a>
+          <div class="card-meta">6 Apr 2023</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the march to more capable, faster, smaller, and lower…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T16:40:17.000Z | tags: cpus, datacenters, riscv, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2023/02/ventana-square_chip_1-logo-1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/04/04/risc-v-in-the-datacenter-is-no-risky-proposition">RISC-V In The Datacenter Is No Risky Proposition</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>It was only a matter of time, perhaps, but the skyrocketing costs of designing chips is colliding with the ever-increasing need for performance,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T11:49:46.000Z | tags: china, cpus, moats, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2023/03/17/3e4c349f-6c36-4dc1-a3de-16cf9a8e577a_e8716a81.jpg?itok=PLISNiPp&amp;v=1679040321" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.scmp.com/tech/tech-war/article/3213889/tech-war-chinas-flagship-cpu-designer-loongson-puts-brave-face-amid-us-sanctions">China’s flagship CPU designer puts on a brave face amid US sanctions</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">scmp.com</div>
+        </div>
+        <div class="card-section">
+          <p>Chinese chip designer Loongson, which has tried to reduce the country’s reliance on Intel and AMD, is developing its own general-purpose GPU despite being added to a US trade blacklist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-12T01:21:03.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86a962e7-d536-4195-873f-2da23bf5a682_1280x720.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.deusinmachina.net/p/the-basics-of-arm64-assembly">The basics of Arm64 Assembly - by Diego Crespo</a>
+          <div class="card-meta">12 Mar 2023</div>
+          <div class="card-meta card-domain">deusinmachina.net</div>
+        </div>
+        <div class="card-section">
+          <p>Just one instruction at a time!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T01:52:23.000Z | tags: cpus, hpc, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2023/01/sea-of-cores-logo-1024x1024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/01/19/more-cpu-cores-isnt-always-better-especially-in-hpc">More CPU Cores Isn’t Always Better, Especially In HPC</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>If a few cores are good, then a lot of cores ought to be better. But when it comes to HPC this isn’t always the case, despite what the Top500 ranking –</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-19T12:03:41.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://easyperf.net/blog/2022/10/17/Four-Cornerstones-of-CPU-Performance">Four Cornerstones of CPU Performance.</a>
+          <div class="card-meta">19 Oct 2022</div>
+          <div class="card-meta card-domain">easyperf.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-29T00:43:12.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6c507d69-90d5-4c8a-ab7d-a54e2431c9cb_1920x1440.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.angstronomics.com/p/monolithic-sapphire-rapids?action=share&amp;isFreemail=true&amp;publication_id=897746">Monolithic Sapphire Rapids</a>
+          <div class="card-meta">29 Sep 2022</div>
+          <div class="card-meta card-domain">angstronomics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Absolute Reticle Limit</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T01:16:42.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://easyperf.net/blog/2022/09/01/Utilizing-Huge-Pages-For-Code">Performance Benefits of Using Huge Pages for Code. | Easyperf</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">easyperf.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-12T16:23:03.000Z | tags: cpus, malware, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/06/cpu.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2022/07/intel-and-amd-cpus-vulnerable-to-a-new-speculative-execution-attack">New working speculative execution attack sends Intel and AMD scrambling</a>
+          <div class="card-meta">12 Jul 2022</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Both companies are rolling out mitigations, but they add overhead of 12 to 28 percent.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:29:55.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/06/cpu.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2022/06/researchers-exploit-new-intel-and-amd-cpu-flaw-to-steal-encryption-keys">A new vulnerability in Intel and AMD CPUs lets hackers steal encryption keys</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hertzbleed attack targets power-conservation feature found on virtually all modern CPUs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-13T17:40:44.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://randomascii.wordpress.com/wp-content/uploads/2022/01/pxl_20220111_000923865-copy_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://randomascii.wordpress.com/2022/01/12/5-5-mm-in-1-25-nanoseconds">5.5 mm in 1.25 nanoseconds | Random ASCII – tech blog of Bruce Dawson</a>
+          <div class="card-meta">13 Jan 2022</div>
+          <div class="card-meta card-domain">randomascii.wordpress.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 2004 I was working for Microsoft in the Xbox group, and a new console was being created. I got a copy of the detailed descriptions of the Xbox 360 CPU and I read it through multiple times and su…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:45:53.000Z | tags: cpus, semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cacm.acm.org/magazines/2020/7/245701-domain-specific-hardware-accelerators/fulltext#R24">Domain-Specific Hardware Accelerators – Communications of the ACM</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">cacm.acm.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T14:42:48.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://easyperf.net/blog/2019/04/03/Precise-timing-of-machine-code-with-Linux-perf">Precise timing of machine code with Linux perf. | Easyperf</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">easyperf.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:42:08.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1000/1*GfQGVmWUWuOerJ2dQAkQsg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@veedrac/to-reinvent-the-processor-671139a4a034">To reinvent the processor</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>A detailed, critical, technical essay on upcoming CPU architectures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:52:49.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.agner.org/optimize">Software optimization resources. C++ and assembly. Windows, Linux, BSD, Mac OS X</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">agner.org</div>
+        </div>
+        <div class="card-section">
+          <p>Software optimization manuals for C++ and assembly code. Intel and AMD x86 microprocessors. Windows, Linux, BSD, Mac OS X. 16, 32 and 64 bit systems. Detailed descriptions of microarchitectures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-07T17:58:14.000Z | tags: cpus, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/16930/1068852593%20-%20WM_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/16930/does-an-amd-chiplet-have-a-core-count-limit">Does an AMD Chiplet Have a Core Count Limit?</a>
+          <div class="card-meta">7 Sep 2021</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-04T22:34:47.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/16924/IBM%20Telum%2021x9_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/16924/did-ibm-just-preview-the-future-of-caches">Did IBM Just Preview The Future of Caches?</a>
+          <div class="card-meta">4 Sep 2021</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T01:32:02.000Z | tags: cpus, semiconductors, startups -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/02/semiconductor_chip_djfks9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/07/12/gutting-decades-of-architecture-to-build-a-new-kind-of-processor">Gutting Decades Of Architecture To Build A New Kind Of Processor</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are some features in any architecture that are essential, foundational, and non-negotiable. Right up to the moment that some clever architect shows</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-12T02:10:17.000Z | tags: amd, cpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://fuse.wikichip.org/wp-content/uploads/2021/06/v-cache-header.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fuse.wikichip.org/news/5531/amd-3d-stacks-sram-bumplessly">AMD 3D Stacks SRAM Bumplessly</a>
+          <div class="card-meta">12 Jun 2021</div>
+          <div class="card-meta card-domain">fuse.wikichip.org</div>
+        </div>
+        <div class="card-section">
+          <p>AMD recently unveiled 3D V-Cache, their first 3D-stacked technology-based product.  Leapfrogging contemporary 3D bonding technologies, AMD jumped directly into advanced packaging with direct bonding and an order of magnitude higher wire density.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-08T20:55:11.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1002010996/image_1002010996.jpg?io=getty-c-w1536" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://seekingalpha.com/article/4433617-intel-amd-threat-is-finished">Intel: AMD Threat Is Finished (NASDAQ:INTC)</a>
+          <div class="card-meta">8 Jun 2021</div>
+          <div class="card-meta card-domain">seekingalpha.com</div>
+        </div>
+        <div class="card-section">
+          <p>Although competition from Arm is increasing, AMD remains Intel’s biggest competitor, as concerns of losing market share weigh on Intel’s valuation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-25T15:13:41.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/06yJ6MX4ZSvTlsS6Zxn7ebh/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/computing/323107-new-morpheus-cpu-design-defeats-hundreds-of-hackers-in-darpa-tests">New &#39;Morpheus&#39; CPU Design Defeats Hundreds of Hackers in DARPA Tests - Extr</a>
+          <div class="card-meta">25 May 2021</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new CPU design has won accolades for defeating the hacking efforts of nearly 600 experts during a DARPA challenge. Its approach could help us close side-channel vulnerabilities in the future.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-24T09:14:29.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/07y8rVaCXLLmgvZrDLR8qcc/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/computing/322120-apples-m1-positioning-mocks-every-x86-cpu-amd-and-intel-have-ever-launched">Apple&#39;s M1 Positioning Mocks the Entire x86 Business Model</a>
+          <div class="card-meta">24 Apr 2021</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Apple is positioning its M1 quite differently from any CPU Intel or AMD has released. The long-term impact on the PC market could be significant.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-09T01:44:43.000Z | tags: cpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/07zI5HXgv0QhKowK8q7KJaf/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/computing/321658-sapphire-rapids-cpu-leak-up-to-56-cores-64gb-of-onboard-hbm2">Sapphire Rapids CPU Leak: Up to 56 Cores, 64GB of Onboard HBM2</a>
+          <div class="card-meta">9 Apr 2021</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sapphire Rapids, Intel&#39;s next server architecture, looks like a large leap over the just-launched Ice Lake SP.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T11:25:13.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devblogs.microsoft.com/oldnewthing/20180412-00?p=98495">The MIPS R4000, part 9: Stupid branch delay slot tricks</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">devblogs.microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Technically legal, but strange.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-26T11:17:24.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/03/amd-milan-epyc-logo-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/03/26/deep-dive-into-amds-milan-epyc-7003-architecture">Deep Dive Into AMD’s “Milan” Epyc 7003 Architecture</a>
+          <div class="card-meta">26 Mar 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>The “Milan” Epyc 7003 processors, the third generation of AMD’s revitalized server CPUs, is now in the field, and we await the entry of the “Ice Lake”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-19T21:59:34.000Z | tags: amd, cpus, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.techspot.com/articles-info/2043/images/2020-06-29-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.techspot.com/article/2043-amd-rise-fall-revival-history">The Rise, Fall and Revival of AMD (2020)</a>
+          <div class="card-meta">19 Mar 2021</div>
+          <div class="card-meta card-domain">techspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>AMD is one of the oldest designers of large scale microprocessors and has been the subject of polarizing debate among technology enthusiasts for nearly 50 years. Its...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-15T17:37:52.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/03/amd-milan-epyc-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.nextplatform.com/2021/03/15/the-third-time-charm-of-amds-milan-epyc-processors">The Third Time Charm Of AMD’s Milan Epyc Processors</a>
+          <div class="card-meta">15 Mar 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>With every passing year, as AMD first talked about its plans to re-enter the server processor arena and give Intel some real, much needed, and very direct</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T23:24:37.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/04BMWECKeaN45s7opQOAGkc/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/computing/319929-amds-reliance-on-tsmc-isnt-harming-the-companys-growth-prospects">AMD&#39;s Reliance on TSMC Isn&#39;t Harming the Company&#39;s Growth Prospects - Extre</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-04T11:34:43.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-10/badges-mtl-raptor-lake-refresh.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.intel.com/content/www/us/en/processors/processor-numbers.html">Intel Processor Names, Numbers and Generation List</a>
+          <div class="card-meta">4 Feb 2021</div>
+          <div class="card-meta card-domain">intel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding Intel® processor names and numbers helps identify the best laptop, desktop, or mobile device CPU for your computing needs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:37:18.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.moritz.systems/blog/how-debuggers-work-getting-and-setting-x86-registers-part-1">How Debuggers Work: Getting and Setting x86 Registers</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">moritz.systems</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I would like to shortly describe the methods used to dump and restore the different kinds of registers on 32-bit and 64-bit x86 CPUs.  The first part will focus on General Purpose Registers, Debug Registers and Floating-Point Registers up to the XMM registers provided by the SSE extension.  I will explain how their values can be obtained via the ptrace(2) interface.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:09:59.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2Fxfs6ng0a2aacwizvqgq7.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/dendibakh/performance-analysis-tuning-on-modern-cpu-3057">Performance analysis &amp; tuning on modern CPU - DEV Community ?‍??‍?</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>They say &quot;performance is king&#39;... It was true a decade ago and it certainly is now. With more and mor...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-01T16:04:16.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gist.github.com/erincandescent/8a10eeeea1918ee4f9d9982f7618ef68">An ex-ARM engineer critiques RISC-V</a>
+          <div class="card-meta">1 Nov 2020</div>
+          <div class="card-meta card-domain">gist.github.com</div>
+        </div>
+        <div class="card-section">
+          <p>RISC-V.md · GitHub</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:32:21.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://danlark.org/wp-content/uploads/2020/06/d2elnjfdkne.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://danlark.org/2020/06/14/128-bit-division">Optimizing 128-bit Division</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">danlark.org</div>
+        </div>
+        <div class="card-section">
+          <p>When it comes to hashing, sometimes 64 bit is not enough, for example, because of birthday paradox — the hacker can iterate through random $latex 2^{32}$ entities and it can be proven that wi…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-02T09:22:35.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://en.wikipedia.org/wiki/X86_instruction_listings">x86 instruction listings</a>
+          <div class="card-meta">2 Jun 2020</div>
+          <div class="card-meta card-domain">en.wikipedia.org</div>
+        </div>
+        <div class="card-section">
+          <p>The x86 instruction set refers to the set of instructions that x86-compatible microprocessors support. The instructions are usually part of an executable program, often stored as a computer file and executed on the processor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T10:56:45.000Z | tags: cpus, hpc, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fujitsu.com/global/about/resources/news/press-releases/2019/1202-01.html?_fsi=q8QhaYU5">Fujitsu Begins Shipping Supercomputer Fugaku - Fujitsu Global</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">fujitsu.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fujitsu Limited today announced that it began shipping the supercomputer Fugaku, which is jointly developed with RIKEN and promoted by the Ministry of Education, Culture, Sports, Science and Technology with the aim of starting general operation between 2021 and 2022. The first machine to be shipped this time is one of the computer units of Fugaku, a supercomputer system comprised of over 150,000 high-performance CPUs connected together. Fujitsu will continue to deliver the units to RIKEN Center for Computational Science in Kobe, Japan, for installation and tuning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: cpus, semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tech-talk/semiconductors/processors/core-processor-chiplets-isscc-news">96-Core Processor Made of Chiplets</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-16T12:12:35.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/15483/WM_CPUCaddy_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/15483/amd-threadripper-3990x-review/3">64 Core Threadripper 3990X CPU Review</a>
+          <div class="card-meta">16 Feb 2020</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-12T14:54:48.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/bdb3549d7169b8cde898ca70d80b3d8784dc592867c80806cebdcfc0246af1c2/ithemal/bhive" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/ithemal/bhive/blob/master/README.md">bhive/README.md at master · ithemal/bhive</a>
+          <div class="card-meta">12 Feb 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-25T14:52:57.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/15039/carou_4_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/15039/the-intel-core-i9-10980xe-review">It’s a Cascade of 14nm CPUs: AnandTech’s Intel Core i9-10980XE Review</a>
+          <div class="card-meta">25 Nov 2019</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-04T18:04:47.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://hothardware.com/ContentImages/NewsItem/49769/content/intel-engineer.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/intel-10th-gen-comet-lake-cpu-family-leaks-10-core-flagship">Intel 10th Gen Comet Lake CPU Family Leaks With 10-Core, 20-Thread LGA-1200</a>
+          <div class="card-meta">4 Nov 2019</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>Recent leaks may shed some light on Intel&#39;s upcoming mainstream desktop Comet Lake-S CPUs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-26T15:16:05.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://hothardware.com/ContentImages/Article/2910/content/intel-tremont.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/reviews/intel-tremont-cpu-microarchitecture-overview">Intel Tremont CPU Microarchitecture: Power Efficient, High-Performance x86</a>
+          <div class="card-meta">26 Oct 2019</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel&#39;s Tremont CPU microarchitecture will be the foundation of a next-generation, low-power processors that target a wide variety of products across</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-26T15:16:03.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/15009/Lake_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/15009/intels-new-atom-microarchitecture-the-tremont-core">Intel&#39;s new Atom Microarchitecture: The Tremont Core in Lakefield</a>
+          <div class="card-meta">26 Oct 2019</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-28T23:38:15.000Z | tags: cpus, riscv, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://twilco.github.io/riscv-from-scratch/2019/04/27/riscv-from-scratch-2.html">RISC-V from scratch 2: Hardware layouts, linker scripts, and C runtimes</a>
+          <div class="card-meta">28 Aug 2019</div>
+          <div class="card-meta card-domain">twilco.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>A post describing how C programs get to the main function. Devicetree layouts, linker scripts, minimal C runtimes, GDB and QEMU, basic RISC-V assembly, and other topics are reviewed along the way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-24T14:02:28.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pdziepak.github.io/2019/06/21/avoiding-icache-misses">Avoiding Instruction Cache Misses</a>
+          <div class="card-meta">24 Jun 2019</div>
+          <div class="card-meta card-domain">pdziepak.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Excessive instruction cache misses are the kind of a performance problem that&#39;s going to appear only in larger codebases. In this article, I&#39;m describing some ideas on how to deal with this issue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-12T03:14:53.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/5b59a609092f1d01fae95bc28f69d0eb400604958042d290fd04e0550a4b5292/PrincetonUniversity/accelerator-wall" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/PrincetonUniversity/accelerator-wall">PrincetonUniversity/accelerator-wall: Repository for the tools and non-comm</a>
+          <div class="card-meta">12 Feb 2019</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Repository for the tools and non-commercial data used for the &quot;Accelerator wall&quot; paper. - PrincetonUniversity/accelerator-wall</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-30T02:24:45.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.phoronix.net/image.php?id=ec2-graviton-performance&amp;image=amazon_graviton_1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.phoronix.com/scan.php?item=ec2-graviton-performance&amp;num=1&amp;page=article">Benchmarking Amazon&#39;s ARM Graviton CPU With EC2&#39;s A1 Instances</a>
+          <div class="card-meta">30 Jan 2019</div>
+          <div class="card-meta card-domain">phoronix.com</div>
+        </div>
+        <div class="card-section">
+          <p>Monday night Amazon announced the new &#39;A1&#39; instance type for the Elastic Compute Cloud (EC2) that is powered by their own &#39;Graviton&#39; ARMv8 processors.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-30T01:48:51.000Z | tags: cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2018/11/LANL_distance.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2018/11/07/arm-is-the-nnsas-new-secret-weapon">ARM is the NNSA’s New Secret Weapon</a>
+          <div class="card-meta">30 Jan 2019</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>It might have been difficult to see this happening a mere few years ago, but the National Nuclear Security Administration and one of its key</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-01-24T17:45:41.000Z | tags: cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://cpudb.stanford.edu">CPU DB - Looking At 40 Years of Processor Improvements | A complete databas</a>
+          <div class="card-meta">24 Jan 2018</div>
+          <div class="card-meta card-domain">cpudb.stanford.edu</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

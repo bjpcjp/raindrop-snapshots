@@ -1,0 +1,400 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>matplotlib + visualization &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-07-29T17:45:32.371Z | tags: seaborn, visualization, python, matplotlib -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/07/sta-ferrer-10-python-one-liners-statistical-plotting-1024x683.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/10-python-one-liners-for-statistical-plotting/">10 Python One-Liners for Statistical Plotting</a>
+          <div class="card-meta">29 Jul 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Master fast, powerful ways to visualize data with these compact, ready-to-use Python one-liners.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-30T18:51:20.000Z | tags: matplotlib, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:890/1*S6VkCD3s72MhxCI4qskyWQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/i-found-a-hidden-gem-in-matplotlibs-library-packed-bubble-charts-in-python-d0f5d892beb7?source=rss----7f60cf5620c9---4">I found a hidden gem in Matplotlib’s library: Packed Bubble Charts in Pytho</a>
+          <div class="card-meta">30 Jul 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ever wished to design those beautiful Tableau based packed bubble charts? Follow along for a tutorial on the Matplotlib solution</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-24T21:40:04.000Z | tags: seaborn, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*2i9Dkl-66wK6MhaffPAJmw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-useful-visualizations-to-enhance-your-analysis-022a5dd67912">5 Useful Visualizations to Enhance Your Analysis</a>
+          <div class="card-meta">24 Mar 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use Python’s statistical visualization library Seaborn to level up your analysis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-21T14:44:19.000Z | tags: matplotlib, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:811/1*xLV-QQ6hpJMWJMYbXgQAQw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matplotlib-make-your-plotting-life-easier-with-rcparams-d88f202fa83c?source=rss----7f60cf5620c9---4">Matplotlib: Make Your Plotting Life Easier with rcParams</a>
+          <div class="card-meta">21 Feb 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Consistently beautiful plots with less code and minimal effort</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-21T18:51:26.000Z | tags: matplotlib, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:975/1*uIp1dJpebnY7K5T56kmtQg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-unique-charts-created-with-matplotlib-you-probably-havent-seen-before-421ab8cdd36f">3 Unique Charts You Wouldn’t Think Were Created with Matplotlib</a>
+          <div class="card-meta">21 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Utilising Python’s Matplotlib to Create Advanced Data Visualisations</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T12:43:50.000Z | tags: machine-learning, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*WDU93_y4BTEMT_iL" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-make-40-interactive-plots-to-analyze-your-machine-learning-pipeline-ee718afd7bc2">How to make 40 interactive plots to analyze your machine learning pipeline</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A quick guide on how to make clean-looking, interactive Python plots to validate your data and model</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T18:25:26.000Z | tags: python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*b67XM7qmBwSI5_XIqCUOPQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-simple-ways-to-create-a-waterfall-plot-in-python-1124f7afc90f?source=rss----7f60cf5620c9---4">3 Simple Ways to Create a Waterfall Plot in Python</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to quickly create a presentation-ready plot to aid your data storytelling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T18:24:35.000Z | tags: python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*jb3FPp7GYp1p3Hv3" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-create-beautiful-waffle-charts-for-data-visualisation-in-python-e9760a3f8594">How to Create Beautiful Waffle Charts for Data Visualisation in Python</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Great Alternative to Pie Charts for Data Visualisation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-19T16:46:13.000Z | tags: python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*pCR4l48i-XXzas4dI-6yyg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/12-essential-visualizations-and-how-to-implement-them-part-2-e47c1d4b9784?source=rss----7f60cf5620c9---4">12 Essential Visualizations and How to Implement Them, Part 2</a>
+          <div class="card-meta">19 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>We look at how to create the 12 most useful graphs and charts in Python and Streamlit</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:03:01.000Z | tags: d3, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*EXijXJ24_hS6PnT0AK-VKw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-create-storytelling-moving-bubbles-charts-in-d3js-with-python-b31cec7b8226">How to Create Storytelling Moving Bubbles Charts in d3js with Python.</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The MovingBubble chart is one of those mind-blowing charts to look at. Learn how to create them using your own data set and Python!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-08T01:19:39.000Z | tags: machine-learning, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Sw4KsZy5gILA-h1vVJhD_w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091">9 Visualizations with Python that Catch More Attention than a Bar Chart</a>
+          <div class="card-meta">8 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Creating eye-catching graphs with Python to use instead of bar charts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-26T22:50:21.000Z | tags: graphs, matplotlib, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*XpLxl8Uv2FhNXQUJVez8Pw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/stream-graphs-basics-with-pythons-matplotlib-5165828359a5?source=rss----7f60cf5620c9---4">Stream Graphs Basics with Python&#39;s Matplotlib</a>
+          <div class="card-meta">26 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The good-looking cousin of stacked area charts</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-26T12:42:14.000Z | tags: matplotlib, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:432/1*RFzK2_u8QjPnakNWdK9taA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/4-quick-tricks-for-better-plots-in-matplotlib-1efd82acd780">4 Quick Tricks For Better Plots in Matplotlib</a>
+          <div class="card-meta">26 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Easily adding arrows, multiple axes, gradient fill, and more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-12T18:53:58.000Z | tags: matplotlib, python, seaborn, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*WulakottOyQ6wVNi" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/seaborn-can-do-the-job-then-why-matplotlib-dac8d2d24a5f?source=rss----7f60cf5620c9---4">Seaborn can do the job, then why Matplotlib?</a>
+          <div class="card-meta">12 Jun 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Should you bypass Matplotlib?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:56:36.000Z | tags: matplotlib, python, visualization -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/bd14408038e7fe7b79ac1e967eeee771bdbd99ba14f2866ddde1d66c7493d446/alopezrivera/mpl_plotter" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/antonlopezr/mpl_plotter">Show HN: MPL Plotter – Python library to make technical plots more efficien</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Publication-quality data representation library based on Matplotlib. - alopezrivera/mpl_plotter</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-19T01:16:35.000Z | tags: pdfs, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*5JasAjEbqxO13hMH.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-create-pdf-reports-with-python-the-essential-guide-c08dd3ebf2ee?source=rss----7f60cf5620c9---4">How to Create PDF Reports with Python — The Essential Guide</a>
+          <div class="card-meta">19 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create PDF reports with beautiful visualizations in 10 minutes or less.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-07-25T01:06:09.000Z | tags: python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*CUq-RVgGP3Ur6m-Q" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658?source=rss----7f60cf5620c9---4">Top 6 Python Libraries for Visualization: Which one to Use?</a>
+          <div class="card-meta">25 Jul 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Confused about which Visualization Tool to Use? I Broke Down the Pros and Cons of Each Libary for You</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T14:02:58.000Z | tags: matplotlib, python, seaborn, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*78SqTXRXtDgc4rlrnmJzaA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-python-visualization-libraries-you-must-know-as-a-data-scientist-8d0cd25e1c73?source=rss----7f60cf5620c9---4">3 Python Visualization Libraries You MUST Know as A Data Scientist</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In real life, data preprocessing is really a pain for most data scientists. But with the help of data visualization libraries, it actually…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T14:00:38.000Z | tags: machine-learning, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*EXNnh_OwmWsO4tgldFaEXA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/visualizing-three-dimensional-data-heatmaps-contours-and-3d-plots-with-python-bd718d1b42b4?source=rss----7f60cf5620c9---4">Visualizing Three-Dimensional Data — Heatmaps, Contours, and 3D Plots with</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Plotting heatmaps, contour plots, and 3D plots with Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-08T01:49:26.000Z | tags: matplotlib, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*KrbRuiBUy7LsADuQbcws1A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/visualize-categorical-relationships-with-catscatter-e60cdb164395?source=rss----7f60cf5620c9---4">Visualize Categorical Relationships With Catscatter</a>
+          <div class="card-meta">8 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What if you can create a scatter plot for categorical features?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:46:26.000Z | tags: scikit-learn, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/80898688/ff511000-6620-11e9-93e3-947e2fd4c1b1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/reiinakano/scikit-plot">reiinakano/scikit-plot: An intuitive library to add plotting functionality</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive library to add plotting functionality to scikit-learn objects. - reiinakano/scikit-plot</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-11T01:49:12.000Z | tags: python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://python-graph-gallery.com">The Python Graph Gallery – Visualizing data – with Python</a>
+          <div class="card-meta">11 Nov 2017</div>
+          <div class="card-meta card-domain">python-graph-gallery.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Python Graph Gallery displays hundreds of charts made with Python, always with explanation and reproduciible code</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,216 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>arxiv + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-11-24T23:12:03.591Z | tags: machine-learning, arxiv, github -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8244e94e-677c-4f4e-affa-928382f1b9be_1678x1378.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/swyx/p/paperclub?r=oc5d&amp;utm_medium=ios">How to Run a Paper Club (also: LIVE at NeurIPS 2024!)</a>
+          <div class="card-meta">24 Nov 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your ultimate Paper Club Starter Kit, from your friends at the Latent Space Paper Club, where we have now read 100 papers. Also: Announcing Latent Space Paper Club LIVE! at Neurips 2024! Join us!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-15T23:05:34.000Z | tags: arxiv, llms, machine-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fabd9ec-29f1-4c1c-85fb-8781e7c6ce0b_1600x436.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/tips-for-llm-pretraining-and-evaluating-rms?isFreemail=true&amp;post_id=142924793&amp;publication_id=1174659&amp;r=oc5d&amp;triedRedirect=true">Tips for LLM Pretraining and Evaluating Reward Models</a>
+          <div class="card-meta">15 Apr 2024</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discussing AI Research Papers in March 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-07T21:34:39.000Z | tags: arxiv, llms, machine-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0046298-1059-4538-bcd8-dfcfc863d7c5_1254x810.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023">10 Noteworthy AI Research Papers of 2023</a>
+          <div class="card-meta">7 Jan 2024</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>This year has felt distinctly different. I&#39;ve been working in, on, and with machine learning and AI for over a decade, yet I can&#39;t recall a time when these fields were as popular and rapidly evolving as they have been this year. To conclude an eventful 2023 in machine learning and AI research, I&#39;m excited to share 10 noteworthy papers I&#39;ve read this year. My personal focus has been more on large language models, so you&#39;ll find a heavier emphasis on large language model (LLM) papers than computer vision papers this year.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T18:16:39.000Z | tags: arxiv, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/wijaya_top_machine_learning_papers_read_2023_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/03/top-machine-learning-papers-read-2023.html">Top Machine Learning Papers to Read in 2023 - KDnuggets</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>These curated papers would step up your machine-learning knowledge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T15:18:28.000Z | tags: arxiv, forecasting-predictions, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2012.03854.pdf">2012.03854.pdf</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T15:18:04.000Z | tags: arxiv, hyperparameters, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2003.05689.pdf">2003.05689.pdf</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T15:17:58.000Z | tags: arxiv, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/1811.12808.pdf">Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T15:17:51.000Z | tags: arxiv, best-practices, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2108.02497.pdf">2108.02497.pdf</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-14T20:05:13.000Z | tags: arxiv, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FFqvskpvXsAEIy5u.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nlpnews.substack.com/p/top-ml-papers-of-the-week-8f6?isFreemail=true&amp;post_id=107962254&amp;publication_id=103238">?Top ML Papers of the Week - by elvis - NLP Newsletter</a>
+          <div class="card-meta">14 Mar 2023</div>
+          <div class="card-meta card-domain">nlpnews.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>The top ML Papers of the Week (Mar 6 - Mar 12)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:43:04.000Z | tags: arxiv, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2207.02696">YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for...</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>YOLOv7 surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy 56.8% AP among all known real-time object detectors with 30...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-13T01:31:18.000Z | tags: arxiv, devops, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2205.02302">Machine Learning Operations (MLOps): Overview, Definition, and Architecture</a>
+          <div class="card-meta">13 Jul 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>The final goal of all industrial machine learning (ML) projects is to develop ML products and rapidly bring them into production. However, it is highly challenging to automate and operationalize...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T00:56:36.000Z | tags: arxiv, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2110.13041">Applications and Techniques for Fast Machine Learning in Science</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>In this community review report, we discuss applications and techniques for fast machine learning (ML) in science -- the concept of integrating power ML methods into the real-time experimental...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

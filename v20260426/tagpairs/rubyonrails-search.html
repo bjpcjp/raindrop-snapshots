@@ -1,0 +1,173 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>rubyonrails + search &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-02-15T04:23:32.000Z | tags: rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkZ1bGwtVGV4dCBTZWFyY2ggZm9yIFJ1Ynkgb24gUmFpbHMgd2l0aCBMaXRlc2VhcmNoIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyNC0wMi9saXRlc3RhY2stcDYuanBnIn0seyJuYW1lIjoiY2F0ZWdvcnlfbG9nbyIsImltYWdlX3VybCI6Imh0dHBzOi8vYXBwc2lnbmFsLW5leHRqcy1ibG9nLW55cXI2cWNyOC1hcHBzaWduYWwudmVyY2VsLmFwcC9pbWFnZXMvbG9nb3MvcnVieS1sb2dvLnBuZyJ9XQ&amp;s=498ad989fa9ba50ca8c2dc62617d4009ca0dead0678964fd20043990ba1f0ef8" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2024/02/14/full-text-search-for-ruby-on-rails-with-litesearch.html">Full-Text Search for Ruby on Rails with Litesearch</a>
+          <div class="card-meta">15 Feb 2024</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>In part six of our series, we&#39;ll use Litesearch, the last piece of the puzzle in LiteStack.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:46.000Z | tags: rubyonrails, search -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devcamp.com/site_blogs/implementing-a-search-engine-in-a-rails-application">Top 5 Gems for Implementing a Search Engine in a Rails App</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">devcamp.com</div>
+        </div>
+        <div class="card-section">
+          <p>Thanks to gems, it is easy to implement a search engine into Rails applications. Of course, you have to choose which gem to use. While there are countless options, four stand out as the best. You will be happy with any of these options.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:44:52.000Z | tags: elasticsearch, rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/nZ52rq9EkQ6V3bp1Lj/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkZ1bGwtdGV4dCBTZWFyY2ggd2l0aCBFbGFzdGljc2VhcmNoIGluIFJhaWxzIiwiY29sb3IiOm51bGwsImJhY2tncm91bmQiOm51bGx9LHsibmFtZSI6ImhlYWRzaG90IiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly93d3cuaG9uZXliYWRnZXIuaW8vaW1hZ2VzL2hlYWRzaG90cy9pYW5pc3RyaWFuZGFmaWxvdi5wbmcifSx7Im5hbWUiOiJzdW1tYXJ5IiwidGV4dCI6IklmIHlvdSdyZSBmaW5kaW5nIHBlcmZvcm1hbmNlIGJvdHRsZW5lY2tzIHdpdGggZnVsbC10ZXh0IHNlYXJjaCBpbiB5b3VyIGRhdGFiYXNlLCBpdCBtYXkgYmUgdGltZSB0byBzd2l0Y2ggdG8gRWxhc3RpY3NlYXJjaC4gSW4gdGhpcyB0dXRvcmlhbCwgSWFuaXMgaW50cm9kdWNlcyBFbGFzdGljc2VhcmNoIGFuZCBzaG93cyB1cyBob3cgdG8gaW1wbGVtZW50IGFuIGVmZmljaWVudCBzZWFyY2ggZmVhdHVyZSBpbiBSYWlscy4iLCJjb2xvciI6bnVsbCwiYmFja2dyb3VuZCI6bnVsbH0seyJuYW1lIjoiYXV0aG9yIiwidGV4dCI6IkJ5ICpJYW5pcyBUcmlhbmRhZmlsb3YqIiwiY29sb3IiOm51bGwsImJhY2tncm91bmQiOm51bGx9LHsibmFtZSI6InRhZ3MiLCJ0ZXh0IjoiI3J1YnkgI3JhaWxzICNlbGFzdGljc2VhcmNoIiwiY29sb3IiOm51bGwsImJhY2tncm91bmQiOm51bGx9XQ&amp;s=60dd8a28c7bc131a51fed039e5f176120c5594517720894194e161438f58ddbc" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubyweekly.com/link/125624/ad5e785e3b">Full-text Search with Elasticsearch in Rails</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">rubyweekly.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you&#39;re finding performance bottlenecks with full-text search in your database, it may be time to switch to Elasticsearch. In this tutorial, Ianis introduces Elasticsearch and shows us how to implement an efficient ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:31:48.000Z | tags: postgres, rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://pganalyze.com/static/be06f82c4bee648c1ea8fe0d77d92c52/fcb2f/full_text_search_ruby_rails_postgres.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pganalyze.com/blog/full-text-search-ruby-rails-postgres">Full Text Search in Milliseconds with Rails and PostgreSQL</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">pganalyze.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article shows how to optimize a Full Text Search implementation with Rails and PostgreSQL, taking a single query from 130ms to 7ms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T17:50:59.000Z | tags: postgres, rubyonrails, search, sql -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/6647a84a9616b0776fb903e9/66667ea42cee85721676cd1b_social-how-to-build-a-search-engine-with-ruby-on-rails.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.testdouble.com/posts/2021-09-09-how-to-build-a-search-engine-with-ruby-on-rails">How to build a search engine with Ruby on Rails</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">blog.testdouble.com</div>
+        </div>
+        <div class="card-section">
+          <p>Implementing search in your Rails app can be vexing. Here&#39;s a great pattern to use that combines the best parts of ActiveRecord and Postgres.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-10T19:43:54.000Z | tags: elasticsearch, rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fugm9r90o6f82rs64pw8r.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/kiosan/how-to-build-a-booking-engine-similar-to-booking-com-with-ruby-on-rails-6-and-elasticsearch-7-40nk">How to Build a Booking Engine Similar to Booking.com with Ruby on Rails 6 a</a>
+          <div class="card-meta">10 Jul 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Think building a booking system is not your cup of tea? I bet, you will change your mind after...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:01:56.000Z | tags: rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F6tfp24uipjpi7fnfogbo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/branmar97/building-an-advanced-search-form-in-rails-6-2fkm">Building an Advanced Search Form in Rails 6</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   A simple search form is great, but one with advanced search options can have...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2010-10-24T00:00:00.000Z | tags: rubyonrails, search, similarity-search, github -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/b145c6e389e22aab2444e1e8949491b0ecfceb450206a4fbfbec69563db43712/ankane/neighbor" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/ankane/neighbor">ankane/neighbor</a>
+          <div class="card-meta">24 Oct 2010</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nearest neighbor search for Rails.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

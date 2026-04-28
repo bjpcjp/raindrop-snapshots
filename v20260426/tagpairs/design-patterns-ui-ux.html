@@ -1,0 +1,992 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>design-patterns + ui-ux &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-22T19:42:47.805Z | tags: webdev, design, ui-ux, design-patterns -->
+      <div class="card-image">
+        <img src="https://d3tamksjp7q04h.cloudfront.net/2025/10/28144027/342.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webdesignerdepot.com/how-aspect-ratios-define-perception-rhythm-and-flow/">How Aspect Ratios Define Perception, Rhythm, and Flow</a>
+          <div class="card-meta">22 Apr 2026</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep exploration of how aspect ratios shape perception, visual rhythm, and usability in modern interfaces. From grids to galleries to video players, this article dissects how proportion silently governs how users see, feel, and interact with content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-09T02:45:30.564Z | tags: design-patterns, ui-ux, habits -->
+      <div class="card-image">
+        <img src="https://uxmag.com/wp-content/uploads/2025/10/Designing-with-Psychology-to-Make-Products-Stick-UX-Mag-site-Medium.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxmag.com/articles/designing-with-psychology-to-make-products-stick">Designing with Psychology to Make Products Stick</a>
+          <div class="card-meta">9 Oct 2025</div>
+          <div class="card-meta card-domain">uxmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Product design has a lot to do with psychology. It’s less about how people should behave and more about how they actually do. In this piece, we’re sharing some principles that can be useful to keep in mind. The names might sound quite technical at first, but once you see the examples from everyday products, you’ll realise they’re just simple patterns of human nature, and when applied well, they can help your product do good.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-18T20:55:40.588Z | tags: ui-ux, design-patterns -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Social-Card-Design-Guidance-opengraph.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/design-guidance/?utm_source=feedly&amp;utm_medium=feed&amp;utm_campaign=rss-syndication">Design Guidance: Principles, Patterns, Heuristics, and Team Charters</a>
+          <div class="card-meta">18 Apr 2025</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Design teams rely on a combination of principles, patterns, heuristics, and charters to create consistent and usable experiences in a collaborative way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-13T20:54:29.200Z | tags: ui-ux, design-patterns, analytics -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Testing-Visual-Design_Opengraph.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/testing-visual-design/">Testing Visual Design: A Comprehensive Guide</a>
+          <div class="card-meta">13 Dec 2024</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use methods like 5-second testing, first-click testing, and preference testing to gain insights into how users perceive your visual design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-05T19:05:33.000Z | tags: design-patterns, ui-ux, best-practices -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/TheAnatomyofaGoodDesign_Social-Post_2023.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/why-does-a-design-look-good-part2">The Anatomy of a Good Design: An Analysis of 4 Sites</a>
+          <div class="card-meta">5 Mar 2023</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Visually pleasing designs use consistent type styles and spacing, create a visual hierarchy, and utilize an underlying grid structure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-24T21:35:09.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2023/01/design-system-components-1.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/design-system-components">10 Essential Design System Components</a>
+          <div class="card-meta">24 Jan 2023</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about design system components. Deepen your knowledge of atomic design and see how you can use it for product design. Enjoy!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-09T12:23:24.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxmatters.com/mt/archives/2023/01/7-principles-of-design-psychology-every-ux-designer-should-know.php">7 Principles of Design Psychology Every UX Designer Should Know</a>
+          <div class="card-meta">9 Jan 2023</div>
+          <div class="card-meta card-domain">uxmatters.com</div>
+        </div>
+        <div class="card-section">
+          <p>Web magazine about user experience matters, providing insights and inspiration for the user experience community</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-23T09:46:52.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa51vfbwc9s9o45m83afn.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/daniel000/how-to-design-almost-any-ui-element-list-of-58-articles-of-how-to-properly-build-elements-in-terms-of-ui-and-ux-jl4">How to design almost any UI element (list of ~58 articles of how to properl</a>
+          <div class="card-meta">23 Dec 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Buttons.     7 Basic Rules for Button Design by @101babich  Button Design  Cheatsheet for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-06T16:22:00.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Social_Posts-Megan_2_22.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/hostile-error-messages">Hostile Patterns in Error Messages</a>
+          <div class="card-meta">6 Nov 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Premature error messages, aggressively styled fields, and unnecessarily disruptive system-status messages feel bad-mannered and increase cognitive load for users during otherwise simple tasks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-17T16:52:32.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/08/Design-Tokens.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio?p=36356">What Are Design Tokens?</a>
+          <div class="card-meta">17 Sep 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn more about design tokens and find out more about using them in your product design process. See if you need them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-14T14:23:08.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/09/accessibility-best-practices.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/8-website-accessibility-best-practices-to-improve-ux">Accessibility UX Best Practices – 8 Tactics for Web Design</a>
+          <div class="card-meta">14 Sep 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn 8 accessibility hacks that will make your website suitable for a variety of users, including those who have certain challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-14T14:09:17.000Z | tags: design-patterns, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/09/Design-system-glossary.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/design-system-glossary">Design System Glossary – 34 Powerful Terms You Should Know</a>
+          <div class="card-meta">14 Sep 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is pattern library, UI kit, and brand voice? Learn all the terms that you need to build and use a long-lasting design system.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T13:43:53.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxmatters.com/mt/archives/2022/09/top-5-technology-trends-in-ux-design.php">Top 5 Technology Trends in UX Design</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">uxmatters.com</div>
+        </div>
+        <div class="card-section">
+          <p>Web magazine about user experience matters, providing insights and inspiration for the user experience community</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-29T01:32:34.000Z | tags: advertising-commercials, design-patterns, images, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.kissmetrics.com/shocking-truth-about-graphics">Neil Patel&#39;s Digital Marketing Blog</a>
+          <div class="card-meta">29 Jun 2022</div>
+          <div class="card-meta card-domain">blog.kissmetrics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your #1 resource for digital marketing tips, trends, and strategy to help you build a successful online business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T01:43:50.000Z | tags: authentication, design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://webauthn.guide/dist/images/webauthn-meta-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webauthn.guide">Hacker News</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">webauthn.guide</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to Web Authentication (WebAuthn), the new API that can replace passwords with strong authentication.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T19:20:13.000Z | tags: css, design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/5f52cb73016fed9a30bb4d95/62955c8bdc82371283f7ae65_play3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.andy.works/words/the-most-satisfying-checkbox">The World&#39;s Most Satisfying Checkbox | !Boring Software</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">andy.works</div>
+        </div>
+        <div class="card-section">
+          <p>The Art of Game Feel (a.k.a Juice) in Product Design</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T13:48:58.000Z | tags: css, design, design-patterns, fonts-typography, keywords-ppc-seo, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2022/06/amy-hirschi-JaoVGh5aJ3E-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/in-demand-marketing-skills-for-your-design-cv.html">6 In-demand Marketing Skills for Your Design CV</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>In today’s tech-savvy world, being a great designer is not all about being a whiz at tools such as Adobe Photoshop and Adobe Illustrator. The job is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:28:47.000Z | tags: design, design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*jGDiGQElix8y2nn6uekgyg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.prototypr.io/youre-not-still-using-read-more-are-you-16466ae326e7">You’re not still using “Read More” are you?</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">blog.prototypr.io</div>
+        </div>
+        <div class="card-section">
+          <p>It’s probably not the first time you’ve heard that using links like “Read More” or “Click Here” is bad practice. This topic has been…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-28T21:33:00.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-search/benchmark/page-types/no-search-results-page">479 ‘No Results Page’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">28 Mar 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-28T21:32:24.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/receipt">658 ‘Receipt / Order Confirmation’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">28 Mar 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-28T21:32:13.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://dc-prod-blog.sfo2.digitaloceanspaces.com/uploads/2013/07/flat-design-office-desk-02-preview-o.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.designcontest.com/blog/trend-what-is-flat-design">Trend Alert: What is Flat Design?</a>
+          <div class="card-meta">28 Mar 2022</div>
+          <div class="card-meta card-domain">designcontest.com</div>
+        </div>
+        <div class="card-section">
+          <p>Flat design is a big trend right now when it comes to design projects â€&quot; from logos to letterhead to website design. And if you donâ€™t get familiar with it, you might get left behind.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-14T21:44:03.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://refactoring.guru/images/refactoring/social/facebook-share-preview.png?id=dbf9e98269595be86eb668f365be6868" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://refactoring.guru/design-patterns/catalog">The Catalog of Design Patterns</a>
+          <div class="card-meta">14 Mar 2022</div>
+          <div class="card-meta card-domain">refactoring.guru</div>
+        </div>
+        <div class="card-section">
+          <p>The catalog of design patterns grouped by intent, complexity, and popularity. The catalog contains all classic design patterns and several architectural patterns.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-24T01:29:46.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-search/benchmark/page-types/search-field">814 ‘Search Field’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">24 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-24T01:22:35.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/product-page/benchmark/page-designs/image-gallery-overlay">321 ‘Image Gallery Overlay’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">24 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-23T02:22:51.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/account">843 ‘Account Selection’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-23T02:22:34.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://web.hypothes.is/wp-content/uploads/2017/02/Screen-Shot-2017-02-27-at-7.26.06-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hypothes.is/blog/annotation-is-now-a-web-standard">Annotation Is Now a Web Standard : Hypothesis</a>
+          <div class="card-meta">23 Feb 2022</div>
+          <div class="card-meta card-domain">hypothes.is</div>
+        </div>
+        <div class="card-section">
+          <p>Over the years, many have tried to bring us web annotations. On 23 February 2017, things took a giant leap forward when the W3C, the standards body for the web, standardized annotation.  Yesterday, on February 23, things took a giant leap forward when the W3C, the standards body for the Web, standardized annotation.  Twenty four years after Marc Andreessen first built collaborative annotation into Mosaic and tested it on a few “guinea pigs” before turning it off, annotations have finally become first-class citizens of the web.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-23T02:21:46.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-field">342 Mobile ‘Search Field’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-23T02:21:28.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*RrpgiTywnmawnQBaFtmHSA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/accurat-studio/beautiful-reasons-c1c6926ab7d7#.6stwta3w2">Beautiful Reasons</a>
+          <div class="card-meta">23 Feb 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Towards New Aesthetics for Data Narratives</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-12T15:13:38.000Z | tags: design-patterns, ui-ux, landing-pages -->
+      <div class="card-image">
+        <img src="https://i.imgur.com/oKheXYV.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nicelydone.club">Library of design inspiration examples &amp; user flows from web apps • Nicely</a>
+          <div class="card-meta">12 Feb 2022</div>
+          <div class="card-meta card-domain">nicelydone.club</div>
+        </div>
+        <div class="card-section">
+          <p>Browse a curated design library of web app screens, UI components and User flows from top SaaS web apps, inspiring product teams from leading companies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:42:54.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/product-list">359 Mobile ‘Product Lists’ Examples – Baymard Institute</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:42:36.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Q3l1TEOXmGc26sbkgWgoPQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/quora-design/a-survey-of-explore-and-exploit-interfaces-68c61ebb2379#.90o5m6djg">A Survey of Explore and Exploit Interfaces</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the most popular apps today are highly personalized — everyone sees content tailored to them. This is typically powered with…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:17:25.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://learn.canva.com/wp-content/uploads/2015/11/grid-design.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://learn.canva.com/learn/5-creative-design-ideas-using-grids">15 reasons why grid approach will improve your design</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">learn.canva.com</div>
+        </div>
+        <div class="card-section">
+          <p>Master the use of grids and do wonders with your designs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:17:18.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-results">350 Mobile ‘Search Results’ Examples – Baymard Institute</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:17:02.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://www.webdesignerdepot.com/assets/posts/featured/_1200x630_crop_center-center_82_none/54961/wdd.jpg?mtime=1676929111" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.webdesignerdepot.com/2017/03/how-to-use-tooltips-as-microinteractions">How to Use Tooltips as Microinteractions</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>They’re generally very helpful, clear-cut in their communication, and unobtrusive, so users can do what the tooltips suggest without running into any impediment.Looked at in this way, your average tooltip is easily a micro interaction, as it helps users achieve a single task or helps users…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:16:43.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-product-lists/benchmark/page-types/product-list-category">945 ‘Product List’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:15:56.000Z | tags: design-patterns, ecommerce, mobile, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/billing-details">233 Mobile ‘Billing Address’ Examples – Baymard Institute</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-07T00:21:49.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://ui-patterns.com">UI-Patterns.com</a>
+          <div class="card-meta">7 Feb 2022</div>
+          <div class="card-meta card-domain">ui-patterns.com</div>
+        </div>
+        <div class="card-section">
+          <p>User Interface Design Pattern Library. UI patterns for web designers. See screenshot examples and learn how to do great design like the pros.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:15:05.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/homepage-and-category-usability/benchmark/page-types/drop-down-menu">1236 ‘Main Navigation’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:56.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/category-page">257 Mobile ‘Category Page’ Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:49.000Z | tags: design-patterns, ecommerce, search, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-product-lists/benchmark/page-types/product-list-search">1024 ‘Search Results Page’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:34.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/shipping-method">330 Mobile ‘Delivery &amp; Shipping Methods’ Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:22.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-design-examples">18,000+ E-Commerce Design Examples Organized Across 62 Page Types – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+        <div class="card-section">
+          <p>Every single one of the 18,000+ screenshots is annotated with highlights of UX “violations” and “adherences” (i.e. what the page design does well from a UX perspective, and what it does poorly).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:17.000Z | tags: animation, design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Haa2NTc2-cKxUZ4BeFNlEQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9">The ultimate guide to proper use of animation in UX</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">uxdesign.cc</div>
+        </div>
+        <div class="card-section">
+          <p>Nowadays it’s hard to impress or even surprise with an interface animation. It shows interactions between screens, explains how to use the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:15.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/payment">450 Mobile ‘Payment’ Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:26.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/store-pickup">159 ‘Store Pickup’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:18.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/homepage-and-category-usability/benchmark/page-types/top-level-navigation">105 ‘Top-Level Navigation’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:12.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/address-validator">207 ‘Address Validator’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:12:32.000Z | tags: behaviors, design, design-patterns, influence-persuasion, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://thehipperelement.com/post/87574750438/ux-crash-course-user-psychology">UX Crash Course: User Psychology</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">thehipperelement.com</div>
+        </div>
+        <div class="card-section">
+          <p>My mission for 2014 was to get more people started in User Experience (UX) Design. In January, hundreds of thousands of people did the original UX Crash Course and it was translated into Spanish, Portuguese and Korean by amazing volunteers. In May we continued with a User Psychology lesson every day.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:12:12.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-product-lists/benchmark/page-types/sorting-tool">522 ‘Sorting Tool’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:23:07.000Z | tags: design-patterns, search, ui-ux -->
+      <div class="card-image">
+        <img src="https://blog.intercomassets.com/blog/wp-content/uploads/2014/04/search740.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.intercom.com/7-things-wish-every-search-did">7 things I wish every search box did</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">blog.intercom.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s one thing to say “let’s have search” and draw a box with a magnifying glass on the right. It’s a whole other task to implement good search.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:22:48.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-autocomplete">317 Mobile ‘Search Autocomplete’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:22:09.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/receipt">272 Mobile ‘Receipt’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:21:37.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/product-page/benchmark/page-designs/product-page">1239 ‘Product Page’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:21:26.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-search/benchmark/page-types/autocomplete-suggestions">762 ‘Autocomplete Suggestions’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:21:16.000Z | tags: books, design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://designingwebinterfaces.com/explore">Explore the Book » Designing Web Interfaces</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">designingwebinterfaces.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:21:02.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/homepage-and-category-usability/benchmark/page-types/homepage">1018 ‘Homepage’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:20:26.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/cross-sell">188 ‘Cross-Sells’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:20:18.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/cart">887 ‘Cart’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:19:19.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/homepage">429 Mobile ‘Homepages’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:18:54.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/product-page/benchmark/page-designs/user-reviews-section">458 ‘User Reviews Section’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:18:36.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-design-examples/64-order-returns">130 ‘Order Returns’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:18:13.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-design-examples/61-newsletter-management">340 ‘Newsletter Management’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:17:47.000Z | tags: design-patterns, search, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ecommerce-search/benchmark/page-types/search-results-page">1024 ‘Search Results Page’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:16:49.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/navigation-menu">653 Mobile ‘Navigation Menu’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:16:20.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://goodui.org/site/assets/files/1050/og-default-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.goodui.org">GoodUI</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">goodui.org</div>
+        </div>
+        <div class="card-section">
+          <p>Reach higher conversions faster by repeating what worked for others and avoiding what failed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:15:40.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/review-order">224 Mobile ‘Review Order’ Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:15:25.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/payment">1118 ‘Payment’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:14:12.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/cc11583ab12e168ff5601499706f21dd5e6482fef26a17240d90f5b9ac9c199f/robinstickel/awesome-design-principles" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/robinstickel/awesome-design-principles">robinstickel/awesome-design-principles: ✨ A curated list of awesome design principles</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>✨ A curated list of awesome design principles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:13:43.000Z | tags: best-practices, design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://uxbooth.com/wp-content/uploads/2017/01/large-scale-responsive-site-lead.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.uxbooth.com/articles/how-to-design-a-large-scale-responsive-site">How to Design a Large Scale Responsive Site | UX Booth</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">uxbooth.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 2011, Elaine McVicar wrote an article describing the process of designing one of the first complex responsive sites. Now that the concept is no longer in its infancy, we&#39;re taking another look at how to redesign a large scale responsive site.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:49:10.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0f038321-f095-4eee-b9bc-b6dbf66b7fb5/smashing-checklists-cards-box.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2020/09/checklist-cards-re-release">Smart Interface Design Patterns In Your Pocket: Checklist Cards PDF — Smashing Magazine</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meet our Smart Interface Design Patterns Checklist Cards, a deck of 100 cards with questions to ask when designing and building any interface component — carousel, hamburger, table, date picker, autocomplete, slider, onboarding, pricing plans, authentication, web forms and many others. Check the preview (PDF) and jump to description ↓</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:48:26.000Z | tags: design-patterns, ecommerce, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/shipping-address">973 ‘Customer Info &amp; Address’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:47:46.000Z | tags: design-patterns, ui-ux, best-practices -->
+      <div class="card-image">
+        <img src="https://lawsofux.com/home/social.en.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lawsofux.com">Home | Laws of UX</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">lawsofux.com</div>
+        </div>
+        <div class="card-section">
+          <p>Laws of UX is a collection of best practices that designers can consider when building user interfaces.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:22:04.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/checkout-usability/benchmark/step-type/delivery-options">802 ‘Delivery &amp; Shipping Methods’ Design Examples – Baymard Institute</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-04T16:59:17.000Z | tags: design-patterns, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Sticky-Headers1_Social-Media-Posts_2021-33.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/sticky-headers">Sticky Headers: 5 Ways to Make Them Better</a>
+          <div class="card-meta">4 Apr 2021</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Persistent headers can be useful to users if they are unobtrusive, high-contrast, minimally animated, and fit user needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

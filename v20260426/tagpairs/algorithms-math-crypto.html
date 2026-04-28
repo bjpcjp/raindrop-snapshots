@@ -1,0 +1,314 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>algorithms-math + crypto &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-02T13:00:18.369Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://growingswe.com/blog/elliptic-curve-cryptography/opengraph-image?16ed498263341a16" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://growingswe.com/blog/elliptic-curve-cryptography">An interactive intro to Elliptic Curve Cryptography (ECC)</a>
+          <div class="card-meta">2 Mar 2026</div>
+          <div class="card-meta card-domain">growingswe.com</div>
+        </div>
+        <div class="card-section">
+          <p>A hands-on introduction to elliptic curve cryptography. Start with curve geometry, build point addition and scalar multiplication, see why ECDLP is hard, and then use that math in ECDH, ECDSA, and ECIES.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-12T18:34:32.585Z | tags: finance, algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://static.scientificamerican.com/dam/m/e2341f9d4131c15/original/credit-card-in-wallet.jpg?m=1755008045.688&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.scientificamerican.com/article/what-is-the-luhn-algorithm-the-math-behind-secure-credit-card-numbers/">What Is the Luhn Algorithm? The Math Behind Secure Credit Card Numbers</a>
+          <div class="card-meta">12 Aug 2025</div>
+          <div class="card-meta card-domain">scientificamerican.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find out how this simple algorithm from the 1960s keeps your wallet safe</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-17T00:02:37.575Z | tags: crypto, algorithms-math -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2024/10/16/rng-prng-csprng/">RNG, PRNG, CSPRNG</a>
+          <div class="card-meta">17 Oct 2024</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>A pseudorandom number generator may have good statistical properties but be insecure. But a physical RNG with good statistical properties is probably secure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-11T17:20:57.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2023/05/Depositphotos_371451720_L-chip-ss.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/an-introduction-to-post-quantum-cryptography-algorithms">An Introduction to Post-Quantum Cryptography Algorithms</a>
+          <div class="card-meta">11 Jun 2024</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>By Christos Kasparis, EnSilica EETimes (May 15, 2024)   The rise of quanum computing paints a significant challenge for the cryptography we rely on today. The modern encryption standards we currently use to safeguard sensitive data and communications, such as DSA, public key RSA and those based on elliptic curves, will eventually be broken by</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-15T17:50:22.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/AdobeStock_713837315-e1715364609900.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/an-introduction-to-post-quantum-cryptography-algorithms">An Introduction to Post-Quantum Cryptography Algorithms</a>
+          <div class="card-meta">15 May 2024</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Current encryption methods will likely be broken by 2030. Embedded systems in development now will have a reasonable chance of encountering attacks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-04T16:19:46.000Z | tags: algorithms-math, crypto, quantum, security -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.schneier.com/blog/archives/2023/01/breaking-rsa-with-a-quantum-computer.html">Breaking RSA with a Quantum Computer - Schneier on Security</a>
+          <div class="card-meta">4 Jan 2023</div>
+          <div class="card-meta card-domain">schneier.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-18T12:19:26.000Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq28if5j73s875sjgd2ga.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/exemak/how-to-exchange-a-secret-key-over-an-insecure-network-ec-diffie-hellman-algorithm-1gj2">How to exchange a secret key over an insecure network (EC-Diffie-Hellman al</a>
+          <div class="card-meta">18 Dec 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s say you want to send an encrypted message to your friend in order to avoid it being intercepted...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-17T00:30:53.000Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS63RPyCCmqTsrKDunKx8BK738LSTdA-q7VMtWWRPGysA2yZCCr2TsVPMlypAxCojp0_QXknUdNILTBEY5fT2kEHjKc7ykQMn5QtGoOssb5gVT1hRvWPgCuGHr-8fNmMIgpkT6Y0SJiK3UNT_5SmYbhEmgcvHA36Tky3m0eCT2b6vAUhuer9LpWUey/s728-rw-e365/sha1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thehackernews.com/2022/12/goodbye-sha-1-nist-retires-27-year-old.html">Goodbye SHA-1: NIST Retires 27-Year-Old Widely Used Cryptographic Algorithm</a>
+          <div class="card-meta">17 Dec 2022</div>
+          <div class="card-meta card-domain">thehackernews.com</div>
+        </div>
+        <div class="card-section">
+          <p>NIST has formally retired the widely used 27-year-old SHA-1 cryptographic algorithm, bringing cryptographic security into the modern age.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-22T12:45:56.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2022/09/AP22195379509956-crop.jpeg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms?fbclid=IwAR0t5g91_q-1IKmLMF7zLr3R0S32Sh3IDT38easQ-Za00KYQ2T8HVG0ErZo">What are quantum-resistant algorithms—and why do we need them?</a>
+          <div class="card-meta">22 Oct 2022</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>When quantum computers become powerful enough, they could theoretically crack the encryption algorithms that keep us safe. The race is on to find new ones.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-03T02:46:25.000Z | tags: algorithms-math, crypto, webdev -->
+      <div class="card-image">
+        <img src="https://blog.trailofbits.com/wp-content/uploads/2019/07/image13-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.trailofbits.com/2019/07/08/fuck-rsa">Seriously, stop using RSA | Trail of Bits Blog</a>
+          <div class="card-meta">3 Apr 2022</div>
+          <div class="card-meta card-domain">blog.trailofbits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here at Trail of Bits we review a lot of code. From major open source projects to exciting new proprietary software, we’ve seen it all. But one common denominator in all of these systems is that fo…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:21:14.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://assets.nautil.us/11763_d63036cfba56a5c3cb75ab14b33fe677.jpg?auto=compress&amp;fm=pjpg&amp;ixlib=php-3.3.1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://nautil.us/blog/how-classical-cryptography-will-survive-quantum-computers">How Classical Cryptography Will Survive Quantum Computers</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">nautil.us</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum Lab: Scientists are fabricating quantum photonic circuits—consisting of waveguides and other elements—to manipulate single photons for future quantum communications and processing.Oak Ridge National Laboratory / Flickr Nautilus Members enjoy an ad-free experience. Log in or Join now . Justin Trudeau, the Canadian prime minister, certainly raised the profile of quantum computing a few notches […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T21:56:49.000Z | tags: algorithms-math, crypto, trust -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd59d8318-7513-4cfb-a1da-2ebe3a9eb83a_1200x600.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.notboring.co/p/zero-knowledge">Zero Knowledge</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">notboring.co</div>
+        </div>
+        <div class="card-section">
+          <p>A Not Boring x Jill Carlson Collab on Moon Math, Privacy, and Hype</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: algorithms-math, compression-encoding, crypto -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fux8l44ou9r3dhuf2opwc.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/sylviapap/bcrypt-explained-4k5c">BCrypt Explained</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Intro   If you&#39;re into Cryptography For Beginners, you&#39;re in the right place. Maybe you&#39;re j...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:06:57.000Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/1c02c98e0b5d06bd052a7b8c5648f7ca900d86365e116e43dca7b4ab3e695a51/BLAKE3-team/BLAKE3" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/BLAKE3-team/BLAKE3">The BLAKE3 cryptographic hash function</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>the official Rust and C implementations of the BLAKE3 cryptographic hash function - BLAKE3-team/BLAKE3</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-18T12:47:22.000Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/digital-key-with-light-shining.jpg?id=25590885&amp;width=1200&amp;height=600&amp;coordinates=0%2C63%2C0%2C63" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tech-talk/telecom/security/new-cryptography-method-promises-perfect-secrecy-amidst-skepticism">New Cryptography Method Promising Perfect Secrecy Is Met With Skepticism</a>
+          <div class="card-meta">18 Feb 2020</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>An international team claims its perfect secrecy cryptography is made unbreakable by physics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-03T19:20:18.000Z | tags: algorithms-math, crypto -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2019/02/28/secret-sharing">Sharing secrets with polynomials</a>
+          <div class="card-meta">3 Mar 2019</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to use polynomials to share secrets, and how to verify that the secret has been shared without unlocking it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-27T01:51:23.000Z | tags: algorithms-math, crypto, security -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/benjaminblack/obtaining-an-elliptic-curve-dsa-certificate-with-lets-encrypt-51bc">Obtaining an Elliptic Curve certificate from Let&#39;s Encrypt</a>
+          <div class="card-meta">27 Sep 2018</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s Encrypt does not currently generate Elliptic Curve certificates. Here&#39;s how to obtain one.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

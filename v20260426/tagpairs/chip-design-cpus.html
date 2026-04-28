@@ -1,0 +1,370 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>chip-design + cpus &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-25T21:03:59.952Z | tags: llms, riscv, cpus, chip-design -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/a-graphic-design-system-plot-of-a-risc-v-cpu-core-it-resembles-a-square-grid-covered-in-colorful-vertical-and-horizontal-scratc.jpg?id=65519361&amp;width=210" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-chip-design?share_id=9374946&amp;socialux=facebook&amp;utm_campaign=RebelMouse&amp;utm_content=IEEE+Spectrum&amp;utm_medium=social&amp;utm_source=facebook&amp;fbclid=IwY2xjawRaCyBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA80MDk5NjI2MjMwODU2MDkAAR7ZDGZYbCjdk9lOCx6dPZOr-QCKiUA49UdpDz5XSiUiEr6wVXadQ-YYobB8ug_aem_Kl1ggXxo6OFGvpnAv4vbdw">How Agentic AI Chip Design Built a Full RISC-V Core</a>
+          <div class="card-meta">25 Apr 2026</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Startup Verkor.io’s agentic AI orchestrated the entire design process from a 219-word prompt</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-04-10T11:22:08.968Z | tags: cpus, gpus, tpu, chip-design -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2026/04/09/five-ai-compute-architectures-every-engineer-should-know-cpus-gpus-tpus-npus-and-lpus-compared/">Five ai compute architectures every engineer should know cpus gpus tpus npus and lpus compared</a>
+          <div class="card-meta">10 Apr 2026</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-23T19:25:52.287Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sHEs77-md-8JpdwaSV2qfrUiDDAiGV7qut1flInr3kyAGR09bHqHyO18DfkxiBbBkaSmoKO1MLht0nuRuVDbYHfS215MN4QM1FZTNSydIl9YQsHIHajzhudhTZjtQ894iQzGq2BxIv_Q=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html?m=1">Unusual circuits in the Intel 386&#39;s standard cell logic</a>
+          <div class="card-meta">23 Nov 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve been studying the standard cell circuitry in the Intel 386 processor recently. The 386, introduced in 1985, was Intel&#39;s most complex pr...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-18T11:29:03.447Z | tags: cpus, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!Tqer!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F533709c7-ba55-444e-ae8f-045da6aef137_1200x1600.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/p/amds-chiplet-apu-an-overview-of-strix">AMD’s Chiplet APU: An Overview of Strix Halo</a>
+          <div class="card-meta">18 Oct 2025</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello you fine Internet folks!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-07T21:24:40.595Z | tags: chip-design, cpus -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://course.ece.cmu.edu/~ece742/S20/slides/Deterministic%20Execution.pdf">Deterministic Execution</a>
+          <div class="card-meta">7 Oct 2025</div>
+          <div class="card-meta card-domain">course.ece.cmu.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-26T14:24:04.771Z | tags: cpus, chip-design -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Motorola_68000_Featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/motorola-68000-a-32-bit-brain-in-a-16-bit-body/">The Motorola 68000: A 32-Bit Brain in a 16-Bit Body</a>
+          <div class="card-meta">26 Sep 2025</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Motorola’s 68000 blended 32-bit power with a 16-bit bus, creating a balanced, orthogonal, and elegant architecture that powered everything from Macintosh to arcade machines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-18T16:40:56.662Z | tags: cpus, chip-design -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_t87elRv20ogkeaopukAz8_amKep86upthdY-7ef2OJPEAZsa_lllvk1tRQzMowi679NeIgx-7SlSYfeP2MOe63M6tIy8ij5qJ2KYjvlqTyrhZ-Xf_u-psAQhJpRPubZabHbtE=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.righto.com/2025/08/static-latchup-metastability-386.html">Here be dragons: Preventing static damage, latchup, and metastability in the 386</a>
+          <div class="card-meta">18 Aug 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve been reverse-engineering the Intel 386 processor (from 1985), and I&#39;ve come across some interesting circuits for the chip&#39;s input/outpu...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-12T18:29:49.857Z | tags: cpus, chip-design -->
+      <div class="card-image">
+        <img src="https://mcusercontent.com/a8d7caa7874c7a96f1301bc15/images/58d599d7-30dc-5a27-7c0f-ea9fbd98a622.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://products.easyperf.net/perf-book-2">Performance Analysis and Tuning on Modern CPUs</a>
+          <div class="card-meta">12 Apr 2025</div>
+          <div class="card-meta card-domain">products.easyperf.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-31T20:09:58.987Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uLu_ers44BB7LDfTyOP1Bssj491qpngd0aBSUccN1ckEFHeOgyLMktRcmFc_0BmkB76mULyeA4NZJPvpna9bS1F2ZTllFIqGeZ3jzEzjs46DaOYwhShaSX2vl3C2qIWC6UiMllM-ex1teCWniXlQM=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1">Notes on the Pentium&#39;s microcode circuitry</a>
+          <div class="card-meta">31 Mar 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most people think of machine instructions as the fundamental steps that a computer performs. However, many processors have another layer of ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-15T00:18:39.707Z | tags: semiconductors, cpus, gpus, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchipsandcheese.substack.com%2Fapi%2Fv1%2Fpost_preview%2F154782290%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/p/amds-strix-halo-under-the-hood">AMD&#39;s Strix Halo - Under the Hood</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello you fine Internet folks,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-02T23:24:45.968Z | tags: chip-design, cpus, algorithms-math -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uSpE-1KRIG06-orPWSEDwpDZhkLMzE5BILSu48cemh5lFcLwRKwoOHPTsf42TMHH2PPOITKz4k17C6aqHEMBs7V6RQVDOkt2qxuMp0uYIi-k-Zt-9NpnCeQ188DNUJFW1LQHgOVO_YNsPJ=w1200-h630-p-k-no-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/03/pentium-multiplier-adder-reverse-engineered.html?m=1">The Pentium contains a complicated circuit to multiply by three</a>
+          <div class="card-meta">2 Mar 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 1993, Intel released the high-performance Pentium processor, the start of the long-running Pentium line. I&#39;ve been examining the Pentium&#39;...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-08T18:59:07.101Z | tags: cpus, chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/66468/content/small_hero-amd-ryzen-9-9950x3d-dual.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/amd-no-dual-vcache-cpus">AMD Reveals Real Reason It Won&#39;t Put 3D V-Cache On Multiple CCDs</a>
+          <div class="card-meta">8 Jan 2025</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>After persistent rumors refused to recede, AMD steps in with a clear explanation why dual-CCD V-Cache doesn&#39;t exist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-05T23:16:50.491Z | tags: cpus, algorithms-math, chip-design -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-fp-rom/pentium-labeled-w600.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2025/01/pentium-floating-point-ROM.html?m=1">Pi in the Pentium: reverse-engineering the constants in its floating-point unit</a>
+          <div class="card-meta">5 Jan 2025</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel released the powerful Pentium processor in 1993, establishing a long-running brand of high-performance processors. 1  The Pentium incl...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-29T01:38:57.441Z | tags: cpus, chip-design, semiconductors -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-fdiv/fdiv-bug-here-w500.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html?m=1">Intel&#39;s $475 million error: the silicon behind the Pentium division bug</a>
+          <div class="card-meta">29 Dec 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 1993, Intel released the high-performance Pentium processor, the start of the long-running Pentium line. The Pentium had many improvement...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-01T02:09:23.356Z | tags: cpus, semiconductors, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc6a6496-65ff-48b9-857c-a465f897ca92_958x716.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/chipsandcheese/p/amd-disables-zen-4s-loop-buffer?r=oc5d&amp;utm_medium=ios">AMD Disables Zen 4&#39;s Loop Buffer</a>
+          <div class="card-meta">1 Dec 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A loop buffer sits at a CPU&#39;s frontend, where it holds a small number of previously fetched instructions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-24T00:00:20.996Z | tags: semiconductors, chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/pentium-antenna/diodes-w450.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2024/11/antenna-diodes-in-pentium-processor.html?m=1">Antenna diodes in the Pentium processor</a>
+          <div class="card-meta">24 Nov 2024</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>I was studying the silicon die of the Pentium processor and noticed some puzzling structures where signal lines were connected to the silico...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-08-02T13:55:33.000Z | tags: chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/21497/MTL_rendition_white_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/21497/report-intel-meteor-lake-in-short-supply-due-to-yield-issues-intel-running-hot-lots">Report: Intel Meteor Lake In Short Supply Due to Yield Issues, Intel Runnin</a>
+          <div class="card-meta">2 Aug 2024</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-08-02T00:58:26.000Z | tags: chip-design, cpus, sram -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/AdobeStock_285262550-e1722537170368.jpeg?w=640" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/surveying-the-landscape-of-smartphone-processors">Surveying the Landscape of Smartphone Processors</a>
+          <div class="card-meta">2 Aug 2024</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are many chip partitioning and placement tradeoffs when comparing top-tier smartphone processor designs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-27T14:37:15.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e6e8cab-5e3a-4080-a769-16f98d65184b_787x378.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks">Zen 5’s 2-Ahead Branch Predictor Unit: How a 30 Year Old Idea Allows for Ne</a>
+          <div class="card-meta">27 Jul 2024</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>When I recently interviewed Mike Clark, he told me, “…you’ll see the actual foundational lift play out in the future on Zen 6, even though it was really Zen 5 that set the table for that.” And at that same Zen 5 architecture event, AMD’s Chief Technology Officer Mark Papermaster said, “Zen 5 is a ground-up redesign of the Zen architecture,” which has brought numerous and impactful changes to the design of the core.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-03T01:44:08.000Z | tags: chip-design, cpus -->
+      <div class="card-image">
+        <img src="https://static.righto.com/images/8086-prefetch/die-labeled-w600.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.righto.com/2023/01/inside-8086-processors-instruction.html?m=1">Inside the 8086 processor&#39;s instruction prefetch circuitry</a>
+          <div class="card-meta">3 Jan 2023</div>
+          <div class="card-meta card-domain">righto.com</div>
+        </div>
+        <div class="card-section">
+          <p>The groundbreaking 8086 microprocessor was introduced by Intel in 1978 and led to the x86 architecture that still dominates desktop and se...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T01:16:42.000Z | tags: chip-design, cpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://easyperf.net/blog/2022/09/01/Utilizing-Huge-Pages-For-Code">Performance Benefits of Using Huge Pages for Code. | Easyperf</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">easyperf.net</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

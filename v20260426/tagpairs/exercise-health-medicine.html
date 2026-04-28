@@ -1,0 +1,927 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>exercise + health-medicine &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-27T19:57:41.019Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!gBhu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8ea5fd3-6c28-4690-a5fc-6652be9baa6b_1444x960.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/varianavolk/p/4-muscles-to-train-for-maximum-anti">4 Muscles to Train for Maximum Anti-Aging Effect</a>
+          <div class="card-meta">27 Mar 2026</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ignore them and you age faster.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-06T13:19:01.023Z | tags: influencers, exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/lede.gif?quality=90&amp;strip=all&amp;crop=0,26.88594557984,100,46.22810884032" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theverge.com/cs/features/836456/influencers-tiktok-debt-shopaganda">Stop, Shop, and Scroll</a>
+          <div class="card-meta">6 Jan 2026</div>
+          <div class="card-meta card-domain">theverge.com</div>
+        </div>
+        <div class="card-section">
+          <p>Behind every influencer is an army of the influenced, many adrift in debt and mass-produced clutter. These are the stories of credit card debt and piles of mass-produced clutter.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-28T11:50:50.498Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*LsewR1oNYaeNfP7R" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/illumination/a-105-year-old-japanese-doctor-reveals-how-to-reverse-aging-and-stay-30-years-younger-61e6d693ef7c">A 105-Year-Old Japanese Doctor Reveals How to Reverse Aging and Stay 30 Years Younger</a>
+          <div class="card-meta">28 Apr 2025</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Imagine feeling 30 years younger even when you’re 100. Sounds impossible, right? Dr. Hinohara proved otherwise. Meet Dr. Shigeaki Hinohara who was one of Japan’s most respected doctors and a global…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-12T20:48:23.994Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/4c620f0b6aff035591d5aae54321e114fa4433eb/288_1781_9520_5712/master/9520.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=3fb13ecb2c6539eace798abea2e0d731" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/lifeandstyle/2025/jan/12/the-squat-secret-why-this-simple-move-is-the-key-to-long-term-health-and-how-to-improve-yours?CMP=oth_b-aplnews_d-1">The squat secret: why this simple move is the key to long-term health – and how to improve yours</a>
+          <div class="card-meta">12 Jan 2025</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Whether you want to lift weights in the gym or just get yourself on and off a chair, a good solid squat makes life so much easier. What can you do if yours needs work?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-18T20:15:22.324Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2024/12/kettlebell-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/health-fitness/fitness/podcast-1048-the-swiss-army-knife-of-fitness-how-to-get-lean-strong-and-flexible-with-kettlebells-alone/">Podcast #1,048: The Swiss Army Knife of Fitness — How to Get Lean, Strong, and Flexible With Kettlebells Alone</a>
+          <div class="card-meta">18 Dec 2024</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>What if there was one piece of fitness equipment that was affordable, didn’t take up much space, could get you both strong and flexible, and was fun to use? While that might sound too good to be true, my guest, Pat Flynn, would say you can find all those benefits in the old-school kettlebell. Pat, […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-25T10:58:53.874Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2024/10/24/well/SPINE-ROTATION-ART/SPINE-ROTATION-ART-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2024/10/24/well/move/back-workout-pain-injury-prevention.html">A 20-Minute Workout to Keep Your Body Limber</a>
+          <div class="card-meta">25 Oct 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Throwing your back out is often caused by stiffness in the upper spine. Here’s how to prevent future pain.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-13T06:43:50.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2024/07/hatfield-blank-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/health-fitness/fitness/how-to-hatfield-squat">My New Favorite Squat</a>
+          <div class="card-meta">13 Jul 2024</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking for a new squat variation? Learn about the Hatfield squat and how it can help you build lower-body strength and overcome pain or discomfort.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-23T13:06:30.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F10306%2F1718335728_GettyImages-942432122.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/a-beginner-s-guide-to-the-unsung-heroes-of-gym-equipment">A Beginner’s Guide To The Unsung Heroes Of Gym Equipment</a>
+          <div class="card-meta">23 Jun 2024</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Spice up your workout routine.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-24T06:09:28.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7409%2F1640822220_61ccf136685d6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/five-stretches-you-should-do-every-day">Five Stretches You Should Do Every Day</a>
+          <div class="card-meta">24 May 2024</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Even if you never work out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-21T18:30:15.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2021/07/27/well/physed-weights/merlin_180764169_0d4102d8-9b72-44f2-a10c-e7dac54251c6-largeHorizontalJumbo.jpg?year=2021&amp;h=683&amp;w=1024&amp;s=c9e7b111963021892c7d1f36bcf95bcfa846d88fc6b3b9af9ba9dc7ab103e0e4&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2021/07/21/well/move/weight-training-fat.html?ad-keywords=auddevgate&amp;ad_id=120202239383490064&amp;ad_name=INTER_20_XXXX_XXX_1P_CD_XX_XX_SITEVISITXREM_X_XXXX_COUSA_P_X_X_EN_FBIG_OA_XXXX_00_EN_JP_NFLINKS&amp;adset_id=120202239382650064&amp;adset_name=https://www.nytimes.com/2021/07/21/well/move/weight-training-fat.html&amp;campaign_id=120202239292800064&amp;fbclid=IwAR2x6tvJOeoC2_Jcbdtf3DhMaEyZzs4l5pynYi6cN2owxeDnXiQCPmi_SGM_aem_AZ9tQm_6QEY6FacGM0UnNErzpfO1121_6Nr-TRdXdGeGjn0I-Cv19BcgfoUNns8OoFP8xQrwR3URIax4eai3Gz1m&amp;mc=aud_dev&amp;subid1=TAFI">Lifting Weights? Your Fat Cells Would Like to Have a Word.</a>
+          <div class="card-meta">21 Apr 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>A cellular chat after your workout may explain in part why weight training burns fat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-18T03:53:16.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F9193%2F1705978509_youve-got-to-reach-for-your-goals-royalty-free-image-1585334046.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-to-do-the-world-s-greatest-stretch">How to Do the World&#39;s Greatest Stretch</a>
+          <div class="card-meta">18 Apr 2024</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dr. Aaron Horschig, DPT, of Squat University explains the intricacies of this widely-renowned mobility move.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-10T01:20:45.000Z | tags: exercise, health-medicine -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://darebee.com">DAREBEE - Fitness On Your Terms.</a>
+          <div class="card-meta">10 Feb 2024</div>
+          <div class="card-meta card-domain">darebee.com</div>
+        </div>
+        <div class="card-section">
+          <p>2300+ FREE workouts, fitness programs, monthly challenges and training guides.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-31T07:57:07.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2024/01/evst-3-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/health-fitness/fitness/exercise-vs-training-the-difference-and-why-it-matters">Exercise vs. Training: The Difference, and Why It Matters</a>
+          <div class="card-meta">31 Jan 2024</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get on track to achieve your fitness goals by understanding the difference between exercise and training and why it matters.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-20T01:17:41.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/plank-1546978636.jpg?crop=1.00xw:0.753xh;0,0.112xh&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/yes-you-can-do-arm-workouts-at-home-here-are-2-effective-circuits-to-try">This No-Equipment Upper-Body Workout Is Crazy Easy to Do At Home</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Upper body strength is almost as important as powerful legs when it comes to cycling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-17T12:42:51.000Z | tags: exercise, health-medicine, yoga -->
+      <div class="card-image">
+        <img src="https://www.cnet.com/a/img/resize/a7bb44d53e74370087584d122d47419a78d6d84f/hub/2023/02/17/c105467e-058c-46a0-9a05-46ea117f777b/gettyimages-960937940.jpg?auto=webp&amp;fit=crop&amp;height=675&amp;width=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cnet.com/health/fitness/how-to-exercise-more-day-to-day-7-tips-that-actually-work">How to Exercise More Day to Day: 7 Tips That Actually Work</a>
+          <div class="card-meta">17 Mar 2023</div>
+          <div class="card-meta card-domain">cnet.com</div>
+        </div>
+        <div class="card-section">
+          <p>Try these easy ways to sneak exercise into your daily routine and improve your everyday health.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-29T00:20:49.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/183339da4654cc55169f1df0a08ae019d8ffa52f/0_110_7479_4490/master/7479.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjMucG5n&amp;enable=upscale&amp;s=cca650dfa9b9af146c1429c1629f7408" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/lifeandstyle/2023/jan/16/five-minute-fix-how-to-improve-fitness-strength-posture-super-quick-speed">The five-minute fix: how to improve your fitness, strength and posture at super-quick speed</a>
+          <div class="card-meta">29 Jan 2023</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the time it takes to make a cup of tea, you can build your core muscles, increase hip flexibility and stave off the effects of sitting at your desk all day</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-15T01:07:45.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://www.wellandgood.com/wp-content/uploads/2022/10/core-exercise-for-seniors.jpg?w=2880" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wellandgood.com/core-exercise-for-seniors">‘I’m a 68-Year-Old Trainer, and This Is My Go-To Core Exercise To Ease Back Pain and Improve Balance’</a>
+          <div class="card-meta">15 Jan 2023</div>
+          <div class="card-meta card-domain">wellandgood.com</div>
+        </div>
+        <div class="card-section">
+          <p>A standing abs routine that anyone can do.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-21T18:53:07.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2017/04/09/well/9minute-workout-promo/9minute-workout-promo-largeHorizontalJumbo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/guides/well/strength-training-plyometrics">The 9-Minute Strength Workout - Well Guides - The New York Times</a>
+          <div class="card-meta">21 Dec 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Strength training is the key to flexibility, mobility, improved performance and lower injury risk.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-21T18:53:05.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://s.yimg.com/uu/api/res/1.2/t6FRtuBHYUquEJa6pH_Sjw--~B/aD00NTU7dz02NDU7YXBwaWQ9eXRhY2h5b24-/http://magazines.zenfs.com/resizer/2.0/original/-qUS49yOKBFhMrMmUJTTp9FZACM.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.yahoo.com/lifestyle/the-planks-you-should-be-c1411143409139.html">The Planks You Should Be Doing (But Probably Aren&#39;t)</a>
+          <div class="card-meta">21 Dec 2022</div>
+          <div class="card-meta card-domain">yahoo.com</div>
+        </div>
+        <div class="card-section">
+          <p>As one-minute planks gave way to three-minute planks, and three-minute planks evolved into ten-minute planks, marathon plank-holding has become a calling card of sorts. &quot; Being able to hold a traditional plank for 10 minutes isn&#39;t very functional for anything except just that,&quot; says Tier 4 trainer Josh Stolz. &quot;Even Stuart McGill (a top authority and researcher of low back pain and function) recommends holding a plank for 10 seconds, tops, followed by a brief, 1-to-2 seconds-long relaxation of the muscles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-22T20:22:02.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2013/06/Two-Arm-Swing-500%E2%80%9411.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/health-fitness/fitness/kettlebell-exercises">How to Perform 4 Kettlebell Exercises: An Illustrated Guide</a>
+          <div class="card-meta">22 Aug 2022</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>Kettlebell exercises for beginners that will work your entire body and help with your regular strength training.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T12:43:51.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*V5wZsWERXRVcvIdnSDFjlg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/3-robust-bodyweight-exercises-to-train-every-muscle-fibre-in-your-body-6c05d544a150">3 Robust Bodyweight Exercises to Train Every Muscle Fibre in Your Body</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Smash a full-body workout from the comfort of your home</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T23:58:23.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*lgVILw1s_PKfIcjRmoCPLA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/3-marvellous-full-body-exercises-i-wish-i-had-started-way-earlier-4e0e0ccf1337">3 Marvellous Full-Body Exercises I Wish I Had Started Way Earlier</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Level up your strength, muscle mass, endurance, and functional fitness</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-17T14:54:06.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7301%2F1636675454_618daf152141b.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/lower-back-pain-the-best-mobility-exercises-to-stretch-and-strengthen-a-sore-back">Lower Back Pain: The Best Mobility Exercises to Stretch and Strengthen a Sore Back</a>
+          <div class="card-meta">17 Mar 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lower back pain from sitting at your desk for too long? Try these simple mobility moves.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T14:39:13.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://external-preview.redd.it/6jnuoVD2bNFw3nvWXABJV0xc7XsgSr_S2FRqvZ30zLY.png?overlay-align=center,middle&amp;overlay-height=25p&amp;overlay=%2Fwatermark%2Fplay_button.png&amp;format=pjpg&amp;auto=webp&amp;s=f38c36273703bace5277409744f111698a3beb17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/BeAmazed/comments/taczwo/this_guys_workout_routine">This guy&#39;s workout routine</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>2.7K votes, 342 comments. 8.3M subscribers in the BeAmazed community. I bet you will /r/BeAmazed!          A place to find and share amazing things</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-07T12:14:20.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6974%2F1631236904_ScreenShot2021-09-09at6.17.21PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/4-glute-stretches-you-should-do-every-day-to-run-faster-and-avoid-injury">4 Glute Stretches You Should Do Every Day to Run Faster and Avoid Injury</a>
+          <div class="card-meta">7 Jan 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your glutes are your primary source of power on the run. Show them a little love with these moves.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-10T12:16:35.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VBpULk9-m4FjAmGuVZrQjg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/a-three-part-stretch-your-hips-will-love-6cde638eb342?source=rss----7038e003d060---4">A Three-Part Stretch Your Hips Will Love</a>
+          <div class="card-meta">10 Oct 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Sometimes known as the “world’s greatest stretch,” this move gives tight hips relief</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-08T18:58:40.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6986%2F1631316572_613be97509159.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-elliptical-vs-the-treadmill-which-is-better-for-you">The Elliptical vs. the Treadmill: Which Is Better for You?</a>
+          <div class="card-meta">8 Oct 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Each cardio machine offers a little something different when it comes to toning and strengthening.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-20T18:14:23.000Z | tags: exercise, health-medicine, yoga -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6791%2F1628722477_61144c85be45d.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/10-best-stretches-to-ease-your-lower-back-pain-according-to-trainers">10 Best Stretches to Ease Your Lower Back Pain, According to Trainers</a>
+          <div class="card-meta">20 Sep 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>These exercises will bring you the relief you’ve been craving.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-10T22:05:22.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F10306%2F1718335728_GettyImages-942432122.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://email.getpocket.com/ls/click?upn=ky17TgJ1REx4YaZOG279kTPGJmqWFTqLIyQtWi137A57jP113lFgUyBs-2BCP1vT9EA2jN_8XOtBOf0-2BgI-2BPwTgvOpOkjz0cTGvHU6qEjV-2B98KLYXhI5rK59fXfvPezcbJXxt4IFB2WkclMchoMOU67Wt6-2B3ATu7JD0Zf7DhGFZe-2BQSHlD-2FG4OrKaOCGlidIWsqT3RZ6x9qrKJCSnFypTnd8QR-2Bt-2Fqv31bOQrqiAbeH26e6-2FxdQCHwBzb314BBY0eiHYjDHFSCqn8xFrxivj0BkmTVZKOrB3YlYfB-2BxiWNFW3lvWJFRwPvuYdiklLYvYCtZF-2F7CeVBaygLYXtH89-2B-2BBYhG3ioXIJGVqnq6UzOuELsfbDvJqbCSo3VgO1292pNrT6mY3tGXfbx0IFH5be2zaTftgkIQL41U60oK18plVKE-2BNWllD0tKkJ68kvCyaw1f7vFmB">A Beginner’s Guide To The Unsung Heroes Of Gym Equipment</a>
+          <div class="card-meta">10 Sep 2021</div>
+          <div class="card-meta card-domain">email.getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Spice up your workout routine.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-30T19:11:02.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Kf1Yz0VLiuCrEVfgfkHPLg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/a-chest-opening-stretch-that-feels-amazing-acfb4dcfe8e1?source=rss----7038e003d060---4">A Chest-Opening Stretch That Feels Amazing</a>
+          <div class="card-meta">30 Aug 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Your pectoral muscles will thank you for this reset that brings relief from the 21st century lifestyle</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-30T19:10:58.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F6799%2F1628795281_ScreenShot2021-08-12at12.04.32PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/this-10-minute-at-home-ab-workout-will-fire-up-your-entire-core">This 10-Minute, At-Home Ab Workout Will Fire Up Your Entire Core</a>
+          <div class="card-meta">30 Aug 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>All you need is an exercise mat to get started.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-25T10:40:20.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*-NAOLwWT_djoXaTG" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/are-squats-bad-for-your-knees-2df72366b862">Are Squats Bad For Your Knees?</a>
+          <div class="card-meta">25 Aug 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Taking a look at the effects of compression, knees over toes, and deep squatting</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-01T15:43:32.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Fcore-exercise-1548448114.jpg%3Fresize%3D480%3A*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/6-upright-abs-exercises-that-will-absolutely-crush-your-core">6 Upright Abs Exercises That Will Absolutely Crush Your Core</a>
+          <div class="card-meta">1 Aug 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get off the mat to give your abs a whole different type of challenge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-05T12:05:18.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*qSi_YGNbj3Wi63Tl" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/the-right-way-to-swing-a-kettlebell-d136e2a4f0f5?source=rss----7038e003d060---4">The Right Way to Swing a Kettlebell</a>
+          <div class="card-meta">5 Jul 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>And why it has nothing to do with your arms</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-03T22:39:39.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2023/05/mature-man-pushups.jpg?quality=82&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eatthis.com/over-60-here-are-5-of-the-best-exercises-you-can-possibly-do">Over 60? Here Are 8 of the Best Exercises You Can Do</a>
+          <div class="card-meta">3 Jul 2021</div>
+          <div class="card-meta card-domain">eatthis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fitness experts break down eight of the absolute best exercises to do if you&#39;re over 60 to maintain your independence and strength.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-15T00:14:00.000Z | tags: exercise, health-medicine, yoga -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2017/03/31/well/yoga-for-strength/yoga-for-strength-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/guides/well/yoga-for-strength">Yoga to Make You Strong</a>
+          <div class="card-meta">15 Jun 2021</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Originally published on May 4, 2018</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-20T19:03:54.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/matt-damon-workout-1618390794.jpg?crop=0.542xw:0.918xh;0.304xw,0&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.esquire.com/uk/life/fitness-wellbeing/a36108388/matt-damon-elysium-workout">This 5-Move, No-Gym Workout Got Matt Damon Fighting Fit in His Forties</a>
+          <div class="card-meta">20 Apr 2021</div>
+          <div class="card-meta card-domain">esquire.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hollywood PT Jason Walsh reveals the back-to-basics workout that healed Jason Bourne&#39;s battered body</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-26T15:41:44.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*g-FGlx5C1HZhZdeCzqrjdg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/your-guide-to-building-a-stronger-body-from-a-personal-trainer-8836d710abad">Your Guide To Building a Stronger Body — From a Personal Trainer</a>
+          <div class="card-meta">26 Feb 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Tested and proven exercise routines you can use to build your own strength</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:08:15.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://s.yimg.com/uu/api/res/1.2/t6FRtuBHYUquEJa6pH_Sjw--~B/aD00NTU7dz02NDU7YXBwaWQ9eXRhY2h5b24-/http://magazines.zenfs.com/resizer/2.0/original/-qUS49yOKBFhMrMmUJTTp9FZACM.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.yahoo.com/health/the-planks-you-should-be-c1411143409139.html">The Planks You Should Be Doing (But Probably Aren&#39;t)</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">yahoo.com</div>
+        </div>
+        <div class="card-section">
+          <p>As one-minute planks gave way to three-minute planks, and three-minute planks evolved into ten-minute planks, marathon plank-holding has become a calling card of sorts. &quot; Being able to hold a traditional plank for 10 minutes isn&#39;t very functional for anything except just that,&quot; says Tier 4 trainer Josh Stolz. &quot;Even Stuart McGill (a top authority and researcher of low back pain and function) recommends holding a plank for 10 seconds, tops, followed by a brief, 1-to-2 seconds-long relaxation of the muscles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:08:11.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F608%2F1713495636_outsidernew.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://getpocket.com/explore/item/the-minimalist-s-strength-workout">The Minimalist’s Strength Workout</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Five exercises that will guarantee you have the strength to adventure all weekend, well into your eighties.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:08:09.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/tQhrk6WMcKw/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.youtube.com/watch?v=tQhrk6WMcKw">Freestanding Handstand Push-Up Tutorial - YouTube</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">youtube.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hey guys, after working for 3 months on this I can finally release it! I tried to make this tutorial as detailed as possible and keep it entertaining at the same time! I hope I&#39;ve succeeded at doing this and wish everyone a lot of luck with their journey. Please thumbs up, subscribe and share it if you thought it was useful!
+
+Special thanks to:
+Joshua Naterman - https://www.youtube.com/user/slizzardman
+Antranik - https://www.youtube.com/user/AntranikDotOrg
+jokester (mmmr)
+And all the people who reviewed it!
+
+Check out https://www.reddit.com/r/bodyweightfitness/
+
+Wrist warm-up: https://www.youtube.com/watch?v=mSZWSQSSEjE
+
+**STAGES**
+Stage 1:
+Declined pike push-ups (strength work) 06:30
+Frogstand (prior to strength work) 08:10
+Yaad lean (skill work) 08:50
+
+Ready for stage 2 when you  can do:
+Frogstand 30s
+Tucked Yaad hold 2s
+
+
+Stage 2: 
+Declined pike push-ups (strength work) 06:30
+Tucked Yaad hold (skill work) 09:39
+
+Ready for stage 3 when you can do:
+Tucked Yaad hold 10s
+Full Yaad hold 2s
+
+
+Stage 3:
+Declined pike push-ups (strength work) 06:30
+Full Yaad hold (skill work) 10:16
+
+Ready for stage 4 when you can do:
+Full Yaad hold 10s 
+
+Stage 4:
+Declined pike push-ups (strength work) 06:30
+Full Yaad hold (skill work) 10:16
+HeSPU negatives (skill work) 10:45
+
+Ready for stage 5 when you can do:
+Stable HeSPU negatives
+
+Stage 5:
+Declined pike push-ups (strength work) 06:30
+Full Yaad hold (skill work) 10:16
+HeSPU negatives (skill work) 10:45
+Frogstand to HS (prior to strength work) 11:00
+
+Ready for stage 6 when you can do: 
+Stable frogstand to HS 
+
+Stage 6:
+Declined pike push-ups (strength work) 06:30
+Full Yaad hold (skill work) 10:16
+HeSPU negatives (skill work) 10:45
+Full Yaad hold to HS (prior to strength work) 11:34
+
+Ready for stage 7 when you can do:
+Stable full Yaad hold to HS
+
+Stage 7:
+Freestanding handstand push-up</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:08:07.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/701/thumb-glutesandhamstrings-1508877640.png?crop=1xw:0.786xh;center,top&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.menshealth.com/fitness/best-glutes-and-hips-workout-circuit">Chisel Your Core With This Glute And Hamstring Workout</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">menshealth.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you want shredded abs, you can&#39;t overlook your hips and glutes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:08:05.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://cdn.outsideonline.com/wp-content/uploads/migrated-images_parent/migrated-images_60/workout-quick-20-min-training-plan_fe.jpg?width=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.outsideonline.com/1869676/20-minute-body-weight-strength-workout">Incorporate Strength Exercises</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">outsideonline.com</div>
+        </div>
+        <div class="card-section">
+          <p>You don&#39;t need a gym membership to be ready for race season</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-07-26T19:12:53.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://cdn.outsideonline.com/wp-content/uploads/2020/06/09/2-no-equiptment-work-out_h.jpg?width=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.outsideonline.com/2413554/no-equipment-bodyweight-strength-workout">Get Ripped with This No-Equipment 6-Move Workout</a>
+          <div class="card-meta">26 Jul 2020</div>
+          <div class="card-meta card-domain">outsideonline.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use tempo and isometrics to improve your bodyweight routine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:01.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F4483%2F1590601672_runners-in-san-fran_h.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://getpocket.com/explore/item/how-treadmill-running-differs-from-running-outside">How Treadmill Running Differs from Running Outside</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Yes, the physiology and biomechanics of treadmill running are a little different. But how you feel about it is probably more important.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-21T15:16:31.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://share.redd.it/preview/post/gl103q" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/nextfuckinglevel/comments/gl103q/his_work_out_routine_is_truly_amazing">🔥 His work out routine is truly amazing.</a>
+          <div class="card-meta">21 May 2020</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>70K votes, 4.3K comments. 9M subscribers in the nextfuckinglevel community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:09:34.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*AIxXuI55eSQ7RLf4IUGQwg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/better-humans/how-i-completely-transformed-my-body-in-one-year-b17a8bbca8bd?source=rss----7038e003d060---4">How I completely transformed my body in one year.</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>And if I can do it, you definitely can.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:08:03.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2019/01/Jump-Rope-Header.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/articles/how-to-jump-rope-like-a-boxer">How to Jump Rope Like a Boxer</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>With our archives now 3,500+ articles deep, we’ve decided to republish a classic piece each Sunday to help our newer readers discover some of the best, evergreen gems from the past. This article was originally published in January 2019.  When you think about boxers’ workouts — when you mentally run through all the real life […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-09T19:20:38.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://c.apple.news/AgEXQWZCT3NDeDlMVDVTTmNkWlZadFJvU3cAMA" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://apple.news/AfBOsCx9LT5SNcdZVZtRoSw">The Activation Drill You Need to Try Before Upper Body Workouts</a>
+          <div class="card-meta">9 Feb 2020</div>
+          <div class="card-meta card-domain">apple.news</div>
+        </div>
+        <div class="card-section">
+          <p>You won&#39;t be able to use much weight at all, but you&#39;ll still feel like Superman.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-29T01:07:13.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://c.apple.news/AgEXQUEzb09jT1JPVFJxQ0JxZ09pajJLR2cAMA" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://apple.news/AA3oOcOROTRqCBqgOij2KGg">This Split Squat Hellset Blasts Every Single Leg Muscle In Minutes</a>
+          <div class="card-meta">29 Jan 2020</div>
+          <div class="card-meta card-domain">apple.news</div>
+        </div>
+        <div class="card-section">
+          <p>Blend three kinds of Bulgarian split squats into one monstrous set for glute, quad, and hamstring gains.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:41.000Z | tags: exercise, health-medicine -->
+      <div class="card-image">
+        <img src="https://www.mensjournal.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTk2MTM2MjQ1MzU2NzMzOTU3/stretches.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.mensjournal.com/health-fitness/8-morning-workouts-you-should-do-as-soon-as-you-get-out-of-bed-morning-workout">10 Morning Exercises You Should Do When You Wake Up - Men&#39;s Journal</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">mensjournal.com</div>
+        </div>
+        <div class="card-section">
+          <p>You don&#39;t need to bang out a whole morning workout, but morning exercises can increase blood flow and give you the boost you need to start the day.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

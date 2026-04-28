@@ -1,0 +1,786 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + emotions &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-03-27T01:00:48.000Z | tags: behaviors, emotions, gestures -->
+      <div class="card-image">
+        <img src="https://images.theconversation.com/files/224790/original/file-20180625-19375-1raiecb.jpg?ixlib=rb-4.1.0&amp;rect=24%2C90%2C5439%2C2719&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theconversation.com/why-are-russians-so-stingy-with-their-smiles-98799">Why are Russians so stingy with their smiles?</a>
+          <div class="card-meta">27 Mar 2024</div>
+          <div class="card-meta card-domain">theconversation.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the US, smiling is a reflexive gesture of goodwill, but Russians view it as a sign of stupidity. Social psychology research could help explain this cultural contrast.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-17T07:15:14.000Z | tags: behaviors, emotions, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Psych_SG_61.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/psychology-study-guide">Psychology for UX: Study Guide</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unsure where to start? Use this collection of links to our articles and videos to learn about some principles of human psychology and how they relate to UX design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-17T22:15:33.000Z | tags: behaviors, emotions, gifts -->
+      <div class="card-image">
+        <img src="https://theness.com/neurologicablog/wp-content/uploads/sites/3/2023/09/gift-giving.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theness.com/neurologicablog/index.php/the-science-of-gift-giving">The Science of Gift Giving</a>
+          <div class="card-meta">17 Sep 2023</div>
+          <div class="card-meta card-domain">theness.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is a lot of social psychology out there providing information that can inform our everyday lives, and most people are completely unaware of the research. Richard Wiseman makes this point in his book, 59 Seconds - we actually have useful scientific information, and yet we also have a vast self-help industry giving advice that</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T00:35:45.000Z | tags: behaviors, emotions, trust -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/7dc0f7ff-c134-4944-82fa-64e3a185caff/essay-2k80ck4.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/how-the-fear-of-being-duped-makes-you-an-anxious-sucker">The fear of being duped is ubiquitous, but excessive scepticism makes it ha</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>The fear of being duped is ubiquitous, but excessive scepticism makes it harder to trust one another and cooperate</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-24T13:49:07.000Z | tags: behaviors, bias, emotions -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/von-restorff-isolation-effect">The von Restorff Isolation Effect: What Stands Out Is Remembered Better</a>
+          <div class="card-meta">24 Apr 2023</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-08T20:08:10.000Z | tags: behaviors, emotions, pricing -->
+      <div class="card-image">
+        <img src="https://api.urlbox.io/v1/sqyEJxrXaccBdLeR/4ad4a3965917d9567aa6b73240f0c5531f1f712a2ebaaeec08259e4b73c145ec/png?width=1200&amp;height=630&amp;url=https%3A%2F%2Fwww.collabfund.com%2Fblog%2Fthe-art-and-science-of-spending-money%2F%3Fcovershot" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://collabfund.com/blog/the-art-and-science-of-spending-money">The Art and Science of Spending Money</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">collabfund.com</div>
+        </div>
+        <div class="card-section">
+          <p>Former General Electric CEO Jack Welch once nearly died of a heart attack.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-28T14:56:44.000Z | tags: behaviors, dignity, emotions -->
+      <div class="card-image">
+        <img src="https://www.raptitude.com/wp-content/uploads/2023/03/remy_loz-3S0INpfREQc-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.raptitude.com/2023/03/be-dignified-as-a-rule">Be Dignified, as a Rule</a>
+          <div class="card-meta">28 Mar 2023</div>
+          <div class="card-meta card-domain">raptitude.com</div>
+        </div>
+        <div class="card-section">
+          <p>Much of what you’ve read on this blog has been written in pajama pants. Writing directly follows meditation in my morning routine, so I’ve often gone right from the cushion to the coffeepot to the desk. Occasionally life would remind me that there are practical reasons to put on socially acceptable pants before beginning the workday. Someone could knock on</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-02T16:54:33.000Z | tags: behaviors, emotions, cognition-neurology-perception -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/02/NeuroLoneliness-byKouzouSakai-Social.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/how-loneliness-reshapes-the-brain-20230228">How Loneliness Reshapes the Brain | Quanta Magazine</a>
+          <div class="card-meta">2 Mar 2023</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Feelings of loneliness prompt changes in the brain that further isolate people from social contact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-22T02:00:21.000Z | tags: animals, behaviors, disgust, emotions -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/a5ZJpgg629Xqw16MDCPsA8MWZYQ=/0x102:4792x2598/1200x625/media/img/mt/2023/02/animal_disgust_2/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/science/archive/2023/02/animal-hygiene-behavior-germs-disgust-response/673005">A ‘Distinctly Human’ Trait That Might Actually Be Universal</a>
+          <div class="card-meta">22 Feb 2023</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Disgust is surprisingly common across nature.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-17T17:44:35.000Z | tags: behaviors, comedy-fun-humor, emotions -->
+      <div class="card-image">
+        <img src="https://media.npr.org/assets/img/2023/01/27/bubbles_wide-b4fb547472979a0fadab6df5df2916d37de4eaef.jpeg?s=1400&amp;c=100&amp;f=jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.npr.org/sections/health-shots/2023/02/04/1150518287/fun-play-happiness-stress-reduction?position=4&amp;scheduled_corpus_item_id=88c2cf85-af36-4cb1-b46b-96b53e2c7a19&amp;sponsored=0">How to have more fun: 5 ideas to make your life more playful : Shots - Heal</a>
+          <div class="card-meta">17 Feb 2023</div>
+          <div class="card-meta card-domain">npr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Happiness can sometimes feel just out of reach. But having more fun? You&#39;ve got this — and those giggles and playful moments can make a big difference to your health and well-being.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-02T14:36:52.000Z | tags: behaviors, design, design-patterns, emotions -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0c5edbbb-66de-4cb7-ace1-ab6ff1752039_1590x1224.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://experimentalhistory.substack.com/p/the-five-tools-of-hedonic-design">The Five Tools of Hedonic Design</a>
+          <div class="card-meta">2 Jan 2023</div>
+          <div class="card-meta card-domain">experimentalhistory.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hacking the happiness treadmill</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-30T18:48:40.000Z | tags: behaviors, emotions, influence-persuasion -->
+      <div class="card-image">
+        <img src="https://cms.bps.org.uk/sites/default/files/2024-07/dogfireworks.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bps.org.uk/psychologist">The Psychologist | BPS</a>
+          <div class="card-meta">30 Oct 2022</div>
+          <div class="card-meta card-domain">bps.org.uk</div>
+        </div>
+        <div class="card-section">
+          <p>The magazine of the British Psychological Society - in print and online.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-05T23:54:18.000Z | tags: behaviors, emotions, fear -->
+      <div class="card-image">
+        <img src="https://nesslabs.com/wp-content/uploads/2022/10/horsemen-of-fear-banner.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nesslabs.com/four-horsemen-of-fear">The four horsemen of fear</a>
+          <div class="card-meta">5 Oct 2022</div>
+          <div class="card-meta card-domain">nesslabs.com</div>
+        </div>
+        <div class="card-section">
+          <p>All fears can be divided into four broad categories which psychologists refer to as the four horsemen of fear: bodily, interpersonal, cognitive and behavioral fears. And each of the four horsemen of fear can be addressed by applying simple strategies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-04T11:43:42.000Z | tags: behaviors, emotions, shaming -->
+      <div class="card-image">
+        <img src="https://d181q449nqu6en.cloudfront.net/content/craft/articles/_1200x630_crop_center-center_82_none/Tyson_Shame_Web_Preview.jpg?mtime=20220908121604&amp;focal=none&amp;tmtime=20220908135350" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://yalereview.org/article/online-shaming-twitter-culture-tyson">Charlie Tyson: &quot;Theater of Shame&quot;</a>
+          <div class="card-meta">4 Oct 2022</div>
+          <div class="card-meta card-domain">yalereview.org</div>
+        </div>
+        <div class="card-section">
+          <p>What does the state of online shaming reveal about our democracy?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-09T19:49:27.000Z | tags: animals, behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/xsyanjdEPK8pVC9v9kipsiNQAZo=/0x204:4792x2700/1200x625/media/img/mt/2022/09/Cat_purr_1/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/science/archive/2022/09/why-cats-purr-vocalization-science/671358">Purring Is a Love Language No Human Can Speak</a>
+          <div class="card-meta">9 Sep 2022</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some cats do it, but others can’t—and researchers still don’t fully understand why.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-09T14:40:38.000Z | tags: behaviors, emotions, shaming -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/772c7f16-759f-43e1-b717-51228eb95f82/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/guides/how-to-cope-with-shame-by-understanding-where-it-comes-from">How to cope with shame | Psyche Guides</a>
+          <div class="card-meta">9 Sep 2022</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>Do you feel perpetually bad, broken or unlovable? These tools will help you relate to yourself in a fairer, gentler way</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-28T00:14:11.000Z | tags: behaviors, emotions, friends -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/df_w9fWnEiB06rpFTbWO5-sqYmM=/0x53:2496x1353/1200x625/media/img/mt/2022/08/Attachment_1/original.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/family/archive/2022/08/making-keeping-friends-attachment-theory-styles/671222">The Trait That ‘Super Friends’ Have in Common</a>
+          <div class="card-meta">28 Aug 2022</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>A secure attachment style can help people initiate and maintain friendships.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-17T15:51:59.000Z | tags: behaviors, emotions, shaming -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F8050%2F1657925422_GettyImages-1330019780.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-scientific-underpinnings-and-impacts-of-shame">The Scientific Underpinnings and Impacts of Shame</a>
+          <div class="card-meta">17 Aug 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>People who feel shame readily are at risk for depression and anxiety disorders</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:46:12.000Z | tags: behaviors, emotions, empathy -->
+      <div class="card-image">
+        <img src="https://media.hiddenbrain.org/uploads/2022/07/game-figure-gbf082f45c_1920-Cropped.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hiddenbrain.org/podcast/separating-yourself-from-the-pack?fbclid=IwAR0oTQ5v96Hrux9PliLOzE2ieBEuCkNl7mGZPdEqZOxHOEae5EzPCusudZ4">Separating Yourself from the Pack | Hidden Brain Media</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hiddenbrain.org</div>
+        </div>
+        <div class="card-section">
+          <p>Have you ever gotten into a heated argument about politics? Maybe you’ve said something you&#39;re not proud of during game night with friends, or booed the opposing team at a sporting event. Psychologist Mina Cikara studies what happens in these moments — when our mindset shifts from “you and me” to “us and them.” This week on the show, Mina shares the profound ways that becoming a part of a group shapes our thoughts, feelings and behaviors.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:55.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F1817%2F1619220686_GettyImages-958204932.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/7-reasons-why-emotional-intelligence-is-one-of-the-fastest-growing-job-skills">7 Reasons Why Emotional Intelligence Is One Of The Fastest-Growing Job Skills</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here’s why hiring managers say they often value emotional intelligence more highly than IQ.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T19:56:49.000Z | tags: behaviors, criticism, emotions, feedback -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p0cgz08c.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/future/article/20220624-why-criticism-lasts-longer-than-praise?at_campaign=64&amp;at_custom1=[post+type]&amp;at_custom2=facebook_page&amp;at_custom3=BBC+News&amp;at_custom4=167670E8-F923-11EC-A351-CC7D96E8478F&amp;at_medium=custom7">Why criticism lasts longer than praise</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most of us are subjected to insults, sarcastic comments or bad feedback in our everyday lives. But we weren&#39;t built to deal with torrents of criticism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-03T17:44:55.000Z | tags: behaviors, coolness-desire-envy, emotions -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/2Mauhbbndvc0fIfEHZ5mdW5ftKo=/0x0:2995x1560/1200x625/media/img/mt/2022/06/HowToBuildALife97/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/family/archive/2022/06/make-friends-you-admire-happiness/661245">Don’t Surround Yourself With Admirers</a>
+          <div class="card-meta">3 Jul 2022</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Instead, befriend people who inspire awe in you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-10T16:32:12.000Z | tags: behaviors, color, emotions -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p0cbhghh.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/future/article/20220601-what-your-favourite-colour-says-about-you">Why your favourite colour is probably blue</a>
+          <div class="card-meta">10 Jun 2022</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>From a young age we are primed to choose a favourite colour, but strangely as we grow up our preference often changes – and it&#39;s largely due to influences outside our control.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-17T23:46:35.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/26f6b35b-0b94-40f4-b361-9ce2d50ddbc1/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/ideas/what-makes-hate-a-unique-emotion-and-why-that-matters">What makes hate a unique emotion – and why that matters | Psyche Ideas</a>
+          <div class="card-meta">17 May 2022</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>How does hating someone compare with anger, contempt or disgust? A clearer picture of what makes it unique is emerging</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-13T18:29:22.000Z | tags: behaviors, emotions, empathy, influence-persuasion, language-linguistics, listening -->
+      <div class="card-image">
+        <img src="https://consilienceproject.org/wp-content/uploads/2022/02/RAG0522PP010_Endgames-Bad-Faith_2-1024x576.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://consilienceproject.org/endgames-of-bad-communication">The Endgames of Bad Faith Communication</a>
+          <div class="card-meta">13 Apr 2022</div>
+          <div class="card-meta card-domain">consilienceproject.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T12:36:25.000Z | tags: behaviors, emotions, grit-hustle-perseverance -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/6decd959-9152-4c83-a84e-ab9ada3a577e/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/guides/how-to-perform-well-under-pressure-by-cultivating-flexibility">How to perform well under pressure | Psyche Guides</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>Ditch the tough talk, it won’t help. Instead cultivate your mental flexibility so you can handle whatever comes your way</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-27T15:41:08.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7184%2F1634082708_61661ee04c8a0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/interoception-the-hidden-sense-that-shapes-wellbeing">Interoception: The Hidden Sense That Shapes Wellbeing</a>
+          <div class="card-meta">27 Oct 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>There’s growing evidence that signals sent from our internal organs to the brain play a major role in regulating emotions and fending off anxiety and depression.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T01:38:31.000Z | tags: behaviors, books, emotions, influence-persuasion, psychology -->
+      <div class="card-image">
+        <img src="https://durmonski.com/wp-content/uploads/2021/07/The-10-Must-Read-Psychology-Books.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://durmonski.com/reading-lists/must-read-psychology-books">The 10 Must-Read Psychology Books Every Human Being Should Read | Durmonski</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">durmonski.com</div>
+        </div>
+        <div class="card-section">
+          <p>Regardless of where you are in the pathway of understanding how the human psyche works, this list of must-read psychology books will upgrade your personal library.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-30T22:52:15.000Z | tags: behaviors, emotions, influence-persuasion -->
+      <div class="card-image">
+        <img src="https://chicagomaroon.com/wp-content/uploads/2022/08/Untitled-2-2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.chicagomaroon.com/2002/04/12/why-russians-do-not-smile">Folk Festival a success, but students in short supply</a>
+          <div class="card-meta">30 May 2021</div>
+          <div class="card-meta card-domain">chicagomaroon.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-03T11:14:23.000Z | tags: behaviors, emotions -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.visualcapitalist.com/a-visual-guide-to-human-emotion">A Visual Guide to Human Emotion</a>
+          <div class="card-meta">3 Apr 2021</div>
+          <div class="card-meta card-domain">visualcapitalist.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-12T12:59:56.000Z | tags: behaviors, emotions, empathy, music -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5992%2F1611598543_GettyImages-103462741.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/dissecting-the-bloodthirsty-bliss-of-death-metal">Dissecting the Bloodthirsty Bliss of Death Metal</a>
+          <div class="card-meta">12 Feb 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fans of this violent music report feelings of transcendence and positive emotions; psychologists want to learn why.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-12T12:58:31.000Z | tags: behaviors, emotions, empathy -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eckerd.edu/psychology/iri">Interpersonal Reactivity Index - Psychology | Eckerd College</a>
+          <div class="card-meta">12 Feb 2021</div>
+          <div class="card-meta card-domain">eckerd.edu</div>
+        </div>
+        <div class="card-section">
+          <p>[vc_row type=”full_width_background” full_screen_row_position=”middle” column_margin=”default” column_direction=”default” column_direction_tablet=”default” column_direction_phone=”default” scene_position=”center” top_padding=”48″ text_color=”dark” text_align=”left” row_border_radius=”none” row_border_radius_applies=”bg” overflow=”visible” overlay_strength=”0.3″ gradient_direction=”left_to_right” shape_divider_position=”bottom” bg_image_animation=”none”][vc_column column_padding=”no-extra-padding” column_padding_tablet=”inherit” column_padding_phone=”inherit” column_padding_position=”all” column_element_direction_desktop=”default” column_element_spacing=”default” desktop_text_alignment=”default” tablet_text_alignment=”default” phone_text_alignment=”default” background_color_opacity=”1″ background_hover_color_opacity=”1″ column_backdrop_filter=”none” column_shadow=”none” column_border_radius=”none” column_link_target=”_self” column_position=”default” gradient_direction=”left_to_right” overlay_strength=”0.3″ width=”1/1″ tablet_width_inherit=”default” animation_type=”default” bg_image_animation=”none” border_type=”simple” column_border_width=”none” column_border_style=”solid”][vc_column_text] Interpersonal Reactivity...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-12T00:14:57.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2021/01/p-1-brain-quadrants.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90598361/a-neurosurgeon-shares-his-effective-strategy-for-overcoming-fears?partner=feedburner">A neurosurgeon shares his effective strategy for overcoming fears</a>
+          <div class="card-meta">12 Feb 2021</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Think about your life like an x-y axis, with four quadrants.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-07T12:43:47.000Z | tags: anger, behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/ea9b484b-2dff-4bf9-b47b-250c1bef659e/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/guides/anger-is-a-potent-beneficial-force-if-used-in-the-right-way">How to be angry | Psyche Guides</a>
+          <div class="card-meta">7 Feb 2021</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>Anger is a fuel that’s dangerous when out of control. But managed well, it can energise you to identify and confront problems</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T12:27:19.000Z | tags: advertising-commercials, behaviors, emotions, goodreads, marketing -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://meltingasphalt.com/ads-dont-work-that-way">Ads Don’t Work That Way | Melting Asphalt</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">meltingasphalt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-29T20:09:42.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://media.mlb.com/media/images-en/gallery/conceptual/human-behavior/1200-151694-list-of-human-emotions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psychologenie.com/list-of-human-emotions">An Extensive List of Human Emotions and Their Meanings - Psychologenie</a>
+          <div class="card-meta">29 Nov 2020</div>
+          <div class="card-meta card-domain">psychologenie.com</div>
+        </div>
+        <div class="card-section">
+          <p>When we are feeling something, we don&#39;t really stop to define that emotion or think about the exact emotion that we are experiencing. We just feel and go through it; may it be sadness, anger or happiness. As human beings, we experience a plethora of feelings and emotions in our lifetime that range over several forms and types. This article is an attempt to list down an extensive list of those emotions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-29T20:09:40.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://www.scienceofpeople.com/wp-content/uploads/2019/09/ben-white-4K2lIP0zc_k-unsplash-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.scienceofpeople.com/emotions-list">The Ultimate List of Emotions and How to Control Your Emotions | Science of</a>
+          <div class="card-meta">29 Nov 2020</div>
+          <div class="card-meta card-domain">scienceofpeople.com</div>
+        </div>
+        <div class="card-section">
+          <p>Could you make a list of all the emotions you feel in a day? Emotions play a fascinating</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-12T15:14:32.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F124%2F1566573710_xscscx.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/emotional-intelligence-the-social-skills-you-weren-t-taught-in-school">Emotional Intelligence: The Social Skills You Weren’t Taught in School</a>
+          <div class="card-meta">12 Feb 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>How well do you recognize and understand your emotions? What about the emotions of those around you?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-05T12:28:47.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F2201%2F1573829164_porpjp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/why-the-french-don-t-show-excitement">Why the French Don’t Show Excitement</a>
+          <div class="card-meta">5 Jan 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Not only is ‘Je suis excité’ not the appropriate way to convey excitement in French, but there seems to be no real way to express it at all.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-26T01:20:46.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/c20755f2-890b-46e5-b164-dd776624b594/ESSAY-468391108.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/why-wonder-is-the-most-human-of-all-emotions">Why wonder is the most human of all emotions | Aeon Essays</a>
+          <div class="card-meta">26 Oct 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>One emotion inspired our greatest achievements in science, art and religion. We can manipulate it – but why do we have it?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-18T12:19:19.000Z | tags: behaviors, decisions, emotions -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tomtunguz.com/on-humility-and-making-better-decisions">On Humility and Making Better Decisions</a>
+          <div class="card-meta">18 Oct 2019</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dr. Daniel Kahneman features on the latest Farnam Street podcast and it’s a surprising episode. Kahneman wrote Thinking Fast and Slow. I admire Kahneman a great deal. Not for his Nobel or for his work, which are both impressive, but for his humility. Some of the key tenets of Kahneman’s work in his famous book were disproved. And he owned up to it, both in print and on the podcast. That’s the hallmark of someone with great integrity, and it’s a sign to trust someone more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-09T23:30:51.000Z | tags: behaviors, emotions, goodreads, kindness, happiness -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/51e575c1-f094-47d3-abde-a5bb27efebde/gettyimages-525302476.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/ideas/the-fast-track-to-a-life-well-lived-is-feeling-grateful">The fast track to a life well lived is feeling grateful</a>
+          <div class="card-meta">9 Oct 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Being ‘good’ need not take years of ethical analysis: just a few moments of gratitude can set you on the path to virtue</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-16T15:24:42.000Z | tags: behaviors, emotions, instinct-intuition, speaking -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/http%3A%2F%2Fstatic.nautil.us%2F14797_53885282fbff8407b3b6e820b7830180.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/to-persuade-someone-look-emotional">To Persuade Someone, Look Emotional</a>
+          <div class="card-meta">16 Sep 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Look like you‘re trusting your gut and others will trust you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-12T15:01:34.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/9b91ec65-cb70-4f17-8397-2e0cc884ff06/essay-nyc75775.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/on-immanuel-kants-hydraulic-model-of-moral-education">The value of shame</a>
+          <div class="card-meta">12 Sep 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Immanuel Kant held that moral education is hydraulic: shame squashes down our vices, making space for virtue to rise up</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-31T18:28:39.000Z | tags: behaviors, emotions -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F03%2Fbrainz.jpg&amp;signature=d0de10c11d470c88148611ca19c39990" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/artificial-intelligence/2019/03/15/what-can-psychopaths-teach-us-about-ai">What can psychopaths teach us about AI?</a>
+          <div class="card-meta">31 Aug 2019</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>What happens when machines learn to manipulate us by faking our emotions? Judging by the rate at which researchers are developing human-like AI agents, we’re about to find out. Researchers around the world are trying to create more human-li</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-25T16:25:41.000Z | tags: behaviors, emotions, interviewing -->
+      <div class="card-image">
+        <img src="https://assets.nautil.us/sites/3/nautilus/CNg0GG8x-13366_4643dd49216b67d9c617ceb260e45684.jpg?auto=compress&amp;fm=pjpg&amp;ixlib=php-3.3.1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://nautil.us/blog/-the-science-behind-blade-runners-voight_kampff-test">The Science Behind “Blade Runner”’s Voight-Kampff Test - Facts So Romantic</a>
+          <div class="card-meta">25 Jul 2019</div>
+          <div class="card-meta card-domain">nautil.us</div>
+        </div>
+        <div class="card-section">
+          <p>Is Rick Deckard a replicant, an advanced bioengineered being? The jury concerning the character in 1982’s Blade Runner is still out. Harrison Ford, who plays Deckard in the film, thinks he’s human. Ridley Scott, the film’s director, is adamant that he’s not.* Hampton Fancher, the screenwriter for the original film and the sequel, Blade Runner […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-12T10:46:31.000Z | tags: behaviors, emotions, prodmgmt -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/12885979/The_Goods_Love.jpg?quality=90&amp;strip=all&amp;crop=0%2C4.30747263208%2C100%2C91.38505473584&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/the-goods/2018/9/11/17838546/shopping-charcoal-ice-cream-bookstores">Why we buy the things we buy</a>
+          <div class="card-meta">12 Sep 2018</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>The mysteries of consumer behavior, explained by ice cream and independent bookstores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2006-10-24T00:00:00.000Z | tags: behaviors, emotions, shaming -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/a4db809e-47eb-480e-b8c9-e1c8e623ffe5/essay-lon34989.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/we-should-take-awkwardness-less-personally-and-more-seriously">We should take awkwardness less personally and more seriously | Aeon Essays</a>
+          <div class="card-meta">24 Oct 2006</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Rather than being a cringey personal failing, awkwardness is a collective rupture – and a chance to rewrite the social script</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

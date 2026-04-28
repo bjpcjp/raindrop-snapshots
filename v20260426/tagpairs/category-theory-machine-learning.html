@@ -1,0 +1,160 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>category-theory + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-04-07T21:47:33.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*7bXer7VY3RT9gBppCrhOpQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-benchmark-and-taxonomy-of-categorical-encoders-9b7a0dc47a8c?source=rss----7f60cf5620c9---4">A Benchmark and Taxonomy of Categorical Encoders</a>
+          <div class="card-meta">7 Apr 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>New. Comprehensive. Extendable.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T23:09:49.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*7zCJa5LG048EJDIz" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/encoding-categorical-variables-a-deep-dive-into-target-encoding-2862217c2753">Encoding Categorical Variables: A Deep Dive into Target Encoding</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Data comes in different shapes and forms. One of those shapes and forms is known as categorical data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-19T14:40:53.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*501RxezPRiBqq-XKZ712gQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-categorical-encoding-tricks-you-need-to-know-today-as-a-data-scientist-73cf75595298?source=rss----7f60cf5620c9---4">5 Categorical Encoding Tricks you need to know today as a data scientist</a>
+          <div class="card-meta">19 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Complete Pythonic Encoding Tutorial</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:01:16.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rRjYOSQ8ZJ_hdx4upQ4KIg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/cataloging-tools-for-data-teams-8d62d7a4cd95?source=rss----7f60cf5620c9---4">Cataloging Tools for Data Teams</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to Data Cataloging and major tools that data teams can use for data discovery</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:36:13.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*n-QJ8N7hlV1wZy1eoHa0Gg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/leveraging-value-from-postal-codes-naics-codes-area-codes-and-other-funky-arse-categorical-be9ce75b6d5a?source=rss----7f60cf5620c9---4">Leveraging Value from Postal Codes, NAICS Codes, Area Codes and Other Funky</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A value is worthless unless it tells you something.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T21:05:04.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*cAdMhSq0ZoeoDhOkvw-N-g.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/categorical-encoding-techniques-93ebd18e1f24?source=rss----7f60cf5620c9---4">Categorical Feature Encoding in Python</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Methods to encode categorical variables using Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-20T02:28:41.000Z | tags: category-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://ocw.mit.edu/courses/18-s097-applied-category-theory-january-iap-2019/0d866f14140a2414ef83284d4b5fee6e_18-s097iap19.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ocw.mit.edu/courses/mathematics/18-s097-applied-category-theory-january-iap-2019/index.htm">Applied Category Theory | Mathematics | MIT OpenCourseWare</a>
+          <div class="card-meta">20 Apr 2019</div>
+          <div class="card-meta card-domain">ocw.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Category theory is a relatively new branch of mathematics that has transformed much of pure math research. The technical advance is that category theory provides a framework in which to organize formal systems and by which to translate between them, allowing one to transfer knowledge from one field to another. But this same organizational framework also has many compelling examples outside of pure math. In this course, we will give seven sketches on real-world applications of category theory.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

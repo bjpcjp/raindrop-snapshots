@@ -1,0 +1,902 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>pandas + python &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-16T12:19:43.630Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/12/sta-chugani-python-pandas-functions-replace-50-lines-code-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/5-python-pandas-functions-that-replace-50-lines-of-code/">5 Python Pandas Functions That Replace 50 Lines of Code</a>
+          <div class="card-meta">16 Mar 2026</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Learn five Pandas functions that dramatically simplify common data manipulation tasks and replace lengthy manual code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-28T12:37:20.280Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pandas.pydata.org/community/blog/pandas-3.0.html">pandas - Python Data Analysis Library</a>
+          <div class="card-meta">28 Jan 2026</div>
+          <div class="card-meta card-domain">pandas.pydata.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-16T14:58:53.114Z | tags: pandas, python, spatial -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/05/sta-sprint-geopandas.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/statology-sprint-building-spatial-analysis-skills-with-geopandas/">Statology Sprint: Building Spatial Analysis Skills with GeoPandas</a>
+          <div class="card-meta">16 May 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to transform geographic data into actionable insights using GeoPandas. From basic maps to finding Chicago&#39;s health deserts — complete tutorial inside.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-19T16:31:59.637Z | tags: pandas, python, excel -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/03/sta-openpyxl-02.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/how-to-effectively-work-with-excel-files-in-python-pandas-vs-openpyxl-guide/">https://www.statology.org/how-to-effectively-work-with-excel-files-in-python-pandas-vs-openpyxl-guide/</a>
+          <div class="card-meta">19 Mar 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we&#39;ll explore when and why you might want to use openpyxl directly, and understand its relationship with pandas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-01T17:40:58.000Z | tags: dask, numpy, pandas, python, sympy -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/beyond-numpy-pandas-unlocking-potential-lesserknown-python-libraries_03.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/08/beyond-numpy-pandas-unlocking-potential-lesserknown-python-libraries.html">Beyond Numpy and Pandas: Unlocking the Potential of Lesser-Known Python Lib</a>
+          <div class="card-meta">1 Sep 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>3 Python libraries for scientific computation you should know as a data professional.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-07T17:08:20.000Z | tags: pandas, python, spatial -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1000/0*s19BJb439dYfga-R" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/geospatial-data-analysis-with-geopandas-876cb72721cb?source=rss----7f60cf5620c9---4">Geospatial Data Analysis with GeoPandas</a>
+          <div class="card-meta">7 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to manipulate and visualize vector data with Python’s GeoPandas</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-09T11:42:47.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*owCKYi1ffmfBYB9_c8kz0A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-to-polars-for-pandas-users-2a52b2a03017?source=social.tw">An Introduction to Polars for Pandas Users</a>
+          <div class="card-meta">9 Apr 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Demonstrating how to use the new blazing fast DataFrame library for interacting with tabular data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-17T21:45:34.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8c8959b-208f-4725-a4cb-a19af7a6a748_864x600.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/avichawla/p/37-open-source-tools-to-supercharge-pandas">40 Open-Source Tools to Supercharge Your Pandas Workflow</a>
+          <div class="card-meta">17 Feb 2023</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas receives over 3M downloads per day. But 99% of its users are not using it to its full potential.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-23T17:35:00.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*UnxbaQNZOBP0-B5H" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/seven-killer-memory-optimization-techniques-every-pandas-user-should-know-64707348ab20?source=rss----7f60cf5620c9---4">Seven Killer Memory Optimization Techniques Every Pandas User Should Know</a>
+          <div class="card-meta">23 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Simple tips to optimize the memory utilization in Pandas</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:30:03.000Z | tags: pandas, pocket, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*kPKykXB1Bog-f7R-." alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@alexdambra/getting-your-reading-history-out-of-pocket-using-python-b4253dbe865c">Getting your reading history out of Pocket using Python | by Alex D&#39;Ambra |</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>I’ve been using Pocket for many years to collate all the articles, blog posts, recipes, etcI’ve found online. I decided it would be…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-04T15:26:36.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*-HKK2kfK7zD-Psx4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/breaking-down-the-powerful-magic-behind-the-pandas-groupby-function-b94cc2427eb9">Breaking Down the Powerful Magic Behind the Pandas GroupBy Function</a>
+          <div class="card-meta">4 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A detailed explanation of how groupby works under the hood to help you understand it better.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:48:31.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pandas.pydata.org">pandas - Python Data Analysis Library</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">pandas.pydata.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:48:16.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/fb5d1964e7000872cfefb9d9e596de05565e42041392929c31fb051fe3fdaa83/bjpcjp/python-data-science-handbook" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas">python-data-science-handbook/pandas at master · bjpcjp/python-data-science-handbook</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sourced from O&#39;Reilly ebook of the same name.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:33:53.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/723b338f37ff9793172b3a618f2dd47a54ea0579d56e3ae72497cfc426a2f3c4/bjpcjp/pandas-tips-tricks" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/pandas-tips-tricks/blob/master/pandas-tips-tricks.ipynb">pandas-tips-tricks/pandas-tips-tricks.ipynb at master · bjpcjp/pandas-tips-tricks</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>various tips and tricks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T00:58:08.000Z | tags: csv, machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SFqrLpBamc7ZgTkncBLZXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-and-half-powerful-tricks-to-effectively-read-csv-data-in-python-c4699a4f9d07?source=rss----7f60cf5620c9---4">3 (and Half) Powerful Tricks To Effectively Read CSV Data In Python</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Master usecols, chunksize, parse_dates in pandas read_csv().</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-28T23:10:15.000Z | tags: command-line, pandas, python -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/soares_15_python_snippets_01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2021/08/15-python-snippets-optimize-data-science-pipeline.html">15 Python Snippets to Optimize your Data Science Pipeline</a>
+          <div class="card-meta">28 Aug 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick Python solutions to help your data science cycle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-03T21:36:51.000Z | tags: excel, machine-learning, pandas, python, supply-chain -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:728/0*OWlt7BQBEGHNNtLp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8">Read Excel files with Python. 1000x Faster.</a>
+          <div class="card-meta">3 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I’ll show you five ways to load data in Python. Achieving a speedup of 3 orders of magnitude.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-31T22:09:17.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2021/05/pandas-faster-pypolars.html">Make Pandas 3 Times Faster with PyPolars</a>
+          <div class="card-meta">31 May 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to speed up your Pandas workflow using the PyPolars library.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-28T15:25:44.000Z | tags: dask, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WQURO9k08NIsrQ1PkqHhXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dask-dataframes-how-to-run-pandas-in-parallel-with-ease-b8b1f6b2646b?source=rss----7f60cf5620c9---4">Dask DataFrames — How to Run Pandas in Parallel With Ease</a>
+          <div class="card-meta">28 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Are you a Data Scientist experienced with Pandas? Then you know its pain points. There&#39;s an easy solution - Dask - which enables you to run Pandas computations in parallel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-17T20:10:35.000Z | tags: pandas, python, vaex -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2021/05/vaex-pandas-1000x-faster.html">Vaex: Pandas but 1000x faster</a>
+          <div class="card-meta">17 May 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you are working with big data, especially on your local machine, then learning the basics of Vaex, a Python library that enables the fast processing of large datasets, will provide you with a productive alternative to Pandas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-02T20:01:49.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*XXD4rNisPxdk5CH1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/30-examples-to-get-you-from-a-novice-to-an-advanced-pandas-user-e6eb4e8750b7?source=rss----7f60cf5620c9---4">30 Examples to Get You From a Novice to an Advanced Pandas User</a>
+          <div class="card-meta">2 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas is a data analysis and manipulation library for Python. It is one of the most popular tools among data scientists and analysts. Pandas can handle an entire data analytics pipeline. It provides…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-26T16:44:54.000Z | tags: geography, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*w4qrnWG09yU-6234" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/geopandas-hands-on-geospatial-relations-and-operations-a6e7047d7ba1?source=rss----7f60cf5620c9---4">Geopandas Hands-on: Geospatial Relations and Operations</a>
+          <div class="card-meta">26 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Part 1: Introduction to geospatial concepts (follow here) Part 2: Geospatial visualization and geometry creation (follow here) Part 3: Geospatial operations (this post) Part 4: Building geospatial…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-03T23:07:43.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*0SKy1pjlzgb0HvOE237AAA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/data-preprocessing-in-python-pandas-part-6-dropping-duplicates-e35e46bcc9d6?source=rss----7f60cf5620c9---4">Data Preprocessing in Python Pandas — Part 6 Dropping Duplicates</a>
+          <div class="card-meta">3 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A quick tutorial to drop duplicates using the Python Pandas library.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:31:07.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*KcFcZEq6RVAK5q-f" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/11-pandas-built-in-functions-you-should-know-1cf1783c2b9?source=rss----7f60cf5620c9---4">11 Pandas Built-in Functions You Should Know</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>No need to install, import and initialize — Just use them</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-19T22:12:45.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*eACslI-RYU6vHUReWgMbRQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-use-loc-and-iloc-for-selecting-data-in-pandas-bd09cb4c3d79">How to use loc and iloc for selecting data in Pandas</a>
+          <div class="card-meta">19 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas tips and tricks to help you get started with data analysis</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-10T10:31:54.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WJhnUNCdS399VwW2ss4hrA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/7-must-know-data-wrangling-operations-with-python-pandas-849438a90d15?source=rss----7f60cf5620c9---4">7 Must-Know Data Wrangling Operations with Python Pandas</a>
+          <div class="card-meta">10 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comprehensive practical guide</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-06T22:16:51.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*N1oH4H0B3y5dRU4g" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/8-things-to-know-to-get-started-with-with-pandas-groupby-3086dc91acb4?source=rss----7f60cf5620c9---4">8 Things to Know to Get Started with With Pandas Groupby</a>
+          <div class="card-meta">6 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Groupby is so powerful, which may sound daunting to beginners, but you don’t have to know all of its features.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-01T19:39:07.000Z | tags: analytics, dask, pandas, python, vaex -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*-RQZYqNWKwn34rpy" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/s7elocy8geb">Are You Still Using Pandas to Process Big Data in 2021?</a>
+          <div class="card-meta">1 Mar 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas doesn’t handle well Big Data. These two libraries do! Which one is better? Faster?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-19T14:12:10.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*nkfjFAv8N_ObLWVceeCkpA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/4-rarely-used-yet-very-useful-pandas-tricks-b43ef4b726fb?source=rss----7f60cf5620c9---4">4 Rarely-Used Yet Very Useful Pandas Tricks</a>
+          <div class="card-meta">19 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explained with examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:01:04.000Z | tags: dask, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZudEZUM97toUkEs7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/pandas-on-the-cloud-with-dask-9451199b0226?source=rss----7f60cf5620c9---4">Pandas on the Cloud with Dask</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Scaling your Pythonic data science and machine learning to the cloud using Dask. All from the comfort of your own laptop.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:53:57.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/add-external-data-to-your-pandas-dataframe-with-a-one-liner-f060f80daaa4?source=rss----7f60cf5620c9---4">Add External Data to Your Pandas Dataframe with a One-Liner</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:34:02.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*iRZ5TCE12NhArRWQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/20-pandas-functions-that-will-boost-your-data-analysis-process-f5dfdb2f9e05?source=rss----7f60cf5620c9---4">20 Pandas Functions That Will Boost Your Data Analysis Process</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explained with examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-24T17:43:30.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*qbK7OlZRsUKv5f5IHXLqBw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-key-differences-between-merge-and-concat-functions-of-pandas-ab2bab224b59?source=rss----7f60cf5620c9---4">3 Key Differences Between Merge and Concat Functions of Pandas</a>
+          <div class="card-meta">24 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>When and how to use which.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-03T11:05:10.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*J_z3Jkn7KL30Dj8VqrrrqQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/aggregation-transform-filter-how-and-when-to-use-them-31ed7eb88d2e?source=rss----7f60cf5620c9---4">Aggregation, Transform, Filter — How and When to use them?</a>
+          <div class="card-meta">3 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas: From Journeyman to Master — Voice from the victim.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: dask, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*iKZzj7wohpQUXqVAYQBV6w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/pandas-with-dask-for-an-ultra-fast-notebook-e2621c3769f?source=rss----7f60cf5620c9---4">Pandas with Dask, For an Ultra-Fast Notebook</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use Pandas with Dask to save time and resources. This combination will make your notebook ultra fast</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:01.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*OTGT-Si8SJVs_IL-.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/3-highly-practical-operations-of-pandas-61d86ca09979?source=rss----7f60cf5620c9---4">3 Highly Practical Operations of Pandas</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sample, where, isin explained in detail with examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T01:13:06.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*n_Kzu6Abafh3_z478VtuOQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/everything-you-need-to-know-about-loc-and-iloc-of-pandas-79b386cac776?source=rss----7f60cf5620c9---4">Everything You Need to Know About “loc” and “iloc” of Pandas</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Clearly distinguish loc and iloc</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:29:10.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/sad-panda.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2020/04/stop-hurting-pandas.html">Stop Hurting Your Pandas!</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This post will address the issues that can arise when Pandas slicing is used improperly. If you see the warning that reads &quot;A value is trying to be set on a copy of a slice from a DataFrame&quot;, this post is for you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:29:05.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*jsgh5noRcRaSmR0Y" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/my-top-5-pandas-data-manipulation-function-680e346809c7?source=rss----7f60cf5620c9---4">My Top 5 Pandas Data Manipulation Function</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Know your Pandas library function arsenal as a data scientist</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:57.000Z | tags: devops, machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*CqjQ6XHJkzch4HuCtTv9LQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/mlmachine-clean-ml-experiments-elegant-eda-pandas-pipelines-daba951dde0a?source=rss----7f60cf5620c9---4">mlmachine - Clean ML Experiments, Elegant EDA &amp; Pandas Pipelines</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This new Python package accelerates notebook-based machine learning experimentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:27:39.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*Bpom2atJm6Kc_SPc" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/dfqGQiKe95">A Comprehensive Guide to Pandas’ Advanced Features in 20 Minutes</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>A code-along guide for Pandas’ advanced functionalities.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T17:45:30.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*6CLy9bPFV7srVtkbEmcHWQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/mastering-pandas-groupby-efc6600d093?source=rss----7f60cf5620c9---4">Mastering Pandas Groupby</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding the Groupby Method</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T17:45:00.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_gu2ctyUqKGYe2Q6KbgDJA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/pandas-tips-i-wish-i-knew-before-ef4ea6a39e1a?source=rss----7f60cf5620c9---4">Pandas tips I wish I knew before</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How does pivot work? What is the main pandas building block? And more …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:26:36.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:390/0*POJPMl2GZ03ROY2D.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-lesser-known-pandas-tricks-e8ab1dd21431">Lesser-known pandas tricks (2019)</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>5 lesser-known pandas tricks that  help you be more productive</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:25:40.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*OgX9d3M38QFMkWhO" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-export-pandas-dataframe-to-csv-2038e43d9c03?source=rss----7f60cf5620c9---4">How to Export Pandas DataFrame to CSV</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, we’ll go over how to write DataFrames to CSV files.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:23:38.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:340:179/g:fp:0.7:0.22/0*miu7OIUgraivaOfj.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/learn-how-to-read-data-into-a-pandas-dataframe-in-5-minutes-122af8e0b9db?source=rss----7f60cf5620c9---4">Learn how to read data into a Pandas DataFrame in 5 minutes</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extract data from different sources</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-31T23:24:13.000Z | tags: machine-learning, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*qgWVwi0JRHbFDcaYKPKK5Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/less-known-but-very-useful-pandas-functions-1e1756afb2a9?source=rss----7f60cf5620c9---4">Less Known but Very Useful Pandas Functions</a>
+          <div class="card-meta">31 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Expedite your data analysis process</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-20T17:42:33.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/?s=Pandas">&quot;Pandas&quot; - KDnuggets</a>
+          <div class="card-meta">20 Mar 2020</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-19T18:47:46.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*jpGswBvzIzPJWyBIJWldBw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/two-pandas-functions-you-must-know-for-easy-data-manipulation-in-python-2f6d0a2ef3e5?source=rss----7f60cf5620c9---4">Two Pandas functions you must know for easy data manipulation in Python</a>
+          <div class="card-meta">19 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Master these pandas functions (and methods) to shorten your code, improve performance and avoid headaches.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*7pKsJ_5D9bf46rMt" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/please-stop-doing-these-5-things-in-pandas-9fbabea897aa?source=rss----7f60cf5620c9---4">Please Stop Doing These 5 Things in Pandas</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>These mistakes are super common, and super easy to fix.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:13:24.000Z | tags: numpy, pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*vuQ4fs_zYLoqVoIw_YS3sA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/12-amazing-pandas-numpy-functions-22e5671a45b8?source=rss----7f60cf5620c9---4">12 Amazing Pandas &amp; NumPy Functions</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Make your day to day life easier by using these functions in your analysis</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:08:03.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*4dB1ECCAp5YBGSX1emGfIQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/https-medium-com-tirthajyoti-build-pipelines-with-pandas-using-pdpipe-cade6128cd31">Build pipelines with Pandas using “pdpipe” - Towards Data Science</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>We show how to build intuitive and useful pipelines with Pandas DataFrame using a wonderful little library called pdpipe.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-14T20:33:38.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/11/speed-up-pandas-4x.html">How to Speed up Pandas by 4x with one line of code</a>
+          <div class="card-meta">14 Dec 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>While Pandas is the library for data processing in Python, it isn&#39;t really built for speed. Learn more about the new library, Modin, developed to distribute Pandas&#39; computation to speedup your data prep.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-14T20:31:49.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/10/5-advanced-features-pandas.html">5 Advanced Features of Pandas and How to Use Them</a>
+          <div class="card-meta">14 Dec 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>The pandas library offers core functionality when preparing your data using Python. But, many don&#39;t go beyond the basics, so learn about these lesser-known advanced methods that will make handling your data easier and cleaner.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-23T20:50:11.000Z | tags: pandas, python -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/superpanda/superpanda.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2019/04/22/python_pandas_multiproc">Make your own Super Pandas using Multiproc</a>
+          <div class="card-meta">23 Aug 2019</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>This post is a part of my series on Python Shorts. Some tips on how to use python. This post is about using the computing power we have at hand and applying it to the data structure we use most.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:38:34.000Z | tags: pandas, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pandas.pydata.org/pandas-docs/stable/style.html">Table Visualization — pandas 2.2.3 documentation</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">pandas.pydata.org</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,587 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>command-line + linux &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-26T13:44:58.252Z | tags: linux, command-line -->
+      <div class="card-image">
+        <img src="https://blog.hofstede.it/images/site-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/">Shell Tricks That Actually Make Life Easier (And Save Your Sanity)</a>
+          <div class="card-meta">26 Mar 2026</div>
+          <div class="card-meta card-domain">blog.hofstede.it</div>
+        </div>
+        <div class="card-section">
+          <p>Watch someone backspace 40 characters instead of pressing CTRL+W, and you’ll understand why this list exists. A collection of shell tricks-grouped by what works everywhere and what’s Bash/Zsh-speci...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-23T15:37:07.877Z | tags: linux, packages, command-line -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/apt-vs-apt-get/featured_hu_2c86c297d5ae3885.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/apt-vs-apt-get/">apt vs apt-get: What Is the Difference?</a>
+          <div class="card-meta">23 Mar 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understand the difference between apt and apt-get in Debian and Ubuntu. When to use each tool, how the commands map to each other, and which one belongs in your scripts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-10T13:32:52.383Z | tags: linux, command-line -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/how-to-create-a-systemd-service/featured_hu_c60a83c745c5f94.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/how-to-create-a-systemd-service/">How to Create a systemd Service File in Linux</a>
+          <div class="card-meta">10 Mar 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create a systemd service file in Linux with step-by-step instructions for unit file structure, service types, restart policies, and service management with systemctl.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-10T13:32:29.160Z | tags: linux, command-line -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/cheatsheet/su/">su Cheatsheet</a>
+          <div class="card-meta">10 Mar 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick reference for switching users and running commands with su in Linux</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-05T12:26:30.490Z | tags: linux, command-line -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/cheatsheet/less/">less Cheatsheet</a>
+          <div class="card-meta">5 Mar 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick reference for navigating, searching, and controlling output with the less pager in Linux</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-16T12:04:52.145Z | tags: ssh, command-line, linux, backups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/cheatsheet/scp/">SCP Cheatsheet</a>
+          <div class="card-meta">16 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick reference for secure file transfer with scp over SSH</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-13T13:32:00.699Z | tags: linux, command-line, backups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/cheatsheet/tar/">Tar Cheatsheet</a>
+          <div class="card-meta">13 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick reference for creating, listing, extracting, and compressing tar archives in Linux</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-04T11:17:20.892Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/bash-positional-parameters/featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/bash-positional-parameters/">Bash Positional Parameters</a>
+          <div class="card-meta">4 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Positional parameters are Bash variables that hold arguments passed to a script or function. Learn how to use $1, $2, $@, $#, and the shift command in Bash.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-04T11:16:35.813Z | tags: linux, ssh, command-line -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/how-to-generate-ssh-keys-on-linux/featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/how-to-generate-ssh-keys-on-linux/">How to Generate SSH Keys on Linux</a>
+          <div class="card-meta">4 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to generate SSH keys on Linux using ssh-keygen, copy them to remote servers, and set up passwordless authentication.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-17T18:38:11.102Z | tags: web-crawlers, command-line, linux, web-servers -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2025/10/whatweb-fingerprint.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/whatweb-fingerprint-websites/">How to Fingerprint Websites With WhatWeb - A Practical, Hands-On Guide</a>
+          <div class="card-meta">17 Oct 2025</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Another one of our simple, hands-on pen-testing tutorials. This one teaches you to finger a website for status code, server info, CMS etc.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-23T10:04:26.571Z | tags: linux, command-line -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2025/08/tmux.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/tmux/">Getting Started With Tmux: Absolute Essentials for Beginners</a>
+          <div class="card-meta">23 Aug 2025</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>tmux is an excellent productivity tool for pro Linux users who love the terminal. It certainly has a learning curve involved though.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-19T13:42:44.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7amUhZyy--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://i.ibb.co/F4THZ2T/cli-tools-banner.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6">CLI tools you won&#39;t be able to live without ?</a>
+          <div class="card-meta">19 Jan 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>A list of 50 command line tools, which you should definitely check out!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-13T19:12:17.000Z | tags: command-line, devops, linux, ssh -->
+      <div class="card-image">
+        <img src="https://iximiuz.com/ssh-tunnels/ssh-tunnels-2000-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://iximiuz.com/en/posts/ssh-tunnels">A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding</a>
+          <div class="card-meta">13 Jan 2023</div>
+          <div class="card-meta card-domain">iximiuz.com</div>
+        </div>
+        <div class="card-section">
+          <p>SSH port forwarding explained in a clean and visual way. How to use local and remote port forwarding. What sshd settings may need to be adjusted. How to memorize the right flags.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:40:42.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/07/find-exec-command-linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/find-exec-command">How to Use the find Command With exec</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find works on searching files based on a number of criteria. The exec command gives you the ability to work on those results. Here are some examples of find exec command combination.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:03:32.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/07/understanding-man-pages-in-linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/man-pages">Making the Most of man pages in Linux</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Though extremely useful, man pages in Linux can be daunting and intimidating at first. This article aims to make it a bit easier to peruse manuals and quickly get the help one needs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-01T14:59:19.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://evanhahn.com/images/logo_square.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://evanhahn.com/a-decade-of-dotfiles">A decade of dotfiles</a>
+          <div class="card-meta">1 Jun 2022</div>
+          <div class="card-meta card-domain">evanhahn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reflections on a decade of configuration files.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-26T22:57:16.000Z | tags: command-line, linux, ubuntu -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/a4abs/how-to-free-up-space-in-ubuntu-29a0">How to free up space in Ubuntu</a>
+          <div class="card-meta">26 May 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Whenever you are running out of disk space on Ubuntu server/desktop , There are several ways to free...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-26T21:39:31.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/05/kill-process-linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/kill-process">How to Kill a Process in Linux Command Line</a>
+          <div class="card-meta">26 May 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Found a misbehaving process? Here&#39;s how to teach a lesson to it by terminating it using various commands.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-14T16:16:32.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/04/how-to-set-timeout-in-cURL.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/curl-timeout">How to Set Timeout in cURL</a>
+          <div class="card-meta">14 May 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Downloading with curl taking too long? Set a timeout with curl command, so you don&#39;t have to wait long.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-04T12:20:33.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/61099017/cde6c580-765d-11e9-9f0a-9d94f2bdf421" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/onceupon/Bash-Oneliner">GitHub - onceupon/Bash-Oneliner: A collection of handy Bash One-Liners and</a>
+          <div class="card-meta">4 May 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. - onceupon/Bash-Oneliner</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T23:04:40.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4j1ufjc4bcutz385v2js.PNG" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/femolacaster/xargs-only-makes-your-life-easier-97i">XARGS only makes your life easier</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>One command-line tool that would make your life easier is the xargs command.            So, what is...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T20:55:30.000Z | tags: command-line, devops, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe9sw6b3djgdmcq5wgm6l.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bascodes/14-awesome-cli-tools-for-modern-software-developers-18p">14 Awesome CLI Tools for Modern Software Developers</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>General Command Line Tools            Autojump   Autojump is a tool that learns your most...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-17T13:07:27.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/03/make-files-executable-in-linux-terminal.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/make-file-executable">How to Make a File Executable in Linux terminal?</a>
+          <div class="card-meta">17 Mar 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>New to Linux command line and wondering how to make a bash script or some other file executable? Here&#39;s how to do it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-14T19:14:31.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://www.cyberciti.biz/media/new/faq/2007/09/how-to-create-soft-link-with-ln-command.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link">How to: Linux / UNIX create soft link with ln command - nixCraft</a>
+          <div class="card-meta">14 Mar 2022</div>
+          <div class="card-meta card-domain">cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>This quick guide explains what is a symbolic link and how to create a soft link (symbolic) under Linux, macOS, *BSD or Unix-like system.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-15T16:50:10.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/be747f407eebef6ab66f34e2fb7aa29eed6da7e9a6fad1fe90f31582489475fe/r0f1/linuxhelp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/r0f1/linuxhelp">r0f1/linuxhelp: Helpful linux commands.</a>
+          <div class="card-meta">15 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Helpful linux commands.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:07:19.000Z | tags: linux, command-line -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/13807606/6ecaf000-3f27-11eb-9d7b-68c540f91d33" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/junegunn/fzf">junegunn/fzf: :cherry_blossom: A command-line fuzzy finder</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>:cherry_blossom: A command-line fuzzy finder.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-15T22:52:48.000Z | tags: command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2021/10/Find-Command-examples.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/find-command-examples">15 Super Useful Examples of the Find Command in Linux</a>
+          <div class="card-meta">15 Oct 2021</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn the super powerful and super useful find command with these practical examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-07T17:49:43.000Z | tags: command-line, linux, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Ybu9fEJ8EG4SY9JGpycwmA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/essential-linux-command-line-tricks-for-computer-vision-researchers-27d4f013d9a?source=rss----7f60cf5620c9---4">Essential Linux Command-Line Tricks for Computer Vision Researchers</a>
+          <div class="card-meta">7 Oct 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, you will learn some cool command line tricks which can help you to speed up your day-to-day R&amp;D.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T09:30:54.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2021/10/shebang-linux.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/shebang">What is Shebang in Linux Shell Scripting?</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The seemingly insignificant #! characters at the beginning of a shell script has a major significance on how your script will be executed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-26T23:56:29.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2021/09/Bash-Variables-unusual-usage.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/variables-bash-script">Unusual Ways to Use Variables Inside Bash Scripts</a>
+          <div class="card-meta">26 Sep 2021</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>You might have used variables in Bash before, but probably not like this.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-26T23:56:00.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/09/virtual-play-date-ideas-magic-tricks-1586391856.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/gadgets/2021/09/command-line-wizardry-part-two-variables-and-loops-in-bash">Command line wizardry, part two: Variables and loops in Bash</a>
+          <div class="card-meta">26 Sep 2021</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to process thousands of items reliably and repeatably in this installment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-08T21:50:33.000Z | tags: bash, command-line, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bash.cyberciti.biz/guide/.bash_logout">How To Run Commands When You Log Out Using ~/.bash_logout</a>
+          <div class="card-meta">8 Aug 2021</div>
+          <div class="card-meta card-domain">bash.cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>The .bash_logout file is the individual login shell cleanup file. It is executed when a login shell exits. This file exists in the user&#39;s home directory. For example, $HOME/.bash_logout. This file is useful if you want to run task or another script or command automatically at logout. For example, clear the mysql command line history stored in ~/.mysql_history or to make a backup of files you can use this file.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-19T11:24:04.000Z | tags: command-line, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://stahlworks.com/dev/swiss-file-knife.html">Swiss File Knife – A Command Line Tools Collection</a>
+          <div class="card-meta">19 Feb 2021</div>
+          <div class="card-meta card-domain">stahlworks.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-20T11:55:56.000Z | tags: command-line, devops, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Flvkq6b8c0cjg911e5cxp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/switowski/my-favorite-cli-tools-4p4g">My Favorite CLI Tools</a>
+          <div class="card-meta">20 Jun 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Previously, I wrote about my favorite Mac apps. But I spend half of my time in the terminal, and I ha...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2012-10-24T00:00:00.000Z | tags: linux, command-line -->
+      <div class="card-image">
+        <img src="https://rwblickhan.org/apple-touch-icon.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rwblickhan.org/newsletters/command-line-tools-i-like-2022">Command Line Tools I Like (2022) · rwblickhan.org</a>
+          <div class="card-meta">24 Oct 2012</div>
+          <div class="card-meta card-domain">rwblickhan.org</div>
+        </div>
+        <div class="card-section">
+          <p>The personal site of R. W. Blickhan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

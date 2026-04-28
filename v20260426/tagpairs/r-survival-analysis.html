@@ -1,0 +1,96 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>_r_ + survival-analysis &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-07-11T04:21:35.000Z | tags: a-b, survival-analysis, _r_ -->
+      <div class="card-image">
+        <img src="https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2024/07/better-a-b-testing-with-survival-analysis">Better A/B testing with survival analysis</a>
+          <div class="card-meta">11 Jul 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pic by author - using DALL-E 3 When running experiments don’t forget to bring your survival kit I’ve already made the case in several blog posts (part 1, part 2, part 3) that using survival analysis can improve churn prediction. In this blog post I’ll ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T02:04:15.000Z | tags: survival-analysis, _r_ -->
+      <div class="card-image">
+        <img src="https://rviews.rstudio.com/post/2017-05-05-survival-analysis-with-r-with-comments_files/figure-html/unnamed-chunk-4-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/survival-analysis-with-r-3">Survival Analysis with R</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>With roots dating back to at least 1662 when John Graunt, a London merchant, published an extensive set of inferences based on mortality records, survival analysis is one of the oldest subfields of Statistics [1]. Basic life-table methods, including techniques for dealing with censored data, were discovered before 1700 [2], and in the early eighteenth century, the old masters - de Moivre working on annuities, and Daniel Bernoulli studying competing risks for the analysis of smallpox inoculation - developed the modern foundations of the field [2]. Today, survival analysis models are important in Engineering, Insurance, Marketing, Medicine, and many more application areas. So, it is not surprising that R should be rich in survival analysis functions. CRAN’s Survival Analysis Task View, a curated list of the best relevant R survival analysis packages and functions, is indeed formidable. We all owe a great deal of gratitude to Arthur Allignol and Aurielien Latouche, the task view maintainers. Looking at the Task View on a small screen, however, is a bit like standing too close to a brick wall - left-right, up-down, bricks all around. It is a fantastic edifice that gives some idea of the significant contributions R developers have made both to the theory and practice of Survival Analysis. As well-organized as it is, however, I imagine that even survival analysis experts need some time to find their way around this task view. Newcomers - people either new to R or new to survival analysis or both - must find it overwhelming. So, it is with newcomers in mind that I offer the following narrow trajectory through the task view that relies on just a few packages: survival, ggplot2, ggfortify, and ranger The survival package is the cornerstone of the entire R survival analysis edifice. Not only is the package itself rich in features, but the object created by the Surv() function, which contains failure time and censoring information, is the basic survival analysis data structure in R. Dr. Terry Therneau, the package author, began working on the survival package in 1986. The first public release, in late 1989, used the Statlib service hosted by Carnegie Mellon University. Thereafter, the package was incorporated directly into Splus, and subsequently into R. ggfortify enables producing handsome, one-line survival plots with ggplot2::autoplot. ranger might be the surprise in my very short list of survival packages. The ranger() function is well-known for being a fast implementation of the Random Forests algorithm for building ensembles of classification and regression trees. But ranger() also works with survival data. Benchmarks indicate that ranger() is suitable for building time-to-event models with the large, high-dimensional data sets important to internet marketing applications. Since ranger() uses standard Surv() survival objects, it’s an ideal tool for getting acquainted with survival analysis in this machine-learning age. Load the data This first block of code loads the required packages, along with the veteran dataset from the survival package that contains data from a two-treatment, randomized trial for lung cancer. library(survival) library(ranger) library(ggplot2) library(dplyr) library(ggfortify) #------------ data(veteran) head(veteran) ## trt celltype time status karno diagtime age prior ## 1 1 squamous 72 1 60 7 69 0 ## 2 1 squamous 411 1 70 5 64 10 ## 3 1 squamous 228 1 60 3 38 0 ## 4 1 squamous 126 1 60 9 63 10 ## 5 1 squamous 118 1 70 11 65 10 ## 6 1 squamous 10 1 20 5 49 0 The variables in veteran are: * trt: 1=standard 2=test * celltype: 1=squamous, 2=small cell, 3=adeno, 4=large * time: survival time in days * status: censoring status * karno: Karnofsky performance score (100=good) * diagtime: months from diagnosis to randomization * age: in years * prior: prior therapy 0=no, 10=yes Kaplan Meier Analysis The first thing to do is to use Surv() to build the standard survival object. The variable time records survival time; status indicates whether the patient’s death was observed (status = 1) or that survival time was censored (status = 0). Note that a “+” after the time in the print out of km indicates censoring. # Kaplan Meier Survival Curve km</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-11T21:19:22.000Z | tags: machine-learning, survival-analysis, _r_ -->
+      <div class="card-image">
+        <img src="https://www.business-science.io/assets/survival_plots-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2022/06/survival-analysis-in-r-in-under-10-minutes">Survival Analysis in R (in under 10-minutes)</a>
+          <div class="card-meta">11 Jun 2022</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Making a survival analysis can be a challenge even for experienced R users, but the good news is I’ll help you make beautiful, publication-quality survival plots in under 10-minutes. Here’s what WE are going to do: Make your first survival model an...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

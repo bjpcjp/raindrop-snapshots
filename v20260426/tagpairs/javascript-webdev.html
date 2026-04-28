@@ -1,0 +1,417 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>javascript + webdev &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-05-12T14:29:00.820Z | tags: html, css, webdev, javascript -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://plainvanillaweb.com/index.html">Plain Vanilla</a>
+          <div class="card-meta">12 May 2025</div>
+          <div class="card-meta card-domain">plainvanillaweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>An explainer for doing web development using only vanilla techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-09T15:07:00.019Z | tags: visualization, javascript, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://echarts.apache.org/en/index.html">Apache ECharts</a>
+          <div class="card-meta">9 Apr 2025</div>
+          <div class="card-meta card-domain">echarts.apache.org</div>
+        </div>
+        <div class="card-section">
+          <p>Apache ECharts, a powerful, interactive charting and visualization library for browser</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-11T15:19:42.000Z | tags: javascript, npm, packages, webdev, yarn -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdp1loumndlgnx799slw3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/darkxenium/npm-vs-yarn-what-should-you-use-for-managing-packages-in-react-2332">Npm vs Yarn: What Should you use for managing packages in React?</a>
+          <div class="card-meta">11 Feb 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Both npm (Node Package Manager) and Yarn are popular package managers for JavaScript projects,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-01T15:14:03.000Z | tags: animation, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5d8oan7nge7kgincwju6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/mohsenkamrani/animation-techniques-with-animejs-timing-easing-and-keyframes-4986">Animation Techniques with anime.js: Timing, Easing, and Keyframes</a>
+          <div class="card-meta">1 Jan 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Welcome to the second tutorial in this series on animating with anime.js! In the previous post,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-23T09:48:01.000Z | tags: html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2022-09/innerhtml-vs-innertext.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://builtin.com/software-engineering-perspectives/innerhtml-vs-innertext">InnerHTML vs. InnerText vs. TextContent: A Guide | Built In</a>
+          <div class="card-meta">23 Dec 2022</div>
+          <div class="card-meta card-domain">builtin.com</div>
+        </div>
+        <div class="card-section">
+          <p>InnerHTML, innerText and textContent can each help to manipulate JavaScript code, but they contain subtle differences. Here’s what to know</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-29T11:46:28.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz47ksdkja484hz9bfk5o.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/flatlogic/top-10-javascript-frameworks-to-use-in-2022-12dh">Top 10 JavaScript Frameworks to Use in 2022</a>
+          <div class="card-meta">29 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   Being a multi-paradigm language,  JavaScript  maintains programming styles...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-19T11:16:21.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwzuzxxsvxru3g8s2z8du.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/asyncbanana/10-ways-to-speed-up-javascript-loading-3lob">10 ways to speed up JavaScript loading</a>
+          <div class="card-meta">19 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In many modern websites, there is a lot of JavaScript. In fact, according to the HTTP Archive, the...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T11:31:18.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/6IQIdHrSu3CV10mjJS9a7o/04f0f8585fab5a5c7725f25b61383534/OG_Image__1_.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://vercel.com/blog/build-your-own-web-framework">Build Your Own Web Framework – Vercel</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">vercel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Build your own web framework that deploys to edge and serverless infrastructure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-27T19:01:00.000Z | tags: javascript, nodejs, webdev -->
+      <div class="card-image">
+        <img src="https://alexkondov.com/static/b6eddd8c6ec0677ad78e762842b40ad2/bc8e0/cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://alexkondov.com/tao-of-node">Tao of Node - Design, Architecture &amp; Best Practices | Alex Kondov - Softwar</a>
+          <div class="card-meta">27 Mar 2022</div>
+          <div class="card-meta card-domain">alexkondov.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the main benefits of JavaScript is that it runs both in the browser and the server. As an engineer you need to master a single language and your skills…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T21:04:35.000Z | tags: css, javascript, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://speckyboy.com/wp-content/uploads/2022/02/card-hover-effects-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://speckyboy.com/css-javascript-card-ui-hover-effects">8 CSS &amp; JavaScript Snippets for Creating Cool Card UI Hover Effects</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">speckyboy.com</div>
+        </div>
+        <div class="card-section">
+          <p>From bold transformations to simple highlights, we share some fantastic CSS &amp; JavaScript card UI hover effect snippets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:33:33.000Z | tags: command-line, javascript, npm, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://codylindley.com/techpro/2013_04_12__package-managers-an-introducto">2013 04 12 package managers an introducto</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">codylindley.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:16:29.000Z | tags: css, html, javascript, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08a226c5-5a9a-4bd2-bba7-dad7e74f69e9/adaptive-media-serving-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages">Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word) — Smashing Magazine</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s make 2021... fast! An annual front-end performance checklist, with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:33:12.000Z | tags: javascript, rubyonrails, webdev, webpacker -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6">Understanding Webpacker in Rails 6 | Road to Rails 6</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">prathamesh.tech</div>
+        </div>
+        <div class="card-section">
+          <p>Starting with Rails 6, Webpacker is the default JavaScript compiler. It means that all the JavaScript code will be handled by Webpacker instead of the old assets pipeline aka Sprockets. Webpacker is different from asset pipeline in terms of philosophy as well as implementation. In this blog post, we will</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:24.000Z | tags: css, design, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_small.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.com/books/front-end-handbook/2019">Front-end Developer Handbook 2019 - Learn the entire JavaScript, CSS and HTML development practice!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">frontendmasters.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:13.000Z | tags: css, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://frontendmasters.com/guides/front-end-handbook/2018/images/open-graph-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.com/books/front-end-handbook/2018">Front-End Developer Handbook 2018 - Learn the entire JavaScript, CSS and HTML development practice!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">frontendmasters.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:10:17.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://images.codecademy.com/social/logo-codecademy-social.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.codecademy.com/articles/glossary-javascript">JavaScript Glossary | Codecademy</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">codecademy.com</div>
+        </div>
+        <div class="card-section">
+          <p>Programming reference for JavaScript.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T20:45:58.000Z | tags: css, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8958284/og_image/optimized/Redesign-Gulp-Luke_Social-1f29a398649e31bc46da96790eec955e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/javascript/optimize-js-and-css-with-gulp">Gulp: A Web Developer&#39;s Secret Weapon for Maximizing Site Speed | Toptal®</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>When dealing with web-based projects that run in the production environment, being able to build and deploy changes quickly is a top priority. However, repetitive processes such as building front-end assets, when not automated, can be prone to critical errors.  In this article, Toptal Freelance Software Engineer A...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:50:23.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:972/1*WVtok3BV0NgU95mpxk9CNg.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec">How JavaScript works: memory management + how to handle 4 common memory leaks</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">blog.sessionstack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A few weeks ago we started a series aimed at digging deeper into JavaScript and how it actually works: we thought that by knowing the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-28T22:02:30.000Z | tags: animation, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3x3o3ruthg0umxuy3eb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/surajondev/5-useful-and-interesting-web-animation-libraries-4d6m">5 Useful and Interesting Web Animation Libraries</a>
+          <div class="card-meta">28 Nov 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   Libraries help us to code faster through their predefined classes for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-03T18:06:30.000Z | tags: css, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2gi37e5wk5hzq8fzlfi8.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/iamakanksha16/minification-of-css-and-javascript-31ng">Minification of CSS and JavaScript</a>
+          <div class="card-meta">3 Nov 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Minification is the process of deleting unneeded or redundant data from a resource without altering...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-03T01:40:22.000Z | tags: css, design, ecommerce, fonts-typography, javascript, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox">Improving The Performance Of An Online Store (Case Study)</a>
+          <div class="card-meta">3 Jun 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-16T13:37:43.000Z | tags: browsers, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://www.debugbear.com/public/blog/2020-chrome-extension-performance-report/chrome-extension-page-cpu-time.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.debugbear.com/blog/2020-chrome-extension-performance-report">2020 Chrome Extension Performance Report | DebugBear</a>
+          <div class="card-meta">16 Jun 2020</div>
+          <div class="card-meta card-domain">debugbear.com</div>
+        </div>
+        <div class="card-section">
+          <p>A look at how Chrome extensions affect CPU usage, page rendering, and browser memory consumption.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-31T13:52:03.000Z | tags: css, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://glossarytech.com/public/site/img/share.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://glossarytech.com/terms/front_end-technologies">Front-end technologies</a>
+          <div class="card-meta">31 Dec 2019</div>
+          <div class="card-meta card-domain">glossarytech.com</div>
+        </div>
+        <div class="card-section">
+          <p>The front-end is everything involved with what the user sees, including design and some languages like HTML and CSS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-02T01:14:25.000Z | tags: javascript, webdev -->
+      <div class="card-image">
+        <img src="https://zzz.dog/img/zdog-thumbnail.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://zzz.dog">Zdog · Round, flat, designer-friendly pseudo-3D engine for canvas and SVG</a>
+          <div class="card-meta">2 Jun 2019</div>
+          <div class="card-meta card-domain">zzz.dog</div>
+        </div>
+        <div class="card-section">
+          <p>Round, flat, designer-friendly pseudo-3D engine for canvas and SVG</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

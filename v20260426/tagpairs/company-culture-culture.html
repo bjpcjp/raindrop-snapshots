@@ -1,0 +1,590 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>company-culture + culture &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-10-26T12:36:07.629Z | tags: culture, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://cortex.persona.co/i/e99e3f408312551ffa939c8106895dd62e7130de552c36e642e7ed483895655a/school-of-athens-small.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nabeelqu.co/reflections-on-palantir">Nabeel S. Qureshi</a>
+          <div class="card-meta">26 Oct 2024</div>
+          <div class="card-meta card-domain">nabeelqu.co</div>
+        </div>
+        <div class="card-section">
+          <p>Personal writing and other things by Nabeel Qureshi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-12T19:18:42.000Z | tags: culture, onboarding, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2024/04/GettyImages-1415524036.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/build-your-culture-like-a-product-lessons-from-asanas-head-of-people">Build Your Culture Like a Product — Lessons from Asana’s Head of People</a>
+          <div class="card-meta">12 Apr 2024</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Anna Binder, Asana&#39;s Head of People and the company&#39;s first HR hire, shares her step-by-step approach to intentionally building the company culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-11T15:16:20.000Z | tags: china, culture, language-linguistics, company-culture -->
+      <div class="card-image">
+        <img src="https://149346090.v2.pressablecdn.com/wp-content/uploads/2023/02/GettyImages-476530382-1600x900.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://restofworld.org/2023/china-work-culture-phrases">9 viral phrases that explain China’s work culture</a>
+          <div class="card-meta">11 Feb 2023</div>
+          <div class="card-meta card-domain">restofworld.org</div>
+        </div>
+        <div class="card-section">
+          <p>From “lie flat” to “let it rot,” common terms have taken on new meaning in recent years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-04T19:37:15.000Z | tags: culture, finance, risk, company-culture -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/6183f875345f7f1ca179f09d/t/622cf68009d3280165db1067/1647113856068/Capture+Home+Page+Photo.jpg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.stories.finance/stories/bookstaber">Cultures Clash at Salomon Smith Barney — Stories.Finance</a>
+          <div class="card-meta">4 Feb 2023</div>
+          <div class="card-meta card-domain">stories.finance</div>
+        </div>
+        <div class="card-section">
+          <p>Richard Bookstaber was Salomon Brothers’ chief risk officer in 1997 when the firm was bought by Travelers and merged with Smith Barney, Travelers’ retail brokerage. He describes the resulting clash of cultures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-13T23:04:30.000Z | tags: best-practices, culture, gitlab, company-culture -->
+      <div class="card-image">
+        <img src="https://blog.boleary.dev/content/images/2022/12/IMG_8894.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.boleary.dev/what-i-learned-at-gitlab-that-i-dont-want-to-forget">What I learned at GitLab that I don&#39;t want to forget</a>
+          <div class="card-meta">13 Dec 2022</div>
+          <div class="card-meta card-domain">blog.boleary.dev</div>
+        </div>
+        <div class="card-section">
+          <p>After a little over 5 years, I&#39;m going to be leaving GitLab for my next adventure. It&#39;s no surprise to those of you who have been following me that I have absolutely loved my time there. I&#39;m so proud of what we built—and I&#39;m still proud and awed by</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-04T16:09:44.000Z | tags: culture, interviewing, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/charity.wtf/wp-content/uploads/2021/01/mepurp-15.jpg?resize=962%2C1200&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://charity.wtf/2022/01/29/how-can-you-tell-if-the-company-youre-interviewing-with-is-rotten-on-the-inside">How can you tell if the company you’re interviewing with is rotten on the inside?</a>
+          <div class="card-meta">4 Dec 2022</div>
+          <div class="card-meta card-domain">charity.wtf</div>
+        </div>
+        <div class="card-section">
+          <p>How can you tell the companies who are earnestly trying to improve apart from the ones who sound all polished and healthy from the outside, whilst rotting on the inside? This seems to be on a lot o…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-30T13:12:46.000Z | tags: culture, leadership, company-culture -->
+      <div class="card-image">
+        <img src="https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2022-01/broken-chair_0.jpg?h=e5a814fa&amp;itok=N2EHsDlw" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mitsloan.mit.edu/ideas-made-to-matter/does-your-company-suffer-broken-culture-syndrome?fbclid=IwAR3CuTB7_dI5d3OYKvbZ_GiHnHpfvwdo3lUHvVgRt3z-uLpktOhOA7rdNwA">Does your company suffer from broken culture syndrome? | MIT Sloan</a>
+          <div class="card-meta">30 Oct 2022</div>
+          <div class="card-meta card-domain">mitsloan.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Whether it’s caused by culture clash, cultural inertia, or total toxic collapse, broken culture syndrome can sink an organization. But there’s a way out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:14.000Z | tags: culture, onboarding, company-culture -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf">Valve handbook low res</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">valvesoftware.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:29:54.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/bd978bb536350a710e8efb012513429cabdc4c28700604261aeda246d0f980b7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@dunn/creating-culture-21a117803f80#.w3k35lg7b">Creating Culture</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Imperfect Recipe</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:29:26.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://hackernoon.imgix.net/fallback-feat.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hackernoon.com/psychological-safety-risk-tolerance-and-high-functioning-software-teams-75701ed23f68">Psychological Safety, Risk Tolerance and High Functioning Software Teams | HackerNoon</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">hackernoon.com</div>
+        </div>
+        <div class="card-section">
+          <p>A few years ago, Google decided to research what was the key ingredient that made some software teams at the company more successful than others. Much to their surprise the key trait that was most correlated with successful teams wasn’t technical prowess, personalities or the educational background of the team members. Instead it was the notion of psychological safety — “ a shared belief held by members of a team that the team is safe for interpersonal risk-taking.’’</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:51.000Z | tags: culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://joekinsella.me/content/images/2015/08/pm.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.hightechinthehub.com/2013/03/product-management-is-a-company-not-a-department">Product Management Is a Company, Not a Department</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">hightechinthehub.com</div>
+        </div>
+        <div class="card-section">
+          <p>Do you rely too heavily on product management to ensure your product is successful? Joe Kinsella explores the importance of everyone in a startup being in PM.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:47.000Z | tags: culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://openviewpartners.com/wp-content/uploads/2018/11/Product-Management.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://labs.openviewpartners.com/inner-workings-of-product-management-at-product-led-growth-companies#.XALyAp-YXPE">Inner Workings of Product Management at Product Led Growth Companies - OpenView</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">labs.openviewpartners.com</div>
+        </div>
+        <div class="card-section">
+          <p>Product is at the epicenter of everything a product led growth (PLG) company does. So how does the product organization and its PMs need to adapt? Find out here.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:05:54.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2015/03/MAR15_23_501822555.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2015/03/6-rules-for-building-and-scaling-company-culture">6 Rules for Building and Scaling Company Culture</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>For your business to survive, it needs character and purpose.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:54:34.000Z | tags: behaviors, culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2018/01/featured_art_photo-adapted-from-wikimedia-commons-littletinyfish-cc-by-sa-2-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ideas.ted.com/hello-my-name-is-andrew-and-i-cant-stop-disagreeing">Are you outspoken at work? How to use your voice – and not get fired</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">ideas.ted.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello, my name is Andrew, and I can’t stop disagreeing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-14T20:08:23.000Z | tags: culture, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://adamnash.blog/wp-content/uploads/2010/11/linkedin_rhinestones.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.adamnash.com/2010/11/29/why-t-shirts-matter">Why T-Shirts Matter</a>
+          <div class="card-meta">14 Jul 2022</div>
+          <div class="card-meta card-domain">blog.adamnash.com</div>
+        </div>
+        <div class="card-section">
+          <p>During my tenure at LinkedIn, I’ve held a wide variety of roles and responsibilities within the company.  Some are fairly public (as described on my LinkedIn profile).  Others are the the typ…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-06T01:20:45.000Z | tags: culture, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://www.mojotech.com/img/jpg/share/share.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.mojotech.com/startup-culture-is-not-about-ping-pong-tables">Startup Culture Is Not About Ping-Pong Tables</a>
+          <div class="card-meta">6 Jul 2022</div>
+          <div class="card-meta card-domain">blog.mojotech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Culture isn’t about whether you’re a startup or a Fortune 500 giant. It’s about values and mindset. It’s about how you approach the decisions you make.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:47:09.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://bridgewater.brightspotcdn.com/dims4/default/a58c0af/2147483647/strip/true/crop/2048x1075+0+292/resize/1200x630!/quality/90/?url=http%3A%2F%2Fbridgewater-brightspot.s3.us-east-1.amazonaws.com%2F64%2Fb7%2F443dcaff4b118a77059998e434a8%2Fssp-3351.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://inside.bwater.com/publications/principles_excerpt">Culture</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">inside.bwater.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our overriding objective is excellence. When we say excellence, we mean constant improvement. Our mission of understanding how the world’s markets and economies work requires an extraordinary team, defined by the best individuals and the best portfolio of people, operating in an idea meritocracy, where we are uncompromising on our shared values of truth, integrity, determination, humility, and courage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:40:18.000Z | tags: culture, inventions-innovation, company-culture -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2018/12/R1901C_CHON.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2019/01/the-hard-truth-about-innovative-cultures">The Hard Truth About Innovative Cultures</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Innovative cultures are generally depicted as pretty fun. They’re characterized by a tolerance for failure and a willingness to experiment. They’re seen as being psychologically safe, highly collaborative, and nonhierarchical. And research suggests that these behaviors translate into better innovative performance. But despite the fact that innovative cultures are desirable, and that most leaders claim to understand what they entail, they are hard to create and sustain. That’s because the easy-to-like behaviors that get so much attention are only one side of the coin. They must be counterbalanced by some tougher and frankly less fun behaviors: an intolerance for incompetence, rigorous discipline, brutal candor, a high level of individual accountability, and strong leadership. Unless the tensions created by this paradox are carefully managed, attempts to create an innovative culture will fail.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:31:03.000Z | tags: culture, management, company-culture -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2015/01/Ben-Horowitz-Good-Organizations.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2015/01/ben-horowitz-good-and-bad-organizations">The Difference Between Good And Bad Organizations</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;In a poor organization ... people spend much of their time fighting organizational boundaries, infighting, and broken processes.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T01:21:05.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/06/13/business/00kraken/00kraken-largeHorizontalJumbo.jpg?year=2022&amp;h=682&amp;w=1024&amp;s=564dc03be9172bab9a516eff786f029bcaf27e0b8920491eeab191c97efa3783&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/06/15/technology/kraken-crypto-culture.html">Inside Kraken’s Culture War Stoked by Its C.E.O.</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Jesse Powell, who leads the crypto exchange Kraken, has challenged the use of preferred pronouns, debated who can use racial slurs and called American women “brainwashed.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T13:25:19.000Z | tags: behaviors, culture, company-culture -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.thagomizer.com/blog/2017/09/29/we-don-t-do-that-here.html">We don t do that here</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">thagomizer.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-29T16:04:17.000Z | tags: career-jobs-work, culture, company-culture -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/1456d76557eeadbb081f7cbf9eaa8206eebd0cde/0_539_8081_4851/master/8081.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjIucG5n&amp;enable=upscale&amp;s=a1872d3b10eeff2ded9df60b3e4b0b08" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/world/2022/may/26/the-rise-of-bai-lan-why-chinas-frustrated-youth-are-ready-to-let-it-rot">The rise of ‘bai lan’: why China’s frustrated youth are ready to ‘let it rot’</a>
+          <div class="card-meta">29 May 2022</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Phrase bai lan gains popularity as severe competition and social expectations leave many young people despondent</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-06T21:28:30.000Z | tags: culture, gitlab, company-culture -->
+      <div class="card-image">
+        <img src="https://handbook.gitlab.com/featured-background.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://about.gitlab.com/handbook">The GitLab Handbook</a>
+          <div class="card-meta">6 May 2022</div>
+          <div class="card-meta card-domain">about.gitlab.com</div>
+        </div>
+        <div class="card-section">
+          <p>GitLab Handbook Company About GitLab Values Mission Vision Strategy Communication Culture TeamOps CEO Readme Office of the CEO Key Reviews Group Conversations E-Group Weekly Environmental, Social, and Governance Handbook About the Handbook Handbook Changelog Handbook Roadmap Handbook Escalation Handbook Usage Contribution Guide Editing the handbook Handbook Style Guide Handbook maintenance People Group Anti-Harassment Policy Global Volunteer Month Hiring Inclusion &amp; Diversity Labor and Employment Notices Leadership Learning &amp; Development Onboarding Offboarding Spending Company Money Talent Assessment Team Member Relations Philosophy Total Rewards Tools and Tips Engineering Customer Support Department Development Department Incubation Engineering Department Infrastructure Department Quality Department Security Practices Open Source Security Product Security Security Operations Threat Management Security Assurance Marketing Team Member Social Media Policy Blog Brand and Product Marketing Enterprise Data Integrated Marketing Sales Development Marketing Operations and Analytics Growth Developer Relations Corporate Communications Sales Alliances Commercial Customer Success Customer Success Management Reseller Channels Field Operations Reporting Solutions Architecture Finance Accounts Payable Accounts Receivable Business Technology Expenses Financial Planning &amp; Analysis Payroll Procurement Tax Board meetings Internal Audit Equity Compensation Product Release posts About the GitLab Product Being a Product Manager at GitLab Product Principles Product Processes Product sections, stages, groups, and categories Product Development Flow Product Development Timeline Data for Product Managers Product Pricing Model Corporate Development / Acquisitions UX Department Legal and Corporate Affairs Commercial Corporate Corporate Development Employment Environment, Social, and Governance (ESG) Operations Privacy Product Risk Management and Dispute Resolution Trade Compliance</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:31:14.000Z | tags: culture, management, company-culture -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.leadershipnow.com/leadingblog/2018/01/8_principles_for_building_a_hi.html">8 Principles for Building a High-Performance Culture | The Leading Blog: A Leadership Blog</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">leadershipnow.com</div>
+        </div>
+        <div class="card-section">
+          <p>Leadership Now is a leading source for leadership development and analysis. We believe that anyone can make a difference by leading from where they are.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T12:49:28.000Z | tags: culture, influence-persuasion, leadership, company-culture -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fvwxgsbutwuw5kumgp1za_2018-10-26-20mathilde-20collin-20--20brandon-20smith-20photo-20--2025.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/the-founders-guide-to-discipline-lessons-from-fronts-mathilde-collin">The Founder’s Guide to Discipline: Lessons from Front’s Mathilde Collin</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Front&#39;s CEO and co-founder Mathilde Collin shares why a founder’s discipline matters more than vision, unveiling her own best practices and templates for communication, time management, fundraising and team building.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-16T23:05:13.000Z | tags: culture, influence-persuasion, leadership, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2ffrqz6prtrqqllq8mdhju_6a0115714b7dbf970c01675f67f4e0970b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups">‘Give away your Legos’ and other commandments for scaling startups</a>
+          <div class="card-meta">16 Oct 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Molly Graham helped forge a work culture at Facebook that&#39;s withstood huge amounts of growth. Today, she&#39;s something of a rapid scaling expert. Here&#39;s the key to doing it right, she says.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-18T22:27:49.000Z | tags: behaviors, culture, motivation, company-culture -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fwww.nirandfar.com%2Fwp-content%2Fuploads%2F2019%2F11%2Fvintage_females_toxic_work_culture.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/this-is-how-to-repair-a-toxic-work-culture">This is How to Repair a Toxic Work Culture</a>
+          <div class="card-meta">18 Apr 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Feeling safe is the magic ingredient to a healthy work environment. In this article Nir discusses novel research on how to eliminate toxic work culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-10T20:10:58.000Z | tags: culture, interviewing, company-culture -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2021/04/p-1-0-questions-to-ask-in-a-job-interview-that-will-really-expose-a-companys-culture.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90622890/10-questions-to-ask-in-a-job-interview-that-will-really-expose-a-companys-culture">10 questions to ask in a job interview that will really expose a company&#39;s culture - Fast Company</a>
+          <div class="card-meta">10 Apr 2021</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Simple questions that can speak volumes about your prospective employer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-06T20:32:21.000Z | tags: behaviors, culture, company-culture -->
+      <div class="card-image">
+        <img src="https://ggsc.s3.us-west-2.amazonaws.com/assets/images/How_to_Build_a_Culture_of_Generosity_at_Work_-_abcdef_-_6ae5e3fef5842e26e7a607b6eac020e814a8fa43-fb_-_abcdef_-_404233a83e7afbefa1b01d740929d77eb1e16b58.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://greatergood.berkeley.edu/article/item/how_to_build_a_culture_of_generosity_at_work">How to Build a Culture of Generosity at Work</a>
+          <div class="card-meta">6 Mar 2021</div>
+          <div class="card-meta card-domain">greatergood.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Here are six practices to help your team ask for and give more help to each other.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-19T01:27:32.000Z | tags: culture, leadership, prodmgmt, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8d4f4834-b6f6-4e9d-a626-5ac59dd6ca11_1200x900.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://askgib.substack.com/p/what-leaders-over-your-product-career?r=159d3">What leader(s) over your product career truly changed how you approach prod</a>
+          <div class="card-meta">19 Feb 2021</div>
+          <div class="card-meta card-domain">askgib.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>I learned from bosses &amp; peers, including some famous peeps like Reed Hastings, Patty McCord, and Dan Rosensweig. But mainly I learned by doing, supercharged by feedback from many &quot;Friends of Gib.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-28T14:03:43.000Z | tags: behaviors, culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2018/01/featured_art_photo-adapted-from-wikimedia-commons-littletinyfish-cc-by-sa-2-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/are-you-outspoken-at-work-how-to-use-your-voice-and-not-get-fired">Are you outspoken at work? How to use your voice – and not get fired</a>
+          <div class="card-meta">28 Oct 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello, my name is Andrew, and I can’t stop disagreeing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-27T03:10:33.000Z | tags: culture, company-culture -->
+      <div class="card-image">
+        <img src="https://blog.pragmaticengineer.com/content/images/size/w1200/2020/04/developer_cluture.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.pragmaticengineer.com/the-developer-culture-test">A Software Engineering Culture Test</a>
+          <div class="card-meta">27 May 2020</div>
+          <div class="card-meta card-domain">blog.pragmaticengineer.com</div>
+        </div>
+        <div class="card-section">
+          <p>See a shorter, and updated version of this test here: The Pragmatic Engineer Test: 12 Questions on Engineering Culture [https://blog.pragmaticengineer.com/pragmatic-engineer-test/].  I&#39;ve talked with dozens of software developers about what they like and dislike about their workplace - team, and company - professionally. I&#39;m starting to see</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-04T13:55:54.000Z | tags: culture, leadership, management, company-culture -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://queue.acm.org/detail.cfm?id=3323993">How to Create a Great Team Culture (and Why It Matters) - ACM Queue</a>
+          <div class="card-meta">4 May 2019</div>
+          <div class="card-meta card-domain">queue.acm.org</div>
+        </div>
+        <div class="card-section">
+          <p>As leader of the team, you have significant influence over your team</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-28T21:39:56.000Z | tags: culture, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*unla8RLo0_q0Gc59Y06hLQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4">Don’t Fuck Up the Culture</a>
+          <div class="card-meta">28 Sep 2018</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>On Monday, October 21, 2013, I sent this letter to our entire team at Airbnb. I have decided to publish this in the event it is helpful to entrepreneurs building their cultures. Our next team meeting…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2012-10-24T00:00:00.000Z | tags: art, culture, company-culture -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8a38968-c527-41a4-b793-dfa29884c9dd_1610x906.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wisdomofcrowds.live/p/no-culture-is-not-stuck">No Culture is Not Stuck</a>
+          <div class="card-meta">24 Oct 2012</div>
+          <div class="card-meta card-domain">wisdomofcrowds.live</div>
+        </div>
+        <div class="card-section">
+          <p>You just can&#39;t see what it&#39;s become.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,224 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>animation + css &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-17T12:22:51.119Z | tags: fonts-typography, svg, css, animation -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/smashing-animations-part-7-recreating-toon-text-css-svg/smashing-animations-part-7-recreating-toon-text-css-svg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2025/12/smashing-animations-part-7-recreating-toon-text-css-svg/">Smashing Animations Part 7: Recreating Toon Text With CSS And SVG — Smashing Magazine</a>
+          <div class="card-meta">17 Dec 2025</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, pioneering author and web designer [Andy Clarke](https://stuffandnonsense.co.uk) shows his techniques for creating [Toon Text titles](https://stuffandnonsense.co.uk/toon-text/index.html) using modern CSS and SVG.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-06T19:57:34.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1i7nf3hnd9snmakn2ikt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/mohiyaddeen7/tansforms-transitions-and-animations-elevating-user-experiences-with-css-transitions-and-animations-364j">Tansforms, Transitions and Animations : Elevating User Experiences with CSS</a>
+          <div class="card-meta">6 Aug 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In the ever-evolving landscape of web development, creating captivating user experiences is a...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-05T10:49:48.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F77fnz5sy2pspcu0rx7ed.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/meganad60/a-beginners-guide-understanding-css-animation-29l2">A Beginner&#39;s Guide: Understanding CSS Animation</a>
+          <div class="card-meta">5 Aug 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   Cascading Style Sheet (CSS) is a style sheet language that&#39;s used to design,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-03T12:11:12.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fypmh5m8ici0z7akd8etb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/democode7451/best-css-animation-on-internet-1hd8">Best CSS Animation on internet</a>
+          <div class="card-meta">3 Aug 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>1. Animated Background with SVG in CSS   Output     Source Code                   2. CSS...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T00:35:57.000Z | tags: animation, css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjke3pjch7h8ztosyivha.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/cruip_com/how-to-create-a-beautiful-particle-animation-with-html-canvas-n22">How to Create a Beautiful Particle Animation with HTML Canvas</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Live Demo / Download   --  In this tutorial, we will utilize the power of HTML canvas to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-23T00:54:52.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdyrff30x91kz6c9ikfap.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/coderpad/top-10-css-animation-libraries-656">Top 10 CSS Animation Libraries</a>
+          <div class="card-meta">23 Feb 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>For the longest time, developers were limited to Flash players and gifs when they wanted to display...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-28T20:14:56.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:480/1*YMIFMQyYdSkmGAus_VZiPw.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8">A Guide to CSS Animation — Part 1 | by Jhey Tompkins | codeburst</a>
+          <div class="card-meta">28 Oct 2022</div>
+          <div class="card-meta card-domain">codeburst.io</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s get things moving! 🎞</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:30:36.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/1*aMOZ578-yNodBhdisfYGWQ.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.prototypr.io/this-aint-disney-a-practical-guide-to-css-transitions-and-animations-a8b87e7c5531">This Ain’t Disney: A practical guide to CSS transitions and animations</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">blog.prototypr.io</div>
+        </div>
+        <div class="card-section">
+          <p>Oh, animation… we want to get it right so badly, don’t we? I mean, does anybody really enjoys a stiff, snappy UI? Can anyone admit they’re…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-11T13:31:15.000Z | tags: animation, css, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fabhirajb.hashnode.dev%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fcdn.hashnode.com%252Fres%252Fhashnode%252Fimage%252Fupload%252Fv1639383518099%252FBACUfGiihi.png%253Fw%253D1600%2526h%253D840%2526fit%253Dcrop%2526crop%253Dentropy%2526auto%253Dcompress%252Cformat%2526format%253Dwebp%26w%3D1920%26q%3D75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/visualway/15-awesome-css-animation-libraries-you-need-to-know-13db">15 awesome CSS animation libraries you need to know.</a>
+          <div class="card-meta">11 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Transitions from one CSS style configuration to another can be animated using CSS animations. A style...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-24T23:09:48.000Z | tags: animation, css, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqvr35igwwbylvg0b0vgu.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/kiranrajvjd/30-awesome-css-animation-resources-h9c">30 ? Awesome CSS Animation Resources</a>
+          <div class="card-meta">24 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Here is the list of awesome CSS animation resources that will help you to animate components quickly...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-26T20:21:08.000Z | tags: animation, css -->
+      <div class="card-image">
+        <img src="https://www.joshwcomeau.com/images/og-css-transitions.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.joshwcomeau.com/animation/css-transitions">CSS transitions and hover animations, an interactive guide</a>
+          <div class="card-meta">26 Feb 2021</div>
+          <div class="card-meta card-domain">joshwcomeau.com</div>
+        </div>
+        <div class="card-section">
+          <p>This comprehensive guide shows how to use CSS transitions! A back-to-basics look at the fundamental building blocks we need to create microinteractions and other animations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

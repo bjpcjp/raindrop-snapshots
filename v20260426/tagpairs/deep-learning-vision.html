@@ -1,0 +1,773 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + vision &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-02-11T22:49:59.398Z | tags: autonomous-driving, vision, object-detection, deep-learning, benchmarks -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2025/08/AdobeStock_577940357-road-scaled.jpeg?fit=2560%2C1440&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/autonomous-driving-assessment-of-yolo-algorithms-rmit-et-al/">Autonomous Driving: Assessment Of YOLO Algorithms (RMIT et al.)</a>
+          <div class="card-meta">11 Feb 2026</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “Advances in You Only Look Once (YOLO) algorithms for lane and object detection in autonomous vehicles” was published by RMIT University, Kyungpook National University, Deakin University and the RCA Robotics Laboratory, Royal College of Art. Abstract “Ensuring the safety and efficiency of Autonomous Vehicles (AVs) necessitates highly accurate perception, especially... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:20:52.000Z | tags: deep-learning, entity-resolution, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*xhdkyR60zzjh2AGn" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/practical-guide-to-entity-resolution-part-2-ab6e42572405?source=rss----7f60cf5620c9---4">Favorites</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Source normalization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:20:51.000Z | tags: deep-learning, entity-resolution, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*DIy4DcgKrMCLTqVi" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/practical-guide-to-entity-resolution-part-4-299ac89b9415?source=rss----7f60cf5620c9---4">All Personal Feeds</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Candidate pair generation and initial match scoring</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:20:49.000Z | tags: deep-learning, entity-resolution, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*0qWXV_wUH8mA_S8n" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/practical-guide-to-entity-resolution-part-5-5ecdd0005470?source=rss----7f60cf5620c9---4">Practical Guide to Entity Resolution — part 5</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Match scoring iteration</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T01:28:10.000Z | tags: deep-learning, pytorch, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:600/1*J_ZxnuUMcCQt_fxoG4ffOQ.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/semantic-hand-segmentation-using-pytorch-3e7a0a0386fa?source=rss----7f60cf5620c9---4">Semantic hand segmentation using Pytorch</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Semantic segmentation is the task of predicting the class of each pixel in an image. This problem is more difficult than object detection…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T03:13:03.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*9jTB1MbpJfvX_OYEvMefuw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo-dad8e40f7109?source=rss----7f60cf5620c9---4">YOLO v4 or YOLO v5 or PP-YOLO? Which should I use?</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What are these new YOLO releases in 2020? How do they differ? Which one should I use?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T03:10:14.000Z | tags: deep-learning, machine-learning, vision -->
+      <div class="card-image">
+        <img src="https://www.sciencedaily.com/images/scidaily-icon.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sciencedaily.com/releases/2020/08/200813103114.htm">AI system for high precision recognition of hand gestures</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">sciencedaily.com</div>
+        </div>
+        <div class="card-section">
+          <p>Scientists have developed an Artificial Intelligence (AI) system that recognises hand gestures by combining skin-like electronics with computer vision.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:00:16.000Z | tags: deep-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2020/09/computer-vision-recipes-best-practices-examples.html">Computer Vision Recipes: Best Practices and Examples</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is an overview of a great computer vision resource from Microsoft, which demonstrates best practices and implementation guidelines for a variety of tasks and scenarios.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:50:55.000Z | tags: deep-learning, object-detection, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:876/1*idFzREuCIvlnizQWkwC-2g.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/yolo-v5-object-detection-tutorial-2e607b9013ef?source=rss----7f60cf5620c9---4">Yolo v5 Object Detection Tutorial</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to set up and train a Yolo v5 Object Detection model?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:39:20.000Z | tags: deep-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://info.cloudfactory.com/image-annotation-for-computer-vision">Image Annotation for Computer Vision | CloudFactory</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">info.cloudfactory.com</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning is often fueled by image data. In this guide, learn the basics about image annotation, common techniques, and key workforce considerations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:35:22.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/multiclass_image_classification_pytorch/main.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2020/06/06/multiclass_image_classification_pytorch">End to End Pipeline for setting up Multiclass Image Classification for Data Scientists - MLWhiz</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, we’ll create an end to end pipeline for image multiclass classification using Pytorch.This will include training the model, putting the model’s results in a form that can be shown to business partners, and functions to help deploy the model easily. As an added feature we will look at Test Time Augmentation using Pytorch also.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:52:36.000Z | tags: clustering, deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*RARg2hIOV2DCGO-h" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-cluster-images-based-on-visual-similarity-cd6e7209fe34?source=rss----7f60cf5620c9---4">How to cluster images based on visual similarity</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use a pre-trained neural network for feature extraction and cluster images using K-means.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:50:29.000Z | tags: deep-learning, object-detection, vision -->
+      <div class="card-image">
+        <img src="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/1200x627_NoCaps_WithLogo_Still.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.microsoft.com/en-us/research/blog/novel-object-captioning-surpasses-human-performance-on-benchmarks">Novel object captioning surpasses human performance on benchmarks</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Visual vocabulary advances novel object captioning by breaking free of paired sentence-image training data in vision and language pretraining. Discover how this method helps set new state of the art on the nocaps benchmark and bests CIDEr scores of humans.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:48:59.000Z | tags: deep-learning, deepfakes, vision -->
+      <div class="card-image">
+        <img src="https://d.newsweek.com/en/full/1653142/tesla-model-x-electric-car-dashboard.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newsweek.com/hacked-billboards-can-make-teslas-see-phantom-objects-1539478">Hacked Billboards can Make Teslas See &#39;Phantom Objects&#39; and Cause Havoc</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">newsweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tesla&#39;s Autopilot system relies on vision rather than LIDAR, which means it can be tricked by messages on billboards and projections created by hackers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-31T23:33:30.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://embracethered.com/blog/images/2020/ml-attack-series.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://embracethered.com/blog/posts/2020/husky-ai-image-rescaling-attacks">Machine Learning Attack Series: Image Scaling Attacks · wunderwuzzi blog</a>
+          <div class="card-meta">31 Oct 2020</div>
+          <div class="card-meta card-domain">embracethered.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-09-02T10:36:00.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*hJSg0vEbU2MRs4a9UPOsKg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/oil-storage-tanks-volume-occupancy-on-satellite-imagery-using-yolov3-3cf251362d9d?source=rss----7f60cf5620c9---4">Oil Storage Tank’s Volume Occupancy On Satellite Imagery Using YoloV3</a>
+          <div class="card-meta">2 Sep 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Recognition of Oil Storage Tanks in satellite images using the Yolov3 object detection model from scratch using Tensorflow 2.x and…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-09-02T01:46:48.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_ssXB-7gYmIwif0mxjncYg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/new-approaches-to-object-detection-f5cbc925e00e?source=rss----7f60cf5620c9---4">New Approaches to Object Detection</a>
+          <div class="card-meta">2 Sep 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A brief introduction to CenterNet (Objects as Points), TTFNet and their implementation in TensorFlow 2.2+.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:31:49.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2019/07/AI_Textures_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701">Where We See Shapes, AI Sees Textures | Quanta Magazine</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>To researchers’ surprise, deep learning vision algorithms often fail at classifying images because they mostly take cues from textures, not shapes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-24T17:42:51.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://blog.roboflow.com/content/images/2020/06/ezgif.com-video-to-gif--3--1.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.roboflow.ai/yolov5-is-here">YOLOv5 is Here: State-of-the-Art Object Detection at 140 FPS</a>
+          <div class="card-meta">24 Jun 2020</div>
+          <div class="card-meta card-domain">blog.roboflow.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Less than 50 days after the release YOLOv4, YOLOv5 improves accessibility for realtime object detection.  June 29, YOLOv5 has released the first official version of the repository. We wrote a new deep dive on YOLOv5.  June 12, 8:08 AM CDT Update: In response to to community feedback, we have</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-24T17:40:54.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*jNwS-HWYMQqfnhkFBVf8ng.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/image-augmentation-mastering-15-techniques-and-useful-functions-with-python-codes-44c3f8c1ea1f?source=rss----7f60cf5620c9---4">Image Augmentation Mastering: 15 Techniques and Useful Functions with Pyth</a>
+          <div class="card-meta">24 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Smooth python codes to augment your image datasets by yourself.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-17T18:30:26.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://distill.pub/2020/circuits/curve-detectors/thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://distill.pub/2020/circuits/curve-detectors">Curve Detectors</a>
+          <div class="card-meta">17 Jun 2020</div>
+          <div class="card-meta card-domain">distill.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Part one of a three part deep dive into the curve neuron family.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: deep-learning, object-detection, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1136/0*jkbdj4syiIqFGvaR.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/data-augmentation-in-yolov4-c16bd22b2617?source=rss----7f60cf5620c9---4">Data Augmentation in YOLOv4</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>State of the art modeling with image data augmentation and management</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1000/1*7JZFg4utLSm5qSXxDs-hnA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/virtual-background-in-webcam-with-body-segmentation-technique-fc8106ca3038?source=rss----7f60cf5620c9---4">Virtual Background in Webcam with Body Segmentation Technique</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Webcam background change is not limited to Zoom now, I just did it in the browser with tensorflow.js body-pix model</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:41.000Z | tags: deep-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/classification-of-brain-mri-as-tumor-non-tumor-4409ba2293b5?source=rss----7f60cf5620c9---4">Classification of Brain MRI as Tumor/Non Tumor</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:41.000Z | tags: deep-learning, images, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:800/1*9cLgTN_qKJusj54j2VbJrg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/image-segmentation-with-six-lines-0f-code-acb870a462e8?source=rss----7f60cf5620c9---4">Image Segmentation With 5 Lines 0f Code</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Computer vision is evolving on a daily basis. Popular computer vision techniques such as image classification and object detection have been used extensively to solve a lot of computer vision…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T21:01:23.000Z | tags: algorithms-math, deep-learning, machine-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ruxbWPSbcz4vMsMs" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-associative-embedding-1b22677751f3?source=rss----7f60cf5620c9---4">Understanding Associative Embedding</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An elegant method to group predictions without labeling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:27:29.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*taqoyoo-5DlTvktWYM21tQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/master-the-coco-dataset-for-semantic-image-segmentation-part-1-of-2-732712631047?source=rss----7f60cf5620c9---4">Master the COCO Dataset for Semantic Image Segmentation</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore and manipulate the COCO image dataset for Semantic Image Segmentation with PyCoco, Tensorflow Keras Python libraries</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:27:15.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*hki1s4QtFbvYmQV_TrvWAQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/master-the-coco-dataset-for-semantic-image-segmentation-part-2-of-2-c0d1f593096a?source=rss----7f60cf5620c9---4">Master the COCO Dataset for Semantic Image Segmentation</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create a data generator and train your model on the COCO image dataset for Semantic Image Segmentation with PyCoco, Tensorflow Keras py</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-17T10:45:58.000Z | tags: deep-learning, public-policy, vision -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/03/adversarial-fashion-shoot.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/features/2020/04/some-shirts-hide-you-from-cameras-but-will-anyone-wear-them">Some shirts hide you from cameras—but will anyone wear them?</a>
+          <div class="card-meta">17 Apr 2020</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s theoretically possible to become invisible to cameras. But can it catch on?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:17:56.000Z | tags: deep-learning, object-detection, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*pOBd3QvpLL88gurjZ8g_GQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/object-detection-using-yolov3-and-opencv-19ee0792a420?source=rss----7f60cf5620c9---4">Object Detection using YoloV3 and OpenCV</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Introduction to Object Detection with YoloV3 for beginners</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:17:33.000Z | tags: deep-learning, labeling, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WE9PltBhSfl_gRPhOhyiUQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/image-data-labelling-and-annotation-everything-you-need-to-know-86ede6c684b1?source=rss----7f60cf5620c9---4">Image Data Labelling and Annotation — Everything you need to know</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about different types of annotations, annotation formats and annotation tools</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:17:15.000Z | tags: deep-learning, object-detection, opencv, vision -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/70daba099aef3b5ce2b93ea9b088916f6bf83ede6cb30c5f154414ab5aa19927/nandinib1999/object-detection-yolo-opencv" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/nandinib1999/object-detection-yolo-opencv">nandinib1999/object-detection-yolo-opencv: Object Detection using Yolo V3 and OpenCV</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Object Detection using Yolo V3 and OpenCV  .</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:12:37.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/34365ebc1836cf667739d66293970781779cd29a766459375dfe58923d77efc4/natanielruiz/disrupting-deepfakes" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/natanielruiz/disrupting-deepfakes">Disrupting Deepfakes: Adversarial Attacks on Image Translation Networks (Co</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>🔥🔥Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks - natanielruiz/disrupting-deepfakes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:11:35.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*JpjypdslhZHdb0-b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/building-an-image-taking-interface-application-for-your-image-recognition-model-973b121cc9d9?source=rss----7f60cf5620c9---4">Building an Image-Taking Interface Application for Your Image Recognition M</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore the Real-World Applications of Your Model</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:11:08.000Z | tags: deep-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2020/03/brain-tumor-detection-mask-r-cnn.html">Brain Tumor Detection using Mask R-CNN</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Mask R-CNN has been the new state of the art in terms of instance segmentation. Here I want to share some simple understanding of it to give you a first look and then we can move ahead and build our model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/gweb-research2023-media/images/6a35b7bedab8f162663b4746432484a9-i.width-800.format-jpeg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://ai.googleblog.com/2020/02/learning-to-see-transparent-objects.html">Learning to See Transparent Objects</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">ai.googleblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Posted by Shreeyak Sajjan, Research Engineer, Synthesis AI and Andy Zeng, Research Scientist, Robotics at Google   Optical 3D range sensors, like R...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:10:51.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://share.redd.it/preview/post/ehv5r6" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/learnmachinelearning/comments/ehv5r6/dive_really_deep_into_yolo_v3_a_beginners_guide">Dive Really Deep into YOLO v3: A Beginner’s Guide</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>443K subscribers in the learnmachinelearning community. A subreddit dedicated to learning machine learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:04:25.000Z | tags: deep-learning, text, vision -->
+      <div class="card-image">
+        <img src="https://nanonets.com/blog/content/images/size/w1200/2018/11/droneheroimage-2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nanonets.com/blog/table-extraction-deep-learning">Table Detection and Extraction Using Deep Learning</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">nanonets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extract table from image with Nanonets table detection OCR. Learn OCR table Deep Learning methods to detect tables in images or PDF documents.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-24T17:30:00.000Z | tags: deep-learning, mobile, vision -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2019/10/tinymachinevision-01-01-13.png?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/f/614551/ai-computer-vision-algorithms-on-your-phone-mit-ibm">Powerful computer vision algorithms are now small enough to run on your phone</a>
+          <div class="card-meta">24 Nov 2019</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers have shrunk state-of-the-art computer vision models to run on low-power devices. Growing pains: Visual recognition is deep learning’s strongest skill. Computer vision algorithms are analyzing medical images, enabling self-driving cars, and powering face recognition. But training models to recognize actions in videos has grown increasingly expensive. This has fueled concerns about the technology’s carbon…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T02:17:37.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://pyimagesearch.com/wp-content/uploads/2019/06/keras_mask_rcnn_featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn?fbclid=IwAR2rlxdNju0U5dTkZepqTZKoM8CxPY_RWIjbpF11nxIyZGx07wsCcEXNIpo&amp;fbid_ad=6113968907246&amp;fbid_adset=6113968904446&amp;fbid_campaign=6113968903246">Keras Mask R-CNN - PyImageSearch</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">pyimagesearch.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial you will learn how to use Keras, Mask R-CNN, and Deep Learning for instance segmentation (both with and without a GPU).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:48:54.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:726/1*_-Gxkq3Uj804Nc6Wu1DBdA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@jiwon.jeong/computer-vision-for-beginners-part-4-64a8d9856208?source=rss------artificial_intelligence-5">Computer Vision for Beginners: Part 4</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Contour detection and having a little bit of fun</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:06:28.000Z | tags: deep-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pjreddie.com/darknet/yolo">YOLO: Real-Time Object Detection</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">pjreddie.com</div>
+        </div>
+        <div class="card-section">
+          <p>You only look once (YOLO) is a state-of-the-art, real-time object detection system.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:41:12.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/06462b8f886bf21aef97e5271a0f78d25dd179226c7577b963d5d21d8ba35e69/LouieYang/deep-photo-styletransfer-tf" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/LouieYang/deep-photo-styletransfer-tf">LouieYang/deep-photo-styletransfer-tf: Tensorflow (Python API) implementati</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tensorflow (Python API) implementation of Deep Photo Style Transfer - LouieYang/deep-photo-styletransfer-tf</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:40:30.000Z | tags: deep-learning, image-generation, vision -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/E2UU4A-zCZ9b_oZyE_xQIeAZpDbjpcmw99-QVYVXs81UpJKnBzTo4O81rWapIqIfOAr39WSFMo336ekSH4_Z25BHiDamvwtQEKlSteg260fZhCwJ=w1200-h630-n-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://deepmind.com/blog/learning-to-generate-images">Learning to write programs that generate images</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">deepmind.com</div>
+        </div>
+        <div class="card-section">
+          <p>Through a human’s eyes, the world is much more than just the images reflected in our corneas. For example, when we look at a building and admire the intricacies of its design, we can appreciate...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-12T19:24:36.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/topics/computer-vision">Topic: computer-vision</a>
+          <div class="card-meta">12 May 2018</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-02-02T18:08:51.000Z | tags: deep-learning, vision -->
+      <div class="card-image">
+        <img src="https://deepsense.ai/wp-content/uploads/2019/02/region-of-interest-pooling-explained.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.deepsense.ai/region-of-interest-pooling-explained">Region of interest pooling explained</a>
+          <div class="card-meta">2 Feb 2018</div>
+          <div class="card-meta card-domain">blog.deepsense.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Dive into our detailed explanation of what is Region of Interest (RoI) Pooling in deep learning. Enhance your skills. Discover more now!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-08T23:49:00.000Z | tags: deep-learning, ecommerce, machine-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://technology.condenast.com/story/handbag-brand-and-color-detection">Machine Learning: Handbag Brand and Color Detection using Deep Neural Netwo</a>
+          <div class="card-meta">8 Nov 2017</div>
+          <div class="card-meta card-domain">technology.condenast.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

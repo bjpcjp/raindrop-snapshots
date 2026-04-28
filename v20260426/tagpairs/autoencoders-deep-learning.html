@@ -1,0 +1,234 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>autoencoders + deep-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-08-10T15:50:40.000Z | tags: autoencoders, deep-learning, generative, pytorch -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:640/1*IB22-8qoNpIITYqKA034lQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/variational-autoencoder-vae-with-discrete-distribution-using-gumbel-softmax-b3f749b3417e?source=rss----7f60cf5620c9---4">Variational Autoencoder (VAE) with Discrete Distribution using Gumbel Softm</a>
+          <div class="card-meta">10 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Theory and PyTorch Implementation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T17:33:28.000Z | tags: autoencoders, deep-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*1Sd8PSZCmbPTizb8" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/towards-data-science/hands-on-generative-ai-with-gans-using-python-autoencoders-c77232b402fc">Hands-on Generative AI with GANs using Python: Autoencoders</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Start with Autoencoders to better understand GANs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-17T14:41:19.000Z | tags: autoencoders, deep-learning, variational -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*M_N58YhhzOwbzxJz" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uncovering-anomalies-with-variational-autoencoders-vae-a-deep-dive-into-the-world-of-1b2bce47e2e9?source=rss----7f60cf5620c9---4">Uncovering Anomalies with Variational Autoencoders (VAE): A Deep Dive into</a>
+          <div class="card-meta">17 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An example use case of using Variational Autoencoders (VAE) to detect anomalies in all types of data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-13T14:08:29.000Z | tags: autoencoders, compression-encoding, deep-learning, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*mQbE21i6fsfqpU3L" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/improving-vector-quantization-in-vector-quantized-variational-autoencoders-vq-vae-915f5814b5ce">NSVQ: Improved Vector Quantization technique for Neural Networks Training</a>
+          <div class="card-meta">13 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Efficient vector quantization for machine learning optimizations (eps. vector quantized variational autoencoders), better than straight…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-04T15:27:21.000Z | tags: autoencoders, deep-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:940/1*1-gz-jCEEnE4XALIUUKVEQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/sparse-autoencoder-neural-networks-how-to-utilise-sparsity-for-robust-information-encoding-6aa9ff542bc9">Sparse Autoencoder Neural Networks — How to Utilise Sparsity for Robust Inf</a>
+          <div class="card-meta">4 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comparison between Undercomplete and Sparse AE with a detailed Python example</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-02T23:53:06.000Z | tags: autoencoders, deep-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*JgMGbqdPXCpDjfbQWzyAzQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/Mv5y1iN5Tob">Autoencoders (AE) — A Smart Way to Process Your Data Using Unsupervised Neural Networks</a>
+          <div class="card-meta">2 Apr 2022</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is an Autoencoder, and how to build one in Python?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-15T22:26:54.000Z | tags: autoencoders, deep-learning, gans -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*2n7b1cjwcLzLS12dVf_HuA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/autoencoders-from-vanilla-to-variational-6f5bb5537e4a?source=rss----7f60cf5620c9---4">Autoencoders: From Vanilla to Variational</a>
+          <div class="card-meta">15 Mar 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Because GANs are not all you need</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T23:10:45.000Z | tags: autoencoders, deep-learning -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/89253020/f05d4100-6839-11eb-8595-9c797a965b17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb">scikit-and-tensorflow-workbooks/ch15-autoencoders.ipynb at master · bjpcjp/scikit-and-tensorflow-workbooks</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>based on &quot;Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow&quot; (O&#39;Reilly, Aurelien Geron) - bjpcjp/scikit-and-tensorflow-workbooks</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-03T23:15:52.000Z | tags: autoencoders, deep-learning, variational -->
+      <div class="card-image">
+        <img src="https://duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://duckduckgo.com/?ia=web&amp;q=variational+autoencoders&amp;t=canonical">variational autoencoders at DuckDuckGo</a>
+          <div class="card-meta">3 Jul 2021</div>
+          <div class="card-meta card-domain">duckduckgo.com</div>
+        </div>
+        <div class="card-section">
+          <p>DuckDuckGo. Privacy, Simplified.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-03T14:39:08.000Z | tags: autoencoders, deep-learning, pytorch -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*eFzoUZatvbK4m3zK" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/beginner-guide-to-variational-autoencoders-vae-with-pytorch-lightning-part-2-6b79ad697c79?source=rss----7f60cf5620c9---4">Beginner guide to Variational Autoencoders (VAE) with PyTorch Lightning (Part 2)</a>
+          <div class="card-meta">3 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog post is part of a mini-series that talks about the different aspects of building a PyTorch Deep Learning project using Variational Autoencoders. In Part 1, we looked at the variational…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-25T08:46:27.000Z | tags: autoencoders, deep-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/curious-about-variational-autoencoders-vaes-start-here-ab212fc2dd54?source=rss----7f60cf5620c9---4">Curious about Variational Autoencoders (VAEs)? Start Here.</a>
+          <div class="card-meta">25 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In recent years, GANs (generative adversarial networks) have been all the rage in the field of deep-learning generative models, leaving…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-14T20:34:47.000Z | tags: autoencoders, deep-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/11/all-about-autoencoders.html">Neural Networks 201: All About Autoencoders</a>
+          <div class="card-meta">14 Dec 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Autoencoders can be a very powerful tool for leveraging unlabeled data to solve a variety of problems, such as learning a &quot;feature extractor&quot; that helps build powerful classifiers, finding anomalies, or doing a Missing Value Imputation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

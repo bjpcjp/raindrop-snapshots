@@ -1,0 +1,276 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + gpus &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-07-24T01:05:27.000Z | tags: algorithms-math, benchmarks, cpus, deep-learning, gpus -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/li_calculate_computational_efficiency_deep_learning_models_flops_macs_2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/06/calculate-computational-efficiency-deep-learning-models-flops-macs.html">Calculate Computational Efficiency of Deep Learning Models with FLOPs and M</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article we will learn about its definition, differences and how to calculate FLOPs and MACs using Python packages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-02T00:01:45.000Z | tags: cpus, deep-learning, gpus, llms, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/an-intel-xeon-processor-on-a-black-backdrop-the-processor-is-shown-from-both-above-and-below-displaying-the-thousands-of-conta.jpg?id=33743986&amp;width=1200&amp;height=600&amp;coordinates=0%2C698%2C0%2C698" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-cpu">The Case for Running AI on CPUs Isn’t Dead Yet</a>
+          <div class="card-meta">2 Jun 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>GPUs may dominate, but CPUs could be perfect for smaller AI models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T21:50:56.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://timdettmers.com/wp-content/uploads/2023/01/GPUs_Ada_performance_per_dollar6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://timdettmers.com/2023/01/16/which-gpu-for-deep-learning">Hacker News</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">timdettmers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here, I provide an in-depth analysis of GPUs for deep learning/machine learning and explain what is the best GPU for your use-case and budget.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:21:43.000Z | tags: deep-learning, gpus, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2015/11/TeslaGPU2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/03/14/3d-stacking-boost-gpu-machine-learning">3D Stacking Could Boost GPU Machine Learning</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia has staked its growth in the datacenter on machine learning. Over the past few years, the company has rolled out features in its GPUs aimed neural</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T19:54:44.000Z | tags: cpus, deep-learning, fpgas, gpus, tpu -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=25937">Analysis and Comparison of Performance and Power Consumption of Neural Netw</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>In this work, we analyze the performance of neural networks on a variety of heterogenous platforms. We strive to find the best platform in terms of raw benchmark performance, performance per watt a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:49:29.000Z | tags: deep-learning, gpus -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=19047">Survey paper on Deep Learning on GPUs</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>The rise of deep-learning (DL) has been fuelled by the improvements in accelerators. GPU continues to remain the most widely used accelerator for DL applications. We present a survey of architectur…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:42:36.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e">https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">blog.riseml.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:45:19.000Z | tags: deep-learning, gpus -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://research.baidu.com/bringing-hpc-techniques-deep-learning">http://research.baidu.com/bringing-hpc-techniques-deep-learning/</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">research.baidu.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T15:59:46.000Z | tags: deep-learning, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2018/04/baidu_front.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/25/a-look-at-baidus-industrial-scale-gpu-training-architecture">A Look at Baidu’s Industrial-Scale GPU Training Architecture</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Like its U.S. counterpart, Google, Baidu has made significant investments to build robust, large-scale systems to support global advertising programs. As</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-24T17:55:05.000Z | tags: deep-learning, gpus, linear-algebra, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/02/ab_quantum_general.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/24/what-happens-when-multiplication-no-longer-defines-ai-accelerators">What Happens When Multipliers No Longer Define AI Accelerators?</a>
+          <div class="card-meta">24 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Current custom AI hardware devices are built around super-efficient, high performance matrix multiplication. This category of accelerators includes the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-09T01:41:08.000Z | tags: cpus, deep-learning, gpus, machine-learning -->
+      <div class="card-image">
+        <img src="https://scx2.b-cdn.net/gfx/news/2021/riceintelopt.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html">CPU-based algorithm trains deep neural nets up to 15 times faster than top</a>
+          <div class="card-meta">9 Apr 2021</div>
+          <div class="card-meta card-domain">techxplore.com</div>
+        </div>
+        <div class="card-section">
+          <p>Rice University computer scientists have demonstrated artificial intelligence (AI) software that runs on commodity processors and trains deep neural networks 15 times faster than platforms based on graphics ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-04T14:22:38.000Z | tags: dask, deep-learning, gpus, nlp, nvidia -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*w9WCIHyMuQ9h5Pee" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/rapids-ai/state-of-the-art-nlp-at-scale-with-rapids-huggingface-and-dask-a885c19ce87b">State of the art NLP at scale with RAPIDS, HuggingFace and Dask</a>
+          <div class="card-meta">4 Apr 2021</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>See how to build end-to-end NLP pipelines in a fast and scalable way on GPUs — from feature engineering to inference.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:37:23.000Z | tags: deep-learning, gpus -->
+      <div class="card-image">
+        <img src="https://timdettmers.com/wp-content/uploads/2023/01/GPUs_Ada_performance_per_dollar6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning">Which GPUs to get for deep learning</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">timdettmers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here, I provide an in-depth analysis of GPUs for deep learning/machine learning and explain what is the best GPU for your use-case and budget.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-11T12:02:52.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://pyimagesearch.com/wp-content/uploads/2019/05/jetson_nano_geting_started_header.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano">Getting started with the NVIDIA Jetson Nano - PyImageSearch</a>
+          <div class="card-meta">11 Mar 2020</div>
+          <div class="card-meta card-domain">pyimagesearch.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, you will learn how to get started with your NVIDIA Jetson Nano, including installing Keras + TensorFlow, accessing the camera, and performing image classification and object detection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-12T23:02:04.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2016/10/Wave_Chip.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://semiengineering.com/making-waves-in-deep-learning">Semiconductor Engineering .:. Making Waves In Deep Learning</a>
+          <div class="card-meta">12 Oct 2016</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Making Waves in Deep Learning How deep learning applications will map onto a chip.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

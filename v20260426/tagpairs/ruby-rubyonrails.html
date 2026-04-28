@@ -1,0 +1,517 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ruby + rubyonrails &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-08-27T01:55:11.113Z | tags: ruby, packages, rubygems, rubyonrails, rbenv -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://andre.arko.net/2025/08/25/rv-a-new-kind-of-ruby-management-tool/">rv, a new kind of Ruby management tool</a>
+          <div class="card-meta">27 Aug 2025</div>
+          <div class="card-meta card-domain">andre.arko.net</div>
+        </div>
+        <div class="card-section">
+          <p>For the last ten years or so of working on Bundler, I’ve had a wish rattling around: I want a better dependency manager. It doesn’t just manage your gems, it manages your ruby versions, too. It doesn’t just manage your ruby versions, it installs pre-compiled rubies so you don’t have to wait for ruby to compile from source every time. And more than all of that, it makes it completely trivial to run any script or tool written in ruby, even if that script or tool needs a different ruby than your application does.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-28T19:45:00.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyp3kwe3b3viq279glxw7.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/justthev/performance-guide-to-create-100k-records-in-less-than-3s-using-ruby-on-rails-3k07">Performance Guide to create 100k records in less than 3s using Ruby on Rail</a>
+          <div class="card-meta">28 Oct 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>When working on large-scale projects, quickly creating test data or dummy data can be crucial. In...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-19T12:37:56.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkhvdyB0byBMb2FkIENvZGUgaW4gUnVieSJ9LHsibmFtZSI6ImltYWdlIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9ibG9nLzIwMjMtMDQvY29kZS1sb2FkaW5nLmpwZyJ9LHsibmFtZSI6ImNhdGVnb3J5X2xvZ28iLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2xvZ29zL3J1YnktbG9nby5wbmcifV0&amp;s=ba5ca9d4aa12d253e090b4dc46c852c158e02c4ee75ab0b95bfe250dcb460752" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2023/04/19/how-to-load-code-in-ruby.html">How to Load Code in Ruby | AppSignal Blog</a>
+          <div class="card-meta">19 Apr 2023</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s look into three options for code loading in Ruby: using load, require, and autoload.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-26T18:02:06.000Z | tags: ruby, rubygems, rubyonrails -->
+      <div class="card-image">
+        <img src="https://www.codica.com/static/c72102e5c2bea21df2b9ec317d19ae8c/1f05b/OG_banner_bd5a796f55.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.codica.com/blog/top-ruby-gems-we-cant-live-without">44 Top Ruby Gems: Must-have for Web Development</a>
+          <div class="card-meta">26 Mar 2023</div>
+          <div class="card-meta card-domain">codica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover the Best Ruby gems to enhance your project and make development easier. From testing to deployment, these gems will streamline your workflow.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-24T03:29:00.000Z | tags: ruby, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://manny.codes/this-week-in-rails-wrapped-an-overview-of-rails-7-1-features-part-iii">An Overview Of Ruby on Rails 7.1 Features. Part III.</a>
+          <div class="card-meta">24 Jan 2023</div>
+          <div class="card-meta card-domain">manny.codes</div>
+        </div>
+        <div class="card-section">
+          <p>Leaked OnlyFans photos and video of manny.codes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-09T17:06:58.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0779/4361/articles/ShopifyEng_BlogIllustrations_220411_216ppi_02_RubyExecutionModels.jpg?v=1653485716" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shopify.engineering/ruby-execution-models">To Thread or Not to Thread: An In-Depth Look at Ruby’s Execution Models - Shopify</a>
+          <div class="card-meta">9 Jan 2023</div>
+          <div class="card-meta card-domain">shopify.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>An in-depth look at threads vs processes in Ruby web applications, and when you should use each.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-08T01:14:20.000Z | tags: compilers, ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkpJVCBDb21waWxlcnMgZm9yIFJ1YnkgYW5kIFJhaWxzOiBBbiBPdmVydmlldyJ9LHsibmFtZSI6ImltYWdlIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9ibG9nLzIwMjItMDkvaml0LXJ1YnkuanBnIn0seyJuYW1lIjoiY2F0ZWdvcnlfbG9nbyIsImltYWdlX3VybCI6Imh0dHBzOi8vYXBwc2lnbmFsLW5leHRqcy1ibG9nLW55cXI2cWNyOC1hcHBzaWduYWwudmVyY2VsLmFwcC9pbWFnZXMvbG9nb3MvcnVieS1sb2dvLnBuZyJ9XQ&amp;s=e70b756b3e8b38ef79990b8853b376dd5b620ea9ffcbd3296dc9bcea50ffe516" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/09/07/jit-compilers-for-ruby-and-rails-an-overview.html">JIT Compilers for Ruby and Rails: An Overview</a>
+          <div class="card-meta">8 Sep 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find out about the different JIT compilers for Ruby — YJIT, MJIT, and TenderJIT — and their benefits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-07T21:56:56.000Z | tags: books, ruby, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://manny.codes/4-books-for-intermediate-ruby-and-rails-developers">Best photos on manny.codes</a>
+          <div class="card-meta">7 Jul 2022</div>
+          <div class="card-meta card-domain">manny.codes</div>
+        </div>
+        <div class="card-section">
+          <p>Leaked OnlyFans photos and video of manny.codes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T23:58:18.000Z | tags: ruby, rubyonrails, testing -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/Zn0Q2JbWFbowe7qY_default-article-background.png?auto=format%2Ccompress&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0wJnR4dC10cmFjaz0wJnR4dDY0PVYyVWdibVZsWkNCMGJ5QjBZV3hySUdGaWIzVjBJR1pwZUhSMWNtVnomdHh0Y2xyPWY1ZjVmNSZ0eHRmb250PUlCTVBsZXhTYW5zSlAtU2VtaUJvbGQmdHh0cGFkPTAmdHh0c2l6ZT02NCZ3PTgwMA%3D%3D&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Matheus+Sales" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thoughtbot.com/blog/we-need-to-talk-about-fixtures">We need to talk about fixtures</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>How the principle of connascence will help us to move away from fixtures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:45:04.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/5b85c40f0525e625c014a1a354d27ee0caa10702607e78967c0396a224bdf3cd/ruby/ruby/pull/6059" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubyweekly.com/link/125611/ad5e785e3b">iseq.c: Use ntz_intptr for faster bitmap scan by casperisfine · Pull Request #6059 · ruby/ruby</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">rubyweekly.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ref: #6053</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-08T19:59:10.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkFkZCBGZWF0dXJlIEZsYWdzIGluIFJ1Ynkgb24gUmFpbHMgd2l0aCBGbGlwcGVyIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyMi0wNi9mZWF0dXJlLWZsYWdzLWluLXJ1YnkucG5nIn0seyJuYW1lIjoiY2F0ZWdvcnlfbG9nbyIsImltYWdlX3VybCI6Imh0dHBzOi8vYXBwc2lnbmFsLW5leHRqcy1ibG9nLW55cXI2cWNyOC1hcHBzaWduYWwudmVyY2VsLmFwcC9pbWFnZXMvbG9nb3MvcnVieS1sb2dvLnBuZyJ9XQ&amp;s=6a1b2b3ce8987d6fdf3dd7858640b6f6fd7f21b8dfe7732f2ddd2c0acb09a85c" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/06/08/add-feature-flags-in-ruby-on-rails-with-flipper.html">Add Feature Flags in Ruby on Rails with Flipper | AppSignal Blog</a>
+          <div class="card-meta">8 Jun 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find out how feature flags function in principle and get started with feature flags using the Flipper gem.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-04T20:27:45.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkFuIEludHJvZHVjdGlvbiB0byBQb2x5bW9ycGhpc20gaW4gUnVieSBvbiBSYWlscyJ9LHsibmFtZSI6ImltYWdlIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9ibG9nLzIwMjItMDUvcG9seW1vcnBoaXNtLnBuZyJ9LHsibmFtZSI6ImNhdGVnb3J5X2xvZ28iLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2xvZ29zL3J1YnktbG9nby5wbmcifV0&amp;s=32610da24f05d8cc56692eadbe18ae0a4bf5d6d758f7b7743bd6f5a992352933" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/05/25/an-introduction-to-polymorphism-in-ruby-on-rails.html">An Introduction to Polymorphism in Ruby on Rails | AppSignal Blog</a>
+          <div class="card-meta">4 Jun 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how you can implement polymorphism in your Rails application for cleaner code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-30T23:22:13.000Z | tags: markdown, ruby, rubyonrails, webdev -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/h-fnfuXdBIY/hqdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bacancytechnology.com/blog/add-markdown-to-rails-app">Markdown Tutorial Using Rails app</a>
+          <div class="card-meta">30 May 2022</div>
+          <div class="card-meta card-domain">bacancytechnology.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this markdown tutorial using rails app learn a step-by-step process to add Markdown support to the Rails app using Redcarpet and Coderay gems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-25T19:58:15.000Z | tags: rbenv, ruby, rubyonrails, ubuntu -->
+      <div class="card-image">
+        <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/4EXnYDCyje6NVaQ1PYDtVGJc" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04">How To Install Ruby on Rails with rbenv on Ubuntu 20.04 | DigitalOcean</a>
+          <div class="card-meta">25 May 2022</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ruby on Rails is one of the most popular application stacks for developers looking to create sites and web apps. Using rbenv will provide you with a solid en…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-13T12:57:19.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkJvb3RzdHJhcHBpbmcgd2l0aCBSdWJ5IG9uIFJhaWxzIEdlbmVyYXRvcnMgYW5kIFRlbXBsYXRlcyJ9LHsibmFtZSI6ImltYWdlIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9ibG9nLzIwMjItMDUvcmFpbHMtZ2VuZXJhdG9ycy5wbmcifSx7Im5hbWUiOiJjYXRlZ29yeV9sb2dvIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9sb2dvcy9ydWJ5LWxvZ28ucG5nIn1d&amp;s=e73e344d888097cb3c156d95a3ba6fff92d492c455445343cedf85fd31385056" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/05/04/bootstrapping-with-ruby-on-rails-generators-and-templates.html">Bootstrapping with Ruby on Rails Generators and Templates | AppSignal Blog</a>
+          <div class="card-meta">13 May 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s explore the basics of Rails generators and templates, then examine how to customize your Rails app with templates.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-05T23:49:42.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://d1rz1wpk7ms5d5.cloudfront.net/d0l8eisgjw4f62ag530sqnompzm0" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.driftingruby.com/episodes/active-record-tricks">Active Record Tricks | Drifting Ruby</a>
+          <div class="card-meta">5 May 2022</div>
+          <div class="card-meta card-domain">driftingruby.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this episode, we look at tips and tricks from read only attributes, inserting and upserting (update or insert) records, toggling booleans, and single table inheritance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:32:37.000Z | tags: ruby, rubyonrails, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices">https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">hixonrails.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:25:30.000Z | tags: ruby, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubyweekly.com/link/83853/ad5e785e3b">Understanding Rails secrets/credentials - Code with Jason</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">rubyweekly.com</div>
+        </div>
+        <div class="card-section">
+          <p>What this feature is for The credentials feature is a way of storing secrets that you don’t want to keep in plaintext, like AWS credentials for example. (In fact, the one and only thing I keep in my main Rails project’s credentials are my Active Storage AWS credentials.) Why the credentials feature is difficult to […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:24:26.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://boringrails.com/images/tip-sticker.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://boringrails.com/tips/rails-excerpt-helper">Show relevant chunks of text with Rails excerpt helper</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">boringrails.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Rails helper excerpt can extract a chunk of text that matches a certain phrase, no matter where in the string it is.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:21:11.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby/images/ruby_hu0319058d9e6e9bac6a5a9313f3a1ec62_212499_1200x630_fit_q75_box.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby">Exploring Metaprogramming in Ruby :: the halcyon blog</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">halcyon.hr</div>
+        </div>
+        <div class="card-section">
+          <p>Metaprogramming is an integral part of Ruby, more so than in any other language. This article explains the hows and whys.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-25T19:22:40.000Z | tags: rbenv, ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackoverflow.com/questions/68521184/rbenv-and-rails-mismatches">ruby - Rbenv and Rails mismatches - Stack Overflow</a>
+          <div class="card-meta">25 Jul 2021</div>
+          <div class="card-meta card-domain">stackoverflow.com</div>
+        </div>
+        <div class="card-section">
+          <p>Good morning everyone,
+I&#39;ve installed Ruby 3.0.2 via rbenv in order to test-drive a Rails 6.0 app. It seems like rbenv&#39;s Rails shiv is not working properly.
+$ rbenv install 3.0.2
+Downloading ruby-3...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T16:02:00.000Z | tags: bundler, rbenv, ruby, rubygems, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/nZ52rq9EkQ6V3bp1Lj/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IlVuZGVyc3RhbmRpbmcgSG93IFJiZW52LCBSdWJ5R2VtcyBBbmQgQnVuZGxlciBXb3JrIFRvZ2V0aGVyIiwiY29sb3IiOm51bGwsImJhY2tncm91bmQiOm51bGx9LHsibmFtZSI6ImhlYWRzaG90IiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly93d3ctZmlsZXMuaG9uZXliYWRnZXIuaW8vYXV0aG9ycy9vbGFzdWJvbWlvbHV3YWxhbmEucG5nIn0seyJuYW1lIjoic3VtbWFyeSIsInRleHQiOiJSYmVudiwgUnVieUdlbXMsIGFuZCBCdW5kbGVyIHdvcmsgdG9nZXRoZXIgdG8gZ2l2ZSB1cyBhIGxvdCBvZiBjb250cm9sIG92ZXIgb3VyIGNvZGUncyBlbnZpcm9ubWVudC4gSWYgeW91IGtub3cgaG93IHRoZXkgd29yaywgeW91J2xsIGJlIGJldHRlciBwcmVwYXJlZCB0byB0cm91Ymxlc2hvb3QgYW55IHByb2JsZW1zIHlvdSBlbmNvdW50ZXIuICBJbiB0aGlzIGFydGljbGUsIE9sYXN1Ym9taSB3YWxrcyB1cyB0aHJvdWdoIHRoZSBiYXNpY3Mgb2YgaG93IHRoZXNlIHRocmVlIHRvb2xzIGRvIHdoYXQgdGhleSBkby4iLCJjb2xvciI6bnVsbCwiYmFja2dyb3VuZCI6bnVsbH0seyJuYW1lIjoiYXV0aG9yIiwidGV4dCI6IkJ5ICpTdWJvbWkgT2x1d2FsYW5hKiIsImNvbG9yIjpudWxsLCJiYWNrZ3JvdW5kIjpudWxsfSx7Im5hbWUiOiJ0YWdzIiwidGV4dCI6IiNydWJ5IiwiY29sb3IiOm51bGwsImJhY2tncm91bmQiOm51bGx9XQ&amp;s=65ee71ecc6331ecd0f2a4671cb9864f2c4076060307549679982a95fa21e837c" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path">Understanding How Rbenv, RubyGems And Bundler Work Together</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">honeybadger.io</div>
+        </div>
+        <div class="card-section">
+          <p>Rbenv, RubyGems, and Bundler work together to give us a lot of control over our code&#39;s environment. If you know how they work, you&#39;ll be better prepared to troubleshoot any problems you encounter.  In this article, Ol...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-26T15:55:05.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*JN4iXXjtT9nlzjCXFCrJaw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://developingzack.medium.com/rails-6-custom-seed-files-1cda97a67985">Rails 6 — Custom Seed Files. While building applications in Rails… | by Zac</a>
+          <div class="card-meta">26 May 2021</div>
+          <div class="card-meta card-domain">developingzack.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>While building applications in Rails it’s very common to have to add a new model after you’ve already set up a DB and added some seed data…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:05:12.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0779/4361/articles/ShopifyEng_BlogIllustrations_210525_72ppi_03_HowtoBuildaWebAppwithandwithoutRailsLibraries.jpg?v=1623688086" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shopify.engineering/building-web-app-ruby-rails">How to Build a Web App with and without Rails Libraries — Development (2021</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">shopify.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>Ruby on Rails is a web framework that contains many libraries you’d need to create and deploy a successful web application. We often take for granted the ability to run rails new to create a fully functional web application with tons of built-in features.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-03T14:05:06.000Z | tags: bundler, ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://object-d001-cloud.cloudstoragesharingservice.com/banner/image/promotion/KOINTOTO_Welcome%20Bonus%20+%20Bonus%20Deposit%20harian_sldier.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longliveruby.com/articles/bundle-install-deep-dive">Kointoto: Situs Judi Togel Online &amp; Slot Gacor Maxwin</a>
+          <div class="card-meta">3 Mar 2021</div>
+          <div class="card-meta card-domain">longliveruby.com</div>
+        </div>
+        <div class="card-section">
+          <p>Kointoto situs judi togel online, slot gacor, dan live casino idnlive terbaik di Indonesia. 1 ID untuk semua permainan dengan deposit minimal Rp 10rb.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T14:39:14.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://fastruby.io/blog/assets/images/header/why-wasnt-ruby-3-faster.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastruby.io/blog/ruby/performance/why-wasnt-ruby-3-faster.html">Hacker News</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">fastruby.io</div>
+        </div>
+        <div class="card-section">
+          <p>Ruby 3.0 is a lot faster than Ruby 2.0, with both incremental tuning and interesting new disruptive changes. &#39;Three times faster&#39; is hard to define...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-03T14:05:11.000Z | tags: algorithms-math, graphs, ruby, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubygems.org/gems/rgl/versions/0.3.1">rgl | RubyGems.org | your community gem host</a>
+          <div class="card-meta">3 Feb 2021</div>
+          <div class="card-meta card-domain">rubygems.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-21T20:58:08.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://fastruby.io/blog/assets/images/header/how-fast-is-ruby-3-on-rails.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fastruby.io/blog/rails/ruby/performance/how-fast-is-ruby-3-on-rails.html">How Fast Is Ruby 3 on Rails? - FastRuby.io | Rails Upgrade Service</a>
+          <div class="card-meta">21 Jan 2021</div>
+          <div class="card-meta card-domain">fastruby.io</div>
+        </div>
+        <div class="card-section">
+          <p>An article by Noah Gibbs about Ruby 3&#39;s performance for a Rails application. Ruby 3.0.0-preview1 was a tiny bit slower than 2.7. The release 3.0 is...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-01T11:47:33.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://nextlinklabs.com/hubfs/6%20steps%20inheriting%20legacy%20rails%20apps.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nextlinklabs.com/insights/six-tips-for-inheriting-a-legacy-rails-app">6 Things to Do When Inheriting Legacy Rails Apps | NextLink Labs</a>
+          <div class="card-meta">1 Dec 2020</div>
+          <div class="card-meta card-domain">nextlinklabs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Becoming the owner of a legacy Rails app can mean inheriting a project bogged down with tech debt, bugs, and sketchy documentation. Here&#39;s how to survive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-14T18:11:34.000Z | tags: ruby, rubyonrails -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/450c1f5a15e12187ca7323370a046fa2b5011295f192af57be408059743f65b1/heartcombo/devise" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/heartcombo/devise">heartcombo/devise: Flexible authentication solution for Rails with Warden.</a>
+          <div class="card-meta">14 Aug 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Flexible authentication solution for Rails with Warden. - heartcombo/devise</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: ruby, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-project-rubocop-setup-with-rspec">Ruby on Rails project RuboCop setup with RSpec - Hix on Rails</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">hixonrails.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

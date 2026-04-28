@@ -1,0 +1,315 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>d3 + visualization &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-05-16T22:59:44.000Z | tags: d3, design, visualization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://d3indepth.com">Create With Data</a>
+          <div class="card-meta">16 May 2024</div>
+          <div class="card-meta card-domain">d3indepth.com</div>
+        </div>
+        <div class="card-section">
+          <p>true</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-22T20:43:31.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/b74663b942ee718206d9870a59fb6a279ebe86fb7d9608cbad2ac80265914573.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/orthographic-shading">Orthographic shading / D3 | Observable</a>
+          <div class="card-meta">22 Dec 2022</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>Step 1. Create a grid Use d3.geoGraticule10 to create lines of constant longitude and latitude. Step 2. Apply clipping Set projection.clipAngle to 90° to show only the front hemisphere. Stroke the outline of the sphere to better separate the globe from the background. Step 3. Apply a radial gradient Apply a radial gradient to simulate lighting on a diffuse surface. Appendix</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-22T16:08:48.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/edcde98fd5302a89f5943460bb6e734bc882dbdcc45c791652ddf13919f18d5a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/adaptive-sampling">Adaptive Sampling</a>
+          <div class="card-meta">22 Dec 2022</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>D3’s projections use adaptive sampling to increase the accuracy of projected lines and polygons while still performing efficiently. Without sampling, only the input vertices of polygons are projected. This results in the artifacts (visible above) due to projected lines becoming curves. Uniform sampling improves the appearance by adding interstitial samples between input vertices. It is inefficient because most samples are not needed, and even areas of extreme distortion still exhibit artifacts! Adaptive sam</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-21T18:56:45.000Z | tags: d3, visualization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://d3js.org">D3.js - Data-Driven Documents</a>
+          <div class="card-meta">21 Dec 2022</div>
+          <div class="card-meta card-domain">d3js.org</div>
+        </div>
+        <div class="card-section">
+          <p>The JavaScript library for bespoke data visualization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:03:01.000Z | tags: d3, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*EXijXJ24_hS6PnT0AK-VKw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-create-storytelling-moving-bubbles-charts-in-d3js-with-python-b31cec7b8226">How to Create Storytelling Moving Bubbles Charts in d3js with Python.</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The MovingBubble chart is one of those mind-blowing charts to look at. Learn how to create them using your own data set and Python!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-22T13:36:55.000Z | tags: d3, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*eoQCZAs_M5Fk0RPYenqhuw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/d3blocks-the-python-library-to-create-interactive-and-standalone-d3js-charts-3dda98ce97d4?source=rss----7f60cf5620c9---4">D3Blocks: The Python Library to Create Interactive and Standalone D3js Char</a>
+          <div class="card-meta">22 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create interactive, and stand-alone charts that are built on the graphics of d3 javascript (d3js) but configurable with Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-22T16:15:00.000Z | tags: books, d3, javascript, visualization -->
+      <div class="card-image">
+        <img src="https://www.dbooks.org/img/books/1229.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.dbooks.org/d/1229-1608012891-c2a119647c9a60a6">D3 Tips and Tricks v3.x</a>
+          <div class="card-meta">22 Mar 2022</div>
+          <div class="card-meta card-domain">dbooks.org</div>
+        </div>
+        <div class="card-section">
+          <p>Download D3 Tips and Tricks v3.x ebook for free</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:45:50.000Z | tags: d3, visualization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wattenberger.com/">Amelia Wattenberger</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">wattenberger.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-16T15:41:20.000Z | tags: d3, maps, visualization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://datawanderings.com/2018/10/28/making-a-map-in-d3-js-v-5">Making a map in d3 js v 5</a>
+          <div class="card-meta">16 Dec 2021</div>
+          <div class="card-meta card-domain">datawanderings.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T01:38:43.000Z | tags: d3, sankey, visualization -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/caed5120fe46bdb5a7e4a9fdbc96eccefe3f40afb80f217630150f273870e770/d3/d3-sankey" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/d3/d3-sankey">d3/d3-sankey: Visualize flow between nodes in a directed acyclic network.</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Visualize flow between nodes in a directed acyclic network. - d3/d3-sankey</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-18T12:50:19.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/638bed9822c2ffa7851b4e168e9d84023848f042e7652f8b4ab14d679da2b497/newline-sandbox/d3-user-interactions" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/newline-sandbox/d3-user-interactions">newline-sandbox/d3-user-interactions</a>
+          <div class="card-meta">18 Apr 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A D3 project showing a barchart that allows user interactions</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-24T10:55:28.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/1ef827a19d556921d616d53f79fdd6f9eb4d030acb243d70559be3993e4a7292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/gallery">Gallery / D3 / Observable</a>
+          <div class="card-meta">24 Dec 2020</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking for a good D3 example? Here’s a few (okay,  …) to peruse. Animation D3’s data join, interpolators, and easings enable flexible animated transitions between views while preserving object constancy. Interaction D3’s low-level approach allows for performant incremental updates during interaction. And D3 supports popular interaction methods including dragging, brushing, and zooming. Analysis D3 is for more than visualization; it includes tools for quantitative analysis, such as data transformation, rand</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T03:13:24.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://d3-graph-gallery.com/img/overview_RGG.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.d3-graph-gallery.com/treemap.html">Treemap | the D3 Graph Gallery</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">d3-graph-gallery.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to build a treemap with Javascript and D3.js: from the most basic example to highly customized examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-06T23:44:09.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://blog.scottlogic.com/ceberhardt/assets/d3fc-webgl/hathi-library-visualisation.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.scottlogic.com/2020/05/01/rendering-one-million-points-with-d3.html">Rendering One Million Datapoints with D3 and WebGL</a>
+          <div class="card-meta">6 May 2020</div>
+          <div class="card-meta card-domain">blog.scottlogic.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog post introduces the WebGL components which we recently added to D3FC, this suite of components make it easy to render charts with very large numbers of datapoints using D3. Throughout this post I&#39;ll describe the creation of the following visualisation, which displays 1 million books from the Hathi Trust library</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:10:51.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/f9497e80832db90c4469afba796cce32286507af92f747b937e48397d97e000a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/zoomable-treemap">Zoomable Treemap</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>This treemap supports zooming: click any cell to zoom in, or the top to zoom out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:06:57.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/017cd861a20eb44c602a92eab0e375d8151b75717441d4b7cc019259136fcdd1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/zoomable-area-chart">Zoomable Area Chart</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>This zoomable time series area chart shows the number of flights per day. The effect of the September 11, 2001 attacks on air travel is evident.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:57:45.000Z | tags: d3, visualization -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/49e3b8e7b5c25c76853ac31b4ed41e895e2facb91573182f4e68e995d0ccb899.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@d3/bar-chart-race-explained">Bar Chart Race, Explained</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is a pedagogical implementation of an animated bar chart race. Read on to learn how it works, or fork this notebook and drop in your data! The data for the race is a CSV with columns date (in YYYY-MM-DD format), name, value and optionally category (which if present determines color). To replace the data, click the file icon</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-28T03:17:51.000Z | tags: css, d3, visualization -->
+      <div class="card-image">
+        <img src="https://shots.codepen.io/username/pen/oPeWMp-512.jpg?version=1540549635" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codepen.io/davidrogers/pen/oPeWMp">D3 circle scattering</a>
+          <div class="card-meta">28 Oct 2018</div>
+          <div class="card-meta card-domain">codepen.io</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,909 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>goodreads + sports &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-01-07T18:46:40.104Z | tags: art, sports, goodreads -->
+      <div class="card-image">
+        <img src="https://www.thebeliever.net/wp-content/uploads/2025/12/102225_spread_final.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thebeliever.net/the-worst-shot-ever-taken/?src=longreads">The Worst Shot Ever Taken - Believer Magazine</a>
+          <div class="card-meta">7 Jan 2026</div>
+          <div class="card-meta card-domain">thebeliever.net</div>
+        </div>
+        <div class="card-section">
+          <p>I was sixteen when my mother gifted me a painting by Ernie Barnes. I’d seen one Barnes painting at that point on the cover of Marvin Gaye’s 1976 album, I Want You, on the brown carpeted floor of my Auntie Sue’s apartment. Then I saw it five days a week for at least a decade during […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-29T00:52:25.906Z | tags: sports, goodreads -->
+      <div class="card-image">
+        <img src="https://pyxis.nymag.com/v1/imgs/f93/2d3/a9ae78cc123392a8e591c946445ad19103-mikepiazza-portrait.1x.rsocial.w1200.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nymag.com/intelligencer/article/mike-piazza-mets-dodgers-baseball.html">Mike Piazza Is Alive and Well and Living in Italy</a>
+          <div class="card-meta">29 Apr 2025</div>
+          <div class="card-meta card-domain">nymag.com</div>
+        </div>
+        <div class="card-section">
+          <p>The candid Mets legend reflects on his Cinderella career and indelible place in the pop-culture pantheon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-06T19:56:27.330Z | tags: sports, goodreads -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/afghan-women-cyclists-0054-671806cc8443a.jpg?crop=0.981xw:0.736xh;0.00801xw,0.101xh&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bicycling.com/culture/a62503930/afghanistan-cyclist-evacuation-taliban-us-troop-withdrawal/?src=longreads">These Women Were Some of Afghanistan’s Best Athletes. Then They Started Getting Death Threats.</a>
+          <div class="card-meta">6 Nov 2024</div>
+          <div class="card-meta card-domain">bicycling.com</div>
+        </div>
+        <div class="card-section">
+          <p>They led a cycling revolution in a country where women were forbidden to ride. When the Taliban returned to power, their only hope was a harrowing escape to an uncertain future.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-27T11:36:21.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/caa23bc04c19b65e3c94107693edf5fc1a27a3aa/0_232_3932_2359/master/3932.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=184845bfbf629e0d051aff32b7df9dba" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/sport/article/2024/jun/27/the-loneliness-of-the-low-ranking-tennis-player">‘I’m good, I promise’: the loneliness of the low-ranking tennis player</a>
+          <div class="card-meta">27 Jun 2024</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The long read: I was once Ireland’s No 1 player, and tried for years to climb the global ranks. But life at the bottom of the top can be brutal</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-24T21:42:45.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0320%2Fr1307449_1296x729_16%2D9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/womens-college-basketball/story/_/id/39740282/caitlin-clark-iowa-2024-ncaa-women-basketball-tournament-ready-march">Being Caitlin Clark: Inside the world of the player who redefined the game</a>
+          <div class="card-meta">24 Mar 2024</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>She overcame trust issues and chartered a yacht. Now Caitlin Clark is ready for March.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-24T16:47:31.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/65fb362298bc7afea82a2a58/16:9/w_1280,c_limit/Sunderland-Till-I-Die.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/culture/culture-desk/the-heartbreak-of-an-english-football-team">The Heartbreak of an English Football Team</a>
+          <div class="card-meta">24 Mar 2024</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Netflix series “Sunderland ’Til I Die” serves as a thesis both for fandom and for the inevitability of its disappointments.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-20T01:21:51.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1016%2Fr1239196_1296x729_16%2D9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/nba/story/_/id/38674600/then-alligators-got-memphis-grizzlies-star-ja-morant-18-month-downfall">&#39;Then the alligators got him&#39; - Inside Memphis Grizzlies star Ja Morant&#39;s 1</a>
+          <div class="card-meta">20 Oct 2023</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>After the 2022 All-Star Game, Morant&#39;s misconduct became more frequent -- and dangerous. Since then, serious allegations have emerged. Lawsuits and subpoenas remain open. And a 24-year-old superstar&#39;s career is on the brink.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T23:13:14.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://cdn.vox-cdn.com/thumbor/iPn2cu6l5Jx-P-OZXtwgaX-SjoE=/0x71:1100x690/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/8862611/jai-alai-lede.0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sbnation.com/longform/2013/2/28/4036934/jai-alai-sport-in-america-miami">What happened to Jai Alai? - SBNation.com</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">sbnation.com</div>
+        </div>
+        <div class="card-section">
+          <p>Once the next big thing in American sports, Jai Alai has all but completely disappeared over the past 20 years. But in Miami, the game is still played for much smaller crowds and stakes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-25T11:51:46.000Z | tags: finance, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/b1cdfa5cb659d1e64afd9db3b4b0f1cf8be44e8b/0_0_5000_3000/master/5000.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjMucG5n&amp;enable=upscale&amp;s=7e40cb0abf0ac5f9ea1a09758e47102a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/football/2023/apr/25/inside-the-crisis-at-juventus-andrea-agnelli-fabio-paratici-plusvalenze">‘I feel like I’m selling my soul’: inside the crisis at Juventus</a>
+          <div class="card-meta">25 Apr 2023</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The long read: A series of financial scandals have rocked Italy’s most glamorous club. But is the trouble at Juventus symptomatic of a deeper rot in world football?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-06T00:03:24.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2023/03/05/multimedia/05speed-skating1-zfqb/05speed-skating1-zfqb-largeHorizontalJumbo.jpg?year=2023&amp;h=683&amp;w=1024&amp;s=118e270738813411da8b8db7bb9052128c0bd098c07bf255f9d05e96ce659179&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2023/03/05/sports/olympics/jordan-stolz-speedskating-world-championships.html?smid=fb-nytimes&amp;smtyp=cur">Vanquishing the Dutch, Jordan Stolz Creates a New Norse Myth - The New York</a>
+          <div class="card-meta">6 Mar 2023</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Stolz, the 18-year-old from Wisconsin, won three gold medals at the speedskating world championships, finishing his turns in a way that seemed like something out of a storybook.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-26T17:36:17.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2023/02/25/multimedia/25pacer-sowinski-01-jqmh/25pacer-sowinski-01-jqmh-largeHorizontalJumbo.jpg?year=2023&amp;h=683&amp;w=1024&amp;s=883a6f2a1bb973e8457cde7e6bd459a982e8d598bc77eb0b3ba2a8370971807b&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2023/02/25/sports/erik-sowinski-pacer.html">Meet the Runner Who Leads Every Pack and Then Vanishes</a>
+          <div class="card-meta">26 Feb 2023</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Erik Sowinski is a professional pacer, a talented runner who is in high demand on starting lines, and nowhere to be found at the finish.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-25T12:34:18.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2023/02/26/multimedia/24rory-marinakis-fmpc/24rory-marinakis-fmpc-largeHorizontalJumbo.jpg?year=2023&amp;h=683&amp;w=1024&amp;s=32127f3e8fe7d4a60921268f426248ad1618346b8ab63299d2d10563147c6edd&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2023/02/24/sports/soccer/olympiacos-panathinaikos-greece.html">The Oligarchs’ Derby</a>
+          <div class="card-meta">25 Feb 2023</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>When the top teams in Greece meet, the story lines, and the rivalries, regularly extend far beyond the soccer field.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-16T11:48:19.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/40b300e670dc6bbc905487cb2e2ab1466412708a/497_114_2778_1667/master/2778.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjMucG5n&amp;enable=upscale&amp;s=84689fb3fee6f023307c355abf086f95" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/sport/2023/feb/16/no-coach-no-agent-no-ego-lionel-messi-of-cliff-diving-gary-hunt">No coach, no agent, no ego: the incredible story of the ‘Lionel Messi of cl</a>
+          <div class="card-meta">16 Feb 2023</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Gary Hunt is an enigma. He trains with the intensity of a modern athlete, but relaxes like a sportsman of a bygone era. He is fiercely competitive but unbelievably laid-back. How did he become the greatest cliff diver of all time?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-12T19:57:31.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0207%2Fnfl_joe%2Dmontana%2Dlegacy_16x9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/nfl/story/_/id/35604915/49ers-legend-joe-montana-reflects-legacy-ahead-super-bowl">Joe Montana Was Here</a>
+          <div class="card-meta">12 Feb 2023</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>He won four Super Bowls and retired as the undisputed greatest. What came next was turning a legacy into a life.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-13T19:54:46.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:679/1*ssYVCq-xVknzq4LWwzxlDA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@TrulyAdventurous/victory-687dad91acbc">Victory</a>
+          <div class="card-meta">13 Jan 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Eleven-year-old Victoria has her sights set on playing Little League with the boys. She goes through tryouts and is told to learn to cook…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-11T20:20:36.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://cdn.vox-cdn.com/thumbor/NmICa_AGqT2rHTOirwJ5kWxihzM=/0x358:5000x2976/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21831311/1223058011.jpg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-pulling-off-a-potato-trick-ended-a-baseball-player-s-career">How pulling off a ‘potato trick’ ended a baseball player’s career</a>
+          <div class="card-meta">11 Jan 2023</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dave Bresnahan never made it past AA, but, thanks to a specially prepared potato, he holds a place in baseball lore</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T23:30:39.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://www.si.com/.image/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/MTkxMzUyNTc0OTM3NDA5MDU3/vin-scully-obit.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.si.com/mlb/2022/08/03/vin-scully-dodgers-beautiful-life-obituary">The Beautiful Life of Vin Scully</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">si.com</div>
+        </div>
+        <div class="card-section">
+          <p>The legendary Dodgers broadcaster, who died Tuesday at age 94, was a modern Socrates, only more revered. He was simultaneously a giant and our best friend.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-11T12:28:02.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/athletic/uploads/wp/2022/07/08090429/Russia_In_Crisis_Article-1_2_V2-copy-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nl.nytimes.com/f/a/R33tyRX-roRxqDWbFs0Mtw~~/AAAAAQA~/RgRkroCdP0TXaHR0cHM6Ly90aGVhdGhsZXRpYy5jb20vMzQwNzUwNy8yMDIyLzA3LzEwL3J1c3NpYS1mb290YmFsbC11a3JhaW5lLz9jYW1wYWlnbl9pZD05JmVtYz1lZGl0X25uXzIwMjIwNzExJmluc3RhbmNlX2lkPTY2MzIzJm5sPXRoZS1tb3JuaW5nJnJlZ2lfaWQ9NTkyMjY1ODImc2VnbWVudF9pZD05ODE4MCZ0ZT0xJnVzZXJfaWQ9YWY5NjEwMjZhNzJkYzA3NTQwOTllZTMwMTQ2ZDZmOGZXA255dEIKYpid-8ti49AwRlIQYmpwY2pwQGdtYWlsLmNvbVgEAAAAAA~~">Isolated and in crisis – Russia’s war in Ukraine has damaged football at home too</a>
+          <div class="card-meta">11 Jul 2022</div>
+          <div class="card-meta card-domain">nl.nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Football in Russia was booming after the 2018 World Cup - now, thanks to the invasion of Ukraine, it promises to keep on shrinking</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-01T22:40:18.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/854044893d490f4204fd5cd25f070b9fa631986b/0_991_1459_875/master/1459.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjIucG5n&amp;enable=upscale&amp;s=e3b32314717d47df0f686c6a7035bf42" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/sport/2022/jun/28/the-barkley-marathons-the-hellish-100-mile-race-with-15-finishers-in-36-years">The Barkley Marathons: the hellish 100-mile race with 15 finishers in 36 years</a>
+          <div class="card-meta">1 Jul 2022</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Participants in the Tennessee race must negotiate extreme temperatures, wild terrain and more than 50,000 feet of accumulated ascent</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-24T10:44:59.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/7aG0Wkdp87XecATrwCgK3825L70=/0x43:2000x1085/1200x625/media/img/2021/11/WEL_Stern_BoxingOPENER/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/magazine/archive/2021/12/charles-conwell-boxing/620527">Can a Boxer Return to the Ring After Killing?</a>
+          <div class="card-meta">24 Nov 2021</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 2019, Charles Conwell unintentionally ended Patrick Day’s life with his fists. Now he’s trying to make sense of his life, and boxing itself.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-11T12:13:34.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://www.irishexaminer.com/cms_media/module_img/5435/2717919_9_seoimageog_GettyImages-1278065957_1_.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.irishexaminer.com/sport/othersport/arid-40732662.html">Eliud Kipchoge: Inside the camp, and the mind, of the greatest marathon runner of all time</a>
+          <div class="card-meta">11 Nov 2021</div>
+          <div class="card-meta card-domain">irishexaminer.com</div>
+        </div>
+        <div class="card-section">
+          <p>He’s the greatest marathoner in history, a national hero in Kenya, and an icon for runners around the world. But despite his fame and wealth, Eliud Kipchoge chooses to live the most basic lifestyle. Cathal Dennehy travels to the highlands of Kenya for an inside look at his training camp and to meet a champion with a quiet, complex personality</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-22T11:07:14.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://s26162.pcdn.co/wp-content/uploads/2024/07/lh-holder-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lithub.com/the-legacy-of-colin-kaepernick-on-the-first-high-school-team-to-take-a-knee">The Legacy of Colin Kaepernick: On the First High School Team to Take a Knee</a>
+          <div class="card-meta">22 Sep 2021</div>
+          <div class="card-meta card-domain">lithub.com</div>
+        </div>
+        <div class="card-section">
+          <p>James A. Garfield High School in Seattle is a place where you can feel the history thrum throughout the hallways. Quincy Jones and Jimi Hendrix were students here. Dr. Martin Luther King Jr. spoke …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-21T10:40:45.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0713%2Fr879939_1296x729_16%2D9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/nba/story/_/id/31999002/the-magical-day-kobe-bryant-became-lord-rings-rucker-park">The magical day Kobe Bryant became Lord of the Rings at Rucker Park</a>
+          <div class="card-meta">21 Aug 2021</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>In 2002, Kobe Bryant&#39;s surprise arrival at Harlem&#39;s legendary court caused a stir. This is the oral history of what happened when the Lakers great put his streetball cred on the line.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-21T01:20:45.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://melmagazine.com/wp-content/uploads/2021/08/Playground_Basketball_Adam_Sandler2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://melmagazine.com/en-us/story/adam-sandler-basketball">An Oral History of Adam Sandler, Pickup Basketball Legend</a>
+          <div class="card-meta">21 Aug 2021</div>
+          <div class="card-meta card-domain">melmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>‘He was just out there drilling long threes in his shades and hitting cutters. It was really incredible.’</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T21:19:32.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform.org/uploads/post/key_image/14664/landscape_JuxC3dwY.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longform.org/posts/inside-youth-baseball-s-most-notorious-dad-on-dad-rivalry">Inside Youth Baseball&#39;s Most Notorious Dad-On-Dad Rivalry</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>On the Long Island Inferno, two fathers, both with complicated pasts took it all too far. Neither man was ever the same.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T21:05:34.000Z | tags: football, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0322%2Fr830398_1296x729_16%2D9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/college-football/story/_/id/31099968/lawsuits-secret-tapes-unraveling-powerhouse-high-school-football-program">Lawsuits, secret taping and the unraveling of a powerhouse high school football program</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Valdosta might be a 24-time state football champ, but lately its program has been rocked by a racial discrimination lawsuit filed by a former coach, the hiring of controversial coach Rush Propst and a secret recording that alleged cheating by SEC powers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-19T11:01:43.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://www.si.com/.image/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/MTc5NjY4NDYwMjc0NTI2MTY4/indiana-daily-cover-high-school.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.si.com/college/2021/03/18/hoosier-hysteria-tournament-indiana-march-madness-daily-cover">Brackets, Buzzer Beaters and Burning Jockstraps: For Indiana, Hosting March Madness Renews an Epic Tradition of Hoosier Hysteria</a>
+          <div class="card-meta">19 Mar 2021</div>
+          <div class="card-meta card-domain">si.com</div>
+        </div>
+        <div class="card-section">
+          <p>Indiana is set to host a Big Dance unlike any other, evoking the madness—from buzzer beaters to bourbon-soaked basketball—of the state&#39;s fabled high school tournament.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-09T23:37:37.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/mfr0fszswzrxazfq3rhg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.mlb.com/news/featured/the-worst-baseball-team-ever">The story of the worst baseball team ever</a>
+          <div class="card-meta">9 Mar 2021</div>
+          <div class="card-meta card-domain">mlb.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Official Site of Major League Baseball</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-09T17:07:04.000Z | tags: goodreads, psychology, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2021/02/07/sports/07swiatek1/07swiatek1-largeHorizontalJumbo.jpg?year=2021&amp;h=683&amp;w=1024&amp;s=cdd27ccb0f1971e3035bdeacb10152828dc57b643a033c98852675af95bfabec&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2021/02/07/sports/tennis/iga-swiatek-sports-psychology.html">All Personal Feeds</a>
+          <div class="card-meta">9 Feb 2021</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Iga Swiatek of Poland came out of nowhere to win the French Open in October. A sports psychologist was with her all the way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T15:09:14.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://lineup-publishing.s3.amazonaws.com/Image_Not_Found_1x_qjofp8.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://deadspin.com/how-to-lose-everything-and-get-some-of-it-back-1833665975">How To Lose Everything And Get Some Of It Back</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">deadspin.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-24T17:37:08.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F1028%2FSacramento%201296x729.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.espn.com/nba/story/_/id/28078881/how-nba-executive-jeff-david-stole-13-million-sacramento-kings">The wild story behind the NBA&#39;s most unlikely heist</a>
+          <div class="card-meta">24 Nov 2019</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>How did an executive in one of the league&#39;s smallest markets steal millions of dollars -- and get away with it for years?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-10T20:32:44.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/resizer/iVzbJMm-fW4YGaEabBVCJXlP-7E=/arc-anglerfish-washpost-prod-washpost/Q6WIT7WUMBF27OUJ7RYSXOZXHU" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/graphics/2019/sports/girls-wrestling-high-school-mya-kretzer">In Kansas, girls didn’t have a wrestling championship of their own. Mya Kretzer changed that.</a>
+          <div class="card-meta">10 Nov 2019</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>For many female wrestlers, the toughest challenge is finding opponents.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-22T01:26:28.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://img.texasmonthly.com/2023/10/honor-thy-father-1.jpg?auto=compress&amp;crop=faces&amp;fit=fit&amp;fm=pjpg&amp;ixlib=php-3.3.1&amp;q=45" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/honor-thy-father">Honor Thy Father</a>
+          <div class="card-meta">22 Oct 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>In suburban Fort Worth the frail psyche of a football prodigy collided with the crazed ambition of his dad, who himself had been a high school football star way back when. The consequences were deadly.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-26T17:46:27.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/r1-05864-0023-jpg-1562929646.jpg?crop=1.00xw:0.748xh;0,0.242xh&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.esquire.com/uk/style/fashion/a28335813/stan-smith-tennis-adidas-trainer-profile">Stan Smith: The Man Who Became A Shoe</a>
+          <div class="card-meta">26 Jul 2019</div>
+          <div class="card-meta card-domain">esquire.com</div>
+        </div>
+        <div class="card-section">
+          <p>How Stan Smith went from a &quot;decent&quot; tennis player to the most popular trainer on the planet</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-04T10:12:53.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2019/05/05/sports/02giannis/merlin_153102705_50653696-fc62-402f-8c3f-d9fae4c8fcb9-largeHorizontalJumbo.jpg?year=2019&amp;h=683&amp;w=1024&amp;s=40a649597096cb67291fcb69e9c6e23512802a60ef256c347da79fe458d8e3e4&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nytimes.com/2019/05/03/sports/giannis-antetokounmpo-greece.html">Giannis Antetokounmpo Is the Pride of a Greece That Shunned Him (Published 2019)</a>
+          <div class="card-meta">4 May 2019</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>As the son of African immigrants, Antetokounmpo was unwelcome in Athens. Then he showed promise as a basketball star.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-21T00:11:00.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0412%2Fr528070_1296x729_16%2D9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://espn.com/nba/story/_/id/26524600/secret-team-dinners-built-spurs-dynasty">From the archives: Inside the exclusive team dinners that have built the Spurs&#39; dynasty</a>
+          <div class="card-meta">21 Apr 2019</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the past 20 years, Gregg Popovich has sliced an exclusive culinary trail across America -- all for a singular purpose. This is the story of his legendary team dinners, and how they have served as a pillar of the Spurs&#39; decadeslong dynasty.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-15T01:59:13.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://story.californiasunday.com/elizabeth-swaney/scale~1200x1200~0407ffswan-1552573770-45.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://story.californiasunday.com/elizabeth-swaney?fbclid=IwAR1aRlaW9JOEhEkJHy4b6nDQUYZ2JXDcOoty_8aaUWZMyLgxNHaPgab_wcM">The Believer — The California Sunday Magazine</a>
+          <div class="card-meta">15 Mar 2019</div>
+          <div class="card-meta card-domain">story.californiasunday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why the world was wrong about the &quot;worst Olympian ever.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-06T01:03:22.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform.org/uploads/post/key_image/12651/landscape_pitinio_greece_getty_ringer.0a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/12651">The Exile of Rick Pitino</a>
+          <div class="card-meta">6 Mar 2019</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>In 2017, the Hall of Fame Louisville coach’s career collapsed under a string of scandals, leading to his firing from the school he had coached for 16 years. Now, Pitino is finding himself in Greece, coaching Panathinaikos, working for a self-styled Bond</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-16T02:49:38.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagewebpbase64UklGRso9BgBXRUJQVlA4IL49BgBwkha-03a6dce2a68a8fb1a7bfaf8f050babc1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theplayerstribune.com/en-us/articles/richard-jefferson-well-that-was-one-hell-of-a-ride">Well, That Was One Hell of a Ride | By Richard Jefferson</a>
+          <div class="card-meta">16 Jan 2019</div>
+          <div class="card-meta card-domain">theplayerstribune.com</div>
+        </div>
+        <div class="card-section">
+          <p>Any idiot can get married. Any idiot can be a father. An NBA title? That’s work. That’s worth crying over.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-13T01:16:12.000Z | tags: goodreads, sports, grit-hustle-perseverance -->
+      <div class="card-image">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/5658a7b4-underrated-social-card-b7e33f21e34c16b25bd6179a905eff2e.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theplayerstribune.com/en-us/articles/stephen-curry-underrated">Underrated | By Stephen Curry</a>
+          <div class="card-meta">13 Jan 2019</div>
+          <div class="card-meta card-domain">theplayerstribune.com</div>
+        </div>
+        <div class="card-section">
+          <p>You didn’t think this was one of those fairytales where the kid gets some pep talk, and everything changes right? It REALLY isn’t that.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-07T21:57:43.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://www.reuters.com/investigates/special-report/assets/soccer-files-fosun/mastheads/share-RTS67P0.jpg?v=255819030119" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reuters.com/investigates/special-report/soccer-files-fosun">How a soccer agent and Chinese billionaire aimed to trade in players</a>
+          <div class="card-meta">7 Jan 2019</div>
+          <div class="card-meta card-domain">reuters.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Portuguese super-agent Jorge Mendes joined forces with investors from Shanghai and planned to cash in on buying and selling athletes, documents show.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-10T22:50:36.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://a.espncdn.com/photo/2016/0503/r79747_1296x729_16-9.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.espn.com/espn/feature/story/_/page/espnw-russia160505/brittney-griner-diana-taurasi-opted-play-russia-money-escape-spotlight">Brittney Griner and Diana Taurasi opted to play in Russia both for money an</a>
+          <div class="card-meta">10 Dec 2018</div>
+          <div class="card-meta card-domain">espn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unlikely comrades Diana Taurasi and Brittney Griner play overseas for the money. As it turns out, they also simplify their lives.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-06T18:41:43.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2018/12/09/sports/09race-web05/merlin_143568549_82042821-bcd0-47d0-ab7c-598f3eb92146-largeHorizontalJumbo.jpg?year=2018&amp;h=683&amp;w=1024&amp;s=caf7f86ff4aff04fd49b7edb4a485aa99221bc53e5e91d03c1ef837ed5184b65&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2018/12/05/sports/courtney-dauwalter-200-mile-race.html">The Woman Who Outruns the Men, 200 Miles at a Time</a>
+          <div class="card-meta">6 Dec 2018</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Courtney Dauwalter specializes in extremely long races. But her success in winning them has opened a debate about how men’s innate strength advantages apply to endurance sports.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-29T10:06:32.000Z | tags: football, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://txmo-server.imgix.net/2018/11/Leakey-football-1.jpg?auto=compress&amp;crop=faces&amp;fit=fit&amp;h=1250&amp;ixlib=php-3.0.0&amp;q=45&amp;w=2000&amp;s=e1a6db249938989cf26284ff6def106a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.texasmonthly.com/the-culture/expectations-realities-six-man-football-small-town-texas">The Expectations and Realities of Six-Man Football in Small-Town Texas</a>
+          <div class="card-meta">29 Nov 2018</div>
+          <div class="card-meta card-domain">texasmonthly.com</div>
+        </div>
+        <div class="card-section">
+          <p>On the football field, one team went from six to eleven. Another went from eleven to six. And both faced challenges they didn’t expect.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-28T03:19:43.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/darius_miles_game_footage-f9324cce26feab3c660931b664f20519.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theplayerstribune.com/en-us/articles/what-the-hell-happened-to-darius-miles">What the Hell Happened to Darius Miles? | By Darius Miles</a>
+          <div class="card-meta">28 Oct 2018</div>
+          <div class="card-meta card-domain">theplayerstribune.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dudes like me ain’t supposed to talk about this type of stuff. I’m about to tell you some real shit. Things I haven’t told anybody.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-15T13:27:36.000Z | tags: crime, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform-corpus.scdn1.secure.raxcdn.com/key_images/groups/50053120/50055149/web_800x250.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/12171">He Was a First-Round Draft Pick in the NBA. 14 Years Later, He Was Found De</a>
+          <div class="card-meta">15 Sep 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>A long-dormant police investigation gives the case new life.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-05T23:22:45.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/longreads.com/wp-content/uploads/2018/08/rm_portrait_cleen_01-scaled.jpg?fit=2021%2C2560&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longreads.com/2018/09/03/losers-lunch">Losers&#39; Lunch - Longreads</a>
+          <div class="card-meta">5 Sep 2018</div>
+          <div class="card-meta card-domain">longreads.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dining out with courtsiders, a rogue, impish species in the tennis ecosystem.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-31T14:23:24.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fnarratively.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-182183352%26version%3D9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://narrative.ly/how-a-brutal-mafia-enforcer-became-a-deadly-serious-marathoner">How a Brutal Mafia Enforcer Became a Deadly Serious Marathoner</a>
+          <div class="card-meta">31 Aug 2018</div>
+          <div class="card-meta card-domain">narrative.ly</div>
+        </div>
+        <div class="card-section">
+          <p>Discover extraordinary true stories celebrating the diversity of humanity. Click to read Narratively, a Substack publication with tens of thousands of subscribers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-13T00:29:15.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform.org/uploads/post/key_image/12077/landscape_swide_serienacional57_2_11_2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/12077">Serie Nacional</a>
+          <div class="card-meta">13 Aug 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>Nothing can match Cuban post-season baseball fever.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T22:15:05.000Z | tags: analytics, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2018/06/08/sports/08gelfand-web1/merlin_137582484_0d03a192-57f2-4e57-a9f6-819e61972d2d-largeHorizontalJumbo.jpg?year=2018&amp;h=683&amp;w=1024&amp;s=4499b21c50e254add62806fef9d6ba8eacec7846557fde208926ed7cfb7835ce&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2018/06/07/sports/the-left-side-of-steve-kerrs-brain.html">The Left Side of Steve Kerr’s Brain</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sammy Gelfand is the numbers guy behind the Golden State Warriors’ success. Some pretty good players help, too.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-04-08T14:36:10.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform-corpus.scdn1.secure.raxcdn.com/key_images/groups/49102848/49114780/web_800x250.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/11716">What the Arlee Warriors Were Playing For</a>
+          <div class="card-meta">8 Apr 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>On Montana’s Flathead Indian Reservation, basketball is about much more than winning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-30T21:18:37.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform.org/uploads/post/key_image/11697/landscape_geno.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/11697">Pretending to Be Okay</a>
+          <div class="card-meta">30 Mar 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>A profile of UConn basketball coach Geno Auriemma, who has not found peace despite unprecedented success.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-12T17:11:32.000Z | tags: goodreads, sports -->
+      <div class="card-image">
+        <img src="https://longform-corpus.scdn1.secure.raxcdn.com/key_images/groups/48906240/48917444/web_800x250.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/11644">Ball Breakers</a>
+          <div class="card-meta">12 Mar 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>“The reason women-only billiards tournaments exist is not because the players can’t beat men. It’s because they can.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2009-09-24T00:00:00.000Z | tags: sports, goodreads -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/athletic/uploads/wp/2024/09/05164707/0906_TroyAikman-1.png?width=1200&amp;height=630&amp;fit=cover" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/athletic/5734926/2024/09/06/troy-aikman-cowboys-espn-mnf">Troy Aikman ‘never lost at anything.’ He’s just now starting to enjoy it.</a>
+          <div class="card-meta">24 Sep 2009</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>&#39;God&#39;s Quarterback&#39; was the archetype American success story, but the triumphs everyone saw masked the inner turmoil no one knew about.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

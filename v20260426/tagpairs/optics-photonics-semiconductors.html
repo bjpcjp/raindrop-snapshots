@@ -1,0 +1,393 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>optics-photonics + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-01T23:47:46.044Z | tags: optics-photonics, semiconductors, antennas, inventions-innovation -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Lumotive_LM10.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/lumotive-debuts-worlds-first-2d-photonic-beamforming-chip/">Lumotive Debuts ‘World’s First 2D Photonic Beamforming Chip’</a>
+          <div class="card-meta">1 Apr 2026</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>The startup&#39;s programmable chip uses a metasurface architecture to control light without moving parts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-28T01:07:58.394Z | tags: optics-photonics, foundries, intellectual-property, supply-chain, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/forum/threads/inside-the-tsmc-patent-how-himax-quietly-became-a-key-link-in-the-cpo-supply-chain.24837/">Inside the TSMC Patent: How Himax Quietly Became a Key Link in the...</a>
+          <div class="card-meta">28 Mar 2026</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Himax Technologies has long been seen as a peripheral player in the AI boom. But that perception may be about to change.
+
+Buried inside a series of recent TSMC patent filings lies an unexpected...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-28T17:15:35.860Z | tags: optics-photonics, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2506.22707">X-pSRAM: A Photonic SRAM with Embedded XOR Logic for Ultra-Fast...</a>
+          <div class="card-meta">28 Jul 2025</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Traditional von Neumann architectures suffer from fundamental bottlenecks due to continuous data movement between memory and processing units, a challenge that worsens with technology scaling as electrical interconnect delays become more significant. These limitations impede the performance and energy efficiency required for modern data-intensive applications. In contrast, photonic in-memory computing presents a promising alternative by harnessing the advantages of light, enabling ultra-fast data propagation without length-dependent impedance, thereby significantly reducing computational latency and energy consumption. This work proposes a novel differential photonic static random access memory (pSRAM) bitcell that facilitates electro-optic data storage while enabling ultra-fast in-memory Boolean XOR computation. By employing cross-coupled microring resonators and differential photodiodes, the XOR-augmented pSRAM (X-pSRAM) bitcell achieves at least 10 GHz read, write, and compute operations entirely in the optical domain. Additionally, wavelength-division multiplexing (WDM) enables n-bit XOR computation in a single-shot operation, supporting massively parallel processing and enhanced computational efficiency. Validated on GlobalFoundries&#39; 45SPCLO node, the X-pSRAM consumed 13.2 fJ energy per bit for XOR computation, representing a significant advancement toward next-generation optical computing with applications in cryptography, hyperdimensional computing, and neural networks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-25T17:25:48.539Z | tags: optics-photonics, interconnects, semiconductors, datacenters -->
+      <div class="card-image">
+        <img src="https://assets.rbl.ms/58558428/origin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/co-packaged-optics?share_id=8747620&amp;socialux=facebook&amp;utm_campaign=RebelMouse&amp;utm_content=IEEE+Spectrum&amp;utm_medium=social&amp;utm_source=facebook&amp;fbclid=IwY2xjawJPxmVleHRuA2FlbQIxMQABHd6nfsEUjXNleRBU_DjWsN3pUhUR-OWfePVQpxYBd1XJuyZdQ8QV4BJTbQ_aem_bDXjxpROQ0k-qkQBRYqRYQ">A Crucial Optical Technology Has Finally Arrived</a>
+          <div class="card-meta">25 Mar 2025</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia&#39;s endorsement of co-packaged optics means the time is right</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-27T13:14:31.706Z | tags: interconnects, optics-photonics, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/10/xscape-photonics-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/10/17/one-laser-to-pump-up-ai-interconnect-bandwidth-by-10x/">One Laser To Pump Up AI Interconnect Bandwidth By 10X</a>
+          <div class="card-meta">27 Oct 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>According to rumors, Nvidia is not expected to deliver optical interconnects for its GPU memory-lashing NVLink protocol until the “Rubin Ultra” GPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-23T23:17:42.226Z | tags: optics-photonics, semiconductors, magnets -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_531655551-04-16-24.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/new-approach-to-encoding-optical-weights-for-in-memory-photonic-computing-using-magneto-optic-memory-cells/">New Approach to Encoding Optical Weights for In-Memory Photonic Computing Using Magneto-Optic Memory Cells</a>
+          <div class="card-meta">23 Oct 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “Integrated non-reciprocal magneto-optics with ultra-high endurance for photonic in-memory computing” was published by researchers at UC Santa Barbara, University of Cagliari, University of Pittsburgh, AIST and Tokyo Institute of Technology. Abstract “Processing information in the optical domain promises advantages in both speed and energy efficiency over existing digital hardware for... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-19T23:54:51.750Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_839148332-06-19-24-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/mini-review-of-photodetectors-and-image-sensors-materials-and-fabrication/">Mini Review of Photodetectors and Image Sensors: Materials and Fabrication</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “Image Sensors and Photodetectors Based on Low-Carbon Footprint Solution-Processed Semiconductors” was published by researchers at Cardiff University. Abstract “This mini-review explores the evolution of image sensors, essential electronic components increasingly integrated into daily life. Traditional manufacturing methods for image sensors and photodetectors, employing high carbon footprint techniques like thermal evaporation... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-29T20:11:02.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/21373/council-bluffs-network-room_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/21373/tsmc-adds-silicon-photonics-coupe-roadmap-128tbps-on-package">TSMC Jumps Into Silicon Photonics, Lays Out Roadmap For 12.8 Tbps COUPE On-</a>
+          <div class="card-meta">29 Apr 2024</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-02T05:42:25.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/OFC_Feature.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/4-fiber-optic-networking-spotlights-from-optical-fiber-conference">4 Fiber Optic Networking Spotlights From the Optical Fiber Conference</a>
+          <div class="card-meta">2 Apr 2024</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the leaders of the networking industry showed up to the Optical Fiber Conference, including Broadcom, MediaTek, Semtech, and MaxLinear.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-01T17:55:49.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Screenshot-2024-03-31-at-11.54.41%E2%80%AFAM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/the-challenges-of-working-with-photonics">The Challenges Of Working With Photonics</a>
+          <div class="card-meta">1 Apr 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>From curvilinear designs to thermal vulnerabilities, what engineers need to know about the advantages and disadvantages of photonics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-22T17:48:09.000Z | tags: deep-learning, optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/two-colorful-microscope-images.jpg?id=33603527&amp;width=1200&amp;height=600&amp;coordinates=0%2C7%2C0%2C7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/backpropagation-optical-ai">Photonic Chips Curb AI Training’s Energy Appetite</a>
+          <div class="card-meta">22 May 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Stanford team achieves first-ever optical backpropagation milestone</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-26T20:13:58.000Z | tags: optics-photonics, semiconductors, startups -->
+      <div class="card-image">
+        <img src="https://static.theceomagazine.net/wp-content/uploads/2023/04/21101537/salience-chip-design-1-1100x733.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theceomagazine.com/business/innovation-technology/ai-salience-chip-design">Salience Labs advances its AI agenda using new chip design</a>
+          <div class="card-meta">26 Apr 2023</div>
+          <div class="card-meta card-domain">theceomagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Vaysh Kewada, CEO and Co-Founder of Salience Labs, advances AI by circumventing finite processing power with a revolutionary new chip design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-09T11:42:33.000Z | tags: optics-photonics, semiconductors, lasers, interconnects -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/illustration-of-silicon-chips.png?id=33430609&amp;width=1200&amp;height=600&amp;coordinates=0%2C12%2C0%2C13" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/lasers-on-silicon">4 Ways to Put Lasers on Silicon - IEEE Spectrum</a>
+          <div class="card-meta">9 Apr 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>You can make many things with silicon photonics, but a laser is not one of them</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T21:49:18.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ayarlabs.com/?gclid=CjwKCAjwq5-WBhB7EiwAl-HEkkhbj29AeIbYeopK59h8HVnV4bFzwtURN_1hpEQ4ZLWsBXLUZWam5xoCTEMQAvD_BwE">Ayar Labs: Solving Bandwidth and Power Bottlenecks with Optical I/O</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">ayarlabs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ayar Labs solves bandwidth and power bottlenecks by moving data using light. We built the world&#39;s first optical I/O chiplets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T19:51:42.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.intel.com/content/www/us/en/architecture-and-technology/silicon-photonics/silicon-photonics-overview.html">Intel® Silicon Photonics</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">intel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel® Silicon Photonics combines the manufacturing scale and capability of silicon with the power of light onto a single chip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T19:51:27.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/intel_labs_integrated_photonics_thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/intel-labs-demonstrates-an-industry-first-in-integrated-photonics-an-eight-wavelegth-laser-array">Intel Showcases a Photonics “First” — an Eight-wavelength Laser Array - News</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel Lab researchers push photonics one step further by demonstrating a tightly controlled, highly integrated eight-wavelength laser.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:48:56.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2022/05/intel-core.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/p4eguoSg3h?ssr=true">Intel announces silicon photonics advancement towards optical I/O</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>Intel has demonstrated an eight-wavelength laser array on a silicon wafer paving the way for the next generation of integrated silicon photonics products.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:25:15.000Z | tags: interconnects, optics-photonics, semiconductors, copper -->
+      <div class="card-image">
+        <img src="https://regmedia.co.uk/2015/02/04/fiber_optics.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theregister.com/2022/06/18/optical_interconnect_future">Will optics replace copper interconnects? We asked Ayar Labs</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">theregister.com</div>
+        </div>
+        <div class="card-section">
+          <p>Star Trek&#39;s glowing circuit boards may not be so crazy</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-05T17:55:48.000Z | tags: antennas, circuits-electronics, optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/oam-lasers-1360px.jpg?fit=1360%2C765" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/optical-antennas-promise-unlimited-data-capacity">Optical Antennas Promise ‘Unlimited’ Data Capacity</a>
+          <div class="card-meta">5 Mar 2021</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The breakthrough is taking full advantage of the orbital angular momentum properties of a coherent light source, thus enabling multiplexing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:02:42.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://i2.wp.com/semiengineering.com/wp-content/uploads/2020/02/1300px-Silicon_Photonics_300mm_wafer.jpg?fit=1300%2C1198&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/making-light-more-reliable">Making Light More Reliable</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Silicon photonics is a promising technology, but it may take a while.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-16T01:57:06.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2019/04/download-10.png?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2019/04/15/lightelligence-releases-prototype-of-its-optical-ai-accelerator-chip">Lightelligence releases prototype of its optical AI accelerator chip</a>
+          <div class="card-meta">16 Apr 2019</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Boston-based startup Lightelligence&#39;s optical machine learning accelerator has entered prototyping stage, the startup announced.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-14T14:56:06.000Z | tags: optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2019/01/ab_photonics_connections_light.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2019/03/11/startup-sheds-some-light-on-optical-processing">Startup Sheds Some Light On Optical Processing</a>
+          <div class="card-meta">14 Mar 2019</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Optalysys, a startup based in the United Kingdom, has introduced an entry-level optical coprocessor, the first such system of its kind on the market. The</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,381 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>advertising-commercials + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-11-02T18:10:18.443Z | tags: prodmgmt, advertising-commercials, pricing -->
+      <div class="card-image">
+        <img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/fbccd5e2-30f3-419c-b235-e78f29d6049b/Screen_Shot_2023-01-20_at_11.40.29_AM.png?t=1674234421" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://capitalgains.thediff.co/p/counterintuitive-business-models">What Companies Do Well is Not Necessarily How They Make Money</a>
+          <div class="card-meta">2 Nov 2024</div>
+          <div class="card-meta card-domain">capitalgains.thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>Thoughts on business models that don&#39;t seem to make perfect sense</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-15T23:12:55.000Z | tags: adtech-adwords, advertising-commercials, auctions, ecommerce, game-theory, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/10/shutterstock_1294394836.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/google-rgsp-randomized-generalized-second-price-ad-auctions-explained-433053">What is RGSP? Google’s Randomized Generalized Second-Price ad auctions expl</a>
+          <div class="card-meta">15 Oct 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep dive into why the DOJ thinks RGSP makes ad auctions unfair, and why Google believes it creates a better user experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T00:26:28.000Z | tags: advertising-commercials, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.dictionary.com/images/dictionary_social_logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.dictionary.com/browse/sponsorship">Sponsorship Definition &amp; Meaning | Dictionary.com</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">dictionary.com</div>
+        </div>
+        <div class="card-section">
+          <p>The world&#39;s leading online dictionary: English definitions, synonyms, word origins, example sentences, word games, and more. A trusted authority for 25+ years!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-10T20:18:45.000Z | tags: adtech-adwords, advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2023/03/p-1-90861689-how-20-years-of-googles-adsense-changed-the-internet.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90861689/how-20-years-of-googles-adsense-changed-the-internet?partner=rss">How 20 years of Google’s AdSense changed the internet</a>
+          <div class="card-meta">10 Mar 2023</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s targeted ad initiative AdSense was initially launched as “content targeting advertising” 20 years ago this month. Here’s how it changed the internet.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-15T12:23:21.000Z | tags: advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24183422/1236892318.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/recode/2022/11/10/23450349/amazon-advertising-everywhere-prime-sponsored-products">Basically everything on Amazon has become an ad</a>
+          <div class="card-meta">15 Nov 2022</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>Inside the under-the-radar business that makes more money than Amazon Prime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-29T13:49:33.000Z | tags: adtech-adwords, advertising-commercials, behaviors, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theawl.com/2015/06/a-complete-taxonomy-of-internet-chum">A Complete Taxonomy of Internet Chum - The Awl</a>
+          <div class="card-meta">29 Oct 2022</div>
+          <div class="card-meta card-domain">theawl.com</div>
+        </div>
+        <div class="card-section">
+          <p>by John MahoneyThis is a bucket of chum. Chum is decomposing fish matter that elicits a purely neurological brain stem response in its target consumer: larger fish, like sharks. It signals that they should let go, deploy their nictitating  ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:14:12.000Z | tags: advertising-commercials, prodmgmt -->
+      <div class="card-image">
+        <img src="https://nicklafferty.com/uploads/google.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nicklafferty.com/blog/i-spent-6-million-on-google-ads-last-year-here-s-what-i-learned">I spent $6 Million On Google Ads Last Year</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">nicklafferty.com</div>
+        </div>
+        <div class="card-section">
+          <p>I spent a lot of money on Google ads last year across Search, Display, Youtube, Discovery, and Gmail. Here&#39;s what I learned.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:11:03.000Z | tags: advertising-commercials, marketing, movies-television, prodmgmt -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/06/23/arts/23product-placement-promo/23product-placement-promo-facebookJumbo.jpg?year=2022&amp;h=550&amp;w=1050&amp;s=4fd0f65ae3d4256f401e16103037c0ce8d49656fc880718147e04eaf749059b5&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/interactive/2022/06/23/arts/product-placement.html">Anatomy of a Product Placement (Published 2022)</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>As consumers skip ads and streaming content balloons, brands aim to be everywhere all at once.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:34:45.000Z | tags: advertising-commercials, prodmgmt -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/indie-hackers.appspot.com/content-pieces/ibTLPyjwVebnZjMGKvz6ztarnuV2/355a425b27/coins.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/article/we-wasted-50k-on-google-ads-so-you-dont-have-to-355a425b27">We Wasted $50K on Google Ads So You Don&#39;t Have To – Indie Hackers</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ever wondered if Google Ads are really worth it, but don&#39;t have the cash for an experiment? One&#39;s been done for you!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:32:31.000Z | tags: advertising-commercials, behaviors, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20200113211633-thinx-sundayad-crop.jpeg?format=pjeg&amp;auto=webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.entrepreneur.com/article/344940">How to Market Taboo Products</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">entrepreneur.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tips from successful campaigns promoting everything from shapewear to prostate health.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-08T23:59:37.000Z | tags: advertising-commercials, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.unsplash.com/photo-1533069027836-fa937181a8ce?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI1fHxhZHZlcnRpc2luZ3xlbnwwfHx8fDE2NDkyNTU5ODk&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theantistartup.com/i-stopped-advertising-everywhere-and-nothing-happened">I stopped advertising everywhere and nothing happened.</a>
+          <div class="card-meta">8 Apr 2022</div>
+          <div class="card-meta card-domain">theantistartup.com</div>
+        </div>
+        <div class="card-section">
+          <p>What happens when you turn off all of your Internet advertising? Apparently, nothing. This post explores how I came to the decision to turn off all ads, and what I found as a result.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T22:54:35.000Z | tags: advertising-commercials, attention, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://obryant.dev/cards/33542b6fd643d2fc191b573cc2b7ce2c58dba074.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thesample.ai/blog/advertising">Why I changed my mind about advertising | The Sample blog</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">thesample.ai</div>
+        </div>
+        <div class="card-section">
+          <p>I used to be very anti-advertising. Fast forward two years and several pivots, and my slightly-less-early-stage business is doing $900 per month in revenue... from ads.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:39:50.000Z | tags: advertising-commercials, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.unsplash.com/photo-1531036431755-9dd68462d653?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=e10e3b6dda58e8e9e595cce5d8c4cb23&amp;dpr=1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80&amp;cs=tinysrgb" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://zandercutt.com/2018/07/08/people-dont-buy-products-they-buy-better-versions-of-themselves">People Don’t Buy Products, They Buy Better Versions of Themselves – Zander</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">zandercutt.com</div>
+        </div>
+        <div class="card-section">
+          <p>What Apple, Samsung, and Starbucks learned from Pepsi Photo by John Fornander on Unsplash The year was 1957, and Pepsi — like many of the youth at that time — was dealing with an ide…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-14T19:39:56.000Z | tags: adtech-adwords, advertising-commercials, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/609d1120e97265530b5172a6/1620906272947/2.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://d2dadvisory.us6.list-manage.com/track/click?e=5331dc1744&amp;id=cb5bae7d5f&amp;u=c03518346fcb09658cfb234e4">Can Apple change ads? — Benedict Evans</a>
+          <div class="card-meta">14 Jun 2021</div>
+          <div class="card-meta card-domain">d2dadvisory.us6.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>20 years ago Apple seized music, and turned it into a lever for its broader business. It failed to do the same to TV, and lost control of music, but won massively in games, where it now makes more money than the entire global digital music industry. Now, perhaps, it’s looking at advertising.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-10T21:03:55.000Z | tags: advertising-commercials, marketing, movies-television, prodmgmt -->
+      <div class="card-image">
+        <img src="https://20627419.fs1.hubspotusercontent-na1.net/hubfs/20627419/The%20Hustle/Assets/GIFs/1690652668-header.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thehustle.co/the-economics-of-movie-product-placements">The economics of movie product placements</a>
+          <div class="card-meta">10 May 2021</div>
+          <div class="card-meta card-domain">thehustle.co</div>
+        </div>
+        <div class="card-section">
+          <p>Today’s films are brimming with products from big-name brands. How exactly do these partnerships work? And is the payoff worth it?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-21T23:49:18.000Z | tags: advertising-commercials, behaviors, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fimages.theconversation.com%2Ffiles%2F257627%2Foriginal%2Ffile-20190207-174890-1btlu70.jpg%3Fixlib%3Drb-1.1.0%26q%3D45%26auto%3Dformat%26w%3D496%26fit%3Dclip" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-decoy-effect-how-you-are-influenced-to-choose-without-really-knowing-it">The Decoy Effect: How You Are Influenced to Choose Without Really Knowing I</a>
+          <div class="card-meta">21 Feb 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Think you got a good deal? Look again.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-04T15:14:05.000Z | tags: advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.gkogan.co/content/images/2024/08/Solid_Color_126162.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gkogan.co/blog/looks-vs-results">Looks vs. Results: My ugly ad got 150% more clicks than a professional desi</a>
+          <div class="card-meta">4 Jan 2021</div>
+          <div class="card-meta card-domain">gkogan.co</div>
+        </div>
+        <div class="card-section">
+          <p>Making things look nice can take a long time, either due to lack of resources or abundance of opinions. This could delay launches, frustrate people, and waste precious energy. Those are high costs for startups or companies hoping to move fast.  Is it worth it?  Long ago I got fed</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T12:47:10.000Z | tags: advertising-commercials, prodmgmt, user-generated-content -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2019/03/meredithrobot.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/media/with-first-party-data-allrecipes-is-able-to-bake-reader-comments-into-advertisings-tools">With first-party data, Allrecipes is able to bake reader comments into adve</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Publisher comment sections are not only seen has hotbeds for toxicity, but historically have been very difficult to monetize.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:45:39.000Z | tags: advertising-commercials, brandmgmt, prodmgmt -->
+      <div class="card-image">
+        <img src="https://mojomox.com/assets/images/articles/_featured/how-to-name-brand.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mmarchny.com/naming-branding">Principles for Naming a Brand</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">mmarchny.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding a brand name can be a painful process but these eight rules, based on brand naming examples, cover everything to get it right.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:44:57.000Z | tags: advertising-commercials, glossaries, prodmgmt, video -->
+      <div class="card-image">
+        <img src="https://www.selectmedia.asia/wp-content/uploads/2019/08/COVERPHOTO-BLOGvideo-adversiting.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.selectmedia.asia/news/video-advertising-glossary">Video Advertising Glossary - SelectMedia</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">selectmedia.asia</div>
+        </div>
+        <div class="card-section">
+          <p>View our video advertising glossary and learn common terms that will help you understand better the world of video advertising.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-21T10:09:14.000Z | tags: advertising-commercials, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/mh-foreman-index-social-1582753812.png?crop=1.00xw:1.00xh;0,0&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.menshealth.com/technology-gear/a31121309/george-foreman-grill-history">How the Game-Changing George Foreman Grill Made History</a>
+          <div class="card-meta">21 Apr 2020</div>
+          <div class="card-meta card-domain">menshealth.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s been 25 years since an aging prizefighter, a quirky gadget, and iconic ’90s marketing combined to take over the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

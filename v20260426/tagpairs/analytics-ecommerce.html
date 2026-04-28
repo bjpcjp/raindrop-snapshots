@@ -1,0 +1,429 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>analytics + ecommerce &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-29T12:33:11.002Z | tags: ecommerce, analytics, search -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/12/AI-Takes-the-Thinking-Out-of-Shopping.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/the-psychology-of-ai-serps-and-shopping">The Psychology of AI SERPs and Shopping</a>
+          <div class="card-meta">29 Dec 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>The rise of &quot;zero-click&quot; searches may signal the coming effect of AI shopping on product discovery and decision-making.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-19T20:37:05.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2024/02/Mar24_19_1255616569.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2024/03/lessons-from-more-than-1000-e-commerce-pricing-tests">Lessons from More Than 1,000 E-Commerce Pricing Tests</a>
+          <div class="card-meta">19 Mar 2024</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>At most small and medium-sized e-commerce retailers, prices are typically set and updated in an ad hoc fashion without one clear owner. The process often starts by using a gross margin target, followed by some comparison with competitors, and then some adjustments from there. Many of these retailers would quickly admit that this isn’t an optimal strategy, and that they are likely leaving money on the table — and they’re often right. The authors’ experience with price testing has shown that there is actually a significant amount of money left on the table when pricing is left un-optimized.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T22:12:33.000Z | tags: analytics, ecommerce, seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/02/Tools-to-Export-Googles-SERPs.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tools-to-export-googles-serps">Tools to Export Google’s SERPs</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Knowing the URLs in search engine result pages leads to further analysis, such as referring domains, page authority, word count, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-29T12:08:48.000Z | tags: analytics, ecommerce, marketing -->
+      <div class="card-image">
+        <img src="https://posthog.com/og-images/foundersdev-marketing-paid-ads.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://posthog.com/blog/dev-marketing-paid-ads">Burning money on paid ads for a dev tool – what we&#39;ve learned</a>
+          <div class="card-meta">29 Sep 2023</div>
+          <div class="card-meta card-domain">posthog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Since starting PostHog in 2020, we’ve learned a bunch about what does and doesn’t work when it comes to  marketing to engineers . Paid ads is a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-27T21:59:10.000Z | tags: analytics, ecommerce, music -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1690c122-14d2-4cb7-9c78-9fa7b60e9b91_400x300.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/chrisdallariva/p/your-followers-are-not-your-fans?r=oc5d">Your Followers are not Your Fans</a>
+          <div class="card-meta">27 Sep 2023</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using data provided by Vivid Seats and Instagram, I learned that social media clout isn&#39;t all it&#39;s cracked up to be.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-14T13:06:36.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/08/Top-free-tools-for-use-in-paid-media.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/free-tools-ppc-campaign-management-430520">11 free tools for PPC campaign management</a>
+          <div class="card-meta">14 Aug 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>These tools can help you analyze PPC competitors, track search trends or design ad creative – all without spending a dime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-24T14:20:05.000Z | tags: analytics, ecommerce, excel, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Excel-tips-for-search-marketing-professionals-Formulas-and-functions.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/excel-formulas-functions-ppc-387428">7 useful Excel formulas and functions for PPC</a>
+          <div class="card-meta">24 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use these tips to quickly analyze performance data and identify high-impact PPC optimizations that will move the needle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T01:21:06.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Untitled-design-4.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/amazon-product-listing-optimization-must-haves-386902">5 Amazon product listing optimization must-haves</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon will continue to be highly competitive. Want to be successful? Optimize your product listings to the fullest with these tips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:29:45.000Z | tags: analytics, churn, ecommerce -->
+      <div class="card-image">
+        <img src="http://www.extendslogic.com/wp-content/uploads/2013/07/cancel_comments-475x304.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.extendslogic.com/business/why-people-cancel">Getting 200% More Actionable Feedback from Customers that Cancel - ExtendsLogic</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">extendslogic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting useful cancellation feedback from customers is tough. The problem is that once people have canceled, they’re no longer engaged and will rarely spend the time to give you feedback. One of the best things I’ve ever done to combat this with Bidsketch was to add a mandatory freeform text field that says: Please help… Continue reading Getting 200% More Actionable Feedback from Customers that Cancel →</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:22:25.000Z | tags: ecommerce, keywords-ppc-seo, analytics -->
+      <div class="card-image">
+        <img src="https://static.ahrefs.com/static/assets/ahrefs-YU6Y7RBK.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ahrefs.com">Ahrefs—Marketing Intelligence Tools Powered by Big Data.</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">ahrefs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unlock data to make effective decisions across digital marketing. SEO, content marketing, PPC, digital PR, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T01:58:28.000Z | tags: analytics, ecommerce, email, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/06/6-Email-Triggers-for-Max-Conversions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/email-triggers-for-max-conversions">6 Email Triggers for Max Conversions</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shoppers&#39; actions on an ecommerce site create opportunities for automated, triggered emails. Such behavior-based email automation is a sure-fire tactic to drive revenue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:05:33.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/05/BEST-MARKETING-AUTOMATION-TOOLS-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2022/05/13-marketing-automation-tools-that-can-help-you-boost-your-sales">13 marketing automation tools that can help you boost your sales</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The way we live our lives has an impact on our work. Long lists of typical chores may turn your</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:24.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/May22_13_1055306876.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/05/when-keyword-poaching-pays-off">When Keyword Poaching Pays Off</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Competitive poaching refers to the practice of bidding on ads for a competitor’s search terms, in order to poach customers searching for that brand. It’s a common tactic in the world of digital ads — but is it effective? The author shares results from the first-ever empirical study of this practice, which found that poaching can work well for higher-end brands, but may backfire for lower-end or mass market offerings. Specifically, the study found that when an ad poached customers who searched for a high-end brand, users clicked on it more, but when an ad poached a low-end or mass market target, users were less likely to click. Of course, the author notes that clickthrough rate is just one metric, and there may be other ways in which a poaching campaign could be harmful or beneficial. But these findings can help marketers add a bit of science to the art that is digital advertising, helping them to optimize campaigns for their unique products and customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-19T11:28:50.000Z | tags: analytics, ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/05/How-Keyword-Clustering-Powers-SEO.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/how-keyword-clustering-powers-seo">How Keyword Clustering Powers SEO</a>
+          <div class="card-meta">19 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Keyword lists for SEO are often cluttered and seemingly endless. &quot;Clustering&quot; can help by grouping keywords by a common modifier.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-19T19:55:09.000Z | tags: analytics, ecommerce, prodmgmt, sales-salesmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomtunguz.com/longitudinal-sales-analysis">The Sales Sandwich by @ttunguz</a>
+          <div class="card-meta">19 Feb 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most consistent sales leader I’ve worked with hit plan 27 consecutive quarters. How can a sales leader develop similar repeatability? Much goes into it here are the reports he used to manage his team at the board level. The PQR (pipeline-to-quota) funnel is first. Pipeline is the total value of the accounts within a stage or later. Quota is the aggregate quota on the street for the quarter. Divide P by Q to get PQR.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-17T22:04:31.000Z | tags: a-b, analytics, ecommerce, webdev -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/11/thumb2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/11-ab-testing-tools-to-optimize-conversions">11 A/B Testing Tools to Optimize Conversions</a>
+          <div class="card-meta">17 Nov 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B testing, the process of exposing randomized visitors to one or more variables, is among the most effective strategies to optimize user experiences and conversion rates. Here is a list of A/B testing tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T21:13:27.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/60b23bba289bde7618d0ac52/1622293434346/2.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2021/5/29/boxes-trucks-and-bikes">Boxes, trucks and bikes</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>Should we still be talking about online and offline retail, or about trucks versus boxes versus bikes?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-23T19:54:21.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://newsroom.haas.berkeley.edu/wp-content/uploads/2021/02/StubHub_AP-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://newsroom.haas.berkeley.edu/research/buyer-beware-massive-experiment-shows-why-ticket-sellers-hit-you-with-hidden-fees-drip-pricing">Buyer beware: Massive experiment shows why ticket sellers hit you with last-second fees | Haas News | Berkeley Haas</a>
+          <div class="card-meta">23 Feb 2021</div>
+          <div class="card-meta card-domain">newsroom.haas.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>There’s a reason that online ticket sellers hit you with those extra fees after you’ve picked your seats and are ready to click “buy.” Pure profit. A</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-23T18:55:40.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/06/6-Gaps-in-Google-Analytics-That-Require-Additional-Tools.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/6-gaps-in-google-analytics-that-require-additional-tools">7 Gaps in Google Analytics That Require Additional Tools</a>
+          <div class="card-meta">23 Jun 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google Analytics is a powerful, free web analytics platform. However, it has gaps that are better served by other tools. I&#39;ll address those gaps and tools in this post.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-16T17:44:27.000Z | tags: advertising-commercials, analytics, ecommerce -->
+      <div class="card-image">
+        <img src="https://www.indiehackers.com/images/shareables/home.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/@AntonElfimov/we-wasted-50k-on-google-ads-so-you-don-t-have-to-af688095de">We wasted $50K on Google Ads so you don’t have to</a>
+          <div class="card-meta">16 Jan 2019</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:43:38.000Z | tags: a-b, analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bdow.com/wp-content/uploads/2024/04/8b7543d2-14d1-4fd3-81f5-ff23b48ef081.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sumo.com/stories/ecommerce-ab-testing">25 Ecommerce A/B Testing Ideas For Your 5 Top Store Pages</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">sumo.com</div>
+        </div>
+        <div class="card-section">
+          <p>The biggest question in ecommerce A/B testing is not “how.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-04T17:17:39.000Z | tags: analytics, ecommerce, growth-hacks -->
+      <div class="card-image">
+        <img src="https://johnmcelborough.com/wp-content/uploads/2017/01/growth-hacking-strategies.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://johnmcelborough.com/growth-hacking-strategies">51 Examples of Growth Hacking Strategies &amp; Techniques From The World’s Most</a>
+          <div class="card-meta">4 Jun 2018</div>
+          <div class="card-meta card-domain">johnmcelborough.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how the world&#39;s fastest growing companies have hacked their way to success with innovative products, viral promotions and ingenious marketing campaigns. [6500 words]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-01-24T22:45:28.000Z | tags: a-b, analytics, ecommerce -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/01/Comparing-AB-and-Multivariate-Testing-.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/comparing-ab-multivariate-testing">Comparing A/B and Multivariate Testing</a>
+          <div class="card-meta">24 Jan 2018</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B tests are controlled experiments of two attributes, to measure which one was most popular with users. You can apply A/B testing to just about anything that you can measure. Multivariate testing allows you to measure multiple variables simultaneously.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-08-31T23:23:04.000Z | tags: analytics, ecommerce -->
+      <div class="card-image">
+        <img src="https://www.evanmiller.org/images/previews/how-not-to-sort-by-average-rating.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating – Evan Miller</a>
+          <div class="card-meta">31 Aug 2017</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+        <div class="card-section">
+          <p>Users are rating items on your website. How do you know what the highest-rated items are?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

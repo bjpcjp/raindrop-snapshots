@@ -1,0 +1,160 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + svm &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-03-12T16:06:01.426Z | tags: machine-learning, svm -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/12/DC-logo-emblem_multicolor.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2025/03/12/what-are-support-vector-machines-svm/">What are Support Vector Machines (SVM)? - Dataconomy</a>
+          <div class="card-meta">12 Mar 2025</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>Support Vector Machines (SVM) are supervised learning algorithms used for classification and regression by finding optimal decision boundaries between data classes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-03T19:33:19.529Z | tags: machine-learning, svm -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:786/1*Rm6KsmynCsYC9IC_rBNg-Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/towards-data-science/support-vector-machines-a-progression-of-algorithms-841d63574825?source=rss----7f60cf5620c9---4">Support Vector Machines: A Progression of Algorithms</a>
+          <div class="card-meta">3 Feb 2025</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>MMC, SVC, SVM: What’s the difference?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-08T00:29:40.000Z | tags: machine-learning, svm -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1jnh5889c5bifzs3c6ju.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/harshtiwari1710/svm-and-kernels-the-math-that-makes-classification-magic-11hh">SVM and Kernels: The Math that Makes Classification Magic</a>
+          <div class="card-meta">8 Apr 2024</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Imagine you&#39;re at a party separating people who love pizza (yum!) from those who...well, have...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:43.000Z | tags: machine-learning, svm -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/c_gentle_introduction_support_vector_machines_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/07/gentle-introduction-support-vector-machines.html">A Gentle Introduction to Support Vector Machines</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide to understanding support vector machines for classification: from theory to scikit-learn implementation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:50:30.000Z | tags: machine-learning, python, svm -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/89253020/f05d4100-6839-11eb-8595-9c797a965b17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb">scikit-and-tensorflow-workbooks/ch05-support-vector-machines.ipynb at master · bjpcjp/scikit-and-tensorflow-workbooks</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>based on &quot;Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow&quot; (O&#39;Reilly, Aurelien Geron) - bjpcjp/scikit-and-tensorflow-workbooks</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-19T01:35:09.000Z | tags: machine-learning, python, kernels, svm -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.49:0.48/1*eTraVvz2Xe4BRXVW3tQOcg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/svm-classifier-and-rbf-kernel-how-to-make-better-models-in-python-73bb4914af5b?source=rss----7f60cf5620c9---4">SVM Classifier and RBF Kernel — How to Make Better Models in Python</a>
+          <div class="card-meta">19 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A complete explanation of the inner workings of Support Vector Machines (SVM) and Radial Basis Function (RBF) kernel</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:19:47.000Z | tags: machine-learning, svm -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*yfSXkwbjGYvWodz2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/svm-kernels-what-do-they-actually-do-56ce36f4f7b8?source=rss----7f60cf5620c9---4">SVM Kernels: What Do They Actually Do?</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive visual explanation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

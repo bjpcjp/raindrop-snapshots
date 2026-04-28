@@ -1,0 +1,713 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + nlp &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-01-14T01:25:14.377Z | tags: llms, nlp, deep-learning, arxiv -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9242370c-229f-453d-924a-7a5aa4d20a4c_1090x502.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.latent.space/p/2025-papers?utm_campaign=post&amp;utm_medium=web">The 2025 AI Engineering Reading List</a>
+          <div class="card-meta">14 Jan 2025</div>
+          <div class="card-meta card-domain">latent.space</div>
+        </div>
+        <div class="card-section">
+          <p>We picked 50 paper/models/blogs across 10 fields in AI Eng: LLMs, Benchmarks, Prompting, RAG, Agents, CodeGen, Vision, Voice, Diffusion, Finetuning. If you&#39;re starting from scratch, start here.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T15:36:22.000Z | tags: deep-learning, nlp, rnns, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://johanwind.github.io/2023/03/23/rwkv_overview.html">Hacker News</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">johanwind.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>I explain what is so unique about the RWKV language model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-15T12:12:12.000Z | tags: deep-learning, nlp, llms-llama -->
+      <div class="card-image">
+        <img src="https://cocktailpeanut.github.io/dalai/preview.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cocktailpeanut.github.io/dalai#/">Dalai</a>
+          <div class="card-meta">15 Mar 2023</div>
+          <div class="card-meta card-domain">cocktailpeanut.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Dead simple way to run LLaMA on your computer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-25T19:33:58.000Z | tags: deep-learning, generative, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/02/meta_llm_hero_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2023/02/chatgpt-on-your-pc-meta-unveils-new-ai-model-that-can-run-on-a-single-gpu">Meta unveils a new large language model that can run on a single GPU</a>
+          <div class="card-meta">25 Feb 2023</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>LLaMA-13B reportedly outperforms ChatGPT-like tech despite being 10x smaller.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-16T01:53:18.000Z | tags: deep-learning, generative, ideas, machine-learning, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/639997a380800648445acf3f/1718919976911/B4AAC213-3764-4A49-A1F1-CA18B3368CF0.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2022/12/14/ChatGPT-imagenet">ChatGPT and the Imagenet moment — Benedict Evans</a>
+          <div class="card-meta">16 Dec 2022</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>The wave of enthusiasm around generative networks feels like another Imagenet moment - a step change in what ‘AI’ can do that could generalise far beyond the cool demos. What can it create, and where are the humans in the loop?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-11T17:03:38.000Z | tags: arxiv, deep-learning, nlp, llms-gpt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2212.03551.pdf">2212.03551.pdf</a>
+          <div class="card-meta">11 Dec 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-07T23:08:53.000Z | tags: deep-learning, language-linguistics, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/stratechery.com/wp-content/uploads/2020/03/Stratechery-2020-03-11-23.03.59.png?fit=1200%2C811&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stratechery.com/2022/ai-homework">AI Homework – Stratechery by Ben Thompson</a>
+          <div class="card-meta">7 Dec 2022</div>
+          <div class="card-meta card-domain">stratechery.com</div>
+        </div>
+        <div class="card-section">
+          <p>The first obvious casualty of large language models is homework: the real training for everyone, though, and the best way to leverage AI, will be in verifying and editing information.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-07T20:01:45.000Z | tags: deep-learning, nlp, stable-diffusion -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:512/1*xQrGG_weuH-N2kynjThfwg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/beginners-guide-to-diffusion-models-8c3435ccb4ae?source=rss----7f60cf5620c9---4">Beginner’s Guide to Diffusion Models</a>
+          <div class="card-meta">7 Dec 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive understanding of how AI-generated art is made by Stable Diffusion, Midjourney, or DALL-E</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-17T01:07:42.000Z | tags: deep-learning, goodreads, language-linguistics, nlp -->
+      <div class="card-image">
+        <img src="https://undark.org/wp-content/uploads/2022/10/GettyImages-1355827275_edit.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://undark.org/2022/10/07/interview-why-mastering-language-is-so-difficult-for-ai">Interview: Why Mastering Language Is So Difficult for AI</a>
+          <div class="card-meta">17 Oct 2022</div>
+          <div class="card-meta card-domain">undark.org</div>
+        </div>
+        <div class="card-section">
+          <p>Scientist Gary Marcus argues that “deep learning” is not the only path to true artificial intelligence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T23:58:45.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/gweb-research2023-media/images/9028529d0c2385dae8ae28c6af30335a-i.width-800.format-jpeg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html">Minerva: Solving Quantitative Reasoning Problems with Language Models</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">ai.googleblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Posted by Ethan Dyer and Guy Gur-Ari, Research Scientists, Google Research, Blueshift Team Language models have demonstrated remarkable performance...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:04:48.000Z | tags: chatbots, deep-learning, nlp, storytelling -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/610770ea9c21ff57ccb6a6a9/62bd407763a71d00cb40cb19_CleanShot%202022-06-29%20at%2023.18.59%402x.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.surgehq.ai/blog/generating-childrens-stories-using-gpt-3-and-dall-e">Generating Children&#39;s Stories Using GPT-3 and DALL·E</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">surgehq.ai</div>
+        </div>
+        <div class="card-section">
+          <p>We used GPT-3 and DALL·E to generate a children&#39;s storybook about Ash and Pikachu vs. Team Rocket. Read the story and marvel at the AI-generated visuals!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-21T19:37:37.000Z | tags: chatbots, deep-learning, machine-learning, nlp -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8auc5yhbd3ofsn3mlm9a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/evgeniykrasnokutsky/ai-virtual-assistant-technology-guide-2022-3n3i">AI Virtual Assistant Technology Guide 2022</a>
+          <div class="card-meta">21 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>They can help you get an appointment or order a pizza, find the best ticket deals and bring your...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-07T02:19:47.000Z | tags: chatbots, deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*BMnNj-LkuKhMm-f8" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/gpt-3-scared-you-meet-wu-dao-2-0-a-monster-of-1-75-trillion-parameters-832cd83db484?source=rss----7f60cf5620c9---4">Wu Dao 2.0: A Monster of 1.75 Trillion Parameters | by Alberto Romero | Med</a>
+          <div class="card-meta">7 Jun 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>BAAI conference presented Wu Dao 2.0. The most powerful AI to date.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-31T22:09:47.000Z | tags: deep-learning, machine-learning, nlp, sentiment-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:974/1*8RZ-43p0vFmdOBu1SHjyDg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/sentiment-analysis-comparing-3-common-approaches-naive-bayes-lstm-and-vader-ab561f834f89">Sentiment Analysis — Comparing 3 Common Approaches: Naive Bayes, LSTM, and</a>
+          <div class="card-meta">31 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sentiment Analysis, or Opinion Mining, is a subfield of NLP (Natural Language Processing) that aims to extract attitudes, appraisals, opinions, and emotions from text. Inspired by the rapid migration…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T00:45:39.000Z | tags: convolutions, deep-learning, nlp -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp">http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">wildml.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T00:45:26.000Z | tags: deep-learning, nlp -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp">Attention and Memory in Deep Learning and NLP – WildML</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">wildml.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-22T14:26:39.000Z | tags: chatbots, deep-learning, nlp, transformers -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F05%2FAI-Transformers-abstract-hed.jpg&amp;signature=dab3715e95a415da68eaecb9b4aebcc7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/news/understanding-transformers-the-machine-learning-model-behind-gpt-3-machine-learning-ai-syndication">Understanding Transformers, the machine learning model behind GPT-3</a>
+          <div class="card-meta">22 May 2021</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>How this novel neural network architecture changes the way we analyze complex data types, and powers revolutionary models like GPT-3 and BERT.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:56:07.000Z | tags: deep-learning, nlp, transformers -->
+      <div class="card-image">
+        <img src="https://theaisummer.com/static/6122618d7e1466853e88473ba375cdc7/ee604/transformer.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theaisummer.com/transformer">How Transformers work in deep learning and NLP: an intuitive introduction | AI Summer</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">theaisummer.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive understanding on Transformers and how they are used in Machine Translation. After analyzing all subcomponents one by one such as self-attention and positional encodings , we explain the principles behind the Encoder and Decoder and why Transformers work so well</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-04T14:22:38.000Z | tags: dask, deep-learning, gpus, nlp, nvidia -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*w9WCIHyMuQ9h5Pee" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/rapids-ai/state-of-the-art-nlp-at-scale-with-rapids-huggingface-and-dask-a885c19ce87b">State of the art NLP at scale with RAPIDS, HuggingFace and Dask</a>
+          <div class="card-meta">4 Apr 2021</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>See how to build end-to-end NLP pipelines in a fast and scalable way on GPUs — from feature engineering to inference.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-27T23:20:59.000Z | tags: chatbots, deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2021/02/gpt-3.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/02/27/gpt-3-were-at-the-very-beginning-of-a-new-app-ecosystem">GPT-3: We’re at the very beginning of a new app ecosystem</a>
+          <div class="card-meta">27 Feb 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>The NLP application ecosystem is in its earliest stages, and it&#39;s not yet clear whether GPT-3 or a different model will be the foundation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-05T22:40:47.000Z | tags: deep-learning, nlp, recommenders, search -->
+      <div class="card-image">
+        <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2021/02/DeText.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://developer.nvidia.com/blog/achieving-high-quality-search-and-recommendation-results-with-deepnlp">Achieving High-Quality Search and Recommendation Results with DeepNLP</a>
+          <div class="card-meta">5 Feb 2021</div>
+          <div class="card-meta card-domain">developer.nvidia.com</div>
+        </div>
+        <div class="card-section">
+          <p>Speech and natural language processing (NLP) have become the foundation for most of the AI development in the enterprise today, as textual data represents a significant portion of unstructured content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T11:19:04.000Z | tags: classification, deep-learning, nlp, text -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*V7bXCvUPDw5rIedZ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/cross-topic-argument-mining-learning-how-to-classify-texts-1d9e5c00c4cc?source=rss----7f60cf5620c9---4">Cross-Topic Argument Mining: Learning How to Classify Texts</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Classifying cross-topic natural language texts based on their argumentative structure using deep learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:21:03.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*w3-dy3whMFXPz2XI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-beginners-guide-to-use-bert-for-the-first-time-2e99b8c5423?source=rss----7f60cf5620c9---4">A Beginner’s Guide to Use BERT for the First Time</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>From predicting single sentence to fine-tuning using custom dataset to finding the best hyperparameter configuration.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T22:30:14.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://assets.amazon.science/dims4/default/7d37b6f/2147483647/strip/true/crop/951x499+0+17/resize/1200x630!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F91%2Fc9%2F4aab043e4973805be90d1737bba1%2Fagora.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.amazon.science/blog/a-version-of-the-bert-language-model-thats-20-times-as-fast">A version of the BERT language model that’s 20 times as fast</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">amazon.science</div>
+        </div>
+        <div class="card-section">
+          <p>Determining the optimal architectural parameters reduces network size by 84% while improving performance on natural-language-understanding tasks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:40:34.000Z | tags: chatbots, deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NdJ19yLbvv1NII7nEUJdeQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/gpt-3-transformers-and-the-wild-world-of-nlp-9993d8bb1314?source=rss----7f60cf5620c9---4">GPT-3, transformers and the wild world of NLP</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A review of 20+ deep learning NLP models and how to use them well</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:14:03.000Z | tags: chatbots, deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F07%2Frobots.jpg&amp;signature=b11955d66bd7e3e547541908e602d0b2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/neural/2020/09/21/ai-devs-created-a-lean-mean-gpt-3-beating-machine-that-uses-99-9-fewer-parameters">AI devs created a lean, mean, GPT-3-beating machine that uses 99.9% fewer p</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI researchers from the Ludwig Maximilian University (LMU) of Munich have developed a bite-sized text generator capable of besting OpenAI’s state of the art GPT-3 using only a tiny fraction of its parameters. GPT-3 is a monster of an AI sys</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:09:18.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://thegradient.pub/content/images/2020/09/main.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thegradient.pub/ai-democratization-in-the-era-of-gpt-3">AI Democratization in the Era of GPT-3</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">thegradient.pub</div>
+        </div>
+        <div class="card-section">
+          <p>What does Microsoft getting an &quot;exclusive license&quot; to GPT-3 mean for the future of AI democratization?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-20T16:28:16.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*rWhSy2fLidHCYxPH" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/evolution-of-language-models-n-grams-word-embeddings-attention-transformers-a688151825d2?source=rss----7f60cf5620c9---4">Evolution of Language Models: N-Grams, Word Embeddings, Attention &amp; Transfo</a>
+          <div class="card-meta">20 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This post collates research on the advancements of Natural Language Processing (NLP) over the years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-28T15:51:52.000Z | tags: deep-learning, nlp, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*PIpjPTlcrDyXLl2fDv34bA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/python-libraries-for-natural-language-processing-be0e5a35dd64">Python Libraries for Natural Language Processing - Towards Data Science</a>
+          <div class="card-meta">28 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Overview Of popular python libraries for Natural Language Processing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-24T16:24:11.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2004.08900">The Cost of Training NLP Models: A Concise Overview</a>
+          <div class="card-meta">24 Apr 2020</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>We review the cost of training large-scale language models, and the drivers of these costs. The intended audience includes engineers and scientists budgeting their model-training experiments, as...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T13:59:51.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*oAwFKQm3DJG_heudbBOY0Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/topic-modeling-articles-with-nmf-8c6b2a227a45?source=rss----7f60cf5620c9---4">Topic Modeling Articles with NMF</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extracting topics is a good unsupervised data-mining technique to discover the underlying relationships between texts. There are many…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:15:37.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://cdn.tldrthis.com/frontend-assets/tldrthis-krishna.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tldrthis.com">TLDR This - Article Summarizer &amp; Online Text Summarizing Tool</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">tldrthis.com</div>
+        </div>
+        <div class="card-section">
+          <p>TLDR This is a Free online text summarizing tool that automatically condenses long articles, documents, essays, or papers into key summary paragraphs using state-of-the-art AI.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:14:44.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/23e10f4b72d311b346e00c30e935be92f78d0085246b7dadd1e4fe41d1457c37/google-research/bert" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/google-research/bert">google-research/bert: TensorFlow code and pre-trained models for BERT</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>TensorFlow code and pre-trained models for BERT.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:14:25.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jalammar.github.io/illustrated-bert">The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning) – J</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">jalammar.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Discussions: Hacker News (98 points, 19 comments), Reddit r/MachineLearning (164 points, 20 comments)   Translations: Chinese (Simplified), French 1, French 2, Japanese, Korean, Persian, Russian, Spanish  2021 Update: I created this brief and highly accessible video intro to BERT      The year 2018 has been an inflection point for machine learning models handling text (or more accurately, Natural Language Processing or NLP for short). Our conceptual understanding of how best to represent words and sentences in a way that best captures underlying meanings and relationships is rapidly evolving. Moreover, the NLP community has been putting forward incredibly powerful components that you can freely download and use in your own models and pipelines (It’s been referred to as NLP’s ImageNet moment, referencing how years ago similar developments accelerated the development of machine learning in Computer Vision tasks).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-24T15:01:47.000Z | tags: deep-learning, nlp -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.intel.ai/bert-commercial-environments">Why BERT Fails in Commercial Environments - Intel AI</a>
+          <div class="card-meta">24 Mar 2020</div>
+          <div class="card-meta card-domain">intel.ai</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: deep-learning, machine-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*R8bEkSHE65EpgwmA_H0ABA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/machine-learning-in-practice/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78#hn">Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>By popular demand, I’ve updated this article with the latest tutorials from the past 12 months. Check it out here</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: deep-learning, nlp, llms-bert -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/C4E22AQERV7utC98QDw/feedshare-shrink_800/feedshare-shrink_800/0/1582933054953?e=2147483647&amp;v=beta&amp;t=2rnxyQHfr19Qeo7X9VvVj-AiFlBIbxTBoDMZdyYOgzk" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/activity-6639302449037406208-LJJ1">Vincent Boucher on LinkedIn: #transformer #bert #nlp</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pre-training SmallBERTa - A tiny model to train on a tiny dataset  An end to end colab notebook that allows you to train your own LM (using HuggingFace…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:12:38.000Z | tags: deep-learning, nlp, sentiment-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*TUqC3XRqvzErhnFC4h1Rcw@2x.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/quick-introduction-to-sentiment-analysis-74bd3dfb536c?source=rss----7f60cf5620c9---4">Quick Introduction to Sentiment Analysis</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is sentiment analysis, how to perform it, and how it can help your business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:09:34.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://huggingface.co/blog/assets/01_how-to-train/how-to-train_blogpost.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://huggingface.co/blog/how-to-train">How to train a new language model from scratch using Transformers and Tokenizers</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">huggingface.co</div>
+        </div>
+        <div class="card-section">
+          <p>We’re on a journey to advance and democratize artificial intelligence through open source and open science.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:02:42.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://www.microsoft.com/en-us/research/uploads/prod/2020/02/TurningNGL_Model__1400x788-5e418cff76a2a.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft">Turing-NLG: A 17-billion-parameter language model by Microsoft</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>This figure was adapted from a similar image published in DistilBERT. Turing Natural Language Generation (T-NLG) is a 17 billion parameter language model by Microsoft that outperforms the state of the art on many downstream NLP tasks. We present a demo of the model, including its freeform generation, question answering, and summarization capabilities, to academics […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-16T02:07:59.000Z | tags: deep-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1080/1*N8dB--YTD6Df0purs2zFJw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@lukas_1583/serving-gpt-2-in-google-cloud-platform-9ea07a69c87d">Serving GPT-2 in Google Cloud Platform</a>
+          <div class="card-meta">16 Feb 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>A CloudOps Journey</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T21:43:54.000Z | tags: deep-learning, nlp, sentiment-analysis -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://monkeylearn.com/blog/aspect-based-sentiment-analysis">Text Analytics</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">monkeylearn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Medallia&#39;s text analytics software tool provides actionable insights via customer and employee experience sentiment data analysis from reviews &amp; comments.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T22:56:28.000Z | tags: deep-learning, nlp -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://graceavery.com/word2vec-fish-music-bass">Word2vec: fish music = bass | graceavery</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">graceavery.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:41:14.000Z | tags: deep-learning, nlp, text -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/3a9ec1a321d5abc764ef5e4908347ee4aec77d6a3290a1f7c174285784678fe2/agnusmaximus/Word2Bits" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/agnusmaximus/Word2Bits">agnusmaximus/Word2Bits: Quantized word vectors that take 8x-16x less space than regular word vectors</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quantized word vectors that take 8x-16x less space than regular word vectors - agnusmaximus/Word2Bits</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

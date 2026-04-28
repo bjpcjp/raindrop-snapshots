@@ -1,0 +1,154 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + tpu &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-04-08T16:32:19.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_209583451-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/googles-tpuv4-architecture-3-major-features">Google’s TPU v4 Architecture: 3 Major Features</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings” was published by researchers at Google. Abstract: “In response to innovations in machine learning (ML) models, production workloads changed radically and rapidly. TPU v4 is the fifth Google domain specific architecture (DSA) and its third supercomputer... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-05T10:57:02.000Z | tags: deep-learning, semiconductors, tpu, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gwern.net/docs/ai/2021-jouppi.pdf">Ten Lessons From Three Generations Shaped Google’s TPUv4i - 2021-jouppi.pdf</a>
+          <div class="card-meta">5 Jan 2022</div>
+          <div class="card-meta card-domain">gwern.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T11:23:14.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/05/tpu2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/05/22/hood-googles-tpu2-machine-learning-clusters">Under The Hood Of Google’s TPU2 Machine Learning Clusters</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>As we previously reported, Google unveiled its second-generation TensorFlow Processing Unit (TPU2) at Google I/O last week. Google calls this new</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T19:54:44.000Z | tags: cpus, deep-learning, fpgas, gpus, tpu -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=25937">Analysis and Comparison of Performance and Power Consumption of Neural Netw</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>In this work, we analyze the performance of neural networks on a variety of heterogenous platforms. We strive to find the best platform in terms of raw benchmark performance, performance per watt a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:06:33.000Z | tags: deep-learning, tpu, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/05/tpu2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com.cdn.ampproject.org/c/s/www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/amp">Tearing Apart Google’s TPU 3.0 AI Coprocessor</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com.cdn.ampproject.org</div>
+        </div>
+        <div class="card-section">
+          <p>Google did its best to impress this week at its annual IO conference. While Google rolled out a bunch of benchmarks that were run on its current Cloud TPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:04:45.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/04/Google_TPU_2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/04/05/first-depth-look-googles-tpu-architecture">First In-Depth Look at Google’s TPU Architecture</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Four years ago, Google started to see the real potential for deploying neural networks to support a large number of new services. During that time it was</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-19T03:42:07.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2020/07/ml-perf-e1595989974532.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/05/18/google-details-new-ai-accelerator-chips">Google details new AI accelerator chips</a>
+          <div class="card-meta">19 May 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google detailed TPUv4 at Google I/O 2021. They&#39;re accelerator chips that deliver high performance on AI workloads.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

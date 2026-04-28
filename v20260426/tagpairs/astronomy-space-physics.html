@@ -1,0 +1,240 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>astronomy-space + physics &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-21T21:39:30.600Z | tags: physics, astronomy-space -->
+      <div class="card-image">
+        <img src="https://scx2.b-cdn.net/gfx/news/2026/the-seven-hour-explosi.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://phys.org/news/2026-03-hour-explosion.html">The seven hour explosion nobody could explain</a>
+          <div class="card-meta">21 Mar 2026</div>
+          <div class="card-meta card-domain">phys.org</div>
+        </div>
+        <div class="card-section">
+          <p>Gamma-ray bursts are the most violent explosions in the universe. In a fraction of a second, they can release more energy than the sun will emit across its entire 10-billion-year lifetime. Most are over before you&#39;ve had time to register them, gone in seconds, minutes at most. So when something arrived on 2 July 2025 that kept going for seven hours, fired three distinct bursts spread across an entire day, and then left behind an afterglow lasting months, astronomers knew immediately they were looking at something completely new.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-07T12:19:13.971Z | tags: physics, astronomy-space, algorithms-math -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2025/07/07/j2-effect/">The biggest perturbation of satellite orbits</a>
+          <div class="card-meta">7 Jul 2025</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most important factor left out of the two body problem is the J2 effect, due to the fact that the earth is not a sphere of uniform density.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-14T12:00:45.000Z | tags: physics, astronomy-space -->
+      <div class="card-image">
+        <img src="https://damn-8791.kxcdn.com/wp-content/uploads/2023/06/alt-cover-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.damninteresting.com/journey-to-the-invisible-planet">Journey to the Invisible Planet</a>
+          <div class="card-meta">14 Jun 2023</div>
+          <div class="card-meta card-domain">damninteresting.com</div>
+        </div>
+        <div class="card-section">
+          <p>The tangled history of humanity’s search for the solar system’s uncharted planets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-27T19:21:56.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/08/nothing_1200_Social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809">How the Physics of Nothing Underlies Everything | Quanta Magazine</a>
+          <div class="card-meta">27 Aug 2022</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>The key to understanding the origin and fate of the universe may be a more complete understanding of the vacuum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T14:07:00.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://149909199.v2.pressablecdn.com/wp-content/uploads/2014/05/Night-FEATURE-1-white-head.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://waitbutwhy.com/2014/05/fermi-paradox.html">The Fermi Paradox - Wait But Why</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">waitbutwhy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Fermi Paradox: There should be 100,000 intelligent alien civilizations in our galaxy — so why haven&#39;t we found any of them?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T22:08:20.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/06/GettyImages-758305395-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/science/2022/06/behold-the-magnetar-natures-ultimate-superweapon">Behold the Magnetar, nature’s ultimate superweapon</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Their magnetic fields—the strongest we’ve observed—could melt you from 1,000 km away.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-22T12:37:28.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://static.scientificamerican.com/sciam/cache/file/02B5B75A-FB7B-40EC-92AFFB225BF963ED_source.jpg?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.scientificamerican.com/article/star-treks-warp-drive-leads-to-new-physics">Star Trek&#39;s Warp Drive Leads to New Physics</a>
+          <div class="card-meta">22 Jul 2021</div>
+          <div class="card-meta card-domain">scientificamerican.com</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers are taking a closer look at this science-fiction staple—and bringing the idea a little closer to reality</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T12:17:26.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/7Ecnc8-uyo5X1714EtchF9r-F3w=/0x248:2800x1706/1200x625/media/img/mt/2021/02/GbwettyImages_667729579/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/science/archive/2021/02/to-infinity-and-beyond/617965">‘It Seems That I Know How the Universe Originated’</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The theoretical physicist Andrei Linde may have the world’s most expansive conception of what infinity looks like.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T12:13:12.000Z | tags: astronomy-space, goodreads, physics -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/5f4c8ee31b5069cd4598e44b/191:100/w_1280,c_limit/Backchannel_Interstellar-Travel_DSCF0694.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/mach-effect-thrusters-interstellar-travel">Gravity, Gizmos, and a Grand Theory of Interstellar Travel | WIRED</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>For decades, Jim Woodward dreamed of a propellantless engine to take humans to the stars. Now he thinks he’s got it. But is it revolutionary—or illusory?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-29T13:09:48.000Z | tags: astronomy-space, physics -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/4dda76cf-87a5-45da-9405-55feea6c7089/antimatter-v2.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/videos/logic-tells-us-that-antimatter-should-have-annihilated-the-universe-so-why-hasnt-it">What is antimatter?</a>
+          <div class="card-meta">29 Jun 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Logic tells us that antimatter should have annihilated the Universe. So why hasn’t it?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-16T09:24:22.000Z | tags: astronomy-space, goodreads, physics -->
+      <div class="card-image">
+        <img src="https://www.askamathematician.com/wp-content/uploads/2019/04/hereandthere.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.askamathematician.com/2019/04/q-why-was-it-so-hard-to-take-a-picture-of-a-black-hole-what-are-we-even-looking-at">Q: Why was it so hard to take a picture of a black hole? What are we even looking at?</a>
+          <div class="card-meta">16 Apr 2019</div>
+          <div class="card-meta card-domain">askamathematician.com</div>
+        </div>
+        <div class="card-section">
+          <p>Physicist: Black holes and space are both black, so there’s that.  But while black holes tend to be very small, space is bonkers big and filled with just enough stuff to give astronomers thin…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-08T18:16:39.000Z | tags: astronomy-space, goodreads, physics -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/04/FondoAntigua_Flickr_OldTelescope.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/science/2019/04/one-night-of-telescope-time-rules-out-black-holedark-matter-idea">One night of telescope time rules out black hole/dark matter idea</a>
+          <div class="card-meta">8 Apr 2019</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Black holes formed right after the Big Bang aren’t common enough to be dark matter.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

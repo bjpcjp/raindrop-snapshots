@@ -1,0 +1,196 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>a-b + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-01-26T18:45:30.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uB5i1y5Z_qdVqNWNTjKH9Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/25-a-b-testing-concepts-interview-cheat-sheet-c998a501f911?source=rss----7f60cf5620c9---4">25 A/B Testing Concepts — Interview Cheat Sheet</a>
+          <div class="card-meta">26 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Questions on A/B testing are being increasingly asked in interviews but reliable resources to prepare for these are still far and few…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:57:42.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/multivariate-vs-ab-testing-incremental-radical.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/multivariate-testing">Multivariate vs. A/B Testing: Incremental vs. Radical Changes</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Multivariate tests indicate how various UI elements interact with each other and are a tool for making incremental improvements to a design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:08:31.000Z | tags: a-b, analytics, experiments, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reforge.com/blog/good-experiment-bad-experiment">Reforge</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">reforge.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:13.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/WhyYouOnlyNeedToTest5Users_Social-Media-Posts_2021-15.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users">Why You Only Need to Test with 5 Users</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T14:16:59.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org/ab-testing">Evan&#39;s Awesome A/B Tools - sample size calculator, A/B test results, and mo</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:30:29.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.oliverpalmer.com/img/poppy-illustration.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://oliverpalmer.com/blog/you-probably-dont-need-ab-testing">Oliver Palmer | You probably don’t need A/B testing</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">oliverpalmer.com</div>
+        </div>
+        <div class="card-section">
+          <p>The best way to optimise your website is usually the simplest.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-07-25T22:17:21.000Z | tags: a-b, email, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.gkogan.co/content/images/2024/08/Solid_Color_126162.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gkogan.co/blog/increase-reply-rates">To Get More Replies, Say Less</a>
+          <div class="card-meta">25 Jul 2020</div>
+          <div class="card-meta card-domain">gkogan.co</div>
+        </div>
+        <div class="card-section">
+          <p>This is a story of how a software company was able to start a conversation with 8x more of their users by cutting the length of their emails by 90%. You could set up a test of this method in less than an hour.   The Problem  One of the most</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T14:03:56.000Z | tags: a-b, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SEpjZgdgJ4Rlic0SjQHPwA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-b-test-statistics-made-easy-8805ac2533d6?source=rss----7f60cf5620c9---4">A/B Test Statistics Made Easy</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Part 2: Proportion Metrics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cxl.com/wp-content/uploads/2019/09/image-17.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://conversionxl.com/blog/dont-build-growth-teams">I&#39;ve Built Multiple Growth Teams. Here&#39;s Why I Won&#39;t Do It Again. | CXL</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">conversionxl.com</div>
+        </div>
+        <div class="card-section">
+          <p>Big success. Bigger failure. And lots of lessons. Learn why building a growth team may be a multi-million dollar mistake.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:43:38.000Z | tags: a-b, analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bdow.com/wp-content/uploads/2024/04/8b7543d2-14d1-4fd3-81f5-ff23b48ef081.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sumo.com/stories/ecommerce-ab-testing">25 Ecommerce A/B Testing Ideas For Your 5 Top Store Pages</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">sumo.com</div>
+        </div>
+        <div class="card-section">
+          <p>The biggest question in ecommerce A/B testing is not “how.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

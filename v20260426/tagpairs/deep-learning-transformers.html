@@ -1,0 +1,235 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + transformers &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-03-30T02:53:57.000Z | tags: deep-learning, llms, transformers -->
+      <div class="card-image">
+        <img src="https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thegradient.pub/mamba-explained">Mamba Explained</a>
+          <div class="card-meta">30 Mar 2024</div>
+          <div class="card-meta card-domain">thegradient.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-31T15:36:22.000Z | tags: deep-learning, nlp, rnns, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://johanwind.github.io/2023/03/23/rwkv_overview.html">Hacker News</a>
+          <div class="card-meta">31 Mar 2023</div>
+          <div class="card-meta card-domain">johanwind.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>I explain what is so unique about the RWKV language model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-07T22:09:44.000Z | tags: deep-learning, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2">Hacker News</a>
+          <div class="card-meta">7 Feb 2023</div>
+          <div class="card-meta card-domain">lilianweng.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Many new Transformer architecture improvements have been proposed since my last post on “The Transformer Family” about three years ago. Here I did a big refactoring and enrichment of that 2020 post — restructure the hierarchy of sections and improve many sections with more recent papers. Version 2.0 is a superset of the old version, about twice the length. Notations Symbol Meaning $d$ The model size / hidden state dimension / positional encoding size.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-18T22:40:22.000Z | tags: deep-learning, machine-vision, pytorch, transformers -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/9edc731f2a99d5a99777494dd7aaa43716ebad2f0f59b90b9e38e48aaecebb2c/lucidrains/vit-pytorch" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/lucidrains/vit-pytorch">lucidrains/vit-pytorch: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch</a>
+          <div class="card-meta">18 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch - lucidrains/vit-pytorch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-20T22:31:27.000Z | tags: deep-learning, transformers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*Wvg_pNDViACfg-IK.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/all-you-need-to-know-about-attention-and-transformers-in-depth-understanding-part-2-bf2403804ada">All you need to know about ‘Attention’ and ‘Transformers’ — In-depth Unders</a>
+          <div class="card-meta">20 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Attention, Self-Attention, Multi-head Attention, Masked Multi-head Attention, Transformers, BERT, and GPT</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-20T22:31:11.000Z | tags: deep-learning, transformers -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:925/1*Rv_pntt-N2WL7LMbIptHxQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/all-you-need-to-know-about-attention-and-transformers-in-depth-understanding-part-1-552f0b41d021">All you need to know about ‘Attention’ and ‘Transformers’ — In-depth Unders</a>
+          <div class="card-meta">20 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Attention, Self-Attention, Multi-head Attention, and Transformers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-29T16:07:52.000Z | tags: deep-learning, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://e2eml.school/transformers.html">Transformers</a>
+          <div class="card-meta">29 Nov 2021</div>
+          <div class="card-meta card-domain">e2eml.school</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-05T12:05:38.000Z | tags: deep-learning, transformers -->
+      <div class="card-image">
+        <img src="https://arankomatsuzaki.wordpress.com/wp-content/uploads/2021/05/jax_logo.png?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j">GPT-J-6B: 6B JAX-Based Transformer – Aran Komatsuzaki</a>
+          <div class="card-meta">5 Jul 2021</div>
+          <div class="card-meta card-domain">arankomatsuzaki.wordpress.com</div>
+        </div>
+        <div class="card-section">
+          <p>Summary: We have released GPT-J-6B, 6B JAX-based (Mesh) Transformer LM (Github).GPT-J-6B performs nearly on par with 6.7B GPT-3 (or Curie) on various zero-shot down-streaming tasks.You can try out …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-15T00:14:36.000Z | tags: deep-learning, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2106.04554.pdf">2106</a>
+          <div class="card-meta">15 Jun 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-03T22:24:23.000Z | tags: deep-learning, transformers -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/4f3c8f4c810cac2343d9c600ee9266cf541122b3afad7d56b25d31a26739f230/NielsRogge/Transformers-Tutorials" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://email.mg2.substack.com/c/eJwlkE1vwyAMhn9NuS3iIwFy4LDLjjtMvUd8uJSVQARkVf79SCtZtmzLev0-VjfwuRxqy7WhMy3t2EAleNYIrUFBe4WyBKcIYdMoZ-TU6IicJAp1uRWAVYeoWtkBbbuJweoWcjoPqJwZFeiuRiLsbI1xYJnUTFvDRi2oBYuJJOP81tW7C5AsKPiDcuQEKKp7a1u9sM8L_erhQ7vvZrB57c13gFh_svfQm2vRqd5yWaHUj-vecgk6VhQUxZRgjll_fqR8IAOfhaZMymniBBNiwFCwhhOjRw5YssuIV0-HupvatH2cYqgo87vZ363v_On2Nexml17XPYV2LJC0ieDeHNqb5ovM4iFB6ZTdopsinFJBMRZYdjIv2x0UE1hwwQjqqi73q6QcwBZBlxSSfwI84vEPRvWPwA">NielsRogge/Transformers-Tutorials: This repository contains demos I made with the Transformers library by HuggingFace.</a>
+          <div class="card-meta">3 Jun 2021</div>
+          <div class="card-meta card-domain">email.mg2.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>This repository contains demos I made with the Transformers library by HuggingFace. - NielsRogge/Transformers-Tutorials</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T00:40:47.000Z | tags: deep-learning, transformers -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jalammar.github.io/illustrated-transformer">The Illustrated Transformer – Jay Alammar – Visualizing machine learning on</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">jalammar.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Discussions: Hacker News (65 points, 4 comments), Reddit r/MachineLearning (29 points, 3 comments)   Translations: Arabic, Chinese (Simplified) 1, Chinese (Simplified) 2, French 1, French 2, Italian, Japanese, Korean, Persian, Russian, Spanish 1, Spanish 2, Vietnamese  Watch: MIT’s Deep Learning State of the Art lecture referencing this post  Featured in courses at Stanford, Harvard, MIT, Princeton, CMU and others  In the previous post, we looked at Attention – a ubiquitous method in modern deep learning models. Attention is a concept that helped improve the performance of neural machine translation applications. In this post, we will look at The Transformer – a model that uses attention to boost the speed with which these models can be trained. The Transformer outperforms the Google Neural Machine Translation model in specific tasks. The biggest benefit, however, comes from how The Transformer lends itself to parallelization. It is in fact Google Cloud’s recommendation to use The Transformer as a reference model to use their Cloud TPU offering. So let’s try to break the model apart and look at how it functions.  The Transformer was proposed in the paper Attention is All You Need. A TensorFlow implementation of it is available as a part of the Tensor2Tensor package. Harvard’s NLP group created a guide annotating the paper with PyTorch implementation. In this post, we will attempt to oversimplify things a bit and introduce the concepts one by one to hopefully make it easier to understand to people without in-depth knowledge of the subject matter.  2020 Update: I’ve created a “Narrated Transformer” video which is a gentler approach to the topic:     A High-Level Look Let’s begin by looking at the model as a single black box. In a machine translation application, it would take a sentence in one language, and output its translation in another.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-22T14:26:39.000Z | tags: chatbots, deep-learning, nlp, transformers -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F05%2FAI-Transformers-abstract-hed.jpg&amp;signature=dab3715e95a415da68eaecb9b4aebcc7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/news/understanding-transformers-the-machine-learning-model-behind-gpt-3-machine-learning-ai-syndication">Understanding Transformers, the machine learning model behind GPT-3</a>
+          <div class="card-meta">22 May 2021</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>How this novel neural network architecture changes the way we analyze complex data types, and powers revolutionary models like GPT-3 and BERT.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:56:07.000Z | tags: deep-learning, nlp, transformers -->
+      <div class="card-image">
+        <img src="https://theaisummer.com/static/6122618d7e1466853e88473ba375cdc7/ee604/transformer.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theaisummer.com/transformer">How Transformers work in deep learning and NLP: an intuitive introduction | AI Summer</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">theaisummer.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive understanding on Transformers and how they are used in Machine Translation. After analyzing all subcomponents one by one such as self-attention and positional encodings , we explain the principles behind the Encoder and Decoder and why Transformers work so well</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

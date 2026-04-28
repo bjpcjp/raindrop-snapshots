@@ -1,0 +1,402 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>food-drink + history &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-01-02T10:29:58.190Z | tags: food-drink, history, culture -->
+      <div class="card-image">
+        <img src="https://cdn8.openculture.com/2021/08/22202825/823px-Victoria_Arduino_1922.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.openculture.com/2026/01/the-birth-of-espresso-the-story-behind-the-coffee-shots-that-fuel-modern-life.html">The Birth of Espresso: The Story Behind the Coffee Shots That Fuel Modern Life</a>
+          <div class="card-meta">2 Jan 2026</div>
+          <div class="card-meta card-domain">openculture.com</div>
+        </div>
+        <div class="card-section">
+          <p>Espresso is neither bean nor roast.
+
+It is a method of pressurized coffee brewing that ensures speedy delivery, and it has birthed a whole culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-26T08:16:03.113Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://cdn.thecollector.com/wp-content/uploads/2025/08/spice-trade-redrew-world-map.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thecollector.com/spice-trade-redrew-world-map/">How the Spice Trade Redrew the World Map | TheCollector</a>
+          <div class="card-meta">26 Sep 2025</div>
+          <div class="card-meta card-domain">thecollector.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the 15th and 16th centuries, the desire to expand and control the spice trade was one of the driving forces behind the Age of Exploration.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-24T10:35:28.590Z | tags: history, food-drink -->
+      <div class="card-image">
+        <img src="https://images.theconversation.com/files/679288/original/file-20250710-56-r813xs.png?ixlib=rb-4.1.0&amp;rect=0%2C169%2C1724%2C862&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theconversation.com/the-thousand-year-story-of-how-the-fork-crossed-europe-and-onto-your-plate-today-260704">The thousand-year story of how the fork crossed Europe, and onto your plate today</a>
+          <div class="card-meta">24 Sep 2025</div>
+          <div class="card-meta card-domain">theconversation.com</div>
+        </div>
+        <div class="card-section">
+          <p>From scandal to staple: how the fork travelled from Byzantium to Lithuania, helped by Queen Bona Sforza and centuries of changing table manners.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-13T04:28:36.000Z | tags: food-drink, history, inventions-innovation -->
+      <div class="card-image">
+        <img src="https://undark.org/wp-content/uploads/2024/07/GettyImages-951907286_crop.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://undark.org/2024/07/12/book-review-refrigeration-virtues-cold-chain">Book Review: Refrigeration and the Many Virtues of the Cold Chain</a>
+          <div class="card-meta">13 Jul 2024</div>
+          <div class="card-meta card-domain">undark.org</div>
+        </div>
+        <div class="card-section">
+          <p>Nicola Twilley’s &quot;Frostbite&quot; explores how refrigeration has shaped everything over time from our guts to economies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-05T06:16:45.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://www.messynessychic.com/wp-content/uploads/2022/05/ark__73873_pf0001848339_v0001-930x603-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.messynessychic.com/2022/05/05/the-country-bumpkins-who-gave-us-parisian-cafe-culture">The Country Bumpkins who gave us Parisian Café Culture</a>
+          <div class="card-meta">5 May 2024</div>
+          <div class="card-meta card-domain">messynessychic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Country Bumpkins who gave us Parisian Café Culture - Editor&#39;s Picks - Messy Nessy Chic</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-13T20:23:04.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="https://img.atlasobscura.com/YiQauTixwngo8ZdjSl8jUFxDn_XYt9omTrJFQeKF9uY/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8xYzAzNDgxZS1m/OTdlLTQ5ZjQtOGUz/ZS1lN2Y1YWYxNjFl/ZTY1MjkzNmM5MTFi/ZjI5NzM5YzJfbWV5/ZXJfbGVtb24uanBn.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.atlasobscura.com/articles/meyer-lemon">How America&#39;s Beloved Meyer Lemon Caused a Mid-Century Citrus Panic</a>
+          <div class="card-meta">13 Apr 2023</div>
+          <div class="card-meta card-domain">atlasobscura.com</div>
+        </div>
+        <div class="card-section">
+          <p>The fragrant fruit hid a dark secret.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T22:56:29.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8a1a87b-fbf0-44df-b74a-2422924f2fb3_1175x892.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://erikexamines.substack.com/p/the-missing-chinese-machine-revolution">The Missing Chinese Machine Revolution</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">erikexamines.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Before the industrial revolution, there had been a significant increase in machinery use in Europe. Why not in China?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-23T14:11:47.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/07/20/dining/18jewish-deli5/merlin_208624194_d6c7da34-76b7-42d1-a8e5-28b5d45bfdda-largeHorizontalJumbo.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=49409c11c2306c1e41b56bfe82d557d2ce25a0758e366c9b8e6348c42d2439d5&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/07/18/dining/jewish-deli-exhibit.html">A Traveling Jewish Deli Exhibit Tells an American Tale in Pickles and Pastr</a>
+          <div class="card-meta">23 Jul 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>“I’ll Have What She’s Having,” a traveling exhibit on the Jewish delicatessen, looks back at a vibrant institution fueled by immigration and irresistible food.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-11T11:37:30.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://image5.sixthtone.com/image/5/70/912.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sixthtone.com/news/1007963/how-the-chili-pepper-conquered-china">Hacker News</a>
+          <div class="card-meta">11 Jul 2022</div>
+          <div class="card-meta card-domain">sixthtone.com</div>
+        </div>
+        <div class="card-section">
+          <p>From a salt substitute in China’s impoverished southwest to a fixture on tables nationwide, chili peppers have come a long way over the past 400 years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T13:19:05.000Z | tags: food-drink, history, startups -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7376%2F1639445104_61b7f0aa79beb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-cup-noodles-became-one-of-the-biggest-transpacific-business-success-stories-of-all-time">How Cup Noodles Became One of the Biggest Transpacific Business Success Stories of All Time</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>There was a time when eating out of Cup Noodle’s iconic packaging exuded cosmopolitanism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-30T16:30:07.000Z | tags: crime, food-drink, history -->
+      <div class="card-image">
+        <img src="https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/2022-05-10-nypd-prohibition-pouring-liquor-1921-loc.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.saturdayeveningpost.com/2022/05/so-you-want-to-be-a-bootlegger">So You Want to Be a Bootlegger | The Saturday Evening Post</a>
+          <div class="card-meta">30 May 2022</div>
+          <div class="card-meta card-domain">saturdayeveningpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>In a 1922 Post article, an ex-bootlegger offers advice for how to break into the business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-18T11:48:48.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://www.sapiens.org/app/uploads/2022/05/03_roman-olive-oil-press.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sapiens.org/archaeology/olive-oil-ancient-egypt">Here’s How to Make Olive Oil Like an Ancient&amp;nbsp;Egyptian</a>
+          <div class="card-meta">18 May 2022</div>
+          <div class="card-meta card-domain">sapiens.org</div>
+        </div>
+        <div class="card-section">
+          <p>An archaeologist pieces together a recipe for olive oil crafted in ancient Egypt. It’s easy for you to try at home.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-10T01:53:02.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p0byk3cq.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/travel/article/20220404-the-worlds-oldest-dessert">The world&#39;s oldest dessert?</a>
+          <div class="card-meta">10 Apr 2022</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Although chickpeas and beans don&#39;t usually belong in a pudding, they are core ingredients in one of the oldest – and, some say, one of the most delicious – desserts in the world.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-09T20:02:44.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://images.tedium.co/uploads/tedium020922.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tedium.co/2022/02/09/heart-shaped-pizza-history">Heart of Mold</a>
+          <div class="card-meta">9 Feb 2022</div>
+          <div class="card-meta card-domain">tedium.co</div>
+        </div>
+        <div class="card-section">
+          <p>Why we’re obsessed with heart-shaped foods around Valentine’s Day—especially the suddenly ubiquitous heart-shaped pizza.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-07T18:52:03.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/51bf0e35e4b010d205f86840/t/615c7c7fc4e25e665f210188/1633475456817/Header.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bittersoutherner.com/feature/2021/still-she-rises-erika-council-biscuits">Still She Rises — THE BITTER SOUTHERNER</a>
+          <div class="card-meta">7 Jan 2022</div>
+          <div class="card-meta card-domain">bittersoutherner.com</div>
+        </div>
+        <div class="card-section">
+          <p>Biscuit-whisperer Erika Council honors the women who taught her to bake a perfect biscuit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T00:15:40.000Z | tags: food-drink, history, language-linguistics -->
+      <div class="card-image">
+        <img src="https://img.atlasobscura.com/Tm7PQkTmhELQ23fUKmhqAJwQ3IOEBWxalIfRcvhlMkE/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy9hMGRkYmFhMi0x/NWJlLTQwODAtODBh/MS1mOTFkMDY0OTI3/ZDg1YzlmYzUwN2Y1/Yzc1OWYxNTFfQUFL/WDhNLmpwZw.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.atlasobscura.com/articles/soda-jerk-slang?fbclid=IwAR0i8GPSrxJhBZi7lzLGrEJJHb-abt_H_3MuZjXJ3R3vRjXMw3gi7u4zTCk">The Lost Lingo of New York City’s Soda Jerks</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">atlasobscura.com</div>
+        </div>
+        <div class="card-section">
+          <p>Anyone for a &quot;glob&quot;?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T20:54:38.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="https://www.seriouseats.com/thmb/Nxwu9hw9gzK8ayBcz59lHZWIVMY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__05__20160524-carolina-gold-rice-vicky-wasik-5-661a15dba135474582fa4a8c247aab4e.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.seriouseats.com/carolina-gold-heirloom-rice-anson-mills">The Story of Carolina Gold, the Best Rice You&#39;ve Never Tasted</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">seriouseats.com</div>
+        </div>
+        <div class="card-section">
+          <p>Due in large part to Glenn Roberts of Anson Mills, a Georgia optometrist, and several members of what&#39;s known as the Carolina Gold Rice Foundation (yes, that exists), Carolina Gold rice is back, allowing a new generation of home cooks to experience what real Lowcountry cooking was meant to taste like.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-22T22:08:12.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1065%2F1567200031_5d431fa004b5d.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-fish-and-chips-migrated-to-great-britain">How Fish and Chips Migrated to Great Britain</a>
+          <div class="card-meta">22 Nov 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The fried fish was introduced by Jews fleeing religious persecution.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-04T02:14:52.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="https://img.atlasobscura.com/1fTVDIvX-7KRjS929obDtC7e-LGQQ47cScEysnYq2OQ/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MWZkMzhhNi0w/MTg1LTQ1NGMtYWUy/Ny0wNDA0MzliNGJk/ODVjZWNjNTMyMTY1/NmI2YzJkNTdfVG9t/J3MgQXBwbGUgRXho/aWJpdCBhdCBGYWxs/IENyZWVrIEZhbGxz/IFN0YXRlIFBhcmss/IFROIDAwMS5KUEc.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.atlasobscura.com/articles/heritage-appalachian-apples">Meet the Appalachian Apple Hunter Who Rescued 1,000 &#39;Lost&#39; Varieties</a>
+          <div class="card-meta">4 Jun 2021</div>
+          <div class="card-meta card-domain">atlasobscura.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tom Brown&#39;s retirement hobby is a godsend for chefs, conservationists, and cider.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-16T17:05:37.000Z | tags: food-drink, goodreads, history -->
+      <div class="card-image">
+        <img src="https://www.economist.com/img/b/2420/1361/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/header-coffee-flipped-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.1843magazine.com/food-drink/food-fight/how-turkish-coffee-destroyed-an-empire">How Turkish coffee destroyed an empire</a>
+          <div class="card-meta">16 Mar 2019</div>
+          <div class="card-meta card-domain">1843magazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Kahve was a favourite drink of the Ottoman Empire’s ruling class. Little did they know it would one day hasten the empire’s demise</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-03T20:22:01.000Z | tags: food-drink, history -->
+      <div class="card-image">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/DTx30ag_5CNwTikoMlpcD5g4fiM=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/7e/68/7e685d5f-ce6e-473b-a6da-2837fd12a318/the_ladies_home_journal_1948_14787132323-copy.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smithsonianmag.com/history/brief-history-americas-appetite-for-macaroni-cheese-180969185?no-ist=">A Brief History of America&#39;s Appetite for Macaroni and Cheese</a>
+          <div class="card-meta">3 Jun 2018</div>
+          <div class="card-meta card-domain">smithsonianmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Popularized by Thomas Jefferson, this versatile dish fulfills our nation&#39;s quest for the &#39;cheapest protein possible&#39;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2014-10-24T00:00:00.000Z | tags: food-drink, history, china -->
+      <div class="card-image">
+        <img src="https://image5.sixthtone.com/image/5/82/730.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sixthtone.com/news/1016009">The Puzzling History of China’s Most Controversial Flavoring</a>
+          <div class="card-meta">24 Oct 2014</div>
+          <div class="card-meta card-domain">sixthtone.com</div>
+        </div>
+        <div class="card-section">
+          <p>Monosodium glutamate, better known as MSG, is a Japanese import that became as Chinese as Kung Pao chicken. But its spread was more historical accident than foreordained.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

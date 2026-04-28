@@ -1,0 +1,288 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>analytics + python &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-09-08T14:26:22.194Z | tags: analytics, market-basket, python -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/08/sta-chugani-calculate-support-confidence-lift-python-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/how-to-calculate-support-confidence-and-lift-in-python/">How to Calculate Support, Confidence, and Lift in Python</a>
+          <div class="card-meta">8 Sep 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to calculate support, confidence, and lift metrics for market basket analysis using Python&#39;s mlxtend library.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-16T01:27:42.425Z | tags: analytics, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*HojAeCqsrX-W2e61iKlt_Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/marketing-mix-modeling-mmm-how-to-avoid-biased-channel-estimates-f9201fc3e91d?source=rss----7f60cf5620c9---4">Marketing Mix Modeling (MMM): How to Avoid Biased Channel Estimates</a>
+          <div class="card-meta">16 Oct 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn which variables you should and should not take into account in your model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-08-01T03:43:11.000Z | tags: analytics, custsvc, python -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2024/07/Analyzing-Customer-Satisfaction-with-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2024/07/29/customer-satisfaction-analysis-with-python">Customer Satisfaction Analysis with Python</a>
+          <div class="card-meta">1 Aug 2024</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through the task of Customer Satisfaction Analysis with Python. Customer Satisfaction Analysis with Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-30T23:53:51.000Z | tags: algorithms-math, machine-learning, market-basket, python, analytics -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/10/Market-Basket-Analysis-using-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/10/16/market-basket-analysis-using-python">Market Basket Analysis using Python</a>
+          <div class="card-meta">30 Oct 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through the task of Market Basket Analysis using Python. Market Basket Analysis using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-29T23:23:48.000Z | tags: analytics, prodmgmt, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/0*86c2982b8463a69eded79148b6f96ad57ad6b4c7.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@abhijeetstalaulikar/list/marketing-mix-modeling-ebceca2350ff">List: Marketing Mix Modeling | Curated by Abhijeet Talaulikar | Medium</a>
+          <div class="card-meta">29 Jul 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>8 stories · A guide to building an end-to-end marketing mix optimization solution for your organization.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:42.000Z | tags: analytics, machine-learning, prodmgmt, python, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*0IhNM1bWxPaxFGz7bGqobw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-a-data-scientists-guide-to-optimizing-a-credit-card-renewal-campaign-9f02f863067a">Uplift Modeling — A Data Scientist’s Guide to Optimizing a Credit Card Rene</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Applying causal machine learning to trim the campaign target audience</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-17T21:46:14.000Z | tags: analytics, pricing, python -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/04/Retail-Price-Optimization-using-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/04/17/retail-price-optimization-using-python">Retail Price Optimization using Python</a>
+          <div class="card-meta">17 Apr 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I will walk you through the task of Retail Price Optimization with Machine Learning using Python. Retail Price Optimization.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-09T12:04:35.000Z | tags: python, sales-ops-planning, supply-chain, analytics -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/04/Supply-Chain-Analysis-using-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/04/03/supply-chain-analysis-using-python">Supply Chain Analysis using Python</a>
+          <div class="card-meta">9 Apr 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I will take you through the task of Supply Chain Analysis using Python. Supply Chain Analysis using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-17T22:42:48.000Z | tags: advertising-commercials, analytics, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*YEzmKt8RXJsdmDDz" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/media-mix-modeling-how-to-measure-the-effectiveness-of-advertising-with-python-lightweightmmm-b6d7de110ae6?source=rss----7f60cf5620c9---4">Media Mix Modeling: How to measure the effectiveness of advertising with Py</a>
+          <div class="card-meta">17 Dec 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Media Mix modeling, its implementation, and practical tips</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:01:57.000Z | tags: analytics, bayes, forecasting-predictions, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*UAUwlqs4Seck0i5b" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://buff.ly/3zzJfUy">Bayesian Hierarchical Marketing Mix Modeling in PyMC</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">buff.ly</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to build MMMs for different countries the right way</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-01T19:39:07.000Z | tags: analytics, dask, pandas, python, vaex -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*-RQZYqNWKwn34rpy" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/s7elocy8geb">Are You Still Using Pandas to Process Big Data in 2021?</a>
+          <div class="card-meta">1 Mar 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas doesn’t handle well Big Data. These two libraries do! Which one is better? Faster?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T13:50:41.000Z | tags: a-b, analytics, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*cQOmpvcO_hKWHoB1sQNXYg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-b-testing-a-complete-guide-to-statistical-testing-e3f1db140499?source=rss----7f60cf5620c9---4">A/B Testing — A complete guide to statistical testing</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Optimizing web marketing strategies through statistical testing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T13:50:10.000Z | tags: a-b, analytics, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/60fd065c3f7227d12b510302a435b66d18687b350e2877f88aa901c7a8ca8830/bjpcjp/AB_Testing" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/AB_Testing/blob/main/AB_Testing.ipynb">AB_Testing/AB_Testing.ipynb at main · bjpcjp/AB_Testing</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B Testing — A complete guide to statistical testing - bjpcjp/AB_Testing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:56.000Z | tags: analytics, python -->
+      <div class="card-image">
+        <img src="https://cdn.aboutwayfair.com/dims4/default/72a4236/2147483647/strip/true/crop/890x467+0+84/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcdn.aboutwayfair.com%2F26%2F56%2F6a48e6a44998b90781ff0d395840%2Fc751a432-pylift-feature-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.wayfair.com/data-science/2018/10/pylift-a-fast-python-package-for-uplift-modeling">Pylift: A Fast Python Package for Uplift Modeling – Wayfair</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">tech.wayfair.com</div>
+        </div>
+        <div class="card-section">
+          <p>Uplift models seek to predict the incremental value attained in response to a treatment. For example, if we want to know the value of showing an advertisement to someone, typical response models will only tell us that a person is likely to purchase after being given an advertisement, though they may have been likely to purchase already. Uplift models will predict how much more likely they are to purchase after being shown the ad. The most scalable uplift modeling packages to date are theoretically rigorous, but, in practice, they can be prohibitively slow. We have written a Python package, pylift, that implements a transformative method wrapped around scikit-learn to allow for (1) quick implementation of uplift, (2) rigorous uplift evaluation, and (3) an extensible python-based framework for future uplift method implementations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T17:38:59.000Z | tags: analytics, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:666/1*EuqHC0-iQpNW6yNMJdpbnA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/annotated-heatmaps-in-5-simple-steps-cc2a0660a27d">Annotated Heatmaps of a Correlation Matrix in 5 Simple Steps | by Julia Kho</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A heatmap is a graphical representation of data in which data values are represented as colors. That is, it uses color in order to…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

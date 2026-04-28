@@ -1,0 +1,222 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>blockchain + crypto &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-10-27T18:10:03.337Z | tags: blockchain, crypto, bitcoin -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2025/10/27/blockchain/">Full details of how blockchain blocks are chained together</a>
+          <div class="card-meta">27 Oct 2025</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>How blocks in the Bitcoin blockchain are chained together. Looking at an example at the the byte level to get the real story, past the oversimplifications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T03:59:12.000Z | tags: blockchain, crypto -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxhkvyk75wc3us0qgrayu.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/up_min_sparcs/building-blocks-a-comprehensive-overview-of-blockchain-fundamentals-4e37">Building Blocks: A Comprehensive Overview of Blockchain Fundamentals</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This article is co-authored by @gracieabot_  Is it a revolution or merely hype? In a world where...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-30T15:55:26.000Z | tags: blockchain, crypto, consensus -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fenfi3jazm6wxhvxmaptw.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/scofieldidehen/consensus-protocols-explaining-proof-of-work-proof-of-stake-and-other-algorithms-for-validation-2n84">Consensus Protocols: Explaining Proof-of-Work, Proof-of-Stake, and Other Al</a>
+          <div class="card-meta">30 Aug 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In the realm of blockchain technology and cryptocurrencies, the concept of consensus plays a pivotal...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T15:24:28.000Z | tags: blockchain, crypto, theft -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2022/12/JF23_DSC_8055_thumb.jpeg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2023/01/02/1064795/certik-ronghui-gu-crypto-computer-science?fbclid=IwAR0NjtjbKpyCTo9Ck6JuXI9Hn3QF7j7nNtHWWIgHfH5UM9c3FgwlLweNYm4">The computer scientist who hunts for costly bugs in crypto code</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>Programming errors on the blockchain can mean $100 million lost in the blink of an eye. Ronghui Gu and his company CertiK are trying to help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-23T14:54:18.000Z | tags: blockchain, crypto -->
+      <div class="card-image">
+        <img src="https://www.popsci.com/wp-content/uploads/2021/11/15/brian-wangenheim-dpJMHumNc6E-unsplash-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.popsci.com/technology/beginners-guide-to-cryptocurrency">A beginner’s guide to how cryptocurrencies work</a>
+          <div class="card-meta">23 Nov 2021</div>
+          <div class="card-meta card-domain">popsci.com</div>
+        </div>
+        <div class="card-section">
+          <p>For those who are just wading into the crypto territory, here’s a basic explainer on how the computer science behind these systems work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-16T00:10:28.000Z | tags: blockchain, crypto, goodreads, truecrime -->
+      <div class="card-image">
+        <img src="https://ichef.bbci.co.uk/news/1024/branded_news/17996/production/_109826669_queen_promo-nc.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/news/stories-50435014">Cryptoqueen: How this woman scammed the world, then vanished - BBC News</a>
+          <div class="card-meta">16 May 2021</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>How did Ruja Ignatova make $4bn selling her fake cryptocurrency to the world - and where did she go?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-13T10:29:56.000Z | tags: blockchain, crypto -->
+      <div class="card-image">
+        <img src="https://www.elliptic.co/hubfs/joker-stash-elliptic.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.elliptic.co/blog/jokers-stash-retiring">Cybercriminal Joker&#39;s Cash Retires with Billions in Bitcoin</a>
+          <div class="card-meta">13 Feb 2021</div>
+          <div class="card-meta card-domain">elliptic.co</div>
+        </div>
+        <div class="card-section">
+          <p>According to Elliptic’s analysis, the founder of one of the most popular carding marketplaces, Joker’s Stash, has retired having amassed a fortune of over $1 billion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:47:54.000Z | tags: blockchain, crypto -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blockchain.mit.edu/how-blockchain-works">1. How Blockchain Works — blockchain.mit.edu</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">blockchain.mit.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:47:52.000Z | tags: blockchain, crypto -->
+      <div class="card-image">
+        <img src="https://www.strategy-business.com/media/image/A-Strategists-Guide-to-Blockchain_thumb5_690x400.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.strategy-business.com/article/A-Strategists-Guide-to-Blockchain">A strategist’s guide to blockchain</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">strategy-business.com</div>
+        </div>
+        <div class="card-section">
+          <p>The distributed ledger technology that started with bitcoin is rapidly becoming a crowdsourced system for all types of verification. Could it replace notary publics, manual vote recounts, and the way banks manage transactions?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:47:50.000Z | tags: blockchain, crypto -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blockgeeks.com/guides/what-is-blockchain-technology">What is Blockchain Technology? A Step-by-Step Guide For Beginners</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">blockgeeks.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:47:49.000Z | tags: blockchain, crypto -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://eng.paxos.com/blockchain-101-foundational-math">Blockchain 101 - Foundational Math</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">eng.paxos.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-10T21:09:46.000Z | tags: blockchain, crypto -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2017/11/zeroproof-7.png?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/s/609448/a-mind-bending-cryptographic-trick-promises-to-take-blockchains-mainstream">A Mind-Bending Cryptographic Trick Promises to Take Blockchains Mainstream</a>
+          <div class="card-meta">10 Nov 2017</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cryptographers have researched zero-knowledge proofs for two decades, but the technique is only just now poised to redefine the concept of online privacy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

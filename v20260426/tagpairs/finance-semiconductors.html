@@ -1,0 +1,128 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>finance + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-08T22:01:37.518Z | tags: semiconductors, finance, datacenters -->
+      <div class="card-image">
+        <img src="https://a.fsdn.com/sd/topics/business_64.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.slashdot.org/story/25/12/08/1530255/the-accounting-uproar-over-how-fast-an-ai-chip-depreciates?utm_source=feedly1.0mainlinkanon&amp;utm_medium=feed">The Accounting Uproar Over How Fast an AI Chip Depreciates - Slashdot</a>
+          <div class="card-meta">8 Dec 2025</div>
+          <div class="card-meta card-domain">tech.slashdot.org</div>
+        </div>
+        <div class="card-section">
+          <p>Tech giants including Meta, Alphabet, Microsoft and Amazon have all extended the estimated useful lives of their servers and AI equipment over the past five years, sparking a debate among investors about whether these accounting changes are artificially inflating profits. Meta this year increased it...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-03T22:05:58.000Z | tags: finance, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6937675-2dce-4c51-a6f9-87152b8a31c5_1368x657.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/mule/p/fabricated-knowledge-q2-2024-quarterly?r=oc5d">Fabricated Knowledge Q2 2024 Quarterly Review</a>
+          <div class="card-meta">3 Jul 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here&#39;s everything that happened this quarter, and some thoughts and ideas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-06T21:36:10.000Z | tags: finance, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.adapteva.com/wp-content/uploads/chips_tux1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.adapteva.com/andreas-blog/semiconductor-economics-101">An Introduction to Semiconductor Economics</a>
+          <div class="card-meta">6 Dec 2021</div>
+          <div class="card-meta card-domain">adapteva.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog post is in response to a recent topic on the Parallella forum regarding Adapteva’s chip cost efficiency (GFLOPS/$): [forum discussion thread]. I had to be a little vague on some poi…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-10T01:37:02.000Z | tags: finance, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nakedcapitalism.com/wp-content/uploads/2021/07/00-Intel-1-1024x219.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nakedcapitalism.com/2021/07/how-intel-financialized-and-lost-leadership-in-semiconductor-fabrication.html">How Intel Financialized and Lost Leadership in Semiconductor Fabrication |</a>
+          <div class="card-meta">10 Jul 2021</div>
+          <div class="card-meta card-domain">nakedcapitalism.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel is the poster child of how stock buybacks come at the cost of technological innovation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-30T20:06:51.000Z | tags: economics, finance, semiconductors -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/digitstodollars.com/wp-content/uploads/2021/05/annie-spratt-ordz1m1-q0i-unsplash.jpg?resize=1200%2C1200&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digitstodollars.com/2021/05/28/lets-build-a-chip-with-math">Let’s Build a Chip – With Math</a>
+          <div class="card-meta">30 Jun 2021</div>
+          <div class="card-meta card-domain">digitstodollars.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s Build a Chip – We lay out the costs of building a chip – with spreadsheets!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,511 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>devops + webdev &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-19T20:07:25.528Z | tags: webdev, devops, cloud -->
+      <div class="card-image">
+        <img src="https://isayeter.com/images/domigration/45cf77e9709179874dbf5c259ae8b77207fb5f8932071f3db485b9ecade646f0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://isayeter.com/posts/digitalocean-to-hetzner-migration/">Migrating from DigitalOcean to Hetzner: From $1,432 to $233/month With Zero Downtime</a>
+          <div class="card-meta">19 Apr 2026</div>
+          <div class="card-meta card-domain">isayeter.com</div>
+        </div>
+        <div class="card-section">
+          <p>A real-world production migration from DigitalOcean to Hetzner dedicated, handling 248 GB of MySQL data across 30 databases, 34 Nginx sites, GitLab EE, Neo4j, and live mobile app traffic — with zero downtime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-27T12:02:28.455Z | tags: best-practices, webdev, devops, databases, caching -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semicolonandsons.com/articles/scaling-a-monolith-to-1m-loc-113-pragmatic-lessons-from-tech-lead-to-cto">Scaling a Monolith to 1M LOC: 113 Pragmatic Lessons from Tech Lead to CTO</a>
+          <div class="card-meta">27 Mar 2026</div>
+          <div class="card-meta card-domain">semicolonandsons.com</div>
+        </div>
+        <div class="card-section">
+          <p>For context, I work in a Django/React TS/React Native codebase on a 20-person team at MorphMarkethttps://www.morphmarket.com/. I have 17 years experience wit...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-28T11:08:45.929Z | tags: webdev, security, web-servers, devops -->
+      <div class="card-image">
+        <img src="https://surfingcomplexity.blog/wp-content/uploads/2025/12/image-4.png?w=640" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/">The dangers of SSL certificates</a>
+          <div class="card-meta">28 Dec 2025</div>
+          <div class="card-meta card-domain">surfingcomplexity.blog</div>
+        </div>
+        <div class="card-section">
+          <p>Yesterday, the Bazel team at Google did not have a very Merry Boxing Day. An SSL certificate expired for and as shown in this screenshot from the github issue. This expired certificate apparently b…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-04T22:41:01.000Z | tags: curl, devops, linux, webdev -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/curl-rest-api/featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/curl-rest-api">Using Curl to make REST API requests | Linuxize</a>
+          <div class="card-meta">4 Feb 2023</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we&#39;re going to discuss how to use Curl to interact with RESTful APIs. Curl is a command-line utility for transferring data from or to a remote server.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-27T16:13:40.000Z | tags: devops, search, webdev -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/05/23-Free-Tools-to-Test-Your-Website.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/free-tools-to-test-your-website">25 Free Tools to Test Your Website</a>
+          <div class="card-meta">27 Sep 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>This all-new update to our popular resource includes tools to evaluate page speed, security, accessibility, regulatory compliance, code, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-22T10:37:13.000Z | tags: devops, heroku, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu6kmbieir6su8dt70z3l.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/maklut/render-awesome-alternative-for-heroku-mf2">Render: Awesome alternative for Heroku</a>
+          <div class="card-meta">22 Sep 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Heroku will stop offering its free tiers this November, leaving developers to choose other...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T01:08:23.000Z | tags: devops, security, webdev -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/74962515/137c6d1b-4aac-4408-a361-c2a27f125b04" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/gchq/CyberChef">gchq/CyberChef: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - gchq/CyberChef</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-30T02:32:34.000Z | tags: devops, heroku, webdev -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/cyril/heroku-no-longer-offers-free-service-whats-the-best-alternative-now-2ghh">Heroku no longer offers free service, what&#39;s the best alternative now?</a>
+          <div class="card-meta">30 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Heroku was such a simple and free experience to host side project and start developing. What is the...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-30T02:32:22.000Z | tags: devops, heroku, webdev -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/adorism/comment/218hi">Heroku no longer offers free service, what&#39;s the best alternative now?</a>
+          <div class="card-meta">30 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Heroku was such a simple and free experience to host side project and start developing. What is the...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-30T02:32:07.000Z | tags: devops, heroku, webdev -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/daveson217/free-alternatives-to-heroku-3jh9">Free Alternatives to Heroku</a>
+          <div class="card-meta">30 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Given the recent news about Heroku bringing an end to free dynos and PostgreSQL databases, what other...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T20:25:24.000Z | tags: devops, security, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://routersecurity.org">Router Security</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">routersecurity.org</div>
+        </div>
+        <div class="card-section">
+          <p>Router Security Home Page</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-29T20:08:52.000Z | tags: analytics, devops, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/357637" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/test-your-product-on-a-crappy-laptop">Test Your Product On A Crappy Laptop | CSS-Tricks</a>
+          <div class="card-meta">29 Jul 2022</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is a huge and ever-widening gap between the devices we use to make the web and the devices most people use to consume it. It’s also no secret</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-04T02:34:32.000Z | tags: devops, webdev -->
+      <div class="card-image">
+        <img src="https://www.webdesignerdepot.com/assets/posts/featured/_1200x630_crop_center-center_82_none/featured_uptime-scaled.jpeg?mtime=1663768396" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.webdesignerdepot.com/2022/07/3-best-website-uptime-monitoring-tools">3 Best Website Uptime Monitoring Tools&amp;nbsp;</a>
+          <div class="card-meta">4 Jul 2022</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>One way to achieve this is by employing uptime and downtime monitoring tools. Why Is Website Uptime Monitoring Important? An uptime monitoring solution can help you prevent or reduce these losses. Thus, you must employ a dependable tool that detects downtime or any interruptions related to your…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-03T11:49:03.000Z | tags: devops, keywords-ppc-seo, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://social.techcrunch.com/2022/04/23/seo-scammers-buy-expired-domains-vexing-google-trust">https://social.techcrunch.com/2022/04/23/seo-scammers-buy-expired-domains-vexing-google-trust/</a>
+          <div class="card-meta">3 May 2022</div>
+          <div class="card-meta card-domain">social.techcrunch.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-09T00:00:35.000Z | tags: devops, ngrok, ssh, web-servers, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html">Jacob Errington | Roll your own Ngrok with Nginx, Letsencrypt, and SSH reve</a>
+          <div class="card-meta">9 Apr 2022</div>
+          <div class="card-meta card-domain">jerrington.me</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T13:18:24.000Z | tags: devops, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.perf-tooling.today">Perf tooling</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">perf-tooling.today</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T13:01:39.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/6bbe1693d7c112385e5c6b10014f319355db0ac98a638738c1e382e47faf4ba5/phanan/htaccess" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/phanan/htaccess">phanan/htaccess</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>✂A collection of useful .htaccess snippets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:38:23.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://serversforhackers.com/img/sfh-social-lrg.png?b=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://serversforhackers.com">Servers for Hackers</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">serversforhackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>What programmers need to know about servers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:07:04.000Z | tags: analytics, devops, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=29888599">Ask HN: Good open source alternatives to Google Analytics? | Hacker News</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-07T18:57:55.000Z | tags: devops, web-hosting, webdev -->
+      <div class="card-image">
+        <img src="https://blog.polyhaven.com/wp-content/uploads/2022/01/2022-01-05_17-15-53_firefox.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.polyhaven.com/how-we-handle-80tb-and-5m-page-views-a-month-for-under-400">How we handle 80TB and 5M page views a month for under $400</a>
+          <div class="card-meta">7 Jan 2022</div>
+          <div class="card-meta card-domain">blog.polyhaven.com</div>
+        </div>
+        <div class="card-section">
+          <p>How the heck do we run a massively popular website and asset resource while being funded primarily by donations?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-06T23:48:25.000Z | tags: devops, ssh, webdev -->
+      <div class="card-image">
+        <img src="https://goteleport.com/blog/_next/static/media/securing-ssh@2x.58c7eb6e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://goteleport.com/blog/5-ssh-best-practices">5 Best Practices for Securing SSH</a>
+          <div class="card-meta">6 Jan 2022</div>
+          <div class="card-meta card-domain">goteleport.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article explores 5 SSH best practices you should observe to boost the security of your infrastructure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T12:20:48.000Z | tags: devops, security, webdev -->
+      <div class="card-image">
+        <img src="https://martinfowler.com/articles/web-security-basics/card.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://martinfowler.com/articles/web-security-basics.html">The Basics of Web Application Security</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">martinfowler.com</div>
+        </div>
+        <div class="card-section">
+          <p>Security is both very important and often under-emphasized. While many targeted techniques help, there are some basic clean code habits which every developer can and should be doing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-02T14:41:53.000Z | tags: devops, webdev -->
+      <div class="card-image">
+        <img src="https://www.vice.com/wp-content/uploads/sites/2/2021/09/1630516773059-raspberry-pi-61189601920.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vice.com/en_us/article/pkb4ng/meet-the-self-hosters-taking-back-the-internet-one-server-at-a-time">Meet the Self-Hosters, Taking Back the Internet One Server at a Time</a>
+          <div class="card-meta">2 Sep 2021</div>
+          <div class="card-meta card-domain">vice.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tired of Big Tech monopolies, a community of hobbyists is taking their digital lives off the cloud and onto DIY hardware that they control.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-27T10:06:50.000Z | tags: devops, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqcr4jj9yljwhp79u6al0.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/alexandrefreire/free-for-dev-list-of-software-saas-paas-iaas-etc-2jme">Free for dev - list of software (SaaS, PaaS, IaaS, etc.)</a>
+          <div class="card-meta">27 Jul 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Content by github.com/ripienaar/free-for-dev Contributors:...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-20T21:12:57.000Z | tags: devops, docker, kubernetes, webdev -->
+      <div class="card-image">
+        <img src="https://files.ably.io/ghost/prod/2021/07/no-we-dont-use-kubernetes-current-setup-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ably.com/blog/no-we-dont-use-kubernetes">No, we don’t use Kubernetes</a>
+          <div class="card-meta">20 Jul 2021</div>
+          <div class="card-meta card-domain">ably.com</div>
+        </div>
+        <div class="card-section">
+          <p>“No, we don’t use Kubernetes”. That always gets raised eyebrows... so we decided to write about our reasoning behind this cloud architecture decision.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T23:12:57.000Z | tags: devops, linux, malware, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpb73jfna6xwrmjw5nik1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/maximking1/top-6-ethical-hacking-tools-4i8a">Top 6 Ethical Hacking Tools</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>1. Kali Linux  Kali Linux is the most used Ethical Hacking distro available, it is provided with...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-27T23:55:02.000Z | tags: devops, webdev -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/germangonzo/lessons-i-learned-from-achieving-a-99-99-platform-uptime-1c9o">Lessons I learned from achieving a 99.99% platform uptime</a>
+          <div class="card-meta">27 Apr 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Voice123 is the first (and arguably foremost) open marketplace for voice actors.  Today, Voice123 ha...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-02T14:16:50.000Z | tags: devops, security, webdev -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2021/04/Apr21_01_464881289_1196219402.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2021/04/phishing-tests-are-necessary-but-they-dont-need-to-be-evil">Phishing Tests Are Necessary. But They Don’t Need to Be Evil.</a>
+          <div class="card-meta">2 Apr 2021</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Although phishing tests can be helpful to protect users, using questionable tactics has the potential for harming relationships between a company and its employees. The authors suggest that managers avoid this damage by employing phishing tests with three criteria: Test teams, not individuals; don’t embarrass anyone; and gamify and reward.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-13T10:32:42.000Z | tags: devops, dns, webdev -->
+      <div class="card-image">
+        <img src="https://softcover.s3.amazonaws.com/636/learn_enough_custom_domains/images/cover-web.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.learnenough.com/custom-domains-tutorial/dns_management">Learn Enough Custom Domains to Be Dangerous | Learn Enough to Be Dangerous</a>
+          <div class="card-meta">13 Feb 2021</div>
+          <div class="card-meta card-domain">learnenough.com</div>
+        </div>
+        <div class="card-section">
+          <p>Custom domains for websites, web apps, and email</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-12T13:04:50.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://blog.nginx.org/wp-content/uploads/2017/08/Testing-NGINX-web-server-performance.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nginx.com/blog/performance-tuning-tips-tricks?mkt_tok=eyJpIjoiT0dVNU9URXdNVGczTVRsaSIsInQiOiI1NjFtQlZMV2VPRkEzZVpqeDAzYmlQSmFNblc3XC9VaUdFVXlcL05WOHRleVFMMGZwVXBRK3RKTHdsNWlSYitFODkrUUZwbkZCeWllS0thSGFXVElsakxJblE3bFdZNktYNlp4MnJmNGhnaHZGRVNsTmhhNyttbHAwOUlCVXM3MGNVIn0=">Performance Tuning - Tips &amp; Tricks - NGINX</a>
+          <div class="card-meta">12 Feb 2019</div>
+          <div class="card-meta card-domain">nginx.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-24T16:20:57.000Z | tags: crypto, devops, webdev -->
+      <div class="card-image">
+        <img src="https://cms.step.plumbing/uploads/PKI_unfurl_d412910c22.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smallstep.com/blog/everything-pki.html">Everything you should know about certificates and PKI but are too afraid to ask</a>
+          <div class="card-meta">24 Dec 2018</div>
+          <div class="card-meta card-domain">smallstep.com</div>
+        </div>
+        <div class="card-section">
+          <p>Certificates and public key infrastructure (PKI) are hard. No shit, right? I know a lot of smart people who&#39;&#39;ve avoided this particular rabbit hole. Eventually,  I was forced to learn this stuff because of what it enables: PKI lets you define a system cryptographically. It&#39;&#39;s universal and vendor-neutral yet poorly documented. This is the missing manual.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

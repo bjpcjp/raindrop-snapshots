@@ -1,0 +1,288 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>finance + goodreads &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-09-10T01:02:49.000Z | tags: finance, goodreads, risk, startups -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/590970b01c7a8e33fb38ebae/16:9/w_1280,c_limit/100118_r19225_p646.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/r/72f32b11?m=5ba63d9b-6620-4051-8686-515cd8a8f374">The Sure Thing</a>
+          <div class="card-meta">10 Sep 2023</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>What successful entrepreneurs have in common.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-25T11:51:46.000Z | tags: finance, goodreads, sports -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/b1cdfa5cb659d1e64afd9db3b4b0f1cf8be44e8b/0_0_5000_3000/master/5000.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjMucG5n&amp;enable=upscale&amp;s=7e40cb0abf0ac5f9ea1a09758e47102a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/football/2023/apr/25/inside-the-crisis-at-juventus-andrea-agnelli-fabio-paratici-plusvalenze">‘I feel like I’m selling my soul’: inside the crisis at Juventus</a>
+          <div class="card-meta">25 Apr 2023</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The long read: A series of financial scandals have rocked Italy’s most glamorous club. But is the trouble at Juventus symptomatic of a deeper rot in world football?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-28T20:50:44.000Z | tags: finance, goodreads, truecrime -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/63f8dec082148b761217e4e8/16:9/w_1280,c_limit/230306_r41943.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2023/03/06/how-the-biggest-fraud-in-german-history-unravelled">How the Biggest Fraud in German History Unravelled</a>
+          <div class="card-meta">28 Feb 2023</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>The tech company Wirecard was embraced by the German élite. But a reporter discovered that behind the façade of innovation were lies and links to Russian intelligence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T18:59:34.000Z | tags: finance, goodreads, taxes -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/63c1bf707396d7a02865ddf4/16:9/w_1280,c_limit/230123_r41745web-social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2023/01/23/the-getty-familys-trust-issues">The Getty Family’s Trust Issues</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Heirs to an iconic fortune sought out a wealth manager who would assuage their progressive consciences. Now their dispute is exposing dynastic secrets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-28T23:00:32.000Z | tags: finance, goodreads, retail -->
+      <div class="card-image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/index-1606325052.jpg?crop=1.00xw:1.00xh;0,0&amp;resize=1200:*" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-2-billion-mall-rats">The $2 Billion Mall Rats</a>
+          <div class="card-meta">28 Aug 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The inside story of a black sheep hedge fund, a massive bet that shopping malls would crash, and how they proved Wall Street wrong.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-20T20:22:19.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/aa144312810d93436374911c06bcb3afda58645a/148_319_5106_3064/master/5106.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&amp;enable=upscale&amp;s=2095c1d1fe17c408b5fec9572518f48f" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.theguardian.com/business/2021/mar/13/mark-carney-bank-of-england-job">Mark Carney: ‘I didn’t want the Bank of England job. But I was asked to fix something’</a>
+          <div class="card-meta">20 Mar 2021</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>He earned a fortune at Goldman Sachs, but now the banker wants the financial sector to reassess its values and tackle the climate emergency</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T13:06:22.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://txmo-server.imgix.net/2021/01/VICKI-HOLLUB-occidental-feature.jpg?auto=compress&amp;crop=faces&amp;fit=fit&amp;h=1500&amp;ixlib=php-3.0.0&amp;q=45&amp;w=2400&amp;s=dc26db69bafc8e7f17b041190a3beb3b" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.texasmonthly.com/news/how-the-most-hyped-u-s-oil-merger-in-a-decade-went-bust">How the Most Hyped U.S. Oil Merger in a Decade Went Bust</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">texasmonthly.com</div>
+        </div>
+        <div class="card-section">
+          <p>As CEO of Occidental Petroleum, Vicki Hollub made the biggest deal the oil business had seen in years. Will it also go down as the biggest failure?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-15T02:27:02.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPvsvuHsA6Kw/v0/1200x813.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/inside-a-moneymaking-machine-like-no-other">How Renaissance’s Medallion Fund Became Finance’s Blackest Box</a>
+          <div class="card-meta">15 Dec 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Medallion Fund, an employees-only offering for the quants at Renaissance Technologies, is the blackest box in all of finance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-29T03:01:53.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/Fq0tYTgwDL5M97fk0B7D7rLn0pQ=/0x41:1380x760/1200x625/media/img/2015/04/underworld_opener/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555">Bank of the Underworld - The Atlantic</a>
+          <div class="card-meta">29 Oct 2019</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Liberty Reserve was like PayPal for the unbanked. Was it also a global money-laundering operation?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-09T13:40:40.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://images.newrepublic.com/6ce449f0a89873f3479c688c0bdbc18a1dce7934.jpeg?w=1200&amp;h=630&amp;crop=faces&amp;fit=crop&amp;fm=jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://newrepublic.com/article/155212/worked-capital-one-five-years-justified-piling-debt-poor-customers">I Worked at Capital One for Five Years. This Is How We Justified Piling Debt on Poor Customers.</a>
+          <div class="card-meta">9 Oct 2019</div>
+          <div class="card-meta card-domain">newrepublic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The subprime lending giant is a textbook case in creating a corporate culture of denial.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-16T20:04:25.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/6926b28f6c12a5e74cee61541e1c0e9c93bc1697/2_0_10663_6400/master/10663.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTgucG5n&amp;enable=upscale&amp;s=f0332ca2f1ed4ac6d055bcdeb4ad4e3d" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/news/2018/sep/07/the-real-goldfinger-the-london-banker-who-broke-the-world">The real Goldfinger: the London banker who broke the world</a>
+          <div class="card-meta">16 Jun 2019</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The true story of how the City of London invented offshore banking – and set the rich free</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-04T13:56:59.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2019/05/05/magazine/05mag-remington-promoimage/05mag-remington-promoimage-facebookJumbo-v2.jpg?year=2019&amp;h=550&amp;w=1050&amp;s=0ccccefad6e2ec752b68240c549332df2d19c6b28fe9b2df96704dccef67e04a&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/interactive/2019/05/01/magazine/remington-guns-jobs-huntsville.html">How America’s Oldest Gun Maker Went Bankrupt: A Financial Engineering Mystery (Published 2019)</a>
+          <div class="card-meta">4 May 2019</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>When a secretive private equity firm bought Remington, sales were strong and the future bright. A decade later, the company couldn’t escape its debts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T16:53:44.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://longform.org/uploads/post/key_image/12370/landscape_800x-1a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://longform.org/posts/12370">The Triple Jeopardy of a Chinese Math Prodigy</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">longform.org</div>
+        </div>
+        <div class="card-section">
+          <p>A secretive hedge fund used the British court system to punish an IP thief‚ even though he was already in jail.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-01T16:03:02.000Z | tags: finance, goodreads, history, retail -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/XxSuF1dI_hI5ZSu6bxaP32Tx9gy9LSDlCzQ-8cZfoas/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlLzE2OTk4MjA3MDg5XzAwYzkwNTNmMWNfby5qcGc=.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/news/inside-the-20-year-decline-of-toys-r-us/526364">Inside the 20-year decline of Toys R Us</a>
+          <div class="card-meta">1 Jul 2018</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cost cuts, stressed employees, intercompany rivalries, dirty floors, dusty rafters, glitchy IT, fudged metrics: The people who ran the failed toy retailer&#39;s stores know what went wrong.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-15T16:46:23.000Z | tags: finance, goodreads -->
+      <div class="card-image">
+        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-12/15/5/campaign_images/buzzfeed-prod-fastlane-03/revealed-secrets-of-one-of-the-worlds-dirtiest-ba-2-13051-1513335446-5_dblbig.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.buzzfeed.com/tomwarren/secrets-of-one-of-the-worlds-dirtiest-banks-revealed">Revealed: The Secrets Of One Of The World&#39;s Dirtiest Banks And Its Powerful</a>
+          <div class="card-meta">15 Dec 2017</div>
+          <div class="card-meta card-domain">buzzfeed.com</div>
+        </div>
+        <div class="card-section">
+          <p>Blatant forgery. Snarling guard dogs. Shredded evidence. An incendiary cache of leaked documents reveals the farcical scramble inside one of the world’s dirtiest banks to conceal incriminating information from US government investigators – while some of the most prestigious accountants and lawyers on the planet used all their power to keep the bank in business.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,140 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>rubyonrails + webpacker &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-04-14T20:07:03.000Z | tags: rubyonrails, webpacker -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/Zn0Q2JbWFbowe7qY_default-article-background.png?auto=format%2Ccompress&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0wJnR4dC10cmFjaz0wJnR4dDY0PVZYQm5jbUZrYVc1bklIUnZJRkpoYVd4eklEYzZJRTF2ZG1sdVp5QmhkMkY1SUdaeWIyMGdWMlZpY0dGamEyVnkmdHh0Y2xyPWY1ZjVmNSZ0eHRmb250PUlCTVBsZXhTYW5zSlAtU2VtaUJvbGQmdHh0cGFkPTAmdHh0c2l6ZT02NCZ3PTgwMA%3D%3D&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Marina+Joranhezon" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thoughtbot.com/blog/upgrading-to-rails7-moving-away-from-webpacker">Upgrading to Rails 7: Moving away from Webpacker</a>
+          <div class="card-meta">14 Apr 2023</div>
+          <div class="card-meta card-domain">thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>Webpacker was retired for Rails 7. Let’s explore some options for replacing it when making an upgrade.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:33:12.000Z | tags: javascript, rubyonrails, webdev, webpacker -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6">Understanding Webpacker in Rails 6 | Road to Rails 6</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">prathamesh.tech</div>
+        </div>
+        <div class="card-section">
+          <p>Starting with Rails 6, Webpacker is the default JavaScript compiler. It means that all the JavaScript code will be handled by Webpacker instead of the old assets pipeline aka Sprockets. Webpacker is different from asset pipeline in terms of philosophy as well as implementation. In this blog post, we will</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T15:58:53.000Z | tags: bundler, rubyonrails, webpack, webpacker -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmwzhpu5jvl6gobw1ip2j.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/shahershamroukh/webpacker-in-rails-6-4j5k">Webpacker in Rails 6</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Webpacker is the default JavaScript compiler for Rails 6 applications. Which means that all the...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:53:23.000Z | tags: javascript, rubyonrails, webpacker -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyibamky1ohcwypyfumnd.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bdavidxyz/rails-with-webpacker-a-full-setup-3h49">Rails with Webpacker : a full setup</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Article was originally published here : https://bootrails.com/blog/rails-webpacker-full-setup  Webpac...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-10T17:49:40.000Z | tags: rubyonrails, webpacker -->
+      <div class="card-image">
+        <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackoverflow.com/questions/58270161/webpacker-cant-find-application">ruby on rails - Webpacker can&#39;t find application - Stack Overflow</a>
+          <div class="card-meta">10 Nov 2020</div>
+          <div class="card-meta card-domain">stackoverflow.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;m creating a new rails application according to &quot;Getting Started with Rails&quot;. The application starts normally in step 4.1. But when i create my first controller, i have a webpack error.
+
+I&#39;m new in</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:04:25.000Z | tags: rubyonrails, webpacker -->
+      <div class="card-image">
+        <img src="https://www.botreetechnologies.com/blog/wp-content/uploads/2019/04/rails-6-jquery-webpacker.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.botreetechnologies.com/blog/introducing-jquery-in-rails-6-using-webpacker">Introducing jQuery in Rails 6 Using Webpacker</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">botreetechnologies.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

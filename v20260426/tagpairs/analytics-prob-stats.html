@@ -1,0 +1,189 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>analytics + prob-stats &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-03T12:31:28.475Z | tags: prob-stats, analytics -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2026/04/sta-chugani-concise-guide-law-large-numbers-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/the-concise-guide-to-the-law-of-large-numbers/">The Concise Guide to the Law of Large Numbers</a>
+          <div class="card-meta">3 Apr 2026</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Understand the law of large numbers and why larger datasets produce results closer to theoretical truth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-27T19:36:49.490Z | tags: prob-stats, analytics -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/10/STA-Shittu-5-Effect-Size-Measures-Youll-Actually-Use.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/5-effect-size-measures-youll-actually-use/">5 Effect Size Measures You’ll Actually Use</a>
+          <div class="card-meta">27 Oct 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to calculate and interpret five essential effect size measures with Python examples and clear guidance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-07T18:20:36.349Z | tags: time-series, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/02/sta-time-series-fundamentals-davies-1024x574.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/time-series-decomposition-extracting-seasonal-trend-residual-components/">Time Series Decomposition: Extracting Seasonal, Trend, and Residual Components</a>
+          <div class="card-meta">7 Feb 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Still, the exact application, challenges and shortcuts related to this technique are relatively unknown, and that’s what this article seeks to change.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-10T16:05:51.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*M957qGgDOre0EUTuZVrmXw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-select-the-right-statistical-tests-for-different-a-b-metrics-c8a1865851e">How to Select the Right Statistical Tests for Different A/B Metrics</a>
+          <div class="card-meta">10 Dec 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Discussion of the go-to methods for 5 Types of A/B Metrics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T11:20:07.000Z | tags: a-b, analytics, distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*frkAvty7Fh9QZYbK" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/fishers-exact-fb49432e55b5?source=rss----7f60cf5620c9---4">Fully Mastering Fisher’s Exact Test for A/B Testing</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>While Fisher’s exact test is a convenient tool for A/B testing, the idea and results of the test are often hard to grasp and difficult to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:17:13.000Z | tags: algorithms-math, analytics, machine-learning, prob-stats -->
+      <div class="card-image">
+        <img src="https://www.evanmiller.org/images/previews/index.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org">Home Page of Evan Miller</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+        <div class="card-section">
+          <p>Articles, software, calculators, and opinions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:33:56.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/engineering/en_us/main-template-assets/Eng_EXPLORE_Pink.png.twimg.768.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.twitter.com/2016/implications-of-use-of-multiple-controls-in-an-ab-test">Implications of use of multiple controls in an A/B test</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">blog.twitter.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-14T11:16:18.000Z | tags: analytics, inference, prob-stats -->
+      <div class="card-image">
+        <img src="https://emilyriederer.com/post/resource-roundup-causal/featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://emilyriederer.netlify.app/post/resource-roundup-causal">Resource Round-Up: Causal Inference | Emily Riederer</a>
+          <div class="card-meta">14 Mar 2021</div>
+          <div class="card-meta card-domain">emilyriederer.netlify.app</div>
+        </div>
+        <div class="card-section">
+          <p>Free books, lectures, blogs, papers, and more for a causal inference crash course</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-22T19:33:04.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*MA6o65C18xMtnWoMuFLZbQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/online-controlled-experiment-8-common-pitfalls-and-solutions-ea4488e5a82e?source=rss----7f60cf5620c9---4">8 Common Pitfalls of Running A/B Tests</a>
+          <div class="card-meta">22 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How not  to fail your online controlled experimentation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

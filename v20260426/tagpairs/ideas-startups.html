@@ -1,0 +1,738 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ideas + startups &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-09T23:23:09.514Z | tags: robotics, startups, ideas -->
+      <div class="card-image">
+        <img src="https://endeff.com/images/thrusts/TEE-RIS-cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://endeff.com/thrusts/beyond-hydraulics?utm_campaign=robots-eat-cars&amp;utm_medium=referral&amp;utm_source=telemetry.endeff.com">Beyond Hydraulics | The End Effector</a>
+          <div class="card-meta">9 Apr 2026</div>
+          <div class="card-meta card-domain">endeff.com</div>
+        </div>
+        <div class="card-section">
+          <p>Every excavator, crane, and forklift runs on hydraulics. RISE Robotics is building the electrified alternative.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-09T00:36:15.458Z | tags: startups, japan, ideas -->
+      <div class="card-image">
+        <img src="https://www.japantimes.co.jp/japantimes/uploads/images/2025/12/04/509247.jpg?v=3.1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.japantimes.co.jp/business/2025/12/09/tech/lost-and-found-startup-tokyo/">Tokyo startup envisions a world where nothing stays lost</a>
+          <div class="card-meta">9 Dec 2025</div>
+          <div class="card-meta card-domain">japantimes.co.jp</div>
+        </div>
+        <div class="card-section">
+          <p>Find Inc. is a Tokyo-based startup that provides a cloud service dedicated to lost items.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-26T12:29:50.891Z | tags: ideas, inventions-innovation, physical-products, startups, platforms, materials -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!wAo7!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62ab87bd-cde3-44f4-a9d2-6dfeff4cca43_1000x563.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thesisdriven.com/p/the-rise-of-shippable-microfactories">The Rise of Shippable Microfactories</a>
+          <div class="card-meta">26 Jul 2025</div>
+          <div class="card-meta card-domain">thesisdriven.com</div>
+        </div>
+        <div class="card-section">
+          <p>Can microfactories solve prefab&#39;s economic problem by inverting the factory model?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-12T14:19:21.608Z | tags: startups, ideas, materials -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2025/05/SUPERWOOD-plank.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2025/05/12/inventwood-is-about-to-mass-produce-wood-thats-stronger-than-steel/">InventWood is about to mass produce wood that’s stronger than steel</a>
+          <div class="card-meta">12 May 2025</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>The material has 50% more tensile strength than steel with a strength-to-weight ratio that’s ten-times better.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-13T07:00:11.000Z | tags: ideas, materials, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82d43a5a-39d6-4284-bbdb-1178caec66cf_1380x822.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/constructionphysics/p/will-stone-replace-steel-and-concrete?r=oc5d">Will Stone Replace Steel and Concrete?</a>
+          <div class="card-meta">13 May 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A recent viral tweet by Micah Springut, founder of stone-carving startup Monumental Labs, argued that it will be cheaper to build buildings with stone than with steel or concrete within the next 10 years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T23:46:23.000Z | tags: clothes, ideas, startups -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/vREokZa4dNU/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.youtube.com/watch?t=109s&amp;v=vREokZa4dNU">Why I spent 3 years working on a coat hanger</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">youtube.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Coat Hinger is available for 30 days on Kickstarter! Go go go!! https://kickstarter.com/projects/simonegiertz/coat-hingers-foldable-coat-hangers
+
+Thank you so much for supporting my creative whims throughout the years. Can you believe it&#39;s been almost a decade?!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-06T20:58:05.000Z | tags: batteries, energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://iiasa.ac.at/sites/default/files/styles/social_media/public/2023-01/dreamstime_m_17764547.jpg?itok=FysrZGXA" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://iiasa.ac.at/news/jan-2023/turning-abandoned-mines-into-batteries">Turning abandoned mines into batteries | IIASA</a>
+          <div class="card-meta">6 Feb 2024</div>
+          <div class="card-meta card-domain">iiasa.ac.at</div>
+        </div>
+        <div class="card-section">
+          <p>A novel technique called Underground Gravity Energy Storage turns decommissioned mines into long-term energy storage solutions, thereby supporting the sustainable energy transition.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T01:01:11.000Z | tags: electricity, energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://imgix.bustle.com/uploads/image/2023/5/23/1c5f3d6e-178b-4817-b07f-c4fce28b14f6-2-1.jpg?w=1200&amp;h=630&amp;fit=crop&amp;crop=focalpoint&amp;fm=jpg&amp;fp-x=0.4773&amp;fp-y=0.5046" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.inverse.com/science/scientists-made-artificial-cloud-that-pulls-electricity-from-air">Scientists Made An Artificial &quot;Cloud&quot; That Pulls Electricity From Air</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">inverse.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new prototype compatible with a wide range of materials could grab a continuous supply of renewable energy from the air.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T01:00:55.000Z | tags: energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/8ca8f107adcd095110b41d36c471a16b814af923/0_41_1477_886/master/1477.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tYWdlLTIwMjMucG5n&amp;enable=upscale&amp;s=99197ff915cc6243ea360b07726d8c01" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/science/2023/jul/02/it-was-an-accident-the-scientists-who-have-turned-humid-air-into-renewable-power">‘It was an accident’: the scientists who have turned humid air into renewab</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tesla speculated electricity from thin air was possible – now the question is whether it will be possible to harness it on the scale needed to power our homes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-12T18:44:20.000Z | tags: ideas, platforms, prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*McTz81wNxP2gHc4_q42uhA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/point-nine-news/wtf-is-marketplace-liquidity-f2caca3802c0">WTF is Marketplace Liquidity?</a>
+          <div class="card-meta">12 Mar 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Methodologies for understanding and measuring marketplace liquidity</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-17T12:18:43.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://image.cnbcfm.com/api/v1/image/107159824-1669914518069-IMG_8713.JPG?v=1670343693&amp;w=1920&amp;h=1080" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cnbc.com/2022/12/06/28-year-old-built-a-side-hustle-that-brings-in-30000-a-month-i-only-have-to-work-6-hours-a-week.html">This 28-year-old built a side hustle that brings in $30,000/month: &#39;I only</a>
+          <div class="card-meta">17 Dec 2022</div>
+          <div class="card-meta card-domain">cnbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>During the pandemic, Quinn Miller quit his sales job to start a vending machine side hustle. Today, his business brings in $30,000 a month, and he only has to work six hours a week on it. He shares how he got started.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-23T21:56:59.000Z | tags: finance, ideas, inventions-innovation, materials, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.visualcapitalist.com/sp/should-you-invest-in-disruptive-materials">Should You Invest in Disruptive Materials?</a>
+          <div class="card-meta">23 Nov 2022</div>
+          <div class="card-meta card-domain">visualcapitalist.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-09T14:43:07.000Z | tags: energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F8171%2F1662665423_631a42256d12f.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/super-hot-sand-could-help-us-store-renewable-energy">Super Hot Sand Could Help Us Store Renewable Energy</a>
+          <div class="card-meta">9 Sep 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’d be much cheaper than lithium battery storage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-01T13:05:05.000Z | tags: ideas, semiconductors, startups -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/digitstodollars.com/wp-content/uploads/2015/10/img_09741.jpg?resize=1200%2C1200&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://d2dadvisory.us6.list-manage.com/track/click?e=5331dc1744&amp;id=6f058c712e&amp;u=c03518346fcb09658cfb234e4">Semis for Everyone?</a>
+          <div class="card-meta">1 Aug 2022</div>
+          <div class="card-meta card-domain">d2dadvisory.us6.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google is promoting the growth of open source tools for designing semis. The science fiction version of this story leads to everyone designing chips, the reality is going to be much narrower, but s…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:45:30.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.saasacademy.com/hubfs/Imported_Blog_Media/Screen-Shot-2015-01-26-at-9_20_21-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.danmartell.com/liquidity">3 Strategies To Building a Marketplace Startup | SaaS Academy</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">danmartell.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a two-sided market is probably the hardest thing you can build as an entrepreneur. It&#39;s so hard that a few weeks ago, I organized a Marketplace</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:10:52.000Z | tags: ideas, ideation, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*1Bo_yGSLXbylNKFn4u1JJg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/the-mission/the-startup-idea-matrix-182bf2e6a53a#.3or6y5q3x">The Startup Idea Matrix</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>You can follow my latest writing at ScreenshotEssays.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:08:59.000Z | tags: ideas, ideation, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://platformed.info/how-to-get-startup-ideas">http://platformed.info/how-to-get-startup-ideas/</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">platformed.info</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:08:54.000Z | tags: creativity, ideas, ideation, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.startuprob.com/23-ways-to-generate-startup-ideas">23 Ways to Generate Startup Ideas</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">startuprob.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-12T00:24:48.000Z | tags: ideas, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jilt.com/upsell/popsockets-growth">Popsockets growth</a>
+          <div class="card-meta">12 Jul 2022</div>
+          <div class="card-meta card-domain">jilt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:35:10.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20160916223821-GettyImages-84491928.jpeg?format=pjeg&amp;auto=webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.entrepreneur.com/article/80684">87 Service Business Ideas to Start Today</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">entrepreneur.com</div>
+        </div>
+        <div class="card-section">
+          <p>With this many ideas to choose from, you have no excuse not to get started today with your own service business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T21:06:00.000Z | tags: ideas, ideation, startups -->
+      <div class="card-image">
+        <img src="https://jpattonassociates.com/wp-content/uploads/2016/09/opp-canvas-drawing.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.jpattonassociates.com/opportunity-canvas">Opportunity Canvas</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">jpattonassociates.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-23T00:31:43.000Z | tags: ideas, semiconductors, startups -->
+      <div class="card-image">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yOTgwOTg0My9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTc3NDczNjAxOH0.mcJnLDG2hxz4n9SA8DIknZj_NIUAm5E3DMofNOf3y7U/img.png?width=1200&amp;height=600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/power-beaming?fbclid=IwAR2EBnNgvbasKb8bNDZ5dIYOP49ouo9-cHfmI0kvKGF9TkM6eweR85ocB8U&amp;share_id=7057190&amp;socialux=facebook#toggle-gdpr">Practical Power Beaming Gets Real</a>
+          <div class="card-meta">23 May 2022</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>A century later, Nikola Tesla’s dream comes true</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-11T12:45:50.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2022/05/p-1-starting-a-company-in-your-60s.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90750490/starting-a-company-in-your-60s">The secret of my success as an entrepreneur: I’m 60</a>
+          <div class="card-meta">11 May 2022</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>“ By the law of averages, if you reach four decades of work experience, then you know what it was like to be disrupted both personally and as a business.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-15T01:04:27.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.georgesequeira.com/writing/zapier-the-5b-unbundling-opportunity">Zapier: The $5B unbundling opportunity</a>
+          <div class="card-meta">15 Apr 2022</div>
+          <div class="card-meta card-domain">georgesequeira.com</div>
+        </div>
+        <div class="card-section">
+          <p>Zapier has 3M+ users and generates $125M in ARR.  At a $5B valuation, its fast-growing horizontal platform is unable to meet the demands of all of its customers.  The increase of underserved Zapier customers presents an opportunity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-10T13:51:54.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F327acaff-a3e7-4699-9073-09f64dc1456c_2492x1245.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://summation.us6.list-manage.com/track/click?e=5127b069ae&amp;id=d91c333d4a&amp;u=3d19f711bea06312aefdb0a00">The Economics of Data Businesses</a>
+          <div class="card-meta">10 Mar 2022</div>
+          <div class="card-meta card-domain">summation.us6.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>How data businesses start, and how they keep going, and growing, and growing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-19T17:04:57.000Z | tags: autonomous-driving, ideas, startups -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/on-an-isolated-stretch-of-railroad-tracks-a-freight-container-is-supported-at-both-ends-by-two-autonomous-four-wheeled-rail-veh.png?id=28843926&amp;width=1200&amp;height=600&amp;coordinates=0%2C91%2C0%2C91" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/parallel-systems-autonomous-trains">Can Freight Train Cars Go Electric—and Self-Driving?</a>
+          <div class="card-meta">19 Jan 2022</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Decentralizing freight transport and distribution can provide flexibility and increased efficiency, getting cargo closer to where it needs to go in a more timely manner while taking stress off of overloaded ports.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-02T19:00:48.000Z | tags: ideas, platforms, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2021/02/OG-V4-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/enterprise-gateway-marketplaces">Enterprise Gateway Marketplaces Will Turn Large Organizations Inside-Out</a>
+          <div class="card-meta">2 Mar 2021</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>The marketplace revolution is still just beginning and the enterprise gateway is the newest type of marketplace.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-14T15:18:02.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2021/01/what_bill_gurley_saw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/blog/what-bill-gurley-saw">What Bill Gurley Saw - Commonplace - The Commoncog Blog</a>
+          <div class="card-meta">14 Jan 2021</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some careers can be made on the back of a single, wonderful idea. We take a look at what that looks like, through Bill Gurley&#39;s VC career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:55:30.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://trends.vc/wp-content/uploads/2020/08/Group-1-17.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://trends.vc/trends-0027-million-dollar-one-person-businesses">Million-Dollar, One-Person Businesses</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">trends.vc</div>
+        </div>
+        <div class="card-section">
+          <p>How are individual entrepreneurs (solopreneurs) building multi-million dollar companies? What can we learn from their stories? Read this report to find out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T18:26:16.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://static.ghost.org/v5.0.0/images/publication-cover.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://secondbreakfast.co/patio11-s-law">Patio11’s Law</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">secondbreakfast.co</div>
+        </div>
+        <div class="card-section">
+          <p>@mmcgrana: Patio11’s Law: The software economy is bigger than you think, even when you take into account Patio11’s Law.1  A few years ago, I woke up in Sunriver, OR, and went to make coffee. The house had one of those bed-and-breakfast-type coffee trays. Drip machine. A stack</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-10T20:44:39.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kamerontanseli.ghost.io/first-it-was-craiglist-next-its-zapier">https://kamerontanseli.ghost.io/first-it-was-craiglist-next-its-zapier/</a>
+          <div class="card-meta">10 May 2020</div>
+          <div class="card-meta card-domain">kamerontanseli.ghost.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: ideas, prodmgmt, startups, ideation -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/indie-hackers.appspot.com/shareable-images/posts/ZapGeYz8jaaTzG8iOL3p" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c">How to brainstorm great business ideas</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s been said that ideas don&#39;t matter, and that only execution does. I wholeheartedly disagree. You need both to succeed, but you can only get so good...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-03T22:45:14.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://cdn.geekwire.com/wp-content/uploads/2020/02/yesler.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.geekwire.com/2020/startup-built-around-building-materials-yesler-marketplace-like-expedia-lumber-industry">A startup built around building materials: Yesler marketplace is like Exped</a>
+          <div class="card-meta">3 Feb 2020</div>
+          <div class="card-meta card-domain">geekwire.com</div>
+        </div>
+        <div class="card-section">
+          <p>Matt Meyers spent two decades at Weyerhaeuser dealing with product engineering, manufacturing, software engineering, product development, sales and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: ideas, ideation, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://unawaz.github.io/stochastic-hill-climbing/tasks">Tasks</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">unawaz.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-31T14:27:17.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://d1coqmn8qm80r4.cloudfront.net/stories/social_shares/000/001/067/original/open-uri20210513-4-16w8ere?1620899416" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.starterstory.com/sustainable-corporate-merchandising">How Our Sustainable Corporate Merchandising Became a $40K/Month Business</a>
+          <div class="card-meta">31 Oct 2019</div>
+          <div class="card-meta card-domain">starterstory.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello! Who are you and what business did you start?My name is Gonzalo and with my partner Gala, we run a business called Sheedo. Our main product is a paper made out of waste cotton from the clothing industry, so we don’t cut trees or use toxic chemicals in our production line. But what...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-31T17:53:41.000Z | tags: habits, ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2VU7PSHHS4I6RBCJD7ZGGYE2GE.jpg&amp;w=1440" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/business/2018/11/14/how-an-economist-found-an-ideal-dataset-inside-facebook-knitting">This researcher studied 400,000 knitters and discovered what turns a hobby</a>
+          <div class="card-meta">31 Aug 2019</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>An MIT Sloan Ph.D. candidate discovered what turned skilled hobbyists into entrepreneurs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-04T18:26:51.000Z | tags: ideas, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="http://www.todayifoundout.com/wp-content/uploads/2019/06/Liquid-soap-640x427.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.todayifoundout.com/index.php/2019/06/time-guy-cornered-liquid-soap-market-buying-literally-piece-inventory-available-u-s">That Time a Guy Cornered the Liquid Soap Market by Sneakily Buying Nearly Every Hand Soap Pump Available in the World</a>
+          <div class="card-meta">4 Jul 2019</div>
+          <div class="card-meta card-domain">todayifoundout.com</div>
+        </div>
+        <div class="card-section">
+          <p>Robert R. Taylor is a name you’ve probably never heard before. But this serial entrepreneur made his mark on the world of business by coming up with several products you are almost certainly very familiar with. Today we’re going to talk about, on the surface, the most boring of those- liquid hand soap. Something you can thank Mr. Taylor and [...]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-24T22:26:36.000Z | tags: ideas, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.defmacro.org/2019/03/26/startup-checklist.html">Startup idea checklist | defmacro</a>
+          <div class="card-meta">24 Jun 2019</div>
+          <div class="card-meta card-domain">defmacro.org</div>
+        </div>
+        <div class="card-section">
+          <p>I’ve been tinkering with different startup ideas and needed a good checklist to think through them. There are great templates for this already: The YC application, Amazon’s internal press release, and Sequoia’s Writing a Business Plan. I found myself mixing and tweaking these templates because they don’t exactly match my model of the world, so I wrote up my own list.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-12T21:49:35.000Z | tags: ideas, images, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*OJeWAGH-Tjest77r" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://500ish.com/the-camera-as-the-app-layer-8aefd7dd8361">The Camera as the App Layer</a>
+          <div class="card-meta">12 May 2019</div>
+          <div class="card-meta card-domain">500ish.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your phone increasingly knows what you’re taking a picture of. And which apps you have installed. So…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-12T20:39:02.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://s3-us-west-1.amazonaws.com/pioneer-blog/2019/02/Group-17-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pioneer.app/blog/2019-frontier-markets">Markets To Build In (2019)</a>
+          <div class="card-meta">12 Mar 2019</div>
+          <div class="card-meta card-domain">pioneer.app</div>
+        </div>
+        <div class="card-section">
+          <p>Nine interesting markets to track in 2019.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-07T15:59:16.000Z | tags: clothes, ideas, startups -->
+      <div class="card-image">
+        <img src="https://d1coqmn8qm80r4.cloudfront.net/stories/social_shares/000/000/126/original/open-uri20210513-4-jmy5et?1620871941" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://starterstory.com/stories/project-repat">Project Repat: $10MM Business Making Quilts From Old T-Shirts</a>
+          <div class="card-meta">7 Oct 2018</div>
+          <div class="card-meta card-domain">starterstory.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello! Who are you and what are you working on?My name is Ross Lohr, and I’m a co-founder of Project Repat. We make it easy and affordable for customers to turn their memorable t-shirts into a one of a kind, custom t-shirt quilt backed with cozy fleece. People buy quilts from Project Re...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-12T10:39:03.000Z | tags: energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/5b7de57d5560bb1fedf11d35/191:100/w_1280,c_limit/waterdrums-837113330.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/battery-built-from-concrete">How Much Energy Can You Store in a Stack of Cement Blocks?</a>
+          <div class="card-meta">12 Sep 2018</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s not a trick question: You can make a battery out of concrete by storing gravitational potential energy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-09T14:01:14.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://cdn.vox-cdn.com/thumbor/OAvnkcK5nxeDH7rP2Y8Hz6aT89Y=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn3.vox-cdn.com/uploads/chorus_asset/file/8671977/lplaugic_corkboard.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theverge.com/2017/6/12/15746916/pinboard-founder-maciej-ceglowski-interview-yahoo-delicious-fandom">The founder of Pinboard on why understanding fandom is good for business -</a>
+          <div class="card-meta">9 Sep 2018</div>
+          <div class="card-meta card-domain">theverge.com</div>
+        </div>
+        <div class="card-section">
+          <p>Maciej Cegłowski found fans where they were, and won their hearts</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-13T22:38:03.000Z | tags: ideas, startups -->
+      <div class="card-image">
+        <img src="https://d1coqmn8qm80r4.cloudfront.net/stories/social_shares/000/000/127/original/open-uri20210513-4-k4fi1c?1620897197" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://starterstory.com/stories/carbage-can">Starting An Amazon FBA Business - Starter Story</a>
+          <div class="card-meta">13 Aug 2018</div>
+          <div class="card-meta card-domain">starterstory.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello! Who are you and what are you working on?My name is Raymond Furgason, and I am the Creator and Founder of Carbage Can. The Carbage Can is a car trash can. It’s so easy to gather common trash in your vehicle - tissues, food wrappers, receipts, coffee cups… the list is endless. We’r...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-26T21:43:40.000Z | tags: electricity, energy, ideas, startups -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/11481849/Screen_Shot_2018_06_05_at_9.40.36_AM.png?quality=90&amp;strip=all&amp;crop=0,6.6382322032133,100,86.723535593573" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www-vox-com.cdn.ampproject.org/c/s/www.vox.com/platform/amp/energy-and-environment/2018/6/5/17373314/electricity-technology-efficiency-software-waste-3dfs">This technology could fundamentally change our relationship to electricity</a>
+          <div class="card-meta">26 Jul 2018</div>
+          <div class="card-meta card-domain">www-vox-com.cdn.ampproject.org</div>
+        </div>
+        <div class="card-section">
+          <p>An “operating system” for power could double the efficiency of the grid.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-09T17:42:39.000Z | tags: economics, ideas, startups, tickets -->
+      <div class="card-image">
+        <img src="https://freakonomics.com/wp-content/uploads/2017/12/34426581000_0a111a783e_o-300x225.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://freakonomics.com/podcast/live-event-ticket-market-screwed">Why Is the Live-Event Ticket Market So Screwed Up? - Freakonomics Freakonom</a>
+          <div class="card-meta">9 Dec 2017</div>
+          <div class="card-meta card-domain">freakonomics.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

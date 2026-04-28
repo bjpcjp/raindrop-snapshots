@@ -1,0 +1,219 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>devops + docker &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-01-16T08:24:47.000Z | tags: containers, devops, docker -->
+      <div class="card-image">
+        <img src="https://devopscycle.com/wp-content/uploads/sites/4/2023/11/Social-Share-Image-Docker-Cheat-Sheet-1.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devopscycle.com/blog/the-ultimate-docker-cheat-sheet">Download The Ultimate Docker Cheat Sheet</a>
+          <div class="card-meta">16 Jan 2024</div>
+          <div class="card-meta card-domain">devopscycle.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get your Docker Cheat Sheet as PDF or PNG. In this article, you learn how to write Dockerfiles, build images, and run them as container.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-07T23:01:12.000Z | tags: devops, docker, web-servers -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjmm4oyhgxafrjtkdyqev.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/mazenr/how-to-implement-a-load-balancer-using-nginx-docker-4g73">How to implement a Load Balancer Using Nginx &amp; Docker</a>
+          <div class="card-meta">7 Apr 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Scaling becomes a necessary part for your system when your system grows in popularity. There are two...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-01T12:38:58.000Z | tags: aws, containers, cpus, devops, docker, kubernetes -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://squeaky.ai/blog/development/how-switching-to-aws-graviton-slashed-our-infrastructure-bill-by-35-percent">https://squeaky.ai/blog/development/how-switching-to-aws-graviton-slashed-our-infrastructure-bill-by-35-percent</a>
+          <div class="card-meta">1 Dec 2022</div>
+          <div class="card-meta card-domain">squeaky.ai</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T01:39:57.000Z | tags: containers, devops, docker, kubernetes -->
+      <div class="card-image">
+        <img src="https://opensource.microsoft.com/blog/wp-content/uploads/2024/06/CLO20b_Jayesh_office_001.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloudblogs.microsoft.com/opensource/2019/07/15/how-to-get-started-containers-docker-kubernetes">Demystifying containers, Docker, and Kubernetes - Microsoft Open Source Blog</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">cloudblogs.microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Modern application infrastructure is being transformed by containers. The question is: How do you get started?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-15T01:58:51.000Z | tags: containers, devops, docker, kubernetes, linux -->
+      <div class="card-image">
+        <img src="https://iximiuz.com/container-learning-path/docker-containerd-runc-2000-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://iximiuz.com/en/posts/container-learning-path">Learning Containers From The Bottom Up</a>
+          <div class="card-meta">15 Nov 2021</div>
+          <div class="card-meta card-domain">iximiuz.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is a Container? Container vs. VM? Docker vs. Kubernetes. How to organize the learning efficiently?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-20T21:12:57.000Z | tags: devops, docker, kubernetes, webdev -->
+      <div class="card-image">
+        <img src="https://files.ably.io/ghost/prod/2021/07/no-we-dont-use-kubernetes-current-setup-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ably.com/blog/no-we-dont-use-kubernetes">No, we don’t use Kubernetes</a>
+          <div class="card-meta">20 Jul 2021</div>
+          <div class="card-meta card-domain">ably.com</div>
+        </div>
+        <div class="card-section">
+          <p>“No, we don’t use Kubernetes”. That always gets raised eyebrows... so we decided to write about our reasoning behind this cloud architecture decision.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-16T11:29:51.000Z | tags: devops, docker -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://launchyourapp.meezeeworkouts.com/2021/03/why-we-dont-use-docker-we-dont-need-it.html">We Don’t Use Docker</a>
+          <div class="card-meta">16 Mar 2021</div>
+          <div class="card-meta card-domain">launchyourapp.meezeeworkouts.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-10T03:26:26.000Z | tags: containers, devops, docker, heroku -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/dhttas9u5/image/upload/c_fill,dpr_2,fl_progressive,h_800,q_auto,w_1600/duk0vhe6b2vyxj7f7wzj.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://technology.doximity.com/articles/buildpacks-vs-dockerfiles">Buildpacks vs Dockerfiles</a>
+          <div class="card-meta">10 Feb 2021</div>
+          <div class="card-meta card-domain">technology.doximity.com</div>
+        </div>
+        <div class="card-section">
+          <p>Read more on the Doximity Technology Blog about how our engineers and data scientists are building the largest online network for clinicians.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T02:41:40.000Z | tags: containers, devops, docker, kubernetes -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fmwclzdxtfgighjrwdpfa.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/rhMbPeiGlh?ssr=true">Wait, Docker is deprecated in Kubernetes now? What do I do?</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>This article explains why Docker is now deprecated in Kubernetes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:33:15.000Z | tags: containers, devops, docker, kubernetes -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://minikube.sigs.k8s.io/docs/drivers/docker">docker | minikube</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">minikube.sigs.k8s.io</div>
+        </div>
+        <div class="card-section">
+          <p>Overview The Docker driver allows you to install Kubernetes into an existing Docker install. On Linux, this does not require virtualization to be enabled. Requirements Install Docker 18.09 or higher (20.10 or higher is recommended) amd64 or arm64 system. If using WSL complete these steps first Usage Start a cluster using the docker driver: minikube start --driver=docker To make docker the default driver: minikube config set driver docker Requirements Docker 20.10 or higher, see https://rootlesscontaine.rs/getting-started/docker/ Cgroup v2 delegation, see https://rootlesscontaine.rs/getting-started/common/cgroup2/ Kernel 5.11 or later (5.13 or later is recommended when SELinux is enabled), see https://rootlesscontaine.rs/how-it-works/overlayfs/ Usage Start a cluster using the rootless docker driver:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-27T14:23:41.000Z | tags: containers, devops, docker -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WS7hapMkSb9NWsIf2tg22Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@mostlyfocusedmike/how-to-use-docker-images-containers-and-dockerfiles-39e4e8fc181a">How to Use Docker Images, Containers, and Dockerfiles</a>
+          <div class="card-meta">27 Oct 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>With an Infographic and Cheatsheet</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: devops, docker, kubernetes, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlfromscratch.com/deployment-introduction">Introduction To Machine Learning Deployment Using Docker and Kubernetes</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">mlfromscratch.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,520 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>llms + llms-agents &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-04T16:55:40.739Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!_g0S!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/components-of-a-coding-agent">Components of A Coding Agent</a>
+          <div class="card-meta">4 Apr 2026</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>How coding agents use tools, memory, and repo context to make LLMs work better in practice</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-04T16:34:22.447Z | tags: llms, best-practices, prompt-engineering, quality, llms-agents -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!-bY4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F086c0b14-a03b-4690-aae0-e322b07fbc60_2816x1504.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/decision/p/harness-engineering-how-to-supervise?r=oc5d&amp;utm_medium=ios">Harness Engineering: How to Supervise Code You Can’t Read</a>
+          <div class="card-meta">4 Mar 2026</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI writes the code now. The skill that matters is controlling what it builds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-22T13:30:33.681Z | tags: llms, trust, llms-agents -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://garryslist.org/posts/half-the-ai-agent-market-is-one-category-the-rest-is-wide-open">https://garryslist.org/posts/half-the-ai-agent-market-is-one-category-the-rest-is-wide-open</a>
+          <div class="card-meta">22 Feb 2026</div>
+          <div class="card-meta card-domain">garryslist.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-21T12:04:05.313Z | tags: llms, prompt-engineering, command-line, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.notion.so/image/attachment%3A17eae015-00f4-4de9-a5a6-9c81d2da28f9%3ASocialMediaPreviewImage.png?table=block&amp;id=2ff8d191-e151-8138-9405-c1a10d0229c9&amp;spaceId=0c08d191-e151-814a-bb81-00033d26e436&amp;width=2000&amp;userId=&amp;cache=v2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.notion.so/Claude-Code-Beginners-Guide-Multi-Agent-Orchestration-Run-Claude-Code-Like-a-5-Person-Team-2ff8d191e15181389405c1a10d0229c9">🐣(Claude Code Beginners Guide) Multi-Agent Orchestration: Run Claude Code Like a 5-Person Team | Notion</a>
+          <div class="card-meta">21 Feb 2026</div>
+          <div class="card-meta card-domain">notion.so</div>
+        </div>
+        <div class="card-section">
+          <p>Quick note before you jump in:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-16T11:53:16.793Z | tags: llms, benchmarks, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.reuters.com/resizer/v2/YN3QYHR43ZIPDI4THOXMJUER5M.jpg?auth=998006c15796a5f34b102144c693d6c1650e878381ad9625843f5934cb24df8b&amp;height=1005&amp;width=1920&amp;quality=80&amp;smart=true" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reuters.com/world/china/alibaba-unveils-new-qwen35-model-agentic-ai-era-2026-02-16/">Alibaba unveils new Qwen3.5 model for &#39;agentic AI era&#39;</a>
+          <div class="card-meta">16 Feb 2026</div>
+          <div class="card-meta card-domain">reuters.com</div>
+        </div>
+        <div class="card-section">
+          <p>Alibaba on Monday unveiled a new artificial intelligence model Qwen 3.5 designed to execute complex tasks independently, with big improvements in performance and cost that the Chinese tech giant claims beat major U.S. rival models on several benchmarks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-12T19:31:14.595Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/YFjfBk8HI5o/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://youtu.be/YFjfBk8HI5o">OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491</a>
+          <div class="card-meta">12 Feb 2026</div>
+          <div class="card-meta card-domain">youtu.be</div>
+        </div>
+        <div class="card-section">
+          <p>Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework that&#39;s the fastest-growing project in GitHub history.Thank you for listening ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-20T15:00:07.650Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/technology/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free">Claude Code costs up to $200 a month. Goose does the same thing for free.</a>
+          <div class="card-meta">20 Jan 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Goose, Block’s open-source AI coding agent, is emerging as a free alternative to Anthropic’s Claude Code, as developers weigh offline control, rate limits, and the rising cost of AI coding tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-13T01:16:32.726Z | tags: llms, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no">Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required</a>
+          <div class="card-meta">13 Jan 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic’s Cowork brings Claude Code–style AI agents to the desktop, letting Claude access and manage local files and browse the web—boosting productivity while raising new security and trust risks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-13T00:46:50.995Z | tags: llms, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2026/claude-cowork.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2026/Jan/12/claude-cowork/">First impressions of Claude Cowork, Anthropic’s general agent</a>
+          <div class="card-meta">13 Jan 2026</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>New from Anthropic today is Claude Cowork, a “research preview” that they describe as “Claude Code for the rest of your work”. It’s currently available only to Max subscribers ($100 …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-23T11:07:46.932Z | tags: llms, gemini, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.philschmid.de/static/blog/building-agents/thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.philschmid.de/building-agents">Practical Guide on how to build an Agent from scratch with Gemini 3</a>
+          <div class="card-meta">23 Nov 2025</div>
+          <div class="card-meta card-domain">philschmid.de</div>
+        </div>
+        <div class="card-section">
+          <p>A step-by-step practical guide on building AI agents using Gemini 3 Pro, covering tool integration, context management, and best practices for creating effective and reliable agents.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-19T11:37:04.599Z | tags: llms, chatbots, llms-gpt, llms-agents -->
+      <div class="card-image">
+        <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/chatgptagent.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.722908076692%2C100%2C78.554183846616&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theverge.com/ai-artificial-intelligence/710020/openai-review-test-new-release-chatgpt-agent-operator-deep-research-pro-200-subscription">I sent ChatGPT Agent out to shop for me</a>
+          <div class="card-meta">19 Jul 2025</div>
+          <div class="card-meta card-domain">theverge.com</div>
+        </div>
+        <div class="card-section">
+          <p>We tested OpenAI’s ChatGPT Agent, currently only available via its $200-per-month Pro subscription.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-19T01:27:44.756Z | tags: llms, llms-gpt, llms-agents -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/kftzwdyauwt9/4MBcZnnZGYlsr4Ev1eHT9j/a8556ef6251e5a968dd00ade958f1192/Agent_System_Card_SEO_Image.png?w=1600&amp;h=900&amp;fit=fill" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://openai.com/index/chatgpt-agent-system-card/">ChatGPT agent System Card | OpenAI</a>
+          <div class="card-meta">19 Jul 2025</div>
+          <div class="card-meta card-domain">openai.com</div>
+        </div>
+        <div class="card-section">
+          <p>ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-13T22:26:54.333Z | tags: llms, llms-rag, llms-agents -->
+      <div class="card-image">
+        <img src="https://substack-post-media.s3.amazonaws.com/public/images/1abc67af-38cf-4cdc-bd70-3d897e8cac30_1200x1599.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://substack.com/@shirinkjam/note/c-133160958?r=oc5d&amp;utm_medium=ios&amp;utm_source=notes-share-action">Shirin Khosravi Jam on Substack</a>
+          <div class="card-meta">13 Jul 2025</div>
+          <div class="card-meta card-domain">substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>I taught myself how to build RAG + AI Agents in production.
+
+Been running them live for over a year now. Here are 4 steps + the only resources you really need to do the same.
+
+…
+
+Ugly truth: most “AI Engineers” shouting on social media haven’t built a single real production AI Agent or RAG system.
+
+If you want to be different - actually build and ship these systems: here’s a laser-focused roadmap from my own journey.
+
+..
+
+🚀 𝗦𝘁𝗮𝗿𝘁 𝘄𝗶𝘁𝗵 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+
+Because no matter how fast LLM/GenAI evolves, your ML &amp; software foundations keep you relevant.
+
+✅ Hands-On ML with TensorFlow &amp; Keras: https://lnkd.in/dWrf5pbS
+
+✅ ISLR: https://lnkd.in/djGPVVwJ
+
+✅ Machine Learning for Beginners by Microsoft (free curriculum):
+
+https://lnkd.in/d8kZA3es
+
+…
+
+1️⃣ 𝗠𝗮𝘀𝘁𝗲𝗿 𝗟𝗟𝗠𝘀 &amp; 𝗚𝗲𝗻𝗔𝗜 𝗦𝘆𝘀𝘁𝗲𝗺𝘀
+
+→ Learn to build &amp; deploy LLMs, understand system design tradeoffs, and handle real constraints.
+
+📚 Must-reads:
+
+✅ Designing ML Systems – Chip Huyen: https://lnkd.in/guN-UhXA
+
+✅ The LLM Engineering Handbook – Iusztin &amp; Labonne: https://lnkd.in/gyA4vFXz
+
+✅ Build a LLM (From Scratch) – Raschka: https://lnkd.in/gXNa-SPb
+
+✅ Hands-On LLMs GitHub: https://lnkd.in/eV4qrgNW
+
+…
+
+2️⃣ 𝗚𝗼 𝗯𝗲𝘆𝗼𝗻𝗱 𝘁𝗵𝗲 𝗵𝘆𝗽𝗲 𝗼𝗻 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀
+
+→ Most demos = “if user says hello, return hello.”
+
+Actual agents? Handle memory, tools, workflows, costs.
+
+✅ AI Agents for Beginners (GitHub): https://lnkd.in/eik2btmq
+
+✅ GenAI Agents – build step by step: https://lnkd.in/dnhwk75V
+
+✅ OpenAI’s guide to agents: https://lnkd.in/guRfXsFK
+
+✅ Anthropic’s Building Effective Agents: https://lnkd.in/gRWKANS4
+
+…
+
+3️⃣ 𝗥𝗔𝗚 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮 𝘃𝗲𝗰𝘁𝗼𝗿 𝗗𝗕
+
+Real Retrieval-Augmented Generation requires:
+
+→ Chunking, hybrid BM25 + vectors, reranking
+
+→ Query routing &amp; fallback
+
+→ Evaluating retrieval quality, not just LLM output
+
+✅ RAG Techniques repo: https://lnkd.in/dD4S8Cq2
+
+✅ Advanced RAG: https://lnkd.in/g2ZHwZ3w
+
+✅ Cost-efficient retrieval with Postgres/OpenSearch/Qdrant
+
+✅ Monitoring with Langfuse / Comet
+
+…
+
+4️⃣ 𝗚𝗲𝘁 𝘀𝗲𝗿𝗶𝗼𝘂𝘀 𝗼𝗻 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 &amp; 𝗜𝗻𝗳𝗿𝗮
+
+→ FastAPI, async Python, Pydantic
+
+→ Docker, CI/CD, blue-green deploys
+
+→ ETL orchestration (Airflow, Step Functions)
+
+→ Logs + metrics (CloudWatch, Prometheus)
+
+✅ Move to production: https://lnkd.in/dnnkrJbE
+
+✅ Made with ML (full ML+infra): https://lnkd.in/e-XQwXqS
+
+✅ AWS GenAI path: https://lnkd.in/dmhR3uPc
+
+…
+
+5️⃣ 𝗪𝗵𝗲𝗿𝗲 𝗱𝗼 𝗜 𝗹𝗲𝗮𝗿𝗻 𝗳𝗿𝗼𝗺?
+
+→ Stanford CS336 / CS236 / CS229 (Google it)
+
+→ MIT 6.S191, Karpathy’s Zero to Hero: https://lnkd.in/dT7vqqQ5
+
+→ Google Kaggle GenAI sprint: https://lnkd.in/ga5X7tVJ
+
+→ NVIDIA’s end-to-end LLM stack: https://lnkd.in/gCtDnhni
+
+→ DeepLearning.AI’s short courses: https://lnkd.in/gAYmJqS6
+
+…
+
+💥 𝗞𝗲𝗲𝗽 𝗶𝘁 𝗿𝗲𝗮𝗹:
+
+Don’t fall for “built in 5 min, dead in 10 min” demos.
+
+In prod, it’s about latency, cost, maintainability, guardrails.
+
+♻️ Let&#39;s repost to help more people on this journey 💚</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-25T22:00:49.571Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/wRsQowKKbgyXv2eni/rvsaqg2rmqiefwyne0fj" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.lesswrong.com/posts/wRsQowKKbgyXv2eni/i-tested-llm-agents-on-simple-safety-rules-they-failed-in">I Tested LLM Agents on Simple Safety Rules. They Failed in Surprising and Informative Ways. — LessWrong</a>
+          <div class="card-meta">25 Jun 2025</div>
+          <div class="card-meta card-domain">lesswrong.com</div>
+        </div>
+        <div class="card-section">
+          <p>TL;DR: I developed a simple, open-source benchmark to test if LLM agents follow high-level safety principles when they conflict with a given task acc…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-17T21:02:12.925Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/4zrzovbb/website/76b5733c669f0dfb9c7aa7fc512a495867cf12e6-2400x1260.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anthropic.com/engineering/building-effective-agents">Building Effective AI Agents</a>
+          <div class="card-meta">17 Jun 2025</div>
+          <div class="card-meta card-domain">anthropic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-15T15:01:27.452Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/Building-AI-Agents-A2A-vs.-MCP-Explained-Simply.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/building-ai-agents-a2a-vs-mcp-explained-simply">Building AI Agents? A2A vs. MCP Explained Simply - KDnuggets</a>
+          <div class="card-meta">15 May 2025</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Confused by AI agent frameworks? This article makes sense of A2A and MCP.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-18T14:53:09.219Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/04/a-digital-illustration-of-an-open-book-w_8QSSNEMdQx-4WmKW4sVoOA__ZIxHjjXTFSXziTaC-K5Kg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/04/17/openai-releases-a-practical-guide-to-building-llm-agents-for-real-world-applications/">OpenAI Releases a Practical Guide to Building LLM Agents for Real-World Applications</a>
+          <div class="card-meta">18 Apr 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-16T23:06:37.244Z | tags: llms, prompt-engineering, llms-claude, llms-agents -->
+      <div class="card-image">
+        <img src="https://ampcode.com/og-how-to-build-an-agent.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ampcode.com/how-to-build-an-agent">How To Build An Agent | Amp</a>
+          <div class="card-meta">16 Apr 2025</div>
+          <div class="card-meta card-domain">ampcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a fully functional, code-editing agent in less than 400 lines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-11T11:45:57.966Z | tags: best-practices, llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://lobste.rs/touch-icon-144.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lobste.rs/s/seuxei">12-factor-agents: Principles to build LLM-powered software good enough to put in the hands of production customers</a>
+          <div class="card-meta">11 Apr 2025</div>
+          <div class="card-meta card-domain">lobste.rs</div>
+        </div>
+        <div class="card-section">
+          <p>0 comments</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-05T11:08:10.777Z | tags: mcp, langchain, llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/04/Screenshot-2025-04-04-at-10.45.12 PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/04/04/a-code-implementation-to-building-a-context-aware-ai-assistant-in-google-colab-using-langchain-langgraph-gemini-pro-and-model-context-protocol-mcp-principles-with-tool-integration-support/">A Code Implementation to Building a Context-Aware AI Assistant in Google Colab Using LangChain, LangGraph, Gemini Pro, and Model Context Protocol (MCP) Principles with Tool Integration Support</a>
+          <div class="card-meta">5 Apr 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-03T15:36:02.377Z | tags: llms, langgraph, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/5-AI-Agent-Frameworks-Compared_1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/5-ai-agent-frameworks-compared">5 AI Agent Frameworks Compared - KDnuggets</a>
+          <div class="card-meta">3 Feb 2025</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Check out this comparison of 5 AI frameworks to determine which you should choose.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-02T12:08:39.410Z | tags: llms, langgraph, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/02/Screenshot-2025-02-01-at-10.53.44%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/02/01/creating-an-ai-agent-based-system-with-langgraph-adding-persistence-and-streaming-step-by-step-guide/">Creating an AI Agent-Based System with LangGraph: Adding Persistence and Streaming (Step by Step Guide)</a>
+          <div class="card-meta">2 Feb 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>In our previous tutorial, we built an AI agent capable of answering queries by surfing the web. However, when building agents for longer-running tasks, two critical concepts come into play: persistence and streaming. Persistence allows you to save the state of an agent at any given point, enabling you to resume from that state in future interactions. This is crucial for long-running applications. On the other hand, streaming lets you emit real-time signals about what the agent is doing at any moment, providing transparency and control over its actions. In this tutorial, we’ll enhance our agent by adding these powerful</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-12T20:59:07.102Z | tags: llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://huyenchip.com/assets/pics/agents/2-agent-pattern.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://huyenchip.com/2025/01/07/agents.html">Agents</a>
+          <div class="card-meta">12 Jan 2025</div>
+          <div class="card-meta card-domain">huyenchip.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intelligent agents are considered by many to be the ultimate goal of AI. The classic book by Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (Prentice Hall, 1995), defines the field of AI research as “the study and design of rational agents.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

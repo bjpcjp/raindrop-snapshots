@@ -1,0 +1,847 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>gpus + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-22T13:55:46.022Z | tags: image-generation, video, semiconductors, gpus -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/04/Tenstorrent-Blackhole-1920x1008.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/tenstorrent-ai-model-blackhole-servers-generates-videos-faster-than-real-time/">Tenstorrent’s Optimized AI Model, Running on Blackhole Servers, Generates 5-Sec Video In Just 2.4 Seconds</a>
+          <div class="card-meta">22 Apr 2026</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tenstorrent has previewed its optimized AI model, which is powered by the Blackhole servers, offering blazing-fast video generation speeds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-23T00:57:58.273Z | tags: gpus, tpu, semiconductors, datacenters, moats -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!poOF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a36611-ba35-4595-ad62-6362cf5ad767_1280x720.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datagravity.dev/p/anthropics-compute-advantage-why">Anthropic&#39;s Compute Advantage: Why Silicon Strategy is Becoming an AI Moat</a>
+          <div class="card-meta">23 Mar 2026</div>
+          <div class="card-meta card-domain">datagravity.dev</div>
+        </div>
+        <div class="card-section">
+          <p>Why Anthropic’s integration into hyperscaler silicon programs may give it a lasting advantage in the economics of frontier AI.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-05T22:45:55.927Z | tags: gpus, nvidia, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/01/NVIDIA-Rubin-AI-Platform-_7-scaled.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/nvidia-rubin-most-advanced-ai-platform-50-pflops-vera-cpu-5x-uplift-vs-blackwell/">NVIDIA Rubin Is The Most Advanced AI Platform On The Planet: Up To 50 PFLOPs With HBM4, Vera CPU With 88 Olympus Cores, And Delivers 5x Uplift Vs Blackwell</a>
+          <div class="card-meta">5 Jan 2026</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>NVIDIA is formally announcing its Rubin AI platform today which will be the heart of next-gen Data Centers, with a 5x upgrade over Blackwell.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-20T22:49:55.793Z | tags: gpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbozvrojxdvwmyyqmesxw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/lewis_won/demystifying-gpus-from-core-architecture-to-scalable-systems-419l">Demystifying GPUs: From Core Architecture to Scalable Systems</a>
+          <div class="card-meta">20 Jul 2025</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Table of Contents   Motivation Optimization goal of GPUs Key concepts of GPUs - software and...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-24T16:16:11.289Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.cell.com/cms/asset/f044f4b6-a78b-467a-a5c6-77e06011b269/fx1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cell.com/device/fulltext/S2666-9986(25)00147-4">Performance, efficiency, and cost analysis of wafer-scale AI accelerators vs. single-chip GPUs</a>
+          <div class="card-meta">24 Jun 2025</div>
+          <div class="card-meta card-domain">cell.com</div>
+        </div>
+        <div class="card-section">
+          <p>This review compares wafer-scale AI accelerators and single-chip GPUs in terms of
+performance, energy efficiency, and cost for high-performance AI applications. It
+highlights enabling technologies, such as CoWoS, and explores future directions including
+3D integration, photonic chips, and emerging semiconductor materials.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-26T21:35:46.061Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4E22AQH5L9oZ_HqKmw/feedshare-shrink_800/B4EZXKVKTeHUAk-/0/1742856301268?e=2147483647&amp;v=beta&amp;t=9sAsYWDWAetgGE6IJhvBhgTdIQKpuqJD_bDZKI_STbg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/nader-el-masri-coo_the-future-of-ai-accelerators-a-roadmap-activity-7310216406921281536-EGE2?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">The Future of AI Accelerators: A Roadmap of Industry Leaders The AI… | Nader EL-Masri</a>
+          <div class="card-meta">26 Mar 2025</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Future of AI Accelerators: A Roadmap of Industry Leaders
+
+The AI hardware race is heating up, with major players like NVIDIA, AMD, Intel, Google, Amazon, and more unveiling their upcoming AI accelerators. Here’s a quick breakdown of the latest trends:
+
+Key Takeaways:
+
+NVIDIA Dominance: NVIDIA continues to lead with a robust roadmap, extending from H100 to future Rubin and Rubin Ultra chips with HBM4 memory by 2026-2027.
+
+AMD’s Competitive Push: AMD’s MI300 series is already competing, with MI350 and future MI400 models on the horizon.
+
+Intel’s AI Ambitions: Gaudi accelerators are growing, with Falcon Shores on track for a major memory upgrade.
+
+Google &amp;amp; Amazon’s Custom Chips: Google’s TPU lineup expands rapidly, while Amazon’s Trainium &amp;amp; Inferentia gain traction.
+
+Microsoft &amp;amp; Meta’s AI Expansion: Both companies are pushing their AI chip strategies with Maia and MTIA projects, respectively.
+
+Broadcom &amp;amp; ByteDance Join the Race: New challengers are emerging, signaling increased competition in AI hardware.
+
+
+What This Means:
+
+With the growing demand for AI and LLMs, companies are racing to deliver high-performance AI accelerators with advanced HBM (High Bandwidth Memory) configurations. The next few years will be crucial in shaping the AI infrastructure landscape.
+
+$NVDA $AMD $INTC $GOOGL $AMZN $META $AVGO $ASML $BESI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-15T00:18:39.707Z | tags: semiconductors, cpus, gpus, chip-design -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fchipsandcheese.substack.com%2Fapi%2Fv1%2Fpost_preview%2F154782290%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/p/amds-strix-halo-under-the-hood">AMD&#39;s Strix Halo - Under the Hood</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello you fine Internet folks,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-28T13:13:15.687Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F304b8eae-e3ec-4d5b-a673-75183232003c_1625x1080.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/thechipletter/p/demystifying-gpu-compute-architectures?r=oc5d&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=false">Demystifying GPU Compute Architectures</a>
+          <div class="card-meta">28 Jan 2025</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting &#39;low level&#39; with Nvidia and AMD GPUs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-23T04:41:23.922Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2024/11/Intel-Arc-B580-GPU.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/intel-arc-b580-battlemage-gpu-leak-confirms-12-gb-memory-standard-power-connectors-up-to-2-8-ghz/">Intel Arc B580 &quot;Battlemage&quot; GPU Leak Confirms 12 GB Memory, Custom Models With Standard Power Connectors, Up To 2.8 GHz Clocks</a>
+          <div class="card-meta">23 Nov 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Intel&#39;s first Arc B580 GPUs based on the Xe2 &quot;Battlemage&quot; architecture have been leaked &amp; they look quite compelling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-20T03:24:07.000Z | tags: gpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/21482/tesntorrent-wormhole-678_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/21482/tenstorrent-launches-wormhole-ai-processors-466-fp8-tflops-at-300w">Tenstorrent Launches Wormhole AI Processors: 466 FP8 TFLOPS at 300W</a>
+          <div class="card-meta">20 Jul 2024</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-17T13:12:48.000Z | tags: china, gpus, public-policy, semiconductors -->
+      <div class="card-image">
+        <img src="https://regmedia.co.uk/2023/10/19/hammerdown.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theregister.com/2023/10/19/china_biden_ai">Biden has brought the ban hammer down on US export of AI chips to China</a>
+          <div class="card-meta">17 Apr 2024</div>
+          <div class="card-meta card-domain">theregister.com</div>
+        </div>
+        <div class="card-section">
+          <p>Datacenter GPUs and some consumer cards now exceed performance limits</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-17T13:12:22.000Z | tags: china, gpus, public-policy, semiconductors -->
+      <div class="card-image">
+        <img src="https://regmedia.co.uk/2024/04/12/intel_shutterstock.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theregister.com/2024/04/12/intel_paudi_3_china">Intel preps export-friendly lower-power Gaudi 3 AI chips made for China</a>
+          <div class="card-meta">17 Apr 2024</div>
+          <div class="card-meta card-domain">theregister.com</div>
+        </div>
+        <div class="card-section">
+          <p>Beijing will be thrilled by this nerfed silicon</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-12T03:40:11.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff90660a7-f3df-4ce4-83a5-42642215a7a6_1792x1024.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/semianalysis/p/nvidia-blackwell-perf-tco-analysis?r=oc5d">Nvidia Blackwell Perf TCO Analysis - B100 vs B200 vs GB200NVL72</a>
+          <div class="card-meta">12 Apr 2024</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>GPT-4 Profitability, Cost, Inference Simulator, Parallelism Explained, Performance TCO Modeling In Large &amp; Small Model Inference and Training</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-05T16:42:27.000Z | tags: gpus, interconnects, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/03/eliyan-logo2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/03/28/how-to-build-a-better-blackwell-gpu-than-nvidia-did">How To Build A Better “Blackwell” GPU Than Nvidia Did</a>
+          <div class="card-meta">5 Apr 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>While a lot of people focus on the floating point and integer processing architectures of various kinds of compute engines, we are spending more and more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-29T01:04:05.000Z | tags: amd, gpus, semiconductors, supply-chain -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2023/06/AMD-Instinct-MI300X-GPU-g-low_res-scale-2_00x-Custom-728x361.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/lenovo-shows-huge-optimism-towards-amds-instinct-mi300x-ai-accelerators">Lenovo Shows Huge Optimism Towards AMD’s Instinct MI300X AI Accelerators</a>
+          <div class="card-meta">29 Mar 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lenovo, the firm emerging as a driving force behind AI computing, has expressed tremendous optimism about AMD&#39;s Instinct MI300X accelerator.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-07T02:05:42.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2023/12/07/business/00ai-bigtech-chips/00ai-bigtech-chips-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2024/01/29/technology/ai-chips-nvidia-amazon-google-microsoft-meta.html">Nvidia’s Big Tech Rivals Put Their Own A.I. Chips on the Table - The New Yo</a>
+          <div class="card-meta">7 Feb 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Chafing at their dependence, Amazon, Google, Meta and Microsoft are racing to cut into Nvidia’s dominant share of the market.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T13:23:11.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a4027fe-c5c4-4d32-aa25-62a59553af47_1277x715.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://chipsandcheese.com/2023/07/27/amds-radeon-instinct-mi210-gcn-lives-on">AMD’s Radeon Instinct MI210: GCN Lives On</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">chipsandcheese.com</div>
+        </div>
+        <div class="card-section">
+          <p>AMD, Nvidia, and Intel have all diverged their GPU architectures to separately optimize for compute and graphics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-09T15:32:48.000Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7200eed5-4750-42ef-9709-755af8ec5f0e_2387x2025.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/ai-capacity-constraints-cowos-and">AI Capacity Constraints - CoWoS and HBM Supply Chain</a>
+          <div class="card-meta">9 Jul 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quarterly Ramp for Nvidia, Broadcom, Google, AMD, AMD Embedded (Xilinx), Amazon, Marvell, Microsoft, Alchip, Alibaba T-Head, ZTE Sanechips, Samsung, Micron, and SK Hynix</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-30T21:00:14.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/Dwk4v483zJSHF7iD4kp7R-1200-80.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/micron-to-introduce-gddr7-memory-in-1h-2024">Micron to Introduce GDDR7 Memory in 1H 2024</a>
+          <div class="card-meta">30 Jun 2023</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>GDDR7 is getting closer, says Micron.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-30T12:20:58.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/07kN5oasl2Qeky7WDxOa5YW/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/gaming/micron-announces-gddr7-for-gpus-coming-in-first-half-of-2024">Micron Announces GDDR7 for GPUs Coming in First Half of 2024</a>
+          <div class="card-meta">30 Jun 2023</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Though it&#39;ll arrive just in time for mid-cycle refresh from AMD, Nvidia, and Intel, it&#39;s unclear if there will be any takers just yet.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-22T21:59:39.000Z | tags: cpus, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f05107e-aad1-4b2d-922c-ddbcafb39085_1252x704.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/ai-server-cost-analysis-memory-is">AI Server Cost Analysis – Memory Is The Biggest Loser</a>
+          <div class="card-meta">22 Jun 2023</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Micron $MU looks very weak in AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-19T14:24:34.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/18915/AMD-Instinct-MI300X-Xray_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/18915/amd-expands-mi300-family-with-mi300x-gpu-only-192gb-memory">AMD Expands AI/HPC Product Lineup With Flagship GPU-only Instinct Mi300X wi</a>
+          <div class="card-meta">19 Jun 2023</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-14T17:44:47.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2023/06/amd-mi300a-die-package-shot-updated.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/06/14/the-third-time-charm-of-amds-instinct-gpu">The Third Time Charm Of AMD’s Instinct GPU</a>
+          <div class="card-meta">14 Jun 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>The great thing about the Cambrian explosion in compute that has been forced by the end of Dennard scaling of clock frequencies and Moore’s Law lowering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-02T00:01:45.000Z | tags: cpus, deep-learning, gpus, llms, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/an-intel-xeon-processor-on-a-black-backdrop-the-processor-is-shown-from-both-above-and-below-displaying-the-thousands-of-conta.jpg?id=33743986&amp;width=1200&amp;height=600&amp;coordinates=0%2C698%2C0%2C698" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-cpu">The Case for Running AI on CPUs Isn’t Dead Yet</a>
+          <div class="card-meta">2 Jun 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>GPUs may dominate, but CPUs could be perfect for smaller AI models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-12T13:17:16.000Z | tags: gpus, interconnects, llms, semiconductors -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2022/12/VB_dictionary-page_romain-vignes-ywqa9IZB-dU-unsplash.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/google-dives-into-the-supercomputer-game-knitting-together-purpose-built-gpus-for-llm-training">Google dives into the ‘supercomputer’ game by knitting together purpose-bui</a>
+          <div class="card-meta">12 May 2023</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s new machines combine Nvidia H100 GPUs with Google’s high-speed interconnections for AI tasks like training very large language models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-21T18:51:49.000Z | tags: gpus, lithography, machine-vision, semiconductors -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/Vu6N9RDjut8Yy6FiGKNSCB-1200-80.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/nvidia-tackles-chipmaking-process-claims-40x-speed-up-with-culitho">Nvidia Tackles Chipmaking Process, Claims 40X Speed Up with cuLitho</a>
+          <div class="card-meta">21 Mar 2023</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>Faster masks, less power.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-25T19:33:53.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://image.cnbcfm.com/api/v1/image/107199183-1677187677231-nvidia-a100-sxm4-80gb_mid.jpg?v=1678712289&amp;w=1920&amp;h=1080" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cnbc.com/2023/02/23/nvidias-a100-is-the-10000-chip-powering-the-race-for-ai-.html">Meet the $10,000 Nvidia chip powering the race for A.I.</a>
+          <div class="card-meta">25 Feb 2023</div>
+          <div class="card-meta card-domain">cnbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>The $10,000 Nvidia A100has become one of the most critical tools in the artificial intelligence industry,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T21:50:56.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://timdettmers.com/wp-content/uploads/2023/01/GPUs_Ada_performance_per_dollar6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://timdettmers.com/2023/01/16/which-gpu-for-deep-learning">Hacker News</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">timdettmers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here, I provide an in-depth analysis of GPUs for deep learning/machine learning and explain what is the best GPU for your use-case and budget.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-06T21:49:59.000Z | tags: gpus, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/12/nvidia-dpu-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2022/01/06/nvidia-research-plots-a-course-to-multiple-multichip-gpu-engines">Nvidia Research Plots A Course To Multiple Multichip GPU Engines</a>
+          <div class="card-meta">6 Jan 2022</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are two types of packaging that represent the future of computing, and both will have validity in certain domains: Wafer scale integration and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:21:43.000Z | tags: deep-learning, gpus, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2015/11/TeslaGPU2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/03/14/3d-stacking-boost-gpu-machine-learning">3D Stacking Could Boost GPU Machine Learning</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia has staked its growth in the datacenter on machine learning. Over the past few years, the company has rolled out features in its GPUs aimed neural</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:06:49.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/cc9d14d9a9af338e6735ce2004834e2cdc107b05355abd8fe0c30fbf595d678f/baidu-research/warp-ctc" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/baidu-research/warp-ctc">baidu-research/warp-ctc</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fast parallel CTC.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:02:42.000Z | tags: gpus, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/12581/nvswitch_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/12581/nvidia-develops-nvlink-switch-nvswitch-18-ports-for-dgx2-more">NVIDIA Develops NVLink Switch: NVSwitch, 18 Ports For DGX-2 &amp; More</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T00:08:50.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/11/amd-mi200-aldebaran-package.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/12/06/stacking-up-amd-mi200-versus-nvidia-a100-compute-engines">Stacking Up AMD MI200 Versus Nvidia A100 Compute Engines</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>The modern GPU compute engine is a microcosm of the high performance computing datacenter at large. At every level of HPC – across systems in the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:42:36.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e">https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">blog.riseml.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T15:59:46.000Z | tags: deep-learning, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2018/04/baidu_front.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/25/a-look-at-baidus-industrial-scale-gpu-training-architecture">A Look at Baidu’s Industrial-Scale GPU Training Architecture</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Like its U.S. counterpart, Google, Baidu has made significant investments to build robust, large-scale systems to support global advertising programs. As</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T01:23:22.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/Mythic-M.2-AE.png?fit=662%2C893" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/mythic-resizes-its-analog-ai-chip">Mythic Resizes its AI Chip</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Its second analog AI chip is optimized for different card sizes, but still aimed at computer vision workloads at the edge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-24T17:55:05.000Z | tags: deep-learning, gpus, linear-algebra, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/02/ab_quantum_general.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/24/what-happens-when-multiplication-no-longer-defines-ai-accelerators">What Happens When Multipliers No Longer Define AI Accelerators?</a>
+          <div class="card-meta">24 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Current custom AI hardware devices are built around super-efficient, high performance matrix multiplication. This category of accelerators includes the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T13:51:38.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.tedium.co/uploads/tedium032621.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tedium.co/2021/03/26/gpu-technology-history">GPU Nomenclature History: No Shortage of GPUs Here</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">tedium.co</div>
+        </div>
+        <div class="card-section">
+          <p>What makes a GPU a GPU, and when did we start calling it that? Turns out that’s a more complicated question than it sounds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-19T21:59:34.000Z | tags: amd, cpus, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.techspot.com/articles-info/2043/images/2020-06-29-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.techspot.com/article/2043-amd-rise-fall-revival-history">The Rise, Fall and Revival of AMD (2020)</a>
+          <div class="card-meta">19 Mar 2021</div>
+          <div class="card-meta card-domain">techspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>AMD is one of the oldest designers of large scale microprocessors and has been the subject of polarizing debate among technology enthusiasts for nearly 50 years. Its...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-18T13:06:26.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2019/02/arm-neoverse-n1-64-core-block.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/03/17/can-graviton-win-a-three-way-compute-race-at-aws">Can Graviton Win A Three-Way Compute Race At AWS?</a>
+          <div class="card-meta">18 Mar 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the main tenets of the hyperscalers and cloud builders is that they buy what they can and they only build what they must. And if they are building</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-15T20:28:43.000Z | tags: amd, gpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rocmdocs.amd.com/en/latest">Welcome to AMD ROCm Platform — ROCm Documentation 1.0.0 documentation</a>
+          <div class="card-meta">15 Mar 2021</div>
+          <div class="card-meta card-domain">rocmdocs.amd.com</div>
+        </div>
+        <div class="card-section">
+          <p>AMD ROCm documentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-04T15:10:59.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://a.fsdn.com/sd/topics/amd_64.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hardware.slashdot.org/story/21/01/03/1820246/speculation-grows-as-amd-files-patent-for-gpu-design">Speculation Grows As AMD Files Patent for GPU Design</a>
+          <div class="card-meta">4 Jan 2021</div>
+          <div class="card-meta card-domain">hardware.slashdot.org</div>
+        </div>
+        <div class="card-section">
+          <p>Long-time Slashdot reader UnknowingFool writes: AMD filed a patent on using chiplets for a GPU with hints on why it has waited this long to extend their CPU strategy to GPUs. The latency between chiplets poses more of a performance problem for GPUs, and AMD is attempting to solve the problem with a ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-09-16T10:28:12.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2020/09/nvidia-GeForce-RTX-30-Series.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2020/09/15/how-microns-gddr6x-memory-is-the-secret-to-unlocking-4k-on-nvidias-rtx-30-series-cards">How Micron’s GDDR6X memory is the secret to unlocking 4K on Nvidia’s RTX 30</a>
+          <div class="card-meta">16 Sep 2020</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Micron&#39;s GDDR6X is one of the star components in Nvidia&#39;s RTX 3070, 3080, and 3080 video cards. It&#39;s so fast it should boost gaming past the 4K barrier.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:01.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/05/nvidia-ampere-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2020/05/28/diving-deep-into-the-nvidia-ampere-gpu-architecture">Diving Deep Into The Nvidia Ampere GPU Architecture</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>When you have 54.2 billion transistors to play with, you can pack a lot of different functionality into a computing device, and this is precisely what</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T14:48:33.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/15801/GA100_Card_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/15801/nvidia-announces-ampere-architecture-and-a100-products">NVIDIA Ampere Unleashed: NVIDIA Announces New GPU Architecture, A100 GPU, a</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-11T12:02:52.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://pyimagesearch.com/wp-content/uploads/2019/05/jetson_nano_geting_started_header.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano">Getting started with the NVIDIA Jetson Nano - PyImageSearch</a>
+          <div class="card-meta">11 Mar 2020</div>
+          <div class="card-meta card-domain">pyimagesearch.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, you will learn how to get started with your NVIDIA Jetson Nano, including installing Keras + TensorFlow, accessing the camera, and performing image classification and object detection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:48.000Z | tags: gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://share.redd.it/preview/post/dr59gg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/hardware/comments/dr59gg/part_1_an_overview_of_amds_gpu_architectures">Part 1 - An Overview of AMD&#39;s GPU Architectures</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>363 votes, 25 comments. This post has been split into a two-part series to work around Reddit’s per-post character limit. Please find Part 2 in the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-12T23:02:04.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2016/10/Wave_Chip.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://semiengineering.com/making-waves-in-deep-learning">Semiconductor Engineering .:. Making Waves In Deep Learning</a>
+          <div class="card-meta">12 Oct 2016</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Making Waves in Deep Learning How deep learning applications will map onto a chip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-10T21:36:19.000Z | tags: gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2015/11/legos_oh.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.nextplatform.com/2016/10/10/memory-next-platform">Memory is the Next Platform</a>
+          <div class="card-meta">10 Oct 2016</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new crop of applications is driving the market along some unexpected routes, in some cases bypassing the processor as the landmark for performance and</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

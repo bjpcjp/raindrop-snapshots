@@ -1,0 +1,228 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>llms + llms-rag &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-11-10T11:36:26.749Z | tags: llms, databases, vector-databases, graphs, context-graphs, llms-rag -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/11/blog-banner-29.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/11/10/comparing-memory-systems-for-llm-agents-vector-graph-and-event-logs/">Comparing Memory Systems for LLM Agents: Vector, Graph, and Event Logs</a>
+          <div class="card-meta">10 Nov 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how different memory systems affect multi-agent planning. Comparing Memory Systems for LLM Agents highlights key performance metrics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-13T22:26:54.333Z | tags: llms, llms-rag, llms-agents -->
+      <div class="card-image">
+        <img src="https://substack-post-media.s3.amazonaws.com/public/images/1abc67af-38cf-4cdc-bd70-3d897e8cac30_1200x1599.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://substack.com/@shirinkjam/note/c-133160958?r=oc5d&amp;utm_medium=ios&amp;utm_source=notes-share-action">Shirin Khosravi Jam on Substack</a>
+          <div class="card-meta">13 Jul 2025</div>
+          <div class="card-meta card-domain">substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>I taught myself how to build RAG + AI Agents in production.
+
+Been running them live for over a year now. Here are 4 steps + the only resources you really need to do the same.
+
+…
+
+Ugly truth: most “AI Engineers” shouting on social media haven’t built a single real production AI Agent or RAG system.
+
+If you want to be different - actually build and ship these systems: here’s a laser-focused roadmap from my own journey.
+
+..
+
+🚀 𝗦𝘁𝗮𝗿𝘁 𝘄𝗶𝘁𝗵 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+
+Because no matter how fast LLM/GenAI evolves, your ML &amp; software foundations keep you relevant.
+
+✅ Hands-On ML with TensorFlow &amp; Keras: https://lnkd.in/dWrf5pbS
+
+✅ ISLR: https://lnkd.in/djGPVVwJ
+
+✅ Machine Learning for Beginners by Microsoft (free curriculum):
+
+https://lnkd.in/d8kZA3es
+
+…
+
+1️⃣ 𝗠𝗮𝘀𝘁𝗲𝗿 𝗟𝗟𝗠𝘀 &amp; 𝗚𝗲𝗻𝗔𝗜 𝗦𝘆𝘀𝘁𝗲𝗺𝘀
+
+→ Learn to build &amp; deploy LLMs, understand system design tradeoffs, and handle real constraints.
+
+📚 Must-reads:
+
+✅ Designing ML Systems – Chip Huyen: https://lnkd.in/guN-UhXA
+
+✅ The LLM Engineering Handbook – Iusztin &amp; Labonne: https://lnkd.in/gyA4vFXz
+
+✅ Build a LLM (From Scratch) – Raschka: https://lnkd.in/gXNa-SPb
+
+✅ Hands-On LLMs GitHub: https://lnkd.in/eV4qrgNW
+
+…
+
+2️⃣ 𝗚𝗼 𝗯𝗲𝘆𝗼𝗻𝗱 𝘁𝗵𝗲 𝗵𝘆𝗽𝗲 𝗼𝗻 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀
+
+→ Most demos = “if user says hello, return hello.”
+
+Actual agents? Handle memory, tools, workflows, costs.
+
+✅ AI Agents for Beginners (GitHub): https://lnkd.in/eik2btmq
+
+✅ GenAI Agents – build step by step: https://lnkd.in/dnhwk75V
+
+✅ OpenAI’s guide to agents: https://lnkd.in/guRfXsFK
+
+✅ Anthropic’s Building Effective Agents: https://lnkd.in/gRWKANS4
+
+…
+
+3️⃣ 𝗥𝗔𝗚 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮 𝘃𝗲𝗰𝘁𝗼𝗿 𝗗𝗕
+
+Real Retrieval-Augmented Generation requires:
+
+→ Chunking, hybrid BM25 + vectors, reranking
+
+→ Query routing &amp; fallback
+
+→ Evaluating retrieval quality, not just LLM output
+
+✅ RAG Techniques repo: https://lnkd.in/dD4S8Cq2
+
+✅ Advanced RAG: https://lnkd.in/g2ZHwZ3w
+
+✅ Cost-efficient retrieval with Postgres/OpenSearch/Qdrant
+
+✅ Monitoring with Langfuse / Comet
+
+…
+
+4️⃣ 𝗚𝗲𝘁 𝘀𝗲𝗿𝗶𝗼𝘂𝘀 𝗼𝗻 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 &amp; 𝗜𝗻𝗳𝗿𝗮
+
+→ FastAPI, async Python, Pydantic
+
+→ Docker, CI/CD, blue-green deploys
+
+→ ETL orchestration (Airflow, Step Functions)
+
+→ Logs + metrics (CloudWatch, Prometheus)
+
+✅ Move to production: https://lnkd.in/dnnkrJbE
+
+✅ Made with ML (full ML+infra): https://lnkd.in/e-XQwXqS
+
+✅ AWS GenAI path: https://lnkd.in/dmhR3uPc
+
+…
+
+5️⃣ 𝗪𝗵𝗲𝗿𝗲 𝗱𝗼 𝗜 𝗹𝗲𝗮𝗿𝗻 𝗳𝗿𝗼𝗺?
+
+→ Stanford CS336 / CS236 / CS229 (Google it)
+
+→ MIT 6.S191, Karpathy’s Zero to Hero: https://lnkd.in/dT7vqqQ5
+
+→ Google Kaggle GenAI sprint: https://lnkd.in/ga5X7tVJ
+
+→ NVIDIA’s end-to-end LLM stack: https://lnkd.in/gCtDnhni
+
+→ DeepLearning.AI’s short courses: https://lnkd.in/gAYmJqS6
+
+…
+
+💥 𝗞𝗲𝗲𝗽 𝗶𝘁 𝗿𝗲𝗮𝗹:
+
+Don’t fall for “built in 5 min, dead in 10 min” demos.
+
+In prod, it’s about latency, cost, maintainability, guardrails.
+
+♻️ Let&#39;s repost to help more people on this journey 💚</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-30T12:21:41.826Z | tags: llms, llms-rag -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*fsYI8Riyq2lAsH8wTCuKhw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-build-a-graph-rag-app-b323fc33ba06?source=rss----7f60cf5620c9---4">How to Build a Graph RAG App</a>
+          <div class="card-meta">30 Dec 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using knowledge graphs and AI to retrieve, filter, and summarize medical journal articles</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2014-09-24T00:00:00.000Z | tags: llms, llms-rag -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/09/P0z9zxKgRaSehlAFs0QzfQ.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/09/14/top-9-different-types-of-retrieval-augmented-generation-rags">Top 9 Different Types of Retrieval-Augmented Generation (RAGs)</a>
+          <div class="card-meta">24 Sep 2014</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Retrieval-Augmented Generation (RAG) is a machine learning framework that combines the advantages of both retrieval-based and generation-based models. The RAG framework is highly regarded for its ability to handle large amounts of information and produce coherent, contextually accurate responses. It leverages external data sources by retrieving relevant documents or facts and then generating an answer or output based on the retrieved information and the user query. This blend of retrieval and generation leads to better-informed outputs that are more accurate and comprehensive than models that rely solely on generation. The evolution of RAG has led to various types and approaches,</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

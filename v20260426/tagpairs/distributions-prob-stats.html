@@ -1,0 +1,250 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>distributions + prob-stats &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-11-14T21:29:23.335Z | tags: python, prob-stats, distributions, risk -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/10/sta-chugani-mean-variance-fails-alternative-portfolio-risk-metrics-python-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/why-mean-variance-fails-alternative-portfolio-risk-metrics-with-python/">Why Mean-Variance Fails: Alternative Portfolio Risk Metrics with Python</a>
+          <div class="card-meta">14 Nov 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-09T16:53:05.520Z | tags: prob-stats, distributions -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/09/sta-chugani-gibrats-law-lognormal-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/explaining-gibrats-law-why-growth-creates-lognormal-distributions/">Explaining Gibrat&#39;s Law: Why Growth Creates Lognormal Distributions</a>
+          <div class="card-meta">9 Oct 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Gibrat&#39;s Law explains why proportional growth processes create lognormal distributions across economics, biology, and social systems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-08T12:59:09.181Z | tags: prob-stats, distributions -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/03/sta-concise-guide-chi-square-1024x574.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/the-concise-guide-to-chi-square-distribution/">The Concise Guide to Chi-Square Distribution</a>
+          <div class="card-meta">8 Apr 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s clarify this important statistical pattern and understand its significance in analysis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-25T14:05:22.153Z | tags: distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/03/sta-understanding-prob-distr.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/a-complete-guide-to-understanding-probability-distributions/">A Complete Guide to Understanding Probability Distributions</a>
+          <div class="card-meta">25 Mar 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>This article is your ultimate guide to understanding them gently and illustratively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-12-29T22:08:41.000Z | tags: distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/PMs76lrqiA4/hqdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://datasciencedojo.com/blog/probability-distributions-in-data-science?hss_channel=lcp-3740012">9 key probability distributions&amp;nbsp;in data science: Easy explanation</a>
+          <div class="card-meta">29 Dec 2023</div>
+          <div class="card-meta card-domain">datasciencedojo.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding probability distributions in data science is crucial. They provide a mathematical framework for modeling and analyzing data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-04T19:33:32.000Z | tags: distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*z9Ruxa6B_n-VEaFW" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/beyond-the-bell-curve-an-introduction-to-the-t-distribution-87a7cf5b3e40?source=rss----7f60cf5620c9---4">Beyond the Bell Curve: An Introduction to the t-distribution</a>
+          <div class="card-meta">4 Sep 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover the origins, theory and uses behind the famous t-distribution</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T11:20:07.000Z | tags: a-b, analytics, distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*frkAvty7Fh9QZYbK" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/fishers-exact-fb49432e55b5?source=rss----7f60cf5620c9---4">Fully Mastering Fisher’s Exact Test for A/B Testing</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>While Fisher’s exact test is a convenient tool for A/B testing, the idea and results of the test are often hard to grasp and difficult to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T01:55:19.000Z | tags: distributions, machine-learning, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*LGqL-oXFW05kkEbRWXxNCQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/cMSnWAXZ0qb">DAGs and Control Variables</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to select control variables for causal inference using Directed Acyclic Graphs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-17T14:42:01.000Z | tags: distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*PWZNzgCnBjpwq1EZ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/statistical-t-test-simply-explained-b510045d69e">Statistical T-Test Simply Explained</a>
+          <div class="card-meta">17 Mar 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to the Student’s t-distribution and the Student’s t-test</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-19T23:59:36.000Z | tags: distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:898/1*X6fvC851lFtEyDGCgcZc7Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/log-normal-distribution-a-simple-explanation-7605864fb67c">Log-normal Distribution — A simple explanation</a>
+          <div class="card-meta">19 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to calculate μ &amp; σ, the mode, mean, median &amp; variance</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-23T11:50:14.000Z | tags: distributions, prob-stats, python, scipy -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:640/1*NEKjA3JhvHKqW-EJAP9hHg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/probability-distributions-with-pythons-scipy-3da89bf60565">Probability Distributions with Python’s SciPy</a>
+          <div class="card-meta">23 Oct 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to Model random Processes with Distributions and Fit them to Observational Data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-25T21:10:05.000Z | tags: distributions, prob-stats -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2018/07/explaining-68-95-99-7-rule-normal-distribution.html">Explaining the 68-95-99.7 rule for a Normal Distribution</a>
+          <div class="card-meta">25 Jul 2018</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This post explains how those numbers were derived in the hope that they can be more interpretable for your future endeavors.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:07:50.000Z | tags: distributions, prob-stats, python -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/removing_outliers_standard_deviation_python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html">Removing Outliers Using Standard Deviation in Python</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Standard Deviation is one of the most underrated statistical tools out there. It’s an extremely useful metric that most people know how to calculate but very few know how to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

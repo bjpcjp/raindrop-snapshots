@@ -1,0 +1,183 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>figma + ui-ux &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-02-24T23:43:36.000Z | tags: figma, ui-ux -->
+      <div class="card-image">
+        <img src="https://speckyboy.com/wp-content/uploads/2023/02/figma-tutorials-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://speckyboy.com/learn-figma-tutorials">25 Fantastic Tutorials For Learning Figma</a>
+          <div class="card-meta">24 Feb 2023</div>
+          <div class="card-meta card-domain">speckyboy.com</div>
+        </div>
+        <div class="card-section">
+          <p>From UI basics to more advanced techniques, with the help of these tutorials, you&#39;ll be able to learn and master Figma in no time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T19:52:03.000Z | tags: figma, ui-ux -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/FTFaQWZBqQ8/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.youtube.com/watch?v=FTFaQWZBqQ8">Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022) - YouTube</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">youtube.com</div>
+        </div>
+        <div class="card-section">
+          <p>✅ Check out our FREE FACILITATION TRAINING and learn the 5 things you can do to become a top 1% facilitator and earn 6 figures while doing it!  👉https://go.ajsmart.com/start?utm_source=youtube&amp;utm_medium=channel-video&amp;utm_campaign=081220
+________
+
+Do you want to learn Figma but don’t know where to start? Well, if you follow this step-by-step tutorial, it will only take you 24 minutes to learn all the basics you need to know to start designing apps and websites in Figma.
+
+In this Figma tutorial for beginners, UX designer Amr guides you through Figma’s interface and tools following a very valuable principle to start mastering this tool. “If you want to learn the basics, you should copy other designs”.
+
+Do you have more questions about Figma or the next steps you should take? Leave them in the comments below ⬇️
+
+✅ If you want to learn about facilitation and workshopping join our FREE FACILITATION COMMUNITY where hundreds of workshop facilitators gather to share their resources, insights and experiences 👉 https://www.skool.com/facilitatorclub
+
+Also if you haven&#39;t already, subscribe to our Youtube channel for weekly UX / UI / Career / and Design Sprint videos: ❤️ https://www.youtube.com/AJ&amp;Smart?sub_confirmation=1 😉
+
+🛠Free resources mentioned in this video:
+1️⃣ Figma website - https://www.figma.com/
+2️⃣ Figma resources (Food delivery app UI template) - https://www.figma.com/community/file/852455074698003039
+3️⃣ Free Figma icons - https://www.figma.com/resources/assets/evericons-for-figma/
+4️⃣ Unsplash (Free images) - https://unsplash.com/
+
+⏰ Video Timestamps
+
+0:00 Intro
+0:22 Advantages of using Figma
+1:22 How to log in into figma.com
+1:36 Why you should copy other designs
+Start of Tutorial
+2:28 How to start a project from a TEMPLATE
+5:10 Interface OVERVIEW
+5:27 Create a FRAME
+6:38 SHAPE and COLOR creation
+8:28 CORNER RADIUS adjustment
+10:12 Create a CIRCLE 
+12:25 How to use an ICON
+14:28 How to paste IMAGES
+15:32 How to use TEXT 
+18:39 BUTTON UI
+21:39 Conclusion
+22:32 Next steps
+
+Thanks for watching!
+
+----
+#Figma #FigmaTutorial #UXDesign
+
+📣 FREE FACILITATION TRAINING!  👉 https://go.ajsmart.com/start
+
+We’ve JUST launched a new 1-hour facilitation training, where we’ll teach you:
+
+✅How we landed facilitation gigs with the world’s best companies (Google, Twitter, LEGO &amp; more!)
+✅How to successfully build &amp; facilitate ANY workshop, even when you’re not a subject-matter expert
+✅How to become a high-paid facilitator in 90 days or less, using our special ‘5-1-6 method’.
+Interested? This training is available for a limited time only, so unlock it now and start watching!
+
+If you want to stay ahead of the UX game, level up your career, and be in the know on the nerdiest, ‘techiest’ things, sign up for our FREE newsletter here: 📩 👇
+📝  https://aj-smart.ck.page/21100f1c73   👀
+
+Want more? Join 200,000+ people subscribing to our AJ&amp;Smart YouTube, LinkedIn and Instagram channels for free content to help you and your team do more valuable work.
+
+AJ&amp;Smart is the #1 design sprint firm in the world, the official Design Sprint training partner with Jake Knapp inventor of the google design sprint and partner of choice for the world&#39;s most successful brands.
+
+Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2021)
+https://youtu.be/FTFaQWZBqQ8</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-23T02:21:44.000Z | tags: figma, ui-ux -->
+      <div class="card-image">
+        <img src="https://assets.website-files.com/5fbd9df89f668234dc47843b/5fbe80df178b6cb1606dcdff_OG-IMAGE.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.figmacrashcourse.com">Figma Crash Course</a>
+          <div class="card-meta">23 Feb 2022</div>
+          <div class="card-meta card-domain">figmacrashcourse.com</div>
+        </div>
+        <div class="card-section">
+          <p>Deep dives into powerful Figma features. Skip the basics and learn prototyping, auto-layout, systems, and illustration with your instructor, Pablo Stanley.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:15:42.000Z | tags: figma, ui-ux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/a4e252b579b880a547e52c0ef1972b1cfea56266b67e173919241a8dec03ace7/Figma-Linux/figma-linux" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Figma-Linux/figma-linux">Figma-Linux/figma-linux: Figma is the first interface design tool based in the browser, making it easier for teams to create software. Join us in https://t.me/figma_linux</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Figma is the first interface design tool based in the browser, making it easier for teams to create software. Join us in https://t.me/figma_linux - Figma-Linux/figma-linux</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:13:24.000Z | tags: figma, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.figma.com/files/recent">Login | Figma</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">figma.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

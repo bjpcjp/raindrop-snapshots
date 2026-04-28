@@ -1,0 +1,206 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>aws + cloud &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-03-15T00:27:03.796Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://www.allthingsdistributed.com/images/s3-pi-day-2025.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allthingsdistributed.com/2025/03/in-s3-simplicity-is-table-stakes.html">In S3 simplicity is table stakes</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">allthingsdistributed.com</div>
+        </div>
+        <div class="card-section">
+          <p>From simple object storage to sophisticated table management, builders have always shaped S3&#39;s evolution. Andy Warfield discusses why making complex systems simple remains our north star at AWS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-21T21:19:33.960Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1358638792.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2024/10/basecamp-maker-37signals-says-its-cloud-exit-will-save-it-10m-over-5-years/">Basecamp-maker 37Signals says its “cloud exit” will save it $10M over 5 years</a>
+          <div class="card-meta">21 Oct 2024</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>After buying its own hardware, 37Signals will be “literally deleting our AWS account come this summer.” But most firms are looking at hybrid mixes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-28T07:12:08.000Z | tags: aws, cloud, devops -->
+      <div class="card-image">
+        <img src="https://usefathom.com/assets/src/blog/meta-reduce-aws-bill.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://usefathom.com/blog/reduce-aws-bill">Reducing our AWS bill by $100,000 - Fathom Analytics</a>
+          <div class="card-meta">28 Feb 2024</div>
+          <div class="card-meta card-domain">usefathom.com</div>
+        </div>
+        <div class="card-section">
+          <p>We reduced our AWS bill so that we could invest in more important areas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-17T22:26:24.000Z | tags: aws, cloud, devops -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv0fpxrfyotkqeigvsnef.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/dabeeeenster/the-actual-infrastructure-costs-of-running-saas-at-scale-billions-of-requestsmonth-5hlm">The actual infrastructure costs of running SaaS at scale (billions of reque</a>
+          <div class="card-meta">17 May 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In this article we are going to share two main things:    The evolution of our infrastructure over...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-01T21:44:36.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=31218268">Ask HN: Beyond AWS/Azure/GCP, what cloud providers should I know more about</a>
+          <div class="card-meta">1 May 2022</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-13T18:29:17.000Z | tags: aws, cloud, devops, pricing -->
+      <div class="card-image">
+        <img src="https://bluexp.netapp.com/hubfs/Small%20Image-AWS%20Data%20Transfer%20Pricing_%20Hidden%20Network%20Transfer%20Costs%20and%20What%20to%20Do%20About%20Them-1932x966.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloud.netapp.com/blog/aws-cvo-blg-aws-data-transfer-costs-solving-hidden-network-transfer-costs">AWS Data Transfer Costs: Solving Hidden Network Transfer Costs</a>
+          <div class="card-meta">13 Apr 2022</div>
+          <div class="card-meta card-domain">cloud.netapp.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hidden AWS data transfer costs can lead to higher than expected cloud service bills. This post will help track hidden fees and show you how to control them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-07T16:52:50.000Z | tags: aws, azure, cloud, devops, google-cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/devops/comments/t8es2r/what_are_some_pros_in_choosing_gcp_over_aws_or">[deleted by user]</a>
+          <div class="card-meta">7 Mar 2022</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>139 votes, 93 comments. 352K subscribers in the devops community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:40:06.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws">My Top 10 Free Learning Resources for AWS</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">hashnode.tpschmidt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:39:40.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ptribble.blogspot.com/2021/12/the-cost-of-cloud.html">The Trouble with Tribbles...: The cost of cloud</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">ptribble.blogspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>Putting your IT infrastructure into the cloud seems to be the &quot;in&quot; thing. It&#39;s been around for a while, of course. And, like most things rel...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T18:17:22.000Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aws.amazon.com/cloudformation">Infrastructure As Code Provisioning Tool - AWS CloudFormation - AWS</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">aws.amazon.com</div>
+        </div>
+        <div class="card-section">
+          <p>AWS CloudFormation is an infrastructure as code (IaC) service that allows you to easily model, provision, and manage AWS and third-party resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T01:29:11.000Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aws.amazon.com">Cloud Computing Services - Amazon Web Services (AWS)</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">aws.amazon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon Web Services offers reliable, scalable, and  inexpensive cloud computing services. Free to join, pay only for what you use.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

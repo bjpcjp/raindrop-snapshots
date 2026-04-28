@@ -1,0 +1,266 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>best-practices + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-06-24T15:23:03.355Z | tags: ecommerce, retail, best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/06/Merchandising-Lessons-from-Top-Marketplaces.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/merchandising-lessons-from-top-marketplaces">Merchandising Lessons from Top Marketplaces</a>
+          <div class="card-meta">24 Jun 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>We analyze the home pages of 10 marketplaces to spot common merchandising traits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-10T22:09:50.000Z | tags: analytics, best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2024/07/the_amazon_wbr_weekly_business_review.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/the-amazon-weekly-business-review">The Amazon Weekly Business Review</a>
+          <div class="card-meta">10 Jul 2024</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>The authoritative guide on how Amazon does WBRs (from former exec Colin Bryar): how it works, how to do it, and how Amazon uses it to win.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-04T05:03:56.000Z | tags: best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2024/01/becoming_data_driven_first_principles-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/becoming-data-driven-first-principles">Becoming Data Driven, From First Principles</a>
+          <div class="card-meta">4 Jul 2024</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>People often say things like &quot;become data driven&quot; without explaining what that means or how to do it. This is everything you need to know to actually become data driven, from scratch, using the same first principles that Amazon, Koch, and Toyota used back in their day.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-04T01:21:28.000Z | tags: analytics, best-practices, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2023/10/operational_definitions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/whats-operational-definition">What’s an Operational Definition Anyway?</a>
+          <div class="card-meta">4 Oct 2023</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two principles on collecting data, from the field of Statistical Process Control. As with most principles in SPC, this is both simpler and more important than you might think.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T01:15:27.000Z | tags: best-practices, moats, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1709b95e-c5c4-4276-a7c4-8a9c1283d27b_3000x3000.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/subtract/p/how-do-you-solve-world-class-problems">How do you solve world-class problems?</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>The power of primitives</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-08T23:14:15.000Z | tags: best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2022/09/amazon_pr_faq_practice.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/putting-amazons-pr-faq-to-practice">Putting Amazon’s PR/FAQ to Practice</a>
+          <div class="card-meta">8 Sep 2022</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>What it&#39;s like putting Amazon&#39;s famed Working Backwards process to practice in a small company context, and what was surprising and difficult about it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-03T01:14:02.000Z | tags: best-practices, execution, prodmgmt, writing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*mcgfntL_QZnleRG_Tnv5Bw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9">The Anatomy of an Amazon 6-pager</a>
+          <div class="card-meta">3 Sep 2022</div>
+          <div class="card-meta card-domain">writingcooperative.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep dive into writing detailed planning docs from one of the most successful companies in the world</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:12:00.000Z | tags: best-practices, platforms, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://tomtunguz.com/saas-barriers-to-entry">The 3 Competitive Defenses of Enduring SaaS Companies by @ttunguz</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>A technology advantage isn’t enough to build an enduring enterprise SaaS company because at the core, all SaaS software share the same architecture. A relational database stores data and a web site presents the data. This is true for CRM (Salesforce), marketing automation (Marketo), email (Exchange), content management systems (Sharepoint) and so on. Because SaaS apps use standard databases, engineers can easily transfer the data from one database to another. I’m greatly simplifying here because differences in architecture may exist, but in principle it’s simple to extract, transform and load data from one relational database into another.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:59:12.000Z | tags: best-practices, prodmgmt, startups -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.defmacro.org/2013/07/23/startup-lessons.html">57 startup lessons</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">defmacro.org</div>
+        </div>
+        <div class="card-section">
+          <p>There are already very good lists of startup lessons written by really talented, experienced people (here and here). I’d like to add another one. I learned these lessons the hard way in the past four years. If you’re starting a company, I hope you have an easier path.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:17:34.000Z | tags: best-practices, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fjbgpt9rrsza2ei8xmlic_frc_ceo16_159-cr.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://firstround.com/review/make-operations-your-secret-weapon-heres-how">Make Operations Your Secret Weapon - Here’s How</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Etsy COO Linda Kozlowski knows an operations leader is critical to the success of a company. Here, she sheds light on the most mysterious role in the C-suite — and how startups can hire and empower the right COO for their company.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:29:54.000Z | tags: best-practices, execution, inventions-innovation, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://steveblank.com/wp-content/uploads/2013/05/hbr-reprint1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steveblank.com/2015/03/11/fear-of-failure-and-lack-of-speed-in-a-large-corporation">Steve Blank Fear of Failure and Lack of Speed In a Large Corporation</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">steveblank.com</div>
+        </div>
+        <div class="card-section">
+          <p>I just spent a day working with Bob, the Chief Innovation Officer of a very smart large company I’ll call Acme Widgets. Bob summarized Acme’s impediments to innovation. “At our company we have a cu…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:31:10.000Z | tags: best-practices, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2012/08/screen-shot-2012-08-19-at-11-31-40-am.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2012/08/19/how-to-structure-a-marketplace">How To Structure A Marketplace | TechCrunch</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>Editor&#39;s Note: The following is a guest post by Simon Rothman of Greylock Partners. Rothman is particularly passionate about Marketplace technology (Etsy, Kickstarter, Airbnb, etc) and how to garner success in that category.  Marketplaces are endemic to the consumer web: Largely popularized by eBay, we&#39;ve recently seen quite a few variations on the theme, like young guns Etsy, oDesk, Airbnb, and Kickstarter. Old or new, the two elements that bind all marketplaces are network effects (a good thing) and the chicken-and-egg problem (not such a good thing).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T14:32:13.000Z | tags: best-practices, execution, management, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/03/Mar22_10200284152-001.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/03/3-practices-that-set-resilient-teams-apart">3 Practices That Set Resilient Teams Apart</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>New research reveals that how we perform work as a team contributes more to resilience than external stressors. On resilient teams, individuals feel responsible for energizing each other. This is in stark contrast to teams who are challenged by frustrating ways of working and fractured relationships. As we move into the third year of pandemic uncertainty, adopting three simple practices will help managers build more resilient — and re-energized — teams.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-19T21:36:59.000Z | tags: best-practices, inventions-innovation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fgettyimages-1230012129.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/how-to-build-an-invention-machine-6-lessons-that-powered-amazons-success">How to Build an Invention Machine — 6 Lessons That Powered Amazon’s Success</a>
+          <div class="card-meta">19 Feb 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Former Amazon execs Colin Bryar and Bill Carr helped build the &quot;invention machine&quot; that enabled the company to successfully launch everything from AWS to the Kindle. Here, they share granular advice and concrete takeaways for startups looking to alter their own trajectories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

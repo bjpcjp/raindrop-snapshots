@@ -1,0 +1,213 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>algorithms-math + dsp &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-02-12T17:01:26.000Z | tags: algorithms-math, dsp, kalman-filters -->
+      <div class="card-image">
+        <img src="https://thekalmanfilter.com/wp-content/uploads/2021/01/kalman_filter_overview-1024x700.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thekalmanfilter.com/kalman-filter-explained-simply">Kalman Filter Explained Simply - The Kalman Filter</a>
+          <div class="card-meta">12 Feb 2024</div>
+          <div class="card-meta card-domain">thekalmanfilter.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tired of equations and matrices? Ready to learn the easy way? This post explains the Kalman Filter simply with pictures and examples!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-29T13:34:59.000Z | tags: algorithms-math, dsp, fourier, github, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/30303b43413ec0adcbd875018e36bb63abb5270e77df9900e5a270b450bddc92/lukepolson/youtube_channel" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/lukepolson/youtube_channel/blob/main/Python%20Tutorial%20Series/fourier_transform1.ipynb">youtube_channel/Python Tutorial Series/fourier_transform1.ipynb at main · lukepolson/youtube_channel</a>
+          <div class="card-meta">29 Sep 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Notebooks for the python tutorials of my youtube channel. See specific youtube video for link to specifc notebook. - lukepolson/youtube_channel</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T23:13:17.000Z | tags: algorithms-math, dsp -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2050/09/Interpolation-Applications_1200_Social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/how-mathematical-curves-power-cryptography-20220919">How Mathematical Curves Enable Advanced Communication</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>A simple geometric idea has been used to power advances in information theory, cryptography and even blockchain technology.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-13T09:47:56.000Z | tags: algorithms-math, dsp -->
+      <div class="card-image">
+        <img src="https://electroagenda.com/wp-content/uploads/2023/07/cabecero_mod.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://electroagenda.com/en/hilbert-transform">Hilbert Transform - Electroagenda</a>
+          <div class="card-meta">13 Jul 2023</div>
+          <div class="card-meta card-domain">electroagenda.com</div>
+        </div>
+        <div class="card-section">
+          <p>Concise summary of the Hilbert transform: mathematics, effects on signals, and applications in telecommunications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-21T18:52:23.000Z | tags: algorithms-math, music, fourier, dsp, audio -->
+      <div class="card-image">
+        <img src="https://gizmodo.com/app/uploads/2024/07/gizmodo-social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gizmodo.com/digital-music-couldnt-exist-without-the-fourier-transfo-1699155287">Digital Music Couldn&#39;t Exist Without the Fourier Transform</a>
+          <div class="card-meta">21 Dec 2022</div>
+          <div class="card-meta card-domain">gizmodo.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the Fourier Transform. You can thank it for providing the music you stream every day, squeezing down the images you see on the Internet into tiny</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-20T15:09:11.000Z | tags: algorithms-math, dsp -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.analog.com/en/education/education-library/scientist_engineers_guide.html">The Scientist &amp; Engineer&#39;s Guide to Digital Signal Processing, 1999 | Analog Devices</a>
+          <div class="card-meta">20 Oct 2022</div>
+          <div class="card-meta card-domain">analog.com</div>
+        </div>
+        <div class="card-section">
+          <p>The guide provides a practical introduction to Digital Signal Processing, covering a wide range of topics. It is an ideal introduction for those new to DSP, and an excellent reference for more experie</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T00:57:00.000Z | tags: algorithms-math, dsp, fourier, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:640/1*ZBtDlZ6l04rcCuRNYMtfQQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/signal-processing-beyond-the-fourier-transform-introduction-to-the-chirplet-transform-using-146a00478318">Signal Processing, beyond the Fourier Transform: Introduction to the Chirpl</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>From a theoretical introduction to the hands-on implementation: here’s what you need to know about the Chirplet Transform</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-14T20:32:47.000Z | tags: algorithms-math, dsp, laplace -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/n2y7n6jw5d0/maxresdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.youtube.com/watch?v=n2y7n6jw5d0">What does the Laplace Transform tell us? A visual explanation [video]</a>
+          <div class="card-meta">14 Dec 2019</div>
+          <div class="card-meta card-domain">youtube.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sign up with brilliant and get 20% off your annual subscription: https://brilliant.org/MajorPrep/
+
+STEMerch Store: https://stemerch.com/
+Support the Channel: https://www.patreon.com/zachstar
+PayPal(one time donation): https://www.paypal.me/ZachStarYT
+
+This video goes through a visual explanation of the Laplace Transform as well as applications and its relationship to the Fourier Transform.
+
+Instagram: https://www.instagram.com/zachstar/
+Twitter: https://twitter.com/ImZachStar
+Join Facebook Group: https://www.facebook.com/groups/majorprep/
+
+►3D Graphing Software (this is not a sponsor nor an affiliate link, bought the software just because I liked it): https://www.runiter.com/
+
+►Animations: Brainup Studios (email: brainup.in@gmail.com)
+
+►My Setup:
+Space Pictures: https://amzn.to/2CC4Kqj
+Magnetic Floating Globe: https://amzn.to/2VgPdn0
+Camera: https://amzn.to/2RivYu5
+Mic: https://amzn.to/2BLBkEj
+Tripod: https://amzn.to/2RgMTNL
+Equilibrium Tube: https://amzn.to/2SowDrh
+
+►Check out the MajorPrep Amazon Store: https://www.amazon.com/shop/zachstar</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:07:47.000Z | tags: algorithms-math, dsp, fourier -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Thumbnailm8232017.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/technical-articles/an-introduction-to-the-fast-fourier-transform">An Introduction to the Fast Fourier Transform</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article will review the basics of the decimation-in-time FFT algorithms.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

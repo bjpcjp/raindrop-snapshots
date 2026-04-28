@@ -1,0 +1,636 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>a-b + analytics &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-22T17:35:17.891Z | tags: time-series, survival-analysis, a-b, market-basket, value-prop, analytics, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/11/sta-chugani-5-statistical-methods-dominate-industries-feature-1024x683.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/5-statistical-methods-that-dominate-their-industries-and-why/">5 Statistical Methods That Dominate Their Industries (and Why)</a>
+          <div class="card-meta">22 Dec 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>Discover which statistical methods dominate healthcare, finance, tech, retail, and sports analytics, and why these industry-method pairings became indispensable standards.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-31T15:52:01.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/07/Screenshot-2024-07-30-at-11.46.29-PM-1024x943.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/07/31/6-statistical-methods-for-a-b-testing-in-data-science-and-data-analysis">6 Statistical Methods for A/B Testing in Data Science and Data Analysis</a>
+          <div class="card-meta">31 Jul 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B testing is a cornerstone of data science, essential for making informed business decisions and optimizing customer revenue. Here, we delve into six widely used statistical methods in A/B testing, explaining their purposes and appropriate contexts. 1. Z-Test (Standard Score Test): When to Use: This method is ideal for large sample sizes (typically over 30) when the population variance is known. Purpose: Compares the means of two groups to determine if they are statistically different. Applications: This technique is frequently employed in conversion rate optimization and click-through rate analysis. It helps identify whether changes in website elements or marketing strategies</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-31T06:45:41.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://www.evanmiller.org/images/previews/ab-testing/sample-size.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.evanmiller.org/ab-testing/sample-size.html">Sample Size Calculator</a>
+          <div class="card-meta">31 May 2024</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+        <div class="card-section">
+          <p>Visual, interactive sample size calculator ideal for planning online experiments and A/B tests.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-15T22:06:17.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*DRYPGuUHflPZ0a1R" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-use-causal-inference-when-a-b-testing-is-not-possible-c87c1252724a?source=rss----7f60cf5620c9---4">How to use Causal Inference when A/B testing is not available</a>
+          <div class="card-meta">15 Jan 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Evaluating ad targeting product using causal inference: propensity score matching!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-05T23:22:26.000Z | tags: a-b, analytics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/r/b3ed2e05?m=5ba63d9b-6620-4051-8686-515cd8a8f374">B3ed2e05</a>
+          <div class="card-meta">5 Aug 2023</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-05T23:22:03.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://s0.wp.com/i/blank.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thediff.co/r/ed3203f0?m=5ba63d9b-6620-4051-8686-515cd8a8f374">Caveats and Limitations of A/B Testing at Growth Tech Companies</a>
+          <div class="card-meta">5 Aug 2023</div>
+          <div class="card-meta card-domain">thediff.co</div>
+        </div>
+        <div class="card-section">
+          <p>For non-tech industry folks, an “A/B test” is just a randomized controlled trial where you split users or other things into treatment and control groups, and then later compare key metr…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-19T14:24:37.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://posthog.com/og-images/product-engineersab-testing-mistakes.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://posthog.com/blog/ab-testing-mistakes">8 annoying A/B testing mistakes every engineer should know</a>
+          <div class="card-meta">19 Jun 2023</div>
+          <div class="card-meta card-domain">posthog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Running experiments is equal parts powerful and terrifying. Powerful because you can validate changes that will transform your product for the better…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-19T10:49:18.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uzq-3TUZ6lPCgGRCOQz2yA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/when-you-should-prefer-thompson-sampling-over-a-b-tests-5e789b480458">When You Should Prefer “Thompson Sampling” Over A/B Tests</a>
+          <div class="card-meta">19 Jun 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An in-depth explanation of “Thompson Sampling”, a more efficient alternative to A/B testing for online learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-26T18:45:30.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uB5i1y5Z_qdVqNWNTjKH9Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/25-a-b-testing-concepts-interview-cheat-sheet-c998a501f911?source=rss----7f60cf5620c9---4">25 A/B Testing Concepts — Interview Cheat Sheet</a>
+          <div class="card-meta">26 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Questions on A/B testing are being increasingly asked in interviews but reliable resources to prepare for these are still far and few…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-16T16:49:24.000Z | tags: a-b, analytics, bayes -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*T2vG59G9RY90EYEkp8wpLA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/bayesian-ab-testing-ed45cc8c964d?source=rss----7f60cf5620c9---4">Bayesian AB Testing</a>
+          <div class="card-meta">16 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using and choosing priors in randomized experiments.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-10T16:05:51.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*M957qGgDOre0EUTuZVrmXw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-select-the-right-statistical-tests-for-different-a-b-metrics-c8a1865851e">How to Select the Right Statistical Tests for Different A/B Metrics</a>
+          <div class="card-meta">10 Dec 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Discussion of the go-to methods for 5 Types of A/B Metrics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-01T17:28:26.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*lU9axPo5-GPlnauI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-joy-of-a-b-testing-theory-practice-and-pitfalls-de58acbdb04a?source=rss----7f60cf5620c9---4">The Joy of A/B Testing: Theory, Practice, and Pitfalls</a>
+          <div class="card-meta">1 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How today’s tech companies make data-driven decisions in Machine Learning production</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T11:20:07.000Z | tags: a-b, analytics, distributions, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*frkAvty7Fh9QZYbK" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/fishers-exact-fb49432e55b5?source=rss----7f60cf5620c9---4">Fully Mastering Fisher’s Exact Test for A/B Testing</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>While Fisher’s exact test is a convenient tool for A/B testing, the idea and results of the test are often hard to grasp and difficult to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:09:46.000Z | tags: a-b, analytics, landing-pages -->
+      <div class="card-image">
+        <img src="https://www.searchenginewatch.com/wp-content/uploads/2018/10/a-vs-b-test-370x229.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchenginewatch.com/sew/how-to/2223888/23-tips-on-how-to-a-b-test-like-a-badass">23 Tips on How to A/B Test Like a Badass - Search Engine Watch</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">searchenginewatch.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B testing is hitting the mainstream because it is so effective. And with so many tools available it has become very easy and very inexpensive to run. Here are 23 helpful tips on how you can take your A/B tests from basic to the next level.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:06:57.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://blog.intercomassets.com/blog/wp-content/uploads/2017/12/AB_Tests_That_Really_Validate.jpg.optimal.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.intercom.com/why-ab-tests-should-yield-more-than-results">The golden rule of A/B testing: look beyond validation</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.intercom.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B tests provide more than statistical validation of one execution over another. They can and should impact how your team prioritizes projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:01:59.000Z | tags: a-b, analytics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments">A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments | the morning paper</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.acolyer.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:55:10.000Z | tags: a-b, analytics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://productcoalition.com/start-here-statistics-for-a-b-testing-5f5c7e02ce1e#.jk219vqlm">Start here: Statistics for A/B testing</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">productcoalition.com</div>
+        </div>
+        <div class="card-section">
+          <p>We’re Agile, we think lean, we’re data-driven. If you live in the new economy and work in some sort of digital product you hear some of…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-17T15:02:21.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_ASVxMQ2WFospoTZ22MDnw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/teconomics-blog/5-tricks-when-ab-testing-is-off-the-table-f2637e9f15a5">5 Tricks When AB Testing Is Off The Table</a>
+          <div class="card-meta">17 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>An applied introduction to causal inference in tech</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:47:12.000Z | tags: a-b, analytics, inventions-innovation -->
+      <div class="card-image">
+        <img src="https://apptimize.com/wp-content/themes/apptimize/images/site-logo@2x.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://apptimize.com/blog/2014/01/etsy-continuous-innovation-">Etsy&#39;s A/B Testing Culture Spurs Mobile Innovation | Apptimize</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">apptimize.com</div>
+        </div>
+        <div class="card-section">
+          <p>We spoke with Etsy’s iOS Software Engineer, Lacy Rhoades, about their culture of continuous experimentation. Learn about their a/b testing culture</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:33:56.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/engineering/en_us/main-template-assets/Eng_EXPLORE_Pink.png.twimg.768.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.twitter.com/2016/implications-of-use-of-multiple-controls-in-an-ab-test">Implications of use of multiple controls in an A/B test</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">blog.twitter.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:17:24.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:460/0*vWuFkc3DNnCh3qF0" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63">The ultimate guide to A/B testing. Part 1: experiment design</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B testing is a very popular technique of checking granular changes in a product without mistakenly taking into account changes that were…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:57:42.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/multivariate-vs-ab-testing-incremental-radical.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/multivariate-testing">Multivariate vs. A/B Testing: Incremental vs. Radical Changes</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Multivariate tests indicate how various UI elements interact with each other and are a tool for making incremental improvements to a design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:34:12.000Z | tags: a-b, analytics, landing-pages -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.conversioner.com/ab-test-calculator">ANALYZE YOUR A/B TEST RESULTS</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">conversioner.com</div>
+        </div>
+        <div class="card-section">
+          <p>The best way to determine what works best for your site is to carry out an A/B test for your landing pages. Check out this A/B significant test calculator.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:08:31.000Z | tags: a-b, analytics, experiments, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reforge.com/blog/good-experiment-bad-experiment">Reforge</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">reforge.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T01:07:46.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://dt2sdf0db8zob.cloudfront.net/wp-content/themes/websiteplanet/img/websiteplanet_image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.websiteplanet.com/webtools/abtest-calculator">Statistical Significance Calculator - FREE AB Test Calculator</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">websiteplanet.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our A/B test calculator will help you to compare two or three variants to determine which test will be statistically significant.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:13.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/WhyYouOnlyNeedToTest5Users_Social-Media-Posts_2021-15.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users">Why You Only Need to Test with 5 Users</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-17T22:04:31.000Z | tags: a-b, analytics, ecommerce, webdev -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/11/thumb2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/11-ab-testing-tools-to-optimize-conversions">11 A/B Testing Tools to Optimize Conversions</a>
+          <div class="card-meta">17 Nov 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B testing, the process of exposing randomized visitors to one or more variables, is among the most effective strategies to optimize user experiences and conversion rates. Here is a list of A/B testing tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T14:16:59.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org/ab-testing">Evan&#39;s Awesome A/B Tools - sample size calculator, A/B test results, and mo</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-07T21:36:11.000Z | tags: a-b, analytics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:900/1*N9sXeyes6ImYAjfPqujj4w.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/why-you-should-switch-to-bayesian-a-b-testing-364557e0af1a?source=rss----7f60cf5620c9---4">Why You Should Switch to Bayesian A/B Testing</a>
+          <div class="card-meta">7 Jun 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Statistics &amp; Business can share the same Language</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:57:33.000Z | tags: a-b, analytics, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rw5i_RT5Rc5OasoWXeo1KA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-b-c-tests-how-to-analyze-results-from-multi-group-experiments-ad5d5cee0b05?source=rss----7f60cf5620c9---4">A/B/C Tests: How to Analyze Results From Multi-Group Experiments</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Experimentation is widely used at tech startups to make decisions on whether to roll out new product features, UI design changes, marketing campaigns and more, usually with the goal of improving…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:30:29.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.oliverpalmer.com/img/poppy-illustration.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://oliverpalmer.com/blog/you-probably-dont-need-ab-testing">Oliver Palmer | You probably don’t need A/B testing</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">oliverpalmer.com</div>
+        </div>
+        <div class="card-section">
+          <p>The best way to optimise your website is usually the simplest.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-22T19:33:04.000Z | tags: a-b, analytics, prob-stats -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*MA6o65C18xMtnWoMuFLZbQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/online-controlled-experiment-8-common-pitfalls-and-solutions-ea4488e5a82e?source=rss----7f60cf5620c9---4">8 Common Pitfalls of Running A/B Tests</a>
+          <div class="card-meta">22 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How not  to fail your online controlled experimentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T13:50:41.000Z | tags: a-b, analytics, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*cQOmpvcO_hKWHoB1sQNXYg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-b-testing-a-complete-guide-to-statistical-testing-e3f1db140499?source=rss----7f60cf5620c9---4">A/B Testing — A complete guide to statistical testing</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Optimizing web marketing strategies through statistical testing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T13:50:10.000Z | tags: a-b, analytics, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/60fd065c3f7227d12b510302a435b66d18687b350e2877f88aa901c7a8ca8830/bjpcjp/AB_Testing" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/AB_Testing/blob/main/AB_Testing.ipynb">AB_Testing/AB_Testing.ipynb at main · bjpcjp/AB_Testing</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B Testing — A complete guide to statistical testing - bjpcjp/AB_Testing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:19:55.000Z | tags: a-b, analytics, bayes -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/0*x2rf5swhnpckKUgP.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/why-you-should-try-the-bayesian-approach-of-a-b-testing-38b8079ea33a?source=rss----7f60cf5620c9---4">Why you should try the Bayesian approach of A/B testing</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The intuitive way of A/B testing. The advantages of the Bayesian approach and how to do it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cxl.com/wp-content/uploads/2019/09/image-17.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://conversionxl.com/blog/dont-build-growth-teams">I&#39;ve Built Multiple Growth Teams. Here&#39;s Why I Won&#39;t Do It Again. | CXL</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">conversionxl.com</div>
+        </div>
+        <div class="card-section">
+          <p>Big success. Bigger failure. And lots of lessons. Learn why building a growth team may be a multi-million dollar mistake.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:43:38.000Z | tags: a-b, analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bdow.com/wp-content/uploads/2024/04/8b7543d2-14d1-4fd3-81f5-ff23b48ef081.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sumo.com/stories/ecommerce-ab-testing">25 Ecommerce A/B Testing Ideas For Your 5 Top Store Pages</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">sumo.com</div>
+        </div>
+        <div class="card-section">
+          <p>The biggest question in ecommerce A/B testing is not “how.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-01-24T22:45:28.000Z | tags: a-b, analytics, ecommerce -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/01/Comparing-AB-and-Multivariate-Testing-.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/comparing-ab-multivariate-testing">Comparing A/B and Multivariate Testing</a>
+          <div class="card-meta">24 Jan 2018</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A/B tests are controlled experiments of two attributes, to measure which one was most popular with users. You can apply A/B testing to just about anything that you can measure. Multivariate testing allows you to measure multiple variables simultaneously.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-11T00:56:39.000Z | tags: a-b, analytics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2017/12/5-tricks-ab-testing.html">5 Tricks When A/B Testing Is Off The Table</a>
+          <div class="card-meta">11 Dec 2017</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Data Science, Machine Learning, AI &amp; Analytics</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

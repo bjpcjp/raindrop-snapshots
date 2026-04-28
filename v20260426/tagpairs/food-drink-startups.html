@@ -1,0 +1,192 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>food-drink + startups &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-12T21:56:49.616Z | tags: prodmgmt, food-drink, startups, post-mortems -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!dtuC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fc43502-1fe0-4222-8972-63d46199eed3_633x429.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/changinglanesnewsletter/p/what-ghost-kitchens-got-wrong?r=oc5d&amp;utm_medium=ios">What Ghost Kitchens Got Wrong</a>
+          <div class="card-meta">12 Apr 2026</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two good ideas and one bad mistake</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-30T05:45:50.000Z | tags: food-drink, pricing, prod-mkt-fit, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F77adbaf1-6c37-4e83-9aec-919c7a02940d_4032x2268.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.readmargins.com/p/doordash-and-pizza-arbitrage">Doordash and Pizza Arbitrage</a>
+          <div class="card-meta">30 Jun 2024</div>
+          <div class="card-meta card-domain">readmargins.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is such a thing as a free lunch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-16T21:25:56.000Z | tags: food-drink, startups -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F988fc77a-ad81-4eb7-9a41-37f6b6d2e7f4_1688x1244.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://peabee.substack.com/p/17-one-kitchen-hundreds-of-internet">#17: One kitchen, hundreds of internet restaurants</a>
+          <div class="card-meta">16 Sep 2022</div>
+          <div class="card-meta card-domain">peabee.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are a few cloud kitchen restaurants that deliver food that is so shit that I want to know which other brands are being run from the same kitchen so that I can avoid them all.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-30T02:31:06.000Z | tags: food-drink, startups -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GEBEPFGKMUI6ZN7OOTYJ3AT4UY.jpg&amp;w=1440" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/food/2022/05/09/pinky-cole-slutty-vegan-profile-investment">Meet Pinky Cole, the force behind Slutty Vegan’s booming empire</a>
+          <div class="card-meta">30 Aug 2022</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pinky Cole&#39;s Slutty Vegan brand has grown from an Atlanta-based restaurant chain to burgeoning national brand — and she&#39;s just getting started.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T13:19:05.000Z | tags: food-drink, history, startups -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7376%2F1639445104_61b7f0aa79beb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-cup-noodles-became-one-of-the-biggest-transpacific-business-success-stories-of-all-time">How Cup Noodles Became One of the Biggest Transpacific Business Success Stories of All Time</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>There was a time when eating out of Cup Noodle’s iconic packaging exuded cosmopolitanism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T19:57:58.000Z | tags: food-drink, startups -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p0bknxqc.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/future/article/20220127-the-reason-some-vegan-alternatives-dont-taste-like-meat?ocid=global_future_rss">The reason some vegan alternatives don&#39;t taste like meat - BBC Future</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the qualities that make meat &quot;meaty&quot; are hard to reproduce with plant-based alternatives. Should we be focusing on replicating them – or trying to make new, tasty alternatives?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-07T12:47:03.000Z | tags: food-drink, startups -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2021/06/05/business/04grocerypickers-print/04grocerypickers-sub-largeHorizontalJumbo.jpg?year=2021&amp;h=683&amp;w=1024&amp;s=7eccc3b8cfc7658e3e5408399502119332dae841e95e3ad050724b5b2a8efd9c&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2021/06/04/business/online-groceries-pickers-instacart.html">At Grocery Stores, It&#39;s Hard Work Picking Your Online Order - The New York</a>
+          <div class="card-meta">7 Jun 2021</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The technology needed to fulfill orders is costly for stores, and the workers who pick items off the shelves often feel the pressure of being tracked.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-02T00:59:21.000Z | tags: food-drink, goodreads, startups -->
+      <div class="card-image">
+        <img src="https://static.politico.com/9b/5e/01ba0f4045fb9b0c46d04d587dda/mp-columbus343.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.politico.com/magazine/story/2018/06/28/an-ohio-startup-rebuilds-lives-one-piece-of-fried-chicken-at-a-time-218896">An Ohio Startup Rebuilds Lives One Piece of Fried Chicken at a Time - POLIT</a>
+          <div class="card-meta">2 Jul 2018</div>
+          <div class="card-meta card-domain">politico.com</div>
+        </div>
+        <div class="card-section">
+          <p>A millennial entrepreneur hires from inmates and homeless people who struggle to find work even in a strong economy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-10-10T15:58:55.000Z | tags: food-drink, startups -->
+      <div class="card-image">
+        <img src="https://www.wweek.com/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Fwapopartners.com%2Fwweek-wp%2Fwp-content%2Fuploads%2F2016%2F07%2F08011129%2Fo.jpg?smart=true&amp;auth=a698b7faea2b7e23021215cac97bf89a6fef840c2dc73ab0dab68d5cbdfe351d&amp;width=1200&amp;height=630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.wweek.com/restaurants/2016/09/30/heres-what-happened-when-i-opened-a-restaurant-in-portland">Here&#39;s What Happened When I Opened a Restaurant in Portland</a>
+          <div class="card-meta">10 Oct 2017</div>
+          <div class="card-meta card-domain">wweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>We closed Renard down more than nine months ago, but every night (and often early in the morning), first thing after waking up, I lie there and write the story of my failure over, and over and over again.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

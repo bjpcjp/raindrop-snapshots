@@ -1,0 +1,64 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>hbm + _r_ &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-02-22T03:57:37.000Z | tags: _r_, hbm -->
+      <div class="card-image">
+        <img src="http://community.datacamp.com.s3.amazonaws.com/community/production/ckeditor_assets/pictures/160/content_examples_728x90_2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/3-reasons-to-learn-caret">3 Reasons to Learn Caret</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning is the study and application of algorithms that learn from and make predictions on data. From search results to self-driving cars, it has manifested itself in all areas of our lives and is one of the most exciting and fast-growing fields of research in the world of data science. The caret package, maintained by Max Kuhn, is the go-to package in the R community for predictive modeling and supervised learning. This widely used package provides a consistent interface to all of R&#39;s most powerful machine learning facilities. Need some more convincing? In this post, we explore 3 reasons why you should learn the caret package. Afterward, you can take DataCamp&#39;s Machine Learning Toolbox course taught by Zachary Deane-Mayer &amp; Max Kuhn, co-authors of the caret package! 1. It can help you get a data science job Ever read through data science job postings and see words like &quot;predictive modeling&quot;, &quot;classification&quot;, &quot;regression,&quot; or &quot;machine learning&quot;? Chances are if you are seeking a data science position, you will be expected to have experience and knowledge about all of these topics. Luckily, the caret package has you covered. The caret package is known as the &quot;Swiss Army Knife&quot; for machine learning with R; capable of performing many tasks with an intuitive, consistent format. Check out these recent data scientist job postings from Kaggle which are all seeking candidates with knowledge of R and machine learning: Data Scientist Analytics at Booking.com Data Scientist at Amazon.com Data Scientist at CVS Health 2. It&#39;s one of the most popular R packages The caret package receives over 38,000 direct downloads monthly making it one of the most popular packages in the R community. With that comes significant benefits including an abundant amount of documentation and helpful tutorials. You can install the Rdocumentation package to access helpful documentation and community examples directly in your R console. Simply copy and paste the following code: # Install and load RDocumentation for comprehensive help with R packages and functions install.packages(&quot;RDocumentation&quot;) library(&quot;RDocumentation&quot;) Of course, another benefit of learning a widely used package is that your colleagues are also likely using caret in their work - meaning you can collaborate on projects more easily. Additionally, caret is a dependent package for a large amount of additional machine learning and modeling packages as well. Understanding how caret works will make it easier and more fluid to learn even more helpful R packages. 3. It&#39;s easy to learn, but very powerful If you are a beginner R user, the caret package provides an easy interface for performing complex tasks. For example, you can train multiple different types of models with one easy, convenient format. You can also monitor various combinations of parameters and evaluate performance to understand their impact on the model you are trying to build. Additionally, the caret package helps you decide the most suitable model by comparing their accuracy and performance for a specific problem. Complete the code challenge below to see just how easy it is to to build models and predict values with caret. We&#39;ve already gone ahead and split the mtcars dataset into a training set, train, and a test set,test. Both of these objects are available in the console. Your goal is to predict the miles per gallon of each car in the test dataset based on their weight. See for yourself how the caret package can handle this task with just two lines of code! eyJsYW5ndWFnZSI6InIiLCJwcmVfZXhlcmNpc2VfY29kZSI6IiAgICAgICAgIyBMb2FkIGNhcmV0IHBhY2thZ2VcbiAgICAgICAgICBsaWJyYXJ5KGNhcmV0KVxuICAgICAgICAjIHNldCBzZWVkIGZvciByZXByb2R1Y2libGUgcmVzdWx0c1xuICAgICAgICAgIHNldC5zZWVkKDExKVxuICAgICAgICAjIERldGVybWluZSByb3cgdG8gc3BsaXQgb246IHNwbGl0XG4gICAgICAgICAgc3BsaXQgPC0gcm91bmQobnJvdyhtdGNhcnMpICogLjgwKVxuXG4gICAgICAgICMgQ3JlYXRlIHRyYWluXG4gICAgICAgICAgdHJhaW4gPC0gbXRjYXJzWzE6c3BsaXQsIF1cblxuICAgICAgICAjIENyZWF0ZSB0ZXN0XG4gICAgICAgICAgdGVzdCA8LSBtdGNhcnNbKHNwbGl0ICsgMSk6bnJvdyhtdGNhcnMpLCBdIiwic2FtcGxlIjoiIyBGaW5pc2ggdGhlIG1vZGVsIGJ5IHJlcGxhY2luZyB0aGUgYmxhbmsgd2l0aCB0aGUgYHRyYWluYCBvYmplY3Rcbm10Y2Fyc19tb2RlbCA8LSB0cmFpbihtcGcgfiB3dCwgZGF0YSA9IF9fXywgbWV0aG9kID0gXCJsbVwiKVxuXG4jIFByZWRpY3QgdGhlIG1wZyBvZiBlYWNoIGNhciBieSByZXBsYWNpbmcgdGhlIGJsYW5rIHdpdGggdGhlIGB0ZXN0YCBvYmplY3RcbnJlc3VsdHMgPC0gcHJlZGljdChtdGNhcnNfbW9kZWwsIG5ld2RhdGEgPSBfX18pXG4gICAgICAgXG4jIFByaW50IHRoZSBgcmVzdWx0c2Agb2JqZWN0XG5yZXN1bHRzIiwic29sdXRpb24iOiIjIEZpbmlzaCB0aGUgbW9kZWwgYnkgcmVwbGFjaW5nIHRoZSBibGFuayB3aXRoIHRoZSBgdHJhaW5gIG9iamVjdFxubXRjYXJzX21vZGVsIDwtIHRyYWluKG1wZyB+IHd0LCBkYXRhID0gdHJhaW4sIG1ldGhvZCA9IFwibG1cIilcblxuIyBQcmVkaWN0IHRoZSBtcGcgb2YgZWFjaCBjYXIgYnkgcmVwbGFjaW5nIHRoZSBibGFuayB3aXRoIHRoZSBgdGVzdGAgb2JqZWN0XG5yZXN1bHRzIDwtIHByZWRpY3QobXRjYXJzX21vZGVsLCBuZXdkYXRhID0gdGVzdClcbiAgICAgICBcbiMgUHJpbnQgdGhlIGByZXN1bHRzYCBvYmplY3RcbnJlc3VsdHMiLCJzY3QiOiJ0ZXN0X2V4cHJlc3Npb25fb3V0cHV0KFwibXRjYXJzX21vZGVsXCIsIGluY29ycmVjdF9tc2cgPSBcIlRoZXJlJ3Mgc29tZXRoaW5nIHdyb25nIHdpdGggYG10Y2Fyc19tb2RlbGAuIEhhdmUgeW91IHNwZWNpZmllZCB0aGUgcmlnaHQgZm9ybXVsYSB1c2luZyB0aGUgYHRyYWluYCBkYXRhc2V0P1wiKVxuXG50ZXN0X2V4cHJlc3Npb25fb3V0cHV0KFwicmVzdWx0c1wiLCBpbmNvcnJlY3RfbXNnID0gXCJUaGVyZSdzIHNvbWV0aGluZyB3cm9uZyB3aXRoIGByZXN1bHRzYC4gSGF2ZSB5b3Ugc3BlY2lmaWVkIHRoZSByaWdodCBmb3JtdWxhIHVzaW5nIHRoZSBgcHJlZGljdCgpYCBmdW5jdGlvbiBhbmQgdGhlIGB0ZXN0YCBkYXRhc2V0P1wiKVxuXG5zdWNjZXNzX21zZyhcIkNvcnJlY3Q6IFNlZSBob3cgZWFzeSB0aGUgY2FyZXQgcGFja2FnZSBjYW4gYmU/XCIpIn0= Want to learn it for yourself? You&#39;re in luck! DataCamp just released a brand new Machine Learning Toolbox course. The course is taught by co-authors of the caret package, Max Kuhn and Zachary Deane-Mayer. You&#39;ll be learning directly from the people who wrote the package through 24 videos and 88 interactive exercises. The course also includes a customer churn case study that let&#39;s you put your caret skills to the test and gain practical machine learning experience. What are you waiting for? Take the course now!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

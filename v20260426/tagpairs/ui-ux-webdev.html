@@ -1,0 +1,615 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ui-ux + webdev &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-22T19:42:47.805Z | tags: webdev, design, ui-ux, design-patterns -->
+      <div class="card-image">
+        <img src="https://d3tamksjp7q04h.cloudfront.net/2025/10/28144027/342.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webdesignerdepot.com/how-aspect-ratios-define-perception-rhythm-and-flow/">How Aspect Ratios Define Perception, Rhythm, and Flow</a>
+          <div class="card-meta">22 Apr 2026</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep exploration of how aspect ratios shape perception, visual rhythm, and usability in modern interfaces. From grids to galleries to video players, this article dissects how proportion silently governs how users see, feel, and interact with content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-02T18:41:30.435Z | tags: ui-ux, webdev, browsers, html -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/getting-started-popover-api/getting-started-popover-api.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2026/03/getting-started-popover-api/">Getting Started With The Popover API</a>
+          <div class="card-meta">2 Mar 2026</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>What happens if you rebuild a single tooltip using the browser’s native model without the aid of a library? The Popover API turns tooltips from something you simulate into something the browser actually understands. Opening and closing, keyboard interaction, Escape handling, and much of the accessibility now come from the platform itself, not from ad-hoc JavaScript.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-19T13:23:13.185Z | tags: ui-ux, feature-engineering, webdev -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/how-measure-impact-features-tars/how-measure-impact-features-tars.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2025/12/how-measure-impact-features-tars/">How To Measure The Impact Of Features — Smashing Magazine</a>
+          <div class="card-meta">19 Dec 2025</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meet TARS — a simple, repeatable, and meaningful UX metric designed specifically to track the performance of product features. Upcoming part of the Measure UX &amp; Design Impact (use the code 🎟 IMPACT to save 20% off today).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-14T00:50:42.197Z | tags: design, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/Zn0Q2pbWFbowe7qa_design-article-background.png?auto=format%2Ccompress&amp;blend-mode=normal&amp;blend-x=0&amp;blend-y=0&amp;blend=https%3A%2F%2Fimages.prismic.io%2Fthoughtbot-website%2FZ1tQFZbqstJ98cGR_design.png&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0tMTUmdHh0LXRyYWNrPTAmdHh0NjQ9Vkc5dmJITWdZVzVrSUhKbGMyOTFjbU5sY3lCdmRYSWdaR1Z6YVdkdVpYSnpJR0Z5WlNCMWMybHVaeUJ5YVdkb2RDQnViM2MlM0QmdHh0Y2xyPWY1ZjVmNSZ0eHRmb250PUlCTVBsZXhTYW5zSlAtU2VtaUJvbGQmdHh0cGFkPTAmdHh0c2l6ZT03NiZ3PTgwMA%3D%3D&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Vendela+Colavecchio" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://feed.thoughtbot.com/link/24077/17005377/tools-and-resources-our-designers-are-using-right-now">Tools and resources our designers are using right now</a>
+          <div class="card-meta">14 Apr 2025</div>
+          <div class="card-meta card-domain">feed.thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A list of what tools and resources are most relevant for our designers right now.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-15T02:01:05.000Z | tags: css, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://freefrontend.com//assets/img/css-cards/thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://freefrontend.com/css-cards">76 CSS Cards</a>
+          <div class="card-meta">15 Feb 2023</div>
+          <div class="card-meta card-domain">freefrontend.com</div>
+        </div>
+        <div class="card-section">
+          <p>Welcome to our collection of CSS cards! In this comprehensive compilation, we have gathered a wide range of free HTML and CSS card code examples from various reputable sources, including CodePen, GitHub, and other valuable resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-07T22:09:49.000Z | tags: css, design, ui-ux, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anthonyhobday.com/sideprojects/saferules">Visual design rules you can safely follow every time</a>
+          <div class="card-meta">7 Feb 2023</div>
+          <div class="card-meta card-domain">anthonyhobday.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-24T21:35:09.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2023/01/design-system-components-1.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/design-system-components">10 Essential Design System Components</a>
+          <div class="card-meta">24 Jan 2023</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about design system components. Deepen your knowledge of atomic design and see how you can use it for product design. Enjoy!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-30T23:24:57.000Z | tags: html, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82e5b2e4-1ffc-4b54-8c90-eab7e13320fd/layout-grids-baselinegrids-preview-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2022/12/guide-sizing-spacing-grids-layout-web-ui-ux-design">An Ultimate Guide On Sizing, Spacing, Grids And Layout In Web And UI/UX Des</a>
+          <div class="card-meta">30 Dec 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>A grid is like invisible glue that holds a design together. Even when elements are physically separated from each other, something invisible connects them together. Grids help designers to build better products by tying different design elements together to achieve effective hierarchy, alignment and consistency, with little effort. If executed properly, your designs will appear thoughtful and organized. In this article Nick Babich aims to give you a good understanding of grid systems, what they are, and how they can be applied to your design process. Understanding how to use grids will come from practical experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-23T09:46:52.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa51vfbwc9s9o45m83afn.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/daniel000/how-to-design-almost-any-ui-element-list-of-58-articles-of-how-to-properly-build-elements-in-terms-of-ui-and-ux-jl4">How to design almost any UI element (list of ~58 articles of how to properl</a>
+          <div class="card-meta">23 Dec 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Buttons.     7 Basic Rules for Button Design by @101babich  Button Design  Cheatsheet for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-14T14:23:08.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/09/accessibility-best-practices.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/8-website-accessibility-best-practices-to-improve-ux">Accessibility UX Best Practices – 8 Tactics for Web Design</a>
+          <div class="card-meta">14 Sep 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn 8 accessibility hacks that will make your website suitable for a variety of users, including those who have certain challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-08T01:25:41.000Z | tags: color, ui-ux, webdev, cognition-neurology-perception -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6553770-76d3-4d35-a473-1011999fbb66/realities-myths-contrast-color.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color">The Realities And Myths Of Contrast And Color — Smashing Magazine</a>
+          <div class="card-meta">8 Sep 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, Andrew Somers, a 35-year veteran of the Hollywood film and television industry, shares his experience about the hard-fought battles and lessons learned designing for illuminated presentations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-22T20:35:04.000Z | tags: color, ui-ux, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.genomecolor.space">Genome Color Tool</a>
+          <div class="card-meta">22 Aug 2022</div>
+          <div class="card-meta card-domain">genomecolor.space</div>
+        </div>
+        <div class="card-section">
+          <p>Web site created using create-react-app</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T19:44:31.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/lh3zuq09vnm2/zsJe5ujXWMeNJScarO5jX/92ee747a96ef4a5998f9a1b10b2bb737/hotjar_og_image_Jul22.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.hotjar.com">Hotjar: Website Heatmaps &amp; Behavior Analytics Tools</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">hotjar.com</div>
+        </div>
+        <div class="card-section">
+          <p>The next best thing to sitting beside someone browsing your site. See where they click, ask what they think, and learn why they drop off. Get started for free.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T01:43:50.000Z | tags: authentication, design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://webauthn.guide/dist/images/webauthn-meta-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webauthn.guide">Hacker News</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">webauthn.guide</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to Web Authentication (WebAuthn), the new API that can replace passwords with strong authentication.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T13:48:58.000Z | tags: css, design, design-patterns, fonts-typography, keywords-ppc-seo, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2022/06/amy-hirschi-JaoVGh5aJ3E-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/in-demand-marketing-skills-for-your-design-cv.html">6 In-demand Marketing Skills for Your Design CV</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>In today’s tech-savvy world, being a great designer is not all about being a whiz at tools such as Adobe Photoshop and Adobe Illustrator. The job is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:28:47.000Z | tags: design, design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*jGDiGQElix8y2nn6uekgyg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.prototypr.io/youre-not-still-using-read-more-are-you-16466ae326e7">You’re not still using “Read More” are you?</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">blog.prototypr.io</div>
+        </div>
+        <div class="card-section">
+          <p>It’s probably not the first time you’ve heard that using links like “Read More” or “Click Here” is bad practice. This topic has been…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-04T23:06:37.000Z | tags: design, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://styletil.es/wp-content/uploads/2022/09/header-300x73.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://styletil.es">Style Tiles</a>
+          <div class="card-meta">4 Jun 2022</div>
+          <div class="card-meta card-domain">styletil.es</div>
+        </div>
+        <div class="card-section">
+          <p>A Style Tile is a design deliverable consisting of fonts, colors and interface elements that communicates the evolution of a visual brand for the web. Learn how to use them here.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T01:07:12.000Z | tags: design, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/0ffb835b4f5b67420e7e4c094aedfdf09e61f68cb76f206fda74e25b3d83b3f3/gztchan/awesome-design" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/gztchan/awesome-design">gztchan/awesome-design: 🌟 Curated design resources from all over the world.</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>🌟 Curated design resources from all over the world. - gztchan/awesome-design</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-15T00:15:27.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/alistapart.com/wp-content/uploads/2014/04/ALA393_styleguides_300.png?fit=1200%2C628&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://alistapart.com/article/creating-style-guides">Creating Style Guides</a>
+          <div class="card-meta">15 Apr 2022</div>
+          <div class="card-meta card-domain">alistapart.com</div>
+        </div>
+        <div class="card-section">
+          <p>A style guide, also referred to as a pattern library, is a living document that details the front-end code for all the elements and modules of a website or application. It also documents the site’s…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-23T21:04:35.000Z | tags: css, javascript, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://speckyboy.com/wp-content/uploads/2022/02/card-hover-effects-thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://speckyboy.com/css-javascript-card-ui-hover-effects">8 CSS &amp; JavaScript Snippets for Creating Cool Card UI Hover Effects</a>
+          <div class="card-meta">23 Mar 2022</div>
+          <div class="card-meta card-domain">speckyboy.com</div>
+        </div>
+        <div class="card-section">
+          <p>From bold transformations to simple highlights, we share some fantastic CSS &amp; JavaScript card UI hover effect snippets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-14T21:44:03.000Z | tags: design-patterns, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://refactoring.guru/images/refactoring/social/facebook-share-preview.png?id=dbf9e98269595be86eb668f365be6868" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://refactoring.guru/design-patterns/catalog">The Catalog of Design Patterns</a>
+          <div class="card-meta">14 Mar 2022</div>
+          <div class="card-meta card-domain">refactoring.guru</div>
+        </div>
+        <div class="card-section">
+          <p>The catalog of design patterns grouped by intent, complexity, and popularity. The catalog contains all classic design patterns and several architectural patterns.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-26T23:50:12.000Z | tags: glossaries, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.softformance.com/wp-content/uploads/2022/01/Cover-1-4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.softformance.com/blog/ui-ux-terms">Ultimate UI/UX glossary to speak same language with design team</a>
+          <div class="card-meta">26 Jan 2022</div>
+          <div class="card-meta card-domain">softformance.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a dream UI/UX design for your app is very much about communication with your design team. Here is a list of 57 essential terms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:46:51.000Z | tags: design, security, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://codewithoutrules.com/assets/titles/users-considered-harmful.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codewithoutrules.com/2018/09/21/users-considered-harmful">Never use the word “User” in your code</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">codewithoutrules.com</div>
+        </div>
+        <div class="card-section">
+          <p>You’re six months into a project when you realize a tiny, simple assumption you made at the start was completely wrong. And now you need to fix the problem while keeping the existing system running—with far more effort than it would’ve taken if you’d just gotten it right in the first place. Today I’d like to tell you about one common mistake, a single word that will cause you endless trouble. I am speaking, of course, about “users”. There are two basic problems with this word: “User” is almost never a good description of your requirements. “User” encourages a fundamental security design flaw. The concept “user” is dangerously vague, and you will almost always be better off using more accurate terminology.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:47.000Z | tags: css, html, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08a226c5-5a9a-4bd2-bba7-dad7e74f69e9/adaptive-media-serving-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages">Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word) — Smashing Magazine</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s make 2021... fast! An annual front-end performance checklist, with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:16:56.000Z | tags: design, language-linguistics, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.webdesignerdepot.com/assets/posts/featured/_1200x630_crop_center-center_82_none/54961/wdd.jpg?mtime=1676929111" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.webdesignerdepot.com/2018/11/10-tips-for-building-a-visual-language">10 Tips for Building a Visual Language</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A visual language is just like any other form of communication. Elements from color to style to type of photos or illustrations establish what a brand or company is. A visual language includes both the written and spoken elements of a website or brand, as well as every design technique, photo,…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:16:29.000Z | tags: css, html, javascript, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08a226c5-5a9a-4bd2-bba7-dad7e74f69e9/adaptive-media-serving-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages">Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word) — Smashing Magazine</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s make 2021... fast! An annual front-end performance checklist, with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T19:17:59.000Z | tags: css, fonts-typography, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*2YuCOOCjdMEJxg-Lb6G2FA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886">7 Practical Tips for Cheating at Design</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Improving your designs with tactics instead of talent.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T19:17:53.000Z | tags: color, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://coolors.co/assets/img/og_image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://coolors.co">Coolors - The super fast color palettes generator!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">coolors.co</div>
+        </div>
+        <div class="card-section">
+          <p>Generate or browse beautiful color combinations for your designs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-09T12:30:33.000Z | tags: css, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flk7ph9gnu79ly26vfhoh.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/ruppysuppy/5-ux-tricks-you-must-know-in-2022-5b2l">5 UX Tricks You Must Know in 2022</a>
+          <div class="card-meta">9 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Do you have what it takes to be an outstanding UX Developer in 2022? Add these tricks to your arsenal...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-23T20:21:49.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb38ba21-df76-4d15-b7ef-bbda38aeea6b/laws-of-ux-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2021/12/tools-tips-resources-to-build-better-user-experiences">Useful UX Guidelines, Tools And Resources</a>
+          <div class="card-meta">23 Dec 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>A meaningful user experience is what can set your site apart from others. But what makes an experience truly meaningful? And how to achieve that? The tools, tips, and resources in this post not only help you to come up with a UX strategy that works for you and your team but also to circumvent potential UX pitfalls.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-23T20:21:47.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://uxtools.co/img/default-share.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxtools.co">UX Tools</a>
+          <div class="card-meta">23 Dec 2021</div>
+          <div class="card-meta card-domain">uxtools.co</div>
+        </div>
+        <div class="card-section">
+          <p>Product design mastery in one weekly e-mail. Practical lessons, resources and news in just 5 minutes a week.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-28T23:03:03.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/09/thumb-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/useful-ux-and-ui-design-tools">17 Useful UX and UI Design Tools</a>
+          <div class="card-meta">28 Sep 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>User experience and user interface tools can help with every stage of website and mobile-app design — from early whiteboard brainstorming to testing your prototype with end-users. Here is a list of useful UX and UI design tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-03T19:58:01.000Z | tags: design, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz2gvauqqb2o66pd4y7al.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/coderwatch/60-awesome-ui-and-ux-resources-for-developers-and-designers-2021-202">60 Awesome UI and UX resources for Developers and Designers 2021</a>
+          <div class="card-meta">3 Aug 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Yearning organizers, genuine solopreneurs, and sprouting visual creators all need a convincing...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-02T14:01:44.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22409140/dark_patterns_board_1.jpg?quality=90&amp;strip=all&amp;crop=0%2C3.4842854410982%2C100%2C93.031429117804&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/recode/22351108/dark-patterns-ui-web-design-privacy">Dark patterns, the tricks websites use to make you say yes, explained</a>
+          <div class="card-meta">2 Apr 2021</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>How design can manipulate and coerce you online</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-18T15:52:12.000Z | tags: design, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.webdesignerdepot.com/assets/posts/featured/_1200x630_crop_center-center_82_none/54961/wdd.jpg?mtime=1676929111" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.webdesignerdepot.com/2021/03/15-psychology-principles-every-designer-should-know">15 Psychology Principles Every Designer Should Know</a>
+          <div class="card-meta">18 Mar 2021</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>As a web designer, you’re not really in the business of building websites that your clients will love. I know that may seem counterintuitive, but think about how vast the differences often are between your clients’ personal aesthetics and what actually works to turn visitors into customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-17T10:28:31.000Z | tags: ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb33yd1o2sxrm8wvfbm1b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/doabledanny/11-easy-ui-design-tips-for-web-devs-j3j">11 Easy UI Design Tips for Web Devs</a>
+          <div class="card-meta">17 Feb 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Whilst learning web development, most of us don’t have much design experience or access to a UI desig...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

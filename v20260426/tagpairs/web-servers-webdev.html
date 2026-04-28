@@ -1,0 +1,164 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>web-servers + webdev &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-28T11:08:45.929Z | tags: webdev, security, web-servers, devops -->
+      <div class="card-image">
+        <img src="https://surfingcomplexity.blog/wp-content/uploads/2025/12/image-4.png?w=640" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://surfingcomplexity.blog/2025/12/27/the-dangers-of-ssl-certificates/">The dangers of SSL certificates</a>
+          <div class="card-meta">28 Dec 2025</div>
+          <div class="card-meta card-domain">surfingcomplexity.blog</div>
+        </div>
+        <div class="card-section">
+          <p>Yesterday, the Bazel team at Google did not have a very Merry Boxing Day. An SSL certificate expired for and as shown in this screenshot from the github issue. This expired certificate apparently b…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-08T22:33:18.000Z | tags: ruby, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://www.rubyguides.com/wp-content/uploads/2016/08/build-web-server-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.rubyguides.com/2016/08/build-your-own-web-server">Build Your Own Web Server With Ruby - RubyGuides</a>
+          <div class="card-meta">8 Nov 2022</div>
+          <div class="card-meta card-domain">rubyguides.com</div>
+        </div>
+        <div class="card-section">
+          <p>Have you ever built your own web server with Ruby?  We already have many servers, like:       Puma     Thin     Unicorn   But I think this is a great learning exercise</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-01T23:11:02.000Z | tags: bash, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvw5gqra0kmw4in38sd9e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/leandronsp/building-a-web-server-in-bash-part-i-sockets-2n8b">Building a Web server in Bash, part I - sockets</a>
+          <div class="card-meta">1 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Have you ever wondered how a Web server works under the hood? Moreover, would you be willing to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-09T00:00:35.000Z | tags: devops, ngrok, ssh, web-servers, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html">Jacob Errington | Roll your own Ngrok with Nginx, Letsencrypt, and SSH reve</a>
+          <div class="card-meta">9 Apr 2022</div>
+          <div class="card-meta card-domain">jerrington.me</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T13:01:39.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/6bbe1693d7c112385e5c6b10014f319355db0ac98a638738c1e382e47faf4ba5/phanan/htaccess" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/phanan/htaccess">phanan/htaccess</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>✂A collection of useful .htaccess snippets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:38:23.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://serversforhackers.com/img/sfh-social-lrg.png?b=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://serversforhackers.com">Servers for Hackers</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">serversforhackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>What programmers need to know about servers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-02T00:27:49.000Z | tags: web-servers, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ruslanspivak.com/lsbaws-part3">Let’s Build A Web Server. Part 3.</a>
+          <div class="card-meta">2 Jan 2022</div>
+          <div class="card-meta card-domain">ruslanspivak.com</div>
+        </div>
+        <div class="card-section">
+          <p>“We learn most when we have to invent” —Piaget In Part 2 you created a minimalistic WSGI server that could handle basic HTTP GET requests. And I asked you a question, “How can you make your server handle more than one request at a time?” In this article you will …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-12T13:04:50.000Z | tags: devops, web-servers, webdev -->
+      <div class="card-image">
+        <img src="https://blog.nginx.org/wp-content/uploads/2017/08/Testing-NGINX-web-server-performance.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nginx.com/blog/performance-tuning-tips-tricks?mkt_tok=eyJpIjoiT0dVNU9URXdNVGczTVRsaSIsInQiOiI1NjFtQlZMV2VPRkEzZVpqeDAzYmlQSmFNblc3XC9VaUdFVXlcL05WOHRleVFMMGZwVXBRK3RKTHdsNWlSYitFODkrUUZwbkZCeWllS0thSGFXVElsakxJblE3bFdZNktYNlp4MnJmNGhnaHZGRVNsTmhhNyttbHAwOUlCVXM3MGNVIn0=">Performance Tuning - Tips &amp; Tricks - NGINX</a>
+          <div class="card-meta">12 Feb 2019</div>
+          <div class="card-meta card-domain">nginx.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

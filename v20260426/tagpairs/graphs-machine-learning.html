@@ -1,0 +1,288 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>graphs + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-01-30T19:54:05.000Z | tags: graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://memgraph.com/images/blog/pagerank-algorithm-for-graph-databases/cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://memgraph.com/blog/pagerank-algorithm-for-graph-databases">PageRank Algorithm for Graph Databases</a>
+          <div class="card-meta">30 Jan 2023</div>
+          <div class="card-meta card-domain">memgraph.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is PageRank algorithm? How can it be used in various graph database use cases? How to use it in Memgraph? If these questions are keeping you up at night, here is a blog post that will finally put your mind at ease.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-04T22:56:41.000Z | tags: clustering, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*arWl57BFDl1ke9Rk" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-to-graph-partitioning-algorithms-and-community-detection-29e7c962d10e?source=rss----7f60cf5620c9---4">An Introduction to Graph Partitioning Algorithms and Community Detection</a>
+          <div class="card-meta">4 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Graph partitioning has been a long-lasting problem and has a wide range of applications. This post shares the methodology for graph…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-26T14:10:14.000Z | tags: graphs, machine-learning, data-structures -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fepq0ij82yqdfs13e2pv6.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/rajkousik/the-top-10-algorithms-every-programmer-should-know-in-graph-data-structure-40a5">The Top 10 Algorithms Every Programmer Should Know In Graph Data Structure!</a>
+          <div class="card-meta">26 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Why to learn these graph algorithms?   Graph algorithms are a set of instructions that...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-02T00:46:01.000Z | tags: algorithms-math, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*x_WiMjF0s6_gGRqPmDZ1Eg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513">Data Scientists, The 5 Graph Algorithms that you should know</a>
+          <div class="card-meta">2 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Because Graph Analytics is the future</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:30:14.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*aFDSzfrgmujhEgY3" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/graph-theory-basics-88a89863e3c1?source=rss----7f60cf5620c9---4">Graph Theory Basics</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What you need to know as graph theory adoption continues to take off</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-10T03:12:39.000Z | tags: graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*QW7XwbzFHl4Hp6dp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/generative-graph-models-with-networkx-727b154ceda4?source=rss----7f60cf5620c9---4">Generative Graph Models with NetworkX</a>
+          <div class="card-meta">10 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comprehensive guide on standard generative graph approaches with implementation in NetworkX</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T12:31:08.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5796%2F1601055329_Graph_826_MHeule_5K.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/decades-old-graph-problem-yields-to-amateur-mathematician">Decades-Old Graph Problem Yields to Amateur Mathematician</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>By making the first progress on the “chromatic number of the plane” problem in over 60 years, an anti-aging pundit has achieved mathematical immortality.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-17T15:33:04.000Z | tags: graphs, info-theory, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VK7jOqx6Vogs_-liMWe5cg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/link-prediction-and-information-theory-a-tutorial-a67ecc73e7f9?source=rss----7f60cf5620c9---4">Link Prediction and Information Theory: A Tutorial</a>
+          <div class="card-meta">17 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using Mutual Information to measure the likelihood of candidate links in a graph.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T12:30:00.000Z | tags: algorithms-math, graphs, machine-learning, ruby -->
+      <div class="card-image">
+        <img src="https://www.rubyguides.com/wp-content/uploads/2017/05/graph-theory-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.rubyguides.com/2017/05/graph-theory-in-ruby">Practical Graph Theory in Ruby</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">rubyguides.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the next installment in the &quot;Practical Computer Science&quot; series, where you will learn how to apply classic computer science concepts to solve real problems using Ruby.  Today we are going to talk about Graph</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T01:27:24.000Z | tags: graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uxiSBdVZlhmMe6OcKbVPzw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matching-of-bipartite-graphs-using-networkx-6d355b164567?source=rss----7f60cf5620c9---4">Matching of Bipartite Graphs using NetworkX</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A simple introduction to matching in bipartite graphs with Python code examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-29T20:18:06.000Z | tags: graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*0DEK_ouEZZz4_MMdhKE_Wg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/10-graph-algorithms-visually-explained-e57faa1336f3?source=rss----7f60cf5620c9---4">10 Graph Algorithms Visually Explained</a>
+          <div class="card-meta">29 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A quick introduction to 10 basic graph algorithms with examples and visualisations</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-24T17:44:04.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/9ff7217eea734f538fe8da6d84056dede127985baad6c098a7ef93d989081ea2/pdclab/peregrine" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/pdclab/peregrine">Peregrine: A Pattern-Aware Graph Mining System</a>
+          <div class="card-meta">24 Nov 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Peregrine: A Pattern-Aware Graph Mining System.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-09T16:26:06.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/graphs/1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2019/09/02/graph_algs">MLWhiz: Helping You Learn Data Science!</a>
+          <div class="card-meta">9 Nov 2020</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, I am going to be talking about some of the most important graph algorithms you should know and how to implement them using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:799/1*730G0YUHgl1M-e3AKIG9oQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/graph-theory-bfs-shortest-path-problem-on-a-grid-1437d5cb4023?source=rss----7f60cf5620c9---4">Graph Theory | BFS Shortest Path Problem on a Grid</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hi all, welcome back to another post of my brand new series on Graph Theory named Graph Theory: Go Hero. I undoubtedly recommend the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:29:07.000Z | tags: graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*1DfACVGfKyMHr4wdKbA_PA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-intro-to-graph-theory-centrality-measurements-and-networkx-1c2e580adf37?source=rss----7f60cf5620c9---4">An Intro to Graph Theory, Centrality Measurements, and NetworkX</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Graph Theory is the study of graphs which are mathematical structures used to model pairwise relations between objects. These graphs are…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,528 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ecommerce + keywords-ppc-seo &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-08-18T00:28:05.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/08/Search-intent-Yes-there-are-more-than-4-types.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/search-intent-more-types-430814">There are more than 4 types of search intent</a>
+          <div class="card-meta">18 Aug 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore user motivations, intent categories, and tactics to create SEO content that resonates and converts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-14T13:06:36.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/08/Top-free-tools-for-use-in-paid-media.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/free-tools-ppc-campaign-management-430520">11 free tools for PPC campaign management</a>
+          <div class="card-meta">14 Aug 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>These tools can help you analyze PPC competitors, track search trends or design ad creative – all without spending a dime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T16:01:45.000Z | tags: ecommerce, keywords-ppc-seo, prompt-engineering, llms-gpt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/05/6-ChatGPT-Prompts-for-Text-Analysis.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/chatgpt-prompts-for-text-analysis">ChatGPT Prompts for Text Analysis</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>ChatGPT can generate usable content. But it can also analyze existing content — articles, descriptions — and suggest improvements for SEO and social media.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-18T10:25:18.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/05/10-SEO-challenges-faced-by-fast-growing-SaaS-companies.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/seo-challenges-saas-companies-418920">10 SEO challenges faced by fast-growing SaaS companies</a>
+          <div class="card-meta">18 May 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>When done right, SEO efforts can reduce SaaS customer acquisition costs and maximize marketing ROI dramatically.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-16T14:32:46.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/02/Tools-to-Create-and-Optimize-Meta-Descriptions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tools-to-create-optimize-meta-descriptions">Tools to Create, Optimize Meta Descriptions</a>
+          <div class="card-meta">16 Feb 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meta descriptions do not influence organic rankings. But the descriptions appear in search snippets more often than not and thus impact clicks on organic listings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-10T03:19:34.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/09/Shutterstock_628146863.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/ppc-management-for-e-commerce-28-tools-to-explore-387801">PPC management for e-commerce: 28 tools to explore</a>
+          <div class="card-meta">10 Sep 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Software and tools not only help you manage your time better but provide helpful insights that you wouldn&#39;t otherwise see in a Google or Facebook interface.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-24T14:20:05.000Z | tags: analytics, ecommerce, excel, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Excel-tips-for-search-marketing-professionals-Formulas-and-functions.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/excel-formulas-functions-ppc-387428">7 useful Excel formulas and functions for PPC</a>
+          <div class="card-meta">24 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use these tips to quickly analyze performance data and identify high-impact PPC optimizations that will move the needle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T01:21:06.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Untitled-design-4.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/amazon-product-listing-optimization-must-haves-386902">5 Amazon product listing optimization must-haves</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon will continue to be highly competitive. Want to be successful? Optimize your product listings to the fullest with these tips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-01T11:27:43.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/site-taxonomy.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/site-taxonomy-seo-guide-386837">Site taxonomy for SEO: A straightforward guide</a>
+          <div class="card-meta">1 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this guide: learn why website taxonomy is fundamental to SEO success and how to optimize site taxonomies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:14:41.000Z | tags: affiliates, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://makeawebsitehub.com/wp-content/uploads/2016/03/How-to-Build-an-Amazon-Affiliate-Website.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://makeawebsitehub.com/build-amazon-affiliate-website">How to Build an Amazon Affiliate Website - 2024 Guide - Make A Website Hub</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">makeawebsitehub.com</div>
+        </div>
+        <div class="card-section">
+          <p>When it comes to making money online you’re going to have a lot of options at your disposal. Frankly, it can be quite overwhelming just choosing an online</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:57:51.000Z | tags: adtech-adwords, brandmgmt, ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/11/SEL-OG-1920x1080-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://searchengineland.com/brand-bidding-techniques-smart-ways-to-use-typos-urls-as-keywords-42725">Brand Bidding Techniques: Smart Ways To Use Typos &amp; URLs As Keywords</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding the right mix of keywords is as much science as it is good common sense. When it comes to your brand, there are typo and URL derivation techniques</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:22:25.000Z | tags: ecommerce, keywords-ppc-seo, analytics -->
+      <div class="card-image">
+        <img src="https://static.ahrefs.com/static/assets/ahrefs-YU6Y7RBK.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ahrefs.com">Ahrefs—Marketing Intelligence Tools Powered by Big Data.</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">ahrefs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unlock data to make effective decisions across digital marketing. SEO, content marketing, PPC, digital PR, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:41:11.000Z | tags: a-b, ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2013/04/PPC-Split-Test_V2.png.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://searchengineland.com/infographic-26-ideas-for-split-testing-your-search-ads-155821">Infographic: 26 Ideas For Split Testing Your Search Ads</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you want to always be closing, then you need to always be testing, a long-standing mantra (and title of a popular book) in the search marketing space.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:04:51.000Z | tags: ecommerce, keywords-ppc-seo, luxury -->
+      <div class="card-image">
+        <img src="https://www.searchenginewatch.com/wp-content/uploads/2019/04/Luxury-marketing-search-strategy-series.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.searchenginewatch.com/2019/04/03/luxury-marketing-search-part-two">Luxury marketing search strategy, Part 2: Strategies and tactics - Search Engine Watch</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">searchenginewatch.com</div>
+        </div>
+        <div class="card-section">
+          <p>Marketing for luxury goods is a highly competitive space. Here&#39;s a full guide of how to craft SEO strategies and tactics to maximize those results.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T14:04:08.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2017/12/AdWords-3-Ways-to-Find-Negative-Keywords-to-Save-Money.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/adwords-3-ways-find-negative-keywords">AdWords: 3 Ways to Find Negative Keywords</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Inside every AdWords account there is a report that shows the exact words (a &quot;query&quot;) that searchers typed into Google before clicking on a specific ad.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T01:10:38.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/04/Getting-Started-Google-Tag-Manager-for-Ecommerce.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/getting-started-google-tag-manager-ecommerce">Getting Started with Google Tag Manager, for Ecommerce</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many websites lose reporting from one of their marketing or analytics platforms. The culprit is usually the removal of tags during updates to the sites. Tags are critical for ecommerce merchants. But they add clutter to websites. That&#39;s the purpose of Google Tag Manager — to manage tags and contain them in a single JavaScript snippet on all pages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T01:08:16.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/04/SEO-Product-Descriptions-Are-a-Blind-Spot-for-Ecommerce-Merchants.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/seo-product-descriptions-are-a-blind-spot-for-ecommerce-merchants">SEO: Product Descriptions Are a Blind Spot for Ecommerce Merchants</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why does the ecommerce community have such a blind spot when it comes to unique product descriptions? Syndicated descriptions produce duplicate content. Why is duplicate product copy accepted so blindly? The answer depends on whether you’re the syndicator or the site using the syndicated content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:05:33.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/05/BEST-MARKETING-AUTOMATION-TOOLS-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2022/05/13-marketing-automation-tools-that-can-help-you-boost-your-sales">13 marketing automation tools that can help you boost your sales</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The way we live our lives has an impact on our work. Long lists of typical chores may turn your</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:24.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/May22_13_1055306876.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/05/when-keyword-poaching-pays-off">When Keyword Poaching Pays Off</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Competitive poaching refers to the practice of bidding on ads for a competitor’s search terms, in order to poach customers searching for that brand. It’s a common tactic in the world of digital ads — but is it effective? The author shares results from the first-ever empirical study of this practice, which found that poaching can work well for higher-end brands, but may backfire for lower-end or mass market offerings. Specifically, the study found that when an ad poached customers who searched for a high-end brand, users clicked on it more, but when an ad poached a low-end or mass market target, users were less likely to click. Of course, the author notes that clickthrough rate is just one metric, and there may be other ways in which a poaching campaign could be harmful or beneficial. But these findings can help marketers add a bit of science to the art that is digital advertising, helping them to optimize campaigns for their unique products and customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-19T11:28:50.000Z | tags: analytics, ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/05/How-Keyword-Clustering-Powers-SEO.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/how-keyword-clustering-powers-seo">How Keyword Clustering Powers SEO</a>
+          <div class="card-meta">19 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Keyword lists for SEO are often cluttered and seemingly endless. &quot;Clustering&quot; can help by grouping keywords by a common modifier.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-12T11:51:48.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/04/3-Keyword-Tools-for-Search-Intent.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/3-keyword-tools-for-search-intent">3 Keyword Tools for Search Intent</a>
+          <div class="card-meta">12 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Optimizing content for organic rankings requires knowing how Google will interpret searchers&#39; intent — informational, commercial, or navigational.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T20:01:57.000Z | tags: ecommerce, keywords-ppc-seo, marketing -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*GqFsZIkFbEGgUHusf7Ac7Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.usejournal.com/how-one-affiliate-used-amazon-s3-to-outrank-everyone-on-google-9744c8e7322f">How One Website Exploited Amazon S3 to Outrank Everyone on Google</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">blog.usejournal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick Intro to the World of SEO, Affiliate Marketing, and Amazon S3</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:31:08.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/01/010918-snowblower-featured.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/build-ecommerce-keyword-list">How to Build an Ecommerce Keyword List</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Keywords are an important building block for ecommerce marketing. Developing and maintaining a keyword list may help an ecommerce business understand shoppers and do a better job of marketing to them. In the context of search engine optimization, searchers&#39; words or phrases summarize their thoughts, questions, or needs. Those keywords represent the language people use to ask for help finding resources online.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-06T16:48:33.000Z | tags: ecommerce, keywords-ppc-seo, shopify -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2020/05/Shopify_SEO_1920.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/shopify-seo-guide-how-to-increase-organic-traffic-to-your-store-334971">Shopify SEO Guide: How to increase organic traffic to your store</a>
+          <div class="card-meta">6 Feb 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Everything a merchant needs to know about optimizing their Shopify site, from basic SEO capabilities to apps, technical SEO challenges and beyond.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-31T13:36:49.000Z | tags: adtech-adwords, ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://neilpatel.com/wp-content/uploads/2022/02/analyzed-7000websites-22-industries-700x412.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://neilpatel.com/blog/top-websites-seo-paid-advertising">We Analyzed The Top 7,000 Websites in 22 Industries. Here’s What We Learned</a>
+          <div class="card-meta">31 Jan 2022</div>
+          <div class="card-meta card-domain">neilpatel.com</div>
+        </div>
+        <div class="card-section">
+          <p>We analyzed 7,000+ websites with reviews of more than 4 stars on Trustpilot. Here are some SEO factors we noticed they had in common.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-02T10:01:31.000Z | tags: ecommerce, keywords-ppc-seo, machine-learning, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0779/4361/articles/ShopifyHelpCenter.png?v=1617296393" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shopify.engineering/evaluating-search-algorithms">Evaluating Search Algorithms</a>
+          <div class="card-meta">2 Apr 2021</div>
+          <div class="card-meta card-domain">shopify.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>The three-step framework Shopify&#39;s Data Science &amp; Engineering team built for evaluating new search algorithms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T22:55:49.000Z | tags: ecommerce, keywords-ppc-seo, marketing -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/07/SEO-Checklist-for-Website-Redesigns-and-Replatforms.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/seo-checklist-for-website-redesigns-and-replatforms">SEO Checklist for Website Redesigns and Replatforms</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Major website redesigns and replatforms can kill organic search traffic. Use this checklist to minimize the impact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T20:47:17.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/08/8-step-SEO-Crawl-Audit-for-Ecommerce.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/8-step-seo-crawl-audit-for-ecommerce">8-step SEO Crawl Audit for Ecommerce</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your site won’t rank if search engine bots can’t crawl it. And hidden doors that don’t impact human visitors can lock bots out. Use these eight steps to ensure search bots can access all of your ecommerce site.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-08T01:51:38.000Z | tags: ecommerce, keywords-ppc-seo -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/03/030619-google-noindex-featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/seo-tell-google-which-pages-not-to-crawl">SEO: Tell Google Which Pages Not to Crawl</a>
+          <div class="card-meta">8 Mar 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>The typical goal of search engine optimization is to have your site&#39;s pages show up on a Google results page in answer to a query. But there are pages that should not be included in search results. Removing them from Google&#39;s index might actually increase search engine traffic.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-07T01:24:56.000Z | tags: ecommerce, growth-hacks, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.indiehackers.com/images/shareables/home.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/@RickVanHaasteren/how-i-got-my-first-1000-users-47d06edc3d">Indie Hackers: Work Together to Build Profitable Online Businesses</a>
+          <div class="card-meta">7 May 2018</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

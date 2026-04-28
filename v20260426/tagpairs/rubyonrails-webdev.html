@@ -1,0 +1,145 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>rubyonrails + webdev &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-01-13T19:12:14.000Z | tags: best-practices, rubyonrails, webdev -->
+      <div class="card-image">
+        <img src="https://blog.janestreet.com/the-joy-of-expect-tests/expect.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.janestreet.com/the-joy-of-expect-tests">What if writing tests was a joyful experience?</a>
+          <div class="card-meta">13 Jan 2023</div>
+          <div class="card-meta card-domain">blog.janestreet.com</div>
+        </div>
+        <div class="card-section">
+          <p>At Jane Street we use a pattern/library called “expect tests” thatmakes test-writing feel like a REPL session, or like exploratoryprogramming in a Jupyter no...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-05T12:01:06.000Z | tags: rubyonrails, security, webdev -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IlNlY3VyaXR5IEJlc3QgUHJhY3RpY2VzIGZvciBZb3VyIFJhaWxzIEFwcGxpY2F0aW9uIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyMi0xMC9zZWN1cml0eS1yYWlscy5qcGcifSx7Im5hbWUiOiJjYXRlZ29yeV9sb2dvIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9sb2dvcy9ydWJ5LWxvZ28ucG5nIn1d&amp;s=6ffceaf6b165054b61f9a7868de01c5263ed928258189528d3cfc43f402c39d2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/10/05/security-best-practices-for-your-rails-application.html">Security Best Practices for Your Rails Application</a>
+          <div class="card-meta">5 Oct 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ensure your Rails application stays secure by following some best practices and habits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-30T23:22:27.000Z | tags: bundler, rubyonrails, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bundler.io">Bundler: The best way to manage a Ruby application&#39;s gems</a>
+          <div class="card-meta">30 May 2022</div>
+          <div class="card-meta card-domain">bundler.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-30T23:22:13.000Z | tags: markdown, ruby, rubyonrails, webdev -->
+      <div class="card-image">
+        <img src="https://i.ytimg.com/vi/h-fnfuXdBIY/hqdefault.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bacancytechnology.com/blog/add-markdown-to-rails-app">Markdown Tutorial Using Rails app</a>
+          <div class="card-meta">30 May 2022</div>
+          <div class="card-meta card-domain">bacancytechnology.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this markdown tutorial using rails app learn a step-by-step process to add Markdown support to the Rails app using Redcarpet and Coderay gems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-31T23:25:37.000Z | tags: rubyonrails, security, webdev -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpj1byopwzvu16ou84jzf.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/honeybadger/security-risks-on-rails-misconfiguration-and-unsafe-integrations-3m71">Security Risks On Rails: Misconfiguration and Unsafe Integrations</a>
+          <div class="card-meta">31 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This article was originally written by Diogo Souza on the Honeybadger Developer Blog.  In the third...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:33:12.000Z | tags: javascript, rubyonrails, webdev, webpacker -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6">Understanding Webpacker in Rails 6 | Road to Rails 6</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">prathamesh.tech</div>
+        </div>
+        <div class="card-section">
+          <p>Starting with Rails 6, Webpacker is the default JavaScript compiler. It means that all the JavaScript code will be handled by Webpacker instead of the old assets pipeline aka Sprockets. Webpacker is different from asset pipeline in terms of philosophy as well as implementation. In this blog post, we will</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:32:37.000Z | tags: ruby, rubyonrails, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices">https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">hixonrails.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

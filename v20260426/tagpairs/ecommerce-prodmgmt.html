@@ -1,0 +1,2286 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ecommerce + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-06-24T15:23:03.355Z | tags: ecommerce, retail, best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/06/Merchandising-Lessons-from-Top-Marketplaces.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/merchandising-lessons-from-top-marketplaces">Merchandising Lessons from Top Marketplaces</a>
+          <div class="card-meta">24 Jun 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>We analyze the home pages of 10 marketplaces to spot common merchandising traits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-01T11:12:55.938Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/05/Cross-sell-Tactics-of-Top-D2C-Brands.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/cross-sell-tactics-of-top-dtc-brands">Cross-sell Tactics of Top DTC Brands</a>
+          <div class="card-meta">1 Jun 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our just-completed analysis of 40 direct-to-consumer brands revealed several cross-selling techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-28T21:46:15.000Z | tags: ecommerce, entity-resolution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1053:554/g:fp:0.48:0.81/1*AdDgjZa07fTC2wKR0pFgsw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/streamlining-e-commerce-leveraging-entity-resolution-for-product-matching-6a507fd5e925?source=rss----7f60cf5620c9---4">Streamlining E-commerce: Leveraging Entity Resolution for Product Matching</a>
+          <div class="card-meta">28 May 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How Google figures out the price of a product across websites</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-27T02:43:41.000Z | tags: ecommerce, logistics-shipping, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/05/Amazon-Marketplace-Fears.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/amazon-marketplace-fears">Amazon Marketplace Fears</a>
+          <div class="card-meta">27 May 2024</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon&#39;s marketplace accounts for most of the revenue for thousands of merchants. Therein lies the fear.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-18T17:22:23.000Z | tags: ecommerce, prodmgmt, spycraft -->
+      <div class="card-image">
+        <img src="https://images.wsj.net/im-949574/social" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wsj.com/business/retail/amazon-secret-operation-intel-rivals-eb82ea3c">Exclusive | Inside Amazon’s Secret Operation to Gather Intel on Rivals</a>
+          <div class="card-meta">18 Apr 2024</div>
+          <div class="card-meta card-domain">wsj.com</div>
+        </div>
+        <div class="card-section">
+          <p>Staff went undercover on Walmart, eBay and other marketplaces as a third-party seller called ‘Big River.’ The mission: to scoop up information on pricing, logistics and other business practices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-19T20:37:05.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2024/02/Mar24_19_1255616569.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2024/03/lessons-from-more-than-1000-e-commerce-pricing-tests">Lessons from More Than 1,000 E-Commerce Pricing Tests</a>
+          <div class="card-meta">19 Mar 2024</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>At most small and medium-sized e-commerce retailers, prices are typically set and updated in an ad hoc fashion without one clear owner. The process often starts by using a gross margin target, followed by some comparison with competitors, and then some adjustments from there. Many of these retailers would quickly admit that this isn’t an optimal strategy, and that they are likely leaving money on the table — and they’re often right. The authors’ experience with price testing has shown that there is actually a significant amount of money left on the table when pricing is left un-optimized.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-23T07:53:20.000Z | tags: ecommerce, prodmgmt, search, llms-gpt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/01/ChatGPT-Prompts-for-Customer-Personas.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/chatgpt-prompts-for-customer-personas">ChatGPT Prompts for Customer Personas</a>
+          <div class="card-meta">23 Jan 2024</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Identify and target personas of keywords, competitors, Reddit discussions, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-17T07:19:04.000Z | tags: datasets, ecommerce, machine-vision, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/01/Screenshot-2024-01-14-at-4.05.26-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/01/14/lets-go-shopping-lgs-dataset-a-large-scale-public-dataset-with-15m-image-caption-pairs-from-publicly-available-e-commerce-websites">‘Let’s Go Shopping (LGS)’ Dataset: A Large-Scale Public Dataset with 15M Im</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Developing large-scale datasets has been critical in computer vision and natural language processing. These datasets, rich in visual and textual information, are fundamental to developing algorithms capable of understanding and interpreting images. They serve as the backbone for enhancing machine learning models, particularly those tasked with deciphering the complex interplay between visual elements in images and their corresponding textual descriptions. A significant challenge in this field is the need for large-scale, accurately annotated datasets. These are essential for training models but are often not publicly accessible, limiting the scope of research and development. The ImageNet and OpenImages datasets, containing human-annotated</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-01T00:30:24.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/12/20-Open-Source-Ecommerce-Platforms.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/open-source-ecommerce-platforms">19 Open Source Ecommerce Platforms</a>
+          <div class="card-meta">1 Jan 2024</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Open-source platforms are flexible, composable, and highly customizable. Here&#39;s the all-new update to our longstanding list.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-15T23:12:55.000Z | tags: adtech-adwords, advertising-commercials, auctions, ecommerce, game-theory, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/10/shutterstock_1294394836.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/google-rgsp-randomized-generalized-second-price-ad-auctions-explained-433053">What is RGSP? Google’s Randomized Generalized Second-Price ad auctions expl</a>
+          <div class="card-meta">15 Oct 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep dive into why the DOJ thinks RGSP makes ad auctions unfair, and why Google believes it creates a better user experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-07T16:51:03.000Z | tags: ecommerce, machine-vision, object-detection, prodmgmt -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-632621434.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2023/09/07/ebay-rolls-out-a-tool-that-generates-product-listings-from-photos">eBay rolls out a tool that generates product listings from photos</a>
+          <div class="card-meta">7 Sep 2023</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>eBay&#39;s new generative AI tool, rolling out on iOS first, can write a product listing from a single photo -- or so the company claims.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-14T13:06:36.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/08/Top-free-tools-for-use-in-paid-media.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/free-tools-ppc-campaign-management-430520">11 free tools for PPC campaign management</a>
+          <div class="card-meta">14 Aug 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>These tools can help you analyze PPC competitors, track search trends or design ad creative – all without spending a dime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-06T23:52:18.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retailtechnologyreview.com/articles/2020/11/03/four-types-of-ecommerce-merchandising-that-business-owners-should-know">Four Types of Ecommerce Merchandising That Business Owners Should Know</a>
+          <div class="card-meta">6 Aug 2023</div>
+          <div class="card-meta card-domain">retailtechnologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>By Sam Cortez, managing editor and outreach specialist for Scalefluence.comMerchandising is the process and practice of displaying and arranging products for the best customer experience. The concept of merchandising is based on guiding prospective customers through the buyer’s journey and presenting them with the right products, at the right time and place, in the right quantity, and with the best prices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-25T23:25:48.000Z | tags: ecommerce, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/05/Use-Look-Inside-to-Sell-More-Products.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/use-look-inside-to-sell-more-products">Use ‘Look Inside’ to Sell More Products</a>
+          <div class="card-meta">25 May 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>The benefits of Amazon&#39;s &quot;Look inside&quot; book label applies to many products. Apparel, bags, housewares, and more could experience more conversions with an inside peek.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-02T22:33:19.000Z | tags: collecting-curation, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://scx2.b-cdn.net/gfx/news/hires/2023/thrift-shops-thrive-wh.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://phys.org/news/2023-05-thrift-disorder-high-seller-knowledge.html">Thrift shops thrive when disorder is balanced with high seller knowledge</a>
+          <div class="card-meta">2 May 2023</div>
+          <div class="card-meta card-domain">phys.org</div>
+        </div>
+        <div class="card-section">
+          <p>One person&#39;s trash may well be another&#39;s &quot;come up,&quot; or what the rapper Macklemore calls hidden treasures in the song &quot;Thrift Shop,&quot; but only if secondhand shoppers follow the rapper&#39;s lead and dig through ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-24T11:49:05.000Z | tags: discovery, ecommerce, marketing, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/04/The-Future-of-Ecommerce-How-a-Product-Becomes-a-Purchase.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2023/03/23/the-future-of-ecommerce">The Future of Ecommerce: How a Product Becomes a Purchase</a>
+          <div class="card-meta">24 Mar 2023</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>General Partner Connie Chan on how leading brands are using AI and other technology to combine the serendipitous discovery of offline shopping with the infinite options of online shopping. Today, most of the Western world revolves around search-based online commerce. This means that most shoppers type directly what they want into a store search bar,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-22T10:18:38.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu0fh61t8bku2k2514ybe.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/medusajs/10-best-practices-for-ecommerce-checkout-design-81e">10 Best Practices for Ecommerce Checkout Design</a>
+          <div class="card-meta">22 Mar 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Optimizing your ecommerce checkout process is crucial to reduce cart abandonment rates, as it affects...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-10T20:18:45.000Z | tags: adtech-adwords, advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2023/03/p-1-90861689-how-20-years-of-googles-adsense-changed-the-internet.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90861689/how-20-years-of-googles-adsense-changed-the-internet?partner=rss">How 20 years of Google’s AdSense changed the internet</a>
+          <div class="card-meta">10 Mar 2023</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s targeted ad initiative AdSense was initially launched as “content targeting advertising” 20 years ago this month. Here’s how it changed the internet.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-10T20:06:54.000Z | tags: ecommerce, prodmgmt, returns -->
+      <div class="card-image">
+        <img src="https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit,w_1024,h_1024/images/panoramic/getty_1242556990_oz6lum.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://inc.com/jason-aten/target-just-announced-drive-up-returns-amazon-cant-compete.html">Target Just Announced Something Brilliant That Amazon Can&#39;t Compete With</a>
+          <div class="card-meta">10 Mar 2023</div>
+          <div class="card-meta card-domain">inc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Make it easy for your customers to do business with you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-16T14:32:46.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/02/Tools-to-Create-and-Optimize-Meta-Descriptions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tools-to-create-optimize-meta-descriptions">Tools to Create, Optimize Meta Descriptions</a>
+          <div class="card-meta">16 Feb 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meta descriptions do not influence organic rankings. But the descriptions appear in search snippets more often than not and thus impact clicks on organic listings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-30T01:49:58.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pyxis.nymag.com/v1/imgs/67c/db7/3206a6d26e64b0b7d866cd82ff80d74a06-Big-Night-QUICK-EDIT-18--1-.1x.rsocial.w1200.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://clicks.getpocket.com/f/a/Ryu7EyN_DBreesFv94oj6w~~/AAQRxQA~/RgRluRBJP4QDAWh0dHBzOi8vd3d3LmdydWJzdHJlZXQuY29tLzIwMjMvMDEvd2h5LWV2ZXJ5LXNob3BweS1zaG9wLWxvb2tzLWV4YWN0bHktdGhlLXNhbWUuaHRtbD91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9cG9ja2V0X2hpdHMmdXRtX2NhbXBhaWduPVBPQ0tFVF9ISVRTLUVOLURBSUxZLVJFQ1MtMjAyM18wMV8yOSZzcG9uc29yZWQ9MCZwb3NpdGlvbj01JnNjaGVkdWxlZF9jb3JwdXNfaXRlbV9pZD0yY2U1M2M5NS04M2IxLTQ5OTYtODA4ZC05MjQyN2M5MDkxMTBXA3NwY0IKY9NJi9ZjZNKY1VIQYmpwY2pwQGdtYWlsLmNvbVgEAAABzA~~">Welcome to the Shoppy Shop</a>
+          <div class="card-meta">30 Jan 2023</div>
+          <div class="card-meta card-domain">clicks.getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why does every store suddenly look the same?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-22T17:16:19.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/01/3-Flaws-of-Cost-plus-Pricing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/3-flaws-of-cost-plus-pricing">3 Flaws of Cost-plus Pricing - Practical Ecommerce</a>
+          <div class="card-meta">22 Jan 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cost-plus pricing on the surface seems straightforward. But then market forces intervene.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-07T16:34:08.000Z | tags: ecommerce, payments, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=34281730">Hacker News</a>
+          <div class="card-meta">7 Jan 2023</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-15T12:23:21.000Z | tags: advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24183422/1236892318.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/recode/2022/11/10/23450349/amazon-advertising-everywhere-prime-sponsored-products">Basically everything on Amazon has become an ad</a>
+          <div class="card-meta">15 Nov 2022</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>Inside the under-the-radar business that makes more money than Amazon Prime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-29T13:49:33.000Z | tags: adtech-adwords, advertising-commercials, behaviors, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theawl.com/2015/06/a-complete-taxonomy-of-internet-chum">A Complete Taxonomy of Internet Chum - The Awl</a>
+          <div class="card-meta">29 Oct 2022</div>
+          <div class="card-meta card-domain">theawl.com</div>
+        </div>
+        <div class="card-section">
+          <p>by John MahoneyThis is a bucket of chum. Chum is decomposing fish matter that elicits a purely neurological brain stem response in its target consumer: larger fish, like sharks. It signals that they should let go, deploy their nictitating  ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-05T15:00:47.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://retailwire.com/wp-content/uploads/2022/10/goodwillfinds-product-page-on-laptop-666x333-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://retailwire.com/discussion/goodwillfinds-com-gives-shoppers-more-reasons-to-feel-good-about-buying-secondhand">GoodwillFinds.com gives shoppers more reasons to feel good about buying sec</a>
+          <div class="card-meta">5 Oct 2022</div>
+          <div class="card-meta card-domain">retailwire.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new recommerce venture offers all of the benefits of buying second hand plus a means to help fund social service programs in local communities, such as job training and youth mentorship. Do you see retailers trying to raise the visibility of their secondhand offerings in light of rising prices?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-18T00:30:33.000Z | tags: ecommerce, prodmgmt, subscriptions -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NI_76_ONKO3FYVGY1YnoAg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bluepnume.medium.com/subscriptions-are-out-refills-are-in-311fd6e41e5e">Subscriptions are out, refills are in.</a>
+          <div class="card-meta">18 Sep 2022</div>
+          <div class="card-meta card-domain">bluepnume.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Everything these days is a subscription. And honestly, on reflection, subscriptions are complete horseshit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-13T23:23:21.000Z | tags: auctions, ecommerce, machine-learning, prodmgmt -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220901-MO-Ranking-Promo-Auctions-tech-blog-v1-01-inc-16x9-hero-A.jpg?fs=f6e676ab58c64f01" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/multi-objective-ranking-for-promoted-auction-items">Multi-Objective Ranking for Promoted Auction Items</a>
+          <div class="card-meta">13 Sep 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Determining which promoted auction items to display in a merchandising placement is a multi-sided customer challenge that presents opportunities to both surface amazing auction inventory to buyers and help sellers boost visibility on their auction listings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-10T03:19:34.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/09/Shutterstock_628146863.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/ppc-management-for-e-commerce-28-tools-to-explore-387801">PPC management for e-commerce: 28 tools to explore</a>
+          <div class="card-meta">10 Sep 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Software and tools not only help you manage your time better but provide helpful insights that you wouldn&#39;t otherwise see in a Google or Facebook interface.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-24T14:20:05.000Z | tags: analytics, ecommerce, excel, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Excel-tips-for-search-marketing-professionals-Formulas-and-functions.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/excel-formulas-functions-ppc-387428">7 useful Excel formulas and functions for PPC</a>
+          <div class="card-meta">24 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use these tips to quickly analyze performance data and identify high-impact PPC optimizations that will move the needle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-17T15:28:28.000Z | tags: ecommerce, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8956960/og_image/optimized/OPEN_GRAPH-2c063e6ae705085cd8be77c57da781fa.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/designers/animation/ux-microinteractions-e-commerce-design">Elevate Your E-commerce Journey With Animated UX Microinteractions</a>
+          <div class="card-meta">17 Aug 2022</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Microinteraction best practices that improve e-commerce UX.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T01:21:06.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Untitled-design-4.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/amazon-product-listing-optimization-must-haves-386902">5 Amazon product listing optimization must-haves</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon will continue to be highly competitive. Want to be successful? Optimize your product listings to the fullest with these tips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T18:47:57.000Z | tags: catalogs, ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/07/Jul22_19_118078009.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/07/how-paper-catalogs-remain-relevant-in-a-digital-age">How Paper Catalogs Remain Relevant in a Digital Age</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Whether or not you should pursue a catalog strategy is a question that deserves significant thought. As digital marketing becomes more complex, it may make a lot of sense to send out correctly designed catalogs to the right customers. For e-commerce retailers without physical stores, catalogs can effectively mimic stores’ sensory experiences to enhance customer affinity. For multichannel retailers, by understanding the channel preferences of current customers through transactional data, multichannel retailers can add an effective catalog marketing channel to their store and e-commerce channel strategies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:58.000Z | tags: ecommerce, piracy, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://danielamitay.com/blog/2011/1/17/piracy-doubled-my-app-sales">Piracy Doubled My App Sales</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">danielamitay.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:29:55.000Z | tags: ecommerce, pricing, prodmgmt, supply-chain -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/07/071622-pet-rock-featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/how-to-price-shipping-and-handling-fees">How to Price Shipping and Handling Fees</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today&#39;s consumers expect free shipping for most items. But it&#39;s not always obvious for merchants to know when and how to offer it. Here&#39;s our all-new update for analyzing shipping costs and free delivery.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:14:41.000Z | tags: affiliates, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://makeawebsitehub.com/wp-content/uploads/2016/03/How-to-Build-an-Amazon-Affiliate-Website.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://makeawebsitehub.com/build-amazon-affiliate-website">How to Build an Amazon Affiliate Website - 2024 Guide - Make A Website Hub</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">makeawebsitehub.com</div>
+        </div>
+        <div class="card-section">
+          <p>When it comes to making money online you’re going to have a lot of options at your disposal. Frankly, it can be quite overwhelming just choosing an online</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:13:51.000Z | tags: ecommerce, email, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jilt.com/blog/advanced-list-building">Advanced list building</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">jilt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:06:55.000Z | tags: ecommerce, marketing, packaging, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.kissmetrics.com/custom-shipping-supplies">Neil Patel&#39;s Digital Marketing Blog</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.kissmetrics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your #1 resource for digital marketing tips, trends, and strategy to help you build a successful online business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-17T15:05:23.000Z | tags: ecommerce, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/abovethecrowd.com/wp-content/uploads/2012/11/text-quote.png?fit=888%2C484&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://abovethecrowd.com/2012/11/13/all-markets-are-not-created-equal-10-factors-to-consider-when-evaluating-digital-marketplaces">All Markets Are Not Created Equal: 10 Factors To Consider When Evaluating Digital Marketplaces</a>
+          <div class="card-meta">17 Jul 2022</div>
+          <div class="card-meta card-domain">abovethecrowd.com</div>
+        </div>
+        <div class="card-section">
+          <p>Since Benchmark’s investment in Ebay 15 years ago, we have been fascinated by online marketplaces. Entrepreneurs accurately recognize that the connective tissue of the Internet provides an opportunity to link the players in a particular market, reducing friction in both the buying and selling experience. For example, my car tax check is an online platfrom that allows you to book a slot for a complete history and guidance of your car taxes and other details. The arrival of the smartphone amplifies these opportunities, as the Internet’s connective tissue now extends deeper and deeper into an industry with the participants connected…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-07T19:35:17.000Z | tags: catalogs, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://christmas.musetechnical.com">Catalogs &amp; Wishbooks</a>
+          <div class="card-meta">7 Jul 2022</div>
+          <div class="card-meta card-domain">christmas.musetechnical.com</div>
+        </div>
+        <div class="card-section">
+          <p>336 Vintage Christmas Catalogs &amp; Holiday Wish Books with 302,605 total catalog pages from Sears, Montgomery Ward and JCPenney over the years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:48:24.000Z | tags: due-diligence, ecommerce, marketing, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/hbr_opengraph_940x490.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2012/03/five-questions-companies-shoul">Five Questions Companies Should Ask Before Making an Innovation-Driven Acquisition</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>The Swiss pharmaceutical giant Roche is nothing if not determined in its quest to acquire Illumina, the San Diego-based leader in genetic-sequencing equipment. In January, after Illumina’s board rebuffed Roche’s initial overtures, Roche made a $5.7 billion tender offer directly to shareholders. When that didn’t succeed, it extended the offer to midnight last Friday. Now […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:37:33.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://readwrite.com/wp-content/uploads/2019/04/Why-Your-eCommerce-Business-Should-Have-a-Pop-Up-Shop.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://readwrite.com/2019/04/25/why-your-ecommerce-business-should-have-a-pop-up-shop">Why Your eCommerce Business Should Have a Pop-Up Shop</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">readwrite.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ecommerce is booming, and there’s no doubt about that. The numbers speak for themselves. After all, in 2017, ecommerce sales reached $2.3 trillion, and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T20:29:23.000Z | tags: blockchain, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomtunguz.com/virtual_wallets_funnel_optimization">Asking Users to Complete Tough Mudders to Use Your Product</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Funnel optimization for web3 companies will become critical to their success. Token grants cost 4-7x than traditional customer acquisition techniques. Other techniques, like incentivized referral, improve the economics but still tally 19 month payback periods. A year-and-a-half might be fine for a SaaS company selling a $50k to $100k ARR product, but long-term viability demands achieving 3-6 month paybacks of modern web2 consumer companies. Why are the payback periods so high?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T10:38:46.000Z | tags: ecommerce, metrics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*-RFL4MlVM9P1bWaMLB9gLA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/buy-till-you-die-understanding-customer-lifetime-value-eb2c0a23b85">Buy Till You Die: Understanding Customer Lifetime Value</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The BG/NBD model explained.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-29T02:01:54.000Z | tags: ecommerce, game-theory, prodmgmt, trust -->
+      <div class="card-image">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9zDXH4La3ONZRkelqeYdrTwn6ts-2wuBrl145-1nMMcHDRAlimr2WTtWokUIr1geMdlD6P6KhvgB0iPBkMAiTOqEgSkfZrQN73V8zyovQsE4XXxd3vvTkcghIWM2YJhYwU7EiIK9XHa0/s400/ccdealmatrix.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://muratbuffalo.blogspot.com/2019/12/cross-chain-deals-and-adversarial.html">Cross-chain Deals and Adversarial Commerce</a>
+          <div class="card-meta">29 Jun 2022</div>
+          <div class="card-meta card-domain">muratbuffalo.blogspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>This paper appeared in VLDB&#39;19 and is authored by Maurice Herlihy, Barbara Liskov, and Liuba Shrira.   How can autonomous, mutually-distrust...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:21:44.000Z | tags: ecommerce, prodmgmt, reputation -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/07/16-Tools-to-Manage-Your-Reputation.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.practicalecommerce.com/articles/68072-20-Free-Tools-to-Manage-Your-Reputation">16 Tools to Manage Your Reputation</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reputation management is essential for any brand. Your company&#39;s future may depend on what’s been said about it in posts, comments, reviews, and rankings. Fortunately, there are affordable tools to help. Here is a list of tools to manage your brand’s reputation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-27T02:06:43.000Z | tags: brandmgmt, ecommerce, luxury, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/luxury_ecommerce_3_38.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/luxury-principles-ecommerce-design">Applying Luxury Principles to Ecommerce Design</a>
+          <div class="card-meta">27 Jun 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Luxury brands should use their digital channels to support and enhance their high-quality customer experiences. This requires providing product details that spark interest, balancing visual design with other priorities, and avoiding interruptions that risk cheapening the brand.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:41:31.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.kissmetrics.com/1step-checkout-right-way">Neil Patel&#39;s Digital Marketing Blog</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">blog.kissmetrics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your #1 resource for digital marketing tips, trends, and strategy to help you build a successful online business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:35:03.000Z | tags: ecommerce, prodmgmt, video -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tag/video-tools">Video Tools Archives</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:33:35.000Z | tags: ecommerce, prodmgmt, video -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2020/08/thumb3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/12-platforms-for-shoppable-video">13 Platforms for Shoppable Video</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Video is increasingly impacting ecommerce. Consumers use it for purchase decisions. Influencers live-stream product endorsements. And brands deploy video for engagement and product offerings. Here is a list of platforms for shoppable video.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T17:52:18.000Z | tags: ecommerce, prodmgmt, shopify, twitter -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2022/06/Shopify_Images_Jun2022_3.001.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2022/06/22/twitter-partners-with-shopify-to-bring-merchants-products-to-twitter-shopping">Twitter partners with Shopify to bring merchants&#39; products to Twitter Shopping | TechCrunch</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>As part of its ongoing efforts to expand into e-commerce, Twitter today announced a new partnership with Shopify. The deal will see Twitter launching a</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T01:58:28.000Z | tags: analytics, ecommerce, email, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/06/6-Email-Triggers-for-Max-Conversions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/email-triggers-for-max-conversions">6 Email Triggers for Max Conversions</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shoppers&#39; actions on an ecommerce site create opportunities for automated, triggered emails. Such behavior-based email automation is a sure-fire tactic to drive revenue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:08:51.000Z | tags: churn, ecommerce, packaging, physical-products, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0070/7032/articles/Packing_Inserts_Are_A_Customer_Loyalty_Trick.jpg?v=1727453024" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.shopify.com/blog/18989252-5-ways-to-use-packaging-inserts-to-increase-customer-loyalty-and-revenue">Packaging Inserts: Types and How To Create Yours (2024) - Shopify</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">shopify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Increase customer loyalty and take advantage of an additional opportunity to connect with customers by using packaging inserts. Here&#39;s why and how to use them in every package you send out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:07:17.000Z | tags: ecommerce, pricing, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="http://www.gravatar.com/avatar/8eb9ee80d39f13cbbad56da88ef3a6ee?rating=PG&amp;size=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webdesignledger.com/21-examples-of-pricing-pages-in-web-design">21 Examples of Pricing Pages in Web Design</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">webdesignledger.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T23:52:36.000Z | tags: ecommerce, pricing, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F3345%2F1582045587_GUR66LXZ5T77CHCPZRUCXU4WIE.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/why-you-re-never-really-happy-with-the-things-you-buy-anymore">Why You’re Never Really Happy With the Things You Buy Anymore</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Constant bargain hunting makes us value all the wrong things about shopping.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T12:08:27.000Z | tags: copywriting, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/09/Product-Descriptions-17-Fresh-Writing-Angles.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/product-descriptions-17-fresh-writing-angles">Product Descriptions: 17 Fresh Writing Angles</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Need to spice up descriptions for bland products? Use these themes and examples the next time you’re describing a back-to-school backpack or plain white t-shirt. You’ll soon understand how to look at ordinary products differently.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T12:05:42.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.adroll.com/assets/img/globals/social-shares/fb/hp.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.adroll.com/getting-started/retargeting">Digital Advertising Platform for Brands and Agencies | AdRoll</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">adroll.com</div>
+        </div>
+        <div class="card-section">
+          <p>Boost brand awareness, increase site visitors, and drive conversions with personalized advertising. AdRoll&#39;s been trusted by 140,000+ brands for over 15 years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-07T18:21:33.000Z | tags: churn, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/10/shoppingbags.jpg?resize=1200,797" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2015/10/24/past-behavior-does-not-determine-future-purchases?ncid=rss">Past Behavior Does Not Determine Future Purchases | TechCrunch</a>
+          <div class="card-meta">7 Jun 2022</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ever wonder why after buying shoes online (or any other consumer goods), for the next few weeks or months, you can be sure to spot ads or promotions for those same shoes on nearly every website you visit? What’s more, you&#39;ll see which shoes your Facebook friends bought, which shoes their friends bought and which shoes “others like you” bought. You already bought shoes, so why are you still being bombarded with ads for them?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-07T18:20:57.000Z | tags: brandmgmt, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcodesign.com/1671614/branding-a-gentlemens-subscription-service-with-old-school-charm">Design</a>
+          <div class="card-meta">7 Jun 2022</div>
+          <div class="card-meta card-domain">fastcodesign.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find the latest Design news from Fast company. See related business and technology articles, photos, slideshows and videos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-02T18:02:32.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.rithum.com/wp-content/uploads/2023/12/Rithum-thumnail-black.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.channeladvisor.com">Rithum: End-to-End E-commerce Solutions for Brands &amp; Retailers</a>
+          <div class="card-meta">2 Jun 2022</div>
+          <div class="card-meta card-domain">channeladvisor.com</div>
+        </div>
+        <div class="card-section">
+          <p>CommerceHub and ChannelAdvisor are now united as Rithum. We empower top brands, suppliers, and retailers with durable, profitable e-commerce solutions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-28T01:08:16.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/04/SEO-Product-Descriptions-Are-a-Blind-Spot-for-Ecommerce-Merchants.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/seo-product-descriptions-are-a-blind-spot-for-ecommerce-merchants">SEO: Product Descriptions Are a Blind Spot for Ecommerce Merchants</a>
+          <div class="card-meta">28 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why does the ecommerce community have such a blind spot when it comes to unique product descriptions? Syndicated descriptions produce duplicate content. Why is duplicate product copy accepted so blindly? The answer depends on whether you’re the syndicator or the site using the syndicated content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:05:33.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/05/BEST-MARKETING-AUTOMATION-TOOLS-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2022/05/13-marketing-automation-tools-that-can-help-you-boost-your-sales">13 marketing automation tools that can help you boost your sales</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The way we live our lives has an impact on our work. Long lists of typical chores may turn your</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:24.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/May22_13_1055306876.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/05/when-keyword-poaching-pays-off">When Keyword Poaching Pays Off</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Competitive poaching refers to the practice of bidding on ads for a competitor’s search terms, in order to poach customers searching for that brand. It’s a common tactic in the world of digital ads — but is it effective? The author shares results from the first-ever empirical study of this practice, which found that poaching can work well for higher-end brands, but may backfire for lower-end or mass market offerings. Specifically, the study found that when an ad poached customers who searched for a high-end brand, users clicked on it more, but when an ad poached a low-end or mass market target, users were less likely to click. Of course, the author notes that clickthrough rate is just one metric, and there may be other ways in which a poaching campaign could be harmful or beneficial. But these findings can help marketers add a bit of science to the art that is digital advertising, helping them to optimize campaigns for their unique products and customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-12T11:51:48.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/04/3-Keyword-Tools-for-Search-Intent.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/3-keyword-tools-for-search-intent">3 Keyword Tools for Search Intent</a>
+          <div class="card-meta">12 May 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Optimizing content for organic rankings requires knowing how Google will interpret searchers&#39; intent — informational, commercial, or navigational.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-09T12:48:48.000Z | tags: clothes, ecommerce, fashion, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/62714b994fd425eedd3780f1/191:100/w_1280,c_limit/Backchannel_TA_220419_wired8539-v2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/fast-cheap-out-of-control-inside-rise-of-shein">Fast, Cheap, and Out of Control: Inside Shein’s Sudden Rise</a>
+          <div class="card-meta">9 May 2022</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Chinese company has become a fast-fashion juggernaut by appealing to budget-conscious Gen Zers. But its ultralow prices are hiding unacceptable costs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-07T23:15:09.000Z | tags: ecommerce, machine-learning, prodmgmt, recommenders -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220404-Improve-Shopping-tech-blog-v1-01-inc-16x9-A.jpg?fs=2a76537cb27c0068" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/improving-shopping-recommendations-for-customers-through-ebays-relevance-cascade-model">Improving Shopping Recommendations for Customers Through eBay’s Relevance C</a>
+          <div class="card-meta">7 Apr 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Under the new machine learning model, buyers are recommended items that are more aligned to their shopping interests on eBay.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-19T19:55:09.000Z | tags: analytics, ecommerce, prodmgmt, sales-salesmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomtunguz.com/longitudinal-sales-analysis">The Sales Sandwich by @ttunguz</a>
+          <div class="card-meta">19 Feb 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most consistent sales leader I’ve worked with hit plan 27 consecutive quarters. How can a sales leader develop similar repeatability? Much goes into it here are the reports he used to manage his team at the board level. The PQR (pipeline-to-quota) funnel is first. Pipeline is the total value of the accounts within a stage or later. Quota is the aggregate quota on the street for the quarter. Divide P by Q to get PQR.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-18T15:39:27.000Z | tags: ecommerce, prodmgmt, supply-chain -->
+      <div class="card-image">
+        <img src="https://149346090.v2.pressablecdn.com/wp-content/uploads/2022/02/h_21.00304773-1600x900.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://restofworld.org/2022/shein-online-shopping-returns-what-happens">Here’s what actually happens to all your online shopping returns</a>
+          <div class="card-meta">18 Feb 2022</div>
+          <div class="card-meta card-domain">restofworld.org</div>
+        </div>
+        <div class="card-section">
+          <p>Ordering clothes from Chinese fast-fashion brands like Shein is easy. Sending them back is a lot more complicated</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:31:08.000Z | tags: ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/01/010918-snowblower-featured.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/build-ecommerce-keyword-list">How to Build an Ecommerce Keyword List</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Keywords are an important building block for ecommerce marketing. Developing and maintaining a keyword list may help an ecommerce business understand shoppers and do a better job of marketing to them. In the context of search engine optimization, searchers&#39; words or phrases summarize their thoughts, questions, or needs. Those keywords represent the language people use to ask for help finding resources online.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-29T16:47:42.000Z | tags: ecommerce, images, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/11/Product-Photography-Part-14-Optimizing-for-Speed-Search.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/product-photography-part-14-optimizing-for-speed-search">Product Photography, Part 14: Optimizing for Speed, Search</a>
+          <div class="card-meta">29 Nov 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>The final step in product photography is optimizing the images for search engines and page speed. This is the 14th installment in my series on helping ecommerce merchants create better product images. In this post, I&#39;ll address making your photos faster to download and more visible in Google&#39;s image search.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-03T18:16:17.000Z | tags: dropshipping, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22954742/GettyImages_1282120702.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.752726382539%2C100%2C78.494547234923&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/the-goods/22745054/instagram-boutique-drop-shipping-ghost-stores">The “ghost stores” of Instagram</a>
+          <div class="card-meta">3 Nov 2021</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>That cute dress you bought off Instagram could be found on Shein, AliExpress, or Amazon for much cheaper.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-26T23:53:53.000Z | tags: ecommerce, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/09/Emergence-of-B2B-Raw-Material-Marketplaces.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/the-emergence-of-b2b-raw-material-marketplaces">The Emergence of B2B Raw Material Marketplaces</a>
+          <div class="card-meta">26 Sep 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Business-to-business marketplaces are among ecommerce&#39;s leading growth trends, yet many industries remain under-served, especially for raw materials.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-31T14:28:36.000Z | tags: ecommerce, finance, prodmgmt -->
+      <div class="card-image">
+        <img src="https://149346090.v2.pressablecdn.com/wp-content/uploads/2021/08/Alejandra_Rajal_RoW_16-1600x900.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://restofworld.org/2021/mexico-payment-apps-india">Why payment apps that thrive in India struggle to succeed in Mexico</a>
+          <div class="card-meta">31 Aug 2021</div>
+          <div class="card-meta card-domain">restofworld.org</div>
+        </div>
+        <div class="card-section">
+          <p>One fintech veteran from India found out the hard way why “Mexicans love cash.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-25T02:07:24.000Z | tags: ecommerce, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/590eeff5b8a79b2147a783be/590ef147e6f2e1fda30e84c5/60f7162ac04b946e145fa363/1707305388291/AdobeStock_283396009.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://retailtechinnovationhub.com/home/2021/7/20/six-emerging-trends-in-product-packaging">Six emerging trends in product packaging</a>
+          <div class="card-meta">25 Jul 2021</div>
+          <div class="card-meta card-domain">retailtechinnovationhub.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the modern business world, there are several businesses releasing similar products into the market.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-20T11:03:27.000Z | tags: ecommerce, prodmgmt, reputation -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/07/16-Tools-to-Manage-Your-Reputation.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tools-to-manage-your-reputation">16 Tools to Manage Your Reputation</a>
+          <div class="card-meta">20 Jul 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reputation management is essential for any brand. Your company&#39;s future may depend on what’s been said about it in posts, comments, reviews, and rankings. Fortunately, there are affordable tools to help. Here is a list of tools to manage your brand’s reputation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T16:06:10.000Z | tags: custsvc, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/07/Essential-ecommerce-policy-pages.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/policy-pages-done-well-enhance-a-brand">Policy Pages, Done Well, Enhance a Brand</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shoppers search an online store&#39;s policy pages for details on shipping, returns, and more. Rarely are these vital pages engaging. But they should be.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T02:02:06.000Z | tags: ecommerce, prodmgmt, tiktok -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22691148/GettyImages_1223714147.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/the-goods/22555723/tiktok-viral-products-cerave-sky-high-mascara-amazon-leggings">The life cycle of a&amp;nbsp;viral product</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>The video app is causing products to blow up — and flame out — faster than ever.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-03T01:40:22.000Z | tags: css, design, ecommerce, fonts-typography, javascript, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox">Improving The Performance Of An Online Store (Case Study)</a>
+          <div class="card-meta">3 Jun 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T21:13:27.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/60b23bba289bde7618d0ac52/1622293434346/2.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2021/5/29/boxes-trucks-and-bikes">Boxes, trucks and bikes</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>Should we still be talking about online and offline retail, or about trucks versus boxes versus bikes?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-21T00:14:36.000Z | tags: copywriting, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/05/3-Essentials-for-High-converting-Product-Descriptions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/3-keys-for-high-converting-product-descriptions">3 Keys for High-converting Product Descriptions</a>
+          <div class="card-meta">21 May 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Writing product descriptions sounds simple. But it takes planning. The best descriptions address a broad audience, which is why many companies employ marketers to help. When writing descriptions for the masses, focus on the following three elements.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-09T17:35:35.000Z | tags: ecommerce, labeling, machine-learning, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2102.12029.pdf">Theoretical Understandings of Product Embedding for E-commerce Machine Lear</a>
+          <div class="card-meta">9 May 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-02T10:01:31.000Z | tags: ecommerce, keywords-ppc-seo, machine-learning, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0779/4361/articles/ShopifyHelpCenter.png?v=1617296393" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shopify.engineering/evaluating-search-algorithms">Evaluating Search Algorithms</a>
+          <div class="card-meta">2 Apr 2021</div>
+          <div class="card-meta card-domain">shopify.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>The three-step framework Shopify&#39;s Data Science &amp; Engineering team built for evaluating new search algorithms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T13:44:17.000Z | tags: ecommerce, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/03/032621-featuredEvive_flavor_guide-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/heres-why-your-ecommerce-subscriptions-arent-selling">Here’s Why Your Ecommerce Subscriptions Aren’t Selling</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A recurring subscription model is a powerful tool for growth and profit — if you can get subscribers. &quot;A lot of brands install our subscription software</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:35:11.000Z | tags: ecommerce, prodmgmt, shopify -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/business-online/how-shopify-payments-work.html">How Shopify Payments Work: All You Want To Know?</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>Well, if you are planning to sell your stuff online and make money, then there are a few top eCommerce platforms that would help you out. Shopify is the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-21T14:07:48.000Z | tags: ecommerce, prodmgmt, shopify -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ma.ttias.ch/what-i-wish-i-knew-before-building-a-shopify-app.html">What I wish I knew before building a Shopify App</a>
+          <div class="card-meta">21 Mar 2021</div>
+          <div class="card-meta card-domain">ma.ttias.ch</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-02T17:08:59.000Z | tags: ecommerce, prodmgmt, tiktok, video -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2021/02/11-TikTok-Video-Ideas-for-Merchants.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/11-tiktok-video-ideas-for-merchants">11 TikTok Video Ideas for Merchants</a>
+          <div class="card-meta">2 Mar 2021</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>You’ve downloaded TikTok and browsed the videos. Now you’re wondering what content to create for your ecommerce business. There are many types of videos to attract leads without dancing on camera. Here are 11 ideas for all types of merchants.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-23T19:54:21.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://newsroom.haas.berkeley.edu/wp-content/uploads/2021/02/StubHub_AP-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://newsroom.haas.berkeley.edu/research/buyer-beware-massive-experiment-shows-why-ticket-sellers-hit-you-with-hidden-fees-drip-pricing">Buyer beware: Massive experiment shows why ticket sellers hit you with last-second fees | Haas News | Berkeley Haas</a>
+          <div class="card-meta">23 Feb 2021</div>
+          <div class="card-meta card-domain">newsroom.haas.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>There’s a reason that online ticket sellers hit you with those extra fees after you’ve picked your seats and are ready to click “buy.” Pure profit. A</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T10:06:24.000Z | tags: ecommerce, pricing, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://media.npr.org/assets/img/2021/02/17/gettyimages-1252249653_wide-5d6b13d7533ba741eee3b5d98aec4b536acc8390.jpg?s=1400&amp;c=100&amp;f=jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.npr.org/2021/02/17/968666255/how-a-retail-chain-without-a-website-powered-through-the-pandemic">How A Retail Chain Without A Website Powered Through The Pandemic</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">npr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Burlington shut down online sales in March right before coronavirus lockdowns. But it&#39;s among the discount retailers that have endured the pandemic surprisingly well, even opening new stores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-10T20:44:19.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2021/01/usage.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/01/09/the-art-and-science-of-saas-pricing-true-usage-based-pricing">The art and science of SaaS pricing: True usage-based pricing</a>
+          <div class="card-meta">10 Jan 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Usage-based pricing can be incredibly powerful, particularly in cases where the SaaS solution handles the flow of money.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-10T20:44:16.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2021/01/pricing-1-e1635876555154.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/01/09/the-art-and-science-of-saas-pricing-finding-the-right-model-fit">The art and science of SaaS pricing: Finding the right model fit</a>
+          <div class="card-meta">10 Jan 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Part 1 in this 3-part series: Find the pricing model that fits with your particular options for expansion once you&#39;ve made that first sale.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-06T17:02:19.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*aRtUMMW-LFt2gIZs4GvlGQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/swlh/amazon-needs-a-competitor-and-walmart-aint-it-5997977b77b2">How Amazon’s Business Practices Harm American Consumers: Why Amazon Needs a</a>
+          <div class="card-meta">6 Jan 2021</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why Amazon Needs a Competitor and Why Walmart Ain’t It</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-04T15:14:05.000Z | tags: advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.gkogan.co/content/images/2024/08/Solid_Color_126162.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gkogan.co/blog/looks-vs-results">Looks vs. Results: My ugly ad got 150% more clicks than a professional desi</a>
+          <div class="card-meta">4 Jan 2021</div>
+          <div class="card-meta card-domain">gkogan.co</div>
+        </div>
+        <div class="card-section">
+          <p>Making things look nice can take a long time, either due to lack of resources or abundance of opinions. This could delay launches, frustrate people, and waste precious energy. Those are high costs for startups or companies hoping to move fast.  Is it worth it?  Long ago I got fed</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:52.000Z | tags: affiliates, ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://neilpatel.com/wp-content/uploads/2020/12/affiliate-marketing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://neilpatel.com/blog/affiliate-marketing-networks">The Top Affiliate Marketing Networks</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">neilpatel.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking to grow your affiliate marketing site but aren&#39;t sure which affiliate network is right for you? Here&#39;s everything you need to know.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T16:52:03.000Z | tags: ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.coryzue.com/images/black-friday/total-profits-social.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.coryzue.com/writing/black-friday">Lessons from Running a Sale that Earned 3 Month&#39;s Profit in a Week</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">coryzue.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tips on running successful Black Friday sales for creators and Indie Hackers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-20T19:11:30.000Z | tags: dropshipping, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://neilpatel.com/wp-content/uploads/2020/11/dropshipping-tools.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://neilpatel.com/blog/dropshipping-tools">The 11 Best Dropshipping Tools</a>
+          <div class="card-meta">20 Nov 2020</div>
+          <div class="card-meta card-domain">neilpatel.com</div>
+        </div>
+        <div class="card-section">
+          <p>How can dropshipping tools give you the edge in the competitive world of e-commerce? We take a look at the 11 best dropshipping tools you should be using.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-13T11:36:25.000Z | tags: ecommerce, prodmgmt, shopify -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2020/04/Screenshot-2020-04-02-14.22.27-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/retail/as-its-ecosystem-grows-companies-are-becoming-reliant-on-shopify-for-more-parts-of-their-business">As its ecosystem grows, companies are becoming reliant on Shopify for more</a>
+          <div class="card-meta">13 Nov 2020</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Read more in the DTC Briefing, a weekly Modern Retail column about the biggest challenges and trends facing the DTC startup world.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-10T00:16:29.000Z | tags: ecommerce, fashion, prodmgmt -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2017/08/Loreal.picone-e1502202162625.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/marketing/growing-two-times-faster-than-the-rest-of-the-market-inside-loreals-e-commerce-playbook">&#39;Growing two times faster than the rest of the market&#39;: Inside L&#39;Oreal&#39;s e-</a>
+          <div class="card-meta">10 Nov 2020</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>If e-commerce was a market for L’Oreal, then it would be the biggest in terms of market value, worth nearly €5 billion ($5.9 billion).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-06T21:07:57.000Z | tags: ecommerce, prodmgmt, personas -->
+      <div class="card-image">
+        <img src="https://neilpatel.com/wp-content/uploads/2017/07/behavioral-marketing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://neilpatel.com/blog/behavioral-marketing">A Guide to Behavioral Segmentation Marketing</a>
+          <div class="card-meta">6 Nov 2020</div>
+          <div class="card-meta card-domain">neilpatel.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is behavioral marketing? Here&#39;s how email marketing, demographics, and upsells can be used to monitor and act on customer behavior.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:47:16.000Z | tags: ecommerce, prodmgmt, rss -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/pZHc9YpNwGTcC0l7rt1eJ9hOmJr79FclKyK2QQeyq2o/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlLzIwLTA5LTA3X0dZRlRfY2FtcGFpZ25fU3RvcnlfNzcweDM2NC5wbmc=.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/spons/managing-your-product-feeds-to-thrive-in-a-new-retail-landscape/585401">Managing your product feeds to thrive in a new retail landscape</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>To succeed in today’s e-commerce environment, companies must craft an online experience that meshes with the brick-and-mortar brand experience in their physical stores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:44:25.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2020/09/4-Payment-Methods-to-Integrate-for-the-Holidays.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/4-payment-methods-to-integrate-for-the-holidays">4 Payment Methods to Integrate for the Holidays</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Convenience and security increasingly impact online selling. That&#39;s especially the case for the upcoming holiday season, as consumers will likely seek flexible, seamless payment options. Here are four payment methods to consider for this year&#39;s holiday selling.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:42:04.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/V8bFxt_tLMBcTz2pfFz07-ZaZ5BZfM0fnGBbQy6XPqE/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL1NxdWFyZS1SZXRhaWxEaXZlLVRvdWNoLUZyZWUtUmVtb3RlLmpwZWc=.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/spons/6-methods-for-touch-free-and-remote-payments/584699">6 methods for touch-free and remote payments</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Checking out should be easier, especially now.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:05:39.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2020/09/14-Tools-to-Sell-on-Facebook-and-Instagram.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/14-tools-to-sell-on-facebook-and-instagram">14 Tools to Sell on Facebook and Instagram</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shopping on Facebook and Instagram is finally here. With the recent launches of Shops on both apps and Live Shopping, Facebook is facilitating easier commerce across its platform. Here is a list of tools to help you sell on Facebook and Instagram.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-02T14:03:13.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2020/07/073020-featured-retail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/the-first-steps-in-adding-ecommerce-to-a-brick-and-mortar-store">The First Steps in Adding Ecommerce to a Brick-and-mortar Store</a>
+          <div class="card-meta">2 Aug 2020</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Brick-and-mortar retail businesses are turning toward ecommerce to generate revenue — online and click-and-collect. As they make this digital transformation, those merchants will likely have questions about ecommerce platforms, themes, and design. While all of these are important, a company&#39;s focus should be on products and marketing first, in my experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-07-26T19:13:16.000Z | tags: ecommerce, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://ecommececeo.b-cdn.net/wp-content/uploads/2021/01/Best-Ecommerce-Platforms.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ecommerceceo.com/ecommerce-platforms">10 Best Ecommerce Platforms Compared &amp; Rated For 2020</a>
+          <div class="card-meta">26 Jul 2020</div>
+          <div class="card-meta card-domain">ecommerceceo.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our top ecommerce builders are based on objective performance data, feature set &amp; value. Check out ecommerce platforms now.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-23T13:59:15.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/01/Marketplaces-to-Buy-and-Sell-Websites.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.practicalecommerce.com/10-marketplaces-to-buy-and-sell-ecommerce-sites">10 Marketplaces to Buy and Sell Ecommerce Sites</a>
+          <div class="card-meta">23 Jun 2020</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>A ecosystem of buyers, sellers, and brokers creates a thriving M&amp;A market for digital businesses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-08T10:50:09.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://img.assets-c3.propublica.org/images/articles/20200606-Amazon-features-own-OG.jpg?crop=focalpoint&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=630&amp;imgixProfile=propublicaAssets&amp;q=90&amp;w=1200&amp;s=eb5c6aa68221e70b1b314bbb145aa3a5" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.propublica.org/article/amazons-new-competitive-advantage-putting-its-own-products-first">Amazon’s New Competitive Advantage: Putting Its Own Products First</a>
+          <div class="card-meta">8 Jun 2020</div>
+          <div class="card-meta card-domain">propublica.org</div>
+        </div>
+        <div class="card-section">
+          <p>Brands have long been able to bid for the premier slot at the top left of Amazon’s listings, but during the pandemic the online retailer has begun using this position for its private-label items, raising antitrust concerns.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:30:53.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.modernretail.co/wp-content/uploads/sites/5/2020/05/eastfork.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.modernretail.co/startups/how-ceramics-brand-east-fork-transitioned-to-a-pre-sale-only-model">How ceramics brand East Fork transitioned to a pre-sale only model</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">modernretail.co</div>
+        </div>
+        <div class="card-section">
+          <p>2020 was the year East Fork ceramics planned to become profitable. Now, that&#39;s likely no longer on the table, but the company is using a new model to better handle its balance sheet: pre-sales. Now, new product lines will all be for sale before they&#39;re manufactured, as a way to get capital in as early as possible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T11:03:26.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/dfoderick/web-monetization-the-ecosystem-1e57">Web Monetization - The Ecosystem</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Greetings, everyone. This post begins a series on Web Monetization and serves to document my learning...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-02T19:33:28.000Z | tags: dropshipping, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://ae01.alicdn.com/kf/Sa0202ec8a96a4085962acfc27e9ffd04F/1080x1080.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.aliexpress.com">AliExpress - Online Shopping for Popular Electronics, Fashion, Home &amp; Garde</a>
+          <div class="card-meta">2 May 2020</div>
+          <div class="card-meta card-domain">aliexpress.com</div>
+        </div>
+        <div class="card-section">
+          <p>AliExpress lets you unlock top brands&#39; bestselling electronics, clothing, homewares, toys, sporting equipment, auto parts and more so you can live better for less.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-01T19:11:09.000Z | tags: dropshipping, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/65e713145f2286a91492cd40/191:100/w_1280,c_limit/wired-uk-default-image-1-1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.co.uk/article/dropshipping-instagram-ads">‘It’s bullshit’: Inside the weird, get-rich-quick world of dropshipping</a>
+          <div class="card-meta">1 May 2020</div>
+          <div class="card-meta card-domain">wired.co.uk</div>
+        </div>
+        <div class="card-section">
+          <p>In Bali, western immigrants are selling products they&#39;ve never handled, from countries they&#39;ve never visited, to consumers they&#39;ve never met</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: ecommerce, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2020/02/dcm-table-1920x1080-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/introducing-the-periodic-table-of-digital-commerce-marketing-329436">Introducing the Periodic Table of Digital Commerce Marketing</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Packing an astonishing amount of information into an easy-to-digest visual, it&#39;s well worth the download.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-29T02:18:38.000Z | tags: ecommerce, prodmgmt, supply-chain -->
+      <div class="card-image">
+        <img src="https://www.supplychaindive.com/imgproxy/shhsMYEAZHwBuZy_krvIlsKJ85jWliqNlhl192yPamY/g:nowe:0:1476/c:5310:3000/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL3dheWZhaXJtZW1iZXJzaGlwLmpwZw==.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.supplychaindive.com/news/wayfair-logistics-investment/573199">Wayfair is all in on logistics</a>
+          <div class="card-meta">29 Feb 2020</div>
+          <div class="card-meta card-domain">supplychaindive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Executives insist 2020 is the year Wayfair&#39;s logistics investments will show their worth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: custsvc, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.supplychaindive.com/imgproxy/ygO0phPAF1GPqw9lUZMLrrbAid5zRJ91tHzZhX1Wp54/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL1JldGFpbF9EaXZlX01ldGFwYWNrX1Byb21vdGVkX1N0b3J5X09jdG9iZXJfSW1hZ2UuanBn.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.supplychaindive.com/spons/how-to-use-returns-to-build-customer-loyalty/564309">How to use returns to build customer loyalty</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">supplychaindive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Returns are on the rise – here’s what you can do to make it your competitive advantage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:41.000Z | tags: adtech-adwords, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://savvyrevenue.com/wp-content/uploads/2024/05/980467_Illustration-for-article-Hacks-metoder-og-vaerktojer-til-Google-Ads-sogeordsanalyse-for-webshops_Op1_021721.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/abzfMOsC49?amp=1">Hacks, Methods and Tools to Keyword Research for eCommerce Stores</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>Learn the exact way that I perform keyword research that generates profitable, scalable ROI for eCommerce stores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-31T18:28:42.000Z | tags: ecommerce, prodmgmt, supply-chain -->
+      <div class="card-image">
+        <img src="https://reallifemag.com/wp-content/uploads/2019/02/KFNblQwA-1024x780.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://reallifemag.com/free-shipping">Free Shipping — Real Life</a>
+          <div class="card-meta">31 Aug 2019</div>
+          <div class="card-meta card-domain">reallifemag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Delivery robots will redefine the meaning of every object they transport</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T03:01:11.000Z | tags: ecommerce, prodmgmt, bookmarks -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/wishlist-or-cart.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/wishlist-or-cart">Shopping Cart or Wishlist? Saving Products for Later in Ecommerce</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>On ecommerce sites, saving shopping-cart items for possible later purchase must be discoverable and low-effort.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:09:19.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/ecommerce-taxes-fees.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/ecommerce-taxes-fees">How to Display Taxes, Fees, and Shipping Charges on Ecommerce Sites</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unexpected service fees and special-delivery costs should be disclosed early in the shopping process to avoid losing customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:50:00.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/applying-discounts.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/applying-discounts">Applying Discounts and Promotions on Ecommerce Websites</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Coupons and other discounts should be easy to apply and shopping carts should clearly display how the total was affected by the promotion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:46:22.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20190411201042-GettyImages-919442746.jpeg?format=pjeg&amp;auto=webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.entrepreneur.com/article/332076">How to Negotiate the Price of a Pricey Premium Domain</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">entrepreneur.com</div>
+        </div>
+        <div class="card-section">
+          <p>Buying a domain at the asking price? That&#39;s like buying a used car at the asking price. Doing your homework pays off.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:07:32.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/04/4-Merchandising-Hacks-to-Increase-Profits.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/4-online-merchandising-hacks-to-increase-profits">4 Online Merchandising Hacks to Increase Profits</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Retailers seek to avoid markdowns and sell out of the season at full margin, but it isn’t easy to predict how much inventory to acquire. In this post, I&#39;ll address four online merchandising tactics that balance consumer demand with inventory levels, to maximize profits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T16:14:57.000Z | tags: ecommerce, leadgen-leadmgmt, prodmgmt -->
+      <div class="card-image">
+        <img src="https://openviewpartners.com/wp-content/uploads/2019/05/PQLs.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://labs.openviewpartners.com/beginners-guide-to-product-qualified-leads-pqls">Beginner’s Guide to Product Qualified Leads (PQLs)</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">labs.openviewpartners.com</div>
+        </div>
+        <div class="card-section">
+          <p>A product qualified lead (PQL) is a lead who has experienced meaningful value using your product through a free trial or freemium model. Learn how to use them in your organization here.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T20:48:41.000Z | tags: ecommerce, prodmgmt, trust -->
+      <div class="card-image">
+        <img src="https://openviewpartners.com/wp-content/uploads/2019/08/Trust.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://openviewpartners.com/blog/how-saas-products-ascend-the-trust-pyramid">How SaaS Products Ascend the “Trust Pyramid”</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">openviewpartners.com</div>
+        </div>
+        <div class="card-section">
+          <p>SaaS products may be the future of how we work, but that future will only happen if we can learn how to build trust with your customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-09T03:07:33.000Z | tags: ecommerce, platforms, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/5d23b492d50aa10001e2a918/5d23b4924b382a0001468379/1718919971627/D1ZGB3OV4AAKv0f.jpg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2019/7/26/amazon-as-experiment">Amazon is a boring retailer — Benedict Evans</a>
+          <div class="card-meta">9 Aug 2019</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon is so new, and so dramatic in its speed and scale and aggression, that we can easily forget how many of the things it’s doing are actually very old.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-25T18:28:05.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://canny.io/blog/wp-content/uploads/2019/07/feature-voting-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://canny.io/blog/free-saas-tools-for-budget">Free SaaS tools for companies on a budget (and a pre-formatted budgeting sheet) - Canny Blog</a>
+          <div class="card-meta">25 Jul 2019</div>
+          <div class="card-meta card-domain">canny.io</div>
+        </div>
+        <div class="card-section">
+          <p>Not every SaaS company has endless spare money. One of the biggest piggy bank breakers are the tools we use—and it adds up fast.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-23T18:55:40.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/06/6-Gaps-in-Google-Analytics-That-Require-Additional-Tools.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/6-gaps-in-google-analytics-that-require-additional-tools">7 Gaps in Google Analytics That Require Additional Tools</a>
+          <div class="card-meta">23 Jun 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google Analytics is a powerful, free web analytics platform. However, it has gaps that are better served by other tools. I&#39;ll address those gaps and tools in this post.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-29T02:30:14.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/rkSWer3mfeJvlv0kcPIuRK1eLBdr8A8g19wN_bBxLNk/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL1Nob3BwaW5nXzEwMDBzaHV0dGVyc3RvY2tfNzU2MDE4NDMzLmpwZw==.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/news/the-inherent-value-of-identifiable-store-traffic/555478">The inherent value of identifiable store traffic</a>
+          <div class="card-meta">29 May 2019</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many attributes of the customer journey are very predictable and can be planned for to create and convert inbound store footfall.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-08T21:23:49.000Z | tags: ecommerce, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2019/05/p-1-90342864-amazon-and-target-race-to-revolutionize-the-cardboard-shipping-box.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90342864/rethinking-the-cardboard-box-has-never-been-more-important-just-ask-amazon-and-target?partner=feedburner">Amazon and Target race to revolutionize the cardboard shipping box</a>
+          <div class="card-meta">8 May 2019</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>The box has never looked better.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-05T03:05:57.000Z | tags: ecommerce, packaging, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.supplychaindive.com/imgproxy/qyWnhXWtcTMRxwi-c7a7vByBHU2DtER9_vLkzAclBZU/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL3RpZGVfY3JvcF9hcnJpdmUyLmpwZw==.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.supplychaindive.com/news/tide-laundry-detergent-e-commerce-packaging-design/547461">Laundry detergent or boxed wine? How e-commerce is changing packaging</a>
+          <div class="card-meta">5 Feb 2019</div>
+          <div class="card-meta card-domain">supplychaindive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Manufacturers are developing two packaging designs for the same product: those destined for the retail shelf and those sent directly to consumers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-22T14:35:52.000Z | tags: clothes, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2019/01/Untuckit.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/retail/untuckit-amazon-offload-older-styles">Untuckit is using Amazon to offload older styles</a>
+          <div class="card-meta">22 Jan 2019</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Untuckit is using Amazon to offload older styles -- preferring the marketplace as an alternative over the traditional outlet store.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-13T01:25:38.000Z | tags: ecommerce, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/01/How-PopSockets-Prospered-after-Leaving-Amazon.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/how-popsockets-prospered-after-leaving-amazon">How PopSockets Prospered after Leaving Amazon</a>
+          <div class="card-meta">13 Jan 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>PopSockets opted not to be a direct vendor to Amazon. Instead, it chose one major reseller to represent it on the marketplace. But, Amazon would not allow it. So, PopSockets walked away.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-22T11:01:35.000Z | tags: ecommerce, platforms, prodmgmt, shopify -->
+      <div class="card-image">
+        <img src="https://apps.shopify.com/cdn/shopifycloud/shopify_app_store/assets/shopify-app-store-og-20221205-c459b0ff67853c82f74f3b9ee07016fa6d41292b4bfabaf28711a3013b880cf0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://apps.shopify.com">Shopify App Store: Ecommerce App Marketplace</a>
+          <div class="card-meta">22 Dec 2018</div>
+          <div class="card-meta card-domain">apps.shopify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shopify App Store: customize your online store and grow your business with Shopify-approved apps for marketing, store design, fulfillment, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-21T02:32:59.000Z | tags: ecommerce, platforms, prodmgmt, shopify -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2018/12/shoify_bannere.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/retail/shopify-partner-ecosystem-800-million">‘It’s their moat’: How Shopify built an $800 million partner ecosystem</a>
+          <div class="card-meta">21 Dec 2018</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shopify is partnering with a network of more than 20,000 app developers and agency partners to build profitable businesses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:43:38.000Z | tags: a-b, analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bdow.com/wp-content/uploads/2024/04/8b7543d2-14d1-4fd3-81f5-ff23b48ef081.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sumo.com/stories/ecommerce-ab-testing">25 Ecommerce A/B Testing Ideas For Your 5 Top Store Pages</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">sumo.com</div>
+        </div>
+        <div class="card-section">
+          <p>The biggest question in ecommerce A/B testing is not “how.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-13T15:57:02.000Z | tags: clothes, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.adweek.com/wp-content/uploads/2018/11/retail-subscription-CONTENT_2018.jpg?w=600&amp;h=315&amp;crop=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.adweek.com/brand-marketing/why-the-sharing-economy-has-come-to-apparel">Why the Sharing Economy Has Come to Apparel</a>
+          <div class="card-meta">13 Nov 2018</div>
+          <div class="card-meta card-domain">adweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>Express and Ann Taylor are just two of several established retailers that have launched clothing rental subscriptions in recent months.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-23T15:06:17.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8957512/og_image/optimized/shopping-cart-abandonment-infographic-94f25eab7bc28cea22d5a3718236262f.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/designers/ux/shopping-cart-abandonment-infographic">eCommerce 101: Understanding Shopping Cart Abandonment [with Infographic]</a>
+          <div class="card-meta">23 Aug 2018</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>An illuminating infographic highlights 10 e-commerce pain points that ruin the user experience and lead to shopping cart abandonment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-21T16:32:41.000Z | tags: ecommerce, ideas, prodmgmt -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/consumer-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://a16z.com/2018/08/17/service-as-a-sku">Service as a SKU | Andreessen Horowitz</a>
+          <div class="card-meta">21 Aug 2018</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>Editor’s note: This article by now-a16z general partner Alex Rampell was originally published in 2012 in TechCrunch.  The biggest ecommerce opportunity today involves taking offline services and offering them for sale online (O2O commerce). The first generation of O2O commerce was driven by discounting, push-based engagements, and artificial scarcity. The still-unfulfilled opportunity in O2O today is tantamount to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-13T22:37:58.000Z | tags: ecommerce, marketing, mobile, prodmgmt -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2017/02/mobilestock.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/media/popsugar-learned-selling-products-text-messages">What PopSugar learned from selling products through text messages</a>
+          <div class="card-meta">13 Aug 2018</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>PopSugar said it expects to have 20,000 subscribers by year&#39;s end to its text message program, which it&#39;s used to sell protein bars and housewares.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-05T02:41:17.000Z | tags: custsvc, ecommerce, prodmgmt, reviews -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/06/The-Real-Benefit-of-Amazon-Reviews.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/real-benefit-amazon-reviews">The Real Benefit of Amazon Reviews</a>
+          <div class="card-meta">5 Jul 2018</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;m a longtime seller on Amazon&#39;s marketplace. I also mentor many sellers and help brands to improve their marketplace sales. And I belong to various</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-05T03:23:03.000Z | tags: apis, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:996:524/g:fp:0.48:0.39/1*oLcTlh0yrnH1CHqnv0HhdQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.learningbyshipping.com/connectors-3f04f928c821">Strategy &amp; Implementation of Third-Party Connections in Products</a>
+          <div class="card-meta">5 Jun 2018</div>
+          <div class="card-meta card-domain">medium.learningbyshipping.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a product that connects to multiple third-party products is a common approach — an annotated twitter thread exploring strategic…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-30T16:06:51.000Z | tags: ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/05/10-ways-to-offer-shoppers-a-discount.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/10-ways-offer-shoppers-discount">10 ways to offer shoppers a discount</a>
+          <div class="card-meta">30 May 2018</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many online retailers unintentionally train consumers to expect discounts. Clothing stores are amongst the worst offenders. Constant discounting makes full-price shoppers believe they’re being overcharged. They often won’t shop until the next sale, which leads to a vicious cycle. It is a rare company that doesn’t get asked for discounts. In this post, I&#39;ll review 10 ways to offer clients a discount.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-07T01:24:56.000Z | tags: ecommerce, growth-hacks, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.indiehackers.com/images/shareables/home.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.indiehackers.com/@RickVanHaasteren/how-i-got-my-first-1000-users-47d06edc3d">Indie Hackers: Work Together to Build Profitable Online Businesses</a>
+          <div class="card-meta">7 May 2018</div>
+          <div class="card-meta card-domain">indiehackers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Connect with developers sharing the strategies and revenue numbers behind their companies and side projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-04T12:56:20.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2018/05/Why-sell-barbells.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/why-sell-barbells">Why sell barbells?</a>
+          <div class="card-meta">4 May 2018</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;m often asked why I started FringeSport. People inquire, &quot;Of all the things to do, why sell barbells?&quot; I tell them that if I wanted only to make money,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-24T02:55:19.000Z | tags: ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.mckinsey.com/~/media/mckinsey/business%20functions/marketing%20and%20sales/our%20insights/the%20prime%20day%20play%20three%20lessons%20from%20amazon039s%20one%20day%20event/image_hero%20amazon%20prime%20day%20app.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/the-prime-day-play-three-lessons-from-amazon039s-one-day-event">Amazon’s systematic approach</a>
+          <div class="card-meta">24 Nov 2017</div>
+          <div class="card-meta card-domain">mckinsey.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon turned an event into a blockbuster. Here’s a roadmap for retailers who want to replicate its success.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-15T23:53:48.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2017/11/111417-vibram-featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/4-marketing-lessons-opening-brick-mortar-store">4 Marketing Lessons from Opening a Brick-and-mortar Store</a>
+          <div class="card-meta">15 Nov 2017</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lessons learned from opening a brick-and-mortar retail store may apply to online merchants, providing insights about promoting products, driving sales,</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

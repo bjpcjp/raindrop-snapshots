@@ -1,0 +1,186 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>botany + conservation &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-10-30T13:49:12.973Z | tags: conservation, botany, china -->
+      <div class="card-image">
+        <img src="https://yale-threesixty.transforms.svdcdn.com/production/China-Afforestation_NFGA.jpg?w=1200&amp;q=60&amp;auto=format&amp;fit=max&amp;dm=1761651086&amp;s=6506e83dc20851510b03a4fb5c83ca76" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://e360.yale.edu/digest/china-new-forest-report">China Has Added Forest the Size of Texas Since 1990 - Yale E360</a>
+          <div class="card-meta">30 Oct 2025</div>
+          <div class="card-meta card-domain">e360.yale.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-07T01:28:20.788Z | tags: botany, agriculture, conservation -->
+      <div class="card-image">
+        <img src="https://img.atlasobscura.com/Nrlv8_55rKKZarYAlqAESaHF79s7wVa_0waodUad5HM/rs:fill:780:520:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy80NjNiZmRiODgz/MTViNGQyYWFfb2xp/dmUgb2lsIGFwb2Nh/bHlwc2UuanBn.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.atlasobscura.com/articles/olive-oil-disease-italy">Olive trees</a>
+          <div class="card-meta">7 May 2025</div>
+          <div class="card-meta card-domain">atlasobscura.com</div>
+        </div>
+        <div class="card-section">
+          <p>A fast-spreading bacteria could cause an olive-oil apocalypse.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-06T23:43:05.328Z | tags: botany, biology, conservation -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longreads.com/2025/05/06/how-to-build-a-thousand-year-old-tree/">How To Build A Thousand-Year-Old Tree</a>
+          <div class="card-meta">6 May 2025</div>
+          <div class="card-meta card-domain">longreads.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;A set of experimental techniques and technologies that might seem harmful to trees is actually helping ancient forests survive.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-05T00:57:05.000Z | tags: botany, conservation -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2024/03/14/multimedia/00hw-reforestation-jpkb/00hw-reforestation-jpkb-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html">As Wildfires Grow Fiercer, Some Companies Look to Rebuild the Tree Supply C</a>
+          <div class="card-meta">5 Apr 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>As forests succumb to ever-fiercer wildfires, the federal government and some adventurous private companies are trying to resuscitate an industry.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-15T01:30:12.000Z | tags: botany, conservation, disruption -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KDKV7MUYQJMO4WJKP5E3XFLPZE.jpg&amp;w=1440" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/climate-solutions/2024/02/03/cork-sustainable-material">This forest generates billions of dollars without felling a single tree</a>
+          <div class="card-meta">15 Feb 2024</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cork oaks are making homes warmer, cars lighter and clothes biodegradable — while still feeding the birds and absorbing carbon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-25T00:54:42.000Z | tags: botany, conservation -->
+      <div class="card-image">
+        <img src="https://e360.yale.edu/assets/site/Leh-Tree-Planting_Wikipedia-Small-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://e360.yale.edu/features/phantom-forests-tree-planting-climate-change">Phantom Forests: Why Ambitious Tree Planting Projects Are Failing</a>
+          <div class="card-meta">25 Oct 2022</div>
+          <div class="card-meta card-domain">e360.yale.edu</div>
+        </div>
+        <div class="card-section">
+          <p>High-profile initiatives to plant millions of trees are being touted by governments around the world as major contributions to fighting climate change. But scientists say many of these projects are ill-conceived and poorly managed and often fail to grow any forests at all.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-16T11:37:14.000Z | tags: botany, conservation -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/09/20/climate/00cli-chestnut1/00cli-chestnut1-largeHorizontalJumbo-v2.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=f5db87baac30de68970991c42c7e71fccb954b49bebad7f7b64eff68ad8b13f2&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/09/16/climate/coal-mine-american-chestnut.html">At Old Coal Mines, the American Chestnut Tries for a Comeback</a>
+          <div class="card-meta">16 Sep 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Across Appalachia, scientists and foresters are trying to reintroduce a hybrid version, helping to revive damaged land while also bringing back a beloved tree.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T22:55:33.000Z | tags: botany, conservation, goodreads -->
+      <div class="card-image">
+        <img src="https://www.gannett-cdn.com/presto/2019/10/14/PSAL/1b386977-3b5d-41e3-8123-b95000dab05e-chestnut00001.JPG?auto=webp&amp;crop=3647,2052,x0,y410&amp;format=pjpg&amp;width=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.delawareonline.com/story/news/2022/08/26/american-chestnut-tree-discovery-in-delaware-wows-conservationists/65414649007">Why an American chestnut tree in Centreville is the &#39;holy grail&#39; for conservationists</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">delawareonline.com</div>
+        </div>
+        <div class="card-section">
+          <p>The American chestnut tree used to grow throughout the eastern U.S., but was devastated by a blight in the early 20th century.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-29T20:06:08.000Z | tags: animals, botany, conservation, goodreads -->
+      <div class="card-image">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/uvY0trKL9QdNe_CYrWrNufEMGUU=/fit-in/1600x0/filters:focal(2520x1680:2521x1681)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/6d/f1/6df1a51f-2b77-48be-b8c0-6901bbd2bf03/julaug2022_j19_madagascar.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smithsonianmag.com/science-nature/into-forbidden-forest-madagascar-180980318">Into the Forbidden Forest</a>
+          <div class="card-meta">29 Jul 2022</div>
+          <div class="card-meta card-domain">smithsonianmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Famed American biologist Patricia Wright explores an astonishing breadth of biodiversity in the wilderness of Madagascar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

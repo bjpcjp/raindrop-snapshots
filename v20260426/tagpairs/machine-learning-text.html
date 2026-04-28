@@ -1,0 +1,138 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + text &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:31.000Z | tags: machine-learning, text, _r_ -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*In50ISWWARri4ZcPU08RXw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/text-mining-with-r-gathering-and-cleaning-data-8f8b0d65e67c?source=rss----7f60cf5620c9---4">Text Mining with R: Gathering and Cleaning Data</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Case study of tweets from comments on Indonesia’s biggest media</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:21:07.000Z | tags: machine-learning, text -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:668/0*LK-9v9zvCCesxOOy" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.heuritech.com/2016/04/15/knowledge-extraction-from-unstructured-texts">Knowledge extraction from unstructured texts | Tech Blog</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">blog.heuritech.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is an unreasonable amount of information that can be extracted from what people publicly say on the internet. Learn how to do it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:55:07.000Z | tags: machine-learning, text -->
+      <div class="card-image">
+        <img src="https://activewizards.com//content/image-cache/blog/Comparison-of-the-Text-Distance-Metrics/header-image-text-distance-infographics-web-linkedin-1422.bf2e2403.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://activewizards.com/blog/comparison-of-the-text-distance-metrics">Comparison of the Text Distance Metrics | ActiveWizards: data science and engineering lab</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">activewizards.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article discusses and compares different approaches of how to compare two text strings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:46:41.000Z | tags: classification, machine-learning, text -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.statsbot.co/text-classifier-algorithms-in-machine-learning-acc115293278">Text Classifier Algorithms in Machine Learning – Stats and Bots</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">blog.statsbot.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-11T11:49:54.000Z | tags: deep-learning, machine-learning, text -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2018/05/img_0118.jpg?resize=1200,1041" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2018/05/11/lighttag">LightTag is a text annotation platform for data scientists creating AI trai</a>
+          <div class="card-meta">11 May 2018</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>LightTag, a newly launched startup from a former NLP researcher at Citi, has built a &quot;text annotation platform&quot; designed to assist data scientists who</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-04-09T16:06:22.000Z | tags: feature-engineering, machine-learning, nlp, text -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*vXKKe3J-lfi1YQ7HC6onxQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-feature-engineering-part-3-traditional-methods-for-text-data-f6f7d70acd41">Understanding Feature Engineering (Part 3) — Traditional Methods for Text D</a>
+          <div class="card-meta">9 Apr 2018</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Traditional strategies for taming unstructured, textual data</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

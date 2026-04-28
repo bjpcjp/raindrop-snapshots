@@ -1,0 +1,646 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>css + html &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-29T12:46:57.844Z | tags: html, css -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://maurycyz.com/misc/make-up-tags/">You can make up HTML tags: (Maurycy&#39;s blog)</a>
+          <div class="card-meta">29 Dec 2025</div>
+          <div class="card-meta card-domain">maurycyz.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-20T02:13:38.080Z | tags: css, html, webdev -->
+      <div class="card-image">
+        <img src="https://webkit.org/wp-content/uploads/Grid-Lanes-classic-light.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webkit.org/blog/17660/introducing-css-grid-lanes/">Introducing CSS Grid Lanes</a>
+          <div class="card-meta">20 Dec 2025</div>
+          <div class="card-meta card-domain">webkit.org</div>
+        </div>
+        <div class="card-section">
+          <p>It’s here, the future of masonry layouts in CSS!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-02T15:27:43.247Z | tags: css, webdev, html -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/masonry-things-you-wont-need-library-anymore/masonry-things-you-wont-need-library-anymore.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2025/12/masonry-things-you-wont-need-library-anymore/">Masonry: Things You Won’t Need A Library For Anymore</a>
+          <div class="card-meta">2 Dec 2025</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>CSS Masonry is almost here! Patrick Brosset takes a deep dive into what this long-awaited feature means for web developers and how you could make use of it in your own work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-06T22:36:06.622Z | tags: color, css, html -->
+      <div class="card-image">
+        <img src="https://htmlcolorcodes.com/assets/images/html-color-codes-picker-charts-names-tutorials-resources.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://htmlcolorcodes.com/color-names/">Color Names — HTML Color Codes</a>
+          <div class="card-meta">6 Jul 2025</div>
+          <div class="card-meta card-domain">htmlcolorcodes.com</div>
+        </div>
+        <div class="card-section">
+          <p>HTML color names rule. Modern browsers support 140 HTML color names which we&#39;ve listed here along with their Hex color codes and RGB values.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-12T14:29:00.820Z | tags: html, css, webdev, javascript -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://plainvanillaweb.com/index.html">Plain Vanilla</a>
+          <div class="card-meta">12 May 2025</div>
+          <div class="card-meta card-domain">plainvanillaweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>An explainer for doing web development using only vanilla techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-24T14:33:01.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/path-css-easing-linear-function/path-css-easing-linear-function.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2023/09/path-css-easing-linear-function">The Path To Awesome CSS Easing With The linear() Function</a>
+          <div class="card-meta">24 Sep 2023</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>With the new CSS `linear()` easing function on the horizon, the possibilities of what we can do to create natural-feeling animations and transitions in the future are greatly expanded. Jhey Tompkins looks at the current state of CSS easing in this article and demonstrates what we can expect from `linear()`, including handy tools to get your hands on it today.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-21T23:56:04.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fahqcvbze5vky9kzir95m.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/shubhamtiwari909/css-trigonometry-circle-3bl3">CSS | Trigonometry Circle</a>
+          <div class="card-meta">21 Sep 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Hello Frondend developers, today i will show you how to create a circular element layout with css...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-19T13:09:08.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fexxjiaz07d6143smp1zz.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/mainulspace/7-advanced-css-selectors-you-should-know-70g">7 Advanced CSS Selectors You Should Know</a>
+          <div class="card-meta">19 Sep 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>CSS is indispensable when we talk about web design and development. Basic selectors like classes (.)...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-09T23:41:41.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Felt31itdhi46mi8rci8x.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/martinp/how-to-do-stunning-3d-with-pure-htmlcss-ah">How to do stunning 3D with pure HTML/CSS</a>
+          <div class="card-meta">9 Sep 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>HTML and CSS may be the bedrock of 2D web design, but hidden within their virtual toolbox are the...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-05T23:20:38.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://catskull.net/assets/opengraph.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://catskull.net/html.html">I&#39;m betting on HTML</a>
+          <div class="card-meta">5 Aug 2023</div>
+          <div class="card-meta card-domain">catskull.net</div>
+        </div>
+        <div class="card-section">
+          <p>AI Use Disclaimer: I wrote this post and then GPT-4 fixed my grammer and spelling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-03T17:12:33.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftfw3mg1mfnyng0ca29pp.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/alvaromontoro/10-cool-codepen-demos-july-2023-590l">10 Cool CodePen Demos (July&amp;nbsp;2023)</a>
+          <div class="card-meta">3 Aug 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of 10 cool and exciting front-end demos shared on CodePen during July 2023</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T00:35:57.000Z | tags: animation, css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjke3pjch7h8ztosyivha.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/cruip_com/how-to-create-a-beautiful-particle-animation-with-html-canvas-n22">How to Create a Beautiful Particle Animation with HTML Canvas</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Live Demo / Download   --  In this tutorial, we will utilize the power of HTML canvas to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-04T02:06:31.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3pqfnrqv9wja5b5e294i.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/wvsr/a-comprehensive-guide-to-css-shorthand-properties-2083">A Comprehensive Guide to CSS Shorthand Properties</a>
+          <div class="card-meta">4 Apr 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>CSS shorthand is a group of CSS properties that allow you to write multiple CSS properties in a...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-22T00:13:58.000Z | tags: browsers, css, html, svg, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/articles">Articles — Smashing Magazine</a>
+          <div class="card-meta">22 Feb 2023</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Smashing Magazine — front-end, UX and design for front-end engineers and designers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T23:33:30.000Z | tags: css, html, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://get.foundation/building-blocks/kits.html">Kits | Foundation 6</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">get.foundation</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-22T02:18:26.000Z | tags: color, css, html, webdev -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgq7t0traszgdn5bdvsgn.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/suprabhasupi/amazing-resources-for-web-developers-ma9">Amazing Resources for Web Developers</a>
+          <div class="card-meta">22 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Found amazing resources which will save you tons of time as a web developer👇           1. 10015...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-20T18:40:06.000Z | tags: css, gkeep, html -->
+      <div class="card-image">
+        <img src="https://codesandbox.io/api/v1/sandboxes/i05d3/screenshot.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codesandbox.io/s/html-css-google-keep-complete-i05d3?file=/index.html:6643-6872&amp;resolutionHeight=675&amp;resolutionWidth=320">html-css-google-keep-complete - CodeSandbox</a>
+          <div class="card-meta">20 Feb 2022</div>
+          <div class="card-meta card-domain">codesandbox.io</div>
+        </div>
+        <div class="card-section">
+          <p>html-css-google-keep-complete by akhilboddu using parcel-bundler</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-13T15:49:51.000Z | tags: css, design, html, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mailchi.mp/smashingmagazine/339-modern-css-techniques?e=01c6bebc27">Smashing Newsletter</a>
+          <div class="card-meta">13 Feb 2022</div>
+          <div class="card-meta card-domain">mailchi.mp</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:16:13.000Z | tags: css, design, html, language-linguistics, webdev -->
+      <div class="card-image">
+        <img src="https://randomwire.com/wp-content/uploads/rakuten-ichiba.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://randomwire.com/why-japanese-web-design-is-so-different">Why Japanese Web Design Is So… Different</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">randomwire.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:10.000Z | tags: css, html, ui-ux -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/manu4543/responsive-images-a-reference-guide-from-a-to-z-30aa">Responsive Images - A Reference Guide from A to Z</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Chapter 1 - What is responsive images?   In this guide, we will learn everything related to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:47.000Z | tags: css, html, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08a226c5-5a9a-4bd2-bba7-dad7e74f69e9/adaptive-media-serving-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages">Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word) — Smashing Magazine</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s make 2021... fast! An annual front-end performance checklist, with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:16:29.000Z | tags: css, html, javascript, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08a226c5-5a9a-4bd2-bba7-dad7e74f69e9/adaptive-media-serving-opt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages">Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word) — Smashing Magazine</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s make 2021... fast! An annual front-end performance checklist, with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:24.000Z | tags: css, design, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://frontendmasters.com/books/front-end-handbook/2019/assets/images/FM_2019Cover_small.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.com/books/front-end-handbook/2019">Front-end Developer Handbook 2019 - Learn the entire JavaScript, CSS and HTML development practice!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">frontendmasters.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:13.000Z | tags: css, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://frontendmasters.com/guides/front-end-handbook/2018/images/open-graph-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.com/books/front-end-handbook/2018">Front-End Developer Handbook 2018 - Learn the entire JavaScript, CSS and HTML development practice!</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">frontendmasters.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-04T02:46:17.000Z | tags: css, html -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://packery.metafizzy.co">Packery</a>
+          <div class="card-meta">4 Jan 2022</div>
+          <div class="card-meta card-domain">packery.metafizzy.co</div>
+        </div>
+        <div class="card-section">
+          <p>Gapless, draggable grid layouts</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-02T11:04:48.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://9elements.com/bem-cheat-sheet/src/img/bem-cheat-sheet.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://9elements.com/bem-cheat-sheet">BEM Naming Cheat Sheet by 9elements</a>
+          <div class="card-meta">2 Jan 2022</div>
+          <div class="card-meta card-domain">9elements.com</div>
+        </div>
+        <div class="card-section">
+          <p>A visual tool that provides naming-suggestions for CSS classes using BEM naming convention.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:32:32.000Z | tags: css, design, html -->
+      <div class="card-image">
+        <img src="https://every-layout.dev/images/card.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://every-layout.dev/layouts/stack">The Stack</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">every-layout.dev</div>
+        </div>
+        <div class="card-section">
+          <p>A composable CSS layout primitive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:30:24.000Z | tags: css, html -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer">Sticky Footer — Solved by Flexbox — Cleaner, hack-free CSS</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">philipwalton.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>A showcase of problems once hard or impossible to solve with CSS alone, now made trivially easy with Flexbox.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-09T09:02:49.000Z | tags: css, html, webdev -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvupui5tg0oxdh9jm2f3n.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/snowbit/the-complete-css-tags-reference-css-cheatsheet-kh3">The Complete CSS Tags Reference - CSS Cheatsheet</a>
+          <div class="card-meta">9 Nov 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>If you are using CSS for frontend web development, you may be interested in this article. The gist of...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-28T21:43:22.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/354777" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/sticky-definition-lists">Sticky Definition Lists</a>
+          <div class="card-meta">28 Oct 2021</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>I ran across this 30 seconds of code website the other day, and they have a CSS section which is really good! The first example snippet I looked at was this</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-23T13:12:41.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist">HTML Data List element - HTML: HyperText Markup Language | MDN</a>
+          <div class="card-meta">23 Jun 2021</div>
+          <div class="card-meta card-domain">developer.mozilla.org</div>
+        </div>
+        <div class="card-section">
+          <p>The  HTML element contains a set of  elements that represent the permissible or recommended options available to choose from within other controls.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-09T01:09:51.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0hnph6iimdm9lki3j56c.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/ayushn21/details-summary-tags-html-s-best-kept-secret-4ak4">Details &amp; Summary tags: HTML&#39;s best kept secret</a>
+          <div class="card-meta">9 Jun 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>and  tags are among of the most useful tags that HTML gives us. I&#39;m...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:04:12.000Z | tags: cards, css, design, html -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.google.com/presentation/d/1hvnPpsJo44BTPfJx28CV95vqk_dt6na1awUbk0kmZYM/edit#slide=id.g3e31444916_0_115">Details on - Google Slides</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">docs.google.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:03:56.000Z | tags: cards, css, design, html -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/283765" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/using-details-for-menus-and-dialogs-is-an-interesting-idea">Using for Menus and Dialogs is an Interesting Idea | CSS-Tricks</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using  for a menu may be an interesting idea, but perhaps not something to actually ship in production. See &quot;More Details on &quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-30T23:58:40.000Z | tags: css, html, webdev -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_boilerplate.png?s=213" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.matuzo.at/blog/html-boilerplate">My current HTML boilerplate - Manuel Matuzović</a>
+          <div class="card-meta">30 Apr 2021</div>
+          <div class="card-meta card-domain">matuzo.at</div>
+        </div>
+        <div class="card-section">
+          <p>Every element I use for the basic structure of a HTML document, with explanations why.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T02:43:16.000Z | tags: css, html -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://caniuse.com/?search=details">Can I use... Support tables for HTML5, CSS3, etc</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">caniuse.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;Can I use&quot; provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:34:22.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/319906" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/beyond-media-queries-using-newer-html-css-features-for-responsive-designs">Beyond Media Queries: Using Newer HTML &amp; CSS Features for Responsive Design</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>Beyond using media queries and modern CSS layouts, like flexbox and grid, to create responsive websites, there are certain overlooked things we can do well to</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T09:28:51.000Z | tags: css, html -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/305723" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/using-css-to-set-text-inside-a-circle">Using CSS to Set Text Inside a Circle</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>You want to set some text inside the shape of a circle with HTML and CSS? That’s crazy talk, right?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-31T13:52:03.000Z | tags: css, html, javascript, webdev -->
+      <div class="card-image">
+        <img src="https://glossarytech.com/public/site/img/share.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://glossarytech.com/terms/front_end-technologies">Front-end technologies</a>
+          <div class="card-meta">31 Dec 2019</div>
+          <div class="card-meta card-domain">glossarytech.com</div>
+        </div>
+        <div class="card-section">
+          <p>The front-end is everything involved with what the user sees, including design and some languages like HTML and CSS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-07-05T16:18:23.000Z | tags: css, design, html, sass -->
+      <div class="card-image">
+        <img src="https://tutorialzine.com/media/2018/06/10-awesome-sass-libraries.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tutorialzine.com/2018/06/10-awesome-sass-libraries-you-should-know-about">10 Awesome Sass Libraries You Should Know About</a>
+          <div class="card-meta">5 Jul 2018</div>
+          <div class="card-meta card-domain">tutorialzine.com</div>
+        </div>
+        <div class="card-section">
+          <p>We share with you a collection of interesting Sass libraries that you should check out.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

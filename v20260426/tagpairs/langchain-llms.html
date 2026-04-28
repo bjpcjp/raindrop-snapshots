@@ -1,0 +1,157 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>langchain + llms &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-04-05T11:08:10.777Z | tags: mcp, langchain, llms, llms-agents -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/04/Screenshot-2025-04-04-at-10.45.12 PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/04/04/a-code-implementation-to-building-a-context-aware-ai-assistant-in-google-colab-using-langchain-langgraph-gemini-pro-and-model-context-protocol-mcp-principles-with-tool-integration-support/">A Code Implementation to Building a Context-Aware AI Assistant in Google Colab Using LangChain, LangGraph, Gemini Pro, and Model Context Protocol (MCP) Principles with Tool Integration Support</a>
+          <div class="card-meta">5 Apr 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-13T21:35:40.597Z | tags: langchain, llms, openai -->
+      <div class="card-image">
+        <img src="https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-api-when-simplicity-meets-scalability.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/">LangChain vs OpenAI API: When Simplicity Meets Scalability | Aditya Bhattacharya | Blogs Website</a>
+          <div class="card-meta">13 Dec 2024</div>
+          <div class="card-meta card-domain">blogs.adityabh.is-a.dev</div>
+        </div>
+        <div class="card-section">
+          <p>This blog explores a detailed comparison between the OpenAI API and LangChain, highlighting key differences in performance and developer experience and the low level code for why these differences exist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-12T23:53:16.000Z | tags: langchain, llms -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fso3pj9juipg7i3bvrwjb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/pavanbelagatti/a-beginners-guide-to-building-llm-powered-applications-with-langchain-2d6e">A Beginner’s Guide to Building LLM-Powered Applications with LangChain!</a>
+          <div class="card-meta">12 Sep 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>If you&#39;re a developer or simply someone passionate about technology, you&#39;ve likely encountered AI...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-02T16:24:40.000Z | tags: langchain, llms -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/c_langchain_101_build_gptpowered_applications_2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/04/langchain-101-build-gptpowered-applications.html">LangChain 101: Build Your Own GPT-Powered Applications</a>
+          <div class="card-meta">2 Aug 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>LangChain is a Python library that helps you build GPT-powered applications in minutes. Get started with LangChain by building a simple question-answering app.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-21T14:30:37.000Z | tags: langchain, llms -->
+      <div class="card-image">
+        <img src="https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/sonali-pattnaik_generativeai-ai-activity-7063160223967973376-3K0P">Sonali Pattnaik on LinkedIn: #generativeai #ai | 45 comments</a>
+          <div class="card-meta">21 May 2023</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI companies are using LangChain to supercharge their LLM apps. Here is a comprehensive guide of resources to build your LangChain + LLM journey.   🔗 What is… | 45 comments on LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-19T21:51:37.000Z | tags: langchain, llms -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/arya_baby_agi_birth_fully_autonomous_ai_3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/04/baby-agi-birth-fully-autonomous-ai.html">Baby AGI: The Birth of a Fully Autonomous AI</a>
+          <div class="card-meta">19 Apr 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introducing the new fully autonomous task manager that can create, track and prioritize your company&#39;s projects using artificial intelligence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-17T21:29:09.000Z | tags: langchain, llms -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F644b606d-622a-4a15-acb7-02b97ad843a9_3200x1454.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thesequence.substack.com/p/guest-post-how-to-enhance-the-usefulness">📝 Guest Post: How to Enhance the Usefulness of Large Language Models*</a>
+          <div class="card-meta">17 Apr 2023</div>
+          <div class="card-meta card-domain">thesequence.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this guest post, Filip Haltmayer, a Software Engineer at Zilliz, explains how LangChain and Milvus can enhance the usefulness of Large Language Models (LLMs) by allowing for the storage and retrieval of relevant documents. By integrating Milvus, a vector database, with LangChain, LLMs can process more tokens and improve their conversational abilities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

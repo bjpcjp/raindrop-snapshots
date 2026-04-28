@@ -1,0 +1,820 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>influence-persuasion + leadership &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-02-05T08:22:21.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://content.artofmanliness.com/uploads/2024/01/15-quotes-blank.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.artofmanliness.com/character/behavior/15-quotes-on-the-unparalleled-power-of-example">15 Quotes on the Unparalleled Power of Example</a>
+          <div class="card-meta">5 Feb 2024</div>
+          <div class="card-meta card-domain">artofmanliness.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover the power of examples in shaping our lives. Explore quotes on example and how they inspire us to reach new heights.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-01T23:01:34.000Z | tags: influence-persuasion, leadership, motivation -->
+      <div class="card-image">
+        <img src="https://edbatista.typepad.com/.a/6a00d8341e62fd53ef02b75180fc99200b-600wi" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.edbatista.com/2023/09/currencies-on-motivating-different-people.html">Currencies (On Motivating Different People) (Ed Batista)</a>
+          <div class="card-meta">1 Oct 2023</div>
+          <div class="card-meta card-domain">edbatista.com</div>
+        </div>
+        <div class="card-section">
+          <p>A theme in my practice is the leader who&#39;s seeking to increase employee motivation. In this context it&#39;s important to bear in mind the work of Frederick Herzberg, a 20th century psychologist who had a profound influence on our understanding...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-01T17:40:48.000Z | tags: feedback, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager">When your coworker does great work, tell their manager</a>
+          <div class="card-meta">1 Sep 2023</div>
+          <div class="card-meta card-domain">jvns.ca</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-12T01:25:50.000Z | tags: influence-persuasion, leadership, speaking -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2023/08/Aug23_11_1501196010.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2023/08/talking-about-a-difficult-decision-when-you-cant-share-all-the-details">Talking About a Difficult Decision — When You Can’t Share All the Details</a>
+          <div class="card-meta">12 Aug 2023</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>When you have to communicate a difficult organizational decision to employees, it’s hard to know how much information to provide when you can’t be fully transparent yet. Saying nothing can undermine people’s trust in your motives and compassion, whereas saying too much can leave people feeling overwhelmed and vulnerable as they struggle to process the information and implications. Striking the right balance between these two extremes is a tricky exercise for leaders. The author presents five strategies to help you figure out what to say and do when you can’t yet be fully transparent with your employees.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-19T10:49:25.000Z | tags: culture, influence-persuasion, leadership, management, speaking -->
+      <div class="card-image">
+        <img src="https://ahalbert.com/assets/Anglo-Dutch-Translation-Guide.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ahalbert.com/reviews/2023/06/04/the_culture_map.html">The Culture Map: How to Navigate Foreign Cultures in Business</a>
+          <div class="card-meta">19 Jun 2023</div>
+          <div class="card-meta card-domain">ahalbert.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-13T22:54:25.000Z | tags: influence-persuasion, jazz, leadership, music -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3928a25e-ea94-4323-897d-8962a7f07ce8_600x600.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://albertcory50.substack.com/p/the-art-of-leadership-lessons-from">The Art of Leadership: Lessons from Art Blakey</a>
+          <div class="card-meta">13 Jun 2023</div>
+          <div class="card-meta card-domain">albertcory50.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let Your People Shine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-31T11:01:56.000Z | tags: coaching-mentoring, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/f7df1b755a44909b1500389a868fc659.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://qz.com/what-working-as-a-military-psychologist-taught-me-about-1850409744">What working as a military psychologist taught me about coaching people</a>
+          <div class="card-meta">31 May 2023</div>
+          <div class="card-meta card-domain">qz.com</div>
+        </div>
+        <div class="card-section">
+          <p>3 tips for coaching people, from a former military psychologist</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-30T12:07:19.000Z | tags: charisma, influence-persuasion, leadership, speaking, writing -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2016/03/Productive-writing.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fs.blog/carl-braun-communicating">Carl Braun on Communicating Like a Grown-Up</a>
+          <div class="card-meta">30 Mar 2023</div>
+          <div class="card-meta card-domain">fs.blog</div>
+        </div>
+        <div class="card-section">
+          <p>Industrial genius Carl Braun believed that clear thinking and clear communication go hand in hand. Here the guide on writing productively to get things done.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-23T23:32:58.000Z | tags: influence-persuasion, leadership, speaking -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/11/Nov22_23_412821498.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/11/how-great-leaders-communicate">How Great Leaders Communicate</a>
+          <div class="card-meta">23 Nov 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Transformational leaders are exceptional communicators. In this piece, the author outlines four communication strategies to help motivate and inspire your team: 1) Use short words to talk about hard things. 2) Choose sticky metaphors to reinforce key concepts. 3) Humanize data to create value. 4). Make mission your mantra to align teams.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-17T01:12:07.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://www.ycombinator.com/blog/content/images/2022/08/BlogTwitter-Image-Template.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ycombinator.com/blog/learnings-of-a-ceo-wade-foster-zapier">Learnings of a CEO: Wade Foster, Zapier | Y Combinator</a>
+          <div class="card-meta">17 Aug 2022</div>
+          <div class="card-meta card-domain">ycombinator.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today, Zapier automates work by connecting with over 5,000 apps. The company has been profitable since 2014 and is valued at $5B – with 700 employees working remotely. Wade, Zapier CEO, shared his learnings growing into the role of a growth-stage CEO.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:31:25.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/my-first-job-1/3-life-lessons-from-the-red-light-district-9f86778b0cb3%23.8ygyk88zg">Medium</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:31:10.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2016/11/Tribal-Leadership.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2017/02/tribal-leadership">Tribal Leadership: The Key To Building Great Teams</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Have you ever wondered about internal organization dynamics and why some groups of people (who aren’t on the same team) are more successful than others? Why different “tribes” inside the organization seem to be at war with one another lowering performance in increasing politics? Why certain groups of people never seem to do anything? Or why …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:55.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-f2c42d68604b%23.i93jpv7sv">Medium</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:34.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fyfz17klytam52rbnivnh_chrome_logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://firstround.com/review/42-Rules-to-Lead-by-from-the-Man-Who-Defined-Googles-Product-Strategy">42 Rules to Lead by from the Man Who Defined Google&#39;s Product Strategy</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Former Google SVP of Products Jonathan Rosenberg on the quintessential lessons every leader needs to learn.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:42:59.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fgettyimages-1357074921.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game">Stop Overcomplicating It: The Simple Guidebook to Upping Your Management Game</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Russ Laraway wades through all of the competing opinions, complex frameworks and advice out there on how to be a better manager, creating a simple, data-backed leadership toolkit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:17:11.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/3062156/lessons-learned/this-former-linkedin-product-managers-surprising-leadership-formula">https://www.fastcompany.com/3062156/lessons-learned/this-former-linkedin-product-managers-surprising-leadership-formula</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:17.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://militaryreadinglists.com/reading_list/29-u-s-army-engineer-school">Military reading lists</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">militaryreadinglists.com</div>
+        </div>
+        <div class="card-section">
+          <p>U.S. Army Engineer School Commandant’s Reading List</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:15.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2014/06/managing-two-people-who-hate-each-other">Managing Two People Who Hate Each Other</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>How to minimize the drama and keep your team on track.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:50.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*X2YucaIkzZ2ctYFWyLbbqw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@cw/8-common-traits-of-uncommon-product-leaders-4d8f11caf9eb?curator=MediaREDEF%23.pyvjyxesp=">8 common traits of uncommon product leaders</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>I’ve found the following to be common (and not easily taught) in people whose product skills I admire.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:48.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://icm.aexp-static.com/content/dam/contenthub/us/en/images/wp-content/uploads/2013/10/take-your-team-from-worst-to-first-leadership-lessons-from-the-boston-red-sox-brick-open-forum-display.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.americanexpress.com/us/small-business/openforum/articles/boston-red-sox-john-farrell-business-leadership">Take Your Team From Worst To First: Leadership Lessons From The Boston Red Sox</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">americanexpress.com</div>
+        </div>
+        <div class="card-section">
+          <p>John Farrell took his team from the bottom of their division last year to the 2013 World Series with a set of tactics every manager should learn.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:26.000Z | tags: behaviors, coaching-mentoring, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/03/shutterstock_203486686.png?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2015/03/22/mentors-are-the-secret-weapons-of-successful-startups">Mentors Are The Secret Weapons Of Successful Startups | TechCrunch</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>“I’ve probably revised this investor pitch deck 200 times,” a founder told me recently. She’d met with more than 50 potential investors before closing a seed round last month. This might sound excessive to some, but her experience is not unusual.  Entrepreneurs often spend hundreds of hours raising funds from angel and venture capital investors. While these activities are clearly important, analysis of new data on startups suggests that founders should also dedicate significant time to something that many people overlook: recruiting great mentors. This simple strategy can increase a company’s odds of success more than almost anything else.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:05:22.000Z | tags: behaviors, glossaries, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/0d4f3ec0cf754e84a2cbe96102ed2ad95cc17bff0821adb38e28d5490c5372f2/LappleApple/awesome-leading-and-managing" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/LappleApple/awesome-leading-and-managing">LappleApple/awesome-leading-and-managing: Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone. - LappleApple/awesome-leading-and-managing</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:05:12.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://eco-cdn.iqpc.com/eco/images/channel_content/images/pex-logo-lg_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.processexcellencenetwork.com/innovation/articles/how-leadership-can-destroy-a-perfectly-good-strate">4 Leadership Types That Can Destroy a Perfectly Good Strategy</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">processexcellencenetwork.com</div>
+        </div>
+        <div class="card-section">
+          <p>The home of Process Excellence covers topics from Business Process Management (BPM) to Robotic Process Automation (RPA), AI, Lean Six Sigma and more. Latest news, freshest insight and upcoming events and webinars.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:05:08.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/hbr_opengraph_940x490.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2010/02/no-reference-points.html">Real Leaders Don’t Do Focus Groups</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Apple is famous for not engaging in the focus-grouping that defines most business product and marketing strategy. Which is partly why Apples products and advertising are so insanely great. They have the courage of their own convictions, instead of the opinions of everyone else’s whims. On the subject, Steve Jobs loves to quote Henry Ford […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:04:40.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.leadershipnow.com/leadingblog/2017/12/moving_your_agenda.html">Moving Your Agenda | The Leading Blog: A Leadership Blog</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">leadershipnow.com</div>
+        </div>
+        <div class="card-section">
+          <p>Leadership Now is a leading source for leadership development and analysis. We believe that anyone can make a difference by leading from where they are.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:53.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://mattermark.com/wp-content/uploads/2017/01/Battle_at_Dabulin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mattermark.com/ancient-chinese-war-general-run-startup-better">How An Ancient Chinese War General Would Run Your Startup Better - Mattermark</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">mattermark.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;The success of your startup is determined before you ship a single line of code.&quot; Okay, you’re right, Sun Tzu, the ancient Chinese war general and author</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:24.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2000/09/SEPT15_03_article_Goffee_t.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2000/09/why-should-anyone-be-led-by-you">Why Should Anyone Be Led by You?</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>We all know that leaders need vision and energy, but after an exhaustive review of the most influential theories on leadership–as well as workshops with thousands of leaders and aspiring leaders–the authors learned that great leaders also share four unexpected qualities. The first quality of exceptional leaders is that they selectively reveal their weaknesses (weaknesses, not fatal flaws). Doing so lets employees see that they are approachable. It builds an atmosphere of trust and helps galvanize commitment. The second quality of inspirational leaders is their heavy reliance on intuition to gauge the appropriate timing and course of their actions. Such leaders are good “situation sensors”–they can sense what’s going on without having things spelled out for them. Managing employees with “tough empathy” is the third quality of exceptional leadership. Tough empathy means giving people what they need, not what they want. Leaders must empathize passionately and realistically with employees, care intensely about the work they do, and be straightforward with them. The fourth quality of top-notch leaders is that they capitalize on their differences. They use what’s unique about themselves to create a social distance and to signal separateness, which in turn motivates employees to perform better. All four qualities are necessary for inspirational leadership, but they cannot be used mechanically; they must be mixed and matched to meet the demands of particular situations. Most important, however, is that the qualities encourage authenticity among leaders. To be a true leader, the authors advise, “Be yourself–more–with skill.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:20:21.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/misc/nyt_logo_t_oembed_880x586.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.nytimes.com/2011/03/13/business/13hire.html">Google’s Quest to Build a Better Boss (Published 2011)</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>A company study found that a manager’s technical skills were far less valued by employees than people skills.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:20:19.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*i1HWKQM_wQGXO8msiudwvw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mfbt.ca/we-need-to-talk-about-servant-leadership-a719c4c05434">We Need to Talk About Servant Leadership</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">mfbt.ca</div>
+        </div>
+        <div class="card-section">
+          <p>Tastes great, less filling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:20:14.000Z | tags: behaviors, coaching-mentoring, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2017/02/feb17-21-88968409.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2017/02/how-to-mentor-a-perfectionist">How to Mentor a Perfectionist</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>It’s really hard.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:20:06.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2020/06/FS-LOGO.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2014/08/lincoln-on-leadership">Lincoln on Leadership</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fight the Good Fight The probability that we may fall in the struggle ought not to deter us from the support of a cause we believe to be just. Try Honey Before Vinegar If you would win a man to your cause, first convince him that you are his sincere friend. On the contrary … …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:19:33.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/3016115/leadership-now/7-tough-leadership-lessons-from-a-navy-seal-commander">https://www.fastcompany.com/3016115/leadership-now/7-tough-leadership-lessons-from-a-navy-seal-commander</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:18:34.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://hgimnetwork.org/2015/01/book-summary-the-21-irrefutable-laws-of-leadership-by-john-maxwell-part-1">Book summary the 21 irrefutable laws of leadership by john maxwell part 1</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hgimnetwork.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:16:58.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2020/06/FS-LOGO.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2015/07/golden-rules-of-leadership">The Ten Golden Rules of Leadership: Classical Wisdom for Modern Leaders</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Ten Golden Rules of Leadership explores the classical figures to determine the ten crucial axioms of leadership. Rule 1. Know Theyself. Rule 2 ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:47:03.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hackernoon.imgix.net/fallback-feat.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hackernoon.com/what-marissa-mayer-brought-to-yahoo-that-cant-be-bought-or-sold-4ee82382e4ee">What Marissa Mayer Brought to Yahoo That Can’t Be Bought or Sold | HackerNoon</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">hackernoon.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the least surprising news of 2016, Yahoo is selling its core business to Verizon for a sad $5 billion. Everyone knew this was coming — but for some reason, the headlines keep blaming Marissa.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T16:35:29.000Z | tags: culture, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/06/Jun22_22_1250870.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/06/small-actions-make-great-leaders">Small Actions Make Great Leaders</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Leadership has traditionally been taught as a set of larger actions, such as having a difficult conversation or coaching someone. In reality, leading well is an integrated activity, in which one is doing many things simultaneously. One way to learn to do this better is to think about leadership as a series of small actions that are practiced, then carefully sequenced and interwoven during interactions. For instance, instead of thinking of something as a “difficult conversation,” a leader might aim to disarm, then show appreciation, then appeal to values. Research identifies 25 such actions, and learning to implement them in the right circumstances can help one become a better leader.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-07T18:22:49.000Z | tags: influence-persuasion, leadership, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.bringthedonuts.com/img/crossfunctional/beach.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kennorton.com/essays/leading-cross-functional-teams.html">Leading Cross-Functional Teams</a>
+          <div class="card-meta">7 Jun 2022</div>
+          <div class="card-meta card-domain">kennorton.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the legendary presentation about cross-functional teams from Ken Norton that made donuts and product management synonymous.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-07T18:20:23.000Z | tags: emotions, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://www.strategy-business.com/media/image/40317823_thumb5_690x400.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.strategy-business.com/blog/How-to-Harness-Employees-Emotional-Energy">How to harness employees’ emotional energy</a>
+          <div class="card-meta">7 Jun 2022</div>
+          <div class="card-meta card-domain">strategy-business.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fuel success by linking a company’s strategic goals to the reasons people are proud to work there.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-19T23:28:42.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/A_May22_04_towfiqu-barbhuiya-junsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/nsAykopoIe?ssr=true">What It Really Means to Be Successful: Our Favorite Reads</a>
+          <div class="card-meta">19 May 2022</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>There’s no “right way” to do it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-15T17:45:56.000Z | tags: influence-persuasion, leadership, management -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/01/Jan22_10_639854106.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/01/the-secret-ingredient-of-thriving-companies-human-magic">The Secret Ingredient of Thriving Companies? Human Magic.</a>
+          <div class="card-meta">15 Jan 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>The traditional corporate approach to motivating people has been a combination of carrots and sticks: a system of financial incentives designed to mobilize everyone around a plan designed by a few smart people at the top. Multiple studies have confirmed that, for any work involving cognitive or creative skills, financial rewards do not drive motivation and performance. So, what does? According to former Best Buy CEO Hubert Joly, it takes several mutually reinforcing elements to create an environment that unleashes the kind of human magic necessary for a company purpose to take root and flourish. He presents six ingredients to create your company’s unique recipe for human magic.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T12:16:51.000Z | tags: influence-persuasion, leadership, listening, speaking -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1024/0*Hrt5Bs9jKQp-xpNt" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/how-to-give-the-gift-of-generative-thinking-6386b7ba0e61">How to Give the Gift of Generative Thinking</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>If you want to help people, don’t give them advice. Do this instead.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T12:49:28.000Z | tags: culture, influence-persuasion, leadership, company-culture -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fvwxgsbutwuw5kumgp1za_2018-10-26-20mathilde-20collin-20--20brandon-20smith-20photo-20--2025.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/the-founders-guide-to-discipline-lessons-from-fronts-mathilde-collin">The Founder’s Guide to Discipline: Lessons from Front’s Mathilde Collin</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Front&#39;s CEO and co-founder Mathilde Collin shares why a founder’s discipline matters more than vision, unveiling her own best practices and templates for communication, time management, fundraising and team building.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-16T23:05:13.000Z | tags: culture, influence-persuasion, leadership, startups, company-culture -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2ffrqz6prtrqqllq8mdhju_6a0115714b7dbf970c01675f67f4e0970b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups">‘Give away your Legos’ and other commandments for scaling startups</a>
+          <div class="card-meta">16 Oct 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Molly Graham helped forge a work culture at Facebook that&#39;s withstood huge amounts of growth. Today, she&#39;s something of a rapid scaling expert. Here&#39;s the key to doing it right, she says.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-08T13:22:56.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2021/10/org_design_skill.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/blog/org-design-skill">The Skill of Org Design</a>
+          <div class="card-meta">8 Oct 2021</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building effective organisations is a remarkably useful, if rare, skill. This is what it looks like, what it consists of, and how to tell if someone has it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T19:18:40.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fgettyimages-1303910709.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/the-ultimate-guide-to-running-executive-meetings-25-tips-from-top-startup-leaders">The Ultimate Guide to Running Executive Meetings — 25 Tips from Top Startup</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Frustrated with your Executive team meetings? We tapped 25 top leaders from the startup C-Suite to share their tested tips, from getting started with an executive team to crafting the agenda and tracking success. Whether you&#39;re a first-time CEO or seasoned startup leader, there are plenty of new ideas to try from folks at Superhuman, Lattice, Asana and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-22T21:16:54.000Z | tags: influence-persuasion, leadership, motivation -->
+      <div class="card-image">
+        <img src="https://productivityhub.org/wp-content/uploads/2019/04/annotation-2019-04-19-181227.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://productivityhub.org/2019/04/19/how-to-deliver-constructive-feedback-in-difficult-situations">How to Deliver Constructive Feedback in Difficult Situations</a>
+          <div class="card-meta">22 Aug 2021</div>
+          <div class="card-meta card-domain">productivityhub.org</div>
+        </div>
+        <div class="card-section">
+          <p>“We are dangerous when we are not conscious of our responsibility for how we behave, think, and feel.”―Marshall Rosenberg,  As a founder, my biggest regrets revolve around not having difficu…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-18T22:50:02.000Z | tags: behaviors, influence-persuasion, leadership, motivation, speaking -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2021/04/Apr21_13_HBRquotations.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2021/04/find-the-right-words-to-inspire-your-team">Find the Right Words to Inspire Your Team</a>
+          <div class="card-meta">18 Apr 2021</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>It’s important to understand that when you, as a leader, communicate with your team, using weaker words weakens your message and blunts your ability to inspire people. It’s not enough to just throw thoughts out there and hope for the best. You need to actively recommend ideas and assert their worthiness in all of your communications. For example, consider these “power words”: “I’m proposing (not “sharing”) an idea that will make our process more efficient.” “I’m suggesting (not “sharing”) a new logo that better conveys our brand message.” “I’m recommending (not “sharing”) a campaign to make our workplace more diverse.” Ultimately, audiences respond more actively to big points than to small words, but thoughtful leaders need to assess both, knowing that the more powerfully they come across — even in small ways — the greater impact they have on the people they hope to inspire.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-30T14:31:23.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2016/03/Productive-writing.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2016/03/carl-braun-communicating">Carl Braun on Communicating Like a Grown-Up</a>
+          <div class="card-meta">30 Jan 2021</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Industrial genius Carl Braun believed that clear thinking and clear communication go hand in hand. Here the guide on writing productively to get things done.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:57:42.000Z | tags: influence-persuasion, leadership, writing -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sriramk.com/memos">Memos</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">sriramk.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:10:51.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/strategy-lessons-from-machiavelli-the-prince">Quotes and Lessons about Strategy from Machiavelli’s “The Prince” – Effecti</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-31T13:52:34.000Z | tags: behaviors, influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fcdn.theatlantic.com%2Fassets%2Fmedia%2Fimg%2F2016%2F08%2FDIS_Hutson_SoSCharm%2Flead_720_405.jpg%3Fmod%3D1533692236" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-to-bend-people-to-your-will">The Charisma Effect</a>
+          <div class="card-meta">31 Dec 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to bend people to your will.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:52:16.000Z | tags: influence-persuasion, leadership -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*9-8xPocLU9TE3wocC8XwBA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/swlh/7-strategies-for-establishing-authority-6ca2bdd8cdfc">7 Strategies for Establishing Authority</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Remember that the essence of authority is that people willingly follow your lead. That is what the following strategies are designed to do.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

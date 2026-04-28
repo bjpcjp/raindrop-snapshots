@@ -1,0 +1,1379 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>algorithms-math + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-02-10T15:54:30.089Z | tags: machine-learning, search, similarity-search, algorithms-math -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/mltechniques.com/wp-content/uploads/2024/02/ann-max.png?fit=813%2C519&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mltechniques.com/2024/02/11/probabilistic-ann-the-swiss-army-knife-of-genai/?fbclid=IwY2xjawP4M_pleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA80MDk5NjI2MjMwODU2MDkAAR5q_yD5ClAptG2MguG4qaJd8xG6j6957Yh1IoDrzno99uYPGRu9B2NLqyiv-Q_aem_4EVeYWZbSxpLN40XfDEzlg">Probabilistic Nearest Neighbor Search: The Swiss Army Knife of GenAI</a>
+          <div class="card-meta">10 Feb 2026</div>
+          <div class="card-meta card-domain">mltechniques.com</div>
+        </div>
+        <div class="card-section">
+          <p>ANN — Approximate Nearest Neighbors —  is at the core of fast vector search, itself central to GenAI, especially GPT and LLM. My new methodology, abbreviated as PANN, has many other app…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-15T01:27:49.328Z | tags: machine-learning, vector-databases, algorithms-math -->
+      <div class="card-image">
+        <img src="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/cartoon-espresso-word2vec.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity">Don&#39;t use cosine similarity carelessly - Piotr Migdał</a>
+          <div class="card-meta">15 Jan 2025</div>
+          <div class="card-meta card-domain">p.migdal.pl</div>
+        </div>
+        <div class="card-section">
+          <p>Cosine similarity - the duct tape of AI. Convenient but often misused. Let&#39;s find out how to use it better.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-30T23:47:01.613Z | tags: machine-learning, algorithms-math -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/mltechniques.com/wp-content/uploads/2023/04/mae_lr.png?fit=600%2C325&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mltechniques.com/2023/04/07/massively-speed-up-your-learning-algorithm-with-stochastic-thinning/?fbclid=IwZXh0bgNhZW0CMTEAAR1WhWuUBB08Mu3lUjjjutJHWunNGq1AVvgqn3Mmy4H5uu53Ms6Fqiu43Dg_aem_rAqyKSlRBXec9Wcyd8vWag">Massively Speed-Up your Learning Algorithm, with Stochastic Thinning - Machine Learning Techniques</a>
+          <div class="card-meta">30 Dec 2024</div>
+          <div class="card-meta card-domain">mltechniques.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dramatically Speed-Up your Learning Algorithm, with Stochastic Thinning. Includes use case, Python code, regression and neural network illustrations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-06T17:39:45.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://algorist.com/algorist.html">Algorithm Repository</a>
+          <div class="card-meta">6 Apr 2024</div>
+          <div class="card-meta card-domain">algorist.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-05T00:00:46.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://nhigham.com/wp-content/uploads/2020/12/cropped-200302-1351-14_9943_2979_rot_square_1600px.jpg?w=200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nhigham.com/2022/05/11/what-is-a-schur-decomposition">What Is a Schur Decomposition? – Nick Higham</a>
+          <div class="card-meta">5 Mar 2024</div>
+          <div class="card-meta card-domain">nhigham.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Schur decomposition of a matrix $latex A\in\mathbb{C}^{n\times n}$ is a factorization $LATEX A = QTQ^*$, where $LATEX Q$ is unitary and $LATEX T$ is upper triangular. The diagonal entries of $LAT…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-18T19:53:35.000Z | tags: algorithms-math, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*AesSE_wxa1UCZKKHZLt8rg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-perfect-way-to-smooth-your-noisy-data-4f3fe6b44440?source=rss----7f60cf5620c9---4">The Perfect Way to Smooth Your Noisy Data</a>
+          <div class="card-meta">18 Jan 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Insanely fast and reliable smoothing and interpolation with the Whittaker-Eilers method.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-30T23:53:51.000Z | tags: algorithms-math, machine-learning, market-basket, python, analytics -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/10/Market-Basket-Analysis-using-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/10/16/market-basket-analysis-using-python">Market Basket Analysis using Python</a>
+          <div class="card-meta">30 Oct 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through the task of Market Basket Analysis using Python. Market Basket Analysis using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T00:58:38.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WyqufRi3-a_YEOSvmuwK9Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-blending-inverted-file-index-and-product-quantization-a8e508c765fa">Similarity Search, Part 3: Blending Inverted File Index and Product Quantiz</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the first two parts of this series we have discussed two fundamental algorithms in information retrieval: inverted file index and…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T00:58:38.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Qz7AjCqkO7SYm5XHhn3uzw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37">Similarity Search, Part 4: Hierarchical Navigable Small World (HNSW) | by V</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hierarchical Navigable Small World (HNSW) is a state-of-the-art algorithm used for an approximate search of nearest neighbours. Under the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:06:23.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/bd978bb536350a710e8efb012513429cabdc4c28700604261aeda246d0f980b7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://esteininger.medium.com/building-a-vector-search-engine-using-hnsw-and-cosine-similarity-753fb5268839">Building a Vector Search Engine Using HNSW and Cosine Similarity</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">esteininger.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hierarchical Navigable Small World graphs (HNSW) is an algorithm that allows for efficient nearest neighbor search, and the Sentence…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:05:17.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Zcb_GLW_EoV8rUkSkf5ddg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-knn-inverted-file-index-7cab80cc0e79">Similarity Search, Part 1: kNN &amp; Inverted File Index</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Similarity search is a popular problem where given a query Q we need to find the most similar documents to it among all the documents D.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:05:04.000Z | tags: algorithms-math, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*FDzJq40CdsR4nMh0Lwa0XA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-product-quantization-b2a1a6397701">Similarity Search, Part 2: Product Quantization</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn a powerful technique to effectively compress large data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:04:49.000Z | tags: algorithms-math, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*P8n3aIyqPKWzxeGMAenEag.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-part-5-locality-sensitive-hashing-lsh-76ae4b388203?source=rss----7f60cf5620c9---4">Similarity Search, Part 5: Locality Sensitive Hashing (LSH)</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore how similarity information can be incorporated into hash function</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:04:27.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NV-we_ptTD5lCxR03QRBwA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-part-6-random-projections-with-lsh-forest-f2e9b31dcc47?source=rss----7f60cf5620c9---4">Similarity Search, Part 6: Random Projections with LSH Forest</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understand how to hash data and reflect its similarity by constructing random hyperplanes</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-27T22:04:12.000Z | tags: algorithms-math, machine-learning, search, similarity-search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Yjtrd25PRZgeJovT7UHf7Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/similarity-search-part-7-lsh-compositions-1b2ae8239aca">Similarity Search, Part 7: LSH Compositions</a>
+          <div class="card-meta">27 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dive into combinations of LSH functions to guarantee a more reliable search</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-29T17:18:33.000Z | tags: algorithms-math, hashing, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:822/1*d0Gj39UszZRK5lmN6cZt4A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hashing-in-modern-recommender-systems-a-primer-9c6b2cf4497a?source=rss----7f60cf5620c9---4">Hashing in Modern Recommender Systems: A Primer</a>
+          <div class="card-meta">29 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding the most underrated trick in applied Machine Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-26T18:40:35.000Z | tags: activations, algorithms-math, machine-learning, physics, classification -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*twSQInTLX8qC_juaAA-PcQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-meaning-behind-logistic-classification-from-physics-291774fda579">The Meaning Behind Logistic Classification, from Physics | by Tim Lou, PhD</a>
+          <div class="card-meta">26 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why do we use the logistic and softmax functions? Thermal physics may have an answer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-07T20:33:29.000Z | tags: algorithms-math, bandits, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/popovic_introduction_multiarmed_bandit_problems_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/01/introduction-multiarmed-bandit-problems.html">Introduction to Multi-Armed Bandit Problems</a>
+          <div class="card-meta">7 Jan 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Delve deeper into the concept of multi-armed bandits, reinforcement learning, and exploration vs. exploitation dilemma.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-23T22:08:55.000Z | tags: algorithms-math, benchmarks, best-practices, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.datasciencecentral.com/wp-content/uploads/2022/11/jp3-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datasciencecentral.com/how-to-choose-the-best-machine-learning-technique-comparison-table">How to Choose the Best Machine Learning Technique: Comparison Table</a>
+          <div class="card-meta">23 Nov 2022</div>
+          <div class="card-meta card-domain">datasciencecentral.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to Choose the Best Machine Learning Technique: Comparison Table</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:02:04.000Z | tags: algorithms-math, machine-learning, nlp, topic-modeling -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*gZdKeE6uuzUrstJYuOTpYw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/topic-modeling-with-lsa-plsa-lda-nmf-bertopic-top2vec-a-comparison-5e6ce4b1e4a5?source=rss----7f60cf5620c9---4">Topic Modeling with LSA, pLSA, LDA, NMF, BERTopic, Top2Vec: a Comparison</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comparison between different topic modeling strategies including practical Python examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-12T13:24:37.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2022/09/11/adjacency-networks">Adjacency networks</a>
+          <div class="card-meta">12 Sep 2022</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding the adjacency graphs for US states and Texas counties using Mathematica</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:42:44.000Z | tags: algorithms-math, linear-algebra, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/tayo_linear_algebra_data_science_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/07/linear-algebra-data-science.html">Linear Algebra for Data Science - KDnuggets</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we discuss the importance of linear algebra in data science and machine learning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-13T01:18:20.000Z | tags: algorithms-math, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:720/1*X10Usd9AgRGfdQqvmVR2VQ.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-self-organising-map-neural-network-with-python-code-7a77f501e985">Understanding Self-Organising Map Neural Network with Python Code</a>
+          <div class="card-meta">13 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Brain-inspired unsupervised machine learning through competition, cooperation and adaptation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-10T10:51:17.000Z | tags: algorithms-math, books, linear-algebra, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://substack.com/redirect/bb5ad843-c722-433f-96d1-ff729a3bef7c?u=1135489">Probabilistic Numerics | Textbooks</a>
+          <div class="card-meta">10 Jul 2022</div>
+          <div class="card-meta card-domain">substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quantifying Uncertainty in Computation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:17:13.000Z | tags: algorithms-math, analytics, machine-learning, prob-stats -->
+      <div class="card-image">
+        <img src="https://www.evanmiller.org/images/previews/index.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org">Home Page of Evan Miller</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+        <div class="card-section">
+          <p>Articles, software, calculators, and opinions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T23:00:11.000Z | tags: algorithms-math, genetics, machine-learning, optimization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*rw49rc902kU8IP77" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/complete-step-by-step-genetic-algorithm-from-scratch-for-global-optimization-6fee5c55dd3b">Complete Step-by-step Genetic Algorithm from Scratch for Global Optimization</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>No need to worry about getting stuck in local minima anymore</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T14:06:52.000Z | tags: algorithms-math, books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://superstudy.guide">Super Study Guides</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">superstudy.guide</div>
+        </div>
+        <div class="card-section">
+          <p>Illustrated study guides ideal for visual learners.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-18T19:26:49.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://nhigham.com/wp-content/uploads/2020/12/cropped-200302-1351-14_9943_2979_rot_square_1600px.jpg?w=200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nhigham.com/2022/05/18/the-big-six-matrix-factorizations">The Big Six Matrix Factorizations – Nick Higham</a>
+          <div class="card-meta">18 May 2022</div>
+          <div class="card-meta card-domain">nhigham.com</div>
+        </div>
+        <div class="card-section">
+          <p>Six matrix factorizations dominate in numerical linear algebra and matrix analysis: for most purposes one of them is sufficient for the task at hand. We summarize them here. For each factorization …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-12T02:08:55.000Z | tags: algorithms-math, machine-learning, music, audio -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8960102/og_image/optimized/default-social-3-b0dfab051089b234a4ec6b009154a1f5.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition">How does Shazam work? Music Recognition Algorithms, Fingerprinting, and Processing | Toptal®</a>
+          <div class="card-meta">12 Apr 2022</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Shazam music recognition application made it finally possible to put a name to that song on the radio. But how does this magical miracle actually work?  In this article, Toptal Freelance Software Engineer Jovan Jovanovic sheds light on the principles of audio signal processing, fingerprinting, and recognition,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-20T14:23:09.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/58dc1a1ee4fcb51cbb80a096/t/66b165fe2926b21d072cf900/1722901809767/ML-CheatSheet-en.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.accel.ai/anthology/2022/1/24/machine-learning-algorithms-cheat-sheet">Machine Learning Algorithms Cheat Sheet — Accel.AI</a>
+          <div class="card-meta">20 Feb 2022</div>
+          <div class="card-meta card-domain">accel.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning is a subfield of artificial intelligence (AI) and computer science that focuses on using data and algorithms to mimic the way people learn, progressively improving its accuracy. This way, Machine Learning is one of the most interesting methods in Computer Science these days, and it&#39;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-02T00:46:01.000Z | tags: algorithms-math, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*x_WiMjF0s6_gGRqPmDZ1Eg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/data-scientists-the-five-graph-algorithms-that-you-should-know-30f454fa5513">Data Scientists, The 5 Graph Algorithms that you should know</a>
+          <div class="card-meta">2 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Because Graph Analytics is the future</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-24T20:10:53.000Z | tags: algorithms-math, boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/przybyla-lightgbm-4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/01/data-scientists-reasons-lightgbm.html">3 Reasons Why Data Scientists Should Use LightGBM</a>
+          <div class="card-meta">24 Jan 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are many great boosting Python libraries for data scientists to reap the benefits of. In this article, the author discusses LightGBM benefits and how they are specific to your data science job.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T20:12:37.000Z | tags: algorithms-math, kalman-filters, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures">How a Kalman filter works, in pictures | Bzarg</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">bzarg.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-25T18:43:53.000Z | tags: algorithms-math, best-practices, machine-learning -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/277168957/3b6ddf00-58a0-11eb-98f0-2dd35a84244a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/eugeneyan/applied-ml">eugeneyan/applied-ml: ? Papers &amp; tech blogs by companies sharing their work</a>
+          <div class="card-meta">25 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>📚 Papers &amp; tech blogs by companies sharing their work on data science &amp; machine learning in production. - eugeneyan/applied-ml</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:44:14.000Z | tags: algorithms-math, linear-algebra, machine-learning -->
+      <div class="card-image">
+        <img src="https://raw.githubusercontent.com/gist/nadavrot/5b35d44e8ba3dd718e595e40184d03f0/raw/75f183012236045a53ebc148aaea0265963c0273/zcounters.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0">Efficient matrix multiplication</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">gist.github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Efficient matrix multiplication · GitHub</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-23T15:00:14.000Z | tags: algorithms-math, lagrange, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.slimy.com/~steuard/teaching/tutorials/Lagrange.html">An Introduction to Lagrange Multipliers</a>
+          <div class="card-meta">23 Nov 2021</div>
+          <div class="card-meta card-domain">slimy.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T17:58:40.000Z | tags: algorithms-math, filters, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*7W6fZL2dZFfvPuw9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/optimal-estimation-algorithms-kalman-and-particle-filters-be62dcb5e83">Optimal Estimation Algorithms: Kalman and Particle Filters</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to the Kalman and Particle Filters and their applications in fields such as Robotics and Reinforcement Learning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-24T00:00:00.000Z | tags: machine-learning, deep-learning, books, algorithms-math, github -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/45f1f4dfb2cc2652c0a1f9376fc10dda71150a108f61d3d42f8705578824e25b/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources">Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources</a>
+          <div class="card-meta">24 Sep 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Compendium of free ML reading resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-03T22:42:53.000Z | tags: algorithms-math, linear-algebra, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2106.10860v1">[2106.10860v1] Multiplying Matrices Without Multiplying</a>
+          <div class="card-meta">3 Sep 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Multiplying matrices is among the most fundamental and compute-intensive operations in machine learning. Consequently, there has been significant work on efficiently approximating matrix...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-17T00:13:51.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:341/1*dfvpuGazSFCNVnmAe-eGdw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/complete-guide-to-understanding-node2vec-algorithm-4e9a35e5d147?source=rss----7f60cf5620c9---4">Complete guide to understanding Node2Vec algorithm</a>
+          <div class="card-meta">17 Aug 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An in-depth guide to understanding node2vec algorithm and its hyper-parameters</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-26T09:54:21.000Z | tags: algorithms-math, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq2m5jmrt4706g01x5l6m.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/joooyz/an-introduction-to-a-pathfinding-tutorial-f9o">An introduction to A* pathfinding (tutorial)</a>
+          <div class="card-meta">26 Jul 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This is part 3 of a series on bot programming originally published on the Coder One blog.  Part 1:...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-13T16:19:27.000Z | tags: algorithms-math, apriori, machine-learning, market-basket -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.49:0.5/1*b1X3sV7WgElbWUZCYMOMrA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/apriori-algorithm-for-association-rule-learning-how-to-find-clear-links-between-transactions-bf7ebc22cf0a?source=rss----7f60cf5620c9---4">Apriori Algorithm for Association Rule Learning — How To Find Clear Links B</a>
+          <div class="card-meta">13 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explanation and examples of frequent itemset mining and association rule learning over relational databases in Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-05T20:35:07.000Z | tags: algorithms-math, correlation, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Zyoor62U2IIUNQDb0rZ04A.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/OY7lDMsoChb">Types of Correlation Coefficients</a>
+          <div class="card-meta">5 Jul 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Different Kinds of Correlation Coefficients in a Deeper Look</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-04T12:11:26.000Z | tags: algorithms-math, machine-learning, python, survival-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Zqk9SXBRdwmuaxd_phazag.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hands-on-survival-analysis-with-python-270fa1e6fb41?source=rss----7f60cf5620c9---4">Hands-on Survival Analysis with Python</a>
+          <div class="card-meta">4 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What companies can learn from employee turnover data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-17T20:11:10.000Z | tags: algorithms-math, knapsack, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*raN1kF-t9QNDogfBawbrJQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/combinatorial-optimization-the-knapsack-problem-9f7047e16028?source=rss----7f60cf5620c9---4">Combinatorial Optimization: The Knapsack Problem</a>
+          <div class="card-meta">17 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this story, we are going to discuss an application of dynamic programming techniques to an optimization algorithm. Through the process of developing an optimal solution, we get to study a variety…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-05T15:12:53.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.neotree.uber.space/posts/kolmogorov-complexity">Kolmogorov Complexity: Extensions and Applications</a>
+          <div class="card-meta">5 May 2021</div>
+          <div class="card-meta card-domain">blog.neotree.uber.space</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-01T00:49:36.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterexplained.com/articles/hyperbolic-functions">https://betterexplained.com/articles/hyperbolic-functions/</a>
+          <div class="card-meta">1 May 2021</div>
+          <div class="card-meta card-domain">betterexplained.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:30:14.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*aFDSzfrgmujhEgY3" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/graph-theory-basics-88a89863e3c1?source=rss----7f60cf5620c9---4">Graph Theory Basics</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>What you need to know as graph theory adoption continues to take off</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-05T17:58:32.000Z | tags: algorithms-math, grocery, machine-learning, supply-chain -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/image-of-a-instacart-shopper-reaching-for-a-orders-item.jpg?id=26144822&amp;width=1200&amp;height=600&amp;coordinates=0%2C155%2C0%2C155" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/artificial-intelligence/machine-learning/the-algorithms-that-make-instacart-roll">The Algorithms That Make Instacart Roll</a>
+          <div class="card-meta">5 Mar 2021</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Instacart crunches petabytes daily to predict what will be on grocery shelves and even how long it will take to find parking</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T12:31:08.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5796%2F1601055329_Graph_826_MHeule_5K.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/decades-old-graph-problem-yields-to-amateur-mathematician">Decades-Old Graph Problem Yields to Amateur Mathematician</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>By making the first progress on the “chromatic number of the plane” problem in over 60 years, an anti-aging pundit has achieved mathematical immortality.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-01T15:55:44.000Z | tags: algorithms-math, benchmarks, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://benchmarkfcns.xyz/fcns">Benchmark functions | BenchmarkFcns</a>
+          <div class="card-meta">1 Jan 2021</div>
+          <div class="card-meta card-domain">benchmarkfcns.xyz</div>
+        </div>
+        <div class="card-section">
+          <p>This website is for sale! benchmarkfcns.xyz is your first and best source for all of the information you’re looking for. From general topics to more of what you would expect to find here, benchmarkfcns.xyz has it all. We hope you find what you are searching for!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T12:30:00.000Z | tags: algorithms-math, graphs, machine-learning, ruby -->
+      <div class="card-image">
+        <img src="https://www.rubyguides.com/wp-content/uploads/2017/05/graph-theory-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.rubyguides.com/2017/05/graph-theory-in-ruby">Practical Graph Theory in Ruby</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">rubyguides.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the next installment in the &quot;Practical Computer Science&quot; series, where you will learn how to apply classic computer science concepts to solve real problems using Ruby.  Today we are going to talk about Graph</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-23T14:43:08.000Z | tags: algorithms-math, machine-learning, optimization, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*QdcaMRVvRVkjDMGAhZW4Ug.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/bfgs-in-a-nutshell-an-introduction-to-quasi-newton-methods-21b0e13ee504?source=rss----7f60cf5620c9---4">BFGS in a Nutshell: An Introduction to Quasi-Newton Methods</a>
+          <div class="card-meta">23 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Demystifying the inner workings of BFGS optimization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-23T14:38:16.000Z | tags: algorithms-math, lagrange, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*eqS0JLtbqcVN4hI6cvO14w.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e">Lagrange multipliers with visualizations and code | by Rohit Pandey | Towar</a>
+          <div class="card-meta">23 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this story, we’re going to take an aerial tour of optimization with Lagrange multipliers. When do we need them? Whenever we have an…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-24T17:44:04.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/9ff7217eea734f538fe8da6d84056dede127985baad6c098a7ef93d989081ea2/pdclab/peregrine" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/pdclab/peregrine">Peregrine: A Pattern-Aware Graph Mining System</a>
+          <div class="card-meta">24 Nov 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Peregrine: A Pattern-Aware Graph Mining System.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-10T17:51:02.000Z | tags: algorithms-math, bandits, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*e7T9wQtgE2cro-mC" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-comparison-of-bandit-algorithms-24b4adfcabb?source=rss----7f60cf5620c9---4">A Comparison of Bandit Algorithms</a>
+          <div class="card-meta">10 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Multi-Armed Bandits: Part 6</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-09T16:26:06.000Z | tags: algorithms-math, graphs, machine-learning -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/graphs/1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2019/09/02/graph_algs">MLWhiz: Helping You Learn Data Science!</a>
+          <div class="card-meta">9 Nov 2020</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, I am going to be talking about some of the most important graph algorithms you should know and how to implement them using Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:37:45.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*xWizE-ob9EDXo5fVyHoToA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/all-the-eigen-stuff-they-never-thought-you-should-know-3d87ddfa5346?source=rss----7f60cf5620c9---4">All the ~Eigen-stuff they never thought you should know</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>To Infinity and…Linear Algebra?!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:35:39.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.georgeho.org/assets/images/asterism.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://eigenfoo.xyz/floating-point-deep-learning">Floating-Point Formats and Deep Learning</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">eigenfoo.xyz</div>
+        </div>
+        <div class="card-section">
+          <p>Floating-point formats are not the most glamorous or (frankly) the important consideration when working with deep learning models: if your model isn’t working well, then your floating-point format certainly isn’t going to save you! However, past a certain point of model complexity/model size/training time, your choice of floating-point format can have a significant impact on your model training times and even performance. Here’s how the rest of this post is structured:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-11T16:37:32.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sentient.ai/blog/ai-101-intro-evolutionary-algorithms">AI 101: Intro to Evolutionary Algorithms</a>
+          <div class="card-meta">11 Aug 2020</div>
+          <div class="card-meta card-domain">sentient.ai</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-11T16:35:15.000Z | tags: algorithms-math, machine-learning, regressions -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*gOl4CSjCfb5SnzgO-yzd-w.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/polynomial-regression-the-only-introduction-youll-need-49a6fb2b86de?source=rss----7f60cf5620c9---4">Polynomial Regression: The Only Introduction You’ll Need</a>
+          <div class="card-meta">11 Aug 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep-dive into the theory and application behind this Machine Learning algorithm in Python, by a student</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-24T17:43:37.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*VLVYTZZWtA9wr_7y" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-singular-value-decomposition-without-algebra-ae10147aab4c?source=rss----7f60cf5620c9---4">The Singular Value Decomposition without Algebra</a>
+          <div class="card-meta">24 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understand the Ultimate Linear Algebra concept with Geometry</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:01.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2020/05/How-to-Use-Polynomial-Features-Transforms-for-Machine-Learning.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning">How to Use Polynomial Feature Transforms for Machine Learning</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>Often, the input features for a predictive modeling task interact in unexpected and often nonlinear ways. These interactions can be identified and modeled by a learning algorithm. Another approach is to engineer new features that expose these interactions and see if they improve model performance. Additionally, transforms like raising input variables to a power can help to better expose the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:43:01.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://assets.amazon.science/dims4/default/25f12a6/2147483647/strip/true/crop/4000x2100+0+75/resize/1200x630!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F42%2F8d%2Fae3cd5d247ed9f6ed61085e1a571%2Fdecisiontree-01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.amazon.science/blog/speeding-training-of-decision-trees">Speeding training of decision trees</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">amazon.science</div>
+        </div>
+        <div class="card-section">
+          <p>New method reduces training time by up to 99%, with no loss in accuracy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T21:01:23.000Z | tags: algorithms-math, deep-learning, machine-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ruxbWPSbcz4vMsMs" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-associative-embedding-1b22677751f3?source=rss----7f60cf5620c9---4">Understanding Associative Embedding</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An elegant method to group predictions without labeling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:50.000Z | tags: algorithms-math, machine-learning, numpy, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*pvADcGrbHeiFJIHeTBDlUg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/using-q-learning-in-numpy-to-teach-an-agent-to-play-a-game-4fee32eb922a?source=rss----7f60cf5620c9---4">Using Q-Learning in Numpy to teach an agent to play a game</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using q-learning for sequential decision making and therefore learning to play a simple game.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:28:42.000Z | tags: algorithms-math, machine-learning, pandas -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:600/1*cCW6UYMxoA_3etQv4b2nIw.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/7-advanced-tricks-in-pandas-for-data-science-41a71632b5d9?source=rss----7f60cf5620c9---4">7 advanced tricks in pandas for data science</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pandas is the go-to library for data science. These are the shortcuts I use to do repetitive data science tasks faster and simpler.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T14:01:35.000Z | tags: algorithms-math, labeling, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*--JXGbe2PmmuTZYHo-APug.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/layered-label-propagation-algorithm-1b181b982e80?source=rss----7f60cf5620c9---4">Layered Label Propagation Algorithm</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An algorithm for community finding</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T13:57:39.000Z | tags: algorithms-math, machine-learning, numpy, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*YGcMQSr0ge_DGn96WnEkZw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-complete-beginners-guide-to-matrix-multiplication-for-data-science-with-python-numpy-9274ecfc1dc6?source=rss----7f60cf5620c9---4">A Complete Beginners Guide to Matrix Multiplication for Data Science with P</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn matrix multiplication for machine learning by following along with Python examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T13:57:35.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:522/1*XRCKi57r-Jlgcts5xr0CZg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/partial-correlation-vs-conditional-mutual-information-c7feffa9b88e?source=rss----7f60cf5620c9---4">Partial Correlation Vs. Conditional Mutual Information</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding relationships between different variables/ features in a dataset during a data analysis task is one of the key and fundemental…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T17:44:25.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:518/1*-IPqWOcHcL7mb2HXWNaCMw.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/co-variance-an-intuitive-explanation-a67f6c80674d?source=rss----7f60cf5620c9---4">Co-variance: An intuitive explanation!</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comprehensive but simple guide which focus more on the idea behind the formula rather than the math itself — start building the block…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T16:01:36.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*aMxLXGQZZrBYZXnR" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matthews-correlation-coefficient-when-to-use-it-and-when-to-avoid-it-310b3c923f7e?source=rss----7f60cf5620c9---4">Matthews Correlation Coefficient: when to use it and when to avoid it</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s not a silver bullet metric to classification problems</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-15T15:52:33.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*gjhEXfy5r3L4S1ZYlBYdKw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a?source=rss----7f60cf5620c9---4">t-SNE clearly explained</a>
+          <div class="card-meta">15 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An intuitive explanation of t-SNE algorithm and why it’s so useful in practice.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:15:19.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/0*jibyT2jB0ExPfgx3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matrix-factorization-as-a-recommender-system-727ee64683f0?source=rss----7f60cf5620c9---4">Matrix Factorization as a Recommender System</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Explanation and Implementation of Matrix Factorization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-29T13:40:32.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1644%2F1568747880_GettyImages-465645737.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/local-links-run-the-world">Local Links Run The World</a>
+          <div class="card-meta">29 Mar 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Networks regulate everything from ant colonies and middle schools to epidemics and the internet. Here’s how they work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-16T16:54:05.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2003.05689">Hyper-Parameter Optimization: A Review of Algorithms and Applications</a>
+          <div class="card-meta">16 Mar 2020</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Since deep neural networks were developed, they have made huge contributions to everyday lives. Machine learning provides more rational advice than humans are capable of in almost every aspect of...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:06:57.000Z | tags: algorithms-math, machine-learning, search -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quora.com/What-are-some-fast-similarity-search-algorithms-and-data-structures-for-high-dimensional-vectors">What are some fast similarity search algorithms and data structures for hig</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">quora.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:47:57.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dhruvonmath.com/2019/04/04/kernels">https://dhruvonmath.com/2019/04/04/kernels</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">dhruvonmath.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T20:46:01.000Z | tags: algorithms-math, books, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jeffe.cs.illinois.edu/teaching/algorithms#book">Algorithms by Jeff Erickson</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">jeffe.cs.illinois.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-06T15:55:48.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant">Jacobian matrix and determinant - Wikipedia</a>
+          <div class="card-meta">6 Aug 2019</div>
+          <div class="card-meta card-domain">en.wikipedia.org</div>
+        </div>
+        <div class="card-section">
+          <p>In vector calculus, the Jacobian matrix (/dʒəˈkoʊbiən/,&amp;#91;1&amp;#93;&amp;#91;2&amp;#93;&amp;#91;3&amp;#93; /dʒɪ-, jɪ-/) of a vector-valued function of several variables is the matrix of all its first-order partial derivatives. When this matrix is square, that is, when the function takes the same number of variables as input as the number of vector components of its output, its determinant is referred to as the Jacobian determinant. Both the matrix and (if applicable) the determinant are often referred to simply as the Jacobian in literature.&amp;#91;4&amp;#93; They are named after Carl Gustav Jacob Jacobi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-09T02:49:05.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.floydhub.com/introduction-to-genetic-algorithms">Introduction to Genetic Algorithms</a>
+          <div class="card-meta">9 Jul 2019</div>
+          <div class="card-meta card-domain">blog.floydhub.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-14T23:23:42.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.waffles.space/2018/12/07/deep-dive-into-hashbrown">The Swiss Army Knife of Hashmaps</a>
+          <div class="card-meta">14 Dec 2018</div>
+          <div class="card-meta card-domain">blog.waffles.space</div>
+        </div>
+        <div class="card-section">
+          <p>A while back, there was a discussion comparing the performance of using the hashbrown crate (based on Google’s SwissTable implementation1) in the Rust compiler. In the last RustFest, Amanieu was experimenting on integrating his crate into stdlib, which turned out to have some really promising results. As a result, it’s being planned to move the crate into stdlib. I insist on watching this talk when you have some free time! ↩</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:39:59.000Z | tags: algorithms-math, machine-learning, optimization -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://fa.bianp.net/teaching/2018/eecs227at">Eecs227at</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">fa.bianp.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:35:07.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://distill.pub/2017/ctc/thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://distill.pub/2017/ctc">Sequence Modeling with CTC</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">distill.pub</div>
+        </div>
+        <div class="card-section">
+          <p>A visual guide to Connectionist Temporal Classification, an algorithm used to train deep neural networks in speech recognition, handwriting recognition and other sequence problems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:35:02.000Z | tags: algorithms-math, machine-learning, monte-carlo -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.moderndescartes.com/essays/deep_dive_mcts">A Deep Dive into Monte Carlo Tree Search</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">moderndescartes.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-15T18:56:13.000Z | tags: algorithms-math, linear-algebra, machine-learning -->
+      <div class="card-image">
+        <img src="https://setosa.io/ev/eigenvectors-and-eigenvalues/fb-thumb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://setosa.io/ev/eigenvectors-and-eigenvalues">Eigenvectors and Eigenvalues explained visually</a>
+          <div class="card-meta">15 May 2018</div>
+          <div class="card-meta card-domain">setosa.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-04-01T13:28:40.000Z | tags: algorithms-math, benchmarks, machine-learning -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2018/01/Algorithm-performance-improvement-via-parameter-tuning.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/start-with-gradient-boosting">Start With Gradient Boosting, Results from Comparing 13 Algorithms on 165 D</a>
+          <div class="card-meta">1 Apr 2018</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which machine learning algorithm should you use? It is a central question in applied machine learning. In a recent paper by Randal Olson and others, they attempt to answer it and give you a guide for algorithms and parameters to try on your problem first, before spot checking a broader suite of algorithms. In this post, you will discover a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:06:30.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.kdnuggets.com/2017/10/understanding-machine-learning-algorithms.html">Understanding Machine Learning Algorithms</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning algorithms aren’t difficult to grasp if you understand the basic concepts. Here, a SAS data scientist describes the foundations for some of today’s popular algorithms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-03T00:40:48.000Z | tags: algorithms-math, machine-learning -->
+      <div class="card-image">
+        <img src="https://news.mit.edu/sites/default/files/images/201511/MIT-Modeling-Unknowns.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://news.mit.edu/2015/shrinking-bulls-eye-algorithm-speeds-complex-modeling-days-hours-1116">“Shrinking bull’s-eye” algorithm speeds up complex modeling from days to ho</a>
+          <div class="card-meta">3 Oct 2016</div>
+          <div class="card-meta card-domain">news.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>A new “shrinking bull’s-eye” algorithm from researchers at MIT speeds up complex modeling from days to hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

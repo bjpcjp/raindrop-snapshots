@@ -1,0 +1,1111 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>semiconductors + sram &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-02T11:27:48.447Z | tags: semiconductors, sram, chip-design, semiconductor-memory -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_373262549-scaled.jpeg?fit=2560%2C1713&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/reinventing-embedded-memory-solving-the-sram-scaling-wall/">Reinventing Embedded Memory: Solving The SRAM Scaling Wall</a>
+          <div class="card-meta">2 Apr 2026</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new embedded memory architecture with a three-transistor cell.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-06T20:55:46.615Z | tags: chip-design, semiconductors, cpus, gpus, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/beyond-von-neumann-toward-a-unified-deterministic-architecture">Beyond Von Neumann: Toward a unified deterministic architecture</a>
+          <div class="card-meta">6 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-15T19:53:50.526Z | tags: dsp, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/AdobeStock_322782977-01-29-25-scaled.jpeg?fit=2560%2C1350&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/energy-efficient-signal-detectors-for-massive-mimo-using-sram-based-imcs-univ-of-illinois-at-urbana-champaign/">Energy-Efficient Signal Detectors For Massive MIMO Using SRAM-Based IMCs</a>
+          <div class="card-meta">15 Aug 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “Energy-Accuracy Trade-Offs in Massive MIMO Signal Detection Using SRAM-Based In-Memory Computing” was published by researchers at the University of Illinois at Urbana–Champaign. Abstract “This paper investigates the use of SRAM-based in-memory computing (IMC) architectures for designing energy efficient and accurate signal detectors for massive multi-input multi-output (MIMO) systems. SRAM-based IMCs... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-28T17:15:35.860Z | tags: optics-photonics, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2506.22707">X-pSRAM: A Photonic SRAM with Embedded XOR Logic for Ultra-Fast...</a>
+          <div class="card-meta">28 Jul 2025</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Traditional von Neumann architectures suffer from fundamental bottlenecks due to continuous data movement between memory and processing units, a challenge that worsens with technology scaling as electrical interconnect delays become more significant. These limitations impede the performance and energy efficiency required for modern data-intensive applications. In contrast, photonic in-memory computing presents a promising alternative by harnessing the advantages of light, enabling ultra-fast data propagation without length-dependent impedance, thereby significantly reducing computational latency and energy consumption. This work proposes a novel differential photonic static random access memory (pSRAM) bitcell that facilitates electro-optic data storage while enabling ultra-fast in-memory Boolean XOR computation. By employing cross-coupled microring resonators and differential photodiodes, the XOR-augmented pSRAM (X-pSRAM) bitcell achieves at least 10 GHz read, write, and compute operations entirely in the optical domain. Additionally, wavelength-division multiplexing (WDM) enables n-bit XOR computation in a single-shot operation, supporting massively parallel processing and enhanced computational efficiency. Validated on GlobalFoundries&#39; 45SPCLO node, the X-pSRAM consumed 13.2 fJ energy per bit for XOR computation, representing a significant advancement toward next-generation optical computing with applications in cryptography, hyperdimensional computing, and neural networks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-20T22:49:55.793Z | tags: gpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbozvrojxdvwmyyqmesxw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/lewis_won/demystifying-gpus-from-core-architecture-to-scalable-systems-419l">Demystifying GPUs: From Core Architecture to Scalable Systems</a>
+          <div class="card-meta">20 Jul 2025</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Table of Contents   Motivation Optimization goal of GPUs Key concepts of GPUs - software and...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-27T12:51:37.646Z | tags: semiconductors, chip-design, execution, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Screenshot-2025-03-26-at-8.06.55%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/first-time-silicon-success-plummets/">First-Time Silicon Success Plummets</a>
+          <div class="card-meta">27 Mar 2025</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Number of designs that are late increases. Rapidly rising complexity is the leading cause, but tools, training, and workflows need to improve.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-08T18:59:07.101Z | tags: cpus, chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/66468/content/small_hero-amd-ryzen-9-9950x3d-dual.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/amd-no-dual-vcache-cpus">AMD Reveals Real Reason It Won&#39;t Put 3D V-Cache On Multiple CCDs</a>
+          <div class="card-meta">8 Jan 2025</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>After persistent rumors refused to recede, AMD steps in with a clear explanation why dual-CCD V-Cache doesn&#39;t exist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-21T11:18:35.571Z | tags: semiconductors, cpus, sram -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2024/10/Ryzen-7-9800X3D-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/amd-ryzen-7-9800x3d-uses-a-thick-dummy-silicon-that-comprises-93-of-the-ccd/">AMD Ryzen 7 9800X3D Uses A Thick Dummy Silicon That Comprises 93% Of The CCD Stack And Has No Performance Purpose</a>
+          <div class="card-meta">21 Dec 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>The CCD stack with 3D V-Cache on the AMD Ryzen 7 9800X3D is only 40-45µm in total, but the rest of the layers add up to a whopping 750µm.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-21T00:43:25.274Z | tags: llms, semiconductors, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/12/Screenshot-2024-12-20-at-4.36.50%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/12/20/slim-llama-an-energy-efficient-llm-asic-processor-supporting-3-billion-parameters-at-just-4-69mw/">Slim-Llama: An Energy-Efficient LLM ASIC Processor Supporting 3-Billion Parameters at Just 4.69mW</a>
+          <div class="card-meta">21 Dec 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Large Language Models (LLMs) have become a cornerstone of artificial intelligence, driving advancements in natural language processing and decision-making tasks. However, their extensive power demands, resulting from high computational overhead and frequent external memory access, significantly hinder their scalability and deployment, especially in energy-constrained environments such as edge devices. This escalates the cost of operation while also limiting accessibility to these LLMs, which therefore calls for energy-efficient approaches designed to handle billion-parameter models. Current approaches to reduce the computational and memory needs of LLMs are based either on general-purpose processors or on GPUs, with a combination of weight quantization and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-15T16:38:52.296Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/light-grey-rectangles-and-lines-set-in-a-dark-grey-background-the-shapes-are-large-at-the-top-but-get-smaller-as-you-down.jpg?id=55295083&amp;width=1200&amp;height=600&amp;coordinates=0%2C15%2C238%2C424" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tsmc-n2">TSMC Lifts the Curtain on Nanosheet Transistors</a>
+          <div class="card-meta">15 Dec 2024</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>And Intel shows how far these devices could go</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-12T11:12:55.152Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Bryon-IMC-1.png?fit=908%2C796&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/is-in-memory-compute-still-alive/">Is In-Memory Compute Still Alive?</a>
+          <div class="card-meta">12 Dec 2024</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>It hasn’t achieved commercial success, but there is still plenty of development happening; analog IMC is getting a second chance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-25T23:48:22.560Z | tags: semiconductors, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://asap.asu.edu/wp-content/uploads/sites/47/2021/11/arm-asu-website-bg3-scaled-1-1536x614.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://asap.asu.edu/">Predictive PDK (ASAP) – ASU Engineering</a>
+          <div class="card-meta">25 Nov 2024</div>
+          <div class="card-meta card-domain">asap.asu.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-25T14:13:43.231Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/MSSCorps_Figure3-600x340-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/gate-all-around-gaa-the-ultimate-solution-to-reduce-leakage/">Gate-All-Around (GAA): The Ultimate Solution to Reduce Leakage - EE Times</a>
+          <div class="card-meta">25 Oct 2024</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>As awareness of environmental, social, and governance (ESG) issues grows, companies are adopting strategies for sustainable operations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-20T03:24:07.000Z | tags: gpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/21482/tesntorrent-wormhole-678_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/21482/tenstorrent-launches-wormhole-ai-processors-466-fp8-tflops-at-300w">Tenstorrent Launches Wormhole AI Processors: 466 FP8 TFLOPS at 300W</a>
+          <div class="card-meta">20 Jul 2024</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-23T04:49:54.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/21408/tsmc-wafer-semiconductor-chip-fab-678_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/21408/tsmc-roadmap-at-a-glance-n3x-n2p-a16-2025-2026">TSMC&#39;s Roadmap at a Glance: N3X, N2P, A16 Coming in 2025/2026</a>
+          <div class="card-meta">23 May 2024</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-16T20:39:18.000Z | tags: semiconductors, superconductors, sram -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/an-illustration-of-a-box-with-circuit-boards-covered-in-snow-and-snowflakes.png?id=52228432&amp;width=1200&amp;height=600&amp;coordinates=0%2C143%2C0%2C143" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/superconducting-computer">How to Put a Data Center in a Shoebox</a>
+          <div class="card-meta">16 May 2024</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Imec’s plan to use superconductors to shrink computers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-24T18:44:20.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0026269222X00074-cov150h.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0026269222001148">ASAP5: A predictive PDK for the 5&amp;nbsp;nm node</a>
+          <div class="card-meta">24 Feb 2024</div>
+          <div class="card-meta card-domain">sciencedirect.com</div>
+        </div>
+        <div class="card-section">
+          <p>We present a predictive process design kit (PDK) for the 5 nm technology node, the ASAP5 PDK. ASAP5 is not related to a particular foundry and the ass…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T06:08:51.000Z | tags: inference, semiconductors, tpu, hbm, sram -->
+      <div class="card-image">
+        <img src="https://blocksandfiles.com/wp-content/uploads/2024/01/Jonathan-Ross.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blocksandfiles.com/2024/01/23/grokking-groqs-groqness">Grokking Groq’s Groqness</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">blocksandfiles.com</div>
+        </div>
+        <div class="card-section">
+          <p>Startup Groq has developed an machine learning processor that it claims blows GPUs away in large language model workloads – 10x faster than an Nvidia GPU at 10 percent of the cost, and needing a tenth of the electricity. Update: Groq model compilation time and time from access to getting it up and running clarified. […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T01:46:07.000Z | tags: inference, llms, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aad86a5-7fda-444f-9179-7912e9196547_2156x1100.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/groq-inference-tokenomics-speed-but">Groq Inference Tokenomics: Speed, But At What Cost?</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Faster than Nvidia? Dissecting the economics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-09T22:34:37.000Z | tags: cpus, security, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://downfall.page/images/share.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://downfall.page">Downfall Attacks</a>
+          <div class="card-meta">9 Aug 2023</div>
+          <div class="card-meta card-domain">downfall.page</div>
+        </div>
+        <div class="card-section">
+          <p>Downfall attacks targets a critical weakness found in billions of modern processors used in personal and cloud computers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T00:58:39.000Z | tags: inventions-innovation, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/photo-illustration-of-oxygen-on-a-chip.jpg?id=25585889&amp;width=1200&amp;height=600&amp;coordinates=0%2C155%2C0%2C155" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/atomera-plans-to-breathe-new-life-into-older-chip-manufacturing">Atomera Plans to Breathe New Life into Older Chip Manufacturing</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Atom-thin layers of oxygen in a chip’s silicon can make devices speedier and more reliable</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-02T13:49:09.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2023/05/soc-floorplanning-6-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/soc-floorplan">The Ultimate Guide for Optimal SoC Floorplan</a>
+          <div class="card-meta">2 Jun 2023</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Floorplanning plays a crucial role in the physical design of an SoC and lays the foundation for an efficient and high-performance ASIC layout. In this article, we will discuss ten essential floorplanning commandments that physical design engineers can follow to ensure a correct-by-construction design.   Design Partitioning   Design Partitioning refers to dividing a large</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-27T13:52:09.000Z | tags: foundries, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/18833/tsmc_wafer_semiconductor_chip_300mm_fab_2_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/18833/tsmc-details-3nm-evolution-n3e-on-schedule-n3p-n3x-deliver-five-percent-gains">TSMC Details 3nm Evolution: N3E On Schedule, N3P and N3X To Deliver 5% Perf</a>
+          <div class="card-meta">27 Apr 2023</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-25T11:59:15.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.allaboutcircuits.com/uploads/thumbnails/Scanning_electron_microscope_image_of_two_ULTRARAM_memory_arra.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allaboutcircuits.com/news/memory-roundup-ultra-low-power-sram-ultraram-3d-flash-hit-the-scene">Memory Roundup: Ultra-low-power SRAM, ULTRARAM, &amp; 3D Flash Hit the Scene</a>
+          <div class="card-meta">25 Apr 2023</div>
+          <div class="card-meta card-domain">allaboutcircuits.com</div>
+        </div>
+        <div class="card-section">
+          <p>New memory technologies have emerged to push the boundaries of conventional computer storage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T16:57:26.000Z | tags: foundries, ideas-semex, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://bits-chips.nl/wp-content/uploads/2023/04/Semi-300mm-fab-outlook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bits-chips.nl/artikel/growth-of-300mm-fab-capacity-picks-up-pace-again">Growth of 300mm fab capacity picks up pace again - Bits&amp;Chips</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">bits-chips.nl</div>
+        </div>
+        <div class="card-section">
+          <p>After dipping this year, the growth of 300mm semiconductor manufacturing capacity is set to gain momentum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T13:12:17.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://blocksandfiles.com/wp-content/uploads/2023/03/Skywater-Weebit-ReRAM-cells.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blocksandfiles.com/2023/03/16/the-state-of-reram-play">Taking a look at the ReRAM state of play</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">blocksandfiles.com</div>
+        </div>
+        <div class="card-section">
+          <p>ReRAM startup Intrinsic Semiconductor Technologies has raised $9.73 million to expand its engineering team and bring its product to market.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-22T14:46:04.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2023/01/Depositphotos_224767164_s.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/security-ip-cores-ultimate-guide">Security IP Cores: Ultimate Guide - AnySilicon</a>
+          <div class="card-meta">22 Jan 2023</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Security IP cores are blocks that provide security features for integrated circuits (ICs) and systems-on-chips (SoCs). It includes encryption, decryption, authentication, and key management functions that protect against unauthorized access or hacking. The IP core can be integrated into a larger IC design to provide enhanced security for applications such as IoT devices, payment systems,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T15:35:09.000Z | tags: pricing, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/iiBPT3tVuXkSdD4xCKSR9m-1200-80.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/tsmc-might-cut-3nm-prices-to-lure-amd-nvidia">TSMC Might Cut 3nm Prices to Lure AMD, Nvidia</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>Industry sources say TSMC is considering lowering 3nm prices to stimulate interest from chip designers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-22T20:43:26.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/877a1d39a9ea1dac835e0ee883ce8ecb936e1d8936e09bc4197544afab41ba88/aolofsson/awesome-opensource-hardware" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/aolofsson/awesome-hardware-tools">aolofsson/awesome-opensource-hardware: List of awesome open source hardware tools, generators, and reusable designs</a>
+          <div class="card-meta">22 Dec 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>List of awesome open source hardware tools, generators, and reusable designs - aolofsson/awesome-opensource-hardware</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-18T12:18:02.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_383844937-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/safeguarding-srams-from-ip-theft">Safeguarding SRAMs From IP Theft (Best Paper Award)</a>
+          <div class="card-meta">18 Dec 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A technical paper titled “Beware of Discarding Used SRAMs: Information is Stored Permanently” was published by researchers at Auburn University. The paper won “Best Paper Award” at the IEEE International Conference on Physical Assurance and Inspection of Electronics (PAINE) Oct. 25-27 in Huntsville. Abstract: “Data recovery has long been a focus of the electronics industry... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-15T11:24:24.000Z | tags: deep-learning, hpc, interconnects, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/QDGHobTS56GF94GsXHu2PV-1200-80.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/cerebras-reveals-andromeda-a-135-million-core-ai-supercomputer">Cerebras Reveals Andromeda, a 13.5 Million Core AI Supercomputer</a>
+          <div class="card-meta">15 Nov 2022</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>The world&#39;s largest chip scales to new heights.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-26T23:40:40.000Z | tags: circuits-electronics, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Fig01_Rambus.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/how-memory-design-optimizes-system-performance">How Memory Design Optimizes System Performance</a>
+          <div class="card-meta">26 Sep 2022</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Changes are steady in the memory hierarchy, but how and where that memory is accessed is having a big impact.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T19:58:19.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2022/09/clock-tree-feature.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/clock-tree-synthesis">Ultimate Guide: Clock Tree Synthesis</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>A vast majority of modern digital integrated circuits are synchronous designs. They rely on storage elements called registers or flip-flops, all of which change their stored data in a lockstep manner with respect to a control signal called the clock. In many ways, the clock signal is like blood flowing through the veins of a</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-08T21:49:34.000Z | tags: interconnects, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9745ff9a-f152-492a-848b-500586c6f853_1280x720.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fabricatedknowledge.com/p/cxl-protocol-for-heterogenous-datacenters">CXL: Protocol for Heterogenous Datacenters</a>
+          <div class="card-meta">8 Jul 2022</div>
+          <div class="card-meta card-domain">fabricatedknowledge.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s learn more about the world&#39;s most important manufactured product. Meaningful insight, timely analysis, and an occasional investment idea.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-06T21:49:59.000Z | tags: gpus, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/12/nvidia-dpu-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2022/01/06/nvidia-research-plots-a-course-to-multiple-multichip-gpu-engines">Nvidia Research Plots A Course To Multiple Multichip GPU Engines</a>
+          <div class="card-meta">6 Jan 2022</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are two types of packaging that represent the future of computing, and both will have validity in certain domains: Wafer scale integration and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-05T10:57:02.000Z | tags: deep-learning, semiconductors, tpu, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gwern.net/docs/ai/2021-jouppi.pdf">Ten Lessons From Three Generations Shaped Google’s TPUv4i - 2021-jouppi.pdf</a>
+          <div class="card-meta">5 Jan 2022</div>
+          <div class="card-meta card-domain">gwern.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T11:26:12.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/media-1308555-181217-sram-pyramid-1200-min.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/author.asp?doc_id=1334088&amp;section_id=36">SRAM vs. DRAM: The Future of Memory - EE Times</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>EE Times Compares SRAM vs. DRAM, Common Issues With Each Type Of Memory, And Takes A Look At The Future For Computer Memory.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-06T21:36:10.000Z | tags: finance, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.adapteva.com/wp-content/uploads/chips_tux1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.adapteva.com/andreas-blog/semiconductor-economics-101">An Introduction to Semiconductor Economics</a>
+          <div class="card-meta">6 Dec 2021</div>
+          <div class="card-meta card-domain">adapteva.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog post is in response to a recent topic on the Parallella forum regarding Adapteva’s chip cost efficiency (GFLOPS/$): [forum discussion thread]. I had to be a little vague on some poi…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:48:26.000Z | tags: fpgas, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://images.synopsys.com/is/image/synopsys/blogs-social-share-1200x628?ts=1726609273994&amp;$responsive$" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blogs.synopsys.com/breakingthethreelaws/2015/02/how-many-asic-gates-does-it-take-to-fill-an-fpga">Synopsys Blog | Latest Insights on EDA, IP &amp; Systems Design</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">blogs.synopsys.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore Synopsys Blog for the latest insights and trends in EDA, IP, and Systems Design. Stay updated with expert articles and industry news.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-04T20:45:53.000Z | tags: cpus, semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cacm.acm.org/magazines/2020/7/245701-domain-specific-hardware-accelerators/fulltext#R24">Domain-Specific Hardware Accelerators – Communications of the ACM</a>
+          <div class="card-meta">4 Dec 2021</div>
+          <div class="card-meta card-domain">cacm.acm.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:56:18.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2020/05/TSMC-N7-Density-Analysis-SemiWiki-1024x576.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/semiconductor-manufacturers/tsmc/285856-effect-of-design-on-transistor-density">Effect of Design on Transistor Density - Semiwiki</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>I have written a lot of articles looking at leading…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:56:04.000Z | tags: deep-learning, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Y6fXBUTKqlDcoGxOPpHz_A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-make-your-own-deep-learning-accelerator-chip-1ff69b78ece4">How to make your own deep learning accelerator chip!</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Currently there are more than 100 companies all over the world building ASIC’s (Application specific integrated circuit) or SOC’s (System…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:54:57.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2019/06/iStock-513307992-blue-mascot.jpg?fit=1394%2C753&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/using-memory-differently-to-boost-speed">Using Memory Differently To Boost Speed</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting data in and out of memory faster is adding some unexpected challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:54:20.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/06/K3QMuk7N.jpeg?fit=1600%2C534&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/dram-tradeoffs-speed-vs-energy">DRAM Tradeoffs: Speed Vs. Energy</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Experts at the Table: Which type of DRAM is best for different applications, and why performance and power can vary so much.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T14:42:41.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/07/Flex-Logix_TOPS-Memory-Throughput-and-Inference-Efficiency-fig1.png?fit=2480%2C1182&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/tops-memory-throughput-and-inference-efficiency">TOPS, Memory, Throughput And Inference Efficiency</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Evaluate inference accelerators to find the best throughput for the money.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-28T23:27:55.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/image-of-data-and-power-processors-functions-graphic-with-a-dark-background.jpg?id=27287069&amp;width=1200&amp;height=600&amp;coordinates=0%2C425%2C0%2C426" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/next-gen-chips-will-be-powered-from-below">Next-Gen Chips Will Be Powered From Below</a>
+          <div class="card-meta">28 Aug 2021</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Buried interconnects will help save Moore&#39;s Law</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-17T13:44:33.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/GAApic.png?fit=974%2C279&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/impact-of-gaa-transistors-at-3-2nm">Impact Of GAA Transistors At 3/2nm</a>
+          <div class="card-meta">17 Aug 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some things will get better from a design perspective, while others will be worse.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-23T13:17:01.000Z | tags: chip-design, semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Ryzen.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/bumps-vs-hybrid-bonding-for-advanced-packaging">Bumps Vs. Hybrid Bonding For Advanced Packaging</a>
+          <div class="card-meta">23 Jun 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>New interconnects offer speed improvements, but tradeoffs include higher cost, complexity, and new manufacturing challenges.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-12T02:10:17.000Z | tags: amd, cpus, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://fuse.wikichip.org/wp-content/uploads/2021/06/v-cache-header.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fuse.wikichip.org/news/5531/amd-3d-stacks-sram-bumplessly">AMD 3D Stacks SRAM Bumplessly</a>
+          <div class="card-meta">12 Jun 2021</div>
+          <div class="card-meta card-domain">fuse.wikichip.org</div>
+        </div>
+        <div class="card-section">
+          <p>AMD recently unveiled 3D V-Cache, their first 3D-stacked technology-based product.  Leapfrogging contemporary 3D bonding technologies, AMD jumped directly into advanced packaging with direct bonding and an order of magnitude higher wire density.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-13T18:49:00.000Z | tags: deep-learning, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://i2.wp.com/semiengineering.com/wp-content/uploads/Fig03_in_memory_computer_LinleyGroup.png?fit=499%2C377&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/11-ways-to-reduce-ai-energy-consumption">11 Ways To Reduce AI Energy Consumption</a>
+          <div class="card-meta">13 May 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pushing AI to the edge requires new architectures, tools, and approaches.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-19T22:14:05.000Z | tags: semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.coventor.com/blog/overcoming-design-process-challenges-next-generation-sram-cell-architectures">Overcoming Challenges In Next-Generation SRAM Cell Architectures</a>
+          <div class="card-meta">19 Mar 2021</div>
+          <div class="card-meta card-domain">coventor.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-18T13:10:25.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2017/05/semi_fb_thumb.jpg?fit=250%2C250&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/svt-six-stacked-vertical-transistors">SVT: Six Stacked Vertical Transistors</a>
+          <div class="card-meta">18 Mar 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>SRAM cell architecture introduction: design and process challenges assessment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:21:42.000Z | tags: semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://en.wikipedia.org/wiki/List_of_semiconductor_fabrication_plants">List of semiconductor fabrication plants - Wikipedia</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">en.wikipedia.org</div>
+        </div>
+        <div class="card-section">
+          <p>This is a list of semiconductor fabrication plants. A semiconductor fabrication plant is where integrated circuits (ICs), also known as microchips, are manufactured. They are either operated by Integrated Device Manufacturers (IDMs) that design and manufacture ICs in-house and may also manufacture designs from design-only (fabless firms), or by pure play foundries that manufacture designs from fabless companies and do not design their own ICs. Some pure play foundries like TSMC offer IC design services, and others, like Samsung, design and manufacture ICs for customers, while also designing, manufacturing and selling their own ICs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-05T11:40:09.000Z | tags: semiconductors, supply-chain, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/Moyer_TMA_Nov_202020_Picture1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/new-and-innovative-supply-chain-threats-emerging">New And Innovative Supply Chain Threats Emerging</a>
+          <div class="card-meta">5 Nov 2020</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>But so are better approaches to deal with thorny counterfeiting issues.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T02:05:50.000Z | tags: chip-design, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiwiki.com/wp-content/uploads/2020/08/64Mb-SRAM-example-min.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiwiki.com/eda/synopsys/290067-making-full-memory-ip-robust-during-design">Making Full Memory IP Robust During Design - Semiwiki</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">semiwiki.com</div>
+        </div>
+        <div class="card-section">
+          <p>Looking at a typical SoC design today it&#39;s likely to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-16T18:06:26.000Z | tags: datacenters, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/03/intel-co-packaged-silicon-photonics-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2020/10/15/intel-networking-not-just-a-bag-of-parts">Intel Networking: Not Just A Bag Of Parts</a>
+          <div class="card-meta">16 Oct 2020</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is the hardest job at Intel, excepting whoever is in charge of the development of chip etching processes and the foundries that implement it? We</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-23T14:03:20.000Z | tags: semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cacm.acm.org/magazines/2020/7/245701-domain-specific-hardware-accelerators/fulltext">Domain-Specific Hardware Accelerators | July 2020 | Communications of the A</a>
+          <div class="card-meta">23 Jun 2020</div>
+          <div class="card-meta card-domain">cacm.acm.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-23T01:07:44.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://fuse.wikichip.org/wp-content/uploads/2020/03/n5-shuttle.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fuse.wikichip.org/news/3398/tsmc-details-5-nm">TSMC Details 5 nm</a>
+          <div class="card-meta">23 Mar 2020</div>
+          <div class="card-meta card-domain">fuse.wikichip.org</div>
+        </div>
+        <div class="card-section">
+          <p>TSMC details its 5-nanometer node for mobile and HPC applications. The process features the industry&#39;s highest density transistors with a high-mobility channel and highest-density SRAM cells.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: cpus, semiconductors, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tech-talk/semiconductors/processors/core-processor-chiplets-isscc-news">96-Core Processor Made of Chiplets</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:57:53.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://fuse.wikichip.org/wp-content/uploads/2019/11/cerebras-wafer-1.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fuse.wikichip.org/news/3010/a-look-at-cerebras-wafer-scale-engine-half-square-foot-silicon-chip">A Look at Cerebras Wafer-Scale Engine: Half Square Foot Silicon Chip</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">fuse.wikichip.org</div>
+        </div>
+        <div class="card-section">
+          <p>A look at Cerebras Wafer-Scale Engine (WSE), a chip the size of a wafer, packing over 400K tiny AI cores using 1.2 trillion transistors on a half square foot of silicon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-17T17:27:01.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://i1.wp.com/semiengineering.com/wp-content/uploads/2019/07/Blue-mascot.jpeg?fit=640%2C345&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/building-an-mram-array">Building An MRAM Array</a>
+          <div class="card-meta">17 Oct 2019</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why MRAM is so attractive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-07T12:09:20.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.jameswhanlon.com/new-chips-for-machine-intelligence.html">New chips for machine intelligence</a>
+          <div class="card-meta">7 Oct 2019</div>
+          <div class="card-meta card-domain">jameswhanlon.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:32:37.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2019/07/Flex-Logix_AI-inference-memory-tradeoffs-fig1.png?fit=1491%2C637&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/ai-inference-memory-system-tradeoffs">AI Inference Memory System Tradeoffs</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>TOPS isn&#39;t all you need to know about an inference chip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-22T11:22:19.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/media-1312857-behdadyoussefi-min.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/document.asp?doc_id=1334947">Startup Runs AI in Novel SRAM</a>
+          <div class="card-meta">22 Jul 2019</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Areanna claims that a custom SRAM delivers 100 TOPS/W on deep learning, but it’s early days for the startup.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-07T16:56:36.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2017/05/semi_fb_thumb.jpg?fit=250%2C250&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/use-inference-benchmarks-similar-to-your-application">Use Inference Benchmarks Similar To Your Application</a>
+          <div class="card-meta">7 Feb 2019</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>How the wrong benchmark can lead to incorrect conclusions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-28T22:48:36.000Z | tags: semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://thememoryguy.com/wp-content/uploads/2018/11/Emerging-Memory-Parade-150x150.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thememoryguy.com/emerging-memories-today-understanding-bit-selectors">Emerging Memories Today: Understanding Bit Selectors - The Memory Guy Blog</a>
+          <div class="card-meta">28 Nov 2018</div>
+          <div class="card-meta card-domain">thememoryguy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The previous post in this series (excerpted from the Objective Analysis and Coughlin Associates Emerging Memory report) explained why emerging memories are necessary. Oddly enough, this series will explain bit selectors before defining all of the emerging memory technologies themselves. The reason why is that the bit selector determines how small a bit cell can</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-06T15:28:18.000Z | tags: semiconductors, hbm, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/09/Mythic-architecture.png?fit=1640%2C746&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/processing-in-memory">Processing In Memory</a>
+          <div class="card-meta">6 Sep 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Processing In Memory Growing volume of data and limited improvements in performance create new opportunities for approaches that never got off the ground.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-02-07T15:44:34.000Z | tags: crypto, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2018/02/rambusD2C.png?fit=1131%2C658&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/imperfect-silicon-near-perfect-security">Imperfect Silicon, Near-Perfect Security</a>
+          <div class="card-meta">7 Feb 2018</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Imperfect Silicon, Near-Perfect Security Physically unclonable functions (PUF) seem tailor-made for IoT security.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2010-10-24T00:00:00.000Z | tags: sram, semiconductors -->
+      <div class="card-image">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81Mzc5ODg2Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTczMTI5OTU3Nn0.OXddrn5Vmra83XhKpRxt9V6zVTNsT_2DpEMqhCeflj8/img.jpg?width=1200&amp;height=600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/embedded-dram?fbclid=IwY2xjawF0nI1leHRuA2FlbQIxMQABHZPX3jk_Y57uZa8JvsHt4I2u8eBKMG-fqxvN5Qcnn-sSfuAiP-mCpUmheA_aem_LpUWwU6x7MZ_8qrUrva_Ig&amp;share_id=8457662&amp;socialux=facebook">Hybrid Memory Designed to Cut AI Energy Use</a>
+          <div class="card-meta">24 Oct 2010</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers developing dense, speedy hybrid gain cell  memory recently got a boost from CHIPS Act funding</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2002-10-24T00:00:00.000Z | tags: semiconductors, foundries, chip-design, sram -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F616af44f-7281-492e-9bf8-0cdd7e1e3fcf_2912x1632.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/semianalysis/p/clash-of-the-foundries?r=oc5d">Clash of the Foundries: Gate All Around + Backside Power at 2nm</a>
+          <div class="card-meta">24 Oct 2002</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fab Cost, WFE Implications, Backside Power Details</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

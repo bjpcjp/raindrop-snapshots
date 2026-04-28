@@ -1,0 +1,378 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + goodreads &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-01-23T07:47:44.000Z | tags: behaviors, goodreads, safety -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/51b-s-052large.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/space/2024/01/solving-a-nasa-mystery-why-did-space-shuttle-commanders-lock-the-hatch">What happens when an astronaut in orbit says he’s not coming back?</a>
+          <div class="card-meta">23 Jan 2024</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>“If you guys don’t give me a chance to repair my instrument, I’m not going back.”…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T14:38:37.000Z | tags: behaviors, deceit-deception, goodreads, truecrime -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-collectionapi-prod-images%2F088c1288-764e-42ca-95c3-2b2ff8586217.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://getpocket.com/collections/notes-from-the-inner-lives-of-con-artists">Notes From the Inner Lives of Con Artists</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Venture inside the minds of some of the greatest scammers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-16T16:58:07.000Z | tags: behaviors, goodreads -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2023/07/16/opinion/16french/16french-largeHorizontalJumbo.jpg?year=2023&amp;h=683&amp;w=1024&amp;s=66dc1101def40cad9d6ea1e48cb72332229d1dc3ca47ecdae19d047ed9379da6&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2023/07/16/opinion/the-bear-fx.html">‘The Bear’ and the Need for a Place to Belong</a>
+          <div class="card-meta">16 Jul 2023</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The powerful moral message of FX’s hit show.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-13T19:11:31.000Z | tags: behaviors, chivalry, goodreads -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/61a51f6d0f790c4eca5d8b97/667963151ca5b1e5dff00221_social%20share%20sahil%20(1)-min.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sahilbloom.com/newsletter/life-lessons-from-1-000-years">Life Lessons from 1,000 Years | The Curiosity Chronicle</a>
+          <div class="card-meta">13 Jan 2023</div>
+          <div class="card-meta card-domain">sahilbloom.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Curiosity Chronicle has quickly become one of the most popular newsletters for growth-minded individuals in the world. Each week, subscribers receive a deep dive that covers topics ranging from growth and decision-making to business, finance, startups, and technology. In addition, subscribers receive The Friday Five, a weekly newsletter with five ideas curated to spark curiosity headed into the weekend.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T12:03:57.000Z | tags: behaviors, goodreads, learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7eb0a78e-5d4e-444a-8450-61d44b18f21c_886x499.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://philo.substack.com/p/the-midwit-trap">The Midwit Trap</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">philo.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why are we so dismissive of simple solutions?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-27T18:57:35.000Z | tags: behaviors, goodreads, history, risk -->
+      <div class="card-image">
+        <img src="https://api.urlbox.io/v1/sqyEJxrXaccBdLeR/e34f14d0365d55af58d17951d4815a4e6dcf1bd9f1578251f8a0833823cb705e/png?width=1200&amp;height=630&amp;url=https%3A%2F%2Fwww.collabfund.com%2Fblog%2Ffive-lessons-from-history%2F%3Fcovershot" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.collaborativefund.com/blog/five-lessons-from-history">Five Lessons from History</a>
+          <div class="card-meta">27 Aug 2022</div>
+          <div class="card-meta card-domain">collaborativefund.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most important lessons from history are the takeaways that are so broad they can apply to other fields, other…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-17T11:35:57.000Z | tags: behaviors, ethics, goodreads -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/aa4d6cce-60a6-41b7-a43c-3a7bd86c10e3/essay-v2-rtx6c14e.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/judgment-is-an-exercise-in-discretion-circumstances-are-everything">Judgment is an exercise in discretion: circumstances are everything | Aeon Essays</a>
+          <div class="card-meta">17 Aug 2022</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>A virtuous person respects the rules. So when should the same person make a judgment call and break or bend them instead?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-13T00:55:32.000Z | tags: animals, behaviors, goodreads, cognition-neurology-perception -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F8098%2F1659583091_GettyImages-1268003196.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/animal-magic-why-intelligence-isn-t-just-for-humans">Animal Magic: Why Intelligence Isn’t Just for Humans</a>
+          <div class="card-meta">13 Aug 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meet the footballing bees, optimistic pigs and alien-like octopuses that are shaking up how we think about minds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-12T22:19:30.000Z | tags: behaviors, comedy-fun-humor, goodreads -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/ccd4995e-d1b2-4884-92c2-43251f2543b6/essay-final-lon16640.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/on-the-moral-virtues-of-mischief-and-mischievous-people">On the moral virtues of mischief and mischievous people | Aeon Essays</a>
+          <div class="card-meta">12 Aug 2022</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Mischievousness requires humour, wit and a playful humaneness: qualities that make for a particular kind of virtue</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T02:34:38.000Z | tags: behaviors, goodreads, learning -->
+      <div class="card-image">
+        <img src="https://news.mit.edu/sites/default/files/images/201306/20130607150520-0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.mit.edu/2013/drew-houstons-commencement-address">Drew Houston&amp;#039;s Commencement address</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">news.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>&amp;#039;I stopped trying to make my life perfect, and instead tried to make it interesting.&amp;#039;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T00:40:58.000Z | tags: behaviors, confidence, empathy, goodreads -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/06/17/well/17Well-Feel-Better-Naked/17Well-Feel-Better-Naked-largeHorizontalJumbo.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=8d24280baeb863288ec594b21f1792abd177ebf52de2301d8ef8f00ea6529bbf&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/06/17/well/live/feel-better-naked.html">How to Feel Better Naked</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Whether you want to find joy in your body, or just greater self-acceptance, these four strategies from psychologists and activists — and, yes, nudists — might help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-12T17:16:11.000Z | tags: behaviors, goodreads, history, mysteries, spycraft -->
+      <div class="card-image">
+        <img src="https://s.hdnux.com/photos/01/20/00/03/20971718/4/rawImage.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sfgate.com/sfhistory/article/flying-tiger-line-flight-739-vietnam-bay-area-16165978.php?fbclid=IwAR3C0GHSmrjm-h-IsiqyDpNx3ibLQvY2ZRE8jXGalEQ1gPCUZ5mLewn3xEw">&#39;He knew something&#39;: The Bay Area flight of Rangers that vanished</a>
+          <div class="card-meta">12 May 2021</div>
+          <div class="card-meta card-domain">sfgate.com</div>
+        </div>
+        <div class="card-section">
+          <p>The mission, still a secret to this day, was so dangerous many men bid emotional goodbyes...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T12:27:19.000Z | tags: advertising-commercials, behaviors, emotions, goodreads, marketing -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://meltingasphalt.com/ads-dont-work-that-way">Ads Don’t Work That Way | Melting Asphalt</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">meltingasphalt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-14T00:28:27.000Z | tags: behaviors, goodreads -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5593%2F1599234464_GettyImages-548571169.jpgcrop.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-history-of-creepy-dolls">The History of Creepy Dolls</a>
+          <div class="card-meta">14 Nov 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Take a trip to the uncanny valley and hope you make it back unscathed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-20T01:59:37.000Z | tags: behaviors, goodreads -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2020/09/23/multimedia/23SP-RESILIENCE-MUSHING1/23SP-RESILIENCE-MUSHING1-largeHorizontalJumbo.jpg?year=2020&amp;h=683&amp;w=1024&amp;s=13bd47d980d7a2e8b7623aa48c21660dd2846ce0d8fb09c0b3031642d512ede8&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2020/09/23/sports/sled-dogs-mushing-unknowns-planning.html">What My Sled Dogs Taught Me About Planning for the Unknown (Published 2020)</a>
+          <div class="card-meta">20 Oct 2020</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Working with them in the wilderness means negotiating countless shifting variables. Sounds a lot like the world we’re living in.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-10T13:38:01.000Z | tags: behaviors, controversy, goodreads -->
+      <div class="card-image">
+        <img src="https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://slatestarcodex.com/2018/10/30/sort-by-controversial">Sort By Controversial</a>
+          <div class="card-meta">10 Jun 2020</div>
+          <div class="card-meta card-domain">slatestarcodex.com</div>
+        </div>
+        <div class="card-section">
+          <p>[Epistemic status: fiction] Thanks for letting me put my story on your blog. Mainstream media is crap and no one would have believed me anyway. This starts in September 2017. I was working for a sm…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-09T23:30:51.000Z | tags: behaviors, emotions, goodreads, kindness, happiness -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/51e575c1-f094-47d3-abde-a5bb27efebde/gettyimages-525302476.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/ideas/the-fast-track-to-a-life-well-lived-is-feeling-grateful">The fast track to a life well lived is feeling grateful</a>
+          <div class="card-meta">9 Oct 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Being ‘good’ need not take years of ethical analysis: just a few moments of gratitude can set you on the path to virtue</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-25T03:28:35.000Z | tags: behaviors, goodreads -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/80aec31d-99b2-4ebd-bb5d-e6540959e2de/sied-sherlock-holmes-1899-mcrae-gillette.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/ideas/to-avoid-moral-failure-dont-see-people-as-sherlock-does">To avoid moral failure, don’t see people as Sherlock does | Aeon Ideas</a>
+          <div class="card-meta">25 Jul 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Elementary, my dear Sherlock: it’s moral failure to see people as objects to be studied or as evidence to be interpreted</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-10T23:36:53.000Z | tags: behaviors, goodreads, seduction -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/b675901e-adc1-4ac6-9b24-6c219556751d/essay-v1-rexfeatures_3758080a.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/essays/pickuptm-turns-romance-into-a-commodity-for-male-consumption">Pickup™ turns romance into a commodity for male consumption | Aeon Essays</a>
+          <div class="card-meta">10 Jan 2019</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>The pickup industry mates market logic with the arts of seduction – turning human intimacy into hard labour</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-20T03:33:11.000Z | tags: behaviors, goodreads -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p06nyt8q.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.bbc.com/travel/story/20181016-how-the-finnish-survive-without-small-talk">How the Finnish survive without small talk</a>
+          <div class="card-meta">20 Oct 2018</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Their desire for avoidance is a predisposition so common that it’s become hard-baked into Finnish culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-10-13T16:59:42.000Z | tags: behaviors, goodreads, interrogations -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/7b214473e63875957da24b73f33e23e8ddcd64cd/0_36_2273_1364/master/2273.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTcucG5n&amp;enable=upscale&amp;s=2698c7222bf826db22d0558294dcd20e" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/news/2017/oct/13/the-scientists-persuading-terrorists-to-spill-their-secrets">The scientists persuading terrorists to spill their secrets</a>
+          <div class="card-meta">13 Oct 2017</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The long read: Expert interrogators know torture doesn’t work – but until now, nobody could prove it. By analysing hundreds of top-secret interviews with terror suspects, two British scientists have revolutionised the art of extracting the truth</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

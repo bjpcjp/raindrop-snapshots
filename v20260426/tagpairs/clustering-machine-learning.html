@@ -1,0 +1,382 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>clustering + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-08-07T00:42:21.000Z | tags: machine-learning, clustering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1000/0*ZBLj6DKIAhZz-pvI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/unsupervised-learning-series-exploring-self-organizing-maps-fe2efde9f7a1?source=social.tw">Self-Organizing Maps</a>
+          <div class="card-meta">7 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how Self-Organizing Maps work and why they are a useful unsupervised learning algorithm</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-06T19:28:32.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*0wrFL9wnGaoyaCvo" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/geographic-clustering-with-hdbscan-ef8cb0ed6051?source=rss----7f60cf5620c9---4">Geographic Clustering with HDBSCAN</a>
+          <div class="card-meta">6 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to explore geographic data with HDBSCAN, H3, graph theory, and OSM.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:48.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1000/0*0EQ1vH_CYS43q0Uh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/unsupervised-learning-series-exploring-hierarchical-clustering-15d992467aa8?source=rss----7f60cf5620c9---4">Unsupervised Learning Series — Exploring Hierarchical Clustering</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let’s explore how hierarchical clustering works and how it builds clusters based on pairwise distances.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-07T10:26:38.000Z | tags: clustering, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.business-science.io/assets/063_tidyclust_thumb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2023/07/a-gentle-introduction-to-k-means-clustering-in-r-feat-tidyclust">A Gentle Introduction to K-Means Clustering in R (Feat. Tidyclust)</a>
+          <div class="card-meta">7 Jul 2023</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>To be successful as a Data Scientist, you’re often put in positions where you need to find groups within your data. One key business use-case is finding clusters of customers that behave similarly. And that’s a powerful skill that I’m going to help you...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-21T11:36:06.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkiwvbaeau3lckaifkeu3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/rajaniraiyn/spectral-clustering-algorithm-demystified-d8i">Spectral Clustering Algorithm Demystified</a>
+          <div class="card-meta">21 Jun 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Spectral clustering is a method of clustering data points based on their similarity or affinity,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-15T20:43:43.000Z | tags: clustering, gaussian, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*FQGPsq4zoCvdZ0LOqpry4g.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-improve-clustering-accuracy-with-bayesian-gaussian-mixture-models-2ef8bb2d603f?source=rss----7f60cf5620c9---4">How to Improve Clustering Accuracy with Bayesian Gaussian Mixture Models</a>
+          <div class="card-meta">15 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A more advanced clustering technique for real world data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-05T21:43:45.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*32QG4MjNBvhoXHVxCE85_A.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/density-based-clustering-dbscan-vs-hdbscan-39e02af990c7">Density-Based Clustering: DBSCAN vs. HDBSCAN</a>
+          <div class="card-meta">5 Dec 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which algorithm to choose for your data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:02:53.000Z | tags: clustering, machine-learning, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Kt9znlQcR2oO3utt723N2w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/19-examples-of-merging-plots-to-maximize-your-clustering-scatter-plot-87e8f1bb5fd2?source=rss----7f60cf5620c9---4">19 Examples of Merging plots to Maximize your Clustering Scatter plot</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Mix and match plots to get more information from a scatter plot</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-16T00:59:52.000Z | tags: autoencoders, clustering, machine-learning, model-compression -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*aKGHxGmlyyA1kO6y" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-to-embedding-clustering-and-similarity-11dd80b00061">Introduction to Embedding, Clustering, and Similarity</a>
+          <div class="card-meta">16 Sep 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction to key elements of ML and Autoencoders: Embedding, Clustering, and Similarity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-04T22:56:41.000Z | tags: clustering, graphs, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*arWl57BFDl1ke9Rk" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-to-graph-partitioning-algorithms-and-community-detection-29e7c962d10e?source=rss----7f60cf5620c9---4">An Introduction to Graph Partitioning Algorithms and Community Detection</a>
+          <div class="card-meta">4 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Graph partitioning has been a long-lasting problem and has a wide range of applications. This post shares the methodology for graph…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:56:47.000Z | tags: clustering, machine-learning, metrics -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*zCZ8k6ts7VZnwz_f" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/three-performance-evaluation-metrics-of-clustering-when-ground-truth-labels-are-not-available-ee08cb3ff4fb">Three Performance Evaluation Metrics of Clustering When Ground Truth Labels</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which metric should be used to evaluate the clustering results if the ground truth labels are not available? In this post, I’m introducing…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-08T20:51:36.000Z | tags: clustering, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SZO7fJFlgsoEptAYSmY0-w.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/ctsNVqOMVob">Louvain’s Algorithm for Community Detection in Python</a>
+          <div class="card-meta">8 Apr 2022</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Apply Louvain’s Algorithm in Python for Community Detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-12T16:05:29.000Z | tags: clustering, machine-learning, spatial -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*vChASz7ILutoo7GY" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-to-hierarchical-clustering-part-3-spatial-clustering-1f8cbd451173?source=rss----7f60cf5620c9---4">Introduction to hierarchical clustering (Part 3 — Spatial clustering)</a>
+          <div class="card-meta">12 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introducing a spatial dimension into hierarchical clustering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T03:09:47.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*THA9SlnZEM5pl7xnnlsFrw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/clustering-using-convex-hulls-fddafeaa963c?source=rss----7f60cf5620c9---4">Clustering Using Convex Hulls</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to use convex hulls in data clustering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:46:42.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:640/1*GsstWuZUuQDSBTwT3PYoGA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/silhouette-method-better-than-elbow-method-to-find-optimal-clusters-378d62ff6891?source=rss----7f60cf5620c9---4">Silhouette Method — Better than Elbow Method to find Optimal Clusters</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Deep dive analysis of Silhouette Method to find optimal clusters in k-Means clustering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T23:44:29.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*chza-aot9rDFie3H8bZQJA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/handling-outliers-in-clusters-using-silhouette-analysis-5a7d51118dac?source=rss----7f60cf5620c9---4">Handling Outliers in Clusters using Silhouette Analysis</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Identify and remove outliers in each clusters from K-Means clustering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-10T23:31:14.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*wj-K6Wb02-RIrGJh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dbscan-a-density-based-unsupervised-algorithm-for-fraud-detection-887c0f1016e9?source=rss----7f60cf5620c9---4">DBSCAN — a density-based unsupervised algorithm for fraud detection</a>
+          <div class="card-meta">10 Oct 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Bite-sized data science on fraud detection</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-06T23:40:59.000Z | tags: clustering, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://juanitorduz.github.io/spectral_clustering">Getting Started with Spectral Clustering - Dr. Juan Camilo Orduz</a>
+          <div class="card-meta">6 May 2020</div>
+          <div class="card-meta card-domain">juanitorduz.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T04:24:29.000Z | tags: clustering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Zj0qAtMDenWQg2LMrJyFxw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-use-dbscan-effectively-ed212c02e62?source=rss----7f60cf5620c9---4">How to Use DBSCAN Effectively</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A complete guide on using the most cited clustering algorithm effectively</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:04:25.000Z | tags: clustering, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stepupanalytics.com/beginners-guide-to-statistical-cluster-analysis-in-detail-part-1">https://stepupanalytics.com/beginners-guide-to-statistical-cluster-analysis-in-detail-part-1/</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">stepupanalytics.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-14T20:27:00.000Z | tags: clustering, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/10/clustering-metrics-better-elbow-method.html">Clustering Metrics Better Than the Elbow Method</a>
+          <div class="card-meta">14 Dec 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>We show what metric to use for visualizing and determining an optimal number of clusters much better than the usual practice — elbow method.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-30T16:10:42.000Z | tags: clustering, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/09/hierarchical-clustering.html">What is Hierarchical Clustering?</a>
+          <div class="card-meta">30 Sep 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>The article contains a brief introduction to various concepts related to Hierarchical clustering algorithm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

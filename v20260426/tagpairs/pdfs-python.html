@@ -1,0 +1,309 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>pdfs + python &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-03T13:07:48.530Z | tags: pdfs, python, documentation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/1*y6zvdl68fA-5nd9v-StFMg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@AlexanderObregon/creating-pdf-reports-with-python-a53439031117">Creating PDF Reports with Python</a>
+          <div class="card-meta">3 Dec 2025</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Creating PDF Reports with Python Introduction Generating PDF reports programmatically can be incredibly useful for automating document creation, especially in a business context. Python offers …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-03T13:07:02.285Z | tags: pdfs, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.reportlab.com/reportlab/userguide/ch1_intro/">Chapter 1: Introduction - ReportLab Docs</a>
+          <div class="card-meta">3 Dec 2025</div>
+          <div class="card-meta card-domain">docs.reportlab.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-05T19:02:38.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2024/04/20/extract-text-from-a-pdf">Extract text from a PDF</a>
+          <div class="card-meta">5 May 2024</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extracting text from a PDF file using GNU less or Python&#39;s pypdf. Why its not entirely clear just what a text extractor should do.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-17T07:11:48.000Z | tags: llms, pdfs, python -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/7m9jw85w/production/2e20042f130ae9b86c063958cc2cc717f522a0b4-820x790.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.llamaindex.ai/mastering-pdfs-extracting-sections-headings-paragraphs-and-tables-with-cutting-edge-parser-faea18870125?source=rss----d7683ed5043e---4">Mastering PDFs: Extracting Sections, Headings, Paragraphs, and Tables with</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">blog.llamaindex.ai</div>
+        </div>
+        <div class="card-section">
+          <p>LlamaIndex is a simple, flexible data framework for connecting custom data sources to large language models (LLMs).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-07T00:44:02.000Z | tags: llms, pdfs, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1000/0*hsHhE00e_S__ITtI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-extract-text-from-any-pdf-and-image-for-large-language-model-2d17f02875e6">How to Extract Text from Any PDF and Image for Large Language Model | by Zo</a>
+          <div class="card-meta">7 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use these text extraction techniques to get quality data for your LLM models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-07T00:43:57.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://pypi.org/static/images/twitter.abaf4b19.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pypi.org/project/pypdfium2">pypdfium2 · PyPI</a>
+          <div class="card-meta">7 Aug 2023</div>
+          <div class="card-meta card-domain">pypi.org</div>
+        </div>
+        <div class="card-section">
+          <p>Python bindings to PDFium</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-21T17:35:32.000Z | tags: pdfs, python, web-scraping -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*Bwgt-3VHlshuv0G8.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/scrape-data-from-pdf-files-using-python-fe2dc96b1e68">How to Scrape and Extract Data from PDFs Using Python and tabula-py</a>
+          <div class="card-meta">21 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>You want to make friends with tabula-py and Pandas</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-21T17:35:13.000Z | tags: ocr, pdfs, python -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb2oypmpvbvap6x4w2v76.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/chrishart0/how-to-use-tesseract-ocr-to-convert-pdfs-to-text-564f">How to Use Tesseract OCR to Convert PDFs to Text</a>
+          <div class="card-meta">21 Feb 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This is a cross-post from my blog Arcadian.Cloud, go there to see the original post.   I have some...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-21T17:34:39.000Z | tags: pdfs, python, web-scraping -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*SLwrjTpeOD4MpwrYqJUBmg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/scrape-data-from-pdf-files-using-python-and-pdfquery-d033721c3b28">Scrape Data from PDF Files Using Python and PDFQuery</a>
+          <div class="card-meta">21 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extract Data from PDF Files Effectively</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-06T17:10:53.000Z | tags: pdfs, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://twitter.com/driscollis/status/1489646185723973633?s=12">Create a simple &quot;Hello World&quot; PDF with and with 4 lines of code</a>
+          <div class="card-meta">6 Feb 2022</div>
+          <div class="card-meta card-domain">twitter.com</div>
+        </div>
+        <div class="card-section">
+          <p>🐍🔥 
+— Mike Driscoll (@driscollis)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T11:21:21.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uS1g4tB20sxkl1HK6HaNvw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-python-open-source-tools-to-extract-text-and-tabular-data-from-pdf-files-9359cdde6b56?source=rss----7f60cf5620c9---4">5 Python open-source tools to extract text and tabular data from PDF Files</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article is a comprehensive overview of different open-source tools to extract text and tabular data from PDF Files</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-25T09:43:33.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*sdrUaK1sG1fKrJHk" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-generate-automated-pdf-documents-with-python-55981f4d9e3">How to Generate Automated PDF Documents with Python</a>
+          <div class="card-meta">25 Sep 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Leveraging automation to create dazzling PDF documents effortlessly</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-18T11:28:02.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*ciaS2KoaHIx8F2vsa6Oxfg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/extract-tables-from-pdf-file-in-a-single-line-of-python-code-5b572cd9fbe5?source=rss----7f60cf5620c9---4">Extract Tables from PDF file in a single line of Python Code</a>
+          <div class="card-meta">18 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to extract and convert tables from PDFs into Pandas Dataframe using Camelot</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-19T01:16:35.000Z | tags: pdfs, python, visualization, matplotlib -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*5JasAjEbqxO13hMH.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-create-pdf-reports-with-python-the-essential-guide-c08dd3ebf2ee?source=rss----7f60cf5620c9---4">How to Create PDF Reports with Python — The Essential Guide</a>
+          <div class="card-meta">19 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create PDF reports with beautiful visualizations in 10 minutes or less.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-18T01:34:48.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1000/0*3ZnLYjnUQFD0KgxV" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-extract-tables-from-pdf-files-with-camelot-12ca6afd28dd?source=rss----7f60cf5620c9---4">How to extract tables from PDF files with Camelot</a>
+          <div class="card-meta">18 Aug 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A quick guide for extracting the tables from PDF files in Python using Camelot library</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2008-09-24T00:00:00.000Z | tags: python, pdfs -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pymupdf.readthedocs.io/en/latest">PyMuPDF 1.24.10 documentation</a>
+          <div class="card-meta">24 Sep 2008</div>
+          <div class="card-meta card-domain">pymupdf.readthedocs.io</div>
+        </div>
+        <div class="card-section">
+          <p>PyMuPDF is a high-performance Python library for data extraction, analysis, conversion &amp; manipulation of PDF (and other) documents.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2005-10-24T00:00:00.000Z | tags: pdfs, python -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/10/Screenshot-2024-10-04-at-11.55.22-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/10/05/mineru-an-open-source-pdf-data-extraction-tool">MinerU: An Open-Source PDF Data Extraction Tool</a>
+          <div class="card-meta">24 Oct 2005</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Extracting structured data from unstructured sources like PDFs, webpages, and e-books is a significant challenge. Unstructured data is common in many fields, and manually extracting relevant details can be time-consuming, prone to errors, and inefficient, especially when dealing with large amounts of data. As unstructured data continues to grow exponentially, traditional manual extraction methods have become impractical and error-prone. The complexity of unstructured data in various industries that rely on structured data for analysis, research, and content creation. Current methods for extracting data from unstructured sources, including regular expressions and rule-based systems, are often limited by their inability to maintain</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

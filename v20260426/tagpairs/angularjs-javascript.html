@@ -1,0 +1,257 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>angularjs + javascript &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2022-06-30T20:50:46.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthkap3noyidzsjq9o7un.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bitovi/why-your-angular-bundle-is-bloated-p2d">Why Your Angular Bundle Is Bloated</a>
+          <div class="card-meta">30 Jun 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>A common reason why an Angular bundle is bloated is that it uses a library like MomentJS that isn&#39;t...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:32:29.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:955/1*vNhaw1SCSu_DuKwSHZSQnQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/developers-writing/tips-and-practices-to-optimize-your-angularjs-app-8118550ff808#.cgr26upxg">Tips and practices to optimize your AngularJS app</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>AngularJS is a magic framework. Using it well will drastically improve your productivity, code modularity and reusability. Using it badly…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:29:39.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://techtldr.com/wp-content/uploads/batarang.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.alexkras.com/11-tips-to-improve-angularjs-performance">11 Tips to Improve AngularJS Performance - Tech TLDR;</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">alexkras.com</div>
+        </div>
+        <div class="card-section">
+          <p>I am new to Angular (even though I am not new to the web development), so please take everything that I am about to say with a grain of salt. That being said, I watched a lot of talks and read a lot of articles relevant to Angular performance, and this post is the summary […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:28:52.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/36891867/7600907d-5c07-47a5-a7b5-80b9c8922d6c" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/angular/angular-cli">angular/angular-cli: CLI tool for Angular</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>CLI tool for Angular.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:27:21.000Z | tags: angularjs, javascript -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://angular.io/docs/ts/latest/guide/style-guide.html">Angular</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">angular.io</div>
+        </div>
+        <div class="card-section">
+          <p>Angular is a platform for building mobile and desktop web applications.     Join the community of millions of developers who build compelling user interfaces with Angular.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:09:25.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*57lZyqXY85XSTYR3IuZKCg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-8-the-ultimate-guide-2019-part-ii-fe70852b2d6d">Build A Real World Beautiful Web APP with Angular 8— The Ultimate Guide (2019) — PART II</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>🕑 The Wait Is Over ❕</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-23T20:24:01.000Z | tags: angularjs, javascript -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://angulartestingquickstart.com/testing-directive">晋中瓮畔电子有限公司</a>
+          <div class="card-meta">23 Dec 2021</div>
+          <div class="card-meta card-domain">angulartestingquickstart.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:31:57.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/bc3cd82ba885eb562326ca1297806a72dfd323c769b4fef9e1a0a15ecd7fa02d/johnpapa/angular-styleguide" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/johnpapa/angular-styleguide">johnpapa/angular-styleguide: Angular Style Guide: A starting point for Angular development teams to provide consistency through good practices.</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Angular Style Guide: A starting point for Angular development teams to provide consistency through good practices. - johnpapa/angular-styleguide</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:49:49.000Z | tags: angularjs, javascript, svg -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.dotnetcurry.com/angularjs/1213/create-graphics-using-svg-angularjs">Creating Graphics Using SVG and AngularJS | DotNetCurry</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">dotnetcurry.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to create interesting biological models and graphics using SVG and AngularJS</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:49:50.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://www.tutorialslogic.com/images/tutorials/angular/ti-angular.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tutorialslogic.com/angular/introduction">Angular Introduction - Angular is a leading, powerful and most popular frontend javascript framework for creating single page application or SPA</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">tutorialslogic.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:10:19.000Z | tags: angularjs, firebase, github, javascript -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*PEJWGzRj_QBUgenT" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/deploy-angular-apps-to-firebase-from-github-5f5ef0aad396?source=rss----7f60cf5620c9---4">Deploy Angular Apps to Firebase From GitHub</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to create simple CI/CD pipelines for automated deployments</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-09-22T21:36:49.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://external-preview.redd.it/b2YLPJqVlPJgYw_mF8-GA1jeDkmPG_s7G1yKXWKbr10.jpg?auto=webp&amp;s=8cd99a7aca6f811d636426b5caee60c719a54480" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/angularjs/comments/iwt6zy/top_15_angular_projects_for_beginners">Top 15 Angular Projects for Beginners</a>
+          <div class="card-meta">22 Sep 2020</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>55K subscribers in the angularjs community. A community for the awesome MVC JS framework.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-27T17:58:42.000Z | tags: angularjs, javascript, reactjs, vue -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F0sps53blrn5vydwico5r.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/ozakaran/angular-v-s-react-v-s-vue-the-complete-comparison-2b7k">Angular v/s React v/s Vue: The Complete Comparison</a>
+          <div class="card-meta">27 Aug 2020</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;Framework is heart of every technology.&quot;   Whether you are a beginner, a senior developer, a freela...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: angularjs, javascript -->
+      <div class="card-image">
+        <img src="https://i.redd.it/o0h58lzmax6a1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/angularjs/comments/f9wufa/build_a_realtime_chat_app_using_socketio_and">Build a real-time chat app using Socket.io and Angular.JS</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>55K subscribers in the angularjs community. A community for the awesome MVC JS framework.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

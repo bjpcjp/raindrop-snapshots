@@ -1,0 +1,413 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>biology + goodreads &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-02-26T16:19:35.602Z | tags: biology, conservation, goodreads -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noemamag.com/saving-the-life-we-cannot-see">Saving The Life We Cannot See</a>
+          <div class="card-meta">26 Feb 2026</div>
+          <div class="card-meta card-domain">noemamag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Conservation has traditionally ignored the planet&#39;s smallest life forms. Microbiologists are trying to change that — before it&#39;s too late. Microbes make life on Earth possible, yet human activity is wiping these microbiomes out — and science is only beginning to grasp the potential implications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-11T12:21:51.000Z | tags: biology, goodreads, history -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p0f8026c.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/future/article/20230310-why-dont-humans-have-fur">Why don&#39;t humans have fur?</a>
+          <div class="card-meta">11 Mar 2023</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Most mammals, including our closest living relatives, have fur. So why did we lose ours?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-01T15:11:43.000Z | tags: animals, biology, goodreads -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/k69OZEVKHpwk6R12tZBItNVKAP8=/0x43:2000x1085/1200x625/media/img/mt/2022/09/ChoanoflagellatesOpener/original.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/science/archive/2022/09/choanoflagellates-multicellularity-individuality-origins-of-animal-life/671588">Something Strange Happens When You Tear These Creatures Apart</a>
+          <div class="card-meta">1 Oct 2022</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>Behold choanoflagellates, tiny creatures that can be one body and many bodies all at once.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-16T12:36:19.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/60df719f3082cb0dcce32b93/191:100/w_1280,c_limit/Agro_1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/when-next-animal-plague-hits-can-this-lab-stop-it">When the Next Animal Plague Hits, Can This Lab Stop It?</a>
+          <div class="card-meta">16 Jul 2021</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new federal facility in Kansas will house the deadliest agricultural pathogens in the world—and researchers working tirelessly to contain them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-15T18:14:02.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://www.sapiens.org/app/uploads/2021/07/01_javelin-throw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sapiens.org/biology/evolution-throwing">The Evolution of&amp;nbsp;Throwing</a>
+          <div class="card-meta">15 Jul 2021</div>
+          <div class="card-meta card-domain">sapiens.org</div>
+        </div>
+        <div class="card-section">
+          <p>Homo sapiens has a throwing arm that sets it apart. Athletes are helping anthropologists understand this prowess.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-03T14:55:02.000Z | tags: animals, biology, goodreads -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/608c3f8201a84698b0a42786/16:9/w_1280,c_limit/210510_r38305web.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2021/05/10/persuading-the-body-to-regenerate-its-limbs">Persuading the Body to Regenerate Its Limbs</a>
+          <div class="card-meta">3 May 2021</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Deer can regrow their antlers, and humans can replace their liver. What else might be possible?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-29T01:07:24.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://img.atlasobscura.com/WouKibUf5ymWmXmfya7_HGKbs6_boBAA8yg6ULPM8VM/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy84MjdjODQ2NGFh/NmU4MjQ4MDhfaGFy/cmlldC5qcGc.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.atlasobscura.com/articles/harriet-cole-human-nervous-system-philadelphia">Harriet Cole’s Mysterious Identity Still Stumps Historians</a>
+          <div class="card-meta">29 Mar 2021</div>
+          <div class="card-meta card-domain">atlasobscura.com</div>
+        </div>
+        <div class="card-section">
+          <p>Whose body was harvested to create a spectacular anatomical specimen, and did that person know they would be on display more than a century later?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:51:32.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2021/03/Arik-Kershenbaum_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/arik-kershenbaum-on-why-alien-life-may-be-like-life-on-earth-20210318">Why Extraterrestrial Life May Not Seem Entirely Alien</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>The zoologist Arik Kershenbaum argues that because some evolutionary challenges are truly universal, life throughout the cosmos may share certain features.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T17:38:50.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://ichef.bbci.co.uk/news/1024/branded_news/5797/production/_116132422_amal_apu.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.co.uk/news/world-asia-55301200">A family with no fingerprints</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">bbc.co.uk</div>
+        </div>
+        <div class="card-section">
+          <p>A family in Bangladesh struggles with an extremely rare genetic condition, &quot;immigration delay disease&quot;.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-26T15:38:51.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/5c93e3d92f0a2c2d279ce091/16:9/w_1280,c_limit/190401_r33986.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2019/04/01/louisianas-disappearing-coast">Louisiana’s Disappearing Coast | The New Yorker</a>
+          <div class="card-meta">26 Dec 2020</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>The state loses a football field’s worth of land every hour and a half. Now engineers are in a race to prevent it from sinking into oblivion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://longreads.com/wp-content/uploads/2019/08/pretty-ugly-orchids.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longreads.com/2019/10/08/ugly-history-beautiful-things-orchids">The Ugly History of Beautiful Things: Orchids</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">longreads.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sometimes a flower is just a flower, and sometimes it&#39;s a powerful vehicle for giving free rein to our worst colonialist and misogynist impulses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-21T21:36:07.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://static.scientificamerican.com/blogs/cache/file/E1D15E23-68E4-4007-803457EEA84FA78A_source.jpg?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blogs.scientificamerican.com/extinction-countdown/how-do-you-save-an-endangered-tree-from-extinction-when-you-cant-save-its-seeds">How Do You Save an Endangered Tree from Extinction When You Can&#39;t Save Its</a>
+          <div class="card-meta">21 Dec 2019</div>
+          <div class="card-meta card-domain">blogs.scientificamerican.com</div>
+        </div>
+        <div class="card-section">
+          <p>“Recalcitrant” seeds hold the secret to saving a critically endangered Indian tree—thanks to a bit of human help</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-26T16:21:41.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/http%3A%2F%2Fstatic.nautil.us%2F4236_70d5212dd052b2ef06e5e562f6f9ab9c.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/in-search-of-life-s-smoking-gun">In Search of Life’s Smoking Gun</a>
+          <div class="card-meta">26 Nov 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>A journey to the underwater volcanoes where life may have erupted.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-19T03:20:25.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2019/08/transhumanism-opener-9.jpg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/s/614078/transhumanists-live-forever">The transhumanists who want to live forever</a>
+          <div class="card-meta">19 Nov 2019</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>For a core of longevity true believers, the time to intervene is now.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-26T08:48:52.000Z | tags: biology, emotions, goodreads -->
+      <div class="card-image">
+        <img src="https://pyxis.nymag.com/v1/imgs/4fe/f4c/01fe37949565422e28df49293a42de5f35-09-vagus-nerve.1x.rsocial.w1200.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thecut.com/2019/05/i-now-suspect-the-vagus-nerve-is-the-key-to-well-being.html">I Now Suspect the Vagus Nerve Is the Key to Well-being</a>
+          <div class="card-meta">26 Oct 2019</div>
+          <div class="card-meta card-domain">thecut.com</div>
+        </div>
+        <div class="card-section">
+          <p>“Stimulating” it leads to calmness, but how and why?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-15T11:58:08.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://cdn.outsideonline.com/wp-content/uploads/2016/12/15/kathy-burek-home_h.jpg?width=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-detective-of-northern-oddities">Solving Wildlife&#39;s Strangest Mysteries</a>
+          <div class="card-meta">15 Sep 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>When a creature mysteriously turns up dead in Alaska—be it a sea otter, polar bear, or humpback whale—veterinary pathologist Kathy Burek gets the call. Her necropsies reveal cause of death and causes for concern as climate change frees up new pathogens and other dangers in a vast, thawing north.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T14:34:05.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/6219126084c6d8b27d9cb4f8/16:9/w_1280,c_limit/r11572.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2002/11/04/the-golden-bough">The Golden Bough | The New Yorker</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Grant Hadwin got a chainsaw and did something terrible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-05T15:16:26.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://psmag.com/wp-content/uploads/2024/07/gettyimages-1140192014.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psmag.com/environment/rats-cant-say-ouch">This Is Why It&#39;s Nearly Impossible to Study Pain</a>
+          <div class="card-meta">5 Aug 2019</div>
+          <div class="card-meta card-domain">psmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>A fundamental understanding of what pain is continues to evade scientists.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-01T13:29:57.000Z | tags: biology, botany, goodreads, health-medicine -->
+      <div class="card-image">
+        <img src="https://d3i6fh83elv35t.cloudfront.net/static/2019/06/RTX2B9QG-1024x683.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pbs.org/newshour/science/why-plants-dont-die-from-cancer">Why plants don’t die from cancer</a>
+          <div class="card-meta">1 Jul 2019</div>
+          <div class="card-meta card-domain">pbs.org</div>
+        </div>
+        <div class="card-section">
+          <p>Humans and other mammals and birds would have been killed many times over by Chernobyl&#39;s radiation that plants in the most contaminated areas received. So why is plant life so resilient to radiation and nuclear disaster?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-07T00:08:06.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://assets.nautil.us/3547_e6ba70fc093b4ce912d769ede1ceeba8.png?auto=compress&amp;fm=png&amp;ixlib=php-3.3.1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://nautil.us/issue/73/play/why-i-traveled-the-world-hunting-for-mutant-bugs-rp">Why I Traveled the World Hunting for Mutant Bugs - Issue 73: Play</a>
+          <div class="card-meta">7 Jun 2019</div>
+          <div class="card-meta card-domain">nautil.us</div>
+        </div>
+        <div class="card-section">
+          <p>A researcher who works through painting tells her story.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-20T17:12:43.000Z | tags: biology, goodreads -->
+      <div class="card-image">
+        <img src="https://biologicperformance.com/wp-content/uploads/2017/03/53-year-old-terrarium.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://biologicperformance.com/sealed-bottle-terrarium-garden-watered-once-53-years">World&#39;s Oldest Terrarium / Sealed Bottle Ecosystem by David Latimer</a>
+          <div class="card-meta">20 May 2019</div>
+          <div class="card-meta card-domain">biologicperformance.com</div>
+        </div>
+        <div class="card-section">
+          <p>Checkout one of the oldest terrarium gardens in the world! Read the story of David Latimer&#39;s sealed bottle ecosystem from the 1960&#39;s.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-01T23:16:23.000Z | tags: biology, goodreads, health-medicine -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.68:0.35/1*CgqmUTyf3ClZCaea6JQ7Zw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://onezero.medium.com/the-brain-that-remade-itself-bcc7b3a43cff">The Brain That Remade Itself</a>
+          <div class="card-meta">1 Apr 2019</div>
+          <div class="card-meta card-domain">onezero.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Doctors removed one-sixth of this boy’s brain — and what was left did something incredible</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-11T03:18:57.000Z | tags: astronomy-space, biology, goodreads -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/758e3664-d78d-4e96-814b-6efa3a22874c/sized-171102-octomite-full.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aeon.co/ideas/proof-of-life-how-would-we-recognise-an-alien-if-we-saw-one">Proof of life: how would we recognise an alien if we saw one?</a>
+          <div class="card-meta">11 Oct 2018</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Proof of life: what evidence would it take to convince you that alien intelligence had been found?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

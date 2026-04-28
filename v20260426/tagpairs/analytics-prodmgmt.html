@@ -1,0 +1,890 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>analytics + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-10-21T14:38:46.560Z | tags: prodmgmt, analytics -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/5f355eb6256fe11983f09b69/t/60122622c19c2c1fa76a18cb/1611802150494/1_thsV2_vwKB_Kvox-stjuNQ.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.precoil.com/articles/intro-to-experiment-pairing">An Introduction to Experiment Pairing — Precoil</a>
+          <div class="card-meta">21 Oct 2024</div>
+          <div class="card-meta card-domain">precoil.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to build upon a previous experiment, without throwing it all away.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-10T22:09:50.000Z | tags: analytics, best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2024/07/the_amazon_wbr_weekly_business_review.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/the-amazon-weekly-business-review">The Amazon Weekly Business Review</a>
+          <div class="card-meta">10 Jul 2024</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>The authoritative guide on how Amazon does WBRs (from former exec Colin Bryar): how it works, how to do it, and how Amazon uses it to win.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-19T20:37:05.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2024/02/Mar24_19_1255616569.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2024/03/lessons-from-more-than-1000-e-commerce-pricing-tests">Lessons from More Than 1,000 E-Commerce Pricing Tests</a>
+          <div class="card-meta">19 Mar 2024</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>At most small and medium-sized e-commerce retailers, prices are typically set and updated in an ad hoc fashion without one clear owner. The process often starts by using a gross margin target, followed by some comparison with competitors, and then some adjustments from there. Many of these retailers would quickly admit that this isn’t an optimal strategy, and that they are likely leaving money on the table — and they’re often right. The authors’ experience with price testing has shown that there is actually a significant amount of money left on the table when pricing is left un-optimized.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-04T01:21:28.000Z | tags: analytics, best-practices, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2023/10/operational_definitions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/whats-operational-definition">What’s an Operational Definition Anyway?</a>
+          <div class="card-meta">4 Oct 2023</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two principles on collecting data, from the field of Statistical Process Control. As with most principles in SPC, this is both simpler and more important than you might think.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-20T10:56:28.000Z | tags: analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*4iTiAgLkr16pik5ud2gNBQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/congrats-on-your-customer-lifetime-value-prediction-model-now-what-are-you-going-to-do-with-it-977634b58868?source=rss----7f60cf5620c9---4">Congrats on your Customer Lifetime Value prediction model — now what are yo</a>
+          <div class="card-meta">20 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An obsessively detailed guide to Customer Lifetime Value techniques and real-world applications</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-14T13:06:36.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/08/Top-free-tools-for-use-in-paid-media.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/free-tools-ppc-campaign-management-430520">11 free tools for PPC campaign management</a>
+          <div class="card-meta">14 Aug 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>These tools can help you analyze PPC competitors, track search trends or design ad creative – all without spending a dime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-29T23:23:48.000Z | tags: analytics, prodmgmt, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/0*86c2982b8463a69eded79148b6f96ad57ad6b4c7.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@abhijeetstalaulikar/list/marketing-mix-modeling-ebceca2350ff">List: Marketing Mix Modeling | Curated by Abhijeet Talaulikar | Medium</a>
+          <div class="card-meta">29 Jul 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>8 stories · A guide to building an end-to-end marketing mix optimization solution for your organization.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:42.000Z | tags: analytics, machine-learning, prodmgmt, python, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*0IhNM1bWxPaxFGz7bGqobw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-a-data-scientists-guide-to-optimizing-a-credit-card-renewal-campaign-9f02f863067a">Uplift Modeling — A Data Scientist’s Guide to Optimizing a Credit Card Rene</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Applying causal machine learning to trim the campaign target audience</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T23:13:15.000Z | tags: analytics, prodmgmt, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*2KTiXoC3XhMjL-QmLUc33A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/evaluating-uplift-models-8a078996a113">Evaluating Uplift Models</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to compare and pick the best uplift model</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-04T18:13:36.000Z | tags: analytics, cohorts, prodmgmt -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2023/05/Introduction-to-Cohort-Analysis-in-Data-Science.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2023/05/04/what-is-cohort-analysis-in-data-science">What is Cohort Analysis in Data Science</a>
+          <div class="card-meta">4 May 2023</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article will take you through everything about Cohort Analysis that you should know. What is Cohort Analysis in Data Science?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T12:40:39.000Z | tags: analytics, machine-learning, prodmgmt, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:763/1*PLO5fCMT8iBLtVbaILScmg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-with-cost-optimization-1c67a4e13f2">Uplift Modeling with Cost Optimization</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to adjust CATE to consider costs associated with your treatments</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-26T18:45:30.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*uB5i1y5Z_qdVqNWNTjKH9Q.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/25-a-b-testing-concepts-interview-cheat-sheet-c998a501f911?source=rss----7f60cf5620c9---4">25 A/B Testing Concepts — Interview Cheat Sheet</a>
+          <div class="card-meta">26 Jan 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Questions on A/B testing are being increasingly asked in interviews but reliable resources to prepare for these are still far and few…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-05T23:30:00.000Z | tags: analytics, prodmgmt, uplift -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.analyticbridge.datasciencecentral.com/profiles/blogs/what-are-uplift-models">https://www.analyticbridge.datasciencecentral.com/profiles/blogs/what-are-uplift-models</a>
+          <div class="card-meta">5 Nov 2022</div>
+          <div class="card-meta card-domain">analyticbridge.datasciencecentral.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T00:06:26.000Z | tags: analytics, execution, metrics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.cenizal.com/content/images/size/w1200/2022/09/cropped.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cenizal.com/be-critical-or-be-corrupted">Be critical or be corrupted</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">cenizal.com</div>
+        </div>
+        <div class="card-section">
+          <p>I recently rewatched &quot;The Wire&quot;. The show&#39;s central theme is about counter-productive metrics and their corrupting influence on institutions. I&#39;ve noticed hints of this pattern in software engineering, too</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-03T01:26:08.000Z | tags: analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://twitchard.github.io/images/appropriate-data.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://twitchard.github.io/posts/2022-08-26-metrics-schmetrics.html">Be good-argument-driven, not data-driven</a>
+          <div class="card-meta">3 Sep 2022</div>
+          <div class="card-meta card-domain">twitchard.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Software culture and the abuse of data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-24T14:20:05.000Z | tags: analytics, ecommerce, excel, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Excel-tips-for-search-marketing-professionals-Formulas-and-functions.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/excel-formulas-functions-ppc-387428">7 useful Excel formulas and functions for PPC</a>
+          <div class="card-meta">24 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Use these tips to quickly analyze performance data and identify high-impact PPC optimizations that will move the needle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-19T18:53:18.000Z | tags: analytics, prodmgmt, sales-salesmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomtunguz.com/pipeline-analysis-playbook">Pipeline Analysis Playbook</a>
+          <div class="card-meta">19 Aug 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>In many board rooms, the most important go-to-market number this quarter is pipeline health. For some companies, the pipeline may be less clear than a quarter or two ago. Summer seasonality may play a role. Macroeconomics might also be lurking within the numbers. Pipeline fluctuations are normal. But any meaningful &amp; unexpected surprise warrants introspection. Pipeline analysis often has four parts: Craft the sales sandwich to predict your GTM conversion rates &amp; determine if close rates have changed in parallel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-05T01:21:06.000Z | tags: analytics, ecommerce, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/08/Untitled-design-4.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/amazon-product-listing-optimization-must-haves-386902">5 Amazon product listing optimization must-haves</a>
+          <div class="card-meta">5 Aug 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon will continue to be highly competitive. Want to be successful? Optimize your product listings to the fullest with these tips.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-29T20:08:52.000Z | tags: analytics, devops, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/357637" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/test-your-product-on-a-crappy-laptop">Test Your Product On A Crappy Laptop | CSS-Tricks</a>
+          <div class="card-meta">29 Jul 2022</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is a huge and ever-widening gap between the devices we use to make the web and the devices most people use to consume it. It’s also no secret</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:25.000Z | tags: analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.lukethomas.com/content/images/size/w1200/2022/01/CleanShot-2022-01-30-at-06.19.08@2x.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://lukethomas.com/running-marketing-experiments-with-purpose">Running Marketing Experiments with Purpose</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">lukethomas.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the past few years, marketing on the web has become way too much fun. I remember trying to figure out what “hits” on awstats [http://awstats.sourceforge.net/] meant in high school, and I distinctly can recall how disappointed I was when I found out the true meaning.  Nowadays,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:40:39.000Z | tags: analytics, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2022/07/micro-intents.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/micro-intents-seo-content-journey-mapping-386544">How to use 12 micro intents for SEO and content journey mapping</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Analyzing the SERPs for these micro intents will help you create the right content that a searcher will want to find.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:10:16.000Z | tags: analytics, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cxl.com/wp-content/uploads/2019/02/Pricing-experiments.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://conversionxl.com/blog/pricing-experiments-you-might-not-know-but-can-learn-from">Pricing Experiments You Might Not Know, But Can Learn From</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">conversionxl.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pricing is hard. Make it too low and you miss out on profit; too high and you miss out on sales. These pricing experiments will help you get it right.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:01:11.000Z | tags: analytics, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.keen.io/how-to-do-a-retention-analysis-26d3fda00117#.gxchj1abj">https://blog.keen.io/how-to-do-a-retention-analysis-26d3fda00117#.gxchj1abj</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.keen.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T01:05:37.000Z | tags: analytics, checklists, execution, growth-hacks, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://mattishness.blogspot.com/2012/09/growth-hacking-checklist.html">Growth Hacking Checklist</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">mattishness.blogspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>“My biggest surprise was when we launched the Facebook app and it didn’t go viral”   -Startup CEO quote     “The month after we ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:17:37.000Z | tags: analytics, experiments, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2019/12/Testing-methodologies-graph.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/3-pitfalls-of-ppc-experiments-326332">3 pitfalls of PPC experiments</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>Knowing what to test and how to interpret the results based on nuances and oddities of experiments is an important skill for people, not automations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:57:42.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/multivariate-vs-ab-testing-incremental-radical.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/multivariate-testing">Multivariate vs. A/B Testing: Incremental vs. Radical Changes</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Multivariate tests indicate how various UI elements interact with each other and are a tool for making incremental improvements to a design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T01:58:28.000Z | tags: analytics, ecommerce, email, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2022/06/6-Email-Triggers-for-Max-Conversions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/email-triggers-for-max-conversions">6 Email Triggers for Max Conversions</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shoppers&#39; actions on an ecommerce site create opportunities for automated, triggered emails. Such behavior-based email automation is a sure-fire tactic to drive revenue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:08:31.000Z | tags: a-b, analytics, experiments, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reforge.com/blog/good-experiment-bad-experiment">Reforge</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">reforge.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:06:11.000Z | tags: analytics, leadgen-leadmgmt, prodmgmt, sales-salesmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://trafficiscurrency.com/product-qualified-leads">https://trafficiscurrency.com/product-qualified-leads/</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">trafficiscurrency.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-11T17:27:30.000Z | tags: analytics, conjoint, prodmgmt -->
+      <div class="card-image">
+        <img src="https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/online/PublishingImages/blog/posts/business-team-discussing-conjoint-analysis.jpg&amp;w=1200&amp;h=630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://online.hbs.edu/blog/post/what-is-conjoint-analysis">What Is Conjoint Analysis, and How Can It Be Used?</a>
+          <div class="card-meta">11 Jun 2022</div>
+          <div class="card-meta card-domain">online.hbs.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Conjoint analysis is a highly effective means of market research, capable of informing a company’s pricing strategy and product development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-11T17:27:28.000Z | tags: analytics, conjoint, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.qualtrics.com/m/assets/wp-content/uploads/2023/08/conjoint-analysis-feature-en.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.google.com/url?cad=rja&amp;cd=&amp;esrc=s&amp;q=&amp;rct=j&amp;sa=t&amp;source=web&amp;uact=8&amp;url=https://www.qualtrics.com/experience-management/research/types-of-conjoint/&amp;usg=AOvVaw0rBHkFUpK9frt_GJkaab1B&amp;ved=2ahUKEwi8w-bczaP4AhVqmXIEHWNdATAQFnoECAcQAw">9 Common Types of Conjoint Analysis and How To Use Them</a>
+          <div class="card-meta">11 Jun 2022</div>
+          <div class="card-meta card-domain">google.com</div>
+        </div>
+        <div class="card-section">
+          <p>Conjoint analysis is the optimal market research approach for measuring the value that consumers place on features of a product or service. Learn more!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:05:33.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/05/BEST-MARKETING-AUTOMATION-TOOLS-3.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2022/05/13-marketing-automation-tools-that-can-help-you-boost-your-sales">13 marketing automation tools that can help you boost your sales</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>The way we live our lives has an impact on our work. Long lists of typical chores may turn your</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:24.000Z | tags: analytics, ecommerce, keywords-ppc-seo, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2022/05/May22_13_1055306876.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2022/05/when-keyword-poaching-pays-off">When Keyword Poaching Pays Off</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Competitive poaching refers to the practice of bidding on ads for a competitor’s search terms, in order to poach customers searching for that brand. It’s a common tactic in the world of digital ads — but is it effective? The author shares results from the first-ever empirical study of this practice, which found that poaching can work well for higher-end brands, but may backfire for lower-end or mass market offerings. Specifically, the study found that when an ad poached customers who searched for a high-end brand, users clicked on it more, but when an ad poached a low-end or mass market target, users were less likely to click. Of course, the author notes that clickthrough rate is just one metric, and there may be other ways in which a poaching campaign could be harmful or beneficial. But these findings can help marketers add a bit of science to the art that is digital advertising, helping them to optimize campaigns for their unique products and customers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-19T19:46:00.000Z | tags: analytics, keywords-ppc-seo, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2021/11/Google-Analytics-4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/google-brand-serps-people-also-ask-381282">Google brand SERPs: Why you must dominate People Also Ask</a>
+          <div class="card-meta">19 Mar 2022</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s time to optimize for People Also Asked questions asked around and about your brand in Google&#39;s SERPs. Here&#39;s why.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-19T19:55:09.000Z | tags: analytics, ecommerce, prodmgmt, sales-salesmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomtunguz.com/longitudinal-sales-analysis">The Sales Sandwich by @ttunguz</a>
+          <div class="card-meta">19 Feb 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most consistent sales leader I’ve worked with hit plan 27 consecutive quarters. How can a sales leader develop similar repeatability? Much goes into it here are the reports he used to manage his team at the board level. The PQR (pipeline-to-quota) funnel is first. Pipeline is the total value of the accounts within a stage or later. Quota is the aggregate quota on the street for the quarter. Divide P by Q to get PQR.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:18:13.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/WhyYouOnlyNeedToTest5Users_Social-Media-Posts_2021-15.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users">Why You Only Need to Test with 5 Users</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-09T15:37:33.000Z | tags: analytics, discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*FSfbAqO5aeba8WFU_bRRMw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/SOKeDFJoQlb">7 Ways Experiments Break</a>
+          <div class="card-meta">9 Dec 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Common mistakes to avoid when you’re getting started with experimentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T14:16:59.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.evanmiller.org/ab-testing">Evan&#39;s Awesome A/B Tools - sample size calculator, A/B test results, and mo</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">evanmiller.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T21:13:27.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/60b23bba289bde7618d0ac52/1622293434346/2.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2021/5/29/boxes-trucks-and-bikes">Boxes, trucks and bikes</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>Should we still be talking about online and offline retail, or about trucks versus boxes versus bikes?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:59:52.000Z | tags: analytics, churn, prodmgmt -->
+      <div class="card-image">
+        <img src="https://news.crunchbase.com/wp-content/uploads/2021/02/Robinhood_.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.crunchbase.com/news/the-two-flavors-of-churn-you-need-to-know">The Two Flavors Of Churn You Need To Know - Crunchbase News</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">news.crunchbase.com</div>
+        </div>
+        <div class="card-section">
+          <p>Net dollar churn is a more value-driven way of looking at churn.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-22T19:30:29.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.oliverpalmer.com/img/poppy-illustration.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://oliverpalmer.com/blog/you-probably-dont-need-ab-testing">Oliver Palmer | You probably don’t need A/B testing</a>
+          <div class="card-meta">22 Mar 2021</div>
+          <div class="card-meta card-domain">oliverpalmer.com</div>
+        </div>
+        <div class="card-section">
+          <p>The best way to optimise your website is usually the simplest.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-23T19:54:21.000Z | tags: analytics, ecommerce, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://newsroom.haas.berkeley.edu/wp-content/uploads/2021/02/StubHub_AP-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://newsroom.haas.berkeley.edu/research/buyer-beware-massive-experiment-shows-why-ticket-sellers-hit-you-with-hidden-fees-drip-pricing">Buyer beware: Massive experiment shows why ticket sellers hit you with last-second fees | Haas News | Berkeley Haas</a>
+          <div class="card-meta">23 Feb 2021</div>
+          <div class="card-meta card-domain">newsroom.haas.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>There’s a reason that online ticket sellers hit you with those extra fees after you’ve picked your seats and are ready to click “buy.” Pure profit. A</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:46:23.000Z | tags: analytics, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://px6vg4ekvl21gtxs836x5jyx-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/Guide-to-Product-Analytics-Worksheet.pdf">https://px6vg4ekvl21gtxs836x5jyx-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/Guide-to-Product-Analytics-Worksheet.pdf</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">px6vg4ekvl21gtxs836x5jyx-wpengine.netdna-ssl.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:46:21.000Z | tags: analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://mixpanel.com/wp-content/uploads/2020/11/Home-page-sharing-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mixpanel.com/content/guide-to-product-analytics/intro">The Guide to Product Analytics - Introduction | Mixpanel</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">mixpanel.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Guide to Product Analytics taps dozens of product leaders (from companies like Google, Twitter, and LinkedIn) to break down how PMs can use product analytics to drive product-led growth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-22T10:11:24.000Z | tags: analytics, ideation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/5d3152346d95065922960b3a/5e2692145f16d0aef5429fd4_psl-feed-features-studio-kill-xylo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.psl.com/feed-posts/psl-studio-kill-xylo">Features</a>
+          <div class="card-meta">22 Jan 2020</div>
+          <div class="card-meta card-domain">psl.com</div>
+        </div>
+        <div class="card-section">
+          <p>PSL Features</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: a-b, analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cxl.com/wp-content/uploads/2019/09/image-17.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://conversionxl.com/blog/dont-build-growth-teams">I&#39;ve Built Multiple Growth Teams. Here&#39;s Why I Won&#39;t Do It Again. | CXL</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">conversionxl.com</div>
+        </div>
+        <div class="card-section">
+          <p>Big success. Bigger failure. And lots of lessons. Learn why building a growth team may be a multi-million dollar mistake.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:41.000Z | tags: analytics, mobile, prodmgmt -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1c1e8c98-ae5c-41ea-9ee9-b5aa8b0d9aa6/design-profitable-sales-funnels-mobile.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2019/12/design-profitable-sales-funnels-mobile">How To Design Profitable Sales Funnels On Mobile</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Every website or PWA you build should automate as much prospecting and selling as possible. The only thing is that visitors enter websites with various mindsets, depending on which part of the buying stage they’re at. This means that you can’t just take every person who enters the site through the same path. You have to design a custom sales funnel (or pathway) for each kind of buyer. In this article, Suzanna Scacca will tell you what you need to keep in mind.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T03:02:27.000Z | tags: analytics, experiments, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2018/10/nov18_2_521713296.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2018/11/using-experiments-to-launch-new-products">Using Experiments to Launch New Products</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Increasingly, companies are using experiments to guide them in their decision making—but many are still missing opportunities, or are failing to implement experiments well. When it comes to the rollout of new products, one particularly effective new kind of experiment involves randomizing the introduction of new products across a set of markets. Uber used this strategy before rolling out its Express Pool service, and Airbnb did the same before rollout out a new landing-page design. In both cases, the companies gathered data that allowed them to roll out their products with confidence that they would succeed—as indeed they did. Many companies, even those not in the tech sector, can benefit from this kind of experimentation, especially if they follow a few basic guidelines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-06-23T18:55:40.000Z | tags: analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/06/6-Gaps-in-Google-Analytics-That-Require-Additional-Tools.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/6-gaps-in-google-analytics-that-require-additional-tools">7 Gaps in Google Analytics That Require Additional Tools</a>
+          <div class="card-meta">23 Jun 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google Analytics is a powerful, free web analytics platform. However, it has gaps that are better served by other tools. I&#39;ll address those gaps and tools in this post.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-16T02:09:40.000Z | tags: analytics, keywords-ppc-seo, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="https://robsobers.com/content/images/wordpress/2015/01/stack-for-bootstrappers-yellow.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://robsobers.com/9-dollar-marketing-stack-step-by-step-setup-guide">$9 Marketing Stack: A Step-by-Step Guide</a>
+          <div class="card-meta">16 Mar 2019</div>
+          <div class="card-meta card-domain">robsobers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Update 2016-10-18: This tutorial has been updated to reflect the latest version of my stack (now with Drip!). I’ve also updated pricing info (it’s technically a $0 stack now) and screenshots. The original outdated article is archived here.       “Just tell me what to do so I can stop</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-12T20:41:45.000Z | tags: analytics, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/responding-skepticism-small-usability-tests2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/responding-skepticism-small-usability-tests">How to Respond to Skepticism of Testing Small Groups of Users</a>
+          <div class="card-meta">12 Mar 2019</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>“That’s just one person” and “Our real users aren’t like that” are common objections to findings from qualitative usability testing. Address these concerns proactively to ensure your research is effective.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-06T18:12:28.000Z | tags: analytics, prodmgmt, ideation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:705/1*8UgLf8IwfKDuW8zFMuwmLA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@itamargilad/evidence-based-scoring-a-systematic-way-to-know-if-you-have-a-good-idea-44d39e166abf">Evidence scores — the acid test of your ideas</a>
+          <div class="card-meta">6 Feb 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Finding and building the next big idea is the holy grail of any tech company. Unfortunately the statistics are against us: when subjected…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-12T18:18:52.000Z | tags: analytics, experiments, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/jaEWMYfgXr?ssr=true">https://t.co/jaEWMYfgXr?ssr=true</a>
+          <div class="card-meta">12 Jan 2019</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-11-26T23:43:38.000Z | tags: a-b, analytics, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://bdow.com/wp-content/uploads/2024/04/8b7543d2-14d1-4fd3-81f5-ff23b48ef081.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sumo.com/stories/ecommerce-ab-testing">25 Ecommerce A/B Testing Ideas For Your 5 Top Store Pages</a>
+          <div class="card-meta">26 Nov 2018</div>
+          <div class="card-meta card-domain">sumo.com</div>
+        </div>
+        <div class="card-section">
+          <p>The biggest question in ecommerce A/B testing is not “how.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-05T22:10:40.000Z | tags: analytics, decisions, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.insightpartners.com/wp-content/uploads/2020/01/scaleup_blog_tech-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.insightpartners.com/blog/the-best-product-teams-crave-truth-and-do-math">The Best Product Teams Crave Truth and Do Math</a>
+          <div class="card-meta">5 Sep 2018</div>
+          <div class="card-meta card-domain">insightpartners.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-24T13:15:32.000Z | tags: analytics, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2017/11/Screen-Shot-2017-11-24-at-1.08.27-PM.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://dataconomy.com/2017/11/understanding-value-customer-clv-101">Understanding the value of your customer: CLV 101</a>
+          <div class="card-meta">24 Nov 2017</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>At some point, almost every company faces questions like How good are the customers that we acquire? How do they</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

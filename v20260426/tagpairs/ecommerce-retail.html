@@ -1,0 +1,410 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>ecommerce + retail &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-10-17T18:46:35.463Z | tags: retail, ecommerce -->
+      <div class="card-image">
+        <img src="https://img.semafor.com/b0a56dec1b13d728171e742be082175e8d6ec457-3000x2287.png?rect=357,0,2287,2287&amp;w=600&amp;h=600&amp;q=75&amp;auto=format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semafor.com/article/10/16/2025/how-sams-club-became-the-netflix-of-shopping">How Sam’s Club became the ‘Netflix of shopping’</a>
+          <div class="card-meta">17 Oct 2025</div>
+          <div class="card-meta card-domain">semafor.com</div>
+        </div>
+        <div class="card-section">
+          <p>CEO Chris Nicholas aims to double sales at the Walmart unit with a focus on driving “disruptive value.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-10T15:13:57.012Z | tags: retail, ecommerce, ui-ux -->
+      <div class="card-image">
+        <img src="https://retail-focus.co.uk/wp-content/uploads/2025/10/claudio-schwarz-7rgV2Juik6w-unsplash-Large.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://retail-focus.co.uk/how-visual-cues-drive-sales-practical-strategies-for-retailers/">How Visual Cues Drive Sales: Practical Strategies for Retailers</a>
+          <div class="card-meta">10 Oct 2025</div>
+          <div class="card-meta card-domain">retail-focus.co.uk</div>
+        </div>
+        <div class="card-section">
+          <p>Step into a flagship on Oxford Street or a pop-up in Manchester and the same truth applies: what shoppers see first shapes what they do next. Visual cues, whether bold colour blocking, angled shelving, or lighting accents, are the quiet persuaders of retail. They do more than decorate space. They guide behaviour, build trust, and […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-24T15:23:03.355Z | tags: ecommerce, retail, best-practices, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/06/Merchandising-Lessons-from-Top-Marketplaces.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/merchandising-lessons-from-top-marketplaces">Merchandising Lessons from Top Marketplaces</a>
+          <div class="card-meta">24 Jun 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>We analyze the home pages of 10 marketplaces to spot common merchandising traits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-23T10:55:13.093Z | tags: ecommerce, clothes, retail -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2025/03/032025-featured-vintage-clothing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/ecommerce-and-the-secondhand-boom">Ecommerce and the Secondhand Boom</a>
+          <div class="card-meta">23 Mar 2025</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Culture, marketplaces, and economics contribute to consumer demand for used clothing. Merchants can benefit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-18T16:13:45.807Z | tags: retail, ecommerce, returns -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2024/11/17/business/17shoptalk-keep-it-illo/17shoptalk-keep-it-illo-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2024/11/15/business/returns-online-shopping.html">Returns Are a Headache. More Retailers Are Saying, Just ‘Keep It.’</a>
+          <div class="card-meta">18 Nov 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>In a survey, nearly 60 percent of retailers said they had policies that refund customers for items that aren’t financially viable to send back.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-05T15:00:47.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://retailwire.com/wp-content/uploads/2022/10/goodwillfinds-product-page-on-laptop-666x333-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://retailwire.com/discussion/goodwillfinds-com-gives-shoppers-more-reasons-to-feel-good-about-buying-secondhand">GoodwillFinds.com gives shoppers more reasons to feel good about buying sec</a>
+          <div class="card-meta">5 Oct 2022</div>
+          <div class="card-meta card-domain">retailwire.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new recommerce venture offers all of the benefits of buying second hand plus a means to help fund social service programs in local communities, such as job training and youth mentorship. Do you see retailers trying to raise the visibility of their secondhand offerings in light of rising prices?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-01T13:01:33.000Z | tags: ecommerce, retail -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/07/27/business/00liquidators-01/00liquidators-01-largeHorizontalJumbo.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=29ad4af2210561d9d7288beffb04a7d300f0c8045626b1ff5508a37e17181bad&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/07/30/business/retail-returns-liquidation.html">Retail’s ‘Dark Side’: As Inventory Piles Up, Liquidation Warehouses Are Busy (Published 2022)</a>
+          <div class="card-meta">1 Aug 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Consumers are buying fewer discretionary goods and returning more. To clear their shelves, retailers are selling to liquidators at steep discounts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:30.000Z | tags: ecommerce, retail -->
+      <div class="card-image">
+        <img src="https://hbswk.hbs.edu/PublishingImages/social/hbswk_260.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbswk.hbs.edu/item/where-should-we-build-a-mall-the-formation-of-market-structure-and-its-effect-on-sales">Where Should We Build a Mall? The Formation of Market Structure and Its Effect on Sales</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">hbswk.hbs.edu</div>
+        </div>
+        <div class="card-section">
+          <p>This research by Doug J. Chung, Kyoungwon Seo, and Reo Song bprovides a rigorous, yet practical, framework to understand and evaluate why retail stores join a shopping mall and how their decisions affect mall revenue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-06T01:21:08.000Z | tags: behaviors, ecommerce, retail -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://conversionsciences.com/blog/makes-shoppers-click-infographic">What Makes Shoppers Click? A Lesson in E-Commerce Consumer Psychology (INFOGRAPHIC) - Conversion Sciences</a>
+          <div class="card-meta">6 Jul 2022</div>
+          <div class="card-meta card-domain">conversionsciences.com</div>
+        </div>
+        <div class="card-section">
+          <p>Consumers have access to all kinds of buyer information on-line. So what is it that makes them click?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:37:33.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://readwrite.com/wp-content/uploads/2019/04/Why-Your-eCommerce-Business-Should-Have-a-Pop-Up-Shop.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://readwrite.com/2019/04/25/why-your-ecommerce-business-should-have-a-pop-up-shop">Why Your eCommerce Business Should Have a Pop-Up Shop</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">readwrite.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ecommerce is booming, and there’s no doubt about that. The numbers speak for themselves. After all, in 2017, ecommerce sales reached $2.3 trillion, and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-04T01:51:23.000Z | tags: catalogs, ecommerce, history, pricing, retail -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://christmas.musetechnical.com/ShowCatalogPage/1980-Sears-Spring-Summer-Catalog/0729">1980 Sears Spring Summer Catalog, Page 729 - Catalogs &amp; Wishbooks</a>
+          <div class="card-meta">4 Jul 2022</div>
+          <div class="card-meta card-domain">christmas.musetechnical.com</div>
+        </div>
+        <div class="card-section">
+          <p>1980 Sears Spring Summer Catalog, Page 729</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:34:48.000Z | tags: ecommerce, retail -->
+      <div class="card-image">
+        <img src="https://imageio.forbes.com/specials-images/imageserve/5c9cf0b74bbe6f055176f648/0x0.jpg?format=jpg&amp;height=900&amp;width=1600&amp;fit=bounds" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.forbes.com/sites/abrambrown/2019/04/01/the-outlandish-story-of-ollies-a-5-billion-retail-empire-that-sells-nothing-online-but-is-beating-amazon">The Outlandish Story Of Ollie’s: A $5 Billion Retail Empire That Sells Nothing Online (But Is Beating Amazon)</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">forbes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ollie’s is very possibly the only company in America whose brick-and-mortar stores are not just surviving but thriving.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T23:52:36.000Z | tags: ecommerce, pricing, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F3345%2F1582045587_GUR66LXZ5T77CHCPZRUCXU4WIE.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/why-you-re-never-really-happy-with-the-things-you-buy-anymore">Why You’re Never Really Happy With the Things You Buy Anymore</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Constant bargain hunting makes us value all the wrong things about shopping.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-25T18:43:48.000Z | tags: behaviors, ecommerce, retail -->
+      <div class="card-image">
+        <img src="https://bigthink.com/wp-content/uploads/2021/08/135198-135199.jpg?resize=1200,630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bigthink.com/neuropsych/impulse-buying">Instant gratification: The neuroscience of impulse buying</a>
+          <div class="card-meta">25 Dec 2021</div>
+          <div class="card-meta card-domain">bigthink.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our brains did not evolve to shop on Amazon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-18T10:06:24.000Z | tags: ecommerce, pricing, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://media.npr.org/assets/img/2021/02/17/gettyimages-1252249653_wide-5d6b13d7533ba741eee3b5d98aec4b536acc8390.jpg?s=1400&amp;c=100&amp;f=jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.npr.org/2021/02/17/968666255/how-a-retail-chain-without-a-website-powered-through-the-pandemic">How A Retail Chain Without A Website Powered Through The Pandemic</a>
+          <div class="card-meta">18 Feb 2021</div>
+          <div class="card-meta card-domain">npr.org</div>
+        </div>
+        <div class="card-section">
+          <p>Burlington shut down online sales in March right before coronavirus lockdowns. But it&#39;s among the discount retailers that have endured the pandemic surprisingly well, even opening new stores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: ecommerce, machine-learning, retail -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*l0qtcDYgfenycwLQ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/using-k-means-to-detect-changes-in-a-retail-store-96af1476dd9f?source=rss----7f60cf5620c9---4">Using K-Means to detect changes in a retail store | Towards Data Science</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unsupervised techniques to identify changes in the behavior</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:30:53.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.modernretail.co/wp-content/uploads/sites/5/2020/05/eastfork.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.modernretail.co/startups/how-ceramics-brand-east-fork-transitioned-to-a-pre-sale-only-model">How ceramics brand East Fork transitioned to a pre-sale only model</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">modernretail.co</div>
+        </div>
+        <div class="card-section">
+          <p>2020 was the year East Fork ceramics planned to become profitable. Now, that&#39;s likely no longer on the table, but the company is using a new model to better handle its balance sheet: pre-sales. Now, new product lines will all be for sale before they&#39;re manufactured, as a way to get capital in as early as possible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:00:43.000Z | tags: advertising-commercials, ecommerce, marketing, retail -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/oIwGLLgU80ATFLgn2trJ_6F5jLI=/0x80:2000x1122/1200x625/media/img/2020/02/anim/original.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/magazine/archive/2020/03/why-restoration-hardware-sends-catalogs-the-size-of-a-toddler/605524">Why Restoration Hardware Sends Catalogs the Size of a Toddler</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The surprising persistence of the mail-order business</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-09-08T01:17:14.000Z | tags: ecommerce, marketing, retail -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/QTqHbCdsUBH8ueFJNfvKAR-1200-80.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theweek.com/articles/859739/meet-man-keeping-americas-dead-malls-alive">Meet the man keeping America&#39;s dead malls alive</a>
+          <div class="card-meta">8 Sep 2019</div>
+          <div class="card-meta card-domain">theweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>Is there hope for our once-beloved social and commercial centers?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:07:32.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2019/04/4-Merchandising-Hacks-to-Increase-Profits.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/4-online-merchandising-hacks-to-increase-profits">4 Online Merchandising Hacks to Increase Profits</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Retailers seek to avoid markdowns and sell out of the season at full margin, but it isn’t easy to predict how much inventory to acquire. In this post, I&#39;ll address four online merchandising tactics that balance consumer demand with inventory levels, to maximize profits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-09T03:07:33.000Z | tags: ecommerce, platforms, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/5d23b492d50aa10001e2a918/5d23b4924b382a0001468379/1718919971627/D1ZGB3OV4AAKv0f.jpg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2019/7/26/amazon-as-experiment">Amazon is a boring retailer — Benedict Evans</a>
+          <div class="card-meta">9 Aug 2019</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon is so new, and so dramatic in its speed and scale and aggression, that we can easily forget how many of the things it’s doing are actually very old.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-05-29T02:30:14.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/rkSWer3mfeJvlv0kcPIuRK1eLBdr8A8g19wN_bBxLNk/g:ce/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL1Nob3BwaW5nXzEwMDBzaHV0dGVyc3RvY2tfNzU2MDE4NDMzLmpwZw==.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/news/the-inherent-value-of-identifiable-store-traffic/555478">The inherent value of identifiable store traffic</a>
+          <div class="card-meta">29 May 2019</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many attributes of the customer journey are very predictable and can be planned for to create and convert inbound store footfall.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-15T23:53:48.000Z | tags: ecommerce, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2017/11/111417-vibram-featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/4-marketing-lessons-opening-brick-mortar-store">4 Marketing Lessons from Opening a Brick-and-mortar Store</a>
+          <div class="card-meta">15 Nov 2017</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lessons learned from opening a brick-and-mortar retail store may apply to online merchants, providing insights about promoting products, driving sales,</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

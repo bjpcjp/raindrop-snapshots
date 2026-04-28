@@ -1,0 +1,196 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + productivity-gtd &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-03-16T13:48:39.000Z | tags: behaviors, productivity-gtd, grit-hustle-perseverance -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://asnewman.github.io/shoshikantetsu">Shoshikantetsu</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">asnewman.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-22T10:55:44.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://bigthink.com/wp-content/uploads/2022/09/wabi-sabi.jpg?resize=1200,630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bigthink.com/the-learning-curve/wabi-sabi">Escape the perfectionist trap with the Japanese philosophy of &quot;wabi sabi&quot;</a>
+          <div class="card-meta">22 Sep 2022</div>
+          <div class="card-meta card-domain">bigthink.com</div>
+        </div>
+        <div class="card-section">
+          <p>Perfectionism is on the rise, and its consequences for mental health can be devastating. The Japanese philosophy of &quot;wabi sabi&quot; can help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:39.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://tci-assets.s3.amazonaws.com/uploads/ROLLINS_SOCIAL.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecreativeindependent.com/people/henry-rollins-on-defining-success">Henry Rollins on defining success</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">thecreativeindependent.com</div>
+        </div>
+        <div class="card-section">
+          <p>Henry Rollins talks about not labelling what you do, why he’s not interested in advice, the need to make things constantly, and why he’s never had a creative block.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:05:51.000Z | tags: behaviors, focus-distractions, learning, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://tdinspiration.wpengine.com/wp-content/uploads/2023/05/og-image@2x.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://doist.com/blog/complete-guide-to-deep-work">Todoist Inspiration</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">doist.com</div>
+        </div>
+        <div class="card-section">
+          <p>Productivity inspiration and tactical advice that’s actually useful.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:21:46.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://www.hanselman.com/blog/content/binary/Windows-Live-Writer/0a3df681baef_C924/97e47e1feb7b591e8220b08a8c83cc9a_28706943-45af-44b8-a280-d15e7cfbc89c.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.hanselman.com/blog/ScottHanselmansCompleteListOfProductivityTips.aspx">Scott Hanselman&#39;s Complete List of Productivity Tips</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hanselman.com</div>
+        </div>
+        <div class="card-section">
+          <p>Note Scott Hanselman (me): I had been meaning to write up my productivity tips ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:17:10.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hamberg.no/gtd">GTD in 15 minutes – A Pragmatic Guide to Getting Things Done</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hamberg.no</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-30T20:49:34.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*LdmXMafmcq2GLgKV4YJaaA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.pub/the-wisdom-of-doing-nothing-pause-and-think-on-purpose-af7a00904284">The Productive Art of Doing Nothing</a>
+          <div class="card-meta">30 Jun 2022</div>
+          <div class="card-meta card-domain">betterhumans.pub</div>
+        </div>
+        <div class="card-section">
+          <p>Pause and think on purpose</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-09T23:36:19.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p07x1rnx.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/worklife/article/20191205-how-to-conquer-work-paralysis-like-ernest-hemingway">How to conquer work paralysis like Ernest Hemingway</a>
+          <div class="card-meta">9 Dec 2019</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>The author wasn’t all about literary masterpieces, dry martinis and rakish charm – he also invented a technique that can beat procrastination and boost productivity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-14T23:28:19.000Z | tags: behaviors, productivity-gtd, grit-hustle-perseverance -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*wgbMpHGqwVueYF3EpJ7_Sw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/thrive-global/30-behaviors-that-will-make-you-unstoppable-in-2019-e42c92cbcda9">30 Behaviors That Will Make You Unstoppable In 2019</a>
+          <div class="card-meta">14 Dec 2018</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>“Anyone who lives within their means suffers from a lack of imagination.” — Oscar Wilde</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-12T10:48:40.000Z | tags: behaviors, productivity-gtd -->
+      <div class="card-image">
+        <img src="https://stb-socialcards.netlify.app/.netlify/functions/create-card/?title=My%2520magic%2520response%2520to%2520%2522Hey%252C%2520can%2520I%2520pick%2520your%2520brain%253F%2522&amp;author_name=Alex+Hillman&amp;author_avatar=https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2Fassets%2F76d57440cfe6a2a6b818832ab6f6fe7ba8014306%2Falex.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackingthebricks.com/pick-your-brain">My magic response to &quot;Hey, can I pick your brain?&quot;</a>
+          <div class="card-meta">12 Sep 2018</div>
+          <div class="card-meta card-domain">stackingthebricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>The first few times it happens, it feels like a positive signal.  Somebody wants your advice and perspective. You must be good at what you do.  And th</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

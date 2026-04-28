@@ -1,0 +1,491 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + semiconductors &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-06-02T00:01:45.000Z | tags: cpus, deep-learning, gpus, llms, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/an-intel-xeon-processor-on-a-black-backdrop-the-processor-is-shown-from-both-above-and-below-displaying-the-thousands-of-conta.jpg?id=33743986&amp;width=1200&amp;height=600&amp;coordinates=0%2C698%2C0%2C698" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-cpu">The Case for Running AI on CPUs Isn’t Dead Yet</a>
+          <div class="card-meta">2 Jun 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>GPUs may dominate, but CPUs could be perfect for smaller AI models</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-22T17:48:09.000Z | tags: deep-learning, optics-photonics, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/two-colorful-microscope-images.jpg?id=33603527&amp;width=1200&amp;height=600&amp;coordinates=0%2C7%2C0%2C7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/backpropagation-optical-ai">Photonic Chips Curb AI Training’s Energy Appetite</a>
+          <div class="card-meta">22 May 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Stanford team achieves first-ever optical backpropagation milestone</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-08T16:32:19.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_209583451-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/googles-tpuv4-architecture-3-major-features">Google’s TPU v4 Architecture: 3 Major Features</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings” was published by researchers at Google. Abstract: “In response to innovations in machine learning (ML) models, production workloads changed radically and rapidly. TPU v4 is the fifth Google domain specific architecture (DSA) and its third supercomputer... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-29T00:29:26.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/03/photo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.techmeme.com/230328/p37">Cerebras open sources seven GPT-based LLMs, ranging from 111M to 13B parame</a>
+          <div class="card-meta">29 Mar 2023</div>
+          <div class="card-meta card-domain">techmeme.com</div>
+        </div>
+        <div class="card-section">
+          <p>Mike Wheatley / SiliconANGLE: Cerebras open sources seven GPT-based LLMs, ranging from 111M to 13B parameters and trained using its Andromeda supercomputer for AI, on GitHub and Hugging Face</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-15T12:04:36.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/wafer-AdobeStock_472655944.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/deep-learning-dl-applications-in-photomask-to-wafer-semiconductor-manufacturing-2">Deep Learning (DL) Applications In Photomask To Wafer Semiconductor Manufac</a>
+          <div class="card-meta">15 Mar 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A list of artificial intelligence used in semiconductor manufacturing tools from February 2023.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-05T13:49:32.000Z | tags: chip-design, circuits-electronics, deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/AdobeStock_309524207-scaled.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/asynchronously-parallel-optimization-method-for-sizing-analog-transistors-using-deep-neural-network-learning">Asynchronously Parallel Optimization Method For Sizing Analog Transistors U</a>
+          <div class="card-meta">5 Mar 2023</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “APOSTLE: Asynchronously Parallel Optimization for Sizing Analog Transistors Using DNN Learning” was published by researchers at UT Austin and Analog Devices. Abstract “Analog circuit sizing is a high-cost process in terms of the manual effort invested and the computation time spent. With rapidly developing technology and high market demand, bringing... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T21:50:56.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://timdettmers.com/wp-content/uploads/2023/01/GPUs_Ada_performance_per_dollar6.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://timdettmers.com/2023/01/16/which-gpu-for-deep-learning">Hacker News</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">timdettmers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here, I provide an in-depth analysis of GPUs for deep learning/machine learning and explain what is the best GPU for your use-case and budget.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-15T11:24:24.000Z | tags: deep-learning, hpc, interconnects, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/QDGHobTS56GF94GsXHu2PV-1200-80.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/cerebras-reveals-andromeda-a-135-million-core-ai-supercomputer">Cerebras Reveals Andromeda, a 13.5 Million Core AI Supercomputer</a>
+          <div class="card-meta">15 Nov 2022</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>The world&#39;s largest chip scales to new heights.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-02T12:55:30.000Z | tags: arxiv, chip-design, deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/04/25/business/00aiexodus1/merlin_178423734_12da72a6-6b6b-495e-b905-a3c7cba1d7a4-largeHorizontalJumbo.jpg?year=2022&amp;h=683&amp;w=1024&amp;s=a7b83807f6b081a41aec120db60eed38e88b9162eac453381f720c296eb9a02b&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/05/02/technology/google-fires-ai-researchers.html">Another Firing Among Google’s A.I. Brain Trust, and More Discord (Published 2022)</a>
+          <div class="card-meta">2 May 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The researchers are considered a key to the company’s future. But they have had a hard time shaking infighting and controversy over a variety of issues.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-05T10:57:02.000Z | tags: deep-learning, semiconductors, tpu, hbm, sram -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gwern.net/docs/ai/2021-jouppi.pdf">Ten Lessons From Three Generations Shaped Google’s TPUv4i - 2021-jouppi.pdf</a>
+          <div class="card-meta">5 Jan 2022</div>
+          <div class="card-meta card-domain">gwern.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:14:35.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/a-computer-chip-with-graphs-next-to-it.jpg?id=25590883&amp;width=1200&amp;height=600&amp;coordinates=0%2C63%2C0%2C63" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tech-talk/semiconductors/processors/lowpower-ai-startup-eta-compute-delivers-first-commercial-chips">Low-Power AI Startup Eta Compute Delivers First Commercial Chips</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>The firm pivoted away from riskier spiking neural networks using a new power management scheme</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T11:23:14.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/05/tpu2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/05/22/hood-googles-tpu2-machine-learning-clusters">Under The Hood Of Google’s TPU2 Machine Learning Clusters</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>As we previously reported, Google unveiled its second-generation TensorFlow Processing Unit (TPU2) at Google I/O last week. Google calls this new</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:21:43.000Z | tags: deep-learning, gpus, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2015/11/TeslaGPU2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/03/14/3d-stacking-boost-gpu-machine-learning">3D Stacking Could Boost GPU Machine Learning</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia has staked its growth in the datacenter on machine learning. Over the past few years, the company has rolled out features in its GPUs aimed neural</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-07T01:04:45.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/04/Google_TPU_2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/04/05/first-depth-look-googles-tpu-architecture">First In-Depth Look at Google’s TPU Architecture</a>
+          <div class="card-meta">7 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Four years ago, Google started to see the real potential for deploying neural networks to support a large number of new services. During that time it was</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:56:04.000Z | tags: deep-learning, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Y6fXBUTKqlDcoGxOPpHz_A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-make-your-own-deep-learning-accelerator-chip-1ff69b78ece4">How to make your own deep learning accelerator chip!</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Currently there are more than 100 companies all over the world building ASIC’s (Application specific integrated circuit) or SOC’s (System…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-03T19:55:00.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://ma.slideslive.com/library/presentations/38922815/thumbnail/efficient-processing-of-deep-neural-network-from-algorithms-to-hardware-architectures_PWFV0T_medium.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://slideslive.com/38921492/efficient-processing-of-deep-neural-network-from-algorithms-to-hardware-architectures">Vivienne Sze · Efficient Processing of Deep Neural Network: from Algorithms to Hardware Architectures</a>
+          <div class="card-meta">3 Dec 2021</div>
+          <div class="card-meta card-domain">slideslive.com</div>
+        </div>
+        <div class="card-section">
+          <p>This tutorial describes methods to enable efficient processing for deep neural networks (DNNs), which are used in many AI applications including computer vision, speech recognition, robotics, etc....</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:42:36.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e">https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">blog.riseml.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-01T14:44:34.000Z | tags: deep-learning, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2016/06/ab_53434447820.jpe" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2017/02/02/memory-core-new-deep-learning-research-chip">Memory at the Core of New Deep Learning Research Chip</a>
+          <div class="card-meta">1 Dec 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the last two years, there has been a push for novel architectures to feed the needs of machine learning and more specifically, deep neural networks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T15:59:46.000Z | tags: deep-learning, gpus, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2018/04/baidu_front.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/25/a-look-at-baidus-industrial-scale-gpu-training-architecture">A Look at Baidu’s Industrial-Scale GPU Training Architecture</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Like its U.S. counterpart, Google, Baidu has made significant investments to build robust, large-scale systems to support global advertising programs. As</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T13:45:36.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semianalysis.com/tenstorrent-wormhole-analysis-a-scale-out-architecture-for-machine-learning-that-could-put-nvidia-on-their-back-foot">Tenstorrent Wormhole Analysis – A Scale Out Architecture for Machine Learni</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-24T17:55:05.000Z | tags: deep-learning, gpus, linear-algebra, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2020/02/ab_quantum_general.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2021/06/24/what-happens-when-multiplication-no-longer-defines-ai-accelerators">What Happens When Multipliers No Longer Define AI Accelerators?</a>
+          <div class="card-meta">24 Jun 2021</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Current custom AI hardware devices are built around super-efficient, high performance matrix multiplication. This category of accelerators includes the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-19T03:42:07.000Z | tags: deep-learning, semiconductors, tpu -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2020/07/ml-perf-e1595989974532.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/05/18/google-details-new-ai-accelerator-chips">Google details new AI accelerator chips</a>
+          <div class="card-meta">19 May 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google detailed TPUv4 at Google I/O 2021. They&#39;re accelerator chips that deliver high performance on AI workloads.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-13T18:49:00.000Z | tags: deep-learning, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://i2.wp.com/semiengineering.com/wp-content/uploads/Fig03_in_memory_computer_LinleyGroup.png?fit=499%2C377&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/11-ways-to-reduce-ai-energy-consumption">11 Ways To Reduce AI Energy Consumption</a>
+          <div class="card-meta">13 May 2021</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pushing AI to the edge requires new architectures, tools, and approaches.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-31T23:37:08.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/nvidia-s-a100-gpu-powered-new-ai-inferencing-records.jpg?id=25559633&amp;width=1200&amp;height=600&amp;coordinates=0%2C63%2C0%2C63" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/tech-talk/robotics/artificial-intelligence/new-ai-inferencing-records?fbclid=IwAR2d9DLYUNeYmCnKNm9VoQkdWQHkFQBedMaSpLu6pDnKTpqV_Mkir0AD2qA">New AI Inferencing Records - IEEE Spectrum</a>
+          <div class="card-meta">31 Oct 2020</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia tops MLPerf records again, consortium adds benchmarks to measure mobile</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-11T12:02:52.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://pyimagesearch.com/wp-content/uploads/2019/05/jetson_nano_geting_started_header.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano">Getting started with the NVIDIA Jetson Nano - PyImageSearch</a>
+          <div class="card-meta">11 Mar 2020</div>
+          <div class="card-meta card-domain">pyimagesearch.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, you will learn how to get started with your NVIDIA Jetson Nano, including installing Keras + TensorFlow, accessing the camera, and performing image classification and object detection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-27T14:02:36.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://images.anandtech.com/doci/12815/p-r-s-four3_678x452.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.anandtech.com/show/12815/cambricon-makers-of-huaweis-kirin-npu-ip-build-a-big-ai-chip-and-pcie-card">Cambricon, Makers of Huawei&#39;s Kirin NPU IP, Build A Big AI Chip and PCIe Ca</a>
+          <div class="card-meta">27 May 2018</div>
+          <div class="card-meta card-domain">anandtech.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-12T02:49:05.000Z | tags: deep-learning, semiconductors, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2017/05/tpu2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www-nextplatform-com.cdn.ampproject.org/c/s/www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/amp">Tearing Apart Google’s TPU 3.0 AI Coprocessor</a>
+          <div class="card-meta">12 May 2018</div>
+          <div class="card-meta card-domain">www-nextplatform-com.cdn.ampproject.org</div>
+        </div>
+        <div class="card-section">
+          <p>Google did its best to impress this week at its annual IO conference. While Google rolled out a bunch of benchmarks that were run on its current Cloud TPU</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-10T19:32:26.000Z | tags: deep-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://i.extremetech.com/imagery/content-types/02u2eb3se3CofpsaDbmztmu/hero-image.fill.size_1200x675.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.extremetech.com/extreme/269008-google-announces-8x-faster-tpu-3-0-for-ai-machine-learning">Google Announces 8x Faster TPU 3.0 For AI, Machine Learning - ExtremeTech</a>
+          <div class="card-meta">10 May 2018</div>
+          <div class="card-meta card-domain">extremetech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s new TPUs are here -- and they&#39;re quite a bit faster than last year&#39;s model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-10-12T23:02:04.000Z | tags: deep-learning, gpus, semiconductors -->
+      <div class="card-image">
+        <img src="https://semiengineering.com/wp-content/uploads/2016/10/Wave_Chip.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://semiengineering.com/making-waves-in-deep-learning">Semiconductor Engineering .:. Making Waves In Deep Learning</a>
+          <div class="card-meta">12 Oct 2016</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>Making Waves in Deep Learning How deep learning applications will map onto a chip.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

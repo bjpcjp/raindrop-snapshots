@@ -1,0 +1,561 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + bias &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-16T18:22:01.267Z | tags: behaviors, beliefs, influence-persuasion, bias -->
+      <div class="card-image">
+        <img src="https://behavioralscientistorg.b-cdn.net/wp-content/uploads/2026/03/2026-03_Ottinger_Facts-Moral-Highground_v4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://behavioralscientist.org/facts-and-the-fight-for-moral-high-ground/">Facts and the Fight for Moral High Ground - by Gwen Ottinger - Behavioral Scientist</a>
+          <div class="card-meta">16 Mar 2026</div>
+          <div class="card-meta card-domain">behavioralscientist.org</div>
+        </div>
+        <div class="card-section">
+          <p>How science can get it right and still miss the point.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-22T18:13:25.700Z | tags: bias, behaviors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/fundamental-attribution-error/">The Fundamental Attribution Error: When People Underestimate Situational Factors</a>
+          <div class="card-meta">22 Oct 2024</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-03T07:29:04.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://www.choicehacking.com/wp-content/uploads/2024/05/Copy-of-Choice-Hacking-Podcast-Social-Image-Client-Logos-21.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.choicehacking.com/2024/03/01/what-is-maslows-hammer">What is Maslow’s Hammer?</a>
+          <div class="card-meta">3 Mar 2024</div>
+          <div class="card-meta card-domain">choicehacking.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is Maslow&#39;s Hammer? Maslow&#39;s Hammer says that we rely too much on familiar tools (not because they&#39;re good - only because they&#39;re familiar). As the saying goes, “When you have a hammer, everything’s a nail.” It&#39;s why doctors are more likely to recommend surgery for back pain than alternative treatments like massage or chiro.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-03T07:28:46.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://www.choicehacking.com/wp-content/uploads/2024/05/Copy-of-Choice-Hacking-Podcast-Social-Image-Client-Logos-21.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.choicehacking.com/2024/03/01/what-is-the-concorde-fallacy">What is the Concorde Fallacy?</a>
+          <div class="card-meta">3 Mar 2024</div>
+          <div class="card-meta card-domain">choicehacking.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is the Concorde Fallacy? 🧠 The Concorde Fallacy describes how we will continue to defend a bad investment, even when that defense costs more than just giving up. In 1956, discussions started in England to create a supersonic airliner that would get people from London to NYC in under 3 hours (that&#39;s less than</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-09T22:34:39.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/cognitive-debiasing-how-to-debias">Debiasing: How to Reduce Cognitive Biases in Yourself and in Others</a>
+          <div class="card-meta">9 Aug 2023</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-24T13:49:07.000Z | tags: behaviors, bias, emotions -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/von-restorff-isolation-effect">The von Restorff Isolation Effect: What Stands Out Is Remembered Better</a>
+          <div class="card-meta">24 Apr 2023</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-20T01:17:05.000Z | tags: behaviors, bias, influence-persuasion, learning -->
+      <div class="card-image">
+        <img src="https://images.theconversation.com/files/512734/original/file-20230228-22-sn8t3f.jpg?ixlib=rb-4.1.0&amp;rect=20%2C41%2C2277%2C1137&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theconversation.com/why-cant-americans-agree-on-well-nearly-anything-philosophy-has-some-answers-193055">Why can’t Americans agree on, well, nearly anything? Philosophy has some answers</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">theconversation.com</div>
+        </div>
+        <div class="card-section">
+          <p>Two concepts can help explain why society seems increasingly unable to agree on basic facts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:31:28.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18%23.k5omhqka6">https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18%23.k5omhqka6</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">betterhumans.coach.me</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:57.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://measureofdoubt.com/2017/02/05/which-cognitive-bias-is-making-nfl-coaches-predictable">https://measureofdoubt.com/2017/02/05/which-cognitive-bias-is-making-nfl-coaches-predictable/</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">measureofdoubt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:08:20.000Z | tags: behaviors, bias, game-theory -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/zero-sum-bias">The Zero-Sum Bias: When People Think that Everything is a Competition</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:08:07.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/psychologists-fallacy">The Psychologist’s Fallacy: It’s Wrong to Assume that Your Interpretation Must Be Right</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:25.000Z | tags: behaviors, bias, prospect-theory -->
+      <div class="card-image">
+        <img src="https://invertedpassion.com/wp-content/uploads/2017/12/framing_effects-1024x735.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://invertedpassion.com/hacks-to-avoid-cognitive-biases">How to avoid cognitive biases when you get paid to think - Inverted Passion</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">invertedpassion.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the major findings in last 50 years has been what people had suspected all along: human thinking and judgment often isn’t rational. By this, I mean given a situation where someone has to make a decision, she will often take a decision that “leaps” to her immediately rather taking than a decision that… Read More</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:59.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:500/0*pqzoHza2BEgkvygj.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054">Most Common Cognitive Biases Visualised &amp; Explained</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.usejournal.com</div>
+        </div>
+        <div class="card-section">
+          <p>There used to be a generic belief that humans are completely rational. It is easily understandable why a belief like this was popular…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:09.000Z | tags: beauty, behaviors, bias, custsvc -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F4780%2F1592580478_file-20190926-51410-12m9akjcrop.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/beautiful-people-don-t-always-win-in-the-workplace">Beautiful People Don’t Always Win in the Workplace</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Research shows how attractive employees can rub some customers the wrong way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:05:04.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/cherry-picking">Cherry Picking: When People Ignore Evidence that They Dislike</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:45.000Z | tags: behaviors, bias, prospect-theory -->
+      <div class="card-image">
+        <img src="https://www.investopedia.com/thmb/Q_Kh0Bt8FOtuOga8A_FHbIc_E2g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/prospecttheory.asp-FINAL-55296758049c4501808f54b52747cb35.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.investopedia.com/terms/p/prospecttheory.asp">Prospect Theory: What It Is and How It Works, With Examples</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">investopedia.com</div>
+        </div>
+        <div class="card-section">
+          <p>Prospect theory argues that if given the option, people prefer more certain gains rather than the prospect of larger gains with more risk.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:20.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://static.scientificamerican.com/blogs/cache/file/8C5DAA0B-BB28-4060-9AAE6496199E9A42_source.jpg?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/why-the-most-important-idea-in-behavioral-decision-making-is-a-fallacy">Why the Most Important Idea in Behavioral Decision-Making Is a Fallacy</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The popular idea that avoiding losses is a bigger motivator than achieving gains is not supported by the evidence</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:18.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/doris_web_image.jpg.webp?itok=nbEahAcW" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gsb.stanford.edu/insights/better-if-its-man-made">Better If It’s Man-Made?</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">gsb.stanford.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:19:20.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2018/11/Nudge-Improving-Decisions.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.farnamstreetblog.com/2015/12/biases-and-blunders">Biases and Blunders</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">farnamstreetblog.com</div>
+        </div>
+        <div class="card-section">
+          <p>If we really want to understand how we can nudge people into making better choices, it’s important to understand why they often make such poor ones.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:18:31.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://scx2.b-cdn.net/gfx/news/2016/toomuchevide.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://phys.org/news/2016-01-evidence-bad.html">Why too much evidence can be a bad thing</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">phys.org</div>
+        </div>
+        <div class="card-section">
+          <p>(Phys.org)—Under ancient Jewish law, if a suspect on trial was unanimously found guilty by all judges, then the suspect was acquitted. This reasoning sounds counterintuitive, but the legislators of ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T13:08:03.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9a7a7ccedd0d998c9252631b0fc01378e6bc1afc_2880x1620.jpg?u%5Br%5D=2&amp;u%5Bs%5D=0.5&amp;u%5Ba%5D=0.8&amp;u%5Bt%5D=0.03&amp;quality=82c=1050%2C550&amp;w=1050" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.ted.com/talks/elizabeth_lesser_take_the_other_to_lunch?language=en=">Take &quot;the Other&quot; to lunch</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">ted.com</div>
+        </div>
+        <div class="card-section">
+          <p>There&#39;s an angry divisive tension in the air that threatens to make modern politics impossible. Elizabeth Lesser explores the two sides of human nature within us (call them &quot;the mystic&quot; and &quot;the warrior”) that can be harnessed to elevate the way we treat each other. She shares a simple way to begin real dialogue -- by going to lunch with someone who doesn&#39;t agree with you, and asking them three questions to find out what&#39;s really in their hearts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-22T13:02:01.000Z | tags: behaviors, bias -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png">https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png</a>
+          <div class="card-meta">22 May 2022</div>
+          <div class="card-meta card-domain">visualcapitalist.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:29:40.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://www.visualcapitalist.com/wp-content/uploads/2018/03/18-cognitive-bias-examples-share.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.visualcapitalist.com/18-cognitive-bias-examples-mental-mistakes">18 Cognitive Bias Examples Show Why Mental Mistakes Get Made</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">visualcapitalist.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here are 18 of the most common mental mistakes in business and investing. Make sure to learn from these cognitive bias examples to make better decisions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:14:13.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*-XgzQw76IgZE2gwbOrNSCA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a">Scarcity in UX: The psychological bias that became the norm</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">uxdesign.cc</div>
+        </div>
+        <div class="card-section">
+          <p>Short analysis on the current state of affairs and a few tips to keep in mind.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:21:24.000Z | tags: behaviors, bias, ui-ux -->
+      <div class="card-image">
+        <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2020/04/design-system-metrics-copy-1.png.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design">UX Design Psychology Tricks for Design Excellence</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">uxpin.com</div>
+        </div>
+        <div class="card-section">
+          <p>Human brain processes information as well as how it forms certain patterns of behavior. Discover cognitive psychology tips for UX.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:39:36.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://undark.org/wp-content/uploads/2021/11/GettyImages-1186700538-crop2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://undark.org/2021/11/15/among-social-scientists-a-vigorous-debate-over-loss-aversion">Among Social Scientists, a Vigorous Debate Over Loss Aversion</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">undark.org</div>
+        </div>
+        <div class="card-section">
+          <p>A principle that explains decision-making — from investor behavior to insurance markets — isn&#39;t ironclad, experts argue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-07T21:38:03.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2021/06/The-Availability-Bias.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fs.blog/2021/06/availability-bias-cognitive-distortion">The Availability Bias: How to Overcome a Common Cognitive Distortion</a>
+          <div class="card-meta">7 Jun 2021</div>
+          <div class="card-meta card-domain">fs.blog</div>
+        </div>
+        <div class="card-section">
+          <p>We tend to judge the likelihood and significance of things based on how easily they come to mind. The more “available” a piece of information is to us, the more important it seems. The result is that we give greater weight to information we learned recently because a news article you read last night comes to mind easier than a science class you took years ago. It’s too much work to try to comb through every piece of information that might be in our heads.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-10T02:51:46.000Z | tags: behaviors, bias, decisions -->
+      <div class="card-image">
+        <img src="https://commoncog.com/content/images/2021/02/how_to_reduce_decision_noise.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://commoncog.com/blog/how-to-reduce-decision-noise">How To Reduce Decision Noise - Commonplace - The Commoncog Blog</a>
+          <div class="card-meta">10 Feb 2021</div>
+          <div class="card-meta card-domain">commoncog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Five ways to do noise reduction, from the field of judgment and decision making.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-31T17:56:17.000Z | tags: advertising-commercials, behaviors, bias, conspiracies, influence-persuasion -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5980%2F1611345286_GettyImages-672713099.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/to-counteract-propaganda-we-should-look-to-lessons-from-advertising">To Counteract Propaganda, We Should Look to Lessons from Advertising</a>
+          <div class="card-meta">31 Jan 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The goal should not be conversion but doubt.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-28T21:16:40.000Z | tags: behaviors, bias, crime -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20064709/GettyImages_1224020513.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.727648375853%2C100%2C78.544703248293&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/policy-and-politics/2020/7/7/21293259/police-racism-violence-ideology-george-floyd">Pocket - Best reads of 2020</a>
+          <div class="card-meta">28 Jan 2021</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>Inside the distinctive, largely unknown ideology of American policing — and how it justifies racist violence.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-23T17:39:50.000Z | tags: behaviors, bias, conspiracies -->
+      <div class="card-image">
+        <img src="https://www.niemanlab.org/images/conspiracy-theories-cc-700x330.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.niemanlab.org/2021/01/the-enduring-allure-of-conspiracies">The enduring allure of conspiracies</a>
+          <div class="card-meta">23 Jan 2021</div>
+          <div class="card-meta card-domain">niemanlab.org</div>
+        </div>
+        <div class="card-section">
+          <p>Conspiracy theories seem to meet psychological needs and can be almost impossible to eradicate. One remedy: Keep them from taking root in the first place.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:31:35.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a113f15-1e86-4f00-82b1-a38f45343945_800x531.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://creativesamba.substack.com/p/the-concorde-fallacy-and-why-people-22e">The Concorde Fallacy and why people make bad decisions - Creative Samba</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">creativesamba.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why Informing your customers of a sunk cost can actually help you increase your sales.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-07T21:50:16.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://149664534.v2.pressablecdn.com/wp-content/uploads/2020/04/Unlikely-Optimism-The-Conjunctive-Events-Bias.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fs.blog/2020/04/unlikely-optimism-the-conjunctive-events-bias">Unlikely Optimism: The Conjunctive Events Bias</a>
+          <div class="card-meta">7 Apr 2020</div>
+          <div class="card-meta card-domain">fs.blog</div>
+        </div>
+        <div class="card-section">
+          <p>When certain events need to take place to achieve a desired outcome, we’re overly optimistic that those events will happen. Here’s why we should temper those expectations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-01T01:37:45.000Z | tags: behaviors, bias, choices -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://peoplescience.maritz.com/Articles/2018/delighting-without-asking">Delighting Without Asking</a>
+          <div class="card-meta">1 Oct 2018</div>
+          <div class="card-meta card-domain">peoplescience.maritz.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-22T20:36:23.000Z | tags: behaviors, bias, pricing -->
+      <div class="card-image">
+        <img src="https://ychef.files.bbci.co.uk/624x351/p05nlpjk.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.bbc.com/future/story/20171120-the-secret-tricks-hidden-inside-restaurant-menus?ocid=global_future_rss">How restaurant menus play tricks on you</a>
+          <div class="card-meta">22 Nov 2017</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Great thought and effort go into creating restaurant menus – and there are some very powerful psychological tricks employed to make you choose.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-10-23T00:14:33.000Z | tags: behaviors, bias -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*FJdunveqCRUTbi0yrnVyvA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://betterhumans.coach.me/the-falsification-mindset-how-to-change-your-own-mind-db4a0a9ae7f2">The Falsification Mindset: How to Change Your Own Mind</a>
+          <div class="card-meta">23 Oct 2017</div>
+          <div class="card-meta card-domain">betterhumans.coach.me</div>
+        </div>
+        <div class="card-section">
+          <p>Here’s a simple practice that can boost your intelligence, help you avoid cognitive bias, and maybe even be happy to prove your own ideas…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

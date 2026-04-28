@@ -1,0 +1,847 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>discovery + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-28T00:01:42.775Z | tags: mvp, discovery, ideation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Course_Card_D.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/mvp-definition/">Minimum Viable Product (MVP): Definition</a>
+          <div class="card-meta">28 Mar 2026</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>MVPs are learning tools that test whether an idea is valuable to users.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-10T16:25:44.403Z | tags: prod-mkt-fit, prodmgmt, discovery -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/size/w1200/2026/03/Serval_BlogImage_1.8_1248x832.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/servals-path-to-product-market-fit/">Serval&#39;s Path to Product-Market Fit — Win Enterprise Buyers by Treating Them Like Consumers</a>
+          <div class="card-meta">10 Mar 2026</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Notes from an AI founder taking a swing at a hundred-billion-dollar incumbent.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-21T16:15:20.251Z | tags: ui-ux, discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://uxmag.com/wp-content/uploads/2026/01/The-Psychology-Gap_-Why-Teams-Misinterpret-User-Behavior-UX-Mag-site-Medium.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://uxmag.com/articles/the-psychology-gap-why-teams-misinterpret-user-behavior">The Psychology Gap: Why Teams Misinterpret User Behavior - UX Magazine</a>
+          <div class="card-meta">21 Jan 2026</div>
+          <div class="card-meta card-domain">uxmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your product isn&#39;t failing because of bad design. It&#39;s failing because your team is designing in clarity while your users are drowning in chaos. The gap between how you think users behave and how they actually feel their way through your product is quietly breaking every flow, feature, and conversion you build. And it starts long before any user ever clicks a button.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-09T00:33:23.285Z | tags: mvp, discovery, startups, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/aEccJrh8WN-LV5_m_default-article-background.png?auto=format%2Ccompress&amp;blend-mode=normal&amp;blend-x=0&amp;blend-y=0&amp;blend=https%3A%2F%2Fimages.prismic.io%2Fthoughtbot-website%2FZ1tQFJbqstJ98cGP_default.png&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0tMTUmdHh0LXRyYWNrPTAmdHh0NjQ9VkhWeWJpQkJibmtnU1dSbFlTQkpiblJ2SUdFZ1ZtRnNhV1JoZEdWa0lFMVdVQSUzRCUzRCZ0eHRjbHI9ZjVmNWY1JnR4dGZvbnQ9SUJNUGxleFNhbnNKUC1TZW1pQm9sZCZ0eHRwYWQ9MCZ0eHRzaXplPTc2Jnc9ODAw&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Moses+Amama" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thoughtbot.com/blog/turn-any-idea-into-a-validated-mvp">Turn Any Idea Into a Validated MVP</a>
+          <div class="card-meta">9 Dec 2025</div>
+          <div class="card-meta card-domain">thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>A step-by-step path to validate your idea fast by defining the problem, testing assumptions, prototyping the critical flow, and shaping a focused MVP you can learn from.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-09T15:41:08.314Z | tags: discovery, prodmgmt, ideation -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2025/09/2000x1333.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/unconventional-tactics-for-validating-your-startup-idea/">Is Your Startup Idea Any Good? Borrow These Validation Tactics from the Founders of Linear, Mercury and More</a>
+          <div class="card-meta">9 Sep 2025</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Founders share the unconventional ways they found conviction in their startup ideas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-07T18:12:09.856Z | tags: sales-salesmgmt, prodmgmt, discovery -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!XpMA!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7892cc8d-c26f-410a-9747-929a882f6573_1456x816.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://writings.founderlabs.io/p/how-to-sell-if-your-user-is-not-the">How to Sell if Your User is not the Buyer</a>
+          <div class="card-meta">7 Aug 2025</div>
+          <div class="card-meta card-domain">writings.founderlabs.io</div>
+        </div>
+        <div class="card-section">
+          <p>Example: Dev = user; CTO = buyer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-26T01:25:16.493Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Timeboxing-edit_openg__copy_2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/7-tips-discovery/">7 Tips for Successful Discoveries</a>
+          <div class="card-meta">26 Nov 2024</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discovery is challenging; it can be hard to know what to research, how to do discovery as a team, and how to get buy-in. Follow these 7 tips for smoother discovery efforts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-28T21:23:51.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.prismic.io/thoughtbot-website/Zn0Q2JbWFbowe7qY_default-article-background.png?auto=format%2Ccompress&amp;mark-x=356&amp;mark-y=100&amp;mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0Lz90eHQtbGVhZD0wJnR4dC10cmFjaz0wJnR4dDY0PVVISnZaSFZqZENCTllXNWhaMlZ0Wlc1MElFbHVjMmxuYUhSek9pQlZibVJsY25OMFlXNWthVzVuSUZsdmRYSWdWWE5sY25NJTNEJnR4dGNscj1mNWY1ZjUmdHh0Zm9udD1JQk1QbGV4U2Fuc0pQLVNlbWlCb2xkJnR4dHBhZD0wJnR4dHNpemU9NjQmdz04MDA%3D&amp;txt-align=center%2Cmiddle&amp;txt-color=f5f5f5&amp;txt-fit=max&amp;txt-font=IBMPlexSansJP-SemiBold&amp;txt-size=24&amp;txt-x=391&amp;txt-y=526&amp;txt=Jared+Turner%2C+et+al" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thoughtbot.com/blog/product-management-insights-understanding-your-users">Product Management Insights: Understanding Your Users</a>
+          <div class="card-meta">28 May 2024</div>
+          <div class="card-meta card-domain">thoughtbot.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is a series where we delve into the world of product management. This week we discuss the art of understanding your users.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-23T19:31:46.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f20ce85-dfa4-4e60-b1c4-7ff6cef7755e_1500x1125.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bitbytebit.substack.com/p/the-size-of-your-backlog-is-inversely">The size of your backlog is inversely proportional to how often you talk to</a>
+          <div class="card-meta">23 Jan 2024</div>
+          <div class="card-meta card-domain">bitbytebit.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Lessons learned from a year of startup life.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-01T15:32:30.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d760e73-b299-4ab9-912b-3e6d7f5a113f_1792x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techbooks.substack.com/p/why-asking-your-customers-what-they">Why asking your customers what they want doesn&#39;t work</a>
+          <div class="card-meta">1 Jan 2024</div>
+          <div class="card-meta card-domain">techbooks.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>And how can you figure it out what they really need</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-09T22:33:06.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://dataknowsall.com/hubfs/prioritization_story.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.dataknowsall.com/prioritization.html">Five Powerful Prioritization Techniques from Product Management</a>
+          <div class="card-meta">9 Apr 2023</div>
+          <div class="card-meta card-domain">dataknowsall.com</div>
+        </div>
+        <div class="card-section">
+          <p>How Data Scientists can learn from how a Product Manager prioritizes features and requirements to build a successful product.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-24T11:49:05.000Z | tags: discovery, ecommerce, marketing, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/04/The-Future-of-Ecommerce-How-a-Product-Becomes-a-Purchase.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2023/03/23/the-future-of-ecommerce">The Future of Ecommerce: How a Product Becomes a Purchase</a>
+          <div class="card-meta">24 Mar 2023</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>General Partner Connie Chan on how leading brands are using AI and other technology to combine the serendipitous discovery of offline shopping with the infinite options of online shopping. Today, most of the Western world revolves around search-based online commerce. This means that most shoppers type directly what they want into a store search bar,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T11:27:43.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://steveblank.com/wp-content/uploads/2022/09/Mapping-4th-pass.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steveblank.com/2022/09/20/mapping-the-unknown-the-ten-steps-to-map-any-industry">Steve Blank Mapping the Unknown – The Ten Steps to Map Any Industry</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">steveblank.com</div>
+        </div>
+        <div class="card-section">
+          <p>A journey of a thousand miles begins with a single step  Lǎozi 老子 I just had lunch with Shenwei, one of my ex-students who had just taken a job in a mid-sized consulting firm.  After a bit of catch…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-31T15:28:13.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.productplan.com/wp-content/uploads/2020/02/Opportunity-solution-tree-1024x844.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.productplan.com/glossary/opportunity-solution-tree">Opportunity Solution Tree</a>
+          <div class="card-meta">31 Jul 2022</div>
+          <div class="card-meta card-domain">productplan.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is an Opportunity Solution Tree? Learn more about opportunity solution trees and the 4 steps involved in creating them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:34.000Z | tags: books, discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.talkingtohumans.com/index">Index</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">talkingtohumans.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:29:11.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgk4L99JyhDmA5Zu3sPuPsESwoLsnMTxJbE4rAiAyq0cJdnZjjDpjQGJuENAd5gyj8UW0mnZHOf58lsl6lmLUQjQeZFA0iM49wxWaWnBwFNz7H89021JfNQha8x00LT4tYq5sD/s1600/False.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.cauvin.org/2014/02/stop-validating-and-start-falsifying.html">Stop Validating and Start Falsifying</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">blog.cauvin.org</div>
+        </div>
+        <div class="card-section">
+          <p>The product management and startup worlds are buzzing about the importance of &quot;validation&quot;. In this entry, I&#39;ll explain how this idea orig...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:29:10.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.futurelab.net/app/uploads/2024/02/futurelab-default-header.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.futurelab.net/blog/2014/04/maybe-voice-customer-isnt/">Maybe the Voice of the Customer Isn’t - Futurelab.net</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">futurelab.net</div>
+        </div>
+        <div class="card-section">
+          <p>Criticizing Voice of the Customer (VOC) programs is like speaking out against motherhood and apple pie. The last time I criticized VOC programs, someone left a comment chastising me for presuming that a bank could know what its customers wanted without asking them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:56.000Z | tags: discovery, prodmgmt, startups -->
+      <div class="card-image">
+        <img src="https://hubstaff.com/blog/wp-content/uploads/2015/03/Startup-Idea-01-780x390.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.hubstaff.com/test-your-startup-idea">Test your startup idea!</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">blog.hubstaff.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hubstaff founder Dave Nevogt shares how to test your startup idea by analyzing model, market and concept.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:28:41.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://blog.intercomassets.com/blog/wp-content/uploads/2013/08/Support-740.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.intercom.com/the-right-type-of-customer-conversations">The right type of customer conversations</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">blog.intercom.com</div>
+        </div>
+        <div class="card-section">
+          <p>Conversations with customers are valuable, but they have to be the right type of conversations – not merely questions about forgotten passwords and the like. They have to add value, for you, and them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:57:14.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://seths.blog/wp-content/uploads/2018/05/sethgodin_04.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://sethgodin.typepad.com/seths_blog/2012/12/the-short-head-the-long-tail-and-the-expensive-scaffolding.html">The short head, the long tail and buying expensive scaffolding</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">sethgodin.typepad.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hits are more valuable than ever, mostly because they&#39;re more rare than ever. The Zipf Distribution, also described in Chris Anderson&#39;s Long Tail, helps us understand just how valuable hi…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:11:27.000Z | tags: discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blogs.wsj.com/accelerators/2012/12/03/customers-dont-know-what-they-want-until-they-see-it">Customers Don&#39;t Know What They Want—Until They See It</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blogs.wsj.com</div>
+        </div>
+        <div class="card-section">
+          <p>This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by
+our Subscriber Agreement and by copyright law. For non-personal use or to order multiple copies, please contact
+Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:08:32.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSloHz-2lYIFuCtVff4Qr1EMaF6x6BjR-WezHVHdbjRqsm-p6Jt3Q" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://mfishbein.com/the-ultimate-list-of-customer-development-questions">The Ultimate List of Customer Development Questions</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">mfishbein.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:07:04.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.skmurphy.com/wp-content/uploads/2014/02/QuestioMark-300x300.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.skmurphy.com/blog/2014/11/24/its-ok-to-ask-would-you-use-this-in-customer-discovery">It&#39;s OK To Ask &quot;Would You Use This&quot; in Customer Discovery</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">skmurphy.com</div>
+        </div>
+        <div class="card-section">
+          <p>It&#39;s OK to ask a B2B prospect if they would use your product during customer discovery. Just don&#39;t to stop at &quot;Yes&quot; and assume validation or a likely sale.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:01:40.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://steveblank.com/wp-content/uploads/2014/02/optimized-water-and-fertilizer.jpg?w=300" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steveblank.com/2014/02/19/how-to-be-smarter-than-your-investors-continuous-customer-discovery">Steve Blank How to Be Smarter than Your Investors – Continuous Customer Discovery</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">steveblank.com</div>
+        </div>
+        <div class="card-section">
+          <p>Teams that build continuous customer discovery into their DNA will become smarter than their investors, and build more successful companies. — Awhile back I blogged about Ashwin, one of my ex…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-17T21:34:47.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.marketplace.org/wp-content/uploads/2014/03/BZquiz.png?fit=1800%2C1000&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.marketplace.org/2014/03/18/business/quizzes-are-free-data-mining-tools-brands">Quizzes are free data mining tools for brands - Marketplace</a>
+          <div class="card-meta">17 Jul 2022</div>
+          <div class="card-meta card-domain">marketplace.org</div>
+        </div>
+        <div class="card-section">
+          <p>An online Game of Thrones quiz got a million online hits for HBO.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:45:49.000Z | tags: discovery, pricing, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://tomtunguz.com/price-discovery">The Most Effective Price Discovery Question for Your Startup by @ttunguz</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">tomtunguz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pricing is one of the most challenging decisions for any startup. One of the simplest ways of discovering customer willingness to pay is simply to ask them. At first blush, that might seem a reasonable and effective solution, it is prone to wild inaccuracy. Absolute pricing judgments are hard without reference points. For example: How much would you be willing to pay for a new iPhone? It’s a very challenging question to answer in the abstract.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:42:08.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://seths.blog/2020/09/who-is-good-at-discovery">Who is good at discovery?</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">seths.blog</div>
+        </div>
+        <div class="card-section">
+          <p>Apple has carefully guarded the podcast directory, persuading podcasters that ‘winning’ here is the shortcut to building a popular podcast. But they’re terrible at introducing pod…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T18:39:06.000Z | tags: discovery, prodmgmt, value-prop -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://danshipper.com/nothing-happens-until-the-sale-is-made">How to get your first 10 customers</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">danshipper.com</div>
+        </div>
+        <div class="card-section">
+          <p>Preface: the assumption for this essay is that you&#39;re building a B2B app, and you have something built but you&#39;re having trouble getting people to pay for it There are three problems with getting your first few customers: You (probably) don&#39;t know how to sell things You don&#39;t know who you&#39;re selling to You don&#39;t even really know what you&#39;re selling Nobody tells you how to answers these questions, and so most people go out</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T03:33:22.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2fnz4b1u0xtzunpd8hft8p_fr_ceo15_0237.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://firstround.com/review/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product">&#39;Get in the Van&#39; and Other Tips for Getting Meaningful Customer Feedback</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>Michael Sippey has been building tech products for over 20 years. His most valuable ideas, though? They came from speaking with customers. Here&#39;s how.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T03:31:40.000Z | tags: discovery, learning, prodmgmt, quality -->
+      <div class="card-image">
+        <img src="https://qualitysafety.bmj.com/sites/default/files/highwire/qhc/26/8.cover-source.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://qualitysafety.bmj.com/content/26/8/671">The problem with ‘5 whys’</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">qualitysafety.bmj.com</div>
+        </div>
+        <div class="card-section">
+          <p>‘The Problem with…’ series covers controversial topics related to efforts to improve healthcare quality, including widely recommended but deceptively difficult strategies for improvement and pervasive problems that seem to resist solution.  The ‘5 whys’ technique is one of the most widely taught approaches to root-cause analysis (RCA) in healthcare. Its use is promoted by the WHO,1 the English National Health Service,2 the Institute for Healthcare Improvement,3 the Joint Commission4 and many other organisations in the field of healthcare quality and safety. Like most such tools, though, its popularity is not the result of any evidence that it is effective.5–8 Instead, it probably owes its place in the curriculum and practice of RCA to a combination of pedigree, simplicity and pedagogy.  In terms of pedigree, ‘5 whys’ traces its roots back to the Toyota Production System (TPS).9 It also plays a key role in Lean10 (a generic version of TPS) as well as Six Sigma,11 another popular quality improvement (QI) methodology. Taiichi Ohno describes ‘5 whys’ as central to the TPS methodology:The basis of Toyota&#39;s scientific approach is to ask why five times whenever we find a problem … By repeating why five times, the nature of the problem as well as its solution becomes clear. The solution, or the how-to, is designated as ‘1H.’ Thus, ‘Five whys equal one how’ (5W=1H). (ref. 9, p. 123)  This quote also makes the case for the technique&#39;s simplicity. Asking ‘why’ five times allows users to arrive at a single root cause that might not have been obvious at the outset. It may also inspire a single solution to address that root cause (though it is not clear that the ‘1H’ side of the equation has been adopted as widely).  The pedagogical argument for …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T03:29:56.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://purde.net/uploads/2018/02/customer-development-w-pipedrive.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://purde.net/2018/02/customer-development-pipedrive">70 meetings and calls later: How I achieved customer interview management superpowers</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">purde.net</div>
+        </div>
+        <div class="card-section">
+          <p>I’ve been working on a marketing automation tool (more on that at the end of the post). Or rather, I’ve been working on an idea for a marketing automation tool as I don’t want a single line of code written before I’d experienced a notable pull from target customers. (This may sound like I am clever/…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T23:57:21.000Z | tags: discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quora.com/What-are-some-methods-and-tools-for-analyzing-customer-discovery-interviews">What are some methods and tools for analyzing customer discovery interviews? - Quora</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">quora.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:36:01.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.skmurphy.com/wp-content/uploads/2015/11/jpeg-2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.skmurphy.com/blog/2014/11/21/customer-interviews-how-to-organize-findings">Customer Interviews: How To Organize Findings</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">skmurphy.com</div>
+        </div>
+        <div class="card-section">
+          <p>A conversation with Bruce La Fetra on customer interviews. We compare notes on how to organize findings and take best advantage of the insights gleaned.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:35:59.000Z | tags: custsvc, discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.kissmetrics.com/26-customer-development-resources">Neil Patel&#39;s Digital Marketing Blog</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">blog.kissmetrics.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your #1 resource for digital marketing tips, trends, and strategy to help you build a successful online business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:35:06.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.rockstarcoders.com/content/uploads/2018/09/emily-morter-188019-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.rockstarcoders.com/customer-feedback">Argue with your customers - Rockstar Coders</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">rockstarcoders.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:33:56.000Z | tags: discovery, interviewing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/fc/3003945-poster-ipad-images-2-fc-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything">The One Conversational Tool That Will Make You Better At Absolutely Everything - Fast Company</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Great insight moves your career, organization, or business forward. The problem? Most people are terrible at asking questions. Learn from the pros how to do it right.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:32:09.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://go.forrester.com/wp-content/uploads/2024/08/24Q3-Home-page_social-share-1200x628_240827.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.siriusdecisions.com/blog/identifying-noncustomers-for-customer-interviews">Forrester</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">siriusdecisions.com</div>
+        </div>
+        <div class="card-section">
+          <p>Forrester is a leading global market research company that helps organizations exceed customer demands and excel with technology. Learn how Forrester can help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T13:22:10.000Z | tags: discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://momtestbook.com">Momtestbook</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">momtestbook.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:07:10.000Z | tags: behaviors, discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.usersknow.com/blog/2012/05/sometimes-its-not-change-they-hate.html">Sometimes It’s Not the Change They Hate — Users Know</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">usersknow.com</div>
+        </div>
+        <div class="card-section">
+          <p>There has been a lot of discussion in the design world recently about &quot;change aversion.&quot; Most of the articles about it seem to be targeting the new Google redesign, but I&#39;ve certainly seen this same discussion happen at many companies when big changes aren&#39;t universally embraced by users.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-12T12:06:59.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c3e2a1fd-f819-4b01-ba5d-82f29e342df5/exp-board-illu.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2014/04/a-guide-to-validating-product-ideas-with-quick-and-simple-experiments">A Guide To Validating Product Ideas With Quick And Simple Experiments — Smashing Magazine</a>
+          <div class="card-meta">12 Jun 2022</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you are building a product, you should always speak with customers and test your idea before. But you probably don’t know that *you *might be making some of the most common mistakes when running your experiments. Mistakes include testing the wrong aspect of your business, asking the wrong questions and neglecting to define a criterion for success. In this article, Grace Ng will show you a guide to designing quick, effective, low-cost experiments.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-09T15:37:33.000Z | tags: analytics, discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*FSfbAqO5aeba8WFU_bRRMw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/SOKeDFJoQlb">7 Ways Experiments Break</a>
+          <div class="card-meta">9 Dec 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Common mistakes to avoid when you’re getting started with experimentation</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T19:10:20.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://review.firstround.com/content/images/2056/firstround-2ffrr_hareem-mannan_168rt.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://review.firstround.com/the-design-leadership-playbook-how-to-hire-onboard-and-manage-a-high-impact-design-org">The Design Leadership Playbook: How to Hire, Onboard &amp; Manage a High-Impact</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">review.firstround.com</div>
+        </div>
+        <div class="card-section">
+          <p>From the high-level perspective of what makes for a great design leader, to the tactical suggestions around the slide that needs to be in your portfolio presentation, Twilio &amp; Segment&#39;s Hareem Mannan shares useful advice for every stage of a designer&#39;s career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-29T12:44:09.000Z | tags: discovery, prodmgmt, storytelling -->
+      <div class="card-image">
+        <img src="https://cushychicken.github.io/assets/images/bg.svg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cushychicken.github.io/report-card-writer-one-year-of-user-interviews-and-customer-feedback">Report Card Writer: What I’ve Learned from One Year of User Interviews and Customer Feedback</a>
+          <div class="card-meta">29 Jul 2021</div>
+          <div class="card-meta card-domain">cushychicken.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Almost exactly a year ago, I started a little boutique software company called Report Card Writer. As the name suggests, my flagship software product does pretty much one thing: it helps teachers write report card comments faster. Its core technical functionality is part survey form, part template-filler-inner, with a few extra bolt-on features that make it easy to create and populate the form and template, respectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-25T15:37:58.000Z | tags: books, discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.mironov.com/content/images/wp-content/uploads/2021/05/edison-bulb-small.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.mironov.com/discovery">We Can’t Schedule Innovation, But We Can Schedule Discovery</a>
+          <div class="card-meta">25 May 2021</div>
+          <div class="card-meta card-domain">mironov.com</div>
+        </div>
+        <div class="card-section">
+          <p>Every week, I talk with CEOs who tell me they want to speed up innovation. In fact, they want to schedule it. Recently a product leader shared with me an OKR to ship one major innovation each quarter, measured as “users will give each innovative feature a top rating.”  This</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-04T12:17:39.000Z | tags: discovery, interviewing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F326%2F1566916077_direct.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-3-minutes-it-takes-to-read-this-will-improve-your-conversations-forever">The 3 Minutes It Takes To Read This Will Improve Your Conversations Forever</a>
+          <div class="card-meta">4 Mar 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to ask better questions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-29T20:10:01.000Z | tags: discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://amanjain.substack.com/p/how-to-validate-your-startup-idea">Parked Domain name on Hostinger DNS system</a>
+          <div class="card-meta">29 Nov 2020</div>
+          <div class="card-meta card-domain">amanjain.substack.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:42:27.000Z | tags: discovery, ideation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*AM1MMuJRlGgBQwusZHEUtw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/product-management-and-innovation/the-amazing-value-of-early-and-cheap-product-experiments-23e6f0d90220">The amazing value of early and cheap product experiments | by Caroline Parn</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s so important to test your new product idea long before you feel ready.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-07-26T19:14:03.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media-assets-cdn.zenduty.com/blogscontent/2023/12/product_metrics.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://engineering.zenduty.com/blog/2020/07/12/product-discovery-metrics-for-discovery-activities">Product Metrics: Key Insights for Discovery</a>
+          <div class="card-meta">26 Jul 2020</div>
+          <div class="card-meta card-domain">engineering.zenduty.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unlock valuable insights for effective discovery by decoding product metrics. Learn how to leverage these metrics to make informed decisions and optimize your product development process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-29T19:07:58.000Z | tags: discovery, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://www.retaildive.com/imgproxy/4KfqGi6PLGTw2V7MoROMlkulqg0WqjWBhfM4o_cnq-g/g:nowe:0:362/c:1937:1094/rs:fit:770:435/bG9jYWw6Ly8vZGl2ZWltYWdlL1R1ZXNkYXlfTW9ybmluZ18tX0hpbGxzYm9yb19PcmVnb24uanBn.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.retaildive.com/news/how-tuesday-morning-went-bankrupt/578749">How Tuesday Morning went bankrupt</a>
+          <div class="card-meta">29 May 2020</div>
+          <div class="card-meta card-domain">retaildive.com</div>
+        </div>
+        <div class="card-section">
+          <p>After more than 45 years as an off-pricer, the retailer hit the skids when COVID-19 forced its doors shut and zeroed out revenue. Now it hopes to slim down in Chapter 11.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-27T14:52:39.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.oreilly.com/content/wp-content/uploads/sites/2/2020/01/art-1439740_1920_crop-535efacb5db5ba704f7a5f860be29096.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.oreilly.com/ideas/why-you-need-customer-development">Why you need customer development</a>
+          <div class="card-meta">27 Mar 2020</div>
+          <div class="card-meta card-domain">oreilly.com</div>
+        </div>
+        <div class="card-section">
+          <p>We should invest at least as much time in understanding our customers as we do in optimizing our product development process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-26T22:50:42.000Z | tags: discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalrepublik.com/digital-marketing-newsletter/2015/05/10/my-car-does-not-start-when-i-buy-vanilla-ice-cream-said-a-man-to-general-motors">https://www.digitalrepublik.com/digital-marketing-newsletter/2015/05/10/my-car-does-not-start-when-i-buy-vanilla-ice-cream-said-a-man-to-general-motors/</a>
+          <div class="card-meta">26 Dec 2019</div>
+          <div class="card-meta card-domain">digitalrepublik.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-02-21T21:54:25.000Z | tags: discovery, ideation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://sloanreview.mit.edu/wp-content/uploads/2019/01/MAG-Grant-Insights-1200x627-1200x627.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sloanreview.mit.edu/article/the-surprising-value-of-obvious-insights">The Surprising Value of Obvious Insights</a>
+          <div class="card-meta">21 Feb 2019</div>
+          <div class="card-meta card-domain">sloanreview.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Confirming what people already believe can sometimes help organizations overcome barriers to change.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-18T19:53:59.000Z | tags: discovery, prodmgmt -->
+      <div class="card-image">
+        <img src="https://studiofellow.com/wp-content/uploads/fellow-5-home-graphic-for-social.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://studiofellow.com/articles/pain-points">Pain Points - Studio Fellow</a>
+          <div class="card-meta">18 Dec 2018</div>
+          <div class="card-meta card-domain">studiofellow.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dear designers/marketers (and innocent person reading this note), So, you’re doing customer interviews and user research, good for you! You’ve joined the fold of responsible, empathetic, and effective product design and marketing professionals. But you sound like a robot when you email me. Here are some questions from user testing emails &amp; surveys I’ve received […]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

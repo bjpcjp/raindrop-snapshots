@@ -1,0 +1,304 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + recommenders &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-08-11T16:40:01.000Z | tags: machine-learning, metrics, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1174/1*RsEggOaX3SBQy9wECt9vjg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/evaluation-metrics-for-recommendation-systems-an-overview-71290690ecba">Evaluation Metrics for Recommendation Systems — An Overview</a>
+          <div class="card-meta">11 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding the purpose and functionality of common metrics in ML packages</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-29T17:18:33.000Z | tags: algorithms-math, hashing, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:822/1*d0Gj39UszZRK5lmN6cZt4A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hashing-in-modern-recommender-systems-a-primer-9c6b2cf4497a?source=rss----7f60cf5620c9---4">Hashing in Modern Recommender Systems: A Primer</a>
+          <div class="card-meta">29 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding the most underrated trick in applied Machine Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-19T14:12:48.000Z | tags: distance-metrics, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*JxGY7Ug3PTg7nC-Q" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-of-four-types-of-item-similarity-measures-e0aea70da335?source=rss----7f60cf5620c9---4">Introduction of Four Types of Item Similarity Measures</a>
+          <div class="card-meta">19 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Covers how to choose the similarity measure when item embeddings are available</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-16T00:57:36.000Z | tags: filters, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/chugh_intuitive_explanation_collaborative_filtering_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/09/intuitive-explanation-collaborative-filtering.html">An Intuitive Explanation of Collaborative Filtering</a>
+          <div class="card-meta">16 Sep 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>The post introduces one of the most popular recommendation algorithms, i.e., collaborative filtering. It focuses on building an intuitive understanding of the algorithm illustrated with the help of an example.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T19:26:56.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/b7e68357e0a615ca0bc85ee44cb55d798b7619658f4b233252febc098d3fe864/grahamjenson/list_of_recommender_systems" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/grahamjenson/list_of_recommender_systems">grahamjenson/list_of_recommender_systems: A List of Recommender Systems and Resources</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A List of Recommender Systems and Resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:25:54.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220603-Ranking-Model-tech-blog-v1-01-inc-16x9-hero.jpg?fs=8ba62bb7d3d4c7a1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/multi-relevance-ranking-model-for-similar-item-recommendation">Multi-Relevance Ranking Model for Similar Item Recommendation</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Buyers reveal a whole range of behaviors and interests when they browse our pages, so we decided to incorporate these additional purchase intent signals into our machine learning model to improve the relevance of our recommended items.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T15:42:37.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*4DUY8FX4rQOTFYcjbkkI9A.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/say-hello-to-recommendation-systems-aee0488ff97">Say Hello To Recommendation Systems</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A preview into one of the most prominent data science applications</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-07T23:15:09.000Z | tags: ecommerce, machine-learning, prodmgmt, recommenders -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220404-Improve-Shopping-tech-blog-v1-01-inc-16x9-A.jpg?fs=2a76537cb27c0068" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/improving-shopping-recommendations-for-customers-through-ebays-relevance-cascade-model">Improving Shopping Recommendations for Customers Through eBay’s Relevance C</a>
+          <div class="card-meta">7 Apr 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Under the new machine learning model, buyers are recommended items that are more aligned to their shopping interests on eBay.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-25T03:16:02.000Z | tags: machine-learning, pytorch, recommenders -->
+      <div class="card-image">
+        <img src="https://pytorch.org/" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pytorch.org/blog/introducing-torchrec">Introducing TorchRec, a library for modern production recommendation system</a>
+          <div class="card-meta">25 Feb 2022</div>
+          <div class="card-meta card-domain">pytorch.org</div>
+        </div>
+        <div class="card-section">
+          <p>We are excited to announce TorchRec, a PyTorch domain library for Recommendation Systems. This new library provides common sparsity and parallelism primitives, enabling researchers to build state-of-the-art personalization models and deploy them in production.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-15T17:56:43.000Z | tags: clothes, collecting-curation, deep-learning, fashion, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://multithreaded.stitchfix.com/assets/images/logomark-linkedin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://multithreaded.stitchfix.com/blog/2021/05/12/algorithm-assisted-inventory-curation">Algorithm-Assisted Inventory Curation</a>
+          <div class="card-meta">15 May 2021</div>
+          <div class="card-meta card-domain">multithreaded.stitchfix.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building the raw materials for personalization at scale</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:36:36.000Z | tags: ecommerce, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://assets.amazon.science/dims4/default/1721adc/2147483647/strip/true/crop/3778x1983+0+32/resize/1200x630!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F07%2Ff6%2F0010207341889c10593c0e67591f%2Fpcompanion-architecture.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.amazon.science/blog/improving-complementary-product-recommendations">Improving complementary-product recommendations</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">amazon.science</div>
+        </div>
+        <div class="card-section">
+          <p>New modeling approach increases accuracy of recommendations by an average of 7%.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-24T17:08:55.000Z | tags: deep-learning, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:601/1*DOl_zca_7nRuOdKGw6ZLYg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/stacked-auto-encoder-as-a-recommendation-system-for-movie-rating-prediction-33842386338?source=rss----7f60cf5620c9---4">Stacked Auto-encoder as a Recommendation System for Movie Rating Prediction</a>
+          <div class="card-meta">24 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction on Stacked Auto-encoder and Technical Walk-through on Model Creation using Pytorch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-24T16:02:46.000Z | tags: deep-learning, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*lrj-BgrJWKUuIUQu8ZFDCg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/recsys-series-part-5-neural-matrix-factorization-for-collaborative-filtering-a0aebfe15883?source=rss----7f60cf5620c9---4">RecSys Series Part 5: Neural Matrix Factorization for Collaborative Filteri</a>
+          <div class="card-meta">24 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Bringing Neural Architecture into Recommendations</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:16:27.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*0j9-cRDqRjfN4EJCa-gT9Q.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/comprehensive-guide-on-item-based-recommendation-systems-d67e40e2b75d?source=rss----7f60cf5620c9---4">Comprehensive Guide on Item Based Recommendation Systems</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This guide will show in detail how item based recommendation system works and how to implement it in real work environment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*i_TV_r0qDi2jtVqmpojosQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/building-an-incremental-recommender-system-part-ii-2d0e782b2cf6?source=rss----7f60cf5620c9---4">Building an Incremental Recommender System: Part II</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Going above and beyond state-of-the-art with confidence!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:02:42.000Z | tags: machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:750/1*bykZQCTsNDinAfsAP3Iw6A.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/ssense-tech/comparing-apples-oranges-and-bananas-d20d36044915">Comparing Apples, Oranges and Bananas - ssense-tech - Medium</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Behind every recommender system lies a bevy of metrics.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

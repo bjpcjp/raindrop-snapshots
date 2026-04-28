@@ -1,0 +1,234 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + signaling &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-09-17T00:18:08.809Z | tags: groupthink, company-culture, values, signaling, behaviors -->
+      <div class="card-image">
+        <img src="https://kennethreitz.org/static/images/social-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kennethreitz.org/essays/2025-08-25-when-values-eat-their-young">When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow</a>
+          <div class="card-meta">17 Sep 2025</div>
+          <div class="card-meta card-domain">kennethreitz.org</div>
+        </div>
+        <div class="card-section">
+          <p>Picture this: A Slack channel for an open-source project that prominently displays &amp;quot;Be excellent to each other&amp;quot; in its community guidelines. Six month</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-01T00:18:35.500Z | tags: behaviors, body-language, signaling -->
+      <div class="card-image">
+        <img src="https://www.paulekman.com/wp-content/uploads/2020/03/micro_v2_loop-1.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.paulekman.com/resources/micro-expressions/">Micro Expressions | Facial Expressions | Paul Ekman Group</a>
+          <div class="card-meta">1 Sep 2025</div>
+          <div class="card-meta card-domain">paulekman.com</div>
+        </div>
+        <div class="card-section">
+          <p>Micro expressions are very brief facial expressions, lasting only a fraction of a second. The Paul Ekman Group provides a variety of tools in order to learn how to spot micro expressions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:58.000Z | tags: behaviors, platforms, prodmgmt, signaling -->
+      <div class="card-image">
+        <img src="https://julian.digital/wp-content/uploads/2020/03/prev.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://julian.digital/2020/03/28/signaling-as-a-service">Signaling as a Service</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">julian.digital</div>
+        </div>
+        <div class="card-section">
+          <p>01 Intro    One of the best books I have read in the last few years is The Elephant in the Brain by Robin Hanson and Kevin Simler.    The book makes two main arguments:    a) Most of our everyday actions can be traced back to some form of signaling or status seeking     b) Our brains deliberately hi</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:06:53.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://images.theconversation.com/files/291155/original/file-20190905-175691-5wvcll.gif?ixlib=rb-4.1.0&amp;rect=17%2C71%2C3976%2C1988&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theconversation.com/ill-have-what-shes-having-how-and-why-we-copy-the-choices-of-others-122682">‘I’ll have what she’s having’ – how and why we copy the choices of others</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">theconversation.com</div>
+        </div>
+        <div class="card-section">
+          <p>New research on consumer behavior shows that we tend to match some types of choices the people around us make, but not others.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-30T00:11:00.000Z | tags: behaviors, signaling, symbols -->
+      <div class="card-image">
+        <img src="https://ichef.bbci.co.uk/news/1024/branded_news/18477/production/_113674499_gettyimages-1177221576-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bbc.com/news/uk-england-53432877">The rise, fall, and rise of the status pineapple</a>
+          <div class="card-meta">30 Jun 2022</div>
+          <div class="card-meta card-domain">bbc.com</div>
+        </div>
+        <div class="card-section">
+          <p>For a couple of centuries, the British were in an unlikely frenzy for the exotic fruit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T13:07:46.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://behavioralscientist.org/wp-content/uploads/2019/04/Nesterak_misinformationQA_0419.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://behavioralscientist.org/when-the-nerves-of-knowledge-send-false-signals-a-conversation-on-our-age-of-misinformation">When the Nerves of Knowledge Send False Signals: A Conversation on Our Age of Misinformation - Behavioral Scientist</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">behavioralscientist.org</div>
+        </div>
+        <div class="card-section">
+          <p>How do false beliefs spread, and what are the consequences?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-24T14:42:56.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/767c662a-3637-4081-90b2-8ac72c1b8841/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/ideas/if-smiles-are-so-easy-to-fake-why-do-we-trust-them">If smiles are so easy to fake, why do we trust them? | Psyche Ideas</a>
+          <div class="card-meta">24 Feb 2021</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>Smiles can be a way to dupe people because they’re easy to fake – but we’ve figured out which smiles can be trusted</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-30T16:03:44.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/ocu2y1hAHA8aJVcAC8CzXuDuwwQ=/0x147:1280x814/1200x625/media/img/mt/2015/04/159877769_25cb554d68_o/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/health/archive/2015/04/mixed-signals-why-people-misunderstand-each-other/391053">Mixed Signals: Why People Misunderstand Each Other</a>
+          <div class="card-meta">30 Jan 2021</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>The psychological quirks that make it tricky to get an accurate read on someone&#39;s emotions</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-25T14:37:35.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://julian.digital/wp-content/uploads/2020/08/proofofxprev.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://julian.digital/2020/08/06/proof-of-x">Hacker News</a>
+          <div class="card-meta">25 Jan 2021</div>
+          <div class="card-meta card-domain">julian.digital</div>
+        </div>
+        <div class="card-section">
+          <p>I’ve spent a lot of time recently thinking about different proof-of-work mechanisms. When I say proof-of-work, I’m not talking about consensus algorithms like the ones that some crypto currencies use. I’m talking about social networks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:37:58.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8958160/og_image/optimized/image_8-815a48a619dd5f81162bfe368bc1e1e3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/designers/brand/virtue-signaling">The Art of Virtue Signaling: Why so Many Brands Get It Wrong</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Many brands overshoot the subtleties of virtue signaling. They preach, posture, and alienate the people they’re trying to impress. We show how big companies can better bang their virtue drums. #brand #marketing #PR #business #SocialMedia #CX</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-12T02:01:46.000Z | tags: behaviors, signaling -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.lesswrong.com/posts/KheBaeW8Pi7LwewoF/what-is-signaling-really">What Is Signaling, Really? - LessWrong 2.0</a>
+          <div class="card-meta">12 Mar 2019</div>
+          <div class="card-meta card-domain">lesswrong.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most commonly used introduction to signaling, promoted both by Robin Hanson and in The Art of Strategy, starts with college degrees. Suppose, the…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2008-10-24T00:00:00.000Z | tags: behaviors, signaling -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/virtue-signaling">Virtue Signaling: When People Try to Show Their Goodness</a>
+          <div class="card-meta">24 Oct 2008</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

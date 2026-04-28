@@ -1,0 +1,80 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>music + recommenders &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2021-01-24T20:30:42.000Z | tags: music, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VOpNR4SysBXTHbpIpTHjkQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-to-build-an-amazing-music-recommendation-system-4cce2719a572?source=rss----7f60cf5620c9---4">How to build a music recommender system.</a>
+          <div class="card-meta">24 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using Spotify’s data to generate music recommendations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-22T22:37:37.000Z | tags: music, recommenders -->
+      <div class="card-image">
+        <img src="https://static.stereogum.com/uploads/2020/11/pavement-1653612997-1000x648-1712796167.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.stereogum.com/2105993/pavement-harness-your-hopes-spotify/columns/sounding-board">Why Is An Obscure B-Side Pavement&#39;s Top Song On Spotify? It&#39;s Complicated.</a>
+          <div class="card-meta">22 Nov 2020</div>
+          <div class="card-meta card-domain">stereogum.com</div>
+        </div>
+        <div class="card-section">
+          <p>A couple years ago, Stephen Malkmus walked into a shop and didn’t recognize himself. He was with one of his daughters, stopping at a gluten-free bakery (“Very Portland,” Malkmus jokes) when the Pavement song “Harness Your Hopes” came on — a song he had written and recorded more than two decades prior while leading the band. The guitar-playing that was choogling over the speakers was partially his own, but in the few moments before the vocals kicked in, his brain couldn’t place it.  “At first I thought, ‘Oh, they’re playing “Tumbling Dice” by Rolling Stones,’” he remembers now, over the phone. “Then it was playing and I thought, ‘Well, this is a cool place.’ Little did I know it was just on Spotify or something.”  At that point, the track was still a deep cut — a B-side recorded during the sessions for 1997’s Brighten The Corners, but not released until 1999, when it was thrown onto the CD-only Spit On A Stranger EP, a detail so remote that even Malkmus had forgotten about it until he was reminded. The song remained one that only the real heads knew until 2008, when it was included on Matador’s expanded reissue of Brighten The Corners, alongside a large amount of the extra material recorded for that album by producer/engineers Mitch Easter and Bryce Goggin. It was then that the castoff song began its new life, slowly becoming a minor fan favorite — a single-worthy non-album track that indicated just how rich the band’s discography was. A curveball to put on a mix and raise an eyebrow. The type that a bakery employee might sneak onto the work playlist as a subtle way to class the joint up. But then something bizarre happened: In the last few years, the song has rocketed up to become number one on Pavement’s Spotify page, ending up with over 28 million plays to date, seven million more than “Cut Your Hair,” a legitimate and enduring ’90s hit. Quickly, and without any obvious reason, it stopped being a rarity and started to become a standard, appearing in coffee shops and bars and gluten-free bakeries. So how did this happen, exactly? And better yet, should this have happened? Online, people have been casually wondering this on places like Reddit and Twitter, with a prevailing theory being that the song must have been featured on a prominent Spotify playlist, and then simply snowballed from there. Malkmus himself was under this impression, too: “I heard it was on a playlist or something,” he says, nonchalant. “I’m not an expert on Spotify but, you know, one of those ‘Monday Moods’ or whatever the fuck they do.” It’s a reasonable enough explanation. But looking at a similar situation of his own, Damon Krukowski wasn’t so sure. The musician and writer was fascinated with the question of how “Strange” became his former band Galaxie 500’s top Spotify track — by a significant margin — even though it was not a single, was never particularly popular in the past, and wasn’t being picked up on any prominent playlists. In June of 2018, Krukowski laid out the conundrum on his blog, and soon he received a possible explanation from a Spotify employee.   Glenn McDonald, who holds the title of “data alchemist” at Spotify, had taken an interest in the case, and decided to look into it. What he found is that the sudden jump in plays for “Strange” began in January of 2017, which was “the same time Spotify switched the ‘Autoplay’ preset in every listener’s preference panel from off, to on,” as Krukowski recounted on a follow-up blog post. McDonald explained to Krukowski that the Autoplay feature actually cues up music that “resembles” what you’ve just been listening to, based on a series of sonic signifiers too complex to describe. In this case, “Strange” had been algorithmically determined to sound similar to a lot of other music, and was frequently being Autoplayed to the point that it took on a life of its own, and eventually eclipsed the band’s other tracks. It continues to do so to this day. “He called me up because of that blog post,” Krukowski explains, on the phone from his home in Cambridge, Massachusetts, “and said he got really interested in it as an engineering problem, ’cause he thought I had pinpointed something they hadn’t realized. Like, because you switch these things in the program, it’s the butterfly effect — who knows what’s gonna result?” More simply put, Spotify appears to have the capacity to create “hits” without even realizing it. When it comes to Galaxie 500, “there’s just no way this would have happened before this flip in the Spotify plays,” Krukowksi notes. “And now we’re becoming identified as a band with that song, because if they learn about the band through Spotify, that’s what they’re hearing. So it becomes, like, our emblem.” Krukowski was convinced, but for his part, McDonald wanted to remain clinical in his diagnosis, waiting to look at more information before making any final judgment as to what was going on with the Autoplay feature at large. If he’s still looking for fresh examples to consider, anyway, “Harness Your Hopes” would be an ideal place to start.  Beyond it being a similar situation, broadly speaking — another touchstone alternative rock band from the ’80s/’90s with an inexplicable #1 song — the story also features a detail likely too specific to be coincidental: Using the Wayback Machine, it can be confirmed that “Harness Your Hopes” was nowhere to be seen on the popular tracks section of Pavement’s Spotify page until — you guessed it — 2017, when it suddenly jumped to the top. (Spotify doesn’t disclose more detailed information about artists’ streaming numbers beyond the playcount that’s publicly visible.) When requested, Spotify declined to provide an interview with McDonald, nor with anyone else who would be able to speak to the Autoplay function and how it may or may not be fueling a phenomenon like this. But they did confirm “the accuracies of Glenn’s statements” as they appear on Krukowski’s blog, and left it at that.  Speaking from Switzerland, where she’s a visiting scholar at Basel University, Dr. Maria Eriksson is used to not getting much hard information to work with from Spotify. She co-authored a book on the company, 2019’s Spotify Teardown, which investigated the streaming giant and their algorithms to the degree that Spotify’s legal department eventually sent them a cease-and-desist notice. After logging on to a Zoom call, she listens to the “Harness Your Hopes”/”Strange” saga with enthusiasm, but no surprise. “What I find interesting about this story is that, from my research perspective, it really shows the power and influence that these music recommendation systems have,” she says. “But it is also extremely difficult to know how these systems work, and I think the only people who can answer that would be the engineers working at these companies, like Spotify. We’re not even sure if these people could answer why or how a recommendation system works as well, because they’re usually pretty complex things we’re dealing with here.” Krukowski, who is one of the organizers of Justice At Spotify — a new protest campaign demanding a higher artist royalty rate, among other things — isn’t all that concerned with the Autoplay situation, at least in the ways that it might be screwing with artists’ top songs. But he is concerned with the ways that incidental algorithmic designs have industry-wide power: “It’s just kind of stifling to have that amount of control, and have it in one company,” he says. “And then not only that, but to have it made by engineering decisions. This is very consistent with a lot of our culture right now, that we’re willing to surrender to Facebook and Google engineers very important decisions.”  Today we are launching our campaign to demand justice at Spotify. Join us and hundreds of musicians and music workers that have already signed on to our demands! https://t.co/8BhohF88q5 pic.twitter.com/zRFGs6nAfZ — Union of Musicians and Allied Workers (@UMAW_) October 26, 2020   In this specific instance, there’s certainly a case to be made that Autoplay might actually be doing a service to the songs that it unintentionally favors — that it might be providing something valuable and unprecedented by plucking tracks from the depths and giving them the possibility of a second chance. Optimistically speaking, the algorithm could be mathematically figuring out which songs people are prone to like, regardless of how well they fared commercially in the first place.  And that squares up with the case of “Harness Your Hopes,” since it was a song that was left off Brighten The Corners for no good reason, according to Malkmus. He says that after the band recorded it, they spliced out a bit of tape to shorten the waltzing part that ends the chorus (when Malkmus sings, “Minds wide open, truly”) — a change that ultimately soured him on including the track on the album. “It’s better, I like it, it’s cool that we did that, it’s old-school or whatever,” he says of the analog adjustment. “But it sounded wrong to me or something, and I was like, ‘That’s a B-side.’ It’s terrible, too — nobody told me! I guess I was such a boss, and maybe nobody thought I would listen. Usually Scott [‘Spiral Stairs’] Kannberg or something was really good at telling me, ‘That’s a good song,’ [like he did with the Slanted And Enchanted single] ‘Summer Babe.’ So it should have been on the record. I’m just saying that’s my mistake.”  Now, and likely forever, “Harness Your Hopes” has moved beyond the Spotify phenomenon to become one of the definitive Pavement tracks across all platforms — Apple Music, YouTube, etc. It’s even been having a moment on TikTok lately, to the degree that Malkmus’s 15-year-old daughter recently saw it in a post and gave him the news that it was blowing up, kinda. “She was like, ‘It’s trending, but in a certain way, not in a big way,’” he laughs, dryly.  It’s hard not to see the zombified success of the song as being anything but for the best, because in this case it really ...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

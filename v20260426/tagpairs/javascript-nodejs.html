@@ -1,0 +1,234 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>javascript + nodejs &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-03-15T12:32:57.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkhvdyB0byBCdWlsZCBhbiBFcnJvciBIYW5kbGluZyBMYXllciBpbiBOb2RlLmpzIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyMy0wMy9lcnJvci1oYW5kbGluZy1sYXllci5qcGcifSx7Im5hbWUiOiJjYXRlZ29yeV9sb2dvIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9sb2dvcy9qYXZhc2NyaXB0LWxvZ28ucG5nIn1d&amp;s=217f8a7f022fc7306c85c734b3b3a9e53048915f3a19e2e7b1d3fee726c5bc13" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2023/03/15/how-to-build-an-error-handling-layer-in-nodejs.html">How to Build an Error Handling Layer in Node.js</a>
+          <div class="card-meta">15 Mar 2023</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Discover how to put an error handling layer in place for your Node.js application using Express.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-19T14:12:32.000Z | tags: javascript, nodejs, web-servers -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bhavik786/mastering-nginx-for-nodejs-best-practices-and-tips-2ln3">Mastering Nginx for Node.js: Best Practices and Tips</a>
+          <div class="card-meta">19 Feb 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Nginx is a popular web server that is widely used to serve static content, reverse proxy, and load...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-20T12:11:34.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkFuIEludHJvZHVjdGlvbiB0byBNdWx0aXRocmVhZGluZyBpbiBOb2RlLmpzIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyMi0wNy9tdWx0aXRocmVhZGluZy5wbmcifSx7Im5hbWUiOiJjYXRlZ29yeV9sb2dvIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctbnlxcjZxY3I4LWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9sb2dvcy9qYXZhc2NyaXB0LWxvZ28ucG5nIn1d&amp;s=4076f559f8113fab5623429e6194202487f4b1903e77b81010cf6abd573a9dbe" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2022/07/20/an-introduction-to-multithreading-in-nodejs.html">An Introduction to Multithreading in Node.js</a>
+          <div class="card-meta">20 Jul 2022</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s dive into multithreading and how to use worker threads in Node.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-30T16:23:12.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcfx9f8eg7dfrohop1upl.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/codemonkcm/16-top-nodejs-tools-to-make-you-a-better-developer-3nde">16 Top NodeJS tools to make you a better developer</a>
+          <div class="card-meta">30 May 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>NodeJS is growing in popularity since its inception.    30 million websites use NodeJS Back in 2018,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-29T19:50:25.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://stackdiary.com/wp-content/uploads/2022/04/The-Most-Popular-Node.js-Frameworks-3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackdiary.com/node-js-frameworks">The Most Popular Node.js Frameworks (2023)</a>
+          <div class="card-meta">29 Apr 2022</div>
+          <div class="card-meta card-domain">stackdiary.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is a comprehensive overview for the most popular Node.js frameworks in the current year. Also covers up and rising stars to keep an eye out for.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-27T19:01:00.000Z | tags: javascript, nodejs, webdev -->
+      <div class="card-image">
+        <img src="https://alexkondov.com/static/b6eddd8c6ec0677ad78e762842b40ad2/bc8e0/cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://alexkondov.com/tao-of-node">Tao of Node - Design, Architecture &amp; Best Practices | Alex Kondov - Softwar</a>
+          <div class="card-meta">27 Mar 2022</div>
+          <div class="card-meta card-domain">alexkondov.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the main benefits of JavaScript is that it runs both in the browser and the server. As an engineer you need to master a single language and your skills…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:30:53.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/21737266/d682a480-a5ae-11ea-806d-519d39d18e32" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/sindresorhus/awesome-nodejs">sindresorhus/awesome-nodejs: :zap: Delightful Node.js packages and resources</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>:zap: Delightful Node.js packages and resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:30:09.000Z | tags: javascript, nodejs, reactjs, webpacker -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcl.ly%2Fd750bdc27b68%2FImage%25202019-05-11%2520at%25201.18.04%2520PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/kedar9/creating-a-node-app-with-react-webpack-4-babel-7-express-and-sass-3mae">Creating a Node app with React, Webpack 4, Babel 7, Express and Sass</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T00:20:07.000Z | tags: expressjs, javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://expressjs.com/images/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://expressjs.com">Express - Node.js web application framework</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">expressjs.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:28:20.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/814176cca6e039115cb031ba9e3ff001923e1a5ceef2306343514cdc905ba4a6/max-mapper/art-of-node" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/maxogden/art-of-node#the-art-of-node">max-mapper/art-of-node: :snowflake: a short introduction to node.js</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>:snowflake: a short introduction to node.js.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-21T18:50:27.000Z | tags: javascript, nodejs, npm -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxottxoe135huml09jgj1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/gurshehzadsingh/10-npm-commands-that-every-developer-must-know-4gmn">10 npm Commands that every developer must know</a>
+          <div class="card-meta">21 Jun 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>NPM stands for Node Package Manager and it is the package manager for the Node JavaScript platform....</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T14:48:31.000Z | tags: javascript, nodejs -->
+      <div class="card-image">
+        <img src="https://tecadmin.net/wp-content/uploads/2016/08/nodejs-on-ubuntu.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu">How To Install Node.js on Ubuntu 18.04 / 16.04 LTS - TecAdmin</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">tecadmin.net</div>
+        </div>
+        <div class="card-section">
+          <p>Installing latest node.js ubuntu. How do I Install stable node.js, npm on Ubuntu. Installing Node.js with apt-get package manager on Ubuntu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

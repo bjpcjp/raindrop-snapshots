@@ -1,0 +1,590 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>bash + linux &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-23T12:45:27.930Z | tags: bash, sets, linux -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2019/11/24/comm-set-theory/">comm: working with sets and multisets at the command line</a>
+          <div class="card-meta">23 Mar 2026</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The comm utility lets you find which lines are unique to one file or another, and which lines are common to both.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-11T18:29:55.790Z | tags: linux, bash -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/bash-getopts/featured_hu_1d157dd93e62014f.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/bash-getopts/">How to Parse Command-Line Options in Bash with getopts</a>
+          <div class="card-meta">11 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>This guide explains how to parse command-line options in Bash with getopts, including option strings, OPTARG and OPTIND, error handling, and practical script examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-04T11:17:20.892Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxize.com/post/bash-positional-parameters/featured.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxize.com/post/bash-positional-parameters/">Bash Positional Parameters</a>
+          <div class="card-meta">4 Feb 2026</div>
+          <div class="card-meta card-domain">linuxize.com</div>
+        </div>
+        <div class="card-section">
+          <p>Positional parameters are Bash variables that hold arguments passed to a script or function. Learn how to use $1, $2, $@, $#, and the shift command in Bash.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-26T19:49:21.041Z | tags: linux, bash, llms-gpt -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2026/chatgpt-containers-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2026/Jan/26/chatgpt-containers/">ChatGPT Containers can now run bash, pip/npm install packages, and download files</a>
+          <div class="card-meta">26 Jan 2026</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>One of my favourite features of ChatGPT is its ability to write and execute code in a container. This feature launched as ChatGPT Code Interpreter nearly three years ago, was …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-10T13:35:27.953Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/10-Essential-Bash-Shell-Commands-for-Data-Science.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/10-essential-bash-shell-commands-for-data-science">10 Essential Bash Shell Commands for Data Science</a>
+          <div class="card-meta">10 Mar 2025</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, we’ll cover 10 essential Bash shell commands every data scientist should know—commands that save time, simplify tasks, and keep you focused on insights rather than busywork.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-19T00:43:20.432Z | tags: linux, bash -->
+      <div class="card-image">
+        <img src="https://www.spsanderson.com/steveondata/posts/2024-10-18/flowchart.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.r-bloggers.com/2024/10/understanding-expansion-in-the-linux-shell/">Understanding Expansion in the Linux Shell | R-bloggers</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">r-bloggers.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction For beginners venturing into the world of Linux, understanding shell expansion is a crucial step towards mastering the command line. Shell expansion is a powerful feature that allows users to generate complex commands and manipulat...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-05T23:26:46.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://www.cyberciti.biz/media/new/faq/2023/08/Extracting-bash-filename-and-extension-using-IFS-shell-variable.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cyberciti.biz/faq/extract-bash-get-filename-extension">How to get and extract filename extension in Bash - nixCraft</a>
+          <div class="card-meta">5 Aug 2023</div>
+          <div class="card-meta card-domain">cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>Explains three methods to get and extract filename extension in Bash for Linux and Unix shell scripting needs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:45.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/07/shell-built-in-commands-list.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/shell-builtin-commands">Shell Built-in Commands</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>In Linux, there are shell built-in commands which you are already using but never paid attention to. Learn more about them in this tutorial.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T17:52:23.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/07/until-loop-in-bash.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/bash-until-loop">Using Until Loop in Bash</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>While for maybe the most popular bash loop, wait until you discover until. Pun intended :)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-28T13:40:50.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/06/read-line-by-line-bash.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/bash-read-line-by-line">Read File Line by Line in Bash</a>
+          <div class="card-meta">28 Jun 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Here are a couple of ways for reading file line by line in the Bash shell.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-22T21:59:39.000Z | tags: bash, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://redsymbol.net/articles/bash-exit-traps">How &quot;Exit Traps&quot; Can Make Your Bash Scripts Way More Robust And Reliable</a>
+          <div class="card-meta">22 Jun 2023</div>
+          <div class="card-meta card-domain">redsymbol.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-30T20:08:37.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/05/array-in-bash.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/bash-append-array">Appending to Arrays in Bash</a>
+          <div class="card-meta">30 May 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this quick Bash tip, you&#39;ll learn about appending to an existing array in bash.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T13:31:29.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/05/exec-command-in-shell-script.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/exec-command-shell-scripts">Using exec Command in Bash Shell Scripts</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The exec command in shell scripts is super useful for logging,  reading from files and running commands by replacing the current process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-05T01:55:45.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2023/04/special-variables-in-bash-shell-scripting.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/bash-special-variables">Special Variables in Bash Shell Scripting</a>
+          <div class="card-meta">5 Apr 2023</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The bash shell has some special variables that have specific usages and purposes. Learn more about them here.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-23T02:07:05.000Z | tags: bash, devops, linux -->
+      <div class="card-image">
+        <img src="https://cdn.devdojo.com/posts/images/November2020/open-source-introduction-to-bash-scripting-ebook-guide.jpg?auto=format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ebook.bobby.sh/#ebook">Bobby Iliev - Introduction to Bash Scripting</a>
+          <div class="card-meta">23 Feb 2023</div>
+          <div class="card-meta card-domain">ebook.bobby.sh</div>
+        </div>
+        <div class="card-section">
+          <p>This is an open-source introduction to Bash scripting ebook that will help you learn the basics of Bash scripting and start writing awesome Bash scripts that will help you automate your daily SysOps, DevOps, and Dev tasks...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-10T22:43:06.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/11/bash-expansion-in-linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/brace-expansion">Using Brace Expansion in Bash Shell</a>
+          <div class="card-meta">10 Nov 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Brace expansion in the bash shell is a lesser known but an awesome feature. Learn about using them like a Pro Linux user with practical examples.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-29T01:10:22.000Z | tags: bash, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sharats.me/posts/shell-script-best-practices">Shell Script Best Practices — The Sharat&#39;s</a>
+          <div class="card-meta">29 Oct 2022</div>
+          <div class="card-meta card-domain">sharats.me</div>
+        </div>
+        <div class="card-section">
+          <p>This article is about a few quick thumb rules I use when writing shell scripts that I’ve come to appreciate over the years. Very opinionated....</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-04T12:20:33.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/61099017/cde6c580-765d-11e9-9f0a-9d94f2bdf421" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/onceupon/Bash-Oneliner">GitHub - onceupon/Bash-Oneliner: A collection of handy Bash One-Liners and</a>
+          <div class="card-meta">4 May 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. - onceupon/Bash-Oneliner</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T19:59:09.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2022/01/Finding-Process-ID.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/find-process-id">How to Find the PID and PPID of a Process in Linux</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to find PID using a process name in Linux. Also learn to get the parent process ID (PPID) of the given process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:48:18.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://assets.devhints.io/previews/bash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devhints.io/bash">Bash scripting cheatsheet</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">devhints.io</div>
+        </div>
+        <div class="card-section">
+          <p>Variables · Functions · Interpolation · Brace expansions · Loops · Conditional execution · Command substitution · One-page guide to Bash scripting</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:47:22.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://opensource.com/sites/default/files/lead-images/bash_command_line.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://opensource.com/article/18/9/handy-bash-aliases">10 handy Bash aliases for Linux</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">opensource.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get more efficient by using condensed versions of long Bash commands.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:45:47.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2Fy3kvoth9jo8evwxim16u.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k">The Shell Introduction I Wish I Had</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>I write a letter to my past self about the Shell&#39;s importance I wish I&#39;d focused on earlier in my career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:45:16.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2Fmhlzt5ctquamg3z9i2r7.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je">101 Bash Commands and Tips for Beginners to Experts</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Update 25 Sep 2019: This article is now available in Japanese, thanks to the hard work of ラナ・クアール....</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-24T10:18:50.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://will-keleher.com/images/previews/WeeklyBashPatterns.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://will-keleher.com/posts/5-Useful-Bash-Patterns.html">Bash Patterns I Use Weekly</a>
+          <div class="card-meta">24 Nov 2021</div>
+          <div class="card-meta card-domain">will-keleher.com</div>
+        </div>
+        <div class="card-section">
+          <p>5 bash tricks I find myself using often that I wish I&#39;d discovered sooner.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T09:30:54.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2021/10/shebang-linux.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/shebang">What is Shebang in Linux Shell Scripting?</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The seemingly insignificant #! characters at the beginning of a shell script has a major significance on how your script will be executed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-26T23:56:29.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2021/09/Bash-Variables-unusual-usage.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/variables-bash-script">Unusual Ways to Use Variables Inside Bash Scripts</a>
+          <div class="card-meta">26 Sep 2021</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>You might have used variables in Bash before, but probably not like this.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-26T23:56:00.000Z | tags: bash, command-line, linux -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/09/virtual-play-date-ideas-magic-tricks-1586391856.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/gadgets/2021/09/command-line-wizardry-part-two-variables-and-loops-in-bash">Command line wizardry, part two: Variables and loops in Bash</a>
+          <div class="card-meta">26 Sep 2021</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn to process thousands of items reliably and repeatably in this installment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-08T21:50:33.000Z | tags: bash, command-line, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bash.cyberciti.biz/guide/.bash_logout">How To Run Commands When You Log Out Using ~/.bash_logout</a>
+          <div class="card-meta">8 Aug 2021</div>
+          <div class="card-meta card-domain">bash.cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>The .bash_logout file is the individual login shell cleanup file. It is executed when a login shell exits. This file exists in the user&#39;s home directory. For example, $HOME/.bash_logout. This file is useful if you want to run task or another script or command automatically at logout. For example, clear the mysql command line history stored in ~/.mysql_history or to make a backup of files you can use this file.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-05T00:15:37.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://www.cyberciti.biz/media/new/faq/2021/06/Shell-How-can-I-repeat-a-character-in-Bash-under-Linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cyberciti.biz/faq/repeat-a-character-in-bash-script-under-linux-unix">How to repeat a character &#39;n&#39; times in Bash - nixCraft</a>
+          <div class="card-meta">5 Jun 2021</div>
+          <div class="card-meta card-domain">cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, I try to explore various ways to repeat a character and string in Bash &#39;n&#39; times that must run on macOS/FreeBSD and Linux.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-05T21:31:16.000Z | tags: bash, linux, python -->
+      <div class="card-image">
+        <img src="https://muhammadraza.me/" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://muhammadraza.me/2021/Oneliners">My Favorite One Liners | Muhammad</a>
+          <div class="card-meta">5 May 2021</div>
+          <div class="card-meta card-domain">muhammadraza.me</div>
+        </div>
+        <div class="card-section">
+          <p>Commandline one liners that makes your workflow more productive</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-28T00:45:59.000Z | tags: bash, devops, linux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/f1982fd084f38201cf528d7165748160f346d9c62204c947e4d0c62ef1f78d62/bobbyiliev/introduction-to-bash-scripting" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bobbyiliev/introduction-to-bash-scripting">bobbyiliev/introduction-to-bash-scripting: Free Introduction to Bash Scripting eBook</a>
+          <div class="card-meta">28 Nov 2020</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Free Introduction to Bash Scripting eBook.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T22:56:16.000Z | tags: bash, linux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://darrenburns.net/posts/tools">A blog by Darren Burns</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">darrenburns.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-03T18:37:10.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.johndcook.com/blog/2019/02/18/command-line-wizard">The hard part in becoming a command line wizard</a>
+          <div class="card-meta">3 Mar 2019</div>
+          <div class="card-meta card-domain">johndcook.com</div>
+        </div>
+        <div class="card-section">
+          <p>I&#39;ve long been impressed by shell one-liners. They seem like magical incantations. Pipe a few terse commands together, et voilà! Out pops the solution to a problem that would seem to require pages of code. Are these one-liners real or mythology? To some extent, they&#39;re both. Below I&#39;ll give a famous real example. Then I&#39;ll argue</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-27T01:18:58.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://blog.jessfraz.com/img/share.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.jessfraz.com/post/for-the-love-of-pipes">Ramblings from Jessie: For the Love of Pipes</a>
+          <div class="card-meta">27 Jan 2019</div>
+          <div class="card-meta card-domain">blog.jessfraz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why unix pipes are awesome.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-12T18:22:15.000Z | tags: bash, linux -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2Fzf6prmqwnzk9r0m9n96z.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/_darrenburns/power-up-your-command-line-part-3-4o53">Power Up Your Command Line, Part 3</a>
+          <div class="card-meta">12 Jan 2019</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Five lesser-known command line utilities you&#39;ll want to install right away.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

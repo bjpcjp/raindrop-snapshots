@@ -1,0 +1,285 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + machine-vision &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2022-10-20T12:59:28.000Z | tags: machine-learning, machine-vision, super-resolution -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*7SRhVaFlkEvFfO4AAxqQFw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/what-is-image-super-resolution-and-why-do-we-need-it-9c3bd9dc233e">What is ‘Image Super Resolution’, and why do we need it?</a>
+          <div class="card-meta">20 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to the field, its applications, and current issues</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-20T12:58:56.000Z | tags: machine-learning, machine-vision, super-resolution -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*bSgPxqGzylm7QZGPlPuUpg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/image-super-resolution-an-overview-of-the-current-state-of-research-94294a77ed5a?source=rss----7f60cf5620c9---4">Image Super-Resolution: An Overview of the Current State of Research</a>
+          <div class="card-meta">20 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A review of popular techniques and remaining challenges</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-11T23:23:55.000Z | tags: machine-learning, machine-vision, object-detection -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*8LMlzkU35e7S31yh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-basics-of-object-detection-yolo-ssd-r-cnn-6def60f51c0b?source=rss----7f60cf5620c9---4">The Basics of Object Detection: YOLO, SSD, R-CNN</a>
+          <div class="card-meta">11 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Overview of how object detection works, and where to get started</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-21T17:13:26.000Z | tags: machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/yada_perform_motion_detection_python_2.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/08/perform-motion-detection-python.html">How to Perform Motion Detection Using Python - KDnuggets</a>
+          <div class="card-meta">21 Aug 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we will specifically take a look at motion detection using a webcam of a laptop or computer and will create a code script to work on our computer and see its real-time example.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:43:06.000Z | tags: machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://blog.roboflow.com/content/images/size/w1200/2022/07/YOLOv7_explained.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.roboflow.com/yolov7-breakdown">What is YOLOv7? A Complete Guide.</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.roboflow.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this guide, we discuss what YOLOv7 is, how the model works, and the novel model architecture changes in YOLOv7.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T23:43:04.000Z | tags: arxiv, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2207.02696">YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for...</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>YOLOv7 surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy 56.8% AP among all known real-time object detectors with 30...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-28T00:54:08.000Z | tags: machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:963/1*EKdPweq5B-8w7dnkYKXQ2g.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/asset2vec-turning-3d-objects-into-vectors-and-back-8335496b756d">Asset2Vec: Turning 3D Objects into Vectors and Back</a>
+          <div class="card-meta">28 Feb 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How we used NeRF to embed our entire 3D object catalogue to a shared latent space, and what it means for the future of graphics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-07T17:49:43.000Z | tags: command-line, linux, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Ybu9fEJ8EG4SY9JGpycwmA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/essential-linux-command-line-tricks-for-computer-vision-researchers-27d4f013d9a?source=rss----7f60cf5620c9---4">Essential Linux Command-Line Tricks for Computer Vision Researchers</a>
+          <div class="card-meta">7 Oct 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this post, you will learn some cool command line tricks which can help you to speed up your day-to-day R&amp;D.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-30T12:19:50.000Z | tags: machine-learning, machine-vision, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*7SF7Ai0xkGVZ5i-Xi5ABxg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/5-ultimate-python-libraries-for-image-processing-13f89d32769e?source=rss----7f60cf5620c9---4">5 Ultimate Python Libraries for Image Processing</a>
+          <div class="card-meta">30 Jul 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>OpenCV is not the only one</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T21:47:01.000Z | tags: deep-learning, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2021/06/Same_different_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/same-or-different-ai-cant-tell-20210623?fbclid=IwAR0tGsjpYIg0UnsKf7ZN_qDqfU0-KFWFKTEUbGxNhzy7scUzixyn8HJDG6s">Same or Different? The Question Flummoxes Neural Networks. | Quanta Magazine</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>For all their triumphs, AI systems can’t seem to generalize the concepts of “same” and “different.” Without that, researchers worry, the quest to create truly intelligent machines may be hopeless.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-01T19:27:51.000Z | tags: machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*I9uwq0r1x_4Gs1x9" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/complete-guide-to-data-augmentation-for-computer-vision-1abe4063ad07?source=rss----7f60cf5620c9---4">Complete Guide to Data Augmentation for Computer Vision</a>
+          <div class="card-meta">1 Jun 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Data Augmentation is one of the most important topics in Deep Computer Vision. When you train your neural network, you should do data augmentation like… ALWAYS. Otherwise, you are not using your…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-12T17:38:41.000Z | tags: machine-learning, machine-vision, search -->
+      <div class="card-image">
+        <img src="https://aem.dropbox.com/cms/content/dam/dropbox/tech-blog/en-us/2021/05/image-search/Techblog-ImageSearch-Social2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dropbox.tech/machine-learning/how-image-search-works-at-dropbox">How image search works at Dropbox - Dropbox</a>
+          <div class="card-meta">12 May 2021</div>
+          <div class="card-meta card-domain">dropbox.tech</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-26T16:45:22.000Z | tags: machine-learning, machine-vision, pose-estimation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*CvYL8OI0js7MWUlM" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/gentle-introduction-to-2d-hand-pose-estimation-approach-explained-4348d6d79b11?source=rss----7f60cf5620c9---4">Gentle introduction to 2D Hand Pose Estimation: Approach Explained</a>
+          <div class="card-meta">26 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Detailed tutorial on where to find a dataset, how to preprocess data, what model architecture and loss to use, and, finally, how to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-28T17:24:53.000Z | tags: image-augmentation, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*9A-t8pz7YSCMwJRo" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-beginners-guide-to-image-augmentations-in-machine-learning-22c48a2fbd99?source=rss----7f60cf5620c9---4">A Beginner’s Guide to Image Augmentations in Machine Learning</a>
+          <div class="card-meta">28 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Data Augmentation is one of the most important yet underrated aspects of a machine learning system …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-05T12:13:26.000Z | tags: image-generation, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://arankomatsuzaki.wordpress.com/wp-content/uploads/2021/03/fig1.jpg?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arankomatsuzaki.wordpress.com/2021/03/04/state-of-the-art-image-generative-models">State-of-the-Art Image Generation Models</a>
+          <div class="card-meta">5 Mar 2021</div>
+          <div class="card-meta card-domain">arankomatsuzaki.wordpress.com</div>
+        </div>
+        <div class="card-section">
+          <p>I have aggregated some of the SotA image generative models released recently, with short summaries, visualizations and comments. The overall development is summarized, and the future trends are spe…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

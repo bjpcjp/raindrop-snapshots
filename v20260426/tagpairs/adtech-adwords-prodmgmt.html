@@ -1,0 +1,125 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>adtech-adwords + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-10-15T23:12:55.000Z | tags: adtech-adwords, advertising-commercials, auctions, ecommerce, game-theory, prodmgmt -->
+      <div class="card-image">
+        <img src="https://searchengineland.com/wp-content/seloads/2023/10/shutterstock_1294394836.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://searchengineland.com/google-rgsp-randomized-generalized-second-price-ad-auctions-explained-433053">What is RGSP? Google’s Randomized Generalized Second-Price ad auctions expl</a>
+          <div class="card-meta">15 Oct 2023</div>
+          <div class="card-meta card-domain">searchengineland.com</div>
+        </div>
+        <div class="card-section">
+          <p>A deep dive into why the DOJ thinks RGSP makes ad auctions unfair, and why Google believes it creates a better user experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-10T20:18:45.000Z | tags: adtech-adwords, advertising-commercials, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2023/03/p-1-90861689-how-20-years-of-googles-adsense-changed-the-internet.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90861689/how-20-years-of-googles-adsense-changed-the-internet?partner=rss">How 20 years of Google’s AdSense changed the internet</a>
+          <div class="card-meta">10 Mar 2023</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s targeted ad initiative AdSense was initially launched as “content targeting advertising” 20 years ago this month. Here’s how it changed the internet.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-29T13:49:33.000Z | tags: adtech-adwords, advertising-commercials, behaviors, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theawl.com/2015/06/a-complete-taxonomy-of-internet-chum">A Complete Taxonomy of Internet Chum - The Awl</a>
+          <div class="card-meta">29 Oct 2022</div>
+          <div class="card-meta card-domain">theawl.com</div>
+        </div>
+        <div class="card-section">
+          <p>by John MahoneyThis is a bucket of chum. Chum is decomposing fish matter that elicits a purely neurological brain stem response in its target consumer: larger fish, like sharks. It signals that they should let go, deploy their nictitating  ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-14T19:39:56.000Z | tags: adtech-adwords, advertising-commercials, platforms, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/609d1120e97265530b5172a6/1620906272947/2.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://d2dadvisory.us6.list-manage.com/track/click?e=5331dc1744&amp;id=cb5bae7d5f&amp;u=c03518346fcb09658cfb234e4">Can Apple change ads? — Benedict Evans</a>
+          <div class="card-meta">14 Jun 2021</div>
+          <div class="card-meta card-domain">d2dadvisory.us6.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>20 years ago Apple seized music, and turned it into a lever for its broader business. It failed to do the same to TV, and lost control of music, but won massively in games, where it now makes more money than the entire global digital music industry. Now, perhaps, it’s looking at advertising.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:41.000Z | tags: adtech-adwords, ecommerce, prodmgmt -->
+      <div class="card-image">
+        <img src="https://savvyrevenue.com/wp-content/uploads/2024/05/980467_Illustration-for-article-Hacks-metoder-og-vaerktojer-til-Google-Ads-sogeordsanalyse-for-webshops_Op1_021721.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://t.co/abzfMOsC49?amp=1">Hacks, Methods and Tools to Keyword Research for eCommerce Stores</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">t.co</div>
+        </div>
+        <div class="card-section">
+          <p>Learn the exact way that I perform keyword research that generates profitable, scalable ROI for eCommerce stores.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

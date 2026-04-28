@@ -1,0 +1,240 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + image-generation &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-01-18T15:57:58.939Z | tags: deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81NTU2NjQwNy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc0NjcwNTE1N30.gK9BcopEtevUQ5mOusdSmNskA73fXTyIiwh0AoBqAfg/img.jpg?width=1200&amp;height=600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/ai-art-generator-2670499999?share_id=8606388&amp;socialux=facebook&amp;utm_campaign=RebelMouse&amp;utm_content=IEEE+Spectrum&amp;utm_medium=social&amp;utm_source=facebook&amp;fbclid=IwY2xjawH4rsZleHRuA2FlbQIxMQABHb3Ak8UD3HKUUq66roOhnm6rkZ5jtycCHRP8x_3m7nFmiXJ24XI7iytwwA_aem_f0sfeIXb977uZKPAqLDMvQ">5 AI Image Generators You Can Use Now</a>
+          <div class="card-meta">18 Jan 2025</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>AI art generation has entered an era of evolution over revolution</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-09T22:32:16.000Z | tags: deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://www.digitaltrends.com/wp-content/uploads/2022/10/Midjourney-River.jpg?resize=1200%2C630&amp;p=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitaltrends.com/computing/how-to-use-midjourney-to-generate-ai-images">How to use Midjourney to generate AI images | Digital Trends</a>
+          <div class="card-meta">9 Apr 2023</div>
+          <div class="card-meta card-domain">digitaltrends.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI-generated images have never been more popular, and Midjourney is one of the best tools. Here&#39;s how to access the AI and what to know about using it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-03T23:05:38.000Z | tags: deep-learning, generative, image-generation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*Nkyo43aZ1FtnpmHv" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/paper-review-a-deep-dive-into-imagen-4e5b4092af13?source=rss----7f60cf5620c9---4">Paper Review: A Deep Dive into Imagen</a>
+          <div class="card-meta">3 Feb 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A critical analysis of Google’s impressive new text-to-image generation tool</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-03T13:05:03.000Z | tags: deep-learning, image-generation, stable-diffusion -->
+      <div class="card-image">
+        <img src="https://www.vice.com/wp-content/uploads/sites/2/2023/02/1675280802497-your-paragraph-text-52.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vice.com/en_us/article/m7gznn/ai-spits-out-exact-copies-of-training-images-real-people-logos-researchers-find">AI Spits Out Exact Copies of Training Images, Real People, Logos, Researche</a>
+          <div class="card-meta">3 Feb 2023</div>
+          <div class="card-meta card-domain">vice.com</div>
+        </div>
+        <div class="card-section">
+          <p>The regurgitation of training data exposes image diffusion models to a number of privacy and copyright risks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-14T01:33:51.000Z | tags: deep-learning, gans, image-generation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*YJvJEbmhYLJdn12r27Qerg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/deep-convolutional-gan-how-to-use-a-dcgan-to-generate-images-in-python-b08afd4d124e?source=rss----7f60cf5620c9---4">Deep Convolutional GAN — How to Use a DCGAN to Generate Images in Python</a>
+          <div class="card-meta">14 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An overview of DCGAN architecture with a step-by-step guide to building it yourself</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-04T20:26:33.000Z | tags: deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdccd0ee1-d890-44f2-856e-58769659356c_1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bigtechnology.substack.com/p/face-to-face-with-dall-e-the-ai-artist">Face to Face With Dall-E, The AI Artist That Might Change The World</a>
+          <div class="card-meta">4 Jun 2022</div>
+          <div class="card-meta card-domain">bigtechnology.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dall-E can illustrate just about anything using a short text prompt. Should it?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-01T22:37:43.000Z | tags: deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc97677e3-9c88-4c6c-85b2-93fc66788b54_323x239.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://astralcodexten.substack.com/p/a-guide-to-asking-robots-to-design">A Guide To Asking Robots To Design Stained Glass Windows</a>
+          <div class="card-meta">1 Jun 2022</div>
+          <div class="card-meta card-domain">astralcodexten.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-26T13:59:35.000Z | tags: deep-learning, image-generation, machine-vision -->
+      <div class="card-image">
+        <img src="https://images.hothardware.com/contentimages/newsitem/58082/content/small_nvidia_nerf_thumbnail.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hothardware.com/news/nvidia-nerf-ai-renders-3d-scenes-2d-photos-milliseconds">NVIDIA NeRF AI Renders Amazingly Realistic 3D Scenes From 2D Photos In Just</a>
+          <div class="card-meta">26 Mar 2022</div>
+          <div class="card-meta card-domain">hothardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>It takes a human being around 0.1 to 0.4 seconds to blink. In even less time, an AI-based inverse rendering process developed by NVIDIA can generate a 3D scene from 2D photos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-23T13:14:24.000Z | tags: algorithms-math, deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*VLCGlJWrtVceZ9NqVqWTxQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/DLlcQFcOjhb">A Guide to Genetic ‘Learning’ Algorithms for Optimization</a>
+          <div class="card-meta">23 Jun 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reconstructing Images using Reinforcement Learning and Genetic Algorithms</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-21T17:40:43.000Z | tags: deep-learning, image-generation -->
+      <div class="card-image">
+        <img src="https://production-media.paperswithcode.com/tasks/35c086bd-0541-4df9-b901-8911678e6fc4.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/task/image-generation">Browse the State-of-the-Art in Machine Learning | Papers With Code</a>
+          <div class="card-meta">21 Dec 2020</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>**Image Generation** (synthesis) is the task of generating new images from an existing dataset.  - **Unconditional generation** refers to generating samples unconditionally from the dataset, i.e. $p(y)$ - **[Conditional image generation](/task/conditional-image-generation)** (subtask) refers to generating samples conditionally from the dataset, based on a label, i.e. $p(y|x)$.  In this section, you can find state-of-the-art leaderboards for **unconditional generation**. For conditional  generation, and other types of image generations, refer to the subtasks.  ( Image credit: [StyleGAN](https://github.com/NVlabs/stylegan) )</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-05T14:27:54.000Z | tags: adversarial, deep-learning, gans, image-generation -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2019/03/nvidia-gaugan.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images">Nvidia’s GauGAN has been used to create 500,000 images</a>
+          <div class="card-meta">5 Aug 2019</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nvidia&#39;s GauGAN tool has been used to create more than 500,000 images, the company announced at the SIGGRAPH 2019 conference in Los Angeles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:40:30.000Z | tags: deep-learning, image-generation, vision -->
+      <div class="card-image">
+        <img src="https://lh3.googleusercontent.com/E2UU4A-zCZ9b_oZyE_xQIeAZpDbjpcmw99-QVYVXs81UpJKnBzTo4O81rWapIqIfOAr39WSFMo336ekSH4_Z25BHiDamvwtQEKlSteg260fZhCwJ=w1200-h630-n-nu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://deepmind.com/blog/learning-to-generate-images">Learning to write programs that generate images</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">deepmind.com</div>
+        </div>
+        <div class="card-section">
+          <p>Through a human’s eyes, the world is much more than just the images reflected in our corneas. For example, when we look at a building and admire the intricacies of its design, we can appreciate...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

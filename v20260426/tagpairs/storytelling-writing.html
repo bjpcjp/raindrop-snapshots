@@ -1,0 +1,429 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>storytelling + writing &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-02-07T12:59:23.018Z | tags: writing, reading, storytelling -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tetw.org/Greats">The Electric Typewriter</a>
+          <div class="card-meta">7 Feb 2026</div>
+          <div class="card-meta card-domain">tetw.org</div>
+        </div>
+        <div class="card-section">
+          <p>Great articles and essays by the world&#39;s best journalists and writers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-14T21:58:19.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7955%2F1715370583_Graham-Greene1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/graham-greene-and-the-art-of-the-opening-paragraph">Graham Greene and The Art of the Opening Paragraph</a>
+          <div class="card-meta">14 May 2024</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Ten great opening paragraphs from one iconic author.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-24T03:17:40.000Z | tags: copywriting, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://significantobjects.com/wordpress/wp-content/themes/sigobs/images/logo_fb.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://significantobjects.com">Significant Objects | …and how they got that way</a>
+          <div class="card-meta">24 Apr 2023</div>
+          <div class="card-meta card-domain">significantobjects.com</div>
+        </div>
+        <div class="card-section">
+          <p>…and how they got that way</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-06T15:12:54.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://preview.redd.it/the-shapes-of-stories-v0-legwj29wd1y91.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=880d0a9119a4beb5cbb2e3f7fdd26f5076a1ab33" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/coolguides/comments/ymgouz/the_shapes_of_stories">The Shapes of Stories</a>
+          <div class="card-meta">6 Nov 2022</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>21K votes, 289 comments. 5.5M subscribers in the coolguides community. Picture based reference guides for anything and everything. If it seems like…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-20T21:16:15.000Z | tags: movies-television, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://compote.slate.com/images/67c9bd3e-4dfd-4661-8201-c6838b88c38b.jpeg?width=1560&amp;rect=1649x1099&amp;offset=47x0" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://slate.com/culture/2022/07/best-death-scenes-movies-tv-books-theater-songs.html">The 50 Greatest Fictional Deaths of All Time</a>
+          <div class="card-meta">20 Jul 2022</div>
+          <div class="card-meta card-domain">slate.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most tearjerking, hilarious, satisfying, and shocking death scenes in 2,500 years of culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-16T19:51:43.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://bigthink.com/wp-content/uploads/2019/12/Screen-Shot-2022-06-10-at-9.22.06-AM-Cropped.png?resize=1200,630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://bigthink.com/high-culture/vonnegut-shapes">Kurt Vonnegut on the 8 &quot;shapes&quot; of stories</a>
+          <div class="card-meta">16 Jul 2022</div>
+          <div class="card-meta card-domain">bigthink.com</div>
+        </div>
+        <div class="card-section">
+          <p>Before fame, Kurt Vonnegut wrote a master&#39;s thesis on the shapes of stories for the anthropology department at the University of Chicago.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-06T13:22:01.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://elizabethspanncraig.com/wp-content/uploads/2023/07/Lit-Links.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://elizabethspanncraig.com/mystery-writing-tips/ten-commandments-detective-fiction-1929-brief-history">The Ten Commandments for Detective Fiction (1929): A Brief History and Update – Elizabeth Spann Craig</a>
+          <div class="card-meta">6 Jul 2022</div>
+          <div class="card-meta card-domain">elizabethspanncraig.com</div>
+        </div>
+        <div class="card-section">
+          <p>Writer @GretchenMdm9524 gives a brief history of 1929&#39;s 10 Commandments for Detective Fiction and offers some modern updates.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:46:03.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://jamesharris.design/periodic/img/PToS-thumbnail.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jamesharris.design/periodic">The Periodic Table of Storytelling</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">jamesharris.design</div>
+        </div>
+        <div class="card-section">
+          <p>The basic building blocks of storytelling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-29T02:02:00.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://lifehacker.com/imagery/defaults/fallback-thumbnail.fill.size_1200x675.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lifehacker.com/improve-your-storytelling-with-the-word-but-5988636">Improve Your Storytelling with the Word &quot;But&quot;</a>
+          <div class="card-meta">29 Jun 2022</div>
+          <div class="card-meta card-domain">lifehacker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Telling a story is  the most powerful way to activate our brains . If you want to become a better storyteller, UCLA Film School Howard Suber says you</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T03:33:49.000Z | tags: movies-television, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://bakadesuyo.com/wp-content/uploads/2015/07/how-to-improve-your-writing.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.bakadesuyo.com/2015/07/how-to-improve-your-writing">How To Improve Your Writing: 5 Secrets From Hollywood - Barking Up The Wrong Tree</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">bakadesuyo.com</div>
+        </div>
+        <div class="card-section">
+          <p>Andrew Kevin Walker, writer of the movie &quot;Seven&quot;, gives five tips on how to improve your writing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:34:05.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/static/sys-images/Books/Pix/pictures/2010/2/24/1267005965423/Elmore-Leonard-001.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTAucG5n&amp;enable=upscale&amp;s=0402647057a3bd087d613f517f7e4293" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/books/2010/feb/24/elmore-leonard-rules-for-writers">Elmore Leonard&#39;s rules for writers</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Next month, the doyen of hardboiled crime writers is publishing a new book, 10 Rules of Writing. The following is a brief summary of his advice</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:07:06.000Z | tags: goodreads, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs26162.pcdn.co%2Fwp-content%2Fuploads%2F2020%2F06%2Fthe-lottery.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/43-of-the-most-iconic-short-stories-in-the-english-language">43 of the Most Iconic Short Stories in the English Language</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>From Washington Irving to Kristen Roupenian.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-16T03:28:11.000Z | tags: goodreads, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://www.themarginalian.org/wp-content/uploads/2012/01/johnsteinbeck2.jpg?fit=600%2C315&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.themarginalian.org/2012/03/12/john-steinbeck-six-tips-on-writing">Six Tips on Writing from John Steinbeck</a>
+          <div class="card-meta">16 Mar 2022</div>
+          <div class="card-meta card-domain">themarginalian.org</div>
+        </div>
+        <div class="card-section">
+          <p>On the value of unconscious association, or why the best advice is no advice.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-14T22:44:16.000Z | tags: language-linguistics, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://s26162.pcdn.co/wp-content/uploads/2024/07/lh-holder-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lithub.com/what-makes-a-great-opening-line">What Makes a Great Opening Line?</a>
+          <div class="card-meta">14 Mar 2022</div>
+          <div class="card-meta card-domain">lithub.com</div>
+        </div>
+        <div class="card-section">
+          <p>Maybe it has happened to you: a stranger catches your eye while you peruse the plant identification section of the library, or wander a mossy hillock speckled with Amanita bisporigera, or shuffle a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-23T14:54:04.000Z | tags: comedy-fun-humor, movies-television, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/6196b11904c1b4d327f9cff9/16:9/w_1280,c_limit/ra959.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.newyorker.com/click/25765038.228306/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9tYWdhemluZS8yMDAwLzAzLzEzL3Rha2luZy1odW1vci1zZXJpb3VzbHk_bWJpZD0mdXRtX3NvdXJjZT1ubCZ1dG1fYnJhbmQ9dG55JnV0bV9tYWlsaW5nPVROWV9DbGFzc2ljc19TdW5kYXlfSEVVXzExMjEyMSZ1dG1fY2FtcGFpZ249YXVkLWRldiZ1dG1fbWVkaXVtPWVtYWlsJmJ4aWQ9NWJlOWNkNzkzZjkyYTQwNDY5ZGYzMTVkJmNuZGlkPTM4NzE3NTI0Jmhhc2hhPWFmOTYxMDI2YTcyZGMwNzU0MDk5ZWUzMDE0NmQ2ZjhmJmhhc2hiPTQ3NjFmYjA0MmQ0ZWU4ZWQxOTJiMGUyZWE5ZTNlYjFhOTlhNmU4MmYmaGFzaGM9YTljODc0OTk4OGZmY2ZmMjA1NTUxZDZkYjM5YzVjYjM3ODFlOWViZWIxMmNkMjQ5NDE0ODE0MmFkYzAxM2NkYyZlc3JjPQ/5be9cd793f92a40469df315dBbd7a8c43">Taking Humor Seriously on “The Simpsons”</a>
+          <div class="card-meta">23 Nov 2021</div>
+          <div class="card-meta card-domain">link.newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>David Owen’s 2000 Profile of George Meyer: Humor has to reframe reality, Meyer says. “It’s like seeing in two dimensions and then opening the other eye or looking through a View-Master and suddenly seeing in three.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-17T22:04:39.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/54a5a40be53a05f34703dd18/5d3612c1918b28e348b1b374_writing%20opengraph.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.julian.com/guide/write/intro">Writing well</a>
+          <div class="card-meta">17 Nov 2021</div>
+          <div class="card-meta card-domain">julian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to write well. Topics include figuring out what to write about, how to write an introduction, the writing process, writing style, and copyediting.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-05T15:33:21.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bagn%C3%A8res-de-Bigorre_-_Mus%C3%A9e_arts_populaires_08.jpg/1200px-Bagn%C3%A8res-de-Bigorre_-_Mus%C3%A9e_arts_populaires_08.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://en.m.wikipedia.org/wiki/Chekhov&#39;s_gun?fbclid=IwAR0dX_HyavZloXA9nCaZ7f-WQ1eExjawmLEcV6ih-7MPXPVfjmqblFJJ51Q">Chekhov&amp;#039;s gun</a>
+          <div class="card-meta">5 Sep 2021</div>
+          <div class="card-meta card-domain">en.m.wikipedia.org</div>
+        </div>
+        <div class="card-section">
+          <p>Chekhov&#39;s gun is a narrative principle that states that every element in a story must be necessary and irrelevant elements should be removed. For example, if a writer features a gun in a story, there must be a reason for it, such as it being fired some time later in the plot. All elements must eventually come into play at some point in the story. Some authors, such as Hemingway, do not agree with this principle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-22T22:29:36.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F99%2F1566572787_5d2336edf385b.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/21-rhetorical-devices-explained">21 Rhetorical Devices Explained - Mental Floss - Pocket</a>
+          <div class="card-meta">22 Aug 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>From the ones you know to a few new tricks. Pleonasm, anyone?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-07T09:16:01.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://flashbak.com/wp-content/uploads/2021/06/01_RAYMOND_CHANDLER-1200x900.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://flashbak.com/raymond-chandlers-guide-to-street-hoodlum-and-prison-lingo-443428">Raymond Chandler’s guide to street, hoodlum, and prison lingo</a>
+          <div class="card-meta">7 Jul 2021</div>
+          <div class="card-meta card-domain">flashbak.com</div>
+        </div>
+        <div class="card-section">
+          <p>Writers keep notebooks because ideas come in the most unexpected of places. Notebooks contain a junkyard of treasures waiting to be discovered. They provide ports of entry to the imagination. And as Joan Didion once wrote, a place to keep “on nodding terms with the people we used to be”. Thomas Hardy kept four … Continue reading &quot;Raymond Chandler’s Guide to Street, Hoodlum, and Prison Lingo&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-03T22:23:34.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://jerryjenkins.com/wp-content/uploads/2019/02/The-Writer%E2%80%99s-Guide-to-Creating-the-Plot-of-a-Story-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jerryjenkins.com/plot-of-a-story">How to Create the Plot of a Story: The Ultimate Guide for Writers</a>
+          <div class="card-meta">3 Jul 2021</div>
+          <div class="card-meta card-domain">jerryjenkins.com</div>
+        </div>
+        <div class="card-section">
+          <p>Having trouble developing the plot of a story? You aren&#39;t alone—this is no small task. But that doesn&#39;t mean it&#39;s impossible. This guide is here to help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-21T12:15:57.000Z | tags: reading, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms/uploads/2021/04/p-1-90629172-wattpad.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fastcompany.com/90629172/from-teen-wizards-to-harry-styles-romances-how-wattpad-created-a-user-generated-media-empire?partner=feedburner">From teen wizards to Harry Styles romances: How Wattpad created a user-gene</a>
+          <div class="card-meta">21 May 2021</div>
+          <div class="card-meta card-domain">fastcompany.com</div>
+        </div>
+        <div class="card-section">
+          <p>Wattpad is turning these user-generated stories into books, TV shows, and movies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-02T17:05:52.000Z | tags: comedy-fun-humor, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/607efbd6806e302d38923649/16:9/w_1280,c_limit/TNYI-Sacks-Swartzwelder.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/culture/the-new-yorker-interview/john-swartzwelder-sage-of-the-simpsons">John Swartzwelder, Sage of “The Simpsons” | The New Yorker</a>
+          <div class="card-meta">2 May 2021</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>The first major interview with one of the most revered comedy writers of all time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T11:21:21.000Z | tags: storytelling, writing -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/9748f7b1-175c-4422-9f15-e9150c167112/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/guides/how-to-create-and-interpret-characters-in-fiction-and-film">How to create compelling characters | Psyche Guides</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>It’s not only writer’s intuition. Use personality psychology to create just the right blend of surprise and believability</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-06T00:45:09.000Z | tags: books, goodreads, spycraft, storytelling, writing -->
+      <div class="card-image">
+        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LGB3SGKTS5GJFMBTDXDDQHO424.jpg&amp;w=1484" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.washingtonpost.com/magazine/2020/12/30/my-two-weeks-with-john-le-carre">Perspective | My two weeks with John le Carré: What I learned about writing, fame and grace when I showed him around Miami in 1991.</a>
+          <div class="card-meta">6 Jan 2021</div>
+          <div class="card-meta card-domain">washingtonpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>He wanted to learn about the Miami drug world and had been told I could help.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

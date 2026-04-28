@@ -1,0 +1,606 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>behaviors + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-06-11T14:32:22.000Z | tags: behaviors, fanclubs-fandom, prodmgmt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/6317a497832bf15c3b30f236/t/669abb35f056e56fa9a35f0d/1721416501849/Issue+17+Land_Shanghai+Disney_banner.jpg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thedial.world/issue-17/shanghai-disneyland-park-linabell">Who’s Afraid of Mickey Mouse?</a>
+          <div class="card-meta">11 Jun 2024</div>
+          <div class="card-meta card-domain">thedial.world</div>
+        </div>
+        <div class="card-section">
+          <p>A day at Shanghai Disneyland.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-01T06:01:23.000Z | tags: behaviors, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fcdn.theatlantic.com%2Fassets%2Fmedia%2Fimg%2Fmt%2F2019%2F03%2FGettyImages_103742864%2Flead_720_405.jpg%3Fmod%3D1552587838" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/who-still-buys-wite-out-and-why">Who Still Buys Wite-Out, and Why?</a>
+          <div class="card-meta">1 Jun 2024</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Correction fluids have improbably outlasted the typewriter and survived the rise of the digital office.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-25T10:34:43.000Z | tags: behaviors, habits, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.choicehacking.com/wp-content/uploads/2024/05/Copy-of-Choice-Hacking-Podcast-Social-Image-Client-Logos-21.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.choicehacking.com/2024/03/22/to-make-your-product-a-habit-start-with-these-powerful-triggers">To Make Your Product a Habit, Start With These Powerful Triggers</a>
+          <div class="card-meta">25 Mar 2024</div>
+          <div class="card-meta card-domain">choicehacking.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to create customer habits using powerful triggers like time, mood, location, and social influences. Discover techniques to boost product usage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T22:16:21.000Z | tags: behaviors, moats, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/shirky-principle">The Shirky Principle: Institutions Try to Preserve the Problem to Which The</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-17T07:15:14.000Z | tags: behaviors, emotions, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/Psych_SG_61.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/psychology-study-guide">Psychology for UX: Study Guide</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unsure where to start? Use this collection of links to our articles and videos to learn about some principles of human psychology and how they relate to UX design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-29T22:58:26.000Z | tags: behaviors, coolness-desire-envy, luxury, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cdn.businessday.ng/2023/07/bag-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://businessday.ng/life-arts/article/the-secret-economics-of-the-birkin-bag">The secret economics of the Birkin bag</a>
+          <div class="card-meta">29 Jul 2023</div>
+          <div class="card-meta card-domain">businessday.ng</div>
+        </div>
+        <div class="card-section">
+          <p>On a flight from Paris to London in 1983 Jane Birkin, an Anglo-French chanteuse and actress, spilled the contents of her overstuffed straw...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-29T13:49:33.000Z | tags: adtech-adwords, advertising-commercials, behaviors, ecommerce, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theawl.com/2015/06/a-complete-taxonomy-of-internet-chum">A Complete Taxonomy of Internet Chum - The Awl</a>
+          <div class="card-meta">29 Oct 2022</div>
+          <div class="card-meta card-domain">theawl.com</div>
+        </div>
+        <div class="card-section">
+          <p>by John MahoneyThis is a bucket of chum. Chum is decomposing fish matter that elicits a purely neurological brain stem response in its target consumer: larger fish, like sharks. It signals that they should let go, deploy their nictitating  ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-28T11:58:42.000Z | tags: aviation, behaviors, pricing, prodmgmt, travel -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*eSKNMwj8ImugGfH3_V4-dA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://koenfucius.medium.com/the-value-of-not-flying-d0b641491c66">The value of not flying</a>
+          <div class="card-meta">28 Jul 2022</div>
+          <div class="card-meta card-domain">koenfucius.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why might people decline an offer of up to $10,000 just to keep their feet on the ground?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-19T00:30:15.000Z | tags: behaviors, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.nirandfar.com/wp-content/uploads/2023/04/how-two-companies-hooked-customers-on-products.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-two-companies-hooked-customers-on-products-they-rarely-use">How Two Companies Hooked Customers On Products They Rarely Use</a>
+          <div class="card-meta">19 Jul 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Not every business needs to have habit-forming products. Here&#39;s how two companies hooked customers and formed habits with products they rarely used.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:43:28.000Z | tags: behaviors, jobstobedone, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbswk.hbs.edu/PublishingImages/social/hbswk_260.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://hbswk.hbs.edu/item/clay-christensens-milkshake-marketing">Clay Christensen’s Milkshake Marketing</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbswk.hbs.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Many new products fail because their creators use an ineffective market segmentation mechanism, according to HBS professor Clayton Christensen. It&#39;s time for companies to look at products the way customers do: as a way to get a job done.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:42:31.000Z | tags: behaviors, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2015/11/what-really-makes-customers-buy-a-product">What Really Makes Customers Buy a Product</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>It can be more important than word of mouth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T16:07:58.000Z | tags: behaviors, platforms, prodmgmt, signaling -->
+      <div class="card-image">
+        <img src="https://julian.digital/wp-content/uploads/2020/03/prev.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://julian.digital/2020/03/28/signaling-as-a-service">Signaling as a Service</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">julian.digital</div>
+        </div>
+        <div class="card-section">
+          <p>01 Intro    One of the best books I have read in the last few years is The Elephant in the Brain by Robin Hanson and Kevin Simler.    The book makes two main arguments:    a) Most of our everyday actions can be traced back to some form of signaling or status seeking     b) Our brains deliberately hi</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:22:22.000Z | tags: behaviors, influence-persuasion, prodmgmt -->
+      <div class="card-image">
+        <img src="https://behavioralscientist.org/wp-content/uploads/2019/06/marketing_shaw_0619.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://behavioralscientist.org/consumers-are-becoming-wise-to-your-nudge">Consumers Are Becoming Wise to Your Nudge - Behavioral Scientist</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">behavioralscientist.org</div>
+        </div>
+        <div class="card-section">
+          <p>New research indicates that consumers are catching on and may be annoyed by certain nudges, potentially limiting their effectiveness.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:21:24.000Z | tags: behaviors, habits, influence-persuasion, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.gainsight.com/wp-content/uploads/2019/03/pablo-46.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gainsight.com/blog/how-to-make-your-product-scientifically-irresistible">How to Make Your Product Scientifically Irresistible | Gainsight Software</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">gainsight.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your product can’t suck. That’s a given. But it’s also not enough to be a good product that doesn’t hook your customer and connect to their pain points.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:11:21.000Z | tags: behaviors, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbswk.hbs.edu/PublishingImages/social/hbswk_260.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://hbswk.hbs.edu/item/how-our-brain-determines-if-the-product-is-worth-the-price">How Our Brain Determines if the Product is Worth the Price</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">hbswk.hbs.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Are consumers more likely to buy if they see the price before the product, or vice versa? Uma Karmarkar and colleagues scan the brains of shoppers to find out.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:54:34.000Z | tags: behaviors, culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2018/01/featured_art_photo-adapted-from-wikimedia-commons-littletinyfish-cc-by-sa-2-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ideas.ted.com/hello-my-name-is-andrew-and-i-cant-stop-disagreeing">Are you outspoken at work? How to use your voice – and not get fired</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">ideas.ted.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello, my name is Andrew, and I can’t stop disagreeing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:18:49.000Z | tags: behaviors, custsvc, prodmgmt -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2015/03/MAR15_11_183295567.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2015/03/how-self-service-kiosks-are-changing-customer-behavior">How Self-Service Kiosks Are Changing Customer Behavior</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>From ATMs to automated checkouts to fast food.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T13:31:57.000Z | tags: behaviors, leadership, prodmgmt, teamwork -->
+      <div class="card-image">
+        <img src="https://hbr.org/resources/images/article_assets/2019/03/Mar19_14_667758797.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hbr.org/2019/03/an-exercise-to-help-your-team-feel-more-comfortable-with-conflict">An Exercise to Help Your Team Feel More Comfortable with Conflict</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">hbr.org</div>
+        </div>
+        <div class="card-section">
+          <p>The ability to get issues on the table and work through them constructively is critical to having a healthy culture. Managers can normalize productive conflict on your team by using an exercise to map out the unique value of each role and the tensions that should exist among them. Draw a circle and divide that circle into enough wedges to represent each role on your team. For each role, ask: What is the unique value of this role on this team? On which stakeholders is this role focused? What is the most common tension this role puts on team discussions? Answer those questions for each member of the team, filling in the wedges with the answers. As you go, emphasize how the different roles are supposed to be in tension with one another. With heightened awareness and a shared language, your team will start to realize that much of what they have been interpreting as interpersonal friction has actually been perfectly healthy role-based tension.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:32:31.000Z | tags: advertising-commercials, behaviors, marketing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20200113211633-thinx-sundayad-crop.jpeg?format=pjeg&amp;auto=webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.entrepreneur.com/article/344940">How to Market Taboo Products</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">entrepreneur.com</div>
+        </div>
+        <div class="card-section">
+          <p>Tips from successful campaigns promoting everything from shapewear to prostate health.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T10:07:10.000Z | tags: behaviors, discovery, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.usersknow.com/blog/2012/05/sometimes-its-not-change-they-hate.html">Sometimes It’s Not the Change They Hate — Users Know</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">usersknow.com</div>
+        </div>
+        <div class="card-section">
+          <p>There has been a lot of discussion in the design world recently about &quot;change aversion.&quot; Most of the articles about it seem to be targeting the new Google redesign, but I&#39;ve certainly seen this same discussion happen at many companies when big changes aren&#39;t universally embraced by users.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:32:07.000Z | tags: art, behaviors, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-08/negative-space-woman-artist-painting-studio-office-bruce-mars_negative_space.jpg?itok=iNWh9igS" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.psychologytoday.com/us/blog/the-science-behind-behavior/201808/how-artists-use-psychology-price-painting">How Artists Use Psychology to Price a Painting</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">psychologytoday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Driven by buyers&#39; need for consistency and explanation, the most popular pricing method uses a surprisingly simple formula based on size.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-08T01:42:52.000Z | tags: behaviors, moats, platforms, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F83c38ed4-76a1-4835-9488-66737324a22d_540x361.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://floodstate.substack.com/p/storming-reddits-moat">Storming Reddit&#39;s Moat</a>
+          <div class="card-meta">8 Feb 2022</div>
+          <div class="card-meta card-domain">floodstate.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Guide to Reddit, Its Key Competitive Advantages, and How to Unbundle It</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:12:14.000Z | tags: behaviors, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://unintendedconsequenc.es/wp-content/uploads/2019/08/Glass-polishers-image-Vaclav-Smil-879x800.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://unintendedconsequenc.es/do-we-create-shoplifters">Do We Create Shoplifters? - Unintended Consequences</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">unintendedconsequenc.es</div>
+        </div>
+        <div class="card-section">
+          <p>The history of technology is one of subtracting humans and replacing them with machines. Do the unintended consequences include creating shoplifters?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-22T13:11:44.000Z | tags: behaviors, interrogations, prodmgmt -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/254bcec1-3fce-4482-a9b8-5344cc8c321d/original.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://psyche.co/guides/how-to-solve-problems-by-thinking-like-a-detective">How to think like a detective | Psyche Guides</a>
+          <div class="card-meta">22 Apr 2021</div>
+          <div class="card-meta card-domain">psyche.co</div>
+        </div>
+        <div class="card-section">
+          <p>The best detectives seem to have almost supernatural insight, but their cognitive toolkit is one that anybody can use</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-18T22:34:55.000Z | tags: behaviors, music, prodmgmt -->
+      <div class="card-image">
+        <img src="https://variety.com/wp-content/uploads/2021/04/Spotify-Placeholder.jpg?w=1000&amp;h=563&amp;crop=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://variety.com/2021/music/news/spotify-turns-15-how-the-streaming-giant-has-changed-and-reinvented-the-music-industry-1234948299">15 Years of Spotify: How the Streaming Giant Has Changed and Reinvented the Music Industry</a>
+          <div class="card-meta">18 Apr 2021</div>
+          <div class="card-meta card-domain">variety.com</div>
+        </div>
+        <div class="card-section">
+          <p>As Spotify turns 15 this month, we look at 15 ways the streaming giant has changed, reinvented and reshaped music and the music business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-21T23:49:18.000Z | tags: advertising-commercials, behaviors, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fimages.theconversation.com%2Ffiles%2F257627%2Foriginal%2Ffile-20190207-174890-1btlu70.jpg%3Fixlib%3Drb-1.1.0%26q%3D45%26auto%3Dformat%26w%3D496%26fit%3Dclip" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/the-decoy-effect-how-you-are-influenced-to-choose-without-really-knowing-it">The Decoy Effect: How You Are Influenced to Choose Without Really Knowing I</a>
+          <div class="card-meta">21 Feb 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Think you got a good deal? Look again.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-19T17:13:52.000Z | tags: behaviors, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.deprocrastination.co/assets/illustrations/work_bad_rect.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.deprocrastination.co/blog/how-to-be-productive-without-forcing-yourself">How to be more productive without forcing yourself</a>
+          <div class="card-meta">19 Feb 2021</div>
+          <div class="card-meta card-domain">deprocrastination.co</div>
+        </div>
+        <div class="card-section">
+          <p>Imagine you could work more and be wildly productive. And you wouldn’t need to force yourself to work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:55:47.000Z | tags: behaviors, ideas, ideation, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_21RuC8Oy1ERb4g92ftlkg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/agileinsider/forming-experimental-product-hypotheses-85b1d41541c4">Forming Experimental Product Hypotheses | by Chris Compston | Agile Insider</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>An introduction to forming hypothesis statements for product experimentation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T01:50:22.000Z | tags: behaviors, prodmgmt -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F3373%2F1582216096_GettyImages-1142992009.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/4-ways-to-use-psychology-to-win-your-competition-s-customers">Four Ways to Use Psychology to Win Your Competition&#39;s Customers</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some products sell themselves, but habits don’t. They require a bit of finesse.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-28T14:03:43.000Z | tags: behaviors, culture, prodmgmt, company-culture -->
+      <div class="card-image">
+        <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2018/01/featured_art_photo-adapted-from-wikimedia-commons-littletinyfish-cc-by-sa-2-01.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/are-you-outspoken-at-work-how-to-use-your-voice-and-not-get-fired">Are you outspoken at work? How to use your voice – and not get fired</a>
+          <div class="card-meta">28 Oct 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hello, my name is Andrew, and I can’t stop disagreeing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-20T18:38:35.000Z | tags: behaviors, execution, prodmgmt -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F04%2FOKR.png&amp;signature=1e34d34f3aaafe0c8565f390a958edcb" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/growth-quarters/2020/04/20/how-okrs-can-make-you-a-better-leader">How OKRs can make you a better leader</a>
+          <div class="card-meta">20 Apr 2020</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>Leaders need to lead by example using OKRs, showing that they are equally as committed to successful outcomes as anyone on the front lines of the business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:06:57.000Z | tags: behaviors, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/twg-content/images/askaresearcher-howdoneedsdriveintent_FI_V1.width-1200.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thinkwithgoogle.com/consumer-insights/consumer-needs-research">Ask a researcher: How do needs drive intent?</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">thinkwithgoogle.com</div>
+        </div>
+        <div class="card-section">
+          <p>Consumer needs spark consumer journeys. How can marketers identify those needs and address them? The latest consumer research from Google will help.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-31T18:21:02.000Z | tags: behaviors, gaming, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*8pobkkAZJHW-UHFexyvapQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/behavior-design/hooked-on-loot-boxes-how-design-gets-us-addicted-79c45faebc05">Hooked on Loot Boxes: How Behavioral Design Gets Gamers</a>
+          <div class="card-meta">31 Aug 2019</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nir Eyal’s Hooked Model explains how games keep players coming back.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-22T02:55:59.000Z | tags: behaviors, design, influence-persuasion, prodmgmt -->
+      <div class="card-image">
+        <img src="https://www.datocms-assets.com/16499/1571503812-coverwhitebg.png?auto=format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ui-patterns.us10.list-manage.com/track/click?e=e535b3326a&amp;id=760191059d&amp;u=52822308d355dc96a394ce489">15 Steps to Understand &amp; Influence User Behavior: A Deep Dive</a>
+          <div class="card-meta">22 Mar 2019</div>
+          <div class="card-meta card-domain">ui-patterns.us10.list-manage.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding user behavior is key to understanding how users interact with your product. Here are 15 steps to analyze &amp; change their interactions to your benefit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-12T10:46:31.000Z | tags: behaviors, emotions, prodmgmt -->
+      <div class="card-image">
+        <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/12885979/The_Goods_Love.jpg?quality=90&amp;strip=all&amp;crop=0%2C4.30747263208%2C100%2C91.38505473584&amp;w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.vox.com/the-goods/2018/9/11/17838546/shopping-charcoal-ice-cream-bookstores">Why we buy the things we buy</a>
+          <div class="card-meta">12 Sep 2018</div>
+          <div class="card-meta card-domain">vox.com</div>
+        </div>
+        <div class="card-section">
+          <p>The mysteries of consumer behavior, explained by ice cream and independent bookstores.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-05T19:42:43.000Z | tags: behaviors, marketing, prodmgmt, ui-ux -->
+      <div class="card-image">
+        <img src="https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/heath-freepopsicle-1630_1.jpg.webp?itok=88UcTvGJ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.gsb.stanford.edu/insights/power-free-popsicle?Date=20180223&amp;linkId=48424986">The Power of a Free Popsicle | Stanford Graduate School of Business</a>
+          <div class="card-meta">5 Mar 2018</div>
+          <div class="card-meta card-domain">gsb.stanford.edu</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

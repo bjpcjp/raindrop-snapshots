@@ -1,0 +1,825 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>deep-learning + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-04-09T11:07:46.579Z | tags: activations, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2026/04/blog-20.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2026/04/09/sigmoid-vs-relu-activation-functions-the-inference-cost-of-losing-geometric-context/">Sigmoid vs ReLU Activation Functions: The Inference Cost of Losing Geometric Context - MarkTechPost</a>
+          <div class="card-meta">9 Apr 2026</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore Sigmoid vs ReLU activation functions and how losing geometric context affects neural network efficiency and depth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-16T14:22:57.734Z | tags: machine-learning, deep-learning, github -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/Rosidi_Github_Repositories_for_ML_3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/10-github-repositories-for-advanced-machine-learning-projects">10 GitHub Repositories for Advanced Machine Learning Projects</a>
+          <div class="card-meta">16 Oct 2024</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Where can you find projects dealing with advanced ML topics? GitHub is a perfect source with its many repositories. I’ve selected ten to talk about in this article.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-14T20:05:13.000Z | tags: arxiv, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FFqvskpvXsAEIy5u.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nlpnews.substack.com/p/top-ml-papers-of-the-week-8f6?isFreemail=true&amp;post_id=107962254&amp;publication_id=103238">?Top ML Papers of the Week - by elvis - NLP Newsletter</a>
+          <div class="card-meta">14 Mar 2023</div>
+          <div class="card-meta card-domain">nlpnews.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>The top ML Papers of the Week (Mar 6 - Mar 12)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-16T01:53:18.000Z | tags: deep-learning, generative, ideas, machine-learning, nlp, llms-gpt -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/639997a380800648445acf3f/1718919976911/B4AAC213-3764-4A49-A1F1-CA18B3368CF0.jpeg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ben-evans.com/benedictevans/2022/12/14/ChatGPT-imagenet">ChatGPT and the Imagenet moment — Benedict Evans</a>
+          <div class="card-meta">16 Dec 2022</div>
+          <div class="card-meta card-domain">ben-evans.com</div>
+        </div>
+        <div class="card-section">
+          <p>The wave of enthusiasm around generative networks feels like another Imagenet moment - a step change in what ‘AI’ can do that could generalise far beyond the cool demos. What can it create, and where are the humans in the loop?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-14T19:01:49.000Z | tags: deep-learning, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*5cS2Mbgb8mylgGEH" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/ivfpq-hnsw-for-billion-scale-similarity-search-89ff2f89d90e?source=rss----7f60cf5620c9---4">IVFPQ HNSW for Billion-scale Similarity Search | by Peggy Chang | Towards</a>
+          <div class="card-meta">14 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The best indexing approach for billion-sized vector datasets</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-13T14:08:29.000Z | tags: autoencoders, compression-encoding, deep-learning, machine-learning, search -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*mQbE21i6fsfqpU3L" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/improving-vector-quantization-in-vector-quantized-variational-autoencoders-vq-vae-915f5814b5ce">NSVQ: Improved Vector Quantization technique for Neural Networks Training</a>
+          <div class="card-meta">13 Oct 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Efficient vector quantization for machine learning optimizations (eps. vector quantized variational autoencoders), better than straight…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-05T22:15:23.000Z | tags: deep-learning, machine-learning, object-detection -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/od/main.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2019/12/05/od">Demystifying Object Detection and Instance Segmentation for Data Scientists - MLWhiz</a>
+          <div class="card-meta">5 Sep 2022</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>this post is explaining how permutation importance works and how we can code it using ELI5</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-10T15:14:14.000Z | tags: deep-learning, machine-learning, topology -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://substack.com/redirect/6f628369-5291-4b55-b14e-40815d5b112a?u=1135489">Topological Data Analysis for Machine Learning</a>
+          <div class="card-meta">10 Jul 2022</div>
+          <div class="card-meta card-domain">substack.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-21T19:37:37.000Z | tags: chatbots, deep-learning, machine-learning, nlp -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8auc5yhbd3ofsn3mlm9a.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/evgeniykrasnokutsky/ai-virtual-assistant-technology-guide-2022-3n3i">AI Virtual Assistant Technology Guide 2022</a>
+          <div class="card-meta">21 Mar 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>They can help you get an appointment or order a pizza, find the best ticket deals and bring your...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-20T14:23:09.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/58dc1a1ee4fcb51cbb80a096/t/66b165fe2926b21d072cf900/1722901809767/ML-CheatSheet-en.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.accel.ai/anthology/2022/1/24/machine-learning-algorithms-cheat-sheet">Machine Learning Algorithms Cheat Sheet — Accel.AI</a>
+          <div class="card-meta">20 Feb 2022</div>
+          <div class="card-meta card-domain">accel.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Machine learning is a subfield of artificial intelligence (AI) and computer science that focuses on using data and algorithms to mimic the way people learn, progressively improving its accuracy. This way, Machine Learning is one of the most interesting methods in Computer Science these days, and it&#39;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:13:05.000Z | tags: deep-learning, machine-learning, paperswithcode, pytorch, tensorflow -->
+      <div class="card-image">
+        <img src="https://www.assemblyai.com/blog/content/images/size/w1200/2023/01/pytorch_vs_tensorflow_2023.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2022">PyTorch vs TensorFlow in 2023</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">assemblyai.com</div>
+        </div>
+        <div class="card-section">
+          <p>Should you use PyTorch vs TensorFlow in 2023? This guide walks through the major pros and cons of PyTorch vs TensorFlow, and how you can pick the right framework.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:45:46.000Z | tags: deep-learning, machine-learning, visualization -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/59ab9d502645883aaa186d2bd4c4f006d453f739a36d8392d3d36cdf40858859/Machine-Learning-Tokyo/Interactive_Tools" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Machine-Learning-Tokyo/Interactive_Tools">Machine-Learning-Tokyo/Interactive_Tools: Interactive Tools for Machine Learning, Deep Learning and Math</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Interactive Tools for Machine Learning, Deep Learning and Math - Machine-Learning-Tokyo/Interactive_Tools</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T18:24:28.000Z | tags: datasets, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://production-media.paperswithcode.com/datasets/cc67083f-1439-4eb9-a436-82ad80808515.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/dataset/medmnist-v2">MedMNIST v2 Dataset | Papers With Code</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>MedMNIST v2 is a large-scale MNIST-like collection of standardized biomedical images, including 12 datasets for 2D and 6 datasets for 3D. All images are pre-processed into 28 x 28 (2D) or 28 x 28 x 28 (3D) with the corresponding classification labels, so that no background knowledge is required for users. Covering primary data modalities in biomedical images, MedMNIST v2 is designed to perform classification on lightweight 2D and 3D images with various data scales (from 100 to 100,000) and diverse tasks (binary/multi-class, ordinal regression and multi-label). The resulting dataset, consisting of 708,069 2D images and 10,214 3D images in total, could support numerous research / educational purposes in biomedical image analysis, computer vision and machine learning.  Description  and image from: MedMNIST v2: A Large-Scale Lightweight Benchmark for 2D and 3D Biomedical Image Classification  Each subset keeps the same license as that of the source dataset. Please also cite the corresponding paper of source data if you use any subset of MedMNIST.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T00:56:36.000Z | tags: arxiv, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2110.13041">Applications and Techniques for Fast Machine Learning in Science</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>In this community review report, we discuss applications and techniques for fast machine learning (ML) in science -- the concept of integrating power ML methods into the real-time experimental...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T23:01:40.000Z | tags: deep-learning, machine-learning, pytorch -->
+      <div class="card-image">
+        <img src="https://assets.exxactcorp.com/img/exx/misc/X-Exxact.svg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.exxactcorp.com/blog/Deep-Learning/introduction-to-pytorch-lightning">An Introduction to PyTorch Lightning</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">exxactcorp.com</div>
+        </div>
+        <div class="card-section">
+          <p>PyTorch Lightning has opened many new possibilities in deep learning and machine learning with a high level interface that makes it quicker to work with PyTorch.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T21:00:54.000Z | tags: deep-learning, devops, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/7414a2574e5b5fd512538074a8cf5787fabfb3a88efeaa25b714bce85448c1c2/graviraja/MLOps-Basics" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/graviraja/MLOps-Basics">graviraja/MLOps-Basics</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-24T00:00:00.000Z | tags: machine-learning, deep-learning, books, algorithms-math, github -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/45f1f4dfb2cc2652c0a1f9376fc10dda71150a108f61d3d42f8705578824e25b/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources">Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources</a>
+          <div class="card-meta">24 Sep 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Compendium of free ML reading resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-20T11:03:41.000Z | tags: deep-learning, machine-learning, paperswithcode -->
+      <div class="card-image">
+        <img src="https://paperswithcode.com/static/logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/newsletter">Papers with Code - Paper with Code Newsletter</a>
+          <div class="card-meta">20 Jul 2021</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Papers With Code highlights trending Machine Learning research and the code to implement it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-29T01:32:42.000Z | tags: deep-learning, machine-learning, paperswithcode -->
+      <div class="card-image">
+        <img src="https://paperswithcode.com/static/methods.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/methods">The Methods Corpus | Papers With Code</a>
+          <div class="card-meta">29 Jun 2021</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>2284 methods • 143838 papers with code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-26T21:47:01.000Z | tags: deep-learning, machine-learning, machine-vision -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2021/06/Same_different_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/same-or-different-ai-cant-tell-20210623?fbclid=IwAR0tGsjpYIg0UnsKf7ZN_qDqfU0-KFWFKTEUbGxNhzy7scUzixyn8HJDG6s">Same or Different? The Question Flummoxes Neural Networks. | Quanta Magazine</a>
+          <div class="card-meta">26 Jun 2021</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>For all their triumphs, AI systems can’t seem to generalize the concepts of “same” and “different.” Without that, researchers worry, the quest to create truly intelligent machines may be hopeless.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-20T18:50:13.000Z | tags: deep-learning, machine-learning, ruby -->
+      <div class="card-image">
+        <img src="https://ankane.org/images/ml-gems-2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ankane.org/new-ml-gems">New Machine Learning Gems for Ruby</a>
+          <div class="card-meta">20 Jun 2021</div>
+          <div class="card-meta card-domain">ankane.org</div>
+        </div>
+        <div class="card-section">
+          <p>In August, I set out to improve the machine learning ecosystem for Ruby and wasn’t sure where it would go. Over the next 5 months, I ended up...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-31T22:09:47.000Z | tags: deep-learning, machine-learning, nlp, sentiment-analysis -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:974/1*8RZ-43p0vFmdOBu1SHjyDg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/sentiment-analysis-comparing-3-common-approaches-naive-bayes-lstm-and-vader-ab561f834f89">Sentiment Analysis — Comparing 3 Common Approaches: Naive Bayes, LSTM, and</a>
+          <div class="card-meta">31 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sentiment Analysis, or Opinion Mining, is a subfield of NLP (Natural Language Processing) that aims to extract attitudes, appraisals, opinions, and emotions from text. Inspired by the rapid migration…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T00:46:17.000Z | tags: deep-learning, machine-learning, object-detection -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*wlIkpmotfZ0NGaCiEIObCw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-to-object-detection-model-evaluation-3a789220a9bf?source=rss----7f60cf5620c9---4">Introduction to Object Detection Model Evaluation</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Evaluating object detection models is not straightforward because each image can have many objects and each object can belong to different classes. This means that we need to measure if the model…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-29T00:45:54.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06e501e0-26b4-47a4-9718-6ecbcf2d19fc_1668x938.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://elvissaravia.substack.com/p/10-must-read-ml-blog-posts">10 Must Read ML Blog Posts</a>
+          <div class="card-meta">29 May 2021</div>
+          <div class="card-meta card-domain">elvissaravia.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of high-impact machine learning blog posts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-18T16:55:31.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:475/1*WvCaYm8PeaKaKdHb0MTFPw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/causal-ml-for-data-science-deep-learning-with-instrumental-variables-96e5b7cc0482?gi=5889f08cd8e2">Causal ML for Data Science: Deep Learning with Instrumental Variables</a>
+          <div class="card-meta">18 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Combining data science and econometrics for an introduction to the DeepIV framework, including a full Python code tutorial.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-15T17:56:43.000Z | tags: clothes, collecting-curation, deep-learning, fashion, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://multithreaded.stitchfix.com/assets/images/logomark-linkedin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://multithreaded.stitchfix.com/blog/2021/05/12/algorithm-assisted-inventory-curation">Algorithm-Assisted Inventory Curation</a>
+          <div class="card-meta">15 May 2021</div>
+          <div class="card-meta card-domain">multithreaded.stitchfix.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building the raw materials for personalization at scale</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-09T17:35:22.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://opensource.fb.com/img/social-share-update.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://opensource.facebook.com/projects">Projects</a>
+          <div class="card-meta">9 May 2021</div>
+          <div class="card-meta card-domain">opensource.facebook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Find out about all of the projects of Meta Open Source.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-09T01:41:08.000Z | tags: cpus, deep-learning, gpus, machine-learning -->
+      <div class="card-image">
+        <img src="https://scx2.b-cdn.net/gfx/news/2021/riceintelopt.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html">CPU-based algorithm trains deep neural nets up to 15 times faster than top</a>
+          <div class="card-meta">9 Apr 2021</div>
+          <div class="card-meta card-domain">techxplore.com</div>
+        </div>
+        <div class="card-section">
+          <p>Rice University computer scientists have demonstrated artificial intelligence (AI) software that runs on commodity processors and trains deep neural networks 15 times faster than platforms based on graphics ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-22T19:40:30.000Z | tags: deep-learning, machine-learning, synthetic-data -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/overview_of_synthetic_data_types-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2021/02/overview-synthetic-data-types-generation-methods.html">An overview of synthetic data types and generation methods</a>
+          <div class="card-meta">22 Feb 2021</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Synthetic data can be used to test new products and services, validate models, or test performances because it mimics the statistical property of production data. Today you&#39;ll find different types of structured and unstructured synthetic data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T12:17:32.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://images.deepai.org/glossary-terms/da1846ea0aac46ff83e820ccf1f2578e/errorback.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://deepai.org/machine-learning-glossary-and-terms/error-backpropagation-learning-algorithm">Error Backpropagation Learning Algorithm</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">deepai.org</div>
+        </div>
+        <div class="card-section">
+          <p>The error backpropagation learning algorithm is a supervised learning technique for neural networks that calculates the gradient of descent for weighting different variables.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T11:23:28.000Z | tags: deep-learning, feature-engineering, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*XJw2acJVl-1XzQ3jB0Vdiw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/why-you-should-always-use-feature-embeddings-with-structured-datasets-7f280b40e716?source=rss----7f60cf5620c9---4">Why you should always use feature embeddings with structured datasets</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A simple technique for boosting accuracy on ANY model you use</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-11T11:22:15.000Z | tags: deep-learning, glossaries, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://deepai.org/definitions">Data Science &amp; AI Glossary | DeepAI</a>
+          <div class="card-meta">11 Feb 2021</div>
+          <div class="card-meta card-domain">deepai.org</div>
+        </div>
+        <div class="card-section">
+          <p>The data science and artificial intelligence terms you need while reading the latest research</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-27T12:40:09.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://paperswithcode.com/static/methods.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/methods/area/general">General Methods | Papers With Code</a>
+          <div class="card-meta">27 Jan 2021</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Browse 1109 deep learning methods for General.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-13T21:54:56.000Z | tags: books, deep-learning, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=25716581">Algorithms for Decision Making | Hacker News</a>
+          <div class="card-meta">13 Jan 2021</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-10T20:44:30.000Z | tags: deep-learning, machine-learning, model-compression, tensorflow -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Em_pmyl1YhE5FwiIxKGyfQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/model-compression-a-look-into-reducing-model-size-8251683c338e?source=rss----7f60cf5620c9---4">Model Compression: A Look into Reducing Model Size</a>
+          <div class="card-meta">10 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why is Model Compression important?  A significant problem in the arms race to produce more accurate models is complexity, which leads to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-21T17:46:28.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-29_at_15.14.04_pYD0tJb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/task/zero-shot-learning">Computer Vision | Papers With Code</a>
+          <div class="card-meta">21 Dec 2020</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>**Zero-shot learning (ZSL)** is a model&#39;s ability to detect classes never seen during training. The condition is that the classes are not known during supervised learning.   Earlier work in zero-shot learning use attributes in a two-step approach to infer unknown classes. In the computer vision context, more recent advances learn mappings from image feature space to semantic space. Other approaches learn non-linear multimodal embeddings. In the modern NLP context, language models can be evaluated on downstream tasks without fine tuning.   Benchmark datasets for zero-shot learning include [aPY](/dataset/apy), [AwA](/dataset/awa2-1), and [CUB](/dataset/cub-200-2011), among others.   ( Image credit: [Prototypical Networks for Few shot Learning in PyTorch ](https://github.com/orobix/Prototypical-Networks-for-Few-shot-Learning-PyTorch) )  Further readings:    - [Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://paperswithcode.com/paper/zero-shot-learning-a-comprehensive-evaluation) - [Zero-Shot Learning in Modern NLP](https://joeddav.github.io/blog/2020/05/29/ZSL.html) - [Zero-Shot Learning for Text Classification](https://amitness.com/2020/05/zero-shot-text-classification/)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-21T17:45:49.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://raw.githubusercontent.com/orobix/Prototypical-Networks-for-Few-shot-Learning-PyTorch/master/doc/imgs/proto-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/task/few-shot-learning">Computer Vision | Papers With Code</a>
+          <div class="card-meta">21 Dec 2020</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>**Few-Shot Learning** is an example of meta-learning, where a learner is trained on several related tasks, during the meta-training phase, so that it can generalize well to unseen (but related) tasks with just few examples, during the meta-testing phase. An effective approach to the Few-Shot Learning problem is to learn a common representation for various tasks and train task specific classifiers on top of this representation.   Source: [Penalty Method for Inversion-Free Deep Bilevel Optimization ](https://arxiv.org/abs/1911.03432)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-10T03:10:14.000Z | tags: deep-learning, machine-learning, vision -->
+      <div class="card-image">
+        <img src="https://www.sciencedaily.com/images/scidaily-icon.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sciencedaily.com/releases/2020/08/200813103114.htm">AI system for high precision recognition of hand gestures</a>
+          <div class="card-meta">10 Dec 2020</div>
+          <div class="card-meta card-domain">sciencedaily.com</div>
+        </div>
+        <div class="card-section">
+          <p>Scientists have developed an Artificial Intelligence (AI) system that recognises hand gestures by combining skin-like electronics with computer vision.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T21:01:23.000Z | tags: algorithms-math, deep-learning, machine-learning, vision -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ruxbWPSbcz4vMsMs" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/understanding-associative-embedding-1b22677751f3?source=rss----7f60cf5620c9---4">Understanding Associative Embedding</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An elegant method to group predictions without labeling</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-16T17:10:56.000Z | tags: deep-learning, machine-learning, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:934/1*PGLcdiGi5f0PdnkxNpcPvw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/complete-guide-to-machine-learning-and-deep-learning-in-retail-ca4e05639806?source=rss----7f60cf5620c9---4">Complete guide to machine learning and deep learning in retail</a>
+          <div class="card-meta">16 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The stores aren’t dead yet</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-24T17:08:55.000Z | tags: deep-learning, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:601/1*DOl_zca_7nRuOdKGw6ZLYg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/stacked-auto-encoder-as-a-recommendation-system-for-movie-rating-prediction-33842386338?source=rss----7f60cf5620c9---4">Stacked Auto-encoder as a Recommendation System for Movie Rating Prediction</a>
+          <div class="card-meta">24 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction on Stacked Auto-encoder and Technical Walk-through on Model Creation using Pytorch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-24T16:02:46.000Z | tags: deep-learning, machine-learning, recommenders -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*lrj-BgrJWKUuIUQu8ZFDCg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/recsys-series-part-5-neural-matrix-factorization-for-collaborative-filtering-a0aebfe15883?source=rss----7f60cf5620c9---4">RecSys Series Part 5: Neural Matrix Factorization for Collaborative Filteri</a>
+          <div class="card-meta">24 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Bringing Neural Architecture into Recommendations</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:15:19.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/0*jibyT2jB0ExPfgx3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/matrix-factorization-as-a-recommender-system-727ee64683f0?source=rss----7f60cf5620c9---4">Matrix Factorization as a Recommender System</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Explanation and Implementation of Matrix Factorization</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-16T16:54:05.000Z | tags: algorithms-math, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2003.05689">Hyper-Parameter Optimization: A Review of Algorithms and Applications</a>
+          <div class="card-meta">16 Mar 2020</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Since deep neural networks were developed, they have made huge contributions to everyday lives. Machine learning provides more rational advice than humans are capable of in almost every aspect of...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: deep-learning, machine-learning, nlp -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*R8bEkSHE65EpgwmA_H0ABA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/machine-learning-in-practice/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78#hn">Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>By popular demand, I’ve updated this article with the latest tutorials from the past 12 months. Check it out here</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-07T00:45:01.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2019/11/research-guide-advanced-loss-functions-machine-learning-models.html">Research Guide: Advanced Loss Functions for Machine Learning Models - KDnuggets</a>
+          <div class="card-meta">7 Nov 2019</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This guide explores research centered on a variety of advanced loss functions for machine learning models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-03T16:21:17.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.floydhub.com/n-shot-learning">One-Shot Learning: Learning More with Less Data</a>
+          <div class="card-meta">3 Aug 2019</div>
+          <div class="card-meta card-domain">blog.floydhub.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-30T17:23:20.000Z | tags: deep-learning, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr">Introducing Similarity Search at Flickr | code.flickr.com</a>
+          <div class="card-meta">30 May 2018</div>
+          <div class="card-meta card-domain">code.flickr.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-11T11:49:54.000Z | tags: deep-learning, machine-learning, text -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2018/05/img_0118.jpg?resize=1200,1041" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2018/05/11/lighttag">LightTag is a text annotation platform for data scientists creating AI trai</a>
+          <div class="card-meta">11 May 2018</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>LightTag, a newly launched startup from a former NLP researcher at Citi, has built a &quot;text annotation platform&quot; designed to assist data scientists who</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-11-08T23:49:00.000Z | tags: deep-learning, ecommerce, machine-learning, vision -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://technology.condenast.com/story/handbag-brand-and-color-detection">Machine Learning: Handbag Brand and Color Detection using Deep Neural Netwo</a>
+          <div class="card-meta">8 Nov 2017</div>
+          <div class="card-meta card-domain">technology.condenast.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2011-10-24T00:00:00.000Z | tags: python, machine-learning, deep-learning -->
+      <div class="card-image">
+        <img src="https://thecleverprogrammer.com/wp-content/uploads/2024/10/40-Projects-to-Master-AI-ML-with-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thecleverprogrammer.com/2024/10/11/ai-ml-projects-with-python">AI &amp; ML Projects with Python</a>
+          <div class="card-meta">24 Oct 2011</div>
+          <div class="card-meta card-domain">thecleverprogrammer.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I&#39;ll take you through a list of guided projects to master AI &amp; ML with Python. AI &amp; ML Projects with Python.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,405 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>prodmgmt + virality &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2022-08-17T11:24:20.000Z | tags: friction-traction, prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://andrewchen.com/how-to-design-a-referral-program">How to design a referral program</a>
+          <div class="card-meta">17 Aug 2022</div>
+          <div class="card-meta card-domain">andrewchen.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:15:02.000Z | tags: network-effects, platforms, prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://platformed.info/virality-viral-growth-network-effects">http://platformed.info/virality-viral-growth-network-effects</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">platformed.info</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:09:05.000Z | tags: friction-traction, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/6185b708a2657014268d2eaf/620492b9fa14a200079a0ccd_jonah-berger-contagious.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.referralcandy.com/blog/jonah-berger-contagious-75-infectious-examples-of-catchy-marketing">Jonah Berger’s 75 Examples Of Infectious Marketing</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">referralcandy.com</div>
+        </div>
+        <div class="card-section">
+          <p>Make your brand messages viral with the 6 STEPPS from Jonah Berger&#39;s Contagious, including 75 real-life marketing examples to learn from.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T15:03:02.000Z | tags: friction-traction, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://s0.wp.com/i/blank.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.adamnash.com/2012/03/28/user-acquisition-five-sources-of-traffic">User Acquisition: The Five Sources of Traffic</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">blog.adamnash.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the first post in a three post series on user acquisition. The topic of this blog post may seem simplistic to those of you who have been in the trenches, working hard to grow visits and vis…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T14:58:48.000Z | tags: growth-hacks, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*w-Ply7YUXceBV0_q-ICyVQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/gabor/9-ways-to-build-virality-into-your-product-5975e1fe74e3">9 Ways to Build Virality into your Product</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>If your startup is building a consumer product, your product has to be viral. For consumer products, the average revenue per user tends to…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:49:28.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*z-MD4QN1vzUypmeNnpzJWg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.greylock.com/the-five-types-of-virality-8ba42051928d#.t29wvo26u">The Five Types of Virality</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">news.greylock.com</div>
+        </div>
+        <div class="card-section">
+          <p>and choosing the right one for your product to grow</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:45:52.000Z | tags: growth-hacks, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://adamnash.blog/wp-content/uploads/2012/04/lot-of-rabbits.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics">User Acquisition: Viral Factor Basics</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">blog.adamnash.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the second post in a three post series on user acquisition. In the first post in this series, we covered the basics of the five sources of traffic to a web-based product.  This next post co…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:42:29.000Z | tags: friction-traction, growth-hacks, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://www.adweek.com/wp-content/themes/adweek-next/assets/images/adweek-placeholder.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.adweek.com/digital/batman-is-a-growth-hacker?red=st">Batman Is A Growth Hacker</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">adweek.com</div>
+        </div>
+        <div class="card-section">
+          <p>B.J. Mendelson breaks down how Batman is a growth hacker, and what we can learn about the field from him.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-05T21:40:34.000Z | tags: prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://effectiviology.com/availability-cascade">The Availability Cascade: How Information Spreads on a Large Scale</a>
+          <div class="card-meta">5 Jul 2022</div>
+          <div class="card-meta card-domain">effectiviology.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-28T15:20:44.000Z | tags: growth-hacks, prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://andrewchen.co/theres-only-a-few-ways-to-scale-user-growth-and-heres-the-list">There’s only a few ways to scale user growth, and here’s the list</a>
+          <div class="card-meta">28 Jun 2022</div>
+          <div class="card-meta card-domain">andrewchen.co</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-24T00:23:13.000Z | tags: friction-traction, growth-hacks, inventions-innovation, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2012/11/liquidity-hacking.jpg?w=1000?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://venturebeat.com/2012/11/23/liquidity-hacking">Liquidity hacking: Solving the chicken-egg dilemma with marketplace startups</a>
+          <div class="card-meta">24 Jun 2022</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Guest How to get a two-sided marketplace startup like Airbnb, Exec, or eBay up and running -- the painless way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:33:48.000Z | tags: friction-traction, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://www.skmurphy.com/wp-content/uploads/2019/08/RowOFMatches.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.skmurphy.com/blog/2019/08/01/q-what-makes-a-product-attract-early-adopters">Q: What Makes a Product Attract Early Adopters? - SKMurphy, Inc.</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">skmurphy.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is an edited version of a recent online conversation I had with a team of bootstrappers about how to make their product attract early adopters.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T20:31:43.000Z | tags: habits, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2019/07/19-Tactics.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/19-marketplace-tactics-for-overcoming-the-chicken-or-egg-problem">19 Tactics to Solve the Chicken-or-Egg Problem and Grow Your Marketplace</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>An inside look at 19 tactics top marketplaces have used to solve the chicken-or-egg problem and kickstart growth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-10T01:29:51.000Z | tags: platforms, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://content.nfx.com/wp-content/uploads/2020/10/Header-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nfx.com/post/15th-network-effect-tribal">The Tribal Network Effect (nfx #15)</a>
+          <div class="card-meta">10 Feb 2022</div>
+          <div class="card-meta card-domain">nfx.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today, we’re sharing the newest social nfx we&#39;ve identified—the 15th type of network effect: Tribal Network Effects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-12T17:28:32.000Z | tags: music, prodmgmt, tiktok, virality -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/unsafe/https%3A%2F%2Fassets.bwbx.io%2Fimages%2Fusers%2FiqjWHBFdfxIU%2FiTMAPe4Jft5U%2Fv0%2F1200x630.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://email.getpocket.com/ls/click?upn=ky17TgJ1REx4YaZOG279kX0eKsjbbRIGziaXRcSkmSl1Shkv1J8TM64KT51b6pm0-EOl_8XOtBOf0-2BgI-2BPwTgvOpOkjz0cTGvHU6qEjV-2B98KLYXhI5rK59fXfvPezcbJXxt4IFB2WkclMchoMOU67Wt6-2B3ATu7JD0Zf7DhGFZe-2BQSHlC5y8n3-2FmzQo2BQLL4ml6nRPktuDp5T0SBWF1Zq8p1QtRlIUI5A3kfubQJixQpNjtj9hcHhjmFHi4zSLmiszMIpR1fcblI1w-2FrSMIPQZPtD7dq-2B-2Fng8TGFMevWEOL5uQyqdN00Zbpak3UVG4Yv7RUOpmn-2BKxKr2oR8iNy-2BNWE1tr7ShKSZcgiXsZW6Arm3s676cKNZ7Y6dCH-2Bc-2FhGs0b-2FMQgrBmlu7QG3G-2B1iub4rhZnGNTkAjVLX5mkVZJjGMmLGQ-2FhuNs6YNPeRQkvhaFVGfK">How TikTok Chooses Which Songs Go Viral</a>
+          <div class="card-meta">12 May 2021</div>
+          <div class="card-meta card-domain">email.getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>When Megan Thee Stallion took off her bright orange mask and walked onstage to accept her Grammy on March 14, she fought back tears and thanked God, her mother, and her managers for helping her become the first female rapper to win the award for best new artist in two decades.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-10-12T14:23:40.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2020/10/Screen-Shot-2020-10-09-at-2.57.59-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/marketing/stop-asking-for-a-viral-anything-why-ocean-sprays-successful-meme-cant-be-replicated">‘Stop asking for a ‘viral’ anything’: Why Ocean Spray’s successful meme can</a>
+          <div class="card-meta">12 Oct 2020</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>As much as marketers would like to control the narrative around their brands doing so is a fallacy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-10T01:34:23.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://kk.org/wp-content/themes/kkdotorg/inc/images/og_default_1200.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://kk.org/thetechnium/1000-true-fans">The Technium: 1,000 True Fans</a>
+          <div class="card-meta">10 Aug 2020</div>
+          <div class="card-meta card-domain">kk.org</div>
+        </div>
+        <div class="card-section">
+          <p>This is an edited, updated version of an essay I wrote in 2008 when this now popular idea was embryonic and ragged. I recently rewrote it to convey the core ideas, minus out-of-date details. This revisited essay appears in Tim … Continue reading →</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-24T17:43:54.000Z | tags: prodmgmt, virality, thermodynamics -->
+      <div class="card-image">
+        <img src="https://alexdanco.com/wp-content/uploads/2020/06/carnot-one.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://alexdanco.com/2020/06/19/the-most-famous-loop">The Most Famous Loop – alexdanco.com</a>
+          <div class="card-meta">24 Jun 2020</div>
+          <div class="card-meta card-domain">alexdanco.com</div>
+        </div>
+        <div class="card-section">
+          <p>Kevin Kwok had a great essay the other day on Figma, and how its runaway success is based on hundreds of successful loops baked into its product and business model: Why Figma Wins | Kevin Kwok It g…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-01-12T14:59:04.000Z | tags: prodmgmt, startups, virality -->
+      <div class="card-image">
+        <img src="https://www.webprofits.com.au/blog/wp-content/uploads/canva-1200x630-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.growthmanifesto.com/canva-growth-study">Canva’s Digital Growth Strategy</a>
+          <div class="card-meta">12 Jan 2020</div>
+          <div class="card-meta card-domain">growthmanifesto.com</div>
+        </div>
+        <div class="card-section">
+          <p>Canva are one of Australia&#39;s most successfull startups. In this case study we analyse how they use digital channels to attract and acquire new users</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:58:21.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/consumer-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2019/03/29/measuring-and-nurturing-network-effects">Network Effects: Measure Them, Nurture Them (3 of 3)</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the most successful companies and products have been predicated on the concept of network effects, where the network becomes more valuable to users as more people use it… if managed well. But you can’t manage what you can’t measure. So, what metrics should you look at to determine if you even have network...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:58:13.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/consumer-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2019/03/29/categories-debates-network-effects">Network Effects: Categories &amp; Debates (2 of 3)</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>We’ve defined network effects — from what they are and aren’t to how to measure and manage them in practice — but network effects have still always been hotly debated: Where are they, are they real, are they enduring… and so on. So in this second video of our three-part miniseries on network effects, a16z...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T23:57:37.000Z | tags: prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2023/09/consumer-Yoast-Facebook.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2019/03/29/is-it-a-network-effect">Network Effects: So, Is It a Network Effect? (1 of 3)</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the most successful companies and products — from the phone era to the internet era — have all been predicated on the concept of network effects, where the network becomes more valuable to users as more people use it. But how do you tell network effects apart from scale effects, brand preference, or...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-09T18:05:59.000Z | tags: intellectual-property, platforms, prodmgmt, virality -->
+      <div class="card-image">
+        <img src="https://images.axios.com/LuzcZKgR20UnO2JIJTnyjYrltFM=/0x0:1920x1080/1366x768/2019/07/07/1562517625967.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.axios.com/the-economics-of-copying-taylor-swift-art-copyright-79e34e3a-80b8-46e3-9ad0-44e5ef46c91c.html">The economics of copying</a>
+          <div class="card-meta">9 Jul 2019</div>
+          <div class="card-meta card-domain">axios.com</div>
+        </div>
+        <div class="card-section">
+          <p>Art has always had a strange relationship with copying.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-20T21:43:25.000Z | tags: ideas, platforms, prodmgmt, virality -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network">Come for the tool, stay for the network</a>
+          <div class="card-meta">20 Jan 2019</div>
+          <div class="card-meta card-domain">cdixon.org</div>
+        </div>
+        <div class="card-section">
+          <p>Chris Dixon&#39;s blog.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

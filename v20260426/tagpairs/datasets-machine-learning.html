@@ -1,0 +1,167 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>datasets + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-09-21T22:11:25.000Z | tags: books, datasets, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Ne1AhCdOnOCgo5cDe_8aKg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dirty-secrets-of-bookcorpus-a-key-dataset-in-machine-learning-6ee2927e8650">Dirty Secrets of BookCorpus, a Key Dataset in Machine Learning</a>
+          <div class="card-meta">21 Sep 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>BookCorpus has helped train at least thirty influential language models (including Google’s BERT, OpenAI’s GPT, and Amazon’s Bort), according to HuggingFace. This is the research question that…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-13T12:57:04.000Z | tags: datasets, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:800/1*gGB6gDkkl4LUCs47kOnw9g.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/93-datasets-that-load-with-a-single-line-of-code-7b5ffe62b655">93 Datasets That Load With A Single Line of Code</a>
+          <div class="card-meta">13 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How you can pull one of a few dozen example political, sporting, education, and other frames on-the-fly.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-29T18:24:28.000Z | tags: datasets, deep-learning, machine-learning -->
+      <div class="card-image">
+        <img src="https://production-media.paperswithcode.com/datasets/cc67083f-1439-4eb9-a436-82ad80808515.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://paperswithcode.com/dataset/medmnist-v2">MedMNIST v2 Dataset | Papers With Code</a>
+          <div class="card-meta">29 Oct 2021</div>
+          <div class="card-meta card-domain">paperswithcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>MedMNIST v2 is a large-scale MNIST-like collection of standardized biomedical images, including 12 datasets for 2D and 6 datasets for 3D. All images are pre-processed into 28 x 28 (2D) or 28 x 28 x 28 (3D) with the corresponding classification labels, so that no background knowledge is required for users. Covering primary data modalities in biomedical images, MedMNIST v2 is designed to perform classification on lightweight 2D and 3D images with various data scales (from 100 to 100,000) and diverse tasks (binary/multi-class, ordinal regression and multi-label). The resulting dataset, consisting of 708,069 2D images and 10,214 3D images in total, could support numerous research / educational purposes in biomedical image analysis, computer vision and machine learning.  Description  and image from: MedMNIST v2: A Large-Scale Lightweight Benchmark for 2D and 3D Biomedical Image Classification  Each subset keeps the same license as that of the source dataset. Please also cite the corresponding paper of source data if you use any subset of MedMNIST.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-03T11:12:10.000Z | tags: datasets, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset">UCI Machine Learning Repository</a>
+          <div class="card-meta">3 Apr 2021</div>
+          <div class="card-meta card-domain">archive.ics.uci.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Discover datasets around the world!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-23T18:05:09.000Z | tags: datasets, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www-eio.upc.edu/~pau/cms/rdata/datasets.html">www-eio.upc.edu/~pau/cms/rdata/datasets.html</a>
+          <div class="card-meta">23 Feb 2021</div>
+          <div class="card-meta card-domain">www-eio.upc.edu</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-17T20:37:58.000Z | tags: datasets, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*I3xud_6kKDWQSs9F.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/time-series-analysis-creating-synthetic-datasets-cf008208e014?source=rss----7f60cf5620c9---4">Time Series Analysis: Creating Synthetic Datasets</a>
+          <div class="card-meta">17 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to create time series datasets with different patterns</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:03:28.000Z | tags: datasets, machine-learning -->
+      <div class="card-image">
+        <img src="https://mlwhiz.com/images/imbal/main.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlwhiz.com/blog/2020/01/28/imbal">The 5 most useful Techniques to Handle Imbalanced datasets</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">mlwhiz.com</div>
+        </div>
+        <div class="card-section">
+          <p>This post is about explaining the various techniques you can use to handle imbalanced datasets</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: clothes, datasets, ecommerce, fashion, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/a97a4b040edeff95b0aaed3c51efeb72237e2b2658e66482aa923ba18fc4be9b/vumaasha/Atlas" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/vumaasha/Atlas">vumaasha/Atlas: Atlas: A Dataset and Benchmark for E-commerce Clothing Prod</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Atlas: A Dataset and Benchmark for E-commerce Clothing Product Categorization - vumaasha/Atlas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

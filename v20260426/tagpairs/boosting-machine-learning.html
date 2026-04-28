@@ -1,0 +1,397 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>boosting + machine-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-03-14T12:56:29.607Z | tags: boosting, machine-learning, _r_ -->
+      <div class="card-image">
+        <img src="https://www.statology.org/wp-content/uploads/2025/01/sta-r-programming-10.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.statology.org/how-to-implement-catboost-in-r/">How to Implement CatBoost in R</a>
+          <div class="card-meta">14 Mar 2025</div>
+          <div class="card-meta card-domain">statology.org</div>
+        </div>
+        <div class="card-section">
+          <p>This article shows how to implement CatBoost in R.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-07T19:34:12.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://avatars.mds.yandex.net/get-bunker/56833/dba868860690e7fe8b68223bb3b749ed8a36fbce/orig" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://catboost.ai">CatBoost - state-of-the-art open-source gradient boosting library with cate</a>
+          <div class="card-meta">7 Mar 2024</div>
+          <div class="card-meta card-domain">catboost.ai</div>
+        </div>
+        <div class="card-section">
+          <p>#CatBoost - state-of-the-art open-source gradient boosting library with categorical features support,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-05T21:07:36.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*O3fXJXD1GTlRCVVH" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/boosting-algorithms-in-machine-learning-part-i-adaboost-b9d86041a521?source=rss----7f60cf5620c9---4">Boosting Algorithms in Machine Learning, Part I: AdaBoost</a>
+          <div class="card-meta">5 Jan 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding the logic behind AdaBoost and implementing it using Python</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-24T14:47:36.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*-JOVxdRTNEOODFEf" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/xgboost-how-deep-learning-can-replace-gradient-boosting-and-decision-trees-part-2-training-b432620750f8">XGBoost: How Deep Learning Can Replace Gradient Boosting and Decision Trees</a>
+          <div class="card-meta">24 Sep 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A world without if</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-29T21:05:44.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/chugh_lgbmclassifier_gettingstarted_guide_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/07/lgbmclassifier-gettingstarted-guide.html">LGBMClassifier: A Getting Started Guide</a>
+          <div class="card-meta">29 Jul 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This tutorial explores the LightGBM library in Python to build a classification model using the LGBMClassifier class.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-10T14:21:33.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*gDW1lYGGBn1fIF-kscw06g@2x.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/beginners-guide-to-the-must-know-lightgbm-hyperparameters-a0005a812702?source=social.tw">Beginner’s Guide to the Must-Know LightGBM Hyperparameters</a>
+          <div class="card-meta">10 Apr 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The most important LightGBM parameters, what they do, and how to tune them</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-13T01:19:46.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*hL5vA5El5XQ8BU96" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/shap-for-categorical-features-with-catboost-8315e14dac1">SHAP for Categorical Features with CatBoost</a>
+          <div class="card-meta">13 Aug 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Avoid post-processing the SHAP values of categorical features</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-03T12:15:52.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*_5zQeNoGrjoYUTbApfj-rw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/xgboost-alternative-base-learners-a2dc72d97e64?source=rss----7f60cf5620c9---4">XGBoost Alternative Base Learners</a>
+          <div class="card-meta">3 Jun 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introducing dart, gblinear, and XGBoost Random Forests</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-24T20:10:53.000Z | tags: algorithms-math, boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/przybyla-lightgbm-4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/01/data-scientists-reasons-lightgbm.html">3 Reasons Why Data Scientists Should Use LightGBM</a>
+          <div class="card-meta">24 Jan 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>There are many great boosting Python libraries for data scientists to reap the benefits of. In this article, the author discusses LightGBM benefits and how they are specific to your data science job.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-17T21:08:43.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*rq3u687BjNwXKLa7ssum2w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://link.medium.com/IJAjhlTIqkb">Benefits of the CatBoost Machine Learning Algorithm</a>
+          <div class="card-meta">17 Oct 2021</div>
+          <div class="card-meta card-domain">link.medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>for Data Scientists and ML Engineers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-25T10:46:53.000Z | tags: boosting, gaussian, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/bb48dfabc35fc78e86b77c5a542aad051f30f9336f626594be3de3de5f2eddad/fabsig/GPBoost" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/fabsig/GPBoost">GPBoost: Combining Tree-Boosting with Gaussian Process and Mixed Effects Mo</a>
+          <div class="card-meta">25 Jun 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Combining tree-boosting with Gaussian process and mixed effects models - fabsig/GPBoost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-13T11:43:16.000Z | tags: boosting, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*v7uP108oJifBZXrj" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/diy-xgboost-library-in-less-than-200-lines-of-python-69b6bf25e7d9?source=rss----7f60cf5620c9---4">DIY XGBoost library in less than 200 lines of python</a>
+          <div class="card-meta">13 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>XGBoost explained as well as gradient boosting method and HP tuning by building your own gradient boosting library for decision trees.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-07T21:28:49.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*QROfVQn2bKxrgKf9-VAVrQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/beginners-guide-to-xgboost-for-classification-problems-50f75aac5390">Beginner’s Guide to XGBoost for Classification Problems</a>
+          <div class="card-meta">7 Apr 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Utilize the hottest ML library for state-of-the-art performance in classification</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T21:09:12.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://scikit-learn.org/dev/auto_examples/ensemble/plot_gradient_boosting_quantile.html#prediction-intervals-for-gradient-boosting-regression">Prediction Intervals for Gradient Boosting Regression</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">scikit-learn.org</div>
+        </div>
+        <div class="card-section">
+          <p>This example shows how quantile regression can be used to create prediction intervals. See Features in Histogram Gradient Boosting Trees for an example showcasing some other features of HistGradien...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-23T10:26:05.000Z | tags: boosting, machine-learning, python -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Q6IdeF35djYrU177L_PoKA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/xgboost-regression-training-on-cpu-and-gpu-in-python-5a8187a43395?source=rss----7f60cf5620c9---4">Xgboost regression training on CPU and GPU in python</a>
+          <div class="card-meta">23 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>GPU vs CPU training speed comparison for xgboost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-21T19:11:39.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.48/1*66fzuTlxboYEgTox3r9ZvA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/xgboost-extreme-gradient-boosting-how-to-improve-on-regular-gradient-boosting-5c6acf66c70a?source=rss----7f60cf5620c9---4">XGBoost: Extreme Gradient Boosting — How to Improve on Regular Gradient Boosting?</a>
+          <div class="card-meta">21 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A detailed look at differences between the two algorithms and when you should choose one over the other</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-21T14:08:51.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*oRmOhY_vIxYlxeAfmOYU_w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/4-easy-steps-for-implementing-catboost-c196fd82274b?source=rss----7f60cf5620c9---4">4 Easy Steps for Implementing CatBoost</a>
+          <div class="card-meta">21 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>an end-to-end tutorial on how to apply an emerging Data Science algorithm</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-11T23:02:07.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*iXE5khfhaitDWnVvwKCKTg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-comprehensive-mathematical-approach-to-understand-adaboost-f185104edced?source=rss----7f60cf5620c9---4">A Comprehensive Mathematical Approach to Understand AdaBoost</a>
+          <div class="card-meta">11 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how AdaBoost works from a Math perspective, in a comprehensive and straight-to-the-point manner.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-09T19:31:30.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/f73652adc432155ee54b4f9ebf088429716ff664af52f78c3a5d186b6e1394b7/stanfordmlgroup/ngboost" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/stanfordmlgroup/ngboost">stanfordmlgroup/ngboost: Natural Gradient Boosting for Probabilistic Prediction</a>
+          <div class="card-meta">9 Mar 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Natural Gradient Boosting for Probabilistic Prediction - stanfordmlgroup/ngboost</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*FUXQVipq3qlSd5uI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/implementing-xgboost-from-scratch-6b7f2eb593c?source=rss----7f60cf5620c9---4">Implementing XGBoost from scratch</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A step by step guide for implementing one of the most trending machine learning algorithm using numpy</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:19:50.000Z | tags: boosting, machine-learning -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/186163475/acd05400-7d84-11e9-8f05-84fedee77748" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers">benedekrozemberczki/awesome-gradient-boosting-papers: A curated list of gradient boosting research papers with implementations.</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A curated list of gradient boosting research papers with implementations.  - GitHub - benedekrozemberczki/awesome-gradient-boosting-papers: A curated list of gradient boosting research papers with ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-03-25T19:17:37.000Z | tags: boosting, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2018/03/catboost-vs-light-gbm-vs-xgboost.html">CatBoost vs. Light GBM vs. XGBoost - KDnuggets</a>
+          <div class="card-meta">25 Mar 2018</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Who is going to win this war of predictions and on what cost? Let’s explore.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

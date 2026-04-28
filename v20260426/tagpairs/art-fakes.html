@@ -1,0 +1,96 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>art + fakes &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-07-24T00:37:14.000Z | tags: art, fakes -->
+      <div class="card-image">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/lx28kD1f9OzCJQJdDhrDtYvt18k=/fit-in/1600x0/filters:focal(1045x826:1046x827)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/0a/a5/0aa55529-602e-4c8a-94e8-f5472db88eda/constable.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smithsonianmag.com/smart-news/forgery-art-london-exhibition-180982276">Every Piece in This Exhibition Is a Fake</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">smithsonianmag.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new show at London&#39;s Courtauld Gallery will explore the value of counterfeit art</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-30T23:22:04.000Z | tags: art, fakes, goodreads -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/6323a2074e18ec083d441873/16:9/w_1280,c_limit/220926_r41053.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2022/09/26/the-case-of-the-disputed-lucian-freud">The Case of the Disputed Lucian Freud</a>
+          <div class="card-meta">30 Sep 2022</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collector thought he had bought a painting by the celebrated British artist. How far would he go to prove it?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-09T21:42:46.000Z | tags: art, fakes -->
+      <div class="card-image">
+        <img src="https://www.texasobserver.org/wp-content/uploads/2020/10/forgery_splashphoto-e1630020449769.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.texasobserver.org/indigenous-art-fraudulent-forged-texas">F is for Fake</a>
+          <div class="card-meta">9 Nov 2020</div>
+          <div class="card-meta card-domain">texasobserver.org</div>
+        </div>
+        <div class="card-section">
+          <p>How a dozen possibly fraudulent and forged Indigenous artworks left Texas and ended up on museum walls in Wyoming.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

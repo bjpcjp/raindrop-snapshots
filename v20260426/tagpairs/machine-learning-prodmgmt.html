@@ -1,0 +1,218 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>machine-learning + prodmgmt &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 28 Apr 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2023-08-19T13:36:19.000Z | tags: bandits, machine-learning, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*PtB_85QrbCPNJXXb" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/dynamic-pricing-with-multi-armed-bandit-learning-by-doing-3e4550ed02ac">Dynamic Pricing with Multi-Armed Bandit: Learning by Doing!</a>
+          <div class="card-meta">19 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Applying Reinforcement Learning strategies to real-world use cases, especially in dynamic pricing, can reveal many surprises</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-23T23:59:42.000Z | tags: analytics, machine-learning, prodmgmt, python, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1024/1*0IhNM1bWxPaxFGz7bGqobw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-a-data-scientists-guide-to-optimizing-a-credit-card-renewal-campaign-9f02f863067a">Uplift Modeling — A Data Scientist’s Guide to Optimizing a Credit Card Rene</a>
+          <div class="card-meta">23 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Applying causal machine learning to trim the campaign target audience</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T12:40:39.000Z | tags: analytics, machine-learning, prodmgmt, uplift -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:763/1*PLO5fCMT8iBLtVbaILScmg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/uplift-modeling-with-cost-optimization-1c67a4e13f2">Uplift Modeling with Cost Optimization</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to adjust CATE to consider costs associated with your treatments</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-24T11:47:33.000Z | tags: machine-learning, pricing, prodmgmt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*nHatri0ZY-YxqvVH" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://eng.lyft.com/pricing-at-lyft-8a4022065f8b">Pricing at Lyft</a>
+          <div class="card-meta">24 Sep 2022</div>
+          <div class="card-meta card-domain">eng.lyft.com</div>
+        </div>
+        <div class="card-section">
+          <p>By Yanqiao Wang</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-09-13T23:23:21.000Z | tags: auctions, ecommerce, machine-learning, prodmgmt -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220901-MO-Ranking-Promo-Auctions-tech-blog-v1-01-inc-16x9-hero-A.jpg?fs=f6e676ab58c64f01" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/multi-objective-ranking-for-promoted-auction-items">Multi-Objective Ranking for Promoted Auction Items</a>
+          <div class="card-meta">13 Sep 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Determining which promoted auction items to display in a merchandising placement is a multi-sided customer challenge that presents opportunities to both surface amazing auction inventory to buyers and help sellers boost visibility on their auction listings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-07T23:15:09.000Z | tags: ecommerce, machine-learning, prodmgmt, recommenders -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/220404-Improve-Shopping-tech-blog-v1-01-inc-16x9-A.jpg?fs=2a76537cb27c0068" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/improving-shopping-recommendations-for-customers-through-ebays-relevance-cascade-model">Improving Shopping Recommendations for Customers Through eBay’s Relevance C</a>
+          <div class="card-meta">7 Apr 2022</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>Under the new machine learning model, buyers are recommended items that are more aligned to their shopping interests on eBay.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-09T17:35:35.000Z | tags: ecommerce, labeling, machine-learning, prodmgmt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2102.12029.pdf">Theoretical Understandings of Product Embedding for E-commerce Machine Lear</a>
+          <div class="card-meta">9 May 2021</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-02T10:01:31.000Z | tags: ecommerce, keywords-ppc-seo, machine-learning, prodmgmt, search -->
+      <div class="card-image">
+        <img src="https://cdn.shopify.com/s/files/1/0779/4361/articles/ShopifyHelpCenter.png?v=1617296393" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shopify.engineering/evaluating-search-algorithms">Evaluating Search Algorithms</a>
+          <div class="card-meta">2 Apr 2021</div>
+          <div class="card-meta card-domain">shopify.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>The three-step framework Shopify&#39;s Data Science &amp; Engineering team built for evaluating new search algorithms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-16T17:10:56.000Z | tags: deep-learning, machine-learning, prodmgmt, retail -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:934/1*PGLcdiGi5f0PdnkxNpcPvw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/complete-guide-to-machine-learning-and-deep-learning-in-retail-ca4e05639806?source=rss----7f60cf5620c9---4">Complete guide to machine learning and deep learning in retail</a>
+          <div class="card-meta">16 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The stores aren’t dead yet</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T03:11:40.000Z | tags: machine-learning, prodmgmt -->
+      <div class="card-image">
+        <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/4cd757ce0cccd77e9ff2e5fa970aeb1c.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://qz.com/quartzy/1603872/how-stitch-fixs-style-shuffle-learns-your-style">How exactly Stitch Fix’s “Tinder for clothes” learns your style</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">qz.com</div>
+        </div>
+        <div class="card-section">
+          <p>Each customer has an individualized style map, laying out her feelings about peasant blouses, A-line dresses, or pencil skirts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-11-13T19:46:44.000Z | tags: machine-learning, prodmgmt -->
+      <div class="card-image">
+        <img src="https://multithreaded.stitchfix.com/assets/images/logomark-linkedin.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://multithreaded.stitchfix.com/blog/2016/11/08/Being-Wrong-the-Right-Number-of-Times">Be Wrong the Right Number of Times</a>
+          <div class="card-meta">13 Nov 2016</div>
+          <div class="card-meta card-domain">multithreaded.stitchfix.com</div>
+        </div>
+        <div class="card-section">
+          <p>Update, Dec 12, 2016: There is a follow up post discussing the outcome of all of this after the election results were known.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
