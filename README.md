@@ -1,0 +1,10459 @@
+  <h1>Brian Piercy's Raindrop.io article library, version 20260426</h1>
+  <p class="meta">766 primary tags &mdash; 6620 total pairs</p>
+  <div class="controls">
+    <button onclick="document.querySelectorAll('details').forEach(d=>d.open=true)">Expand all</button>
+    <button onclick="document.querySelectorAll('details').forEach(d=>d.open=false)">Collapse all</button>
+  </div>
+  <details>
+    <summary><strong>behaviors</strong></summary>
+    <ul>
+      <li><a href="behaviors-beliefs.html">beliefs</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-best-practices.html">best-practices</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-bias.html">bias</a> <span class="count">(36)</span></li>
+      <li><a href="behaviors-body-language.html">body-language</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-books.html">books</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-boredom.html">boredom</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-bragging.html">bragging</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-bystander-effect.html">bystander-effect</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-career-jobs-work.html">career-jobs-work</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-cartoons.html">cartoons</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-character.html">character</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-charisma.html">charisma</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-charity.html">charity</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-cheating.html">cheating</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-chivalry.html">chivalry</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-choices.html">choices</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-clothes.html">clothes</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-coaching-mentoring.html">coaching-mentoring</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(14)</span></li>
+      <li><a href="behaviors-collecting-curation.html">collecting-curation</a> <span class="count">(13)</span></li>
+      <li><a href="behaviors-color.html">color</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(8)</span></li>
+      <li><a href="behaviors-communities.html">communities</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-company-culture.html">company-culture</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-confidence.html">confidence</a> <span class="count">(24)</span></li>
+      <li><a href="behaviors-conspiracies.html">conspiracies</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-controversy.html">controversy</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-coolness-desire-envy.html">coolness-desire-envy</a> <span class="count">(15)</span></li>
+      <li><a href="behaviors-courage.html">courage</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-courtesy.html">courtesy</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-creativity.html">creativity</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-criticism.html">criticism</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-cults.html">cults</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-culture.html">culture</a> <span class="count">(13)</span></li>
+      <li><a href="behaviors-curiosity.html">curiosity</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-custsvc.html">custsvc</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-deceit-deception.html">deceit-deception</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-decisions.html">decisions</a> <span class="count">(10)</span></li>
+      <li><a href="behaviors-delegation.html">delegation</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-delusions.html">delusions</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-design-patterns.html">design-patterns</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-design.html">design</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-dictionary.html">dictionary</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-dignity.html">dignity</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-disgust.html">disgust</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-disobedience.html">disobedience</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-dogs.html">dogs</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-doubt.html">doubt</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-dunning-kruger.html">dunning-kruger</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-ecommerce.html">ecommerce</a> <span class="count">(13)</span></li>
+      <li><a href="behaviors-economics.html">economics</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-emotions.html">emotions</a> <span class="count">(48)</span></li>
+      <li><a href="behaviors-empathy.html">empathy</a> <span class="count">(18)</span></li>
+      <li><a href="behaviors-ethics.html">ethics</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-exclusivity.html">exclusivity</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-excuses.html">excuses</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-execution.html">execution</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-experiments.html">experiments</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-failure.html">failure</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-fallacies.html">fallacies</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-fanclubs-fandom.html">fanclubs-fandom</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-fascination.html">fascination</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-fashion.html">fashion</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-fear.html">fear</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-feedback.html">feedback</a> <span class="count">(16)</span></li>
+      <li><a href="behaviors-finance.html">finance</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-focus-distractions.html">focus-distractions</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-friends.html">friends</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-game-theory.html">game-theory</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-games.html">games</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-gaming.html">gaming</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-gaslighting.html">gaslighting</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-gestures.html">gestures</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-gifts.html">gifts</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-glossaries.html">glossaries</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-goodreads.html">goodreads</a> <span class="count">(21)</span></li>
+      <li><a href="behaviors-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(19)</span></li>
+      <li><a href="behaviors-grocery.html">grocery</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-groupthink.html">groupthink</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-guilt.html">guilt</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-habits.html">habits</a> <span class="count">(18)</span></li>
+      <li><a href="behaviors-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-history.html">history</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-hobbies.html">hobbies</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-honesty.html">honesty</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-humility.html">humility</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-hunger.html">hunger</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-ideas.html">ideas</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-ideation.html">ideation</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-imagination.html">imagination</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-imposter-syndrome.html">imposter-syndrome</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-influence-persuasion.html">influence-persuasion</a> <span class="count">(135)</span></li>
+      <li><a href="behaviors-instinct-intuition.html">instinct-intuition</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-interrogations.html">interrogations</a> <span class="count">(8)</span></li>
+      <li><a href="behaviors-interviewing.html">interviewing</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-introverts.html">introverts</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-jobdef.html">jobdef</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-jobstobedone.html">jobstobedone</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-kindness.html">kindness</a> <span class="count">(8)</span></li>
+      <li><a href="behaviors-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-language-linguistics.html">language-linguistics</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-laughter.html">laughter</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-leadership.html">leadership</a> <span class="count">(39)</span></li>
+      <li><a href="behaviors-learning.html">learning</a> <span class="count">(16)</span></li>
+      <li><a href="behaviors-likeability.html">likeability</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-listening.html">listening</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-loyalty.html">loyalty</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-luck.html">luck</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-luxury.html">luxury</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-lying.html">lying</a> <span class="count">(10)</span></li>
+      <li><a href="behaviors-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-magic.html">magic</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-management.html">management</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-marketing.html">marketing</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-memory-recall.html">memory-recall</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-mental-models.html">mental-models</a> <span class="count">(10)</span></li>
+      <li><a href="behaviors-menus.html">menus</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-moats.html">moats</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-morality.html">morality</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-motivation.html">motivation</a> <span class="count">(20)</span></li>
+      <li><a href="behaviors-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-music.html">music</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-negotiation.html">negotiation</a> <span class="count">(17)</span></li>
+      <li><a href="behaviors-network-effects.html">network-effects</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-nudging.html">nudging</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-patience.html">patience</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-permission.html">permission</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-platforms.html">platforms</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-play.html">play</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-politeness.html">politeness</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-practice.html">practice</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-premature-optimization.html">premature-optimization</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-presentations-presenting.html">presentations-presenting</a> <span class="count">(6)</span></li>
+      <li><a href="behaviors-pricing.html">pricing</a> <span class="count">(14)</span></li>
+      <li><a href="behaviors-procrastination.html">procrastination</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-prodmgmt.html">prodmgmt</a> <span class="count">(36)</span></li>
+      <li><a href="behaviors-productivity-gtd.html">productivity-gtd</a> <span class="count">(10)</span></li>
+      <li><a href="behaviors-prospect-theory.html">prospect-theory</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-psychology.html">psychology</a> <span class="count">(9)</span></li>
+      <li><a href="behaviors-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-purpose.html">purpose</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-queues.html">queues</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-reactance.html">reactance</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-reading.html">reading</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-reciprocity.html">reciprocity</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-regret.html">regret</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-rejection.html">rejection</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-reputation.html">reputation</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-risk.html">risk</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-rituals.html">rituals</a> <span class="count">(10)</span></li>
+      <li><a href="behaviors-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-sabotage.html">sabotage</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-safety.html">safety</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(8)</span></li>
+      <li><a href="behaviors-sayingno.html">sayingno</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-scams.html">scams</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-scarcity.html">scarcity</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-seduction.html">seduction</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-shaming.html">shaming</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-signaling.html">signaling</a> <span class="count">(12)</span></li>
+      <li><a href="behaviors-silence.html">silence</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-sleep.html">sleep</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-snobbery.html">snobbery</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-speaking.html">speaking</a> <span class="count">(20)</span></li>
+      <li><a href="behaviors-spin.html">spin</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-stickiness.html">stickiness</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-stoicism.html">stoicism</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-storytelling.html">storytelling</a> <span class="count">(7)</span></li>
+      <li><a href="behaviors-subterfuge.html">subterfuge</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-surprise.html">surprise</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-symbols.html">symbols</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-teamwork.html">teamwork</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-theft.html">theft</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-thinking.html">thinking</a> <span class="count">(3)</span></li>
+      <li><a href="behaviors-toys.html">toys</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-tricks.html">tricks</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-triggers.html">triggers</a> <span class="count">(2)</span></li>
+      <li><a href="behaviors-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-trust.html">trust</a> <span class="count">(12)</span></li>
+      <li><a href="behaviors-ui-ux.html">ui-ux</a> <span class="count">(22)</span></li>
+      <li><a href="behaviors-values.html">values</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="behaviors-whistleblowing.html">whistleblowing</a> <span class="count">(5)</span></li>
+      <li><a href="behaviors-writing.html">writing</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>algorithms-math</strong></summary>
+    <ul>
+      <li><a href="algorithms-math-analytics.html">analytics</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-anonymity.html">anonymity</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-antennas.html">antennas</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-antitrust.html">antitrust</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-apriori.html">apriori</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-art.html">art</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-arxiv.html">arxiv</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-astronomy-space.html">astronomy-space</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-auctions.html">auctions</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-audio.html">audio</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-bandits.html">bandits</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-bayes.html">bayes</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-benchmarks.html">benchmarks</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-best-practices.html">best-practices</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-bloom-filters.html">bloom-filters</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-books.html">books</a> <span class="count">(10)</span></li>
+      <li><a href="algorithms-math-boosting.html">boosting</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-category-theory.html">category-theory</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-cellular-automata.html">cellular-automata</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-chip-design.html">chip-design</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-classification.html">classification</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-collecting-curation.html">collecting-curation</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-collusion.html">collusion</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-complexity.html">complexity</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-compression-encoding.html">compression-encoding</a> <span class="count">(5)</span></li>
+      <li><a href="algorithms-math-consensus.html">consensus</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-correlation.html">correlation</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-cpus.html">cpus</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-crypto.html">crypto</a> <span class="count">(17)</span></li>
+      <li><a href="algorithms-math-data-structures.html">data-structures</a> <span class="count">(14)</span></li>
+      <li><a href="algorithms-math-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-decisions.html">decisions</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-deep-learning.html">deep-learning</a> <span class="count">(10)</span></li>
+      <li><a href="algorithms-math-dictionary.html">dictionary</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-distributions.html">distributions</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-drones.html">drones</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-dsp.html">dsp</a> <span class="count">(9)</span></li>
+      <li><a href="algorithms-math-ethereum.html">ethereum</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-evolutionary.html">evolutionary</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-filters.html">filters</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-finance.html">finance</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-fourier.html">fourier</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-game-theory.html">game-theory</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-garbage-collection.html">garbage-collection</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-genetics.html">genetics</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-geometry.html">geometry</a> <span class="count">(7)</span></li>
+      <li><a href="algorithms-math-gifts.html">gifts</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-github.html">github</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-gpus.html">gpus</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-graphs.html">graphs</a> <span class="count">(13)</span></li>
+      <li><a href="algorithms-math-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-hashing.html">hashing</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-images.html">images</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-info-theory.html">info-theory</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-javascript.html">javascript</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-kalman-filters.html">kalman-filters</a> <span class="count">(5)</span></li>
+      <li><a href="algorithms-math-knapsack.html">knapsack</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-labeling.html">labeling</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-lagrange.html">lagrange</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-laplace.html">laplace</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-lean.html">lean</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-linear-algebra.html">linear-algebra</a> <span class="count">(9)</span></li>
+      <li><a href="algorithms-math-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-market-basket.html">market-basket</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-maze.html">maze</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-monte-carlo.html">monte-carlo</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-mp3.html">mp3</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-music.html">music</a> <span class="count">(5)</span></li>
+      <li><a href="algorithms-math-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-numpy.html">numpy</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-optimization.html">optimization</a> <span class="count">(9)</span></li>
+      <li><a href="algorithms-math-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-physics.html">physics</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-premature-optimization.html">premature-optimization</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-pricing.html">pricing</a> <span class="count">(6)</span></li>
+      <li><a href="algorithms-math-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-prob-stats.html">prob-stats</a> <span class="count">(7)</span></li>
+      <li><a href="algorithms-math-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-python.html">python</a> <span class="count">(20)</span></li>
+      <li><a href="algorithms-math-quantum.html">quantum</a> <span class="count">(7)</span></li>
+      <li><a href="algorithms-math-queues.html">queues</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-regressions.html">regressions</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-search.html">search</a> <span class="count">(19)</span></li>
+      <li><a href="algorithms-math-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-similarity-search.html">similarity-search</a> <span class="count">(8)</span></li>
+      <li><a href="algorithms-math-spatial.html">spatial</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-splines.html">splines</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="algorithms-math-survival-analysis.html">survival-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-svm.html">svm</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-swarms.html">swarms</a> <span class="count">(4)</span></li>
+      <li><a href="algorithms-math-topic-modeling.html">topic-modeling</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-topology.html">topology</a> <span class="count">(2)</span></li>
+      <li><a href="algorithms-math-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-visualization.html">visualization</a> <span class="count">(5)</span></li>
+      <li><a href="algorithms-math-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>books</strong></summary>
+    <ul>
+      <li><a href="books-category-theory.html">category-theory</a> <span class="count">(1)</span></li>
+      <li><a href="books-character.html">character</a> <span class="count">(1)</span></li>
+      <li><a href="books-chemistry.html">chemistry</a> <span class="count">(1)</span></li>
+      <li><a href="books-chip-design.html">chip-design</a> <span class="count">(2)</span></li>
+      <li><a href="books-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="books-clothes.html">clothes</a> <span class="count">(1)</span></li>
+      <li><a href="books-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(6)</span></li>
+      <li><a href="books-collecting-curation.html">collecting-curation</a> <span class="count">(2)</span></li>
+      <li><a href="books-command-line.html">command-line</a> <span class="count">(1)</span></li>
+      <li><a href="books-compilers.html">compilers</a> <span class="count">(1)</span></li>
+      <li><a href="books-conformal.html">conformal</a> <span class="count">(1)</span></li>
+      <li><a href="books-creepy.html">creepy</a> <span class="count">(1)</span></li>
+      <li><a href="books-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="books-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="books-d3.html">d3</a> <span class="count">(1)</span></li>
+      <li><a href="books-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="books-datasets.html">datasets</a> <span class="count">(6)</span></li>
+      <li><a href="books-deep-learning.html">deep-learning</a> <span class="count">(13)</span></li>
+      <li><a href="books-design-patterns.html">design-patterns</a> <span class="count">(1)</span></li>
+      <li><a href="books-design.html">design</a> <span class="count">(3)</span></li>
+      <li><a href="books-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="books-dimensionality-reduction.html">dimensionality-reduction</a> <span class="count">(1)</span></li>
+      <li><a href="books-discovery.html">discovery</a> <span class="count">(2)</span></li>
+      <li><a href="books-dsp.html">dsp</a> <span class="count">(1)</span></li>
+      <li><a href="books-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="books-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="books-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="books-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="books-folklore-myths.html">folklore-myths</a> <span class="count">(1)</span></li>
+      <li><a href="books-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="books-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="books-game-theory.html">game-theory</a> <span class="count">(2)</span></li>
+      <li><a href="books-gaming.html">gaming</a> <span class="count">(1)</span></li>
+      <li><a href="books-geography.html">geography</a> <span class="count">(1)</span></li>
+      <li><a href="books-github.html">github</a> <span class="count">(4)</span></li>
+      <li><a href="books-glossaries.html">glossaries</a> <span class="count">(2)</span></li>
+      <li><a href="books-golang.html">golang</a> <span class="count">(1)</span></li>
+      <li><a href="books-goodreads.html">goodreads</a> <span class="count">(21)</span></li>
+      <li><a href="books-graphs.html">graphs</a> <span class="count">(3)</span></li>
+      <li><a href="books-history.html">history</a> <span class="count">(10)</span></li>
+      <li><a href="books-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="books-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="books-javascript.html">javascript</a> <span class="count">(3)</span></li>
+      <li><a href="books-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="books-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="books-language-linguistics.html">language-linguistics</a> <span class="count">(7)</span></li>
+      <li><a href="books-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="books-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="books-linear-algebra.html">linear-algebra</a> <span class="count">(2)</span></li>
+      <li><a href="books-lisp.html">lisp</a> <span class="count">(1)</span></li>
+      <li><a href="books-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="books-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="books-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="books-mental-models.html">mental-models</a> <span class="count">(3)</span></li>
+      <li><a href="books-movies-television.html">movies-television</a> <span class="count">(3)</span></li>
+      <li><a href="books-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="books-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="books-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="books-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="books-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="books-philosophy.html">philosophy</a> <span class="count">(2)</span></li>
+      <li><a href="books-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="books-physics.html">physics</a> <span class="count">(2)</span></li>
+      <li><a href="books-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="books-postgres.html">postgres</a> <span class="count">(2)</span></li>
+      <li><a href="books-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="books-prodmgmt.html">prodmgmt</a> <span class="count">(9)</span></li>
+      <li><a href="books-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="books-python.html">python</a> <span class="count">(7)</span></li>
+      <li><a href="books-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="books-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="books-r.html">r</a> <span class="count">(9)</span></li>
+      <li><a href="books-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="books-reading.html">reading</a> <span class="count">(4)</span></li>
+      <li><a href="books-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="books-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="books-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="books-rubyonrails.html">rubyonrails</a> <span class="count">(3)</span></li>
+      <li><a href="books-scifi.html">scifi</a> <span class="count">(9)</span></li>
+      <li><a href="books-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="books-spacy.html">spacy</a> <span class="count">(1)</span></li>
+      <li><a href="books-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="books-spycraft.html">spycraft</a> <span class="count">(5)</span></li>
+      <li><a href="books-statecraft.html">statecraft</a> <span class="count">(4)</span></li>
+      <li><a href="books-stoicism.html">stoicism</a> <span class="count">(2)</span></li>
+      <li><a href="books-storytelling.html">storytelling</a> <span class="count">(7)</span></li>
+      <li><a href="books-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="books-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="books-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="books-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="books-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+      <li><a href="books-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="books-visualization.html">visualization</a> <span class="count">(5)</span></li>
+      <li><a href="books-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>goodreads</strong></summary>
+    <ul>
+      <li><a href="goodreads-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-groupthink.html">groupthink</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-hacking.html">hacking</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-health-medicine.html">health-medicine</a> <span class="count">(75)</span></li>
+      <li><a href="goodreads-hiking.html">hiking</a> <span class="count">(6)</span></li>
+      <li><a href="goodreads-history.html">history</a> <span class="count">(96)</span></li>
+      <li><a href="goodreads-houses.html">houses</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-interrogations.html">interrogations</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-inventions-innovation.html">inventions-innovation</a> <span class="count">(6)</span></li>
+      <li><a href="goodreads-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-jazz.html">jazz</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-journalism.html">journalism</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-kindness.html">kindness</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-knots.html">knots</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-language-linguistics.html">language-linguistics</a> <span class="count">(21)</span></li>
+      <li><a href="goodreads-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-learning.html">learning</a> <span class="count">(6)</span></li>
+      <li><a href="goodreads-logistics-shipping.html">logistics-shipping</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-magazines.html">magazines</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-magic.html">magic</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-mail.html">mail</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-malware.html">malware</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-marketing.html">marketing</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-memes.html">memes</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-memory-recall.html">memory-recall</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-movies-television.html">movies-television</a> <span class="count">(20)</span></li>
+      <li><a href="goodreads-museums.html">museums</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-music.html">music</a> <span class="count">(73)</span></li>
+      <li><a href="goodreads-mysteries.html">mysteries</a> <span class="count">(26)</span></li>
+      <li><a href="goodreads-navigation.html">navigation</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-photography.html">photography</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-physics.html">physics</a> <span class="count">(10)</span></li>
+      <li><a href="goodreads-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-poker.html">poker</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-practice.html">practice</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-printing.html">printing</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="goodreads-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-public-policy.html">public-policy</a> <span class="count">(8)</span></li>
+      <li><a href="goodreads-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-radio.html">radio</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-reading.html">reading</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-retail.html">retail</a> <span class="count">(4)</span></li>
+      <li><a href="goodreads-risk.html">risk</a> <span class="count">(4)</span></li>
+      <li><a href="goodreads-rituals.html">rituals</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-robotics.html">robotics</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-safety.html">safety</a> <span class="count">(4)</span></li>
+      <li><a href="goodreads-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-scifi.html">scifi</a> <span class="count">(6)</span></li>
+      <li><a href="goodreads-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-seduction.html">seduction</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-snobbery.html">snobbery</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-solitude.html">solitude</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-sports.html">sports</a> <span class="count">(54)</span></li>
+      <li><a href="goodreads-spycraft.html">spycraft</a> <span class="count">(23)</span></li>
+      <li><a href="goodreads-startups.html">startups</a> <span class="count">(8)</span></li>
+      <li><a href="goodreads-statecraft.html">statecraft</a> <span class="count">(16)</span></li>
+      <li><a href="goodreads-storytelling.html">storytelling</a> <span class="count">(21)</span></li>
+      <li><a href="goodreads-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-surfing.html">surfing</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-taxes.html">taxes</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-thermodynamics.html">thermodynamics</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-toys.html">toys</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-travel.html">travel</a> <span class="count">(47)</span></li>
+      <li><a href="goodreads-truecrime.html">truecrime</a> <span class="count">(33)</span></li>
+      <li><a href="goodreads-video.html">video</a> <span class="count">(3)</span></li>
+      <li><a href="goodreads-visualization.html">visualization</a> <span class="count">(2)</span></li>
+      <li><a href="goodreads-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="goodreads-writing.html">writing</a> <span class="count">(12)</span></li>
+      <li><a href="goodreads-wv.html">wv</a> <span class="count">(8)</span></li>
+      <li><a href="goodreads-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deep-learning</strong></summary>
+    <ul>
+      <li><a href="deep-learning-deepfakes.html">deepfakes</a> <span class="count">(5)</span></li>
+      <li><a href="deep-learning-depth-estimation.html">depth-estimation</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-dictionary.html">dictionary</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-dimensionality-reduction.html">dimensionality-reduction</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-entity-resolution.html">entity-resolution</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-ethics.html">ethics</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-face-recognition.html">face-recognition</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-feature-engineering.html">feature-engineering</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-federated-learning.html">federated-learning</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-fpgas.html">fpgas</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-gans.html">gans</a> <span class="count">(11)</span></li>
+      <li><a href="deep-learning-generative.html">generative</a> <span class="count">(8)</span></li>
+      <li><a href="deep-learning-geography.html">geography</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-geometry.html">geometry</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-gestures.html">gestures</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-github-awesome.html">github-awesome</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-github.html">github</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-glossaries.html">glossaries</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-gpus.html">gpus</a> <span class="count">(15)</span></li>
+      <li><a href="deep-learning-gradients.html">gradients</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-graphs.html">graphs</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-gsi.html">gsi</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-hbm.html">hbm</a> <span class="count">(6)</span></li>
+      <li><a href="deep-learning-health-medicine.html">health-medicine</a> <span class="count">(5)</span></li>
+      <li><a href="deep-learning-hpc.html">hpc</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-hugging-face.html">hugging-face</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-images.html">images</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-interconnects.html">interconnects</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-interviewing.html">interviewing</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-kubernetes.html">kubernetes</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-labeling.html">labeling</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-language-linguistics.html">language-linguistics</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-linear-algebra.html">linear-algebra</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-llms.html">llms</a> <span class="count">(10)</span></li>
+      <li><a href="deep-learning-mobile.html">mobile</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-model-compression.html">model-compression</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-nlp.html">nlp</a> <span class="count">(44)</span></li>
+      <li><a href="deep-learning-numpy.html">numpy</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-nvidia.html">nvidia</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-object-detection.html">object-detection</a> <span class="count">(17)</span></li>
+      <li><a href="deep-learning-opencv.html">opencv</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-paperswithcode.html">paperswithcode</a> <span class="count">(9)</span></li>
+      <li><a href="deep-learning-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-policy-gradients.html">policy-gradients</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-pose-estimation.html">pose-estimation</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-python.html">python</a> <span class="count">(10)</span></li>
+      <li><a href="deep-learning-pytorch.html">pytorch</a> <span class="count">(14)</span></li>
+      <li><a href="deep-learning-recommenders.html">recommenders</a> <span class="count">(5)</span></li>
+      <li><a href="deep-learning-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-rnns.html">rnns</a> <span class="count">(7)</span></li>
+      <li><a href="deep-learning-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-search.html">search</a> <span class="count">(9)</span></li>
+      <li><a href="deep-learning-semantic-segmentation.html">semantic-segmentation</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-semiconductors.html">semiconductors</a> <span class="count">(29)</span></li>
+      <li><a href="deep-learning-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-sram.html">sram</a> <span class="count">(6)</span></li>
+      <li><a href="deep-learning-stable-diffusion.html">stable-diffusion</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-storytelling.html">storytelling</a> <span class="count">(5)</span></li>
+      <li><a href="deep-learning-streamlit.html">streamlit</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-super-resolution.html">super-resolution</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-synthetic-data.html">synthetic-data</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-tensorflow.html">tensorflow</a> <span class="count">(7)</span></li>
+      <li><a href="deep-learning-text.html">text</a> <span class="count">(5)</span></li>
+      <li><a href="deep-learning-topology.html">topology</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-tpu.html">tpu</a> <span class="count">(7)</span></li>
+      <li><a href="deep-learning-transfer-learning.html">transfer-learning</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-transformers.html">transformers</a> <span class="count">(13)</span></li>
+      <li><a href="deep-learning-variational.html">variational</a> <span class="count">(2)</span></li>
+      <li><a href="deep-learning-video.html">video</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-vision.html">vision</a> <span class="count">(47)</span></li>
+      <li><a href="deep-learning-visualization.html">visualization</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ecommerce</strong></summary>
+    <ul>
+      <li><a href="ecommerce-economics.html">economics</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-email.html">email</a> <span class="count">(8)</span></li>
+      <li><a href="ecommerce-entity-resolution.html">entity-resolution</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-excel.html">excel</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-fakes.html">fakes</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-fanclubs-fandom.html">fanclubs-fandom</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-fashion.html">fashion</a> <span class="count">(6)</span></li>
+      <li><a href="ecommerce-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-finance.html">finance</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-fonts-typography.html">fonts-typography</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-fraud.html">fraud</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-game-theory.html">game-theory</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-gamification.html">gamification</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-goodreads.html">goodreads</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-growth-hacks.html">growth-hacks</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-hashtags.html">hashtags</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-icons.html">icons</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-image-to-text.html">image-to-text</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-images.html">images</a> <span class="count">(7)</span></li>
+      <li><a href="ecommerce-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(30)</span></li>
+      <li><a href="ecommerce-labeling.html">labeling</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-landing-pages.html">landing-pages</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-leadgen-leadmgmt.html">leadgen-leadmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-legal.html">legal</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-logistics-shipping.html">logistics-shipping</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-low-cost.html">low-cost</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-luxury.html">luxury</a> <span class="count">(4)</span></li>
+      <li><a href="ecommerce-market-basket.html">market-basket</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-marketing.html">marketing</a> <span class="count">(24)</span></li>
+      <li><a href="ecommerce-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-mobile.html">mobile</a> <span class="count">(4)</span></li>
+      <li><a href="ecommerce-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-naming.html">naming</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-object-detection.html">object-detection</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-packaging.html">packaging</a> <span class="count">(9)</span></li>
+      <li><a href="ecommerce-pawnshops.html">pawnshops</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-payments.html">payments</a> <span class="count">(6)</span></li>
+      <li><a href="ecommerce-personas.html">personas</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-physical-products.html">physical-products</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-piracy.html">piracy</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-platforms.html">platforms</a> <span class="count">(7)</span></li>
+      <li><a href="ecommerce-pricing.html">pricing</a> <span class="count">(22)</span></li>
+      <li><a href="ecommerce-prodmgmt.html">prodmgmt</a> <span class="count">(144)</span></li>
+      <li><a href="ecommerce-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-recommenders.html">recommenders</a> <span class="count">(4)</span></li>
+      <li><a href="ecommerce-reputation.html">reputation</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-retail.html">retail</a> <span class="count">(23)</span></li>
+      <li><a href="ecommerce-returns.html">returns</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-rituals.html">rituals</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-search.html">search</a> <span class="count">(9)</span></li>
+      <li><a href="ecommerce-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-seo.html">seo</a> <span class="count">(4)</span></li>
+      <li><a href="ecommerce-shopify.html">shopify</a> <span class="count">(12)</span></li>
+      <li><a href="ecommerce-similarity-search.html">similarity-search</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-subscriptions.html">subscriptions</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-supply-chain.html">supply-chain</a> <span class="count">(12)</span></li>
+      <li><a href="ecommerce-theft.html">theft</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-tiktok.html">tiktok</a> <span class="count">(2)</span></li>
+      <li><a href="ecommerce-triggers.html">triggers</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-trust.html">trust</a> <span class="count">(3)</span></li>
+      <li><a href="ecommerce-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-ui-ux.html">ui-ux</a> <span class="count">(27)</span></li>
+      <li><a href="ecommerce-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-video.html">video</a> <span class="count">(5)</span></li>
+      <li><a href="ecommerce-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="ecommerce-webdev.html">webdev</a> <span class="count">(4)</span></li>
+      <li><a href="ecommerce-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>machine-learning</strong></summary>
+    <ul>
+      <li><a href="machine-learning-machine-vision.html">machine-vision</a> <span class="count">(15)</span></li>
+      <li><a href="machine-learning-market-basket.html">market-basket</a> <span class="count">(6)</span></li>
+      <li><a href="machine-learning-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-matplotlib.html">matplotlib</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-maze.html">maze</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-metrics.html">metrics</a> <span class="count">(8)</span></li>
+      <li><a href="machine-learning-ml-ops.html">ml-ops</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-model-compression.html">model-compression</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-monte-carlo.html">monte-carlo</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-nlp.html">nlp</a> <span class="count">(20)</span></li>
+      <li><a href="machine-learning-numpy.html">numpy</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-object-detection.html">object-detection</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-ocr.html">ocr</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-optimization.html">optimization</a> <span class="count">(8)</span></li>
+      <li><a href="machine-learning-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-pandas.html">pandas</a> <span class="count">(9)</span></li>
+      <li><a href="machine-learning-paperswithcode.html">paperswithcode</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-parquet.html">parquet</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-pca.html">pca</a> <span class="count">(12)</span></li>
+      <li><a href="machine-learning-physics.html">physics</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-policy-gradients.html">policy-gradients</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-pose-estimation.html">pose-estimation</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-prob-stats.html">prob-stats</a> <span class="count">(16)</span></li>
+      <li><a href="machine-learning-prodmgmt.html">prodmgmt</a> <span class="count">(11)</span></li>
+      <li><a href="machine-learning-prophet.html">prophet</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-pycaret.html">pycaret</a> <span class="count">(8)</span></li>
+      <li><a href="machine-learning-python.html">python</a> <span class="count">(116)</span></li>
+      <li><a href="machine-learning-pytorch.html">pytorch</a> <span class="count">(9)</span></li>
+      <li><a href="machine-learning-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-r.html">r</a> <span class="count">(14)</span></li>
+      <li><a href="machine-learning-realestate.html">realestate</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-recommenders.html">recommenders</a> <span class="count">(16)</span></li>
+      <li><a href="machine-learning-regressions.html">regressions</a> <span class="count">(19)</span></li>
+      <li><a href="machine-learning-regularization.html">regularization</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-risk.html">risk</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-rust.html">rust</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-search.html">search</a> <span class="count">(27)</span></li>
+      <li><a href="machine-learning-self-supervised.html">self-supervised</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-semantic-search.html">semantic-search</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-semi-supervised.html">semi-supervised</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-sensitivity.html">sensitivity</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-sets.html">sets</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-similarity-search.html">similarity-search</a> <span class="count">(7)</span></li>
+      <li><a href="machine-learning-spark.html">spark</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-spatial.html">spatial</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-speech-recognition.html">speech-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-splines.html">splines</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-spotify.html">spotify</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-spreadsheets.html">spreadsheets</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-streamlit.html">streamlit</a> <span class="count">(6)</span></li>
+      <li><a href="machine-learning-super-resolution.html">super-resolution</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-supply-chain.html">supply-chain</a> <span class="count">(8)</span></li>
+      <li><a href="machine-learning-survival-analysis.html">survival-analysis</a> <span class="count">(13)</span></li>
+      <li><a href="machine-learning-svd.html">svd</a> <span class="count">(4)</span></li>
+      <li><a href="machine-learning-svm.html">svm</a> <span class="count">(7)</span></li>
+      <li><a href="machine-learning-synthetic-data.html">synthetic-data</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-tensorflow.html">tensorflow</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-testing.html">testing</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-text.html">text</a> <span class="count">(6)</span></li>
+      <li><a href="machine-learning-time-series.html">time-series</a> <span class="count">(13)</span></li>
+      <li><a href="machine-learning-topic-modeling.html">topic-modeling</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-topology.html">topology</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-umap.html">umap</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-unbalanced.html">unbalanced</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-uplift.html">uplift</a> <span class="count">(2)</span></li>
+      <li><a href="machine-learning-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-vector-databases.html">vector-databases</a> <span class="count">(3)</span></li>
+      <li><a href="machine-learning-vision.html">vision</a> <span class="count">(9)</span></li>
+      <li><a href="machine-learning-visualization.html">visualization</a> <span class="count">(17)</span></li>
+      <li><a href="machine-learning-word2vec.html">word2vec</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>analytics</strong></summary>
+    <ul>
+      <li><a href="analytics-angularjs.html">angularjs</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-auctions.html">auctions</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-bandits.html">bandits</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-bayes.html">bayes</a> <span class="count">(3)</span></li>
+      <li><a href="analytics-best-practices.html">best-practices</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-browsers.html">browsers</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-checklists.html">checklists</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-churn.html">churn</a> <span class="count">(5)</span></li>
+      <li><a href="analytics-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-cohorts.html">cohorts</a> <span class="count">(3)</span></li>
+      <li><a href="analytics-conjoint.html">conjoint</a> <span class="count">(3)</span></li>
+      <li><a href="analytics-copywriting.html">copywriting</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-dask.html">dask</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-datasets.html">datasets</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-decisions.html">decisions</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-design-patterns.html">design-patterns</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-distributions.html">distributions</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-ecommerce.html">ecommerce</a> <span class="count">(24)</span></li>
+      <li><a href="analytics-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-email.html">email</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-excel.html">excel</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-execution.html">execution</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-experiments.html">experiments</a> <span class="count">(5)</span></li>
+      <li><a href="analytics-feature-engineering.html">feature-engineering</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-geofencing.html">geofencing</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-gerrymandering.html">gerrymandering</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-github.html">github</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-growth-hacks.html">growth-hacks</a> <span class="count">(3)</span></li>
+      <li><a href="analytics-ideation.html">ideation</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-inference.html">inference</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-interviewing.html">interviewing</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-iot.html">iot</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(23)</span></li>
+      <li><a href="analytics-landing-pages.html">landing-pages</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-leadgen-leadmgmt.html">leadgen-leadmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-machine-learning.html">machine-learning</a> <span class="count">(12)</span></li>
+      <li><a href="analytics-market-basket.html">market-basket</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-marketing.html">marketing</a> <span class="count">(8)</span></li>
+      <li><a href="analytics-metrics.html">metrics</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-music.html">music</a> <span class="count">(5)</span></li>
+      <li><a href="analytics-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-paperswithcode.html">paperswithcode</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-personas.html">personas</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-pricing.html">pricing</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-prob-stats.html">prob-stats</a> <span class="count">(9)</span></li>
+      <li><a href="analytics-prodmgmt.html">prodmgmt</a> <span class="count">(56)</span></li>
+      <li><a href="analytics-python.html">python</a> <span class="count">(15)</span></li>
+      <li><a href="analytics-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-seo.html">seo</a> <span class="count">(3)</span></li>
+      <li><a href="analytics-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-sports.html">sports</a> <span class="count">(5)</span></li>
+      <li><a href="analytics-spotify.html">spotify</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-survival-analysis.html">survival-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-time-series.html">time-series</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+      <li><a href="analytics-uplift.html">uplift</a> <span class="count">(4)</span></li>
+      <li><a href="analytics-vaex.html">vaex</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-visualization.html">visualization</a> <span class="count">(2)</span></li>
+      <li><a href="analytics-webdev.html">webdev</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>advertising-commercials</strong></summary>
+    <ul>
+      <li><a href="advertising-commercials-analytics.html">analytics</a> <span class="count">(4)</span></li>
+      <li><a href="advertising-commercials-animals.html">animals</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-antitrust.html">antitrust</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-apologies.html">apologies</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-art.html">art</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-attention.html">attention</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-auctions.html">auctions</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-audio.html">audio</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-behaviors.html">behaviors</a> <span class="count">(7)</span></li>
+      <li><a href="advertising-commercials-bias.html">bias</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-brandmgmt.html">brandmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="advertising-commercials-browsers.html">browsers</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-color.html">color</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-conspiracies.html">conspiracies</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-controversy.html">controversy</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-design-patterns.html">design-patterns</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-ecommerce.html">ecommerce</a> <span class="count">(11)</span></li>
+      <li><a href="advertising-commercials-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-football.html">football</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-fraud.html">fraud</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-goodreads.html">goodreads</a> <span class="count">(3)</span></li>
+      <li><a href="advertising-commercials-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-images.html">images</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-linkedin.html">linkedin</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-marketing.html">marketing</a> <span class="count">(16)</span></li>
+      <li><a href="advertising-commercials-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-movies-television.html">movies-television</a> <span class="count">(13)</span></li>
+      <li><a href="advertising-commercials-music.html">music</a> <span class="count">(5)</span></li>
+      <li><a href="advertising-commercials-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-presentations-presenting.html">presentations-presenting</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-prodmgmt.html">prodmgmt</a> <span class="count">(21)</span></li>
+      <li><a href="advertising-commercials-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="advertising-commercials-rivalry.html">rivalry</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-seo.html">seo</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-sports.html">sports</a> <span class="count">(5)</span></li>
+      <li><a href="advertising-commercials-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="advertising-commercials-user-generated-content.html">user-generated-content</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="advertising-commercials-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="advertising-commercials-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prodmgmt</strong></summary>
+    <ul>
+      <li><a href="prodmgmt-productivity-gtd.html">productivity-gtd</a> <span class="count">(3)</span></li>
+      <li><a href="prodmgmt-projmgmt.html">projmgmt</a> <span class="count">(7)</span></li>
+      <li><a href="prodmgmt-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-prospect-theory.html">prospect-theory</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-purpose.html">purpose</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-pycaret.html">pycaret</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-quality.html">quality</a> <span class="count">(7)</span></li>
+      <li><a href="prodmgmt-realestate.html">realestate</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-reddit.html">reddit</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-rejection.html">rejection</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-repair.html">repair</a> <span class="count">(5)</span></li>
+      <li><a href="prodmgmt-reputation.html">reputation</a> <span class="count">(6)</span></li>
+      <li><a href="prodmgmt-retail.html">retail</a> <span class="count">(33)</span></li>
+      <li><a href="prodmgmt-returns.html">returns</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-risk.html">risk</a> <span class="count">(9)</span></li>
+      <li><a href="prodmgmt-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(19)</span></li>
+      <li><a href="prodmgmt-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-sayingno.html">sayingno</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-search.html">search</a> <span class="count">(6)</span></li>
+      <li><a href="prodmgmt-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-semi-supervised.html">semi-supervised</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-semiconductors.html">semiconductors</a> <span class="count">(3)</span></li>
+      <li><a href="prodmgmt-shopify.html">shopify</a> <span class="count">(8)</span></li>
+      <li><a href="prodmgmt-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-simplicity.html">simplicity</a> <span class="count">(3)</span></li>
+      <li><a href="prodmgmt-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-sports.html">sports</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-startups.html">startups</a> <span class="count">(77)</span></li>
+      <li><a href="prodmgmt-storytelling.html">storytelling</a> <span class="count">(7)</span></li>
+      <li><a href="prodmgmt-streaming.html">streaming</a> <span class="count">(5)</span></li>
+      <li><a href="prodmgmt-subscriptions.html">subscriptions</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-supply-chain.html">supply-chain</a> <span class="count">(7)</span></li>
+      <li><a href="prodmgmt-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-teamwork.html">teamwork</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-thermodynamics.html">thermodynamics</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-tiktok.html">tiktok</a> <span class="count">(5)</span></li>
+      <li><a href="prodmgmt-toys.html">toys</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-trust.html">trust</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-ui-ux.html">ui-ux</a> <span class="count">(34)</span></li>
+      <li><a href="prodmgmt-uplift.html">uplift</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-user-generated-content.html">user-generated-content</a> <span class="count">(3)</span></li>
+      <li><a href="prodmgmt-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-video.html">video</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-virality.html">virality</a> <span class="count">(24)</span></li>
+      <li><a href="prodmgmt-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="prodmgmt-webdev.html">webdev</a> <span class="count">(4)</span></li>
+      <li><a href="prodmgmt-white-label.html">white-label</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-winloss.html">winloss</a> <span class="count">(2)</span></li>
+      <li><a href="prodmgmt-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>devops</strong></summary>
+    <ul>
+      <li><a href="devops-dns.html">dns</a> <span class="count">(3)</span></li>
+      <li><a href="devops-docker.html">docker</a> <span class="count">(12)</span></li>
+      <li><a href="devops-execution.html">execution</a> <span class="count">(2)</span></li>
+      <li><a href="devops-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="devops-flask.html">flask</a> <span class="count">(1)</span></li>
+      <li><a href="devops-git.html">git</a> <span class="count">(5)</span></li>
+      <li><a href="devops-github.html">github</a> <span class="count">(7)</span></li>
+      <li><a href="devops-gitlab.html">gitlab</a> <span class="count">(1)</span></li>
+      <li><a href="devops-golang.html">golang</a> <span class="count">(2)</span></li>
+      <li><a href="devops-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="devops-google-cloud.html">google-cloud</a> <span class="count">(3)</span></li>
+      <li><a href="devops-hacking.html">hacking</a> <span class="count">(2)</span></li>
+      <li><a href="devops-heroku.html">heroku</a> <span class="count">(10)</span></li>
+      <li><a href="devops-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="devops-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="devops-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="devops-kubernetes.html">kubernetes</a> <span class="count">(23)</span></li>
+      <li><a href="devops-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="devops-linux.html">linux</a> <span class="count">(35)</span></li>
+      <li><a href="devops-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="devops-llms.html">llms</a> <span class="count">(3)</span></li>
+      <li><a href="devops-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="devops-machine-learning.html">machine-learning</a> <span class="count">(10)</span></li>
+      <li><a href="devops-make.html">make</a> <span class="count">(1)</span></li>
+      <li><a href="devops-malware.html">malware</a> <span class="count">(4)</span></li>
+      <li><a href="devops-meteorjs.html">meteorjs</a> <span class="count">(1)</span></li>
+      <li><a href="devops-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="devops-mongodb.html">mongodb</a> <span class="count">(1)</span></li>
+      <li><a href="devops-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="devops-netlify.html">netlify</a> <span class="count">(3)</span></li>
+      <li><a href="devops-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="devops-nginx.html">nginx</a> <span class="count">(1)</span></li>
+      <li><a href="devops-ngrok.html">ngrok</a> <span class="count">(3)</span></li>
+      <li><a href="devops-npm.html">npm</a> <span class="count">(1)</span></li>
+      <li><a href="devops-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="devops-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="devops-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="devops-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="devops-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="devops-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="devops-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="devops-rubyonrails.html">rubyonrails</a> <span class="count">(11)</span></li>
+      <li><a href="devops-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="devops-security.html">security</a> <span class="count">(13)</span></li>
+      <li><a href="devops-spotify.html">spotify</a> <span class="count">(1)</span></li>
+      <li><a href="devops-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="devops-ssh.html">ssh</a> <span class="count">(7)</span></li>
+      <li><a href="devops-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="devops-streaming.html">streaming</a> <span class="count">(3)</span></li>
+      <li><a href="devops-streamlit.html">streamlit</a> <span class="count">(2)</span></li>
+      <li><a href="devops-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="devops-terraform.html">terraform</a> <span class="count">(6)</span></li>
+      <li><a href="devops-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="devops-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="devops-vagrant.html">vagrant</a> <span class="count">(4)</span></li>
+      <li><a href="devops-virtualbox.html">virtualbox</a> <span class="count">(1)</span></li>
+      <li><a href="devops-webdev.html">webdev</a> <span class="count">(31)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms</strong></summary>
+    <ul>
+      <li><a href="llms-bert-nlp.html">bert-nlp</a> <span class="count">(11)</span></li>
+      <li><a href="llms-malware.html">malware</a> <span class="count">(4)</span></li>
+      <li><a href="llms-mcp.html">mcp</a> <span class="count">(6)</span></li>
+      <li><a href="llms-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="llms-metrics.html">metrics</a> <span class="count">(6)</span></li>
+      <li><a href="llms-midjourney.html">midjourney</a> <span class="count">(4)</span></li>
+      <li><a href="llms-mistral.html">mistral</a> <span class="count">(10)</span></li>
+      <li><a href="llms-ml-ops.html">ml-ops</a> <span class="count">(1)</span></li>
+      <li><a href="llms-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="llms-nlp.html">nlp</a> <span class="count">(6)</span></li>
+      <li><a href="llms-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="llms-nvidia.html">nvidia</a> <span class="count">(3)</span></li>
+      <li><a href="llms-ocr.html">ocr</a> <span class="count">(2)</span></li>
+      <li><a href="llms-ollama.html">ollama</a> <span class="count">(1)</span></li>
+      <li><a href="llms-open-source.html">open-source</a> <span class="count">(4)</span></li>
+      <li><a href="llms-openai.html">openai</a> <span class="count">(3)</span></li>
+      <li><a href="llms-paperswithcode.html">paperswithcode</a> <span class="count">(3)</span></li>
+      <li><a href="llms-pdfs.html">pdfs</a> <span class="count">(6)</span></li>
+      <li><a href="llms-pip.html">pip</a> <span class="count">(1)</span></li>
+      <li><a href="llms-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="llms-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="llms-prompt-engineering.html">prompt-engineering</a> <span class="count">(35)</span></li>
+      <li><a href="llms-python.html">python</a> <span class="count">(12)</span></li>
+      <li><a href="llms-pytorch.html">pytorch</a> <span class="count">(4)</span></li>
+      <li><a href="llms-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="llms-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="llms-reasoning.html">reasoning</a> <span class="count">(19)</span></li>
+      <li><a href="llms-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="llms-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(5)</span></li>
+      <li><a href="llms-riscv.html">riscv</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="llms-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="llms-rubygems.html">rubygems</a> <span class="count">(2)</span></li>
+      <li><a href="llms-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+      <li><a href="llms-safety.html">safety</a> <span class="count">(3)</span></li>
+      <li><a href="llms-scikit-learn.html">scikit-learn</a> <span class="count">(2)</span></li>
+      <li><a href="llms-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="llms-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="llms-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="llms-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="llms-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="llms-sram.html">sram</a> <span class="count">(6)</span></li>
+      <li><a href="llms-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="llms-sympy.html">sympy</a> <span class="count">(1)</span></li>
+      <li><a href="llms-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="llms-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="llms-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="llms-tokens.html">tokens</a> <span class="count">(1)</span></li>
+      <li><a href="llms-transformers.html">transformers</a> <span class="count">(14)</span></li>
+      <li><a href="llms-triton.html">triton</a> <span class="count">(1)</span></li>
+      <li><a href="llms-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="llms-vector-databases.html">vector-databases</a> <span class="count">(2)</span></li>
+      <li><a href="llms-video.html">video</a> <span class="count">(6)</span></li>
+      <li><a href="llms-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="llms-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+      <li><a href="llms-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>best-practices</strong></summary>
+    <ul>
+      <li><a href="best-practices-bias.html">bias</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-caching.html">caching</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-company-culture.html">company-culture</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-debugging.html">debugging</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-design-patterns.html">design-patterns</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-devops.html">devops</a> <span class="count">(8)</span></li>
+      <li><a href="best-practices-documentation.html">documentation</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-ecommerce.html">ecommerce</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-execution.html">execution</a> <span class="count">(17)</span></li>
+      <li><a href="best-practices-finance.html">finance</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-food-drink.html">food-drink</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-gitlab.html">gitlab</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-habits.html">habits</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="best-practices-machine-learning.html">machine-learning</a> <span class="count">(5)</span></li>
+      <li><a href="best-practices-management.html">management</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-ml-ops.html">ml-ops</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-onboarding.html">onboarding</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-platforms.html">platforms</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-post-mortems.html">post-mortems</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-prodmgmt.html">prodmgmt</a> <span class="count">(14)</span></li>
+      <li><a href="best-practices-projmgmt.html">projmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-prompt-engineering.html">prompt-engineering</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-quality.html">quality</a> <span class="count">(4)</span></li>
+      <li><a href="best-practices-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-rubyonrails.html">rubyonrails</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-telephones.html">telephones</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+      <li><a href="best-practices-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="best-practices-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="best-practices-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cognition-neurology-perception</strong></summary>
+    <ul>
+      <li><a href="cognition-neurology-perception-color.html">color</a> <span class="count">(6)</span></li>
+      <li><a href="cognition-neurology-perception-complexity.html">complexity</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-creativity.html">creativity</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-css.html">css</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-curiosity.html">curiosity</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-decisions.html">decisions</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-deep-learning.html">deep-learning</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-delusions.html">delusions</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-doubt.html">doubt</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-emotions.html">emotions</a> <span class="count">(6)</span></li>
+      <li><a href="cognition-neurology-perception-empathy.html">empathy</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-face-recognition.html">face-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-fear.html">fear</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-food-drink.html">food-drink</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-gestures.html">gestures</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-goodreads.html">goodreads</a> <span class="count">(22)</span></li>
+      <li><a href="cognition-neurology-perception-happiness.html">happiness</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-health-medicine.html">health-medicine</a> <span class="count">(38)</span></li>
+      <li><a href="cognition-neurology-perception-hunger.html">hunger</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-ideation.html">ideation</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-imagination.html">imagination</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-lang.html">lang</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-language-linguistics.html">language-linguistics</a> <span class="count">(19)</span></li>
+      <li><a href="cognition-neurology-perception-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-llms.html">llms</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-logos.html">logos</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-magic.html">magic</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-memory-recall.html">memory-recall</a> <span class="count">(21)</span></li>
+      <li><a href="cognition-neurology-perception-morality.html">morality</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-music.html">music</a> <span class="count">(16)</span></li>
+      <li><a href="cognition-neurology-perception-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-nudging.html">nudging</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-psychology.html">psychology</a> <span class="count">(5)</span></li>
+      <li><a href="cognition-neurology-perception-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-sensors.html">sensors</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-sleep.html">sleep</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-smell.html">smell</a> <span class="count">(6)</span></li>
+      <li><a href="cognition-neurology-perception-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-speaking.html">speaking</a> <span class="count">(2)</span></li>
+      <li><a href="cognition-neurology-perception-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="cognition-neurology-perception-thinking.html">thinking</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="cognition-neurology-perception-vision.html">vision</a> <span class="count">(13)</span></li>
+      <li><a href="cognition-neurology-perception-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>datasets</strong></summary>
+    <ul>
+      <li><a href="datasets-deep-learning.html">deep-learning</a> <span class="count">(6)</span></li>
+      <li><a href="datasets-ecommerce.html">ecommerce</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-feature-engineering.html">feature-engineering</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-finance.html">finance</a> <span class="count">(3)</span></li>
+      <li><a href="datasets-football.html">football</a> <span class="count">(3)</span></li>
+      <li><a href="datasets-geofencing.html">geofencing</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-geography.html">geography</a> <span class="count">(3)</span></li>
+      <li><a href="datasets-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-ideas-commish.html">ideas-commish</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-images.html">images</a> <span class="count">(4)</span></li>
+      <li><a href="datasets-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-legal.html">legal</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-magazines.html">magazines</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-materials.html">materials</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-music.html">music</a> <span class="count">(6)</span></li>
+      <li><a href="datasets-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-personas.html">personas</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-plotly.html">plotly</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-pose-estimation.html">pose-estimation</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="datasets-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-python.html">python</a> <span class="count">(7)</span></li>
+      <li><a href="datasets-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-reading.html">reading</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-realestate.html">realestate</a> <span class="count">(2)</span></li>
+      <li><a href="datasets-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-solar.html">solar</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-sports.html">sports</a> <span class="count">(7)</span></li>
+      <li><a href="datasets-spotify.html">spotify</a> <span class="count">(3)</span></li>
+      <li><a href="datasets-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-synthetic-data.html">synthetic-data</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="datasets-visualization.html">visualization</a> <span class="count">(5)</span></li>
+      <li><a href="datasets-web-scraping.html">web-scraping</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>python</strong></summary>
+    <ul>
+      <li><a href="python-pytorch.html">pytorch</a> <span class="count">(10)</span></li>
+      <li><a href="python-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="python-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="python-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="python-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="python-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="python-redis.html">redis</a> <span class="count">(1)</span></li>
+      <li><a href="python-regexes.html">regexes</a> <span class="count">(2)</span></li>
+      <li><a href="python-regressions.html">regressions</a> <span class="count">(1)</span></li>
+      <li><a href="python-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="python-risk.html">risk</a> <span class="count">(2)</span></li>
+      <li><a href="python-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="python-sales-ops-planning.html">sales-ops-planning</a> <span class="count">(1)</span></li>
+      <li><a href="python-sankey.html">sankey</a> <span class="count">(1)</span></li>
+      <li><a href="python-scipy.html">scipy</a> <span class="count">(3)</span></li>
+      <li><a href="python-seaborn.html">seaborn</a> <span class="count">(10)</span></li>
+      <li><a href="python-search.html">search</a> <span class="count">(5)</span></li>
+      <li><a href="python-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="python-sets.html">sets</a> <span class="count">(3)</span></li>
+      <li><a href="python-similarity-search.html">similarity-search</a> <span class="count">(1)</span></li>
+      <li><a href="python-spacy.html">spacy</a> <span class="count">(3)</span></li>
+      <li><a href="python-spatial.html">spatial</a> <span class="count">(5)</span></li>
+      <li><a href="python-speech-recognition.html">speech-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="python-splines.html">splines</a> <span class="count">(1)</span></li>
+      <li><a href="python-spotify.html">spotify</a> <span class="count">(1)</span></li>
+      <li><a href="python-sql.html">sql</a> <span class="count">(2)</span></li>
+      <li><a href="python-sqlite.html">sqlite</a> <span class="count">(4)</span></li>
+      <li><a href="python-starlette.html">starlette</a> <span class="count">(1)</span></li>
+      <li><a href="python-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="python-streamlit.html">streamlit</a> <span class="count">(8)</span></li>
+      <li><a href="python-supply-chain.html">supply-chain</a> <span class="count">(5)</span></li>
+      <li><a href="python-survival-analysis.html">survival-analysis</a> <span class="count">(4)</span></li>
+      <li><a href="python-svm.html">svm</a> <span class="count">(2)</span></li>
+      <li><a href="python-swarms.html">swarms</a> <span class="count">(1)</span></li>
+      <li><a href="python-sympy.html">sympy</a> <span class="count">(4)</span></li>
+      <li><a href="python-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="python-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="python-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="python-time-series.html">time-series</a> <span class="count">(7)</span></li>
+      <li><a href="python-tokens.html">tokens</a> <span class="count">(1)</span></li>
+      <li><a href="python-topic-modeling.html">topic-modeling</a> <span class="count">(1)</span></li>
+      <li><a href="python-topology.html">topology</a> <span class="count">(1)</span></li>
+      <li><a href="python-typescript.html">typescript</a> <span class="count">(1)</span></li>
+      <li><a href="python-uplift.html">uplift</a> <span class="count">(1)</span></li>
+      <li><a href="python-vaex.html">vaex</a> <span class="count">(2)</span></li>
+      <li><a href="python-venv.html">venv</a> <span class="count">(5)</span></li>
+      <li><a href="python-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="python-virtualization.html">virtualization</a> <span class="count">(1)</span></li>
+      <li><a href="python-vis.html">vis</a> <span class="count">(1)</span></li>
+      <li><a href="python-vision.html">vision</a> <span class="count">(3)</span></li>
+      <li><a href="python-visualization.html">visualization</a> <span class="count">(53)</span></li>
+      <li><a href="python-voila.html">voila</a> <span class="count">(2)</span></li>
+      <li><a href="python-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="python-yaml.html">yaml</a> <span class="count">(2)</span></li>
+      <li><a href="python-youtube.html">youtube</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ideas</strong></summary>
+    <ul>
+      <li><a href="ideas-ideation.html">ideation</a> <span class="count">(20)</span></li>
+      <li><a href="ideas-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-insurance.html">insurance</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-inventions-innovation.html">inventions-innovation</a> <span class="count">(9)</span></li>
+      <li><a href="ideas-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="ideas-listening.html">listening</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-logistics-shipping.html">logistics-shipping</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-materials.html">materials</a> <span class="count">(6)</span></li>
+      <li><a href="ideas-mental-models.html">mental-models</a> <span class="count">(3)</span></li>
+      <li><a href="ideas-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-paint.html">paint</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-physical-products.html">physical-products</a> <span class="count">(5)</span></li>
+      <li><a href="ideas-platforms.html">platforms</a> <span class="count">(10)</span></li>
+      <li><a href="ideas-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-prodmgmt.html">prodmgmt</a> <span class="count">(31)</span></li>
+      <li><a href="ideas-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-repair.html">repair</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-rust.html">rust</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="ideas-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-spectrum.html">spectrum</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-sports.html">sports</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-startups.html">startups</a> <span class="count">(46)</span></li>
+      <li><a href="ideas-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-surprise.html">surprise</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-thinking.html">thinking</a> <span class="count">(4)</span></li>
+      <li><a href="ideas-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-tickling.html">tickling</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-toys.html">toys</a> <span class="count">(3)</span></li>
+      <li><a href="ideas-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-writing.html">writing</a> <span class="count">(3)</span></li>
+      <li><a href="ideas-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>art</strong></summary>
+    <ul>
+      <li><a href="art-auctions.html">auctions</a> <span class="count">(5)</span></li>
+      <li><a href="art-authenticity.html">authenticity</a> <span class="count">(1)</span></li>
+      <li><a href="art-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="art-books.html">books</a> <span class="count">(2)</span></li>
+      <li><a href="art-cards.html">cards</a> <span class="count">(1)</span></li>
+      <li><a href="art-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="art-clothes.html">clothes</a> <span class="count">(1)</span></li>
+      <li><a href="art-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(3)</span></li>
+      <li><a href="art-collecting-curation.html">collecting-curation</a> <span class="count">(1)</span></li>
+      <li><a href="art-color.html">color</a> <span class="count">(3)</span></li>
+      <li><a href="art-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(2)</span></li>
+      <li><a href="art-company-culture.html">company-culture</a> <span class="count">(1)</span></li>
+      <li><a href="art-craftsmanship.html">craftsmanship</a> <span class="count">(1)</span></li>
+      <li><a href="art-crime.html">crime</a> <span class="count">(7)</span></li>
+      <li><a href="art-crypto.html">crypto</a> <span class="count">(1)</span></li>
+      <li><a href="art-culture.html">culture</a> <span class="count">(2)</span></li>
+      <li><a href="art-datasets.html">datasets</a> <span class="count">(3)</span></li>
+      <li><a href="art-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="art-deepfakes.html">deepfakes</a> <span class="count">(1)</span></li>
+      <li><a href="art-drawing.html">drawing</a> <span class="count">(1)</span></li>
+      <li><a href="art-due-diligence.html">due-diligence</a> <span class="count">(1)</span></li>
+      <li><a href="art-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="art-fakes.html">fakes</a> <span class="count">(3)</span></li>
+      <li><a href="art-folklore-myths.html">folklore-myths</a> <span class="count">(1)</span></li>
+      <li><a href="art-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="art-forensics.html">forensics</a> <span class="count">(1)</span></li>
+      <li><a href="art-game-theory.html">game-theory</a> <span class="count">(2)</span></li>
+      <li><a href="art-gestures.html">gestures</a> <span class="count">(1)</span></li>
+      <li><a href="art-goodreads.html">goodreads</a> <span class="count">(22)</span></li>
+      <li><a href="art-history.html">history</a> <span class="count">(8)</span></li>
+      <li><a href="art-images.html">images</a> <span class="count">(3)</span></li>
+      <li><a href="art-logistics-shipping.html">logistics-shipping</a> <span class="count">(1)</span></li>
+      <li><a href="art-magazines.html">magazines</a> <span class="count">(2)</span></li>
+      <li><a href="art-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="art-museums.html">museums</a> <span class="count">(5)</span></li>
+      <li><a href="art-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="art-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="art-paint.html">paint</a> <span class="count">(1)</span></li>
+      <li><a href="art-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="art-pricing.html">pricing</a> <span class="count">(3)</span></li>
+      <li><a href="art-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="art-propaganda.html">propaganda</a> <span class="count">(1)</span></li>
+      <li><a href="art-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="art-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="art-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="art-symbols.html">symbols</a> <span class="count">(2)</span></li>
+      <li><a href="art-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="art-truecrime.html">truecrime</a> <span class="count">(8)</span></li>
+      <li><a href="art-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="art-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="art-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="art-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>design</strong></summary>
+    <ul>
+      <li><a href="design-design-patterns.html">design-patterns</a> <span class="count">(5)</span></li>
+      <li><a href="design-ecommerce.html">ecommerce</a> <span class="count">(3)</span></li>
+      <li><a href="design-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="design-figma.html">figma</a> <span class="count">(2)</span></li>
+      <li><a href="design-fonts-typography.html">fonts-typography</a> <span class="count">(5)</span></li>
+      <li><a href="design-food-drink.html">food-drink</a> <span class="count">(4)</span></li>
+      <li><a href="design-furniture.html">furniture</a> <span class="count">(2)</span></li>
+      <li><a href="design-games.html">games</a> <span class="count">(2)</span></li>
+      <li><a href="design-gifts.html">gifts</a> <span class="count">(2)</span></li>
+      <li><a href="design-glossaries.html">glossaries</a> <span class="count">(2)</span></li>
+      <li><a href="design-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="design-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="design-html.html">html</a> <span class="count">(7)</span></li>
+      <li><a href="design-ideas.html">ideas</a> <span class="count">(4)</span></li>
+      <li><a href="design-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="design-influence-persuasion.html">influence-persuasion</a> <span class="count">(3)</span></li>
+      <li><a href="design-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="design-javascript.html">javascript</a> <span class="count">(3)</span></li>
+      <li><a href="design-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="design-landing-pages.html">landing-pages</a> <span class="count">(2)</span></li>
+      <li><a href="design-language-linguistics.html">language-linguistics</a> <span class="count">(3)</span></li>
+      <li><a href="design-logos.html">logos</a> <span class="count">(2)</span></li>
+      <li><a href="design-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="design-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="design-materials.html">materials</a> <span class="count">(3)</span></li>
+      <li><a href="design-mental-models.html">mental-models</a> <span class="count">(2)</span></li>
+      <li><a href="design-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="design-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="design-naming.html">naming</a> <span class="count">(1)</span></li>
+      <li><a href="design-physical-products.html">physical-products</a> <span class="count">(3)</span></li>
+      <li><a href="design-pinterest.html">pinterest</a> <span class="count">(2)</span></li>
+      <li><a href="design-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="design-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="design-printing.html">printing</a> <span class="count">(1)</span></li>
+      <li><a href="design-prodmgmt.html">prodmgmt</a> <span class="count">(10)</span></li>
+      <li><a href="design-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="design-robotics.html">robotics</a> <span class="count">(2)</span></li>
+      <li><a href="design-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="design-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="design-svg.html">svg</a> <span class="count">(1)</span></li>
+      <li><a href="design-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="design-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="design-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="design-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="design-ui-ux.html">ui-ux</a> <span class="count">(53)</span></li>
+      <li><a href="design-visualization.html">visualization</a> <span class="count">(4)</span></li>
+      <li><a href="design-webdev.html">webdev</a> <span class="count">(24)</span></li>
+      <li><a href="design-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>economics</strong></summary>
+    <ul>
+      <li><a href="economics-electricity.html">electricity</a> <span class="count">(2)</span></li>
+      <li><a href="economics-energy.html">energy</a> <span class="count">(3)</span></li>
+      <li><a href="economics-finance.html">finance</a> <span class="count">(8)</span></li>
+      <li><a href="economics-food-drink.html">food-drink</a> <span class="count">(3)</span></li>
+      <li><a href="economics-football.html">football</a> <span class="count">(3)</span></li>
+      <li><a href="economics-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="economics-game-theory.html">game-theory</a> <span class="count">(6)</span></li>
+      <li><a href="economics-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="economics-gpus.html">gpus</a> <span class="count">(2)</span></li>
+      <li><a href="economics-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="economics-history.html">history</a> <span class="count">(4)</span></li>
+      <li><a href="economics-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="economics-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="economics-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="economics-logistics-shipping.html">logistics-shipping</a> <span class="count">(1)</span></li>
+      <li><a href="economics-low-cost.html">low-cost</a> <span class="count">(2)</span></li>
+      <li><a href="economics-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="economics-materials.html">materials</a> <span class="count">(2)</span></li>
+      <li><a href="economics-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="economics-monopoly.html">monopoly</a> <span class="count">(3)</span></li>
+      <li><a href="economics-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="economics-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="economics-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="economics-open-source.html">open-source</a> <span class="count">(2)</span></li>
+      <li><a href="economics-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="economics-pawnshops.html">pawnshops</a> <span class="count">(3)</span></li>
+      <li><a href="economics-physical-products.html">physical-products</a> <span class="count">(2)</span></li>
+      <li><a href="economics-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="economics-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="economics-pricing.html">pricing</a> <span class="count">(9)</span></li>
+      <li><a href="economics-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="economics-prospect-theory.html">prospect-theory</a> <span class="count">(1)</span></li>
+      <li><a href="economics-public-policy.html">public-policy</a> <span class="count">(20)</span></li>
+      <li><a href="economics-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="economics-realestate.html">realestate</a> <span class="count">(1)</span></li>
+      <li><a href="economics-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="economics-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="economics-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="economics-sports.html">sports</a> <span class="count">(7)</span></li>
+      <li><a href="economics-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="economics-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="economics-supply-chain.html">supply-chain</a> <span class="count">(6)</span></li>
+      <li><a href="economics-taxes.html">taxes</a> <span class="count">(1)</span></li>
+      <li><a href="economics-thermodynamics.html">thermodynamics</a> <span class="count">(1)</span></li>
+      <li><a href="economics-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="economics-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="economics-travel.html">travel</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>animals</strong></summary>
+    <ul>
+      <li><a href="animals-art.html">art</a> <span class="count">(1)</span></li>
+      <li><a href="animals-audio.html">audio</a> <span class="count">(1)</span></li>
+      <li><a href="animals-behaviors.html">behaviors</a> <span class="count">(3)</span></li>
+      <li><a href="animals-biology.html">biology</a> <span class="count">(4)</span></li>
+      <li><a href="animals-body-language.html">body-language</a> <span class="count">(1)</span></li>
+      <li><a href="animals-botany.html">botany</a> <span class="count">(1)</span></li>
+      <li><a href="animals-cartoons.html">cartoons</a> <span class="count">(1)</span></li>
+      <li><a href="animals-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(12)</span></li>
+      <li><a href="animals-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(2)</span></li>
+      <li><a href="animals-comics.html">comics</a> <span class="count">(1)</span></li>
+      <li><a href="animals-conservation.html">conservation</a> <span class="count">(20)</span></li>
+      <li><a href="animals-creepy.html">creepy</a> <span class="count">(1)</span></li>
+      <li><a href="animals-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="animals-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="animals-disgust.html">disgust</a> <span class="count">(1)</span></li>
+      <li><a href="animals-dogs.html">dogs</a> <span class="count">(3)</span></li>
+      <li><a href="animals-emotions.html">emotions</a> <span class="count">(3)</span></li>
+      <li><a href="animals-folklore-myths.html">folklore-myths</a> <span class="count">(1)</span></li>
+      <li><a href="animals-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="animals-genetics.html">genetics</a> <span class="count">(1)</span></li>
+      <li><a href="animals-goodreads.html">goodreads</a> <span class="count">(84)</span></li>
+      <li><a href="animals-health-medicine.html">health-medicine</a> <span class="count">(9)</span></li>
+      <li><a href="animals-history.html">history</a> <span class="count">(6)</span></li>
+      <li><a href="animals-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="animals-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="animals-language-linguistics.html">language-linguistics</a> <span class="count">(14)</span></li>
+      <li><a href="animals-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="animals-magic.html">magic</a> <span class="count">(1)</span></li>
+      <li><a href="animals-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="animals-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="animals-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="animals-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="animals-navigation.html">navigation</a> <span class="count">(1)</span></li>
+      <li><a href="animals-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="animals-photography.html">photography</a> <span class="count">(1)</span></li>
+      <li><a href="animals-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="animals-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="animals-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="animals-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="animals-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="animals-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="animals-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="animals-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="animals-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+      <li><a href="animals-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>history</strong></summary>
+    <ul>
+      <li><a href="history-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="history-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="history-inventions-innovation.html">inventions-innovation</a> <span class="count">(14)</span></li>
+      <li><a href="history-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="history-jazz.html">jazz</a> <span class="count">(2)</span></li>
+      <li><a href="history-language-linguistics.html">language-linguistics</a> <span class="count">(31)</span></li>
+      <li><a href="history-management.html">management</a> <span class="count">(1)</span></li>
+      <li><a href="history-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="history-materials.html">materials</a> <span class="count">(4)</span></li>
+      <li><a href="history-minerals.html">minerals</a> <span class="count">(1)</span></li>
+      <li><a href="history-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="history-mp3.html">mp3</a> <span class="count">(1)</span></li>
+      <li><a href="history-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="history-music.html">music</a> <span class="count">(20)</span></li>
+      <li><a href="history-mysteries.html">mysteries</a> <span class="count">(6)</span></li>
+      <li><a href="history-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="history-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="history-patents.html">patents</a> <span class="count">(1)</span></li>
+      <li><a href="history-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="history-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="history-pivots.html">pivots</a> <span class="count">(1)</span></li>
+      <li><a href="history-places.html">places</a> <span class="count">(1)</span></li>
+      <li><a href="history-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="history-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="history-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="history-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="history-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="history-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="history-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="history-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="history-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="history-risk.html">risk</a> <span class="count">(2)</span></li>
+      <li><a href="history-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="history-spycraft.html">spycraft</a> <span class="count">(14)</span></li>
+      <li><a href="history-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="history-statecraft.html">statecraft</a> <span class="count">(33)</span></li>
+      <li><a href="history-stickers.html">stickers</a> <span class="count">(1)</span></li>
+      <li><a href="history-storytelling.html">storytelling</a> <span class="count">(4)</span></li>
+      <li><a href="history-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="history-symbols.html">symbols</a> <span class="count">(2)</span></li>
+      <li><a href="history-toys.html">toys</a> <span class="count">(2)</span></li>
+      <li><a href="history-travel.html">travel</a> <span class="count">(6)</span></li>
+      <li><a href="history-truecrime.html">truecrime</a> <span class="count">(4)</span></li>
+      <li><a href="history-writing.html">writing</a> <span class="count">(6)</span></li>
+      <li><a href="history-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>emotions</strong></summary>
+    <ul>
+      <li><a href="emotions-empathy.html">empathy</a> <span class="count">(8)</span></li>
+      <li><a href="emotions-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-fascination.html">fascination</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-fear.html">fear</a> <span class="count">(3)</span></li>
+      <li><a href="emotions-feedback.html">feedback</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-friends.html">friends</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-gestures.html">gestures</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-gifts.html">gifts</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-goodreads.html">goodreads</a> <span class="count">(5)</span></li>
+      <li><a href="emotions-gratitude.html">gratitude</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-happiness.html">happiness</a> <span class="count">(8)</span></li>
+      <li><a href="emotions-health-medicine.html">health-medicine</a> <span class="count">(3)</span></li>
+      <li><a href="emotions-influence-persuasion.html">influence-persuasion</a> <span class="count">(6)</span></li>
+      <li><a href="emotions-instinct-intuition.html">instinct-intuition</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-interviewing.html">interviewing</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-kindness.html">kindness</a> <span class="count">(3)</span></li>
+      <li><a href="emotions-language-linguistics.html">language-linguistics</a> <span class="count">(4)</span></li>
+      <li><a href="emotions-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-listening.html">listening</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-llms-claude.html">llms-claude</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-memory-recall.html">memory-recall</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-movies-television.html">movies-television</a> <span class="count">(3)</span></li>
+      <li><a href="emotions-music.html">music</a> <span class="count">(7)</span></li>
+      <li><a href="emotions-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="emotions-prospect-theory.html">prospect-theory</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-psychology.html">psychology</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-regret.html">regret</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-shaming.html">shaming</a> <span class="count">(5)</span></li>
+      <li><a href="emotions-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-stoicism.html">stoicism</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="emotions-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="emotions-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>influence-persuasion</strong></summary>
+    <ul>
+      <li><a href="influence-persuasion-interrogations.html">interrogations</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-interviewing.html">interviewing</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-introverts.html">introverts</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-jazz.html">jazz</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-language-linguistics.html">language-linguistics</a> <span class="count">(9)</span></li>
+      <li><a href="influence-persuasion-leadership.html">leadership</a> <span class="count">(52)</span></li>
+      <li><a href="influence-persuasion-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-listening.html">listening</a> <span class="count">(11)</span></li>
+      <li><a href="influence-persuasion-luck.html">luck</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-lying.html">lying</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-management.html">management</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-menus.html">menus</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-motivation.html">motivation</a> <span class="count">(7)</span></li>
+      <li><a href="influence-persuasion-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-negotiation.html">negotiation</a> <span class="count">(13)</span></li>
+      <li><a href="influence-persuasion-network-effects.html">network-effects</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-nudging.html">nudging</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-patience.html">patience</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-politeness.html">politeness</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-presentations-presenting.html">presentations-presenting</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-prodmgmt.html">prodmgmt</a> <span class="count">(7)</span></li>
+      <li><a href="influence-persuasion-propaganda.html">propaganda</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-prospect-theory.html">prospect-theory</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-psychology.html">psychology</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-reputation.html">reputation</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-respect.html">respect</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-sarcasm.html">sarcasm</a> <span class="count">(2)</span></li>
+      <li><a href="influence-persuasion-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-social-skills.html">social-skills</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-speaking.html">speaking</a> <span class="count">(33)</span></li>
+      <li><a href="influence-persuasion-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="influence-persuasion-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-storytelling.html">storytelling</a> <span class="count">(6)</span></li>
+      <li><a href="influence-persuasion-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="influence-persuasion-writing.html">writing</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>culture</strong></summary>
+    <ul>
+      <li><a href="culture-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="culture-decisions.html">decisions</a> <span class="count">(1)</span></li>
+      <li><a href="culture-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="culture-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="culture-folklore-myths.html">folklore-myths</a> <span class="count">(1)</span></li>
+      <li><a href="culture-food-drink.html">food-drink</a> <span class="count">(5)</span></li>
+      <li><a href="culture-gitlab.html">gitlab</a> <span class="count">(2)</span></li>
+      <li><a href="culture-goodreads.html">goodreads</a> <span class="count">(5)</span></li>
+      <li><a href="culture-guilt.html">guilt</a> <span class="count">(1)</span></li>
+      <li><a href="culture-history.html">history</a> <span class="count">(6)</span></li>
+      <li><a href="culture-influence-persuasion.html">influence-persuasion</a> <span class="count">(4)</span></li>
+      <li><a href="culture-interviewing.html">interviewing</a> <span class="count">(2)</span></li>
+      <li><a href="culture-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="culture-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="culture-jobdef.html">jobdef</a> <span class="count">(1)</span></li>
+      <li><a href="culture-language-linguistics.html">language-linguistics</a> <span class="count">(4)</span></li>
+      <li><a href="culture-leadership.html">leadership</a> <span class="count">(9)</span></li>
+      <li><a href="culture-low-cost.html">low-cost</a> <span class="count">(1)</span></li>
+      <li><a href="culture-management.html">management</a> <span class="count">(4)</span></li>
+      <li><a href="culture-memes.html">memes</a> <span class="count">(2)</span></li>
+      <li><a href="culture-messaging-telephony.html">messaging-telephony</a> <span class="count">(1)</span></li>
+      <li><a href="culture-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="culture-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="culture-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="culture-onboarding.html">onboarding</a> <span class="count">(2)</span></li>
+      <li><a href="culture-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="culture-prodmgmt.html">prodmgmt</a> <span class="count">(7)</span></li>
+      <li><a href="culture-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="culture-regret.html">regret</a> <span class="count">(1)</span></li>
+      <li><a href="culture-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="culture-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="culture-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="culture-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="culture-startups.html">startups</a> <span class="count">(7)</span></li>
+      <li><a href="culture-teamwork.html">teamwork</a> <span class="count">(1)</span></li>
+      <li><a href="culture-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="culture-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="culture-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="culture-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="culture-whatsapp.html">whatsapp</a> <span class="count">(1)</span></li>
+      <li><a href="culture-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>finance</strong></summary>
+    <ul>
+      <li><a href="finance-forensics.html">forensics</a> <span class="count">(1)</span></li>
+      <li><a href="finance-fraud.html">fraud</a> <span class="count">(1)</span></li>
+      <li><a href="finance-game-theory.html">game-theory</a> <span class="count">(2)</span></li>
+      <li><a href="finance-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="finance-gold.html">gold</a> <span class="count">(1)</span></li>
+      <li><a href="finance-goodreads.html">goodreads</a> <span class="count">(15)</span></li>
+      <li><a href="finance-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="finance-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="finance-history.html">history</a> <span class="count">(3)</span></li>
+      <li><a href="finance-ideas.html">ideas</a> <span class="count">(3)</span></li>
+      <li><a href="finance-insurance.html">insurance</a> <span class="count">(2)</span></li>
+      <li><a href="finance-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="finance-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="finance-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="finance-low-cost.html">low-cost</a> <span class="count">(1)</span></li>
+      <li><a href="finance-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="finance-management.html">management</a> <span class="count">(1)</span></li>
+      <li><a href="finance-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="finance-mergers.html">mergers</a> <span class="count">(3)</span></li>
+      <li><a href="finance-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="finance-payments.html">payments</a> <span class="count">(2)</span></li>
+      <li><a href="finance-platforms.html">platforms</a> <span class="count">(3)</span></li>
+      <li><a href="finance-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="finance-prodmgmt.html">prodmgmt</a> <span class="count">(9)</span></li>
+      <li><a href="finance-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="finance-public-policy.html">public-policy</a> <span class="count">(5)</span></li>
+      <li><a href="finance-python.html">python</a> <span class="count">(6)</span></li>
+      <li><a href="finance-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="finance-risk.html">risk</a> <span class="count">(13)</span></li>
+      <li><a href="finance-scams.html">scams</a> <span class="count">(1)</span></li>
+      <li><a href="finance-secrecy.html">secrecy</a> <span class="count">(1)</span></li>
+      <li><a href="finance-semiconductors.html">semiconductors</a> <span class="count">(5)</span></li>
+      <li><a href="finance-sports.html">sports</a> <span class="count">(3)</span></li>
+      <li><a href="finance-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="finance-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="finance-startups.html">startups</a> <span class="count">(20)</span></li>
+      <li><a href="finance-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="finance-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="finance-taxes.html">taxes</a> <span class="count">(4)</span></li>
+      <li><a href="finance-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+      <li><a href="finance-visualization.html">visualization</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>food-drink</strong></summary>
+    <ul>
+      <li><a href="food-drink-gifts.html">gifts</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-goodreads.html">goodreads</a> <span class="count">(80)</span></li>
+      <li><a href="food-drink-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-grocery.html">grocery</a> <span class="count">(9)</span></li>
+      <li><a href="food-drink-health-medicine.html">health-medicine</a> <span class="count">(7)</span></li>
+      <li><a href="food-drink-history.html">history</a> <span class="count">(22)</span></li>
+      <li><a href="food-drink-hunger.html">hunger</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-ideas.html">ideas</a> <span class="count">(3)</span></li>
+      <li><a href="food-drink-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="food-drink-inventions-innovation.html">inventions-innovation</a> <span class="count">(3)</span></li>
+      <li><a href="food-drink-iot.html">iot</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-japan.html">japan</a> <span class="count">(11)</span></li>
+      <li><a href="food-drink-jazz.html">jazz</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-logistics-shipping.html">logistics-shipping</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-luxury.html">luxury</a> <span class="count">(3)</span></li>
+      <li><a href="food-drink-marketing.html">marketing</a> <span class="count">(4)</span></li>
+      <li><a href="food-drink-menus.html">menus</a> <span class="count">(3)</span></li>
+      <li><a href="food-drink-movies-television.html">movies-television</a> <span class="count">(4)</span></li>
+      <li><a href="food-drink-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-packaging.html">packaging</a> <span class="count">(3)</span></li>
+      <li><a href="food-drink-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-pricing.html">pricing</a> <span class="count">(6)</span></li>
+      <li><a href="food-drink-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-prodmgmt.html">prodmgmt</a> <span class="count">(10)</span></li>
+      <li><a href="food-drink-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-recycling.html">recycling</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-retail.html">retail</a> <span class="count">(7)</span></li>
+      <li><a href="food-drink-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-seo.html">seo</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-snobbery.html">snobbery</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-startups.html">startups</a> <span class="count">(9)</span></li>
+      <li><a href="food-drink-supply-chain.html">supply-chain</a> <span class="count">(5)</span></li>
+      <li><a href="food-drink-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-travel.html">travel</a> <span class="count">(41)</span></li>
+      <li><a href="food-drink-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="food-drink-wv.html">wv</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>arxiv</strong></summary>
+    <ul>
+      <li><a href="arxiv-auctions.html">auctions</a> <span class="count">(4)</span></li>
+      <li><a href="arxiv-benchmarks.html">benchmarks</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-best-practices.html">best-practices</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-chip-design.html">chip-design</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-collusion.html">collusion</a> <span class="count">(3)</span></li>
+      <li><a href="arxiv-data-structures.html">data-structures</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-deep-learning.html">deep-learning</a> <span class="count">(14)</span></li>
+      <li><a href="arxiv-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-game-theory.html">game-theory</a> <span class="count">(4)</span></li>
+      <li><a href="arxiv-games.html">games</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-geometry.html">geometry</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-gsi.html">gsi</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-hyperparameters.html">hyperparameters</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-llms-gpt.html">llms-gpt</a> <span class="count">(4)</span></li>
+      <li><a href="arxiv-llms.html">llms</a> <span class="count">(22)</span></li>
+      <li><a href="arxiv-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-paperswithcode.html">paperswithcode</a> <span class="count">(4)</span></li>
+      <li><a href="arxiv-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-pricing.html">pricing</a> <span class="count">(4)</span></li>
+      <li><a href="arxiv-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-self-supervised.html">self-supervised</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="arxiv-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-sram.html">sram</a> <span class="count">(3)</span></li>
+      <li><a href="arxiv-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="arxiv-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>comedy-fun-humor</strong></summary>
+    <ul>
+      <li><a href="comedy-fun-humor-comics.html">comics</a> <span class="count">(5)</span></li>
+      <li><a href="comedy-fun-humor-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-economics.html">economics</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-emotions.html">emotions</a> <span class="count">(3)</span></li>
+      <li><a href="comedy-fun-humor-furniture.html">furniture</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-games.html">games</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-gaming.html">gaming</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-gifts.html">gifts</a> <span class="count">(6)</span></li>
+      <li><a href="comedy-fun-humor-goodreads.html">goodreads</a> <span class="count">(6)</span></li>
+      <li><a href="comedy-fun-humor-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-hobbies.html">hobbies</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-language-linguistics.html">language-linguistics</a> <span class="count">(8)</span></li>
+      <li><a href="comedy-fun-humor-laughter.html">laughter</a> <span class="count">(3)</span></li>
+      <li><a href="comedy-fun-humor-memes.html">memes</a> <span class="count">(5)</span></li>
+      <li><a href="comedy-fun-humor-movies-television.html">movies-television</a> <span class="count">(25)</span></li>
+      <li><a href="comedy-fun-humor-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-presentations-presenting.html">presentations-presenting</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-shaming.html">shaming</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-speaking.html">speaking</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-storytelling.html">storytelling</a> <span class="count">(5)</span></li>
+      <li><a href="comedy-fun-humor-toys.html">toys</a> <span class="count">(3)</span></li>
+      <li><a href="comedy-fun-humor-travel.html">travel</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-tshirts.html">tshirts</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-video.html">video</a> <span class="count">(3)</span></li>
+      <li><a href="comedy-fun-humor-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="comedy-fun-humor-writing.html">writing</a> <span class="count">(2)</span></li>
+      <li><a href="comedy-fun-humor-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>command-line</strong></summary>
+    <ul>
+      <li><a href="command-line-csv.html">csv</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-curl.html">curl</a> <span class="count">(3)</span></li>
+      <li><a href="command-line-databases.html">databases</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-devops.html">devops</a> <span class="count">(4)</span></li>
+      <li><a href="command-line-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-gemini.html">gemini</a> <span class="count">(3)</span></li>
+      <li><a href="command-line-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-github-awesome.html">github-awesome</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-github.html">github</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-html.html">html</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-kanban.html">kanban</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-kernels.html">kernels</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-linux.html">linux</a> <span class="count">(35)</span></li>
+      <li><a href="command-line-llms.html">llms</a> <span class="count">(8)</span></li>
+      <li><a href="command-line-markdown.html">markdown</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-npm.html">npm</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-ollama.html">ollama</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-packages.html">packages</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-pip.html">pip</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-prompt-engineering.html">prompt-engineering</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-python.html">python</a> <span class="count">(6)</span></li>
+      <li><a href="command-line-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-sed.html">sed</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-sql.html">sql</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-ssh.html">ssh</a> <span class="count">(3)</span></li>
+      <li><a href="command-line-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-ubuntu.html">ubuntu</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>databases</strong></summary>
+    <ul>
+      <li><a href="databases-datasets.html">datasets</a> <span class="count">(2)</span></li>
+      <li><a href="databases-devops.html">devops</a> <span class="count">(8)</span></li>
+      <li><a href="databases-elasticsearch.html">elasticsearch</a> <span class="count">(1)</span></li>
+      <li><a href="databases-geography.html">geography</a> <span class="count">(2)</span></li>
+      <li><a href="databases-geometry.html">geometry</a> <span class="count">(1)</span></li>
+      <li><a href="databases-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="databases-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="databases-graphs.html">graphs</a> <span class="count">(4)</span></li>
+      <li><a href="databases-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="databases-json.html">json</a> <span class="count">(1)</span></li>
+      <li><a href="databases-jupyter.html">jupyter</a> <span class="count">(2)</span></li>
+      <li><a href="databases-kernels.html">kernels</a> <span class="count">(1)</span></li>
+      <li><a href="databases-llms-rag.html">llms-rag</a> <span class="count">(1)</span></li>
+      <li><a href="databases-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="databases-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="databases-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="databases-mongodb.html">mongodb</a> <span class="count">(7)</span></li>
+      <li><a href="databases-mysql.html">mysql</a> <span class="count">(2)</span></li>
+      <li><a href="databases-neo4j.html">neo4j</a> <span class="count">(1)</span></li>
+      <li><a href="databases-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="databases-nosql.html">nosql</a> <span class="count">(4)</span></li>
+      <li><a href="databases-nvidia.html">nvidia</a> <span class="count">(1)</span></li>
+      <li><a href="databases-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="databases-parquet.html">parquet</a> <span class="count">(1)</span></li>
+      <li><a href="databases-postgres.html">postgres</a> <span class="count">(12)</span></li>
+      <li><a href="databases-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="databases-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="databases-redis.html">redis</a> <span class="count">(3)</span></li>
+      <li><a href="databases-rubyonrails.html">rubyonrails</a> <span class="count">(6)</span></li>
+      <li><a href="databases-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="databases-sql.html">sql</a> <span class="count">(10)</span></li>
+      <li><a href="databases-sqlite.html">sqlite</a> <span class="count">(8)</span></li>
+      <li><a href="databases-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="databases-vector-databases.html">vector-databases</a> <span class="count">(5)</span></li>
+      <li><a href="databases-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="databases-word2vec.html">word2vec</a> <span class="count">(1)</span></li>
+      <li><a href="databases-yaml.html">yaml</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>health-medicine</strong></summary>
+    <ul>
+      <li><a href="health-medicine-hiking.html">hiking</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-history.html">history</a> <span class="count">(12)</span></li>
+      <li><a href="health-medicine-hunger.html">hunger</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-ideas.html">ideas</a> <span class="count">(4)</span></li>
+      <li><a href="health-medicine-image-classification.html">image-classification</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-india.html">india</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-influencers.html">influencers</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-inventions-innovation.html">inventions-innovation</a> <span class="count">(9)</span></li>
+      <li><a href="health-medicine-language-linguistics.html">language-linguistics</a> <span class="count">(3)</span></li>
+      <li><a href="health-medicine-laughter.html">laughter</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-memory-recall.html">memory-recall</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-okrs.html">okrs</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-practice.html">practice</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-public-policy.html">public-policy</a> <span class="count">(8)</span></li>
+      <li><a href="health-medicine-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-retire.html">retire</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-rituals.html">rituals</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-robotics.html">robotics</a> <span class="count">(3)</span></li>
+      <li><a href="health-medicine-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-startups.html">startups</a> <span class="count">(6)</span></li>
+      <li><a href="health-medicine-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="health-medicine-wv.html">wv</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-yoga.html">yoga</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>clothes</strong></summary>
+    <ul>
+      <li><a href="clothes-collecting-curation.html">collecting-curation</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-craftsmanship.html">craftsmanship</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-ecommerce.html">ecommerce</a> <span class="count">(7)</span></li>
+      <li><a href="clothes-fabric.html">fabric</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-fashion.html">fashion</a> <span class="count">(17)</span></li>
+      <li><a href="clothes-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-football.html">football</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-gifts.html">gifts</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-goodreads.html">goodreads</a> <span class="count">(5)</span></li>
+      <li><a href="clothes-history.html">history</a> <span class="count">(5)</span></li>
+      <li><a href="clothes-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-prodmgmt.html">prodmgmt</a> <span class="count">(10)</span></li>
+      <li><a href="clothes-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-quality.html">quality</a> <span class="count">(4)</span></li>
+      <li><a href="clothes-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-repair.html">repair</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-retail.html">retail</a> <span class="count">(3)</span></li>
+      <li><a href="clothes-returns.html">returns</a> <span class="count">(1)</span></li>
+      <li><a href="clothes-sports.html">sports</a> <span class="count">(3)</span></li>
+      <li><a href="clothes-startups.html">startups</a> <span class="count">(7)</span></li>
+      <li><a href="clothes-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="clothes-tshirts.html">tshirts</a> <span class="count">(5)</span></li>
+      <li><a href="clothes-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>audio</strong></summary>
+    <ul>
+      <li><a href="audio-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="audio-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="audio-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(2)</span></li>
+      <li><a href="audio-compression-encoding.html">compression-encoding</a> <span class="count">(2)</span></li>
+      <li><a href="audio-creepy.html">creepy</a> <span class="count">(1)</span></li>
+      <li><a href="audio-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="audio-datasets.html">datasets</a> <span class="count">(3)</span></li>
+      <li><a href="audio-deep-learning.html">deep-learning</a> <span class="count">(3)</span></li>
+      <li><a href="audio-design.html">design</a> <span class="count">(3)</span></li>
+      <li><a href="audio-disgust.html">disgust</a> <span class="count">(1)</span></li>
+      <li><a href="audio-dsp.html">dsp</a> <span class="count">(2)</span></li>
+      <li><a href="audio-fourier.html">fourier</a> <span class="count">(1)</span></li>
+      <li><a href="audio-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="audio-headphones.html">headphones</a> <span class="count">(2)</span></li>
+      <li><a href="audio-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="audio-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="audio-hugging-face.html">hugging-face</a> <span class="count">(1)</span></li>
+      <li><a href="audio-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="audio-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="audio-ipod.html">ipod</a> <span class="count">(1)</span></li>
+      <li><a href="audio-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="audio-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="audio-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="audio-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="audio-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="audio-music.html">music</a> <span class="count">(16)</span></li>
+      <li><a href="audio-podcast.html">podcast</a> <span class="count">(2)</span></li>
+      <li><a href="audio-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="audio-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="audio-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="audio-speech-recognition.html">speech-recognition</a> <span class="count">(2)</span></li>
+      <li><a href="audio-spotify.html">spotify</a> <span class="count">(2)</span></li>
+      <li><a href="audio-streaming.html">streaming</a> <span class="count">(4)</span></li>
+      <li><a href="audio-video.html">video</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>execution</strong></summary>
+    <ul>
+      <li><a href="execution-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="execution-fakes.html">fakes</a> <span class="count">(1)</span></li>
+      <li><a href="execution-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="execution-finance.html">finance</a> <span class="count">(2)</span></li>
+      <li><a href="execution-food-drink.html">food-drink</a> <span class="count">(4)</span></li>
+      <li><a href="execution-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="execution-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="execution-growth-hacks.html">growth-hacks</a> <span class="count">(2)</span></li>
+      <li><a href="execution-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="execution-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="execution-kanban.html">kanban</a> <span class="count">(1)</span></li>
+      <li><a href="execution-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="execution-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="execution-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="execution-management.html">management</a> <span class="count">(3)</span></li>
+      <li><a href="execution-meetings.html">meetings</a> <span class="count">(1)</span></li>
+      <li><a href="execution-metrics.html">metrics</a> <span class="count">(2)</span></li>
+      <li><a href="execution-morality.html">morality</a> <span class="count">(1)</span></li>
+      <li><a href="execution-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="execution-okrs.html">okrs</a> <span class="count">(6)</span></li>
+      <li><a href="execution-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="execution-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="execution-prodmgmt.html">prodmgmt</a> <span class="count">(26)</span></li>
+      <li><a href="execution-projmgmt.html">projmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="execution-quality.html">quality</a> <span class="count">(4)</span></li>
+      <li><a href="execution-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="execution-sap.html">sap</a> <span class="count">(1)</span></li>
+      <li><a href="execution-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="execution-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="execution-startups.html">startups</a> <span class="count">(5)</span></li>
+      <li><a href="execution-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="execution-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="execution-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="execution-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>images</strong></summary>
+    <ul>
+      <li><a href="images-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="images-intellectual-property.html">intellectual-property</a> <span class="count">(2)</span></li>
+      <li><a href="images-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="images-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="images-kernels.html">kernels</a> <span class="count">(1)</span></li>
+      <li><a href="images-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="images-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="images-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="images-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="images-memes.html">memes</a> <span class="count">(1)</span></li>
+      <li><a href="images-midjourney.html">midjourney</a> <span class="count">(1)</span></li>
+      <li><a href="images-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="images-photography.html">photography</a> <span class="count">(2)</span></li>
+      <li><a href="images-pinterest.html">pinterest</a> <span class="count">(5)</span></li>
+      <li><a href="images-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="images-plex.html">plex</a> <span class="count">(1)</span></li>
+      <li><a href="images-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="images-python.html">python</a> <span class="count">(7)</span></li>
+      <li><a href="images-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="images-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="images-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="images-satellite.html">satellite</a> <span class="count">(2)</span></li>
+      <li><a href="images-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="images-scikit-image.html">scikit-image</a> <span class="count">(4)</span></li>
+      <li><a href="images-search.html">search</a> <span class="count">(6)</span></li>
+      <li><a href="images-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="images-svg.html">svg</a> <span class="count">(2)</span></li>
+      <li><a href="images-tensorflow.html">tensorflow</a> <span class="count">(2)</span></li>
+      <li><a href="images-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+      <li><a href="images-video.html">video</a> <span class="count">(3)</span></li>
+      <li><a href="images-vision.html">vision</a> <span class="count">(2)</span></li>
+      <li><a href="images-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="images-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+      <li><a href="images-webdev.html">webdev</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>circuits-electronics</strong></summary>
+    <ul>
+      <li><a href="circuits-electronics-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-dsp.html">dsp</a> <span class="count">(3)</span></li>
+      <li><a href="circuits-electronics-electricity.html">electricity</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-glossaries.html">glossaries</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-hbm.html">hbm</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-interconnects.html">interconnects</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-iot.html">iot</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-lidar.html">lidar</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-magnets.html">magnets</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-motors.html">motors</a> <span class="count">(3)</span></li>
+      <li><a href="circuits-electronics-networking.html">networking</a> <span class="count">(4)</span></li>
+      <li><a href="circuits-electronics-optics-photonics.html">optics-photonics</a> <span class="count">(3)</span></li>
+      <li><a href="circuits-electronics-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-quality.html">quality</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-radiation.html">radiation</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-radio.html">radio</a> <span class="count">(5)</span></li>
+      <li><a href="circuits-electronics-reading.html">reading</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-semiconductors.html">semiconductors</a> <span class="count">(37)</span></li>
+      <li><a href="circuits-electronics-sensors.html">sensors</a> <span class="count">(4)</span></li>
+      <li><a href="circuits-electronics-spice.html">spice</a> <span class="count">(2)</span></li>
+      <li><a href="circuits-electronics-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="circuits-electronics-verilog.html">verilog</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>collecting-curation</strong></summary>
+    <ul>
+      <li><a href="collecting-curation-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(3)</span></li>
+      <li><a href="collecting-curation-coolness-desire-envy.html">coolness-desire-envy</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-culture.html">culture</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-design.html">design</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-ecommerce.html">ecommerce</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-food-drink.html">food-drink</a> <span class="count">(5)</span></li>
+      <li><a href="collecting-curation-games.html">games</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-gaming.html">gaming</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-goodreads.html">goodreads</a> <span class="count">(9)</span></li>
+      <li><a href="collecting-curation-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-hobbies.html">hobbies</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-jazz.html">jazz</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-music.html">music</a> <span class="count">(12)</span></li>
+      <li><a href="collecting-curation-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-platforms.html">platforms</a> <span class="count">(3)</span></li>
+      <li><a href="collecting-curation-prodmgmt.html">prodmgmt</a> <span class="count">(9)</span></li>
+      <li><a href="collecting-curation-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="collecting-curation-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="collecting-curation-toys.html">toys</a> <span class="count">(5)</span></li>
+      <li><a href="collecting-curation-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>language-linguistics</strong></summary>
+    <ul>
+      <li><a href="language-linguistics-laughter.html">laughter</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-learning.html">learning</a> <span class="count">(4)</span></li>
+      <li><a href="language-linguistics-listening.html">listening</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="language-linguistics-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-memes.html">memes</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-memory-recall.html">memory-recall</a> <span class="count">(5)</span></li>
+      <li><a href="language-linguistics-mental-models.html">mental-models</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-movies-television.html">movies-television</a> <span class="count">(3)</span></li>
+      <li><a href="language-linguistics-music.html">music</a> <span class="count">(7)</span></li>
+      <li><a href="language-linguistics-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-naming.html">naming</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-nlp.html">nlp</a> <span class="count">(11)</span></li>
+      <li><a href="language-linguistics-nudging.html">nudging</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-reading.html">reading</a> <span class="count">(2)</span></li>
+      <li><a href="language-linguistics-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-seduction.html">seduction</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-simplicity.html">simplicity</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-smell.html">smell</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-speaking.html">speaking</a> <span class="count">(8)</span></li>
+      <li><a href="language-linguistics-storytelling.html">storytelling</a> <span class="count">(4)</span></li>
+      <li><a href="language-linguistics-symbols.html">symbols</a> <span class="count">(4)</span></li>
+      <li><a href="language-linguistics-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="language-linguistics-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="language-linguistics-writing.html">writing</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>marketing</strong></summary>
+    <ul>
+      <li><a href="marketing-messaging-telephony.html">messaging-telephony</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-movies-television.html">movies-television</a> <span class="count">(3)</span></li>
+      <li><a href="marketing-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="marketing-naming.html">naming</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-packaging.html">packaging</a> <span class="count">(5)</span></li>
+      <li><a href="marketing-personas.html">personas</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-positioning.html">positioning</a> <span class="count">(3)</span></li>
+      <li><a href="marketing-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-prodmgmt.html">prodmgmt</a> <span class="count">(37)</span></li>
+      <li><a href="marketing-reputation.html">reputation</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-retail.html">retail</a> <span class="count">(16)</span></li>
+      <li><a href="marketing-returns.html">returns</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-shaming.html">shaming</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-sports.html">sports</a> <span class="count">(4)</span></li>
+      <li><a href="marketing-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-surprise.html">surprise</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-tiktok.html">tiktok</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="marketing-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-virality.html">virality</a> <span class="count">(2)</span></li>
+      <li><a href="marketing-white-label.html">white-label</a> <span class="count">(1)</span></li>
+      <li><a href="marketing-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>china</strong></summary>
+    <ul>
+      <li><a href="china-clothes.html">clothes</a> <span class="count">(1)</span></li>
+      <li><a href="china-company-culture.html">company-culture</a> <span class="count">(1)</span></li>
+      <li><a href="china-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="china-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="china-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="china-culture.html">culture</a> <span class="count">(4)</span></li>
+      <li><a href="china-ecommerce.html">ecommerce</a> <span class="count">(2)</span></li>
+      <li><a href="china-economics.html">economics</a> <span class="count">(2)</span></li>
+      <li><a href="china-fabric.html">fabric</a> <span class="count">(1)</span></li>
+      <li><a href="china-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="china-foundries.html">foundries</a> <span class="count">(1)</span></li>
+      <li><a href="china-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="china-gpus.html">gpus</a> <span class="count">(2)</span></li>
+      <li><a href="china-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="china-history.html">history</a> <span class="count">(3)</span></li>
+      <li><a href="china-houses.html">houses</a> <span class="count">(1)</span></li>
+      <li><a href="china-influencers.html">influencers</a> <span class="count">(1)</span></li>
+      <li><a href="china-language-linguistics.html">language-linguistics</a> <span class="count">(4)</span></li>
+      <li><a href="china-low-cost.html">low-cost</a> <span class="count">(1)</span></li>
+      <li><a href="china-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="china-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="china-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="china-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="china-perfume.html">perfume</a> <span class="count">(1)</span></li>
+      <li><a href="china-public-policy.html">public-policy</a> <span class="count">(3)</span></li>
+      <li><a href="china-semiconductors.html">semiconductors</a> <span class="count">(9)</span></li>
+      <li><a href="china-smell.html">smell</a> <span class="count">(1)</span></li>
+      <li><a href="china-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="china-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="china-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="china-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="china-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>crypto</strong></summary>
+    <ul>
+      <li><a href="crypto-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="crypto-finance.html">finance</a> <span class="count">(5)</span></li>
+      <li><a href="crypto-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-goodreads.html">goodreads</a> <span class="count">(6)</span></li>
+      <li><a href="crypto-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-nft.html">nft</a> <span class="count">(6)</span></li>
+      <li><a href="crypto-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="crypto-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-pufs.html">pufs</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-quantum.html">quantum</a> <span class="count">(8)</span></li>
+      <li><a href="crypto-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-rubygems.html">rubygems</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-secrecy.html">secrecy</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-security.html">security</a> <span class="count">(4)</span></li>
+      <li><a href="crypto-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-sram.html">sram</a> <span class="count">(2)</span></li>
+      <li><a href="crypto-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-theft.html">theft</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-truecrime.html">truecrime</a> <span class="count">(2)</span></li>
+      <li><a href="crypto-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="crypto-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>astronomy-space</strong></summary>
+    <ul>
+      <li><a href="astronomy-space-autonomous-driving.html">autonomous-driving</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-aviation.html">aviation</a> <span class="count">(2)</span></li>
+      <li><a href="astronomy-space-best-practices.html">best-practices</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-biology.html">biology</a> <span class="count">(2)</span></li>
+      <li><a href="astronomy-space-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-datacenters.html">datacenters</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-execution.html">execution</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-goodreads.html">goodreads</a> <span class="count">(10)</span></li>
+      <li><a href="astronomy-space-groupthink.html">groupthink</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-history.html">history</a> <span class="count">(3)</span></li>
+      <li><a href="astronomy-space-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="astronomy-space-navigation.html">navigation</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="astronomy-space-physics.html">physics</a> <span class="count">(12)</span></li>
+      <li><a href="astronomy-space-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-risk.html">risk</a> <span class="count">(3)</span></li>
+      <li><a href="astronomy-space-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-rockets.html">rockets</a> <span class="count">(2)</span></li>
+      <li><a href="astronomy-space-satellite.html">satellite</a> <span class="count">(3)</span></li>
+      <li><a href="astronomy-space-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-statecraft.html">statecraft</a> <span class="count">(4)</span></li>
+      <li><a href="astronomy-space-thermal.html">thermal</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="astronomy-space-visualization.html">visualization</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>discovery</strong></summary>
+    <ul>
+      <li><a href="discovery-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-genetics.html">genetics</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-ideation.html">ideation</a> <span class="count">(4)</span></li>
+      <li><a href="discovery-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-interrogations.html">interrogations</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-interviewing.html">interviewing</a> <span class="count">(3)</span></li>
+      <li><a href="discovery-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="discovery-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-mvp.html">mvp</a> <span class="count">(2)</span></li>
+      <li><a href="discovery-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(3)</span></li>
+      <li><a href="discovery-prodmgmt.html">prodmgmt</a> <span class="count">(53)</span></li>
+      <li><a href="discovery-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-search.html">search</a> <span class="count">(4)</span></li>
+      <li><a href="discovery-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="discovery-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="discovery-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="discovery-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>github</strong></summary>
+    <ul>
+      <li><a href="github-github-awesome.html">github-awesome</a> <span class="count">(4)</span></li>
+      <li><a href="github-gitlab.html">gitlab</a> <span class="count">(1)</span></li>
+      <li><a href="github-golang.html">golang</a> <span class="count">(1)</span></li>
+      <li><a href="github-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="github-heroku.html">heroku</a> <span class="count">(1)</span></li>
+      <li><a href="github-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="github-jekyll.html">jekyll</a> <span class="count">(3)</span></li>
+      <li><a href="github-jupyter.html">jupyter</a> <span class="count">(2)</span></li>
+      <li><a href="github-latex.html">latex</a> <span class="count">(2)</span></li>
+      <li><a href="github-linkedin.html">linkedin</a> <span class="count">(1)</span></li>
+      <li><a href="github-llms.html">llms</a> <span class="count">(6)</span></li>
+      <li><a href="github-markdown.html">markdown</a> <span class="count">(2)</span></li>
+      <li><a href="github-market-basket.html">market-basket</a> <span class="count">(1)</span></li>
+      <li><a href="github-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="github-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="github-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="github-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="github-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="github-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="github-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="github-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="github-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="github-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="github-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="github-sed.html">sed</a> <span class="count">(1)</span></li>
+      <li><a href="github-similarity-search.html">similarity-search</a> <span class="count">(1)</span></li>
+      <li><a href="github-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="github-ssh.html">ssh</a> <span class="count">(1)</span></li>
+      <li><a href="github-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="github-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="github-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>javascript</strong></summary>
+    <ul>
+      <li><a href="javascript-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-lodash.html">lodash</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-markdown.html">markdown</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-meteorjs.html">meteorjs</a> <span class="count">(5)</span></li>
+      <li><a href="javascript-mongodb.html">mongodb</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-nextjs.html">nextjs</a> <span class="count">(4)</span></li>
+      <li><a href="javascript-nodejs.html">nodejs</a> <span class="count">(12)</span></li>
+      <li><a href="javascript-npm.html">npm</a> <span class="count">(8)</span></li>
+      <li><a href="javascript-packages.html">packages</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-reactjs.html">reactjs</a> <span class="count">(13)</span></li>
+      <li><a href="javascript-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="javascript-rubyonrails.html">rubyonrails</a> <span class="count">(7)</span></li>
+      <li><a href="javascript-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-sveltejs.html">sveltejs</a> <span class="count">(7)</span></li>
+      <li><a href="javascript-svg.html">svg</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-typescript.html">typescript</a> <span class="count">(4)</span></li>
+      <li><a href="javascript-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="javascript-visualization.html">visualization</a> <span class="count">(6)</span></li>
+      <li><a href="javascript-vue.html">vue</a> <span class="count">(6)</span></li>
+      <li><a href="javascript-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="javascript-webdev.html">webdev</a> <span class="count">(24)</span></li>
+      <li><a href="javascript-webpack.html">webpack</a> <span class="count">(3)</span></li>
+      <li><a href="javascript-webpacker.html">webpacker</a> <span class="count">(3)</span></li>
+      <li><a href="javascript-yarn.html">yarn</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bias</strong></summary>
+    <ul>
+      <li><a href="bias-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="bias-choices.html">choices</a> <span class="count">(1)</span></li>
+      <li><a href="bias-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="bias-confidence.html">confidence</a> <span class="count">(1)</span></li>
+      <li><a href="bias-conspiracies.html">conspiracies</a> <span class="count">(2)</span></li>
+      <li><a href="bias-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="bias-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="bias-curiosity.html">curiosity</a> <span class="count">(1)</span></li>
+      <li><a href="bias-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="bias-decisions.html">decisions</a> <span class="count">(3)</span></li>
+      <li><a href="bias-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="bias-face-recognition.html">face-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="bias-fallacies.html">fallacies</a> <span class="count">(1)</span></li>
+      <li><a href="bias-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="bias-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="bias-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="bias-imagination.html">imagination</a> <span class="count">(1)</span></li>
+      <li><a href="bias-influence-persuasion.html">influence-persuasion</a> <span class="count">(4)</span></li>
+      <li><a href="bias-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="bias-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="bias-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="bias-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="bias-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="bias-prospect-theory.html">prospect-theory</a> <span class="count">(2)</span></li>
+      <li><a href="bias-psychology.html">psychology</a> <span class="count">(2)</span></li>
+      <li><a href="bias-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="bias-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="bias-thinking.html">thinking</a> <span class="count">(2)</span></li>
+      <li><a href="bias-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="bias-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cpus</strong></summary>
+    <ul>
+      <li><a href="cpus-datacenters.html">datacenters</a> <span class="count">(4)</span></li>
+      <li><a href="cpus-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-deep-learning.html">deep-learning</a> <span class="count">(5)</span></li>
+      <li><a href="cpus-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-docker.html">docker</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-fpgas.html">fpgas</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-garbage-collection.html">garbage-collection</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-golang.html">golang</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-gpus.html">gpus</a> <span class="count">(12)</span></li>
+      <li><a href="cpus-hbm.html">hbm</a> <span class="count">(6)</span></li>
+      <li><a href="cpus-hpc.html">hpc</a> <span class="count">(3)</span></li>
+      <li><a href="cpus-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-interconnects.html">interconnects</a> <span class="count">(3)</span></li>
+      <li><a href="cpus-kubernetes.html">kubernetes</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-riscv.html">riscv</a> <span class="count">(4)</span></li>
+      <li><a href="cpus-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-semiconductors.html">semiconductors</a> <span class="count">(74)</span></li>
+      <li><a href="cpus-sram.html">sram</a> <span class="count">(9)</span></li>
+      <li><a href="cpus-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-tpu.html">tpu</a> <span class="count">(2)</span></li>
+      <li><a href="cpus-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>music</strong></summary>
+    <ul>
+      <li><a href="music-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="music-piracy.html">piracy</a> <span class="count">(2)</span></li>
+      <li><a href="music-platforms.html">platforms</a> <span class="count">(6)</span></li>
+      <li><a href="music-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="music-pricing.html">pricing</a> <span class="count">(4)</span></li>
+      <li><a href="music-prodmgmt.html">prodmgmt</a> <span class="count">(14)</span></li>
+      <li><a href="music-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="music-radio.html">radio</a> <span class="count">(10)</span></li>
+      <li><a href="music-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="music-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="music-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="music-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="music-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="music-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="music-spotify.html">spotify</a> <span class="count">(9)</span></li>
+      <li><a href="music-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="music-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="music-streaming.html">streaming</a> <span class="count">(6)</span></li>
+      <li><a href="music-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="music-tiktok.html">tiktok</a> <span class="count">(3)</span></li>
+      <li><a href="music-travel.html">travel</a> <span class="count">(4)</span></li>
+      <li><a href="music-tshirts.html">tshirts</a> <span class="count">(6)</span></li>
+      <li><a href="music-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="music-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="music-violin.html">violin</a> <span class="count">(3)</span></li>
+      <li><a href="music-virality.html">virality</a> <span class="count">(3)</span></li>
+      <li><a href="music-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="music-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+      <li><a href="music-wv.html">wv</a> <span class="count">(2)</span></li>
+      <li><a href="music-youtube.html">youtube</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>benchmarks</strong></summary>
+    <ul>
+      <li><a href="benchmarks-best-practices.html">best-practices</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-chatbots.html">chatbots</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-cloud.html">cloud</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-context-graphs.html">context-graphs</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-cpus.html">cpus</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-deep-learning.html">deep-learning</a> <span class="count">(6)</span></li>
+      <li><a href="benchmarks-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-gpus.html">gpus</a> <span class="count">(5)</span></li>
+      <li><a href="benchmarks-graphql.html">graphql</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-hpc.html">hpc</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-hyperparameters.html">hyperparameters</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-linear-algebra.html">linear-algebra</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-llms-agents.html">llms-agents</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-llms.html">llms</a> <span class="count">(21)</span></li>
+      <li><a href="benchmarks-machine-learning.html">machine-learning</a> <span class="count">(5)</span></li>
+      <li><a href="benchmarks-metrics.html">metrics</a> <span class="count">(3)</span></li>
+      <li><a href="benchmarks-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-object-detection.html">object-detection</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-paperswithcode.html">paperswithcode</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="benchmarks-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="benchmarks-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gpus</strong></summary>
+    <ul>
+      <li><a href="gpus-hbm.html">hbm</a> <span class="count">(16)</span></li>
+      <li><a href="gpus-hpc.html">hpc</a> <span class="count">(4)</span></li>
+      <li><a href="gpus-hyperparameters.html">hyperparameters</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-inference.html">inference</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-interconnects.html">interconnects</a> <span class="count">(7)</span></li>
+      <li><a href="gpus-linear-algebra.html">linear-algebra</a> <span class="count">(3)</span></li>
+      <li><a href="gpus-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="gpus-lithography.html">lithography</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-llms.html">llms</a> <span class="count">(6)</span></li>
+      <li><a href="gpus-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-numba.html">numba</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-nvidia.html">nvidia</a> <span class="count">(9)</span></li>
+      <li><a href="gpus-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="gpus-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="gpus-pytorch.html">pytorch</a> <span class="count">(4)</span></li>
+      <li><a href="gpus-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-semiconductors.html">semiconductors</a> <span class="count">(50)</span></li>
+      <li><a href="gpus-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-sram.html">sram</a> <span class="count">(8)</span></li>
+      <li><a href="gpus-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-tpu.html">tpu</a> <span class="count">(5)</span></li>
+      <li><a href="gpus-triton.html">triton</a> <span class="count">(2)</span></li>
+      <li><a href="gpus-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>learning</strong></summary>
+    <ul>
+      <li><a href="learning-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="learning-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="learning-lying.html">lying</a> <span class="count">(1)</span></li>
+      <li><a href="learning-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="learning-memory-recall.html">memory-recall</a> <span class="count">(4)</span></li>
+      <li><a href="learning-mental-models.html">mental-models</a> <span class="count">(3)</span></li>
+      <li><a href="learning-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="learning-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="learning-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="learning-okrs.html">okrs</a> <span class="count">(1)</span></li>
+      <li><a href="learning-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="learning-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="learning-pivots.html">pivots</a> <span class="count">(1)</span></li>
+      <li><a href="learning-polymaths.html">polymaths</a> <span class="count">(1)</span></li>
+      <li><a href="learning-post-mortems.html">post-mortems</a> <span class="count">(2)</span></li>
+      <li><a href="learning-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="learning-productivity-gtd.html">productivity-gtd</a> <span class="count">(3)</span></li>
+      <li><a href="learning-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="learning-reading.html">reading</a> <span class="count">(5)</span></li>
+      <li><a href="learning-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="learning-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="learning-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="learning-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="learning-startups.html">startups</a> <span class="count">(4)</span></li>
+      <li><a href="learning-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="learning-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="learning-values.html">values</a> <span class="count">(1)</span></li>
+      <li><a href="learning-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pricing</strong></summary>
+    <ul>
+      <li><a href="pricing-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-prodmgmt.html">prodmgmt</a> <span class="count">(123)</span></li>
+      <li><a href="pricing-prospect-theory.html">prospect-theory</a> <span class="count">(2)</span></li>
+      <li><a href="pricing-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-retail.html">retail</a> <span class="count">(6)</span></li>
+      <li><a href="pricing-risk.html">risk</a> <span class="count">(2)</span></li>
+      <li><a href="pricing-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="pricing-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-semiconductors.html">semiconductors</a> <span class="count">(5)</span></li>
+      <li><a href="pricing-sensitivity.html">sensitivity</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-simplicity.html">simplicity</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-snobbery.html">snobbery</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-sports.html">sports</a> <span class="count">(4)</span></li>
+      <li><a href="pricing-spotify.html">spotify</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-startups.html">startups</a> <span class="count">(4)</span></li>
+      <li><a href="pricing-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="pricing-subscriptions.html">subscriptions</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="pricing-tickets.html">tickets</a> <span class="count">(3)</span></li>
+      <li><a href="pricing-travel.html">travel</a> <span class="count">(2)</span></li>
+      <li><a href="pricing-value-prop.html">value-prop</a> <span class="count">(2)</span></li>
+      <li><a href="pricing-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>adtech-adwords</strong></summary>
+    <ul>
+      <li><a href="adtech-adwords-advertising-commercials.html">advertising-commercials</a> <span class="count">(26)</span></li>
+      <li><a href="adtech-adwords-analytics.html">analytics</a> <span class="count">(4)</span></li>
+      <li><a href="adtech-adwords-anonymity.html">anonymity</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-antitrust.html">antitrust</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-auctions.html">auctions</a> <span class="count">(4)</span></li>
+      <li><a href="adtech-adwords-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-brandmgmt.html">brandmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-browsers.html">browsers</a> <span class="count">(3)</span></li>
+      <li><a href="adtech-adwords-ecommerce.html">ecommerce</a> <span class="count">(7)</span></li>
+      <li><a href="adtech-adwords-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-fraud.html">fraud</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(7)</span></li>
+      <li><a href="adtech-adwords-linkedin.html">linkedin</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="adtech-adwords-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="adtech-adwords-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-seo.html">seo</a> <span class="count">(4)</span></li>
+      <li><a href="adtech-adwords-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="adtech-adwords-webdev.html">webdev</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>apis</strong></summary>
+    <ul>
+      <li><a href="apis-benchmarks.html">benchmarks</a> <span class="count">(1)</span></li>
+      <li><a href="apis-circuits-electronics.html">circuits-electronics</a> <span class="count">(3)</span></li>
+      <li><a href="apis-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="apis-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="apis-geofencing.html">geofencing</a> <span class="count">(1)</span></li>
+      <li><a href="apis-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="apis-graphql.html">graphql</a> <span class="count">(2)</span></li>
+      <li><a href="apis-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="apis-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="apis-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="apis-javascript.html">javascript</a> <span class="count">(2)</span></li>
+      <li><a href="apis-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="apis-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="apis-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="apis-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="apis-n8n.html">n8n</a> <span class="count">(1)</span></li>
+      <li><a href="apis-openai.html">openai</a> <span class="count">(1)</span></li>
+      <li><a href="apis-openrouter.html">openrouter</a> <span class="count">(1)</span></li>
+      <li><a href="apis-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="apis-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="apis-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="apis-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="apis-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="apis-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="apis-spotify.html">spotify</a> <span class="count">(1)</span></li>
+      <li><a href="apis-twitter.html">twitter</a> <span class="count">(2)</span></li>
+      <li><a href="apis-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>aviation</strong></summary>
+    <ul>
+      <li><a href="aviation-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-france.html">france</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-goodreads.html">goodreads</a> <span class="count">(7)</span></li>
+      <li><a href="aviation-history.html">history</a> <span class="count">(5)</span></li>
+      <li><a href="aviation-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-motors.html">motors</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-navigation.html">navigation</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-personal.html">personal</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-post-mortems.html">post-mortems</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-rockets.html">rockets</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-safety.html">safety</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-startups.html">startups</a> <span class="count">(4)</span></li>
+      <li><a href="aviation-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="aviation-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="aviation-travel.html">travel</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>brandmgmt</strong></summary>
+    <ul>
+      <li><a href="brandmgmt-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-coolness-desire-envy.html">coolness-desire-envy</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-ecommerce.html">ecommerce</a> <span class="count">(4)</span></li>
+      <li><a href="brandmgmt-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-food-drink.html">food-drink</a> <span class="count">(4)</span></li>
+      <li><a href="brandmgmt-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-luxury.html">luxury</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-marketing.html">marketing</a> <span class="count">(13)</span></li>
+      <li><a href="brandmgmt-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-naming.html">naming</a> <span class="count">(9)</span></li>
+      <li><a href="brandmgmt-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-piracy.html">piracy</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-positioning.html">positioning</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-prodmgmt.html">prodmgmt</a> <span class="count">(12)</span></li>
+      <li><a href="brandmgmt-reputation.html">reputation</a> <span class="count">(2)</span></li>
+      <li><a href="brandmgmt-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="brandmgmt-rivalry.html">rivalry</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-shaming.html">shaming</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-storytelling.html">storytelling</a> <span class="count">(3)</span></li>
+      <li><a href="brandmgmt-trademarks.html">trademarks</a> <span class="count">(1)</span></li>
+      <li><a href="brandmgmt-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>inventions-innovation</strong></summary>
+    <ul>
+      <li><a href="inventions-innovation-ipod.html">ipod</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-magnets.html">magnets</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-materials.html">materials</a> <span class="count">(10)</span></li>
+      <li><a href="inventions-innovation-motors.html">motors</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-mvp.html">mvp</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-paint.html">paint</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-physical-products.html">physical-products</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-physics.html">physics</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-polymaths.html">polymaths</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-prodmgmt.html">prodmgmt</a> <span class="count">(11)</span></li>
+      <li><a href="inventions-innovation-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-semiconductors.html">semiconductors</a> <span class="count">(3)</span></li>
+      <li><a href="inventions-innovation-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-startups.html">startups</a> <span class="count">(5)</span></li>
+      <li><a href="inventions-innovation-steel.html">steel</a> <span class="count">(2)</span></li>
+      <li><a href="inventions-innovation-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-water.html">water</a> <span class="count">(1)</span></li>
+      <li><a href="inventions-innovation-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>platforms</strong></summary>
+    <ul>
+      <li><a href="platforms-plex.html">plex</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-pricing.html">pricing</a> <span class="count">(6)</span></li>
+      <li><a href="platforms-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-prodmgmt.html">prodmgmt</a> <span class="count">(140)</span></li>
+      <li><a href="platforms-reddit.html">reddit</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-semi-supervised.html">semi-supervised</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-shopify.html">shopify</a> <span class="count">(3)</span></li>
+      <li><a href="platforms-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-spotify.html">spotify</a> <span class="count">(2)</span></li>
+      <li><a href="platforms-startups.html">startups</a> <span class="count">(10)</span></li>
+      <li><a href="platforms-stickiness.html">stickiness</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-streaming.html">streaming</a> <span class="count">(6)</span></li>
+      <li><a href="platforms-subscriptions.html">subscriptions</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-telephones.html">telephones</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-tokens.html">tokens</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="platforms-twitter.html">twitter</a> <span class="count">(2)</span></li>
+      <li><a href="platforms-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="platforms-user-generated-content.html">user-generated-content</a> <span class="count">(2)</span></li>
+      <li><a href="platforms-virality.html">virality</a> <span class="count">(4)</span></li>
+      <li><a href="platforms-white-label.html">white-label</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linux</strong></summary>
+    <ul>
+      <li><a href="linux-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="linux-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="linux-make.html">make</a> <span class="count">(2)</span></li>
+      <li><a href="linux-malware.html">malware</a> <span class="count">(2)</span></li>
+      <li><a href="linux-mongodb.html">mongodb</a> <span class="count">(1)</span></li>
+      <li><a href="linux-mysql.html">mysql</a> <span class="count">(1)</span></li>
+      <li><a href="linux-networking.html">networking</a> <span class="count">(8)</span></li>
+      <li><a href="linux-packages.html">packages</a> <span class="count">(4)</span></li>
+      <li><a href="linux-pdfs.html">pdfs</a> <span class="count">(4)</span></li>
+      <li><a href="linux-pip.html">pip</a> <span class="count">(1)</span></li>
+      <li><a href="linux-postgres.html">postgres</a> <span class="count">(3)</span></li>
+      <li><a href="linux-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="linux-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="linux-regexes.html">regexes</a> <span class="count">(3)</span></li>
+      <li><a href="linux-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="linux-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="linux-security.html">security</a> <span class="count">(3)</span></li>
+      <li><a href="linux-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="linux-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="linux-ssh.html">ssh</a> <span class="count">(9)</span></li>
+      <li><a href="linux-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="linux-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="linux-ubuntu.html">ubuntu</a> <span class="count">(11)</span></li>
+      <li><a href="linux-video.html">video</a> <span class="count">(4)</span></li>
+      <li><a href="linux-webdev.html">webdev</a> <span class="count">(4)</span></li>
+      <li><a href="linux-yaml.html">yaml</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nlp</strong></summary>
+    <ul>
+      <li><a href="nlp-nltk.html">nltk</a> <span class="count">(2)</span></li>
+      <li><a href="nlp-nodejs.html">nodejs</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-nvidia.html">nvidia</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-ocr.html">ocr</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-python.html">python</a> <span class="count">(9)</span></li>
+      <li><a href="nlp-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="nlp-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-search.html">search</a> <span class="count">(4)</span></li>
+      <li><a href="nlp-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(12)</span></li>
+      <li><a href="nlp-spacy.html">spacy</a> <span class="count">(15)</span></li>
+      <li><a href="nlp-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-speech-recognition.html">speech-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-stable-diffusion.html">stable-diffusion</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-text.html">text</a> <span class="count">(5)</span></li>
+      <li><a href="nlp-tokens.html">tokens</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-topic-modeling.html">topic-modeling</a> <span class="count">(3)</span></li>
+      <li><a href="nlp-transformers.html">transformers</a> <span class="count">(4)</span></li>
+      <li><a href="nlp-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+      <li><a href="nlp-word2vec.html">word2vec</a> <span class="count">(3)</span></li>
+      <li><a href="nlp-wordclouds.html">wordclouds</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chip-design</strong></summary>
+    <ul>
+      <li><a href="chip-design-circuits-electronics.html">circuits-electronics</a> <span class="count">(7)</span></li>
+      <li><a href="chip-design-cpus.html">cpus</a> <span class="count">(22)</span></li>
+      <li><a href="chip-design-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="chip-design-execution.html">execution</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-foundries.html">foundries</a> <span class="count">(2)</span></li>
+      <li><a href="chip-design-fpgas.html">fpgas</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-gpus.html">gpus</a> <span class="count">(7)</span></li>
+      <li><a href="chip-design-hbm.html">hbm</a> <span class="count">(10)</span></li>
+      <li><a href="chip-design-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-inference.html">inference</a> <span class="count">(2)</span></li>
+      <li><a href="chip-design-interconnects.html">interconnects</a> <span class="count">(7)</span></li>
+      <li><a href="chip-design-lithography.html">lithography</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-llms.html">llms</a> <span class="count">(3)</span></li>
+      <li><a href="chip-design-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-packaging.html">packaging</a> <span class="count">(3)</span></li>
+      <li><a href="chip-design-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-riscv.html">riscv</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-semiconductor-memory.html">semiconductor-memory</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-semiconductors.html">semiconductors</a> <span class="count">(94)</span></li>
+      <li><a href="chip-design-spice.html">spice</a> <span class="count">(4)</span></li>
+      <li><a href="chip-design-sram.html">sram</a> <span class="count">(14)</span></li>
+      <li><a href="chip-design-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="chip-design-thermal.html">thermal</a> <span class="count">(4)</span></li>
+      <li><a href="chip-design-tpu.html">tpu</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>company-culture</strong></summary>
+    <ul>
+      <li><a href="company-culture-culture.html">culture</a> <span class="count">(35)</span></li>
+      <li><a href="company-culture-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-ethics.html">ethics</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-gitlab.html">gitlab</a> <span class="count">(2)</span></li>
+      <li><a href="company-culture-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-gratitude.html">gratitude</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-groupthink.html">groupthink</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="company-culture-interviewing.html">interviewing</a> <span class="count">(3)</span></li>
+      <li><a href="company-culture-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-leadership.html">leadership</a> <span class="count">(7)</span></li>
+      <li><a href="company-culture-management.html">management</a> <span class="count">(3)</span></li>
+      <li><a href="company-culture-motivation.html">motivation</a> <span class="count">(2)</span></li>
+      <li><a href="company-culture-onboarding.html">onboarding</a> <span class="count">(2)</span></li>
+      <li><a href="company-culture-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="company-culture-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-startups.html">startups</a> <span class="count">(7)</span></li>
+      <li><a href="company-culture-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="company-culture-values.html">values</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>animation</strong></summary>
+    <ul>
+      <li><a href="animation-apis.html">apis</a> <span class="count">(1)</span></li>
+      <li><a href="animation-cartoons.html">cartoons</a> <span class="count">(1)</span></li>
+      <li><a href="animation-css.html">css</a> <span class="count">(11)</span></li>
+      <li><a href="animation-deepfakes.html">deepfakes</a> <span class="count">(1)</span></li>
+      <li><a href="animation-design-patterns.html">design-patterns</a> <span class="count">(1)</span></li>
+      <li><a href="animation-design.html">design</a> <span class="count">(2)</span></li>
+      <li><a href="animation-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="animation-fonts-typography.html">fonts-typography</a> <span class="count">(1)</span></li>
+      <li><a href="animation-football.html">football</a> <span class="count">(1)</span></li>
+      <li><a href="animation-gifs.html">gifs</a> <span class="count">(3)</span></li>
+      <li><a href="animation-html.html">html</a> <span class="count">(3)</span></li>
+      <li><a href="animation-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="animation-images.html">images</a> <span class="count">(2)</span></li>
+      <li><a href="animation-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="animation-javascript.html">javascript</a> <span class="count">(6)</span></li>
+      <li><a href="animation-movies-television.html">movies-television</a> <span class="count">(4)</span></li>
+      <li><a href="animation-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="animation-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="animation-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="animation-svg.html">svg</a> <span class="count">(5)</span></li>
+      <li><a href="animation-ui-ux.html">ui-ux</a> <span class="count">(4)</span></li>
+      <li><a href="animation-video.html">video</a> <span class="count">(2)</span></li>
+      <li><a href="animation-visualization.html">visualization</a> <span class="count">(3)</span></li>
+      <li><a href="animation-webdev.html">webdev</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>leadership</strong></summary>
+    <ul>
+      <li><a href="leadership-listening.html">listening</a> <span class="count">(3)</span></li>
+      <li><a href="leadership-management.html">management</a> <span class="count">(11)</span></li>
+      <li><a href="leadership-meetings.html">meetings</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-motivation.html">motivation</a> <span class="count">(4)</span></li>
+      <li><a href="leadership-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-polymaths.html">polymaths</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-presentations-presenting.html">presentations-presenting</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-prioritization.html">prioritization</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-prodmgmt.html">prodmgmt</a> <span class="count">(14)</span></li>
+      <li><a href="leadership-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-purpose.html">purpose</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-speaking.html">speaking</a> <span class="count">(8)</span></li>
+      <li><a href="leadership-sports.html">sports</a> <span class="count">(2)</span></li>
+      <li><a href="leadership-startups.html">startups</a> <span class="count">(8)</span></li>
+      <li><a href="leadership-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-teamwork.html">teamwork</a> <span class="count">(4)</span></li>
+      <li><a href="leadership-trust.html">trust</a> <span class="count">(4)</span></li>
+      <li><a href="leadership-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-whistleblowing.html">whistleblowing</a> <span class="count">(1)</span></li>
+      <li><a href="leadership-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>movies-television</strong></summary>
+    <ul>
+      <li><a href="movies-television-music.html">music</a> <span class="count">(10)</span></li>
+      <li><a href="movies-television-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-platforms.html">platforms</a> <span class="count">(5)</span></li>
+      <li><a href="movies-television-plex.html">plex</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-prodmgmt.html">prodmgmt</a> <span class="count">(10)</span></li>
+      <li><a href="movies-television-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-scifi.html">scifi</a> <span class="count">(3)</span></li>
+      <li><a href="movies-television-speaking.html">speaking</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-sports.html">sports</a> <span class="count">(11)</span></li>
+      <li><a href="movies-television-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-storytelling.html">storytelling</a> <span class="count">(40)</span></li>
+      <li><a href="movies-television-streaming.html">streaming</a> <span class="count">(43)</span></li>
+      <li><a href="movies-television-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-travel.html">travel</a> <span class="count">(3)</span></li>
+      <li><a href="movies-television-tshirts.html">tshirts</a> <span class="count">(1)</span></li>
+      <li><a href="movies-television-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-video.html">video</a> <span class="count">(2)</span></li>
+      <li><a href="movies-television-writing.html">writing</a> <span class="count">(4)</span></li>
+      <li><a href="movies-television-youtube.html">youtube</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>aws</strong></summary>
+    <ul>
+      <li><a href="aws-azure.html">azure</a> <span class="count">(1)</span></li>
+      <li><a href="aws-bash.html">bash</a> <span class="count">(1)</span></li>
+      <li><a href="aws-cdns.html">cdns</a> <span class="count">(1)</span></li>
+      <li><a href="aws-cloud.html">cloud</a> <span class="count">(11)</span></li>
+      <li><a href="aws-containers.html">containers</a> <span class="count">(1)</span></li>
+      <li><a href="aws-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="aws-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="aws-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="aws-devops.html">devops</a> <span class="count">(16)</span></li>
+      <li><a href="aws-dns.html">dns</a> <span class="count">(1)</span></li>
+      <li><a href="aws-docker.html">docker</a> <span class="count">(1)</span></li>
+      <li><a href="aws-google-cloud.html">google-cloud</a> <span class="count">(1)</span></li>
+      <li><a href="aws-kubernetes.html">kubernetes</a> <span class="count">(1)</span></li>
+      <li><a href="aws-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="aws-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="aws-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="aws-nosql.html">nosql</a> <span class="count">(1)</span></li>
+      <li><a href="aws-openai.html">openai</a> <span class="count">(1)</span></li>
+      <li><a href="aws-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="aws-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="aws-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="aws-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="aws-sqlite.html">sqlite</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>browsers</strong></summary>
+    <ul>
+      <li><a href="browsers-crypto.html">crypto</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-css.html">css</a> <span class="count">(4)</span></li>
+      <li><a href="browsers-debugging.html">debugging</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-disruption.html">disruption</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-html.html">html</a> <span class="count">(6)</span></li>
+      <li><a href="browsers-http.html">http</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-javascript.html">javascript</a> <span class="count">(4)</span></li>
+      <li><a href="browsers-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-networking.html">networking</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-security.html">security</a> <span class="count">(3)</span></li>
+      <li><a href="browsers-seo.html">seo</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-svg.html">svg</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-web-crawlers.html">web-crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="browsers-webdev.html">webdev</a> <span class="count">(18)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>color</strong></summary>
+    <ul>
+      <li><a href="color-css.html">css</a> <span class="count">(7)</span></li>
+      <li><a href="color-design.html">design</a> <span class="count">(9)</span></li>
+      <li><a href="color-emotions.html">emotions</a> <span class="count">(2)</span></li>
+      <li><a href="color-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="color-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="color-html.html">html</a> <span class="count">(3)</span></li>
+      <li><a href="color-intellectual-property.html">intellectual-property</a> <span class="count">(3)</span></li>
+      <li><a href="color-language-linguistics.html">language-linguistics</a> <span class="count">(3)</span></li>
+      <li><a href="color-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="color-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="color-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="color-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="color-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="color-paint.html">paint</a> <span class="count">(1)</span></li>
+      <li><a href="color-patents.html">patents</a> <span class="count">(1)</span></li>
+      <li><a href="color-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="color-reactance.html">reactance</a> <span class="count">(1)</span></li>
+      <li><a href="color-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="color-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="color-trademarks.html">trademarks</a> <span class="count">(2)</span></li>
+      <li><a href="color-ui-ux.html">ui-ux</a> <span class="count">(9)</span></li>
+      <li><a href="color-vision.html">vision</a> <span class="count">(2)</span></li>
+      <li><a href="color-webdev.html">webdev</a> <span class="count">(8)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>creativity</strong></summary>
+    <ul>
+      <li><a href="creativity-drawing.html">drawing</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-ideas.html">ideas</a> <span class="count">(12)</span></li>
+      <li><a href="creativity-ideation.html">ideation</a> <span class="count">(14)</span></li>
+      <li><a href="creativity-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-imagination.html">imagination</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="creativity-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="creativity-play.html">play</a> <span class="count">(3)</span></li>
+      <li><a href="creativity-polymaths.html">polymaths</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="creativity-sarcasm.html">sarcasm</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-solitude.html">solitude</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="creativity-thinking.html">thinking</a> <span class="count">(5)</span></li>
+      <li><a href="creativity-toys.html">toys</a> <span class="count">(2)</span></li>
+      <li><a href="creativity-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="creativity-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>a-b</strong></summary>
+    <ul>
+      <li><a href="a-b-analytics.html">analytics</a> <span class="count">(39)</span></li>
+      <li><a href="a-b-bayes.html">bayes</a> <span class="count">(2)</span></li>
+      <li><a href="a-b-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-distributions.html">distributions</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-ecommerce.html">ecommerce</a> <span class="count">(4)</span></li>
+      <li><a href="a-b-email.html">email</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-experiments.html">experiments</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(2)</span></li>
+      <li><a href="a-b-landing-pages.html">landing-pages</a> <span class="count">(2)</span></li>
+      <li><a href="a-b-machine-learning.html">machine-learning</a> <span class="count">(3)</span></li>
+      <li><a href="a-b-market-basket.html">market-basket</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-prob-stats.html">prob-stats</a> <span class="count">(6)</span></li>
+      <li><a href="a-b-prodmgmt.html">prodmgmt</a> <span class="count">(10)</span></li>
+      <li><a href="a-b-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="a-b-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="a-b-survival-analysis.html">survival-analysis</a> <span class="count">(2)</span></li>
+      <li><a href="a-b-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="a-b-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>biology</strong></summary>
+    <ul>
+      <li><a href="biology-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="biology-botany.html">botany</a> <span class="count">(3)</span></li>
+      <li><a href="biology-chemistry.html">chemistry</a> <span class="count">(2)</span></li>
+      <li><a href="biology-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(3)</span></li>
+      <li><a href="biology-conservation.html">conservation</a> <span class="count">(2)</span></li>
+      <li><a href="biology-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="biology-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="biology-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="biology-experiments.html">experiments</a> <span class="count">(1)</span></li>
+      <li><a href="biology-forensics.html">forensics</a> <span class="count">(1)</span></li>
+      <li><a href="biology-genetics.html">genetics</a> <span class="count">(8)</span></li>
+      <li><a href="biology-goodreads.html">goodreads</a> <span class="count">(23)</span></li>
+      <li><a href="biology-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="biology-health-medicine.html">health-medicine</a> <span class="count">(10)</span></li>
+      <li><a href="biology-history.html">history</a> <span class="count">(3)</span></li>
+      <li><a href="biology-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="biology-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="biology-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="biology-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="biology-sleep.html">sleep</a> <span class="count">(1)</span></li>
+      <li><a href="biology-visualization.html">visualization</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>confidence</strong></summary>
+    <ul>
+      <li><a href="confidence-doubt.html">doubt</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-dunning-kruger.html">dunning-kruger</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-feedback.html">feedback</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-gestures.html">gestures</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-imposter-syndrome.html">imposter-syndrome</a> <span class="count">(4)</span></li>
+      <li><a href="confidence-influence-persuasion.html">influence-persuasion</a> <span class="count">(5)</span></li>
+      <li><a href="confidence-instinct-intuition.html">instinct-intuition</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="confidence-likeability.html">likeability</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-listening.html">listening</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-negotiation.html">negotiation</a> <span class="count">(2)</span></li>
+      <li><a href="confidence-presentations-presenting.html">presentations-presenting</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-speaking.html">speaking</a> <span class="count">(5)</span></li>
+      <li><a href="confidence-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="confidence-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>empathy</strong></summary>
+    <ul>
+      <li><a href="empathy-feedback.html">feedback</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-influence-persuasion.html">influence-persuasion</a> <span class="count">(6)</span></li>
+      <li><a href="empathy-kindness.html">kindness</a> <span class="count">(2)</span></li>
+      <li><a href="empathy-language-linguistics.html">language-linguistics</a> <span class="count">(2)</span></li>
+      <li><a href="empathy-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="empathy-listening.html">listening</a> <span class="count">(6)</span></li>
+      <li><a href="empathy-management.html">management</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-morality.html">morality</a> <span class="count">(2)</span></li>
+      <li><a href="empathy-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-negotiation.html">negotiation</a> <span class="count">(3)</span></li>
+      <li><a href="empathy-permission.html">permission</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-politeness.html">politeness</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-shaming.html">shaming</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="empathy-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+      <li><a href="empathy-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>failure</strong></summary>
+    <ul>
+      <li><a href="failure-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="failure-fusion.html">fusion</a> <span class="count">(1)</span></li>
+      <li><a href="failure-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="failure-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(5)</span></li>
+      <li><a href="failure-groupthink.html">groupthink</a> <span class="count">(1)</span></li>
+      <li><a href="failure-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="failure-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="failure-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="failure-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="failure-mp3.html">mp3</a> <span class="count">(1)</span></li>
+      <li><a href="failure-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="failure-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="failure-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="failure-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="failure-post-mortems.html">post-mortems</a> <span class="count">(4)</span></li>
+      <li><a href="failure-prodmgmt.html">prodmgmt</a> <span class="count">(15)</span></li>
+      <li><a href="failure-quality.html">quality</a> <span class="count">(2)</span></li>
+      <li><a href="failure-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="failure-startups.html">startups</a> <span class="count">(7)</span></li>
+      <li><a href="failure-static-sites.html">static-sites</a> <span class="count">(1)</span></li>
+      <li><a href="failure-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>graphs</strong></summary>
+    <ul>
+      <li><a href="graphs-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-info-theory.html">info-theory</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-llms-rag.html">llms-rag</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-llms.html">llms</a> <span class="count">(3)</span></li>
+      <li><a href="graphs-machine-learning.html">machine-learning</a> <span class="count">(15)</span></li>
+      <li><a href="graphs-matplotlib.html">matplotlib</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-maze.html">maze</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-neo4j.html">neo4j</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="graphs-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-python.html">python</a> <span class="count">(15)</span></li>
+      <li><a href="graphs-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="graphs-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-search.html">search</a> <span class="count">(3)</span></li>
+      <li><a href="graphs-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-topology.html">topology</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+      <li><a href="graphs-visualization.html">visualization</a> <span class="count">(2)</span></li>
+      <li><a href="graphs-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>intellectual-property</strong></summary>
+    <ul>
+      <li><a href="intellectual-property-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-legal.html">legal</a> <span class="count">(4)</span></li>
+      <li><a href="intellectual-property-logos.html">logos</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="intellectual-property-music.html">music</a> <span class="count">(5)</span></li>
+      <li><a href="intellectual-property-nft.html">nft</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-open-source.html">open-source</a> <span class="count">(2)</span></li>
+      <li><a href="intellectual-property-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-patents.html">patents</a> <span class="count">(7)</span></li>
+      <li><a href="intellectual-property-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="intellectual-property-prodmgmt.html">prodmgmt</a> <span class="count">(8)</span></li>
+      <li><a href="intellectual-property-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-semiconductors.html">semiconductors</a> <span class="count">(5)</span></li>
+      <li><a href="intellectual-property-smell.html">smell</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="intellectual-property-trademarks.html">trademarks</a> <span class="count">(3)</span></li>
+      <li><a href="intellectual-property-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>keywords-ppc-seo</strong></summary>
+    <ul>
+      <li><a href="keywords-ppc-seo-llms-gpt.html">llms-gpt</a> <span class="count">(2)</span></li>
+      <li><a href="keywords-ppc-seo-luxury.html">luxury</a> <span class="count">(2)</span></li>
+      <li><a href="keywords-ppc-seo-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="keywords-ppc-seo-marketing.html">marketing</a> <span class="count">(11)</span></li>
+      <li><a href="keywords-ppc-seo-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-platforms.html">platforms</a> <span class="count">(3)</span></li>
+      <li><a href="keywords-ppc-seo-prodmgmt.html">prodmgmt</a> <span class="count">(28)</span></li>
+      <li><a href="keywords-ppc-seo-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-reddit.html">reddit</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-sankey.html">sankey</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-search.html">search</a> <span class="count">(21)</span></li>
+      <li><a href="keywords-ppc-seo-shopify.html">shopify</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-vue.html">vue</a> <span class="count">(1)</span></li>
+      <li><a href="keywords-ppc-seo-web-crawlers.html">web-crawlers</a> <span class="count">(2)</span></li>
+      <li><a href="keywords-ppc-seo-webdev.html">webdev</a> <span class="count">(8)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>css</strong></summary>
+    <ul>
+      <li><a href="css-d3.html">d3</a> <span class="count">(1)</span></li>
+      <li><a href="css-design-patterns.html">design-patterns</a> <span class="count">(3)</span></li>
+      <li><a href="css-design.html">design</a> <span class="count">(29)</span></li>
+      <li><a href="css-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="css-fonts-typography.html">fonts-typography</a> <span class="count">(5)</span></li>
+      <li><a href="css-gkeep.html">gkeep</a> <span class="count">(1)</span></li>
+      <li><a href="css-html.html">html</a> <span class="count">(40)</span></li>
+      <li><a href="css-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="css-javascript.html">javascript</a> <span class="count">(12)</span></li>
+      <li><a href="css-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="css-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="css-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="css-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="css-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="css-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="css-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="css-svg.html">svg</a> <span class="count">(3)</span></li>
+      <li><a href="css-ui-ux.html">ui-ux</a> <span class="count">(26)</span></li>
+      <li><a href="css-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="css-webdev.html">webdev</a> <span class="count">(51)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>datacenters</strong></summary>
+    <ul>
+      <li><a href="datacenters-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-electricity.html">electricity</a> <span class="count">(8)</span></li>
+      <li><a href="datacenters-energy.html">energy</a> <span class="count">(3)</span></li>
+      <li><a href="datacenters-finance.html">finance</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-gallium-nitride.html">gallium-nitride</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-hbm.html">hbm</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-interconnects.html">interconnects</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-riscv.html">riscv</a> <span class="count">(1)</span></li>
+      <li><a href="datacenters-semiconductors.html">semiconductors</a> <span class="count">(10)</span></li>
+      <li><a href="datacenters-sram.html">sram</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-thermal.html">thermal</a> <span class="count">(3)</span></li>
+      <li><a href="datacenters-tpu.html">tpu</a> <span class="count">(2)</span></li>
+      <li><a href="datacenters-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>decisions</strong></summary>
+    <ul>
+      <li><a href="decisions-defaults.html">defaults</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-execution.html">execution</a> <span class="count">(4)</span></li>
+      <li><a href="decisions-focus-distractions.html">focus-distractions</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-instinct-intuition.html">instinct-intuition</a> <span class="count">(2)</span></li>
+      <li><a href="decisions-jobdef.html">jobdef</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-mental-models.html">mental-models</a> <span class="count">(3)</span></li>
+      <li><a href="decisions-menus.html">menus</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-nudging.html">nudging</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-prodmgmt.html">prodmgmt</a> <span class="count">(13)</span></li>
+      <li><a href="decisions-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="decisions-risk.html">risk</a> <span class="count">(3)</span></li>
+      <li><a href="decisions-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="decisions-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>jupyter</strong></summary>
+    <ul>
+      <li><a href="jupyter-kernels.html">kernels</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-latex.html">latex</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="jupyter-markdown.html">markdown</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-mcp.html">mcp</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-mongodb.html">mongodb</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-pyspark.html">pyspark</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-python.html">python</a> <span class="count">(10)</span></li>
+      <li><a href="jupyter-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="jupyter-venv.html">venv</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-visualization.html">visualization</a> <span class="count">(2)</span></li>
+      <li><a href="jupyter-voila.html">voila</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>antennas</strong></summary>
+    <ul>
+      <li><a href="antennas-astronomy-space.html">astronomy-space</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-autonomous-driving.html">autonomous-driving</a> <span class="count">(3)</span></li>
+      <li><a href="antennas-aviation.html">aviation</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-broadcasting.html">broadcasting</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-circuits-electronics.html">circuits-electronics</a> <span class="count">(18)</span></li>
+      <li><a href="antennas-ideas.html">ideas</a> <span class="count">(3)</span></li>
+      <li><a href="antennas-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-magnets.html">magnets</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-networking.html">networking</a> <span class="count">(2)</span></li>
+      <li><a href="antennas-optics-photonics.html">optics-photonics</a> <span class="count">(3)</span></li>
+      <li><a href="antennas-origami.html">origami</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-radar.html">radar</a> <span class="count">(3)</span></li>
+      <li><a href="antennas-radiation.html">radiation</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="antennas-satellite.html">satellite</a> <span class="count">(2)</span></li>
+      <li><a href="antennas-semiconductors.html">semiconductors</a> <span class="count">(5)</span></li>
+      <li><a href="antennas-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>blogging</strong></summary>
+    <ul>
+      <li><a href="blogging-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-golang.html">golang</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-hugo.html">hugo</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="blogging-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="blogging-writing.html">writing</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>career-jobs-work</strong></summary>
+    <ul>
+      <li><a href="career-jobs-work-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-company-culture.html">company-culture</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-documentation.html">documentation</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-interviewing.html">interviewing</a> <span class="count">(8)</span></li>
+      <li><a href="career-jobs-work-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="career-jobs-work-management.html">management</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="career-jobs-work-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cloud</strong></summary>
+    <ul>
+      <li><a href="cloud-cpus.html">cpus</a> <span class="count">(2)</span></li>
+      <li><a href="cloud-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-datacenters.html">datacenters</a> <span class="count">(2)</span></li>
+      <li><a href="cloud-devops.html">devops</a> <span class="count">(20)</span></li>
+      <li><a href="cloud-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-gatsby.html">gatsby</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-google-cloud.html">google-cloud</a> <span class="count">(2)</span></li>
+      <li><a href="cloud-gpus.html">gpus</a> <span class="count">(2)</span></li>
+      <li><a href="cloud-heroku.html">heroku</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="cloud-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-netlify.html">netlify</a> <span class="count">(4)</span></li>
+      <li><a href="cloud-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-rubyonrails.html">rubyonrails</a> <span class="count">(3)</span></li>
+      <li><a href="cloud-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-torrents.html">torrents</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-web-hosting.html">web-hosting</a> <span class="count">(1)</span></li>
+      <li><a href="cloud-webdev.html">webdev</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>crime</strong></summary>
+    <ul>
+      <li><a href="crime-crypto.html">crypto</a> <span class="count">(8)</span></li>
+      <li><a href="crime-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="crime-forensics.html">forensics</a> <span class="count">(2)</span></li>
+      <li><a href="crime-goodreads.html">goodreads</a> <span class="count">(49)</span></li>
+      <li><a href="crime-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="crime-history.html">history</a> <span class="count">(4)</span></li>
+      <li><a href="crime-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="crime-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="crime-mysteries.html">mysteries</a> <span class="count">(3)</span></li>
+      <li><a href="crime-nft.html">nft</a> <span class="count">(2)</span></li>
+      <li><a href="crime-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="crime-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="crime-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="crime-scifi.html">scifi</a> <span class="count">(1)</span></li>
+      <li><a href="crime-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="crime-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="crime-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="crime-truecrime.html">truecrime</a> <span class="count">(2)</span></li>
+      <li><a href="crime-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>custsvc</strong></summary>
+    <ul>
+      <li><a href="custsvc-discovery.html">discovery</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-ecommerce.html">ecommerce</a> <span class="count">(4)</span></li>
+      <li><a href="custsvc-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-faqs.html">faqs</a> <span class="count">(2)</span></li>
+      <li><a href="custsvc-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-gratitude.html">gratitude</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-loyalty.html">loyalty</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-prodmgmt.html">prodmgmt</a> <span class="count">(19)</span></li>
+      <li><a href="custsvc-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="custsvc-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>electricity</strong></summary>
+    <ul>
+      <li><a href="electricity-energy.html">energy</a> <span class="count">(9)</span></li>
+      <li><a href="electricity-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-hbm.html">hbm</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-magnets.html">magnets</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-materials.html">materials</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-mysteries.html">mysteries</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-networking.html">networking</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-physics.html">physics</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-public-policy.html">public-policy</a> <span class="count">(4)</span></li>
+      <li><a href="electricity-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-steel.html">steel</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="electricity-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="electricity-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fashion</strong></summary>
+    <ul>
+      <li><a href="fashion-goodreads.html">goodreads</a> <span class="count">(4)</span></li>
+      <li><a href="fashion-growth-hacks.html">growth-hacks</a> <span class="count">(2)</span></li>
+      <li><a href="fashion-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-luxury.html">luxury</a> <span class="count">(4)</span></li>
+      <li><a href="fashion-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="fashion-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="fashion-perfume.html">perfume</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="fashion-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="fashion-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="fashion-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="fashion-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="fashion-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-gpt</strong></summary>
+    <ul>
+      <li><a href="llms-gpt-markdown.html">markdown</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-nlp.html">nlp</a> <span class="count">(6)</span></li>
+      <li><a href="llms-gpt-numpy.html">numpy</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-openai.html">openai</a> <span class="count">(2)</span></li>
+      <li><a href="llms-gpt-pdfs.html">pdfs</a> <span class="count">(6)</span></li>
+      <li><a href="llms-gpt-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="llms-gpt-prompt-engineering.html">prompt-engineering</a> <span class="count">(10)</span></li>
+      <li><a href="llms-gpt-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="llms-gpt-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="llms-gpt-search.html">search</a> <span class="count">(3)</span></li>
+      <li><a href="llms-gpt-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-writing.html">writing</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>materials</strong></summary>
+    <ul>
+      <li><a href="materials-minerals.html">minerals</a> <span class="count">(3)</span></li>
+      <li><a href="materials-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="materials-paint.html">paint</a> <span class="count">(2)</span></li>
+      <li><a href="materials-physical-products.html">physical-products</a> <span class="count">(3)</span></li>
+      <li><a href="materials-physics.html">physics</a> <span class="count">(3)</span></li>
+      <li><a href="materials-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="materials-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="materials-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="materials-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="materials-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="materials-semiconductors.html">semiconductors</a> <span class="count">(12)</span></li>
+      <li><a href="materials-sensors.html">sensors</a> <span class="count">(1)</span></li>
+      <li><a href="materials-solar.html">solar</a> <span class="count">(1)</span></li>
+      <li><a href="materials-startups.html">startups</a> <span class="count">(7)</span></li>
+      <li><a href="materials-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="materials-steel.html">steel</a> <span class="count">(2)</span></li>
+      <li><a href="materials-superconductors.html">superconductors</a> <span class="count">(1)</span></li>
+      <li><a href="materials-supply-chain.html">supply-chain</a> <span class="count">(4)</span></li>
+      <li><a href="materials-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>anonymity</strong></summary>
+    <ul>
+      <li><a href="anonymity-art.html">art</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-charity.html">charity</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-china.html">china</a> <span class="count">(2)</span></li>
+      <li><a href="anonymity-clothes.html">clothes</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-documentaries.html">documentaries</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-kindness.html">kindness</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-privacy.html">privacy</a> <span class="count">(3)</span></li>
+      <li><a href="anonymity-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="anonymity-shaming.html">shaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>attention</strong></summary>
+    <ul>
+      <li><a href="attention-audio.html">audio</a> <span class="count">(1)</span></li>
+      <li><a href="attention-behaviors.html">behaviors</a> <span class="count">(8)</span></li>
+      <li><a href="attention-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="attention-convolutions.html">convolutions</a> <span class="count">(1)</span></li>
+      <li><a href="attention-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="attention-gans.html">gans</a> <span class="count">(1)</span></li>
+      <li><a href="attention-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="attention-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="attention-llms-attention.html">llms-attention</a> <span class="count">(10)</span></li>
+      <li><a href="attention-llms.html">llms</a> <span class="count">(7)</span></li>
+      <li><a href="attention-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="attention-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="attention-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="attention-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="attention-sram.html">sram</a> <span class="count">(2)</span></li>
+      <li><a href="attention-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="attention-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="attention-transformers.html">transformers</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>geography</strong></summary>
+    <ul>
+      <li><a href="geography-geometry.html">geometry</a> <span class="count">(1)</span></li>
+      <li><a href="geography-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="geography-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="geography-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="geography-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="geography-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="geography-machine-learning.html">machine-learning</a> <span class="count">(3)</span></li>
+      <li><a href="geography-magnets.html">magnets</a> <span class="count">(1)</span></li>
+      <li><a href="geography-maps.html">maps</a> <span class="count">(3)</span></li>
+      <li><a href="geography-matplotlib.html">matplotlib</a> <span class="count">(1)</span></li>
+      <li><a href="geography-pandas.html">pandas</a> <span class="count">(2)</span></li>
+      <li><a href="geography-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="geography-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="geography-python.html">python</a> <span class="count">(13)</span></li>
+      <li><a href="geography-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="geography-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="geography-satellite.html">satellite</a> <span class="count">(1)</span></li>
+      <li><a href="geography-visualization.html">visualization</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>habits</strong></summary>
+    <ul>
+      <li><a href="habits-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="habits-humility.html">humility</a> <span class="count">(1)</span></li>
+      <li><a href="habits-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="habits-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="habits-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="habits-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="habits-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="habits-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="habits-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="habits-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="habits-rituals.html">rituals</a> <span class="count">(2)</span></li>
+      <li><a href="habits-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="habits-stickiness.html">stickiness</a> <span class="count">(1)</span></li>
+      <li><a href="habits-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="habits-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="habits-values.html">values</a> <span class="count">(1)</span></li>
+      <li><a href="habits-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="habits-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>machine-vision</strong></summary>
+    <ul>
+      <li><a href="machine-vision-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-object-detection.html">object-detection</a> <span class="count">(8)</span></li>
+      <li><a href="machine-vision-paperswithcode.html">paperswithcode</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-pose-estimation.html">pose-estimation</a> <span class="count">(4)</span></li>
+      <li><a href="machine-vision-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="machine-vision-python.html">python</a> <span class="count">(5)</span></li>
+      <li><a href="machine-vision-pytorch.html">pytorch</a> <span class="count">(2)</span></li>
+      <li><a href="machine-vision-robotics.html">robotics</a> <span class="count">(2)</span></li>
+      <li><a href="machine-vision-scikit-image.html">scikit-image</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-semiconductors.html">semiconductors</a> <span class="count">(3)</span></li>
+      <li><a href="machine-vision-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="machine-vision-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-super-resolution.html">super-resolution</a> <span class="count">(2)</span></li>
+      <li><a href="machine-vision-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-tricks.html">tricks</a> <span class="count">(3)</span></li>
+      <li><a href="machine-vision-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>auctions</strong></summary>
+    <ul>
+      <li><a href="auctions-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-broadcasting.html">broadcasting</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-browsers.html">browsers</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-collusion.html">collusion</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-ecommerce.html">ecommerce</a> <span class="count">(2)</span></li>
+      <li><a href="auctions-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-game-theory.html">game-theory</a> <span class="count">(13)</span></li>
+      <li><a href="auctions-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="auctions-pricing.html">pricing</a> <span class="count">(8)</span></li>
+      <li><a href="auctions-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="auctions-seo.html">seo</a> <span class="count">(1)</span></li>
+      <li><a href="auctions-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>autonomous-driving</strong></summary>
+    <ul>
+      <li><a href="autonomous-driving-benchmarks.html">benchmarks</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-deep-learning.html">deep-learning</a> <span class="count">(3)</span></li>
+      <li><a href="autonomous-driving-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-lidar.html">lidar</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-machine-vision.html">machine-vision</a> <span class="count">(2)</span></li>
+      <li><a href="autonomous-driving-object-detection.html">object-detection</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-radar.html">radar</a> <span class="count">(4)</span></li>
+      <li><a href="autonomous-driving-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-ssh.html">ssh</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-taxes.html">taxes</a> <span class="count">(1)</span></li>
+      <li><a href="autonomous-driving-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bash</strong></summary>
+    <ul>
+      <li><a href="bash-command-line.html">command-line</a> <span class="count">(7)</span></li>
+      <li><a href="bash-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="bash-dns.html">dns</a> <span class="count">(1)</span></li>
+      <li><a href="bash-documentation.html">documentation</a> <span class="count">(1)</span></li>
+      <li><a href="bash-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="bash-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="bash-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="bash-linux.html">linux</a> <span class="count">(35)</span></li>
+      <li><a href="bash-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="bash-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="bash-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="bash-regexes.html">regexes</a> <span class="count">(1)</span></li>
+      <li><a href="bash-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="bash-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="bash-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="bash-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="bash-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>beauty</strong></summary>
+    <ul>
+      <li><a href="beauty-behaviors.html">behaviors</a> <span class="count">(3)</span></li>
+      <li><a href="beauty-bias.html">bias</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-confidence.html">confidence</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-france.html">france</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="beauty-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>coolness-desire-envy</strong></summary>
+    <ul>
+      <li><a href="coolness-desire-envy-ecommerce.html">ecommerce</a> <span class="count">(3)</span></li>
+      <li><a href="coolness-desire-envy-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-fashion.html">fashion</a> <span class="count">(2)</span></li>
+      <li><a href="coolness-desire-envy-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-hobbies.html">hobbies</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-influencers.html">influencers</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-luxury.html">luxury</a> <span class="count">(5)</span></li>
+      <li><a href="coolness-desire-envy-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-pricing.html">pricing</a> <span class="count">(3)</span></li>
+      <li><a href="coolness-desire-envy-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-retail.html">retail</a> <span class="count">(2)</span></li>
+      <li><a href="coolness-desire-envy-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="coolness-desire-envy-snobbery.html">snobbery</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deceit-deception</strong></summary>
+    <ul>
+      <li><a href="deceit-deception-games.html">games</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="deceit-deception-groupthink.html">groupthink</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-honesty.html">honesty</a> <span class="count">(2)</span></li>
+      <li><a href="deceit-deception-influence-persuasion.html">influence-persuasion</a> <span class="count">(5)</span></li>
+      <li><a href="deceit-deception-interrogations.html">interrogations</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-lying.html">lying</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-propaganda.html">propaganda</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-reviews.html">reviews</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="deceit-deception-truecrime.html">truecrime</a> <span class="count">(2)</span></li>
+      <li><a href="deceit-deception-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>design-patterns</strong></summary>
+    <ul>
+      <li><a href="design-patterns-ecommerce.html">ecommerce</a> <span class="count">(13)</span></li>
+      <li><a href="design-patterns-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-execution.html">execution</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-fonts-typography.html">fonts-typography</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-habits.html">habits</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-mobile.html">mobile</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="design-patterns-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="design-patterns-search.html">search</a> <span class="count">(3)</span></li>
+      <li><a href="design-patterns-ui-ux.html">ui-ux</a> <span class="count">(74)</span></li>
+      <li><a href="design-patterns-webdev.html">webdev</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>html</strong></summary>
+    <ul>
+      <li><a href="html-htmx.html">htmx</a> <span class="count">(1)</span></li>
+      <li><a href="html-http.html">http</a> <span class="count">(2)</span></li>
+      <li><a href="html-images.html">images</a> <span class="count">(4)</span></li>
+      <li><a href="html-javascript.html">javascript</a> <span class="count">(12)</span></li>
+      <li><a href="html-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="html-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(3)</span></li>
+      <li><a href="html-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="html-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="html-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+      <li><a href="html-sass.html">sass</a> <span class="count">(1)</span></li>
+      <li><a href="html-seo.html">seo</a> <span class="count">(1)</span></li>
+      <li><a href="html-svg.html">svg</a> <span class="count">(2)</span></li>
+      <li><a href="html-ui-ux.html">ui-ux</a> <span class="count">(10)</span></li>
+      <li><a href="html-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="html-web-scraping.html">web-scraping</a> <span class="count">(3)</span></li>
+      <li><a href="html-webdev.html">webdev</a> <span class="count">(30)</span></li>
+      <li><a href="html-yaml.html">yaml</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>public-policy</strong></summary>
+    <ul>
+      <li><a href="public-policy-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-realestate.html">realestate</a> <span class="count">(2)</span></li>
+      <li><a href="public-policy-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="public-policy-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-statecraft.html">statecraft</a> <span class="count">(9)</span></li>
+      <li><a href="public-policy-supply-chain.html">supply-chain</a> <span class="count">(4)</span></li>
+      <li><a href="public-policy-taxes.html">taxes</a> <span class="count">(2)</span></li>
+      <li><a href="public-policy-travel.html">travel</a> <span class="count">(2)</span></li>
+      <li><a href="public-policy-values.html">values</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-water.html">water</a> <span class="count">(1)</span></li>
+      <li><a href="public-policy-wv.html">wv</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>semiconductors</strong></summary>
+    <ul>
+      <li><a href="semiconductors-sensors.html">sensors</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-silicon-carbide.html">silicon-carbide</a> <span class="count">(3)</span></li>
+      <li><a href="semiconductors-spice.html">spice</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-sram.html">sram</a> <span class="count">(70)</span></li>
+      <li><a href="semiconductors-startups.html">startups</a> <span class="count">(10)</span></li>
+      <li><a href="semiconductors-substrates.html">substrates</a> <span class="count">(3)</span></li>
+      <li><a href="semiconductors-superconductors.html">superconductors</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-supply-chain.html">supply-chain</a> <span class="count">(14)</span></li>
+      <li><a href="semiconductors-testing.html">testing</a> <span class="count">(4)</span></li>
+      <li><a href="semiconductors-thermal.html">thermal</a> <span class="count">(5)</span></li>
+      <li><a href="semiconductors-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-tpu.html">tpu</a> <span class="count">(13)</span></li>
+      <li><a href="semiconductors-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-verilog.html">verilog</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductors-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>authentication</strong></summary>
+    <ul>
+      <li><a href="authentication-best-practices.html">best-practices</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-design-patterns.html">design-patterns</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-email.html">email</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-habits.html">habits</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-payments.html">payments</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-rubygems.html">rubygems</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="authentication-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-ssh.html">ssh</a> <span class="count">(2)</span></li>
+      <li><a href="authentication-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="authentication-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>batteries</strong></summary>
+    <ul>
+      <li><a href="batteries-chemistry.html">chemistry</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-china.html">china</a> <span class="count">(2)</span></li>
+      <li><a href="batteries-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-electricity.html">electricity</a> <span class="count">(4)</span></li>
+      <li><a href="batteries-energy.html">energy</a> <span class="count">(8)</span></li>
+      <li><a href="batteries-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="batteries-iphone.html">iphone</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-materials.html">materials</a> <span class="count">(7)</span></li>
+      <li><a href="batteries-minerals.html">minerals</a> <span class="count">(2)</span></li>
+      <li><a href="batteries-motors.html">motors</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-startups.html">startups</a> <span class="count">(4)</span></li>
+      <li><a href="batteries-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="batteries-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>email</strong></summary>
+    <ul>
+      <li><a href="email-gmail.html">gmail</a> <span class="count">(1)</span></li>
+      <li><a href="email-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="email-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="email-leadgen-leadmgmt.html">leadgen-leadmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="email-marketing.html">marketing</a> <span class="count">(10)</span></li>
+      <li><a href="email-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="email-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="email-onboarding.html">onboarding</a> <span class="count">(1)</span></li>
+      <li><a href="email-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="email-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="email-rubygems.html">rubygems</a> <span class="count">(1)</span></li>
+      <li><a href="email-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+      <li><a href="email-spam.html">spam</a> <span class="count">(1)</span></li>
+      <li><a href="email-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="email-wordpress.html">wordpress</a> <span class="count">(1)</span></li>
+      <li><a href="email-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>energy</strong></summary>
+    <ul>
+      <li><a href="energy-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="energy-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="energy-fusion.html">fusion</a> <span class="count">(2)</span></li>
+      <li><a href="energy-geology.html">geology</a> <span class="count">(1)</span></li>
+      <li><a href="energy-history.html">history</a> <span class="count">(6)</span></li>
+      <li><a href="energy-ideas.html">ideas</a> <span class="count">(6)</span></li>
+      <li><a href="energy-inventions-innovation.html">inventions-innovation</a> <span class="count">(5)</span></li>
+      <li><a href="energy-magnets.html">magnets</a> <span class="count">(1)</span></li>
+      <li><a href="energy-materials.html">materials</a> <span class="count">(5)</span></li>
+      <li><a href="energy-minerals.html">minerals</a> <span class="count">(1)</span></li>
+      <li><a href="energy-nuclear.html">nuclear</a> <span class="count">(1)</span></li>
+      <li><a href="energy-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="energy-public-policy.html">public-policy</a> <span class="count">(3)</span></li>
+      <li><a href="energy-solar.html">solar</a> <span class="count">(3)</span></li>
+      <li><a href="energy-startups.html">startups</a> <span class="count">(15)</span></li>
+      <li><a href="energy-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>grit-hustle-perseverance</strong></summary>
+    <ul>
+      <li><a href="grit-hustle-perseverance-habits.html">habits</a> <span class="count">(3)</span></li>
+      <li><a href="grit-hustle-perseverance-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="grit-hustle-perseverance-luck.html">luck</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-motivation.html">motivation</a> <span class="count">(5)</span></li>
+      <li><a href="grit-hustle-perseverance-objections.html">objections</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="grit-hustle-perseverance-productivity-gtd.html">productivity-gtd</a> <span class="count">(2)</span></li>
+      <li><a href="grit-hustle-perseverance-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="grit-hustle-perseverance-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="grit-hustle-perseverance-stoicism.html">stoicism</a> <span class="count">(2)</span></li>
+      <li><a href="grit-hustle-perseverance-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-agents</strong></summary>
+    <ul>
+      <li><a href="llms-agents-mcp.html">mcp</a> <span class="count">(2)</span></li>
+      <li><a href="llms-agents-nanobot.html">nanobot</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-paperswithcode.html">paperswithcode</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-prompt-engineering.html">prompt-engineering</a> <span class="count">(5)</span></li>
+      <li><a href="llms-agents-prospect-theory.html">prospect-theory</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="llms-agents-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="llms-agents-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-typescript.html">typescript</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rubyonrails</strong></summary>
+    <ul>
+      <li><a href="rubyonrails-search.html">search</a> <span class="count">(8)</span></li>
+      <li><a href="rubyonrails-security.html">security</a> <span class="count">(3)</span></li>
+      <li><a href="rubyonrails-similarity-search.html">similarity-search</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-sql.html">sql</a> <span class="count">(2)</span></li>
+      <li><a href="rubyonrails-sqlite.html">sqlite</a> <span class="count">(2)</span></li>
+      <li><a href="rubyonrails-static-sites.html">static-sites</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-sveltejs.html">sveltejs</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-web-servers.html">web-servers</a> <span class="count">(2)</span></li>
+      <li><a href="rubyonrails-webassembly.html">webassembly</a> <span class="count">(1)</span></li>
+      <li><a href="rubyonrails-webdev.html">webdev</a> <span class="count">(7)</span></li>
+      <li><a href="rubyonrails-webpack.html">webpack</a> <span class="count">(2)</span></li>
+      <li><a href="rubyonrails-webpacker.html">webpacker</a> <span class="count">(6)</span></li>
+      <li><a href="rubyonrails-websockets.html">websockets</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>agile</strong></summary>
+    <ul>
+      <li><a href="agile-ansible.html">ansible</a> <span class="count">(1)</span></li>
+      <li><a href="agile-ci-cd.html">ci-cd</a> <span class="count">(1)</span></li>
+      <li><a href="agile-containers.html">containers</a> <span class="count">(1)</span></li>
+      <li><a href="agile-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="agile-execution.html">execution</a> <span class="count">(2)</span></li>
+      <li><a href="agile-feature-engineering.html">feature-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="agile-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="agile-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="agile-jobstobedone.html">jobstobedone</a> <span class="count">(1)</span></li>
+      <li><a href="agile-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="agile-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="agile-projmgmt.html">projmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="agile-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="agile-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="agile-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>broadcasting</strong></summary>
+    <ul>
+      <li><a href="broadcasting-codecs.html">codecs</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-collecting-curation.html">collecting-curation</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-content-syndication.html">content-syndication</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-movies-television.html">movies-television</a> <span class="count">(6)</span></li>
+      <li><a href="broadcasting-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="broadcasting-spectrum.html">spectrum</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="broadcasting-streaming.html">streaming</a> <span class="count">(3)</span></li>
+      <li><a href="broadcasting-video.html">video</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>games</strong></summary>
+    <ul>
+      <li><a href="games-gaming.html">gaming</a> <span class="count">(1)</span></li>
+      <li><a href="games-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="games-go-game.html">go-game</a> <span class="count">(1)</span></li>
+      <li><a href="games-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="games-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="games-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="games-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="games-maps.html">maps</a> <span class="count">(2)</span></li>
+      <li><a href="games-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="games-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="games-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="games-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="games-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="games-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="games-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>generative</strong></summary>
+    <ul>
+      <li><a href="generative-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="generative-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="generative-image-generation.html">image-generation</a> <span class="count">(5)</span></li>
+      <li><a href="generative-llms-gpt.html">llms-gpt</a> <span class="count">(4)</span></li>
+      <li><a href="generative-llms.html">llms</a> <span class="count">(7)</span></li>
+      <li><a href="generative-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="generative-midjourney.html">midjourney</a> <span class="count">(2)</span></li>
+      <li><a href="generative-mistral.html">mistral</a> <span class="count">(1)</span></li>
+      <li><a href="generative-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="generative-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="generative-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="generative-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="generative-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="generative-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="generative-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hbm</strong></summary>
+    <ul>
+      <li><a href="hbm-hpc.html">hpc</a> <span class="count">(1)</span></li>
+      <li><a href="hbm-inference.html">inference</a> <span class="count">(2)</span></li>
+      <li><a href="hbm-interconnects.html">interconnects</a> <span class="count">(10)</span></li>
+      <li><a href="hbm-llms-attention.html">llms-attention</a> <span class="count">(2)</span></li>
+      <li><a href="hbm-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="hbm-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="hbm-nvidia.html">nvidia</a> <span class="count">(3)</span></li>
+      <li><a href="hbm-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="hbm-packaging.html">packaging</a> <span class="count">(3)</span></li>
+      <li><a href="hbm-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="hbm-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="hbm-semiconductors.html">semiconductors</a> <span class="count">(59)</span></li>
+      <li><a href="hbm-sram.html">sram</a> <span class="count">(20)</span></li>
+      <li><a href="hbm-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="hbm-tpu.html">tpu</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>agriculture</strong></summary>
+    <ul>
+      <li><a href="agriculture-animals.html">animals</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-botany.html">botany</a> <span class="count">(3)</span></li>
+      <li><a href="agriculture-conservation.html">conservation</a> <span class="count">(2)</span></li>
+      <li><a href="agriculture-crime.html">crime</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-energy.html">energy</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-failure.html">failure</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-food-drink.html">food-drink</a> <span class="count">(2)</span></li>
+      <li><a href="agriculture-goodreads.html">goodreads</a> <span class="count">(7)</span></li>
+      <li><a href="agriculture-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="agriculture-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>autoencoders</strong></summary>
+    <ul>
+      <li><a href="autoencoders-clustering.html">clustering</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-compression-encoding.html">compression-encoding</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-deep-learning.html">deep-learning</a> <span class="count">(12)</span></li>
+      <li><a href="autoencoders-gans.html">gans</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-generative.html">generative</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-machine-learning.html">machine-learning</a> <span class="count">(5)</span></li>
+      <li><a href="autoencoders-model-compression.html">model-compression</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-pca.html">pca</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-pytorch.html">pytorch</a> <span class="count">(2)</span></li>
+      <li><a href="autoencoders-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-streamlit.html">streamlit</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-svd.html">svd</a> <span class="count">(1)</span></li>
+      <li><a href="autoencoders-variational.html">variational</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>clustering</strong></summary>
+    <ul>
+      <li><a href="clustering-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-gaussian.html">gaussian</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-graphs.html">graphs</a> <span class="count">(3)</span></li>
+      <li><a href="clustering-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-machine-learning.html">machine-learning</a> <span class="count">(22)</span></li>
+      <li><a href="clustering-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-model-compression.html">model-compression</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-python.html">python</a> <span class="count">(5)</span></li>
+      <li><a href="clustering-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-spatial.html">spatial</a> <span class="count">(2)</span></li>
+      <li><a href="clustering-topology.html">topology</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="clustering-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>containers</strong></summary>
+    <ul>
+      <li><a href="containers-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="containers-devops.html">devops</a> <span class="count">(22)</span></li>
+      <li><a href="containers-docker.html">docker</a> <span class="count">(13)</span></li>
+      <li><a href="containers-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="containers-heroku.html">heroku</a> <span class="count">(1)</span></li>
+      <li><a href="containers-kubernetes.html">kubernetes</a> <span class="count">(11)</span></li>
+      <li><a href="containers-linux.html">linux</a> <span class="count">(4)</span></li>
+      <li><a href="containers-llms-agents.html">llms-agents</a> <span class="count">(1)</span></li>
+      <li><a href="containers-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="containers-n8n.html">n8n</a> <span class="count">(1)</span></li>
+      <li><a href="containers-podman.html">podman</a> <span class="count">(2)</span></li>
+      <li><a href="containers-security.html">security</a> <span class="count">(3)</span></li>
+      <li><a href="containers-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="containers-testing.html">testing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>copywriting</strong></summary>
+    <ul>
+      <li><a href="copywriting-ecommerce.html">ecommerce</a> <span class="count">(3)</span></li>
+      <li><a href="copywriting-email.html">email</a> <span class="count">(2)</span></li>
+      <li><a href="copywriting-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-influence-persuasion.html">influence-persuasion</a> <span class="count">(3)</span></li>
+      <li><a href="copywriting-landing-pages.html">landing-pages</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-leadgen-leadmgmt.html">leadgen-leadmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="copywriting-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="copywriting-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="copywriting-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="copywriting-writing.html">writing</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>craftsmanship</strong></summary>
+    <ul>
+      <li><a href="craftsmanship-design.html">design</a> <span class="count">(2)</span></li>
+      <li><a href="craftsmanship-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="craftsmanship-grit-hustle-perseverance.html">grit-hustle-perseverance</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="craftsmanship-japan.html">japan</a> <span class="count">(2)</span></li>
+      <li><a href="craftsmanship-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="craftsmanship-physical-products.html">physical-products</a> <span class="count">(2)</span></li>
+      <li><a href="craftsmanship-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="craftsmanship-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>game-theory</strong></summary>
+    <ul>
+      <li><a href="game-theory-games.html">games</a> <span class="count">(6)</span></li>
+      <li><a href="game-theory-gaming.html">gaming</a> <span class="count">(2)</span></li>
+      <li><a href="game-theory-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-pca.html">pca</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-poker.html">poker</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-pricing.html">pricing</a> <span class="count">(11)</span></li>
+      <li><a href="game-theory-prodmgmt.html">prodmgmt</a> <span class="count">(8)</span></li>
+      <li><a href="game-theory-public-policy.html">public-policy</a> <span class="count">(3)</span></li>
+      <li><a href="game-theory-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-svd.html">svd</a> <span class="count">(1)</span></li>
+      <li><a href="game-theory-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>glossaries</strong></summary>
+    <ul>
+      <li><a href="glossaries-graphs.html">graphs</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="glossaries-mental-models.html">mental-models</a> <span class="count">(2)</span></li>
+      <li><a href="glossaries-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="glossaries-p2p.html">p2p</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="glossaries-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="glossaries-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="glossaries-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="glossaries-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>grocery</strong></summary>
+    <ul>
+      <li><a href="grocery-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-low-cost.html">low-cost</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="grocery-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="grocery-retail.html">retail</a> <span class="count">(15)</span></li>
+      <li><a href="grocery-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-seo.html">seo</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="grocery-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="grocery-white-label.html">white-label</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>heroku</strong></summary>
+    <ul>
+      <li><a href="heroku-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-llms-bert.html">llms-bert</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="heroku-mongodb.html">mongodb</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-netlify.html">netlify</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-nodejs.html">nodejs</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="heroku-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="heroku-rubyonrails.html">rubyonrails</a> <span class="count">(7)</span></li>
+      <li><a href="heroku-streamlit.html">streamlit</a> <span class="count">(4)</span></li>
+      <li><a href="heroku-webdev.html">webdev</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>japan</strong></summary>
+    <ul>
+      <li><a href="japan-jazz.html">jazz</a> <span class="count">(1)</span></li>
+      <li><a href="japan-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="japan-loneliness.html">loneliness</a> <span class="count">(1)</span></li>
+      <li><a href="japan-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="japan-minerals.html">minerals</a> <span class="count">(1)</span></li>
+      <li><a href="japan-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="japan-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="japan-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="japan-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="japan-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="japan-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="japan-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="japan-travel.html">travel</a> <span class="count">(7)</span></li>
+      <li><a href="japan-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cameras</strong></summary>
+    <ul>
+      <li><a href="cameras-circuits-electronics.html">circuits-electronics</a> <span class="count">(3)</span></li>
+      <li><a href="cameras-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-images.html">images</a> <span class="count">(2)</span></li>
+      <li><a href="cameras-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-machine-vision.html">machine-vision</a> <span class="count">(2)</span></li>
+      <li><a href="cameras-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="cameras-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="cameras-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chatbots</strong></summary>
+    <ul>
+      <li><a href="chatbots-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-deep-learning.html">deep-learning</a> <span class="count">(8)</span></li>
+      <li><a href="chatbots-generative.html">generative</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-ideas-commish.html">ideas-commish</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="chatbots-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-nlp.html">nlp</a> <span class="count">(9)</span></li>
+      <li><a href="chatbots-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>classification</strong></summary>
+    <ul>
+      <li><a href="classification-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="classification-entropy.html">entropy</a> <span class="count">(1)</span></li>
+      <li><a href="classification-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="classification-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="classification-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="classification-metrics.html">metrics</a> <span class="count">(3)</span></li>
+      <li><a href="classification-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="classification-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="classification-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="classification-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="classification-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="classification-text.html">text</a> <span class="count">(2)</span></li>
+      <li><a href="classification-unbalanced.html">unbalanced</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>documentation</strong></summary>
+    <ul>
+      <li><a href="documentation-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-markdown.html">markdown</a> <span class="count">(3)</span></li>
+      <li><a href="documentation-pdfs.html">pdfs</a> <span class="count">(2)</span></li>
+      <li><a href="documentation-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="documentation-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-telephones.html">telephones</a> <span class="count">(1)</span></li>
+      <li><a href="documentation-writing.html">writing</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>feature-engineering</strong></summary>
+    <ul>
+      <li><a href="feature-engineering-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-machine-learning.html">machine-learning</a> <span class="count">(15)</span></li>
+      <li><a href="feature-engineering-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="feature-engineering-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-scikit-learn.html">scikit-learn</a> <span class="count">(2)</span></li>
+      <li><a href="feature-engineering-text.html">text</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="feature-engineering-yellowbrick.html">yellowbrick</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>forecasting-predictions</strong></summary>
+    <ul>
+      <li><a href="forecasting-predictions-game-theory.html">game-theory</a> <span class="count">(3)</span></li>
+      <li><a href="forecasting-predictions-graphs.html">graphs</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-ideas-semex.html">ideas-semex</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="forecasting-predictions-monte-carlo.html">monte-carlo</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="forecasting-predictions-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="forecasting-predictions-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="forecasting-predictions-sales-ops-planning.html">sales-ops-planning</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="forecasting-predictions-supply-chain.html">supply-chain</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>friction-traction</strong></summary>
+    <ul>
+      <li><a href="friction-traction-growth-hacks.html">growth-hacks</a> <span class="count">(3)</span></li>
+      <li><a href="friction-traction-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-onboarding.html">onboarding</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-prodmgmt.html">prodmgmt</a> <span class="count">(18)</span></li>
+      <li><a href="friction-traction-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="friction-traction-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="friction-traction-user-generated-content.html">user-generated-content</a> <span class="count">(1)</span></li>
+      <li><a href="friction-traction-virality.html">virality</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prob-stats</strong></summary>
+    <ul>
+      <li><a href="prob-stats-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-python.html">python</a> <span class="count">(11)</span></li>
+      <li><a href="prob-stats-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="prob-stats-regressions.html">regressions</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-risk.html">risk</a> <span class="count">(3)</span></li>
+      <li><a href="prob-stats-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-scipy.html">scipy</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-simplicity.html">simplicity</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-survival-analysis.html">survival-analysis</a> <span class="count">(2)</span></li>
+      <li><a href="prob-stats-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="prob-stats-time-series.html">time-series</a> <span class="count">(2)</span></li>
+      <li><a href="prob-stats-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>africa</strong></summary>
+    <ul>
+      <li><a href="africa-animals.html">animals</a> <span class="count">(2)</span></li>
+      <li><a href="africa-art.html">art</a> <span class="count">(1)</span></li>
+      <li><a href="africa-audio.html">audio</a> <span class="count">(1)</span></li>
+      <li><a href="africa-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="africa-goodreads.html">goodreads</a> <span class="count">(5)</span></li>
+      <li><a href="africa-health-medicine.html">health-medicine</a> <span class="count">(2)</span></li>
+      <li><a href="africa-india.html">india</a> <span class="count">(1)</span></li>
+      <li><a href="africa-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="africa-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="africa-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="africa-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="africa-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>antitrust</strong></summary>
+    <ul>
+      <li><a href="antitrust-collusion.html">collusion</a> <span class="count">(2)</span></li>
+      <li><a href="antitrust-economics.html">economics</a> <span class="count">(2)</span></li>
+      <li><a href="antitrust-legal.html">legal</a> <span class="count">(2)</span></li>
+      <li><a href="antitrust-monopoly.html">monopoly</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="antitrust-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="antitrust-tickets.html">tickets</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>buildings</strong></summary>
+    <ul>
+      <li><a href="buildings-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="buildings-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="buildings-datasets.html">datasets</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-economics.html">economics</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="buildings-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-houses.html">houses</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-materials.html">materials</a> <span class="count">(4)</span></li>
+      <li><a href="buildings-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="buildings-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="buildings-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>communities</strong></summary>
+    <ul>
+      <li><a href="communities-copywriting.html">copywriting</a> <span class="count">(1)</span></li>
+      <li><a href="communities-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="communities-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="communities-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="communities-interviewing.html">interviewing</a> <span class="count">(1)</span></li>
+      <li><a href="communities-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="communities-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="communities-platforms.html">platforms</a> <span class="count">(6)</span></li>
+      <li><a href="communities-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="communities-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="communities-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="communities-user-generated-content.html">user-generated-content</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>conservation</strong></summary>
+    <ul>
+      <li><a href="conservation-disruption.html">disruption</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-dogs.html">dogs</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-goodreads.html">goodreads</a> <span class="count">(11)</span></li>
+      <li><a href="conservation-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-minerals.html">minerals</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-photography.html">photography</a> <span class="count">(1)</span></li>
+      <li><a href="conservation-public-policy.html">public-policy</a> <span class="count">(3)</span></li>
+      <li><a href="conservation-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deepfakes</strong></summary>
+    <ul>
+      <li><a href="deepfakes-face-recognition.html">face-recognition</a> <span class="count">(2)</span></li>
+      <li><a href="deepfakes-gans.html">gans</a> <span class="count">(1)</span></li>
+      <li><a href="deepfakes-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="deepfakes-image-generation.html">image-generation</a> <span class="count">(2)</span></li>
+      <li><a href="deepfakes-images.html">images</a> <span class="count">(3)</span></li>
+      <li><a href="deepfakes-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="deepfakes-machine-vision.html">machine-vision</a> <span class="count">(3)</span></li>
+      <li><a href="deepfakes-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="deepfakes-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="deepfakes-stable-diffusion.html">stable-diffusion</a> <span class="count">(1)</span></li>
+      <li><a href="deepfakes-video.html">video</a> <span class="count">(2)</span></li>
+      <li><a href="deepfakes-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dsp</strong></summary>
+    <ul>
+      <li><a href="dsp-filters.html">filters</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-fourier.html">fourier</a> <span class="count">(4)</span></li>
+      <li><a href="dsp-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-kalman-filters.html">kalman-filters</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-laplace.html">laplace</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="dsp-radio.html">radio</a> <span class="count">(5)</span></li>
+      <li><a href="dsp-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="dsp-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>growth-hacks</strong></summary>
+    <ul>
+      <li><a href="growth-hacks-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="growth-hacks-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(3)</span></li>
+      <li><a href="growth-hacks-leadgen-leadmgmt.html">leadgen-leadmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="growth-hacks-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="growth-hacks-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="growth-hacks-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="growth-hacks-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="growth-hacks-platforms.html">platforms</a> <span class="count">(3)</span></li>
+      <li><a href="growth-hacks-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="growth-hacks-prodmgmt.html">prodmgmt</a> <span class="count">(22)</span></li>
+      <li><a href="growth-hacks-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="growth-hacks-virality.html">virality</a> <span class="count">(11)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>r</strong></summary>
+    <ul>
+      <li><a href="r-regressions.html">regressions</a> <span class="count">(1)</span></li>
+      <li><a href="r-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="r-sales-ops-planning.html">sales-ops-planning</a> <span class="count">(1)</span></li>
+      <li><a href="r-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="r-shiny.html">shiny</a> <span class="count">(4)</span></li>
+      <li><a href="r-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="r-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="r-survival-analysis.html">survival-analysis</a> <span class="count">(3)</span></li>
+      <li><a href="r-text.html">text</a> <span class="count">(2)</span></li>
+      <li><a href="r-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="r-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="r-visualization.html">visualization</a> <span class="count">(11)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>retail</strong></summary>
+    <ul>
+      <li><a href="retail-returns.html">returns</a> <span class="count">(2)</span></li>
+      <li><a href="retail-rivalry.html">rivalry</a> <span class="count">(1)</span></li>
+      <li><a href="retail-safety.html">safety</a> <span class="count">(1)</span></li>
+      <li><a href="retail-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="retail-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="retail-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="retail-theft.html">theft</a> <span class="count">(1)</span></li>
+      <li><a href="retail-toys.html">toys</a> <span class="count">(2)</span></li>
+      <li><a href="retail-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="retail-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="retail-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="retail-white-label.html">white-label</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>search</strong></summary>
+    <ul>
+      <li><a href="search-semantic-search.html">semantic-search</a> <span class="count">(3)</span></li>
+      <li><a href="search-seo.html">seo</a> <span class="count">(7)</span></li>
+      <li><a href="search-similarity-search.html">similarity-search</a> <span class="count">(9)</span></li>
+      <li><a href="search-speech-recognition.html">speech-recognition</a> <span class="count">(1)</span></li>
+      <li><a href="search-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="search-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="search-tiktok.html">tiktok</a> <span class="count">(2)</span></li>
+      <li><a href="search-ui-ux.html">ui-ux</a> <span class="count">(7)</span></li>
+      <li><a href="search-vector-databases.html">vector-databases</a> <span class="count">(3)</span></li>
+      <li><a href="search-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="search-vue.html">vue</a> <span class="count">(1)</span></li>
+      <li><a href="search-webdev.html">webdev</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>climate-weather</strong></summary>
+    <ul>
+      <li><a href="climate-weather-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-geology.html">geology</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-goodreads.html">goodreads</a> <span class="count">(4)</span></li>
+      <li><a href="climate-weather-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-photography.html">photography</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-satellite.html">satellite</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="climate-weather-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cpp</strong></summary>
+    <ul>
+      <li><a href="cpp-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-cython.html">cython</a> <span class="count">(2)</span></li>
+      <li><a href="cpp-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-debugging.html">debugging</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-gcc.html">gcc</a> <span class="count">(2)</span></li>
+      <li><a href="cpp-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="cpp-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="cpp-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-redis.html">redis</a> <span class="count">(1)</span></li>
+      <li><a href="cpp-ruby.html">ruby</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>csv</strong></summary>
+    <ul>
+      <li><a href="csv-dask.html">dask</a> <span class="count">(1)</span></li>
+      <li><a href="csv-excel.html">excel</a> <span class="count">(1)</span></li>
+      <li><a href="csv-file-formats.html">file-formats</a> <span class="count">(1)</span></li>
+      <li><a href="csv-json.html">json</a> <span class="count">(2)</span></li>
+      <li><a href="csv-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="csv-llms-willison.html">llms-willison</a> <span class="count">(1)</span></li>
+      <li><a href="csv-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="csv-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="csv-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="csv-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="csv-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dask</strong></summary>
+    <ul>
+      <li><a href="dask-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="dask-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="dask-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="dask-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="dask-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="dask-numpy.html">numpy</a> <span class="count">(1)</span></li>
+      <li><a href="dask-nvidia.html">nvidia</a> <span class="count">(1)</span></li>
+      <li><a href="dask-pandas.html">pandas</a> <span class="count">(5)</span></li>
+      <li><a href="dask-python.html">python</a> <span class="count">(12)</span></li>
+      <li><a href="dask-sympy.html">sympy</a> <span class="count">(1)</span></li>
+      <li><a href="dask-vaex.html">vaex</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>data-structures</strong></summary>
+    <ul>
+      <li><a href="data-structures-geometry.html">geometry</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-graphs.html">graphs</a> <span class="count">(2)</span></li>
+      <li><a href="data-structures-javascript.html">javascript</a> <span class="count">(3)</span></li>
+      <li><a href="data-structures-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-maze.html">maze</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="data-structures-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="data-structures-sql.html">sql</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dns</strong></summary>
+    <ul>
+      <li><a href="dns-http.html">http</a> <span class="count">(1)</span></li>
+      <li><a href="dns-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="dns-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="dns-networking.html">networking</a> <span class="count">(2)</span></li>
+      <li><a href="dns-nosql.html">nosql</a> <span class="count">(1)</span></li>
+      <li><a href="dns-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="dns-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="dns-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="dns-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="dns-web-crawlers.html">web-crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="dns-webdev.html">webdev</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>docker</strong></summary>
+    <ul>
+      <li><a href="docker-heroku.html">heroku</a> <span class="count">(1)</span></li>
+      <li><a href="docker-kubernetes.html">kubernetes</a> <span class="count">(7)</span></li>
+      <li><a href="docker-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="docker-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="docker-n8n.html">n8n</a> <span class="count">(1)</span></li>
+      <li><a href="docker-podman.html">podman</a> <span class="count">(1)</span></li>
+      <li><a href="docker-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="docker-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="docker-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="docker-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="docker-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fonts-typography</strong></summary>
+    <ul>
+      <li><a href="fonts-typography-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-printing.html">printing</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="fonts-typography-svg.html">svg</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-ui-ux.html">ui-ux</a> <span class="count">(7)</span></li>
+      <li><a href="fonts-typography-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="fonts-typography-webdev.html">webdev</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>geometry</strong></summary>
+    <ul>
+      <li><a href="geometry-graphs.html">graphs</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-linear-algebra.html">linear-algebra</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-maze.html">maze</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-topology.html">topology</a> <span class="count">(1)</span></li>
+      <li><a href="geometry-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>git</strong></summary>
+    <ul>
+      <li><a href="git-github.html">github</a> <span class="count">(3)</span></li>
+      <li><a href="git-gitlab.html">gitlab</a> <span class="count">(1)</span></li>
+      <li><a href="git-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="git-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="git-notetaking.html">notetaking</a> <span class="count">(1)</span></li>
+      <li><a href="git-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="git-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="git-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="git-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="git-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="git-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hacking</strong></summary>
+    <ul>
+      <li><a href="hacking-iphone.html">iphone</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-security.html">security</a> <span class="count">(3)</span></li>
+      <li><a href="hacking-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="hacking-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="hacking-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>negotiation</strong></summary>
+    <ul>
+      <li><a href="negotiation-patience.html">patience</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-politeness.html">politeness</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="negotiation-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="negotiation-sports.html">sports</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>physical-products</strong></summary>
+    <ul>
+      <li><a href="physical-products-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="physical-products-prds-requirements.html">prds-requirements</a> <span class="count">(1)</span></li>
+      <li><a href="physical-products-pricing.html">pricing</a> <span class="count">(4)</span></li>
+      <li><a href="physical-products-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(2)</span></li>
+      <li><a href="physical-products-prodmgmt.html">prodmgmt</a> <span class="count">(16)</span></li>
+      <li><a href="physical-products-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="physical-products-repair.html">repair</a> <span class="count">(2)</span></li>
+      <li><a href="physical-products-startups.html">startups</a> <span class="count">(5)</span></li>
+      <li><a href="physical-products-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="physical-products-supply-chain.html">supply-chain</a> <span class="count">(4)</span></li>
+      <li><a href="physical-products-toys.html">toys</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pytorch</strong></summary>
+    <ul>
+      <li><a href="pytorch-recommenders.html">recommenders</a> <span class="count">(2)</span></li>
+      <li><a href="pytorch-self-supervised.html">self-supervised</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-sympy.html">sympy</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-tensorflow.html">tensorflow</a> <span class="count">(6)</span></li>
+      <li><a href="pytorch-transformers.html">transformers</a> <span class="count">(4)</span></li>
+      <li><a href="pytorch-triton.html">triton</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="pytorch-vision.html">vision</a> <span class="count">(2)</span></li>
+      <li><a href="pytorch-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>botany</strong></summary>
+    <ul>
+      <li><a href="botany-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="botany-climate-weather.html">climate-weather</a> <span class="count">(1)</span></li>
+      <li><a href="botany-conservation.html">conservation</a> <span class="count">(9)</span></li>
+      <li><a href="botany-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="botany-disruption.html">disruption</a> <span class="count">(1)</span></li>
+      <li><a href="botany-food-drink.html">food-drink</a> <span class="count">(5)</span></li>
+      <li><a href="botany-goodreads.html">goodreads</a> <span class="count">(16)</span></li>
+      <li><a href="botany-health-medicine.html">health-medicine</a> <span class="count">(2)</span></li>
+      <li><a href="botany-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="botany-pot.html">pot</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bundling</strong></summary>
+    <ul>
+      <li><a href="bundling-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="bundling-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="bundling-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="bundling-webpack.html">webpack</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>foundries</strong></summary>
+    <ul>
+      <li><a href="foundries-gallium-arsenide.html">gallium-arsenide</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-ideas-semex.html">ideas-semex</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-indium-phosphate.html">indium-phosphate</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-interconnects.html">interconnects</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="foundries-semiconductors.html">semiconductors</a> <span class="count">(17)</span></li>
+      <li><a href="foundries-sram.html">sram</a> <span class="count">(3)</span></li>
+      <li><a href="foundries-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hugging-face</strong></summary>
+    <ul>
+      <li><a href="hugging-face-llms-agents.html">llms-agents</a> <span class="count">(2)</span></li>
+      <li><a href="hugging-face-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-memes.html">memes</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="hugging-face-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="hugging-face-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ideation</strong></summary>
+    <ul>
+      <li><a href="ideation-inventions-innovation.html">inventions-innovation</a> <span class="count">(3)</span></li>
+      <li><a href="ideation-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-mvp.html">mvp</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-prodmgmt.html">prodmgmt</a> <span class="count">(19)</span></li>
+      <li><a href="ideation-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-startups.html">startups</a> <span class="count">(11)</span></li>
+      <li><a href="ideation-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="ideation-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linear-algebra</strong></summary>
+    <ul>
+      <li><a href="linear-algebra-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-numpy.html">numpy</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="linear-algebra-visualization.html">visualization</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-willison</strong></summary>
+    <ul>
+      <li><a href="llms-willison-malware.html">malware</a> <span class="count">(1)</span></li>
+      <li><a href="llms-willison-mistral.html">mistral</a> <span class="count">(4)</span></li>
+      <li><a href="llms-willison-ocr.html">ocr</a> <span class="count">(1)</span></li>
+      <li><a href="llms-willison-paperswithcode.html">paperswithcode</a> <span class="count">(1)</span></li>
+      <li><a href="llms-willison-pip.html">pip</a> <span class="count">(1)</span></li>
+      <li><a href="llms-willison-prompt-engineering.html">prompt-engineering</a> <span class="count">(4)</span></li>
+      <li><a href="llms-willison-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="llms-willison-sqlite.html">sqlite</a> <span class="count">(2)</span></li>
+      <li><a href="llms-willison-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="llms-willison-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>logistics-shipping</strong></summary>
+    <ul>
+      <li><a href="logistics-shipping-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-railroads-trains.html">railroads-trains</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-returns.html">returns</a> <span class="count">(2)</span></li>
+      <li><a href="logistics-shipping-shopify.html">shopify</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="logistics-shipping-supply-chain.html">supply-chain</a> <span class="count">(8)</span></li>
+      <li><a href="logistics-shipping-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>malware</strong></summary>
+    <ul>
+      <li><a href="malware-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="malware-qr.html">qr</a> <span class="count">(1)</span></li>
+      <li><a href="malware-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="malware-security.html">security</a> <span class="count">(4)</span></li>
+      <li><a href="malware-semiconductors.html">semiconductors</a> <span class="count">(3)</span></li>
+      <li><a href="malware-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="malware-subterfuge.html">subterfuge</a> <span class="count">(1)</span></li>
+      <li><a href="malware-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="malware-twitter.html">twitter</a> <span class="count">(1)</span></li>
+      <li><a href="malware-webdev.html">webdev</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>metrics</strong></summary>
+    <ul>
+      <li><a href="metrics-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="metrics-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="metrics-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="metrics-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="metrics-reasoning.html">reasoning</a> <span class="count">(2)</span></li>
+      <li><a href="metrics-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="metrics-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="metrics-startups.html">startups</a> <span class="count">(3)</span></li>
+      <li><a href="metrics-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="metrics-testing.html">testing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ruby</strong></summary>
+    <ul>
+      <li><a href="ruby-rubygems.html">rubygems</a> <span class="count">(13)</span></li>
+      <li><a href="ruby-rubyonrails.html">rubyonrails</a> <span class="count">(31)</span></li>
+      <li><a href="ruby-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-sinatra.html">sinatra</a> <span class="count">(7)</span></li>
+      <li><a href="ruby-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-webdev.html">webdev</a> <span class="count">(6)</span></li>
+      <li><a href="ruby-yaml.html">yaml</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>startups</strong></summary>
+    <ul>
+      <li><a href="startups-steel.html">steel</a> <span class="count">(1)</span></li>
+      <li><a href="startups-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="startups-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="startups-tickets.html">tickets</a> <span class="count">(1)</span></li>
+      <li><a href="startups-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="startups-tpu.html">tpu</a> <span class="count">(1)</span></li>
+      <li><a href="startups-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="startups-virality.html">virality</a> <span class="count">(1)</span></li>
+      <li><a href="startups-writing.html">writing</a> <span class="count">(1)</span></li>
+      <li><a href="startups-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>altruism</strong></summary>
+    <ul>
+      <li><a href="altruism-behaviors.html">behaviors</a> <span class="count">(3)</span></li>
+      <li><a href="altruism-bystander-effect.html">bystander-effect</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-gossip.html">gossip</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="altruism-kindness.html">kindness</a> <span class="count">(2)</span></li>
+      <li><a href="altruism-reputation.html">reputation</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ansible</strong></summary>
+    <ul>
+      <li><a href="ansible-ci-cd.html">ci-cd</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-containers.html">containers</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-devops.html">devops</a> <span class="count">(8)</span></li>
+      <li><a href="ansible-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-terraform.html">terraform</a> <span class="count">(1)</span></li>
+      <li><a href="ansible-testing.html">testing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>architecture</strong></summary>
+    <ul>
+      <li><a href="architecture-buildings.html">buildings</a> <span class="count">(3)</span></li>
+      <li><a href="architecture-camping.html">camping</a> <span class="count">(1)</span></li>
+      <li><a href="architecture-china.html">china</a> <span class="count">(1)</span></li>
+      <li><a href="architecture-goodreads.html">goodreads</a> <span class="count">(3)</span></li>
+      <li><a href="architecture-houses.html">houses</a> <span class="count">(2)</span></li>
+      <li><a href="architecture-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="architecture-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="architecture-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="architecture-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>beliefs</strong></summary>
+    <ul>
+      <li><a href="beliefs-bias.html">bias</a> <span class="count">(2)</span></li>
+      <li><a href="beliefs-conspiracies.html">conspiracies</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="beliefs-luck.html">luck</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-magic.html">magic</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="beliefs-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>blockchain</strong></summary>
+    <ul>
+      <li><a href="blockchain-consensus.html">consensus</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-crypto.html">crypto</a> <span class="count">(12)</span></li>
+      <li><a href="blockchain-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-ethereum.html">ethereum</a> <span class="count">(3)</span></li>
+      <li><a href="blockchain-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-theft.html">theft</a> <span class="count">(1)</span></li>
+      <li><a href="blockchain-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>body-language</strong></summary>
+    <ul>
+      <li><a href="body-language-confidence.html">confidence</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-gestures.html">gestures</a> <span class="count">(6)</span></li>
+      <li><a href="body-language-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-language-linguistics.html">language-linguistics</a> <span class="count">(4)</span></li>
+      <li><a href="body-language-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-seduction.html">seduction</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="body-language-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>character</strong></summary>
+    <ul>
+      <li><a href="character-chivalry.html">chivalry</a> <span class="count">(1)</span></li>
+      <li><a href="character-habits.html">habits</a> <span class="count">(1)</span></li>
+      <li><a href="character-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="character-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="character-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="character-morality.html">morality</a> <span class="count">(1)</span></li>
+      <li><a href="character-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="character-thinking.html">thinking</a> <span class="count">(1)</span></li>
+      <li><a href="character-values.html">values</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>charisma</strong></summary>
+    <ul>
+      <li><a href="charisma-confidence.html">confidence</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-gestures.html">gestures</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-influence-persuasion.html">influence-persuasion</a> <span class="count">(4)</span></li>
+      <li><a href="charisma-kindness.html">kindness</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-likeability.html">likeability</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="charisma-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>excel</strong></summary>
+    <ul>
+      <li><a href="excel-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="excel-machine-learning.html">machine-learning</a> <span class="count">(3)</span></li>
+      <li><a href="excel-pandas.html">pandas</a> <span class="count">(2)</span></li>
+      <li><a href="excel-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="excel-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="excel-python.html">python</a> <span class="count">(7)</span></li>
+      <li><a href="excel-streamlit.html">streamlit</a> <span class="count">(1)</span></li>
+      <li><a href="excel-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="excel-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fakes</strong></summary>
+    <ul>
+      <li><a href="fakes-friction-traction.html">friction-traction</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-photography.html">photography</a> <span class="count">(1)</span></li>
+      <li><a href="fakes-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="fakes-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>feedback</strong></summary>
+    <ul>
+      <li><a href="feedback-gratitude.html">gratitude</a> <span class="count">(1)</span></li>
+      <li><a href="feedback-influence-persuasion.html">influence-persuasion</a> <span class="count">(9)</span></li>
+      <li><a href="feedback-leadership.html">leadership</a> <span class="count">(6)</span></li>
+      <li><a href="feedback-listening.html">listening</a> <span class="count">(1)</span></li>
+      <li><a href="feedback-management.html">management</a> <span class="count">(1)</span></li>
+      <li><a href="feedback-negotiation.html">negotiation</a> <span class="count">(4)</span></li>
+      <li><a href="feedback-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="feedback-shaming.html">shaming</a> <span class="count">(1)</span></li>
+      <li><a href="feedback-speaking.html">speaking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>football</strong></summary>
+    <ul>
+      <li><a href="football-goodreads.html">goodreads</a> <span class="count">(7)</span></li>
+      <li><a href="football-ideas-semex.html">ideas-semex</a> <span class="count">(1)</span></li>
+      <li><a href="football-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="football-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="football-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="football-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+      <li><a href="football-sports.html">sports</a> <span class="count">(18)</span></li>
+      <li><a href="football-wv.html">wv</a> <span class="count">(2)</span></li>
+      <li><a href="football-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>interconnects</strong></summary>
+    <ul>
+      <li><a href="interconnects-lasers.html">lasers</a> <span class="count">(1)</span></li>
+      <li><a href="interconnects-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="interconnects-materials.html">materials</a> <span class="count">(1)</span></li>
+      <li><a href="interconnects-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="interconnects-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="interconnects-optics-photonics.html">optics-photonics</a> <span class="count">(6)</span></li>
+      <li><a href="interconnects-packaging.html">packaging</a> <span class="count">(3)</span></li>
+      <li><a href="interconnects-semiconductors.html">semiconductors</a> <span class="count">(38)</span></li>
+      <li><a href="interconnects-sram.html">sram</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>interviewing</strong></summary>
+    <ul>
+      <li><a href="interviewing-jobdef.html">jobdef</a> <span class="count">(1)</span></li>
+      <li><a href="interviewing-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="interviewing-listening.html">listening</a> <span class="count">(2)</span></li>
+      <li><a href="interviewing-lying.html">lying</a> <span class="count">(1)</span></li>
+      <li><a href="interviewing-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="interviewing-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="interviewing-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="interviewing-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="interviewing-startups.html">startups</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-llms</strong></summary>
+    <ul>
+      <li><a href="llms-llms-agents.html">agents</a> <span class="count">(23)</span></li>
+      <li><a href="llms-llms-attention.html">attention</a> <span class="count">(11)</span></li>
+      <li><a href="llms-llms-claude.html">claude</a> <span class="count">(17)</span></li>
+      <li><a href="llms-llms-deepseek.html">deepseek</a> <span class="count">(4)</span></li>
+      <li><a href="llms-llms-gpt.html">gpt</a> <span class="count">(16)</span></li>
+      <li><a href="llms-llms-llama.html">llama</a> <span class="count">(17)</span></li>
+      <li><a href="llms-llms-lora.html">lora</a> <span class="count">(6)</span></li>
+      <li><a href="llms-llms-rag.html">rag</a> <span class="count">(4)</span></li>
+      <li><a href="llms-llms-willison.html">willison</a> <span class="count">(25)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>motivation</strong></summary>
+    <ul>
+      <li><a href="motivation-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-objections.html">objections</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-podcast.html">podcast</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-speaking.html">speaking</a> <span class="count">(3)</span></li>
+      <li><a href="motivation-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="motivation-thinking.html">thinking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nodejs</strong></summary>
+    <ul>
+      <li><a href="nodejs-npm.html">npm</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-reactjs.html">reactjs</a> <span class="count">(3)</span></li>
+      <li><a href="nodejs-redis.html">redis</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="nodejs-webdev.html">webdev</a> <span class="count">(2)</span></li>
+      <li><a href="nodejs-webpacker.html">webpacker</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>openai</strong></summary>
+    <ul>
+      <li><a href="openai-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="openai-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="openai-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="openai-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="openai-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="openai-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="openai-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="openai-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="openai-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>angularjs</strong></summary>
+    <ul>
+      <li><a href="angularjs-command-line.html">command-line</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-firebase.html">firebase</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-javascript.html">javascript</a> <span class="count">(14)</span></li>
+      <li><a href="angularjs-netlify.html">netlify</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-svg.html">svg</a> <span class="count">(1)</span></li>
+      <li><a href="angularjs-vue.html">vue</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>attitude</strong></summary>
+    <ul>
+      <li><a href="attitude-behaviors.html">behaviors</a> <span class="count">(4)</span></li>
+      <li><a href="attitude-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-jobdef.html">jobdef</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-luck.html">luck</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-morality.html">morality</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="attitude-stoicism.html">stoicism</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bayes</strong></summary>
+    <ul>
+      <li><a href="bayes-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="bayes-filters.html">filters</a> <span class="count">(1)</span></li>
+      <li><a href="bayes-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(2)</span></li>
+      <li><a href="bayes-kalman-filters.html">kalman-filters</a> <span class="count">(1)</span></li>
+      <li><a href="bayes-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="bayes-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="bayes-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="bayes-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bitcoin</strong></summary>
+    <ul>
+      <li><a href="bitcoin-blockchain.html">blockchain</a> <span class="count">(2)</span></li>
+      <li><a href="bitcoin-crypto.html">crypto</a> <span class="count">(2)</span></li>
+      <li><a href="bitcoin-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="bitcoin-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="bitcoin-gpus.html">gpus</a> <span class="count">(1)</span></li>
+      <li><a href="bitcoin-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="bitcoin-secrecy.html">secrecy</a> <span class="count">(1)</span></li>
+      <li><a href="bitcoin-security.html">security</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bookmarks</strong></summary>
+    <ul>
+      <li><a href="bookmarks-collecting-curation.html">collecting-curation</a> <span class="count">(2)</span></li>
+      <li><a href="bookmarks-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-pinterest.html">pinterest</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="bookmarks-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bundler</strong></summary>
+    <ul>
+      <li><a href="bundler-jekyll.html">jekyll</a> <span class="count">(1)</span></li>
+      <li><a href="bundler-rbenv.html">rbenv</a> <span class="count">(1)</span></li>
+      <li><a href="bundler-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="bundler-rubygems.html">rubygems</a> <span class="count">(2)</span></li>
+      <li><a href="bundler-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="bundler-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="bundler-webpack.html">webpack</a> <span class="count">(1)</span></li>
+      <li><a href="bundler-webpacker.html">webpacker</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cartoons</strong></summary>
+    <ul>
+      <li><a href="cartoons-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(2)</span></li>
+      <li><a href="cartoons-comics.html">comics</a> <span class="count">(1)</span></li>
+      <li><a href="cartoons-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="cartoons-images.html">images</a> <span class="count">(2)</span></li>
+      <li><a href="cartoons-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="cartoons-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="cartoons-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="cartoons-tshirts.html">tshirts</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chemistry</strong></summary>
+    <ul>
+      <li><a href="chemistry-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="chemistry-climate-weather.html">climate-weather</a> <span class="count">(1)</span></li>
+      <li><a href="chemistry-experiments.html">experiments</a> <span class="count">(1)</span></li>
+      <li><a href="chemistry-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="chemistry-inventions-innovation.html">inventions-innovation</a> <span class="count">(2)</span></li>
+      <li><a href="chemistry-materials.html">materials</a> <span class="count">(3)</span></li>
+      <li><a href="chemistry-perfume.html">perfume</a> <span class="count">(1)</span></li>
+      <li><a href="chemistry-reading.html">reading</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>churn</strong></summary>
+    <ul>
+      <li><a href="churn-cohorts.html">cohorts</a> <span class="count">(1)</span></li>
+      <li><a href="churn-ecommerce.html">ecommerce</a> <span class="count">(4)</span></li>
+      <li><a href="churn-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="churn-interviewing.html">interviewing</a> <span class="count">(1)</span></li>
+      <li><a href="churn-metrics.html">metrics</a> <span class="count">(1)</span></li>
+      <li><a href="churn-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="churn-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="churn-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>d3</strong></summary>
+    <ul>
+      <li><a href="d3-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="d3-javascript.html">javascript</a> <span class="count">(2)</span></li>
+      <li><a href="d3-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="d3-matplotlib.html">matplotlib</a> <span class="count">(1)</span></li>
+      <li><a href="d3-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="d3-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="d3-sankey.html">sankey</a> <span class="count">(1)</span></li>
+      <li><a href="d3-visualization.html">visualization</a> <span class="count">(18)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>disruption</strong></summary>
+    <ul>
+      <li><a href="disruption-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-platforms.html">platforms</a> <span class="count">(5)</span></li>
+      <li><a href="disruption-prodmgmt.html">prodmgmt</a> <span class="count">(7)</span></li>
+      <li><a href="disruption-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>due-diligence</strong></summary>
+    <ul>
+      <li><a href="due-diligence-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-journalism.html">journalism</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-packaging.html">packaging</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="due-diligence-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>flask</strong></summary>
+    <ul>
+      <li><a href="flask-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="flask-heroku.html">heroku</a> <span class="count">(3)</span></li>
+      <li><a href="flask-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="flask-llms-bert.html">llms-bert</a> <span class="count">(1)</span></li>
+      <li><a href="flask-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="flask-pytest.html">pytest</a> <span class="count">(1)</span></li>
+      <li><a href="flask-python.html">python</a> <span class="count">(9)</span></li>
+      <li><a href="flask-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gestures</strong></summary>
+    <ul>
+      <li><a href="gestures-history.html">history</a> <span class="count">(2)</span></li>
+      <li><a href="gestures-influence-persuasion.html">influence-persuasion</a> <span class="count">(3)</span></li>
+      <li><a href="gestures-language-linguistics.html">language-linguistics</a> <span class="count">(10)</span></li>
+      <li><a href="gestures-machine-vision.html">machine-vision</a> <span class="count">(2)</span></li>
+      <li><a href="gestures-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="gestures-pose-estimation.html">pose-estimation</a> <span class="count">(1)</span></li>
+      <li><a href="gestures-seduction.html">seduction</a> <span class="count">(1)</span></li>
+      <li><a href="gestures-speaking.html">speaking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>jekyll</strong></summary>
+    <ul>
+      <li><a href="jekyll-json.html">json</a> <span class="count">(1)</span></li>
+      <li><a href="jekyll-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="jekyll-ruby.html">ruby</a> <span class="count">(11)</span></li>
+      <li><a href="jekyll-rubyonrails.html">rubyonrails</a> <span class="count">(3)</span></li>
+      <li><a href="jekyll-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="jekyll-static-sites.html">static-sites</a> <span class="count">(4)</span></li>
+      <li><a href="jekyll-webdev.html">webdev</a> <span class="count">(2)</span></li>
+      <li><a href="jekyll-yaml.html">yaml</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>journalism</strong></summary>
+    <ul>
+      <li><a href="journalism-photography.html">photography</a> <span class="count">(1)</span></li>
+      <li><a href="journalism-reputation.html">reputation</a> <span class="count">(2)</span></li>
+      <li><a href="journalism-satellite.html">satellite</a> <span class="count">(1)</span></li>
+      <li><a href="journalism-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="journalism-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="journalism-taxes.html">taxes</a> <span class="count">(1)</span></li>
+      <li><a href="journalism-trust.html">trust</a> <span class="count">(2)</span></li>
+      <li><a href="journalism-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>legal</strong></summary>
+    <ul>
+      <li><a href="legal-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="legal-public-policy.html">public-policy</a> <span class="count">(3)</span></li>
+      <li><a href="legal-purpose.html">purpose</a> <span class="count">(1)</span></li>
+      <li><a href="legal-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="legal-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="legal-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="legal-whistleblowing.html">whistleblowing</a> <span class="count">(1)</span></li>
+      <li><a href="legal-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-attention</strong></summary>
+    <ul>
+      <li><a href="llms-attention-llms-rag.html">llms-rag</a> <span class="count">(1)</span></li>
+      <li><a href="llms-attention-pytorch.html">pytorch</a> <span class="count">(2)</span></li>
+      <li><a href="llms-attention-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-attention-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="llms-attention-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="llms-attention-sram.html">sram</a> <span class="count">(2)</span></li>
+      <li><a href="llms-attention-transformers.html">transformers</a> <span class="count">(3)</span></li>
+      <li><a href="llms-attention-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>low-cost</strong></summary>
+    <ul>
+      <li><a href="low-cost-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="low-cost-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="low-cost-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="low-cost-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="low-cost-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="low-cost-retail.html">retail</a> <span class="count">(5)</span></li>
+      <li><a href="low-cost-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="low-cost-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>management</strong></summary>
+    <ul>
+      <li><a href="management-motivation.html">motivation</a> <span class="count">(2)</span></li>
+      <li><a href="management-onboarding.html">onboarding</a> <span class="count">(1)</span></li>
+      <li><a href="management-pivots.html">pivots</a> <span class="count">(1)</span></li>
+      <li><a href="management-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="management-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="management-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="management-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="management-teamwork.html">teamwork</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>memory-recall</strong></summary>
+    <ul>
+      <li><a href="memory-recall-music.html">music</a> <span class="count">(3)</span></li>
+      <li><a href="memory-recall-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="memory-recall-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="memory-recall-reading.html">reading</a> <span class="count">(2)</span></li>
+      <li><a href="memory-recall-smell.html">smell</a> <span class="count">(1)</span></li>
+      <li><a href="memory-recall-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="memory-recall-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="memory-recall-vision.html">vision</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mongodb</strong></summary>
+    <ul>
+      <li><a href="mongodb-nodejs.html">nodejs</a> <span class="count">(2)</span></li>
+      <li><a href="mongodb-nosql.html">nosql</a> <span class="count">(3)</span></li>
+      <li><a href="mongodb-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="mongodb-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="mongodb-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="mongodb-rubyonrails.html">rubyonrails</a> <span class="count">(3)</span></li>
+      <li><a href="mongodb-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="mongodb-streamlit.html">streamlit</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>packages</strong></summary>
+    <ul>
+      <li><a href="packages-pip.html">pip</a> <span class="count">(1)</span></li>
+      <li><a href="packages-python.html">python</a> <span class="count">(6)</span></li>
+      <li><a href="packages-rbenv.html">rbenv</a> <span class="count">(1)</span></li>
+      <li><a href="packages-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="packages-rubygems.html">rubygems</a> <span class="count">(1)</span></li>
+      <li><a href="packages-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="packages-webdev.html">webdev</a> <span class="count">(2)</span></li>
+      <li><a href="packages-yarn.html">yarn</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>physics</strong></summary>
+    <ul>
+      <li><a href="physics-quantum.html">quantum</a> <span class="count">(17)</span></li>
+      <li><a href="physics-radar.html">radar</a> <span class="count">(1)</span></li>
+      <li><a href="physics-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="physics-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="physics-superconductors.html">superconductors</a> <span class="count">(1)</span></li>
+      <li><a href="physics-thermodynamics.html">thermodynamics</a> <span class="count">(1)</span></li>
+      <li><a href="physics-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+      <li><a href="physics-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>podcast</strong></summary>
+    <ul>
+      <li><a href="podcast-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="podcast-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="podcast-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="podcast-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="podcast-spotify.html">spotify</a> <span class="count">(2)</span></li>
+      <li><a href="podcast-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="podcast-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="podcast-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>security</strong></summary>
+    <ul>
+      <li><a href="security-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="security-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="security-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="security-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="security-telegram.html">telegram</a> <span class="count">(1)</span></li>
+      <li><a href="security-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="security-web-servers.html">web-servers</a> <span class="count">(2)</span></li>
+      <li><a href="security-webdev.html">webdev</a> <span class="count">(16)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>advice</strong></summary>
+    <ul>
+      <li><a href="advice-authenticity.html">authenticity</a> <span class="count">(1)</span></li>
+      <li><a href="advice-behaviors.html">behaviors</a> <span class="count">(2)</span></li>
+      <li><a href="advice-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="advice-coaching-mentoring.html">coaching-mentoring</a> <span class="count">(2)</span></li>
+      <li><a href="advice-confidence.html">confidence</a> <span class="count">(1)</span></li>
+      <li><a href="advice-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="advice-motivation.html">motivation</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>affiliates</strong></summary>
+    <ul>
+      <li><a href="affiliates-ecommerce.html">ecommerce</a> <span class="count">(5)</span></li>
+      <li><a href="affiliates-gamification.html">gamification</a> <span class="count">(1)</span></li>
+      <li><a href="affiliates-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="affiliates-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="affiliates-marketing.html">marketing</a> <span class="count">(4)</span></li>
+      <li><a href="affiliates-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="affiliates-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>aggregation</strong></summary>
+    <ul>
+      <li><a href="aggregation-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="aggregation-moats.html">moats</a> <span class="count">(1)</span></li>
+      <li><a href="aggregation-network-effects.html">network-effects</a> <span class="count">(1)</span></li>
+      <li><a href="aggregation-platforms.html">platforms</a> <span class="count">(4)</span></li>
+      <li><a href="aggregation-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="aggregation-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="aggregation-shopify.html">shopify</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>amd</strong></summary>
+    <ul>
+      <li><a href="amd-chip-design.html">chip-design</a> <span class="count">(1)</span></li>
+      <li><a href="amd-cpus.html">cpus</a> <span class="count">(2)</span></li>
+      <li><a href="amd-cuda.html">cuda</a> <span class="count">(1)</span></li>
+      <li><a href="amd-gpus.html">gpus</a> <span class="count">(5)</span></li>
+      <li><a href="amd-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="amd-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="amd-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>anthropology</strong></summary>
+    <ul>
+      <li><a href="anthropology-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-biology.html">biology</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-culture.html">culture</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="anthropology-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>awk</strong></summary>
+    <ul>
+      <li><a href="awk-data-structures.html">data-structures</a> <span class="count">(1)</span></li>
+      <li><a href="awk-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="awk-grep.html">grep</a> <span class="count">(2)</span></li>
+      <li><a href="awk-linux.html">linux</a> <span class="count">(4)</span></li>
+      <li><a href="awk-regexes.html">regexes</a> <span class="count">(1)</span></li>
+      <li><a href="awk-sed.html">sed</a> <span class="count">(3)</span></li>
+      <li><a href="awk-text.html">text</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>caching</strong></summary>
+    <ul>
+      <li><a href="caching-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="caching-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="caching-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="caching-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="caching-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="caching-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="caching-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cards</strong></summary>
+    <ul>
+      <li><a href="cards-css.html">css</a> <span class="count">(4)</span></li>
+      <li><a href="cards-design.html">design</a> <span class="count">(3)</span></li>
+      <li><a href="cards-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="cards-html.html">html</a> <span class="count">(2)</span></li>
+      <li><a href="cards-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="cards-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="cards-ui-ux.html">ui-ux</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>catalogs</strong></summary>
+    <ul>
+      <li><a href="catalogs-ecommerce.html">ecommerce</a> <span class="count">(3)</span></li>
+      <li><a href="catalogs-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="catalogs-marketing.html">marketing</a> <span class="count">(3)</span></li>
+      <li><a href="catalogs-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="catalogs-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="catalogs-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="catalogs-taxonomy.html">taxonomy</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>category-theory</strong></summary>
+    <ul>
+      <li><a href="category-theory-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="category-theory-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="category-theory-machine-learning.html">machine-learning</a> <span class="count">(7)</span></li>
+      <li><a href="category-theory-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="category-theory-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="category-theory-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="category-theory-sets.html">sets</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ci-cd</strong></summary>
+    <ul>
+      <li><a href="ci-cd-containers.html">containers</a> <span class="count">(1)</span></li>
+      <li><a href="ci-cd-devops.html">devops</a> <span class="count">(4)</span></li>
+      <li><a href="ci-cd-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="ci-cd-git.html">git</a> <span class="count">(2)</span></li>
+      <li><a href="ci-cd-logging.html">logging</a> <span class="count">(1)</span></li>
+      <li><a href="ci-cd-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="ci-cd-testing.html">testing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cobol</strong></summary>
+    <ul>
+      <li><a href="cobol-datacenters.html">datacenters</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-fortran.html">fortran</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-hpc.html">hpc</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="cobol-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>collusion</strong></summary>
+    <ul>
+      <li><a href="collusion-economics.html">economics</a> <span class="count">(1)</span></li>
+      <li><a href="collusion-game-theory.html">game-theory</a> <span class="count">(3)</span></li>
+      <li><a href="collusion-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="collusion-monopoly.html">monopoly</a> <span class="count">(1)</span></li>
+      <li><a href="collusion-pricing.html">pricing</a> <span class="count">(5)</span></li>
+      <li><a href="collusion-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="collusion-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>context-graphs</strong></summary>
+    <ul>
+      <li><a href="context-graphs-databases.html">databases</a> <span class="count">(1)</span></li>
+      <li><a href="context-graphs-graphs.html">graphs</a> <span class="count">(2)</span></li>
+      <li><a href="context-graphs-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="context-graphs-llms-rag.html">llms-rag</a> <span class="count">(1)</span></li>
+      <li><a href="context-graphs-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="context-graphs-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="context-graphs-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>convolutions</strong></summary>
+    <ul>
+      <li><a href="convolutions-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="convolutions-gans.html">gans</a> <span class="count">(1)</span></li>
+      <li><a href="convolutions-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="convolutions-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="convolutions-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="convolutions-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="convolutions-rnns.html">rnns</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cuda</strong></summary>
+    <ul>
+      <li><a href="cuda-gpus.html">gpus</a> <span class="count">(6)</span></li>
+      <li><a href="cuda-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="cuda-numba.html">numba</a> <span class="count">(3)</span></li>
+      <li><a href="cuda-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="cuda-pytorch.html">pytorch</a> <span class="count">(3)</span></li>
+      <li><a href="cuda-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="cuda-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dimensionality-reduction</strong></summary>
+    <ul>
+      <li><a href="dimensionality-reduction-linear-algebra.html">linear-algebra</a> <span class="count">(1)</span></li>
+      <li><a href="dimensionality-reduction-machine-learning.html">machine-learning</a> <span class="count">(11)</span></li>
+      <li><a href="dimensionality-reduction-pca.html">pca</a> <span class="count">(2)</span></li>
+      <li><a href="dimensionality-reduction-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="dimensionality-reduction-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="dimensionality-reduction-umap.html">umap</a> <span class="count">(1)</span></li>
+      <li><a href="dimensionality-reduction-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>features-benefits</strong></summary>
+    <ul>
+      <li><a href="features-benefits-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="features-benefits-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="features-benefits-prod-mkt-fit.html">prod-mkt-fit</a> <span class="count">(1)</span></li>
+      <li><a href="features-benefits-prodmgmt.html">prodmgmt</a> <span class="count">(15)</span></li>
+      <li><a href="features-benefits-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="features-benefits-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="features-benefits-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gans</strong></summary>
+    <ul>
+      <li><a href="gans-image-generation.html">image-generation</a> <span class="count">(2)</span></li>
+      <li><a href="gans-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="gans-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="gans-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="gans-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="gans-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="gans-synthetic-data.html">synthetic-data</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>golang</strong></summary>
+    <ul>
+      <li><a href="golang-hugo.html">hugo</a> <span class="count">(1)</span></li>
+      <li><a href="golang-jupyter.html">jupyter</a> <span class="count">(1)</span></li>
+      <li><a href="golang-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="golang-monte-carlo.html">monte-carlo</a> <span class="count">(1)</span></li>
+      <li><a href="golang-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="golang-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="golang-torrents.html">torrents</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>happiness</strong></summary>
+    <ul>
+      <li><a href="happiness-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="happiness-kindness.html">kindness</a> <span class="count">(6)</span></li>
+      <li><a href="happiness-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="happiness-philosophy.html">philosophy</a> <span class="count">(1)</span></li>
+      <li><a href="happiness-play.html">play</a> <span class="count">(2)</span></li>
+      <li><a href="happiness-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="happiness-surfing.html">surfing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>honesty</strong></summary>
+    <ul>
+      <li><a href="honesty-interrogations.html">interrogations</a> <span class="count">(1)</span></li>
+      <li><a href="honesty-llms-gpt.html">llms-gpt</a> <span class="count">(1)</span></li>
+      <li><a href="honesty-lying.html">lying</a> <span class="count">(3)</span></li>
+      <li><a href="honesty-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="honesty-spin.html">spin</a> <span class="count">(1)</span></li>
+      <li><a href="honesty-subterfuge.html">subterfuge</a> <span class="count">(1)</span></li>
+      <li><a href="honesty-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hpc</strong></summary>
+    <ul>
+      <li><a href="hpc-hyperparameters.html">hyperparameters</a> <span class="count">(1)</span></li>
+      <li><a href="hpc-interconnects.html">interconnects</a> <span class="count">(3)</span></li>
+      <li><a href="hpc-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="hpc-quantum.html">quantum</a> <span class="count">(2)</span></li>
+      <li><a href="hpc-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="hpc-semiconductors.html">semiconductors</a> <span class="count">(4)</span></li>
+      <li><a href="hpc-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>http</strong></summary>
+    <ul>
+      <li><a href="http-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="http-networking.html">networking</a> <span class="count">(2)</span></li>
+      <li><a href="http-ruby.html">ruby</a> <span class="count">(2)</span></li>
+      <li><a href="http-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="http-seo.html">seo</a> <span class="count">(1)</span></li>
+      <li><a href="http-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="http-webdev.html">webdev</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>inference</strong></summary>
+    <ul>
+      <li><a href="inference-llms-attention.html">llms-attention</a> <span class="count">(1)</span></li>
+      <li><a href="inference-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="inference-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="inference-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="inference-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="inference-sram.html">sram</a> <span class="count">(3)</span></li>
+      <li><a href="inference-tpu.html">tpu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>kernels</strong></summary>
+    <ul>
+      <li><a href="kernels-machine-learning.html">machine-learning</a> <span class="count">(7)</span></li>
+      <li><a href="kernels-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="kernels-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="kernels-r.html">r</a> <span class="count">(2)</span></li>
+      <li><a href="kernels-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="kernels-svm.html">svm</a> <span class="count">(1)</span></li>
+      <li><a href="kernels-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>landing-pages</strong></summary>
+    <ul>
+      <li><a href="landing-pages-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="landing-pages-motivation.html">motivation</a> <span class="count">(1)</span></li>
+      <li><a href="landing-pages-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="landing-pages-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="landing-pages-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+      <li><a href="landing-pages-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="landing-pages-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-rag</strong></summary>
+    <ul>
+      <li><a href="llms-rag-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-similarity-search.html">similarity-search</a> <span class="count">(1)</span></li>
+      <li><a href="llms-rag-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>luxury</strong></summary>
+    <ul>
+      <li><a href="luxury-marketing.html">marketing</a> <span class="count">(3)</span></li>
+      <li><a href="luxury-pricing.html">pricing</a> <span class="count">(6)</span></li>
+      <li><a href="luxury-prodmgmt.html">prodmgmt</a> <span class="count">(8)</span></li>
+      <li><a href="luxury-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="luxury-snobbery.html">snobbery</a> <span class="count">(1)</span></li>
+      <li><a href="luxury-travel.html">travel</a> <span class="count">(2)</span></li>
+      <li><a href="luxury-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>market-basket</strong></summary>
+    <ul>
+      <li><a href="market-basket-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="market-basket-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="market-basket-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="market-basket-sets.html">sets</a> <span class="count">(1)</span></li>
+      <li><a href="market-basket-survival-analysis.html">survival-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="market-basket-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="market-basket-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mental-models</strong></summary>
+    <ul>
+      <li><a href="mental-models-platforms.html">platforms</a> <span class="count">(2)</span></li>
+      <li><a href="mental-models-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+      <li><a href="mental-models-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="mental-models-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="mental-models-thinking.html">thinking</a> <span class="count">(6)</span></li>
+      <li><a href="mental-models-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+      <li><a href="mental-models-values.html">values</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>numpy</strong></summary>
+    <ul>
+      <li><a href="numpy-pandas.html">pandas</a> <span class="count">(2)</span></li>
+      <li><a href="numpy-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="numpy-python.html">python</a> <span class="count">(12)</span></li>
+      <li><a href="numpy-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="numpy-scipy.html">scipy</a> <span class="count">(1)</span></li>
+      <li><a href="numpy-svd.html">svd</a> <span class="count">(1)</span></li>
+      <li><a href="numpy-sympy.html">sympy</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>optics-photonics</strong></summary>
+    <ul>
+      <li><a href="optics-photonics-physics.html">physics</a> <span class="count">(2)</span></li>
+      <li><a href="optics-photonics-semiconductors.html">semiconductors</a> <span class="count">(22)</span></li>
+      <li><a href="optics-photonics-sensors.html">sensors</a> <span class="count">(1)</span></li>
+      <li><a href="optics-photonics-sram.html">sram</a> <span class="count">(2)</span></li>
+      <li><a href="optics-photonics-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="optics-photonics-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="optics-photonics-thermal.html">thermal</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>optimization</strong></summary>
+    <ul>
+      <li><a href="optimization-policy-gradients.html">policy-gradients</a> <span class="count">(1)</span></li>
+      <li><a href="optimization-python.html">python</a> <span class="count">(6)</span></li>
+      <li><a href="optimization-quantum.html">quantum</a> <span class="count">(1)</span></li>
+      <li><a href="optimization-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="optimization-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="optimization-supply-chain.html">supply-chain</a> <span class="count">(4)</span></li>
+      <li><a href="optimization-swarms.html">swarms</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>packaging</strong></summary>
+    <ul>
+      <li><a href="packaging-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="packaging-prodmgmt.html">prodmgmt</a> <span class="count">(14)</span></li>
+      <li><a href="packaging-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="packaging-semiconductors.html">semiconductors</a> <span class="count">(10)</span></li>
+      <li><a href="packaging-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="packaging-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="packaging-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pandas</strong></summary>
+    <ul>
+      <li><a href="pandas-pocket.html">pocket</a> <span class="count">(1)</span></li>
+      <li><a href="pandas-python.html">python</a> <span class="count">(56)</span></li>
+      <li><a href="pandas-spatial.html">spatial</a> <span class="count">(2)</span></li>
+      <li><a href="pandas-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="pandas-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="pandas-sympy.html">sympy</a> <span class="count">(1)</span></li>
+      <li><a href="pandas-vaex.html">vaex</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pdfs</strong></summary>
+    <ul>
+      <li><a href="pdfs-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="pdfs-python.html">python</a> <span class="count">(17)</span></li>
+      <li><a href="pdfs-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="pdfs-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="pdfs-semantic-search.html">semantic-search</a> <span class="count">(1)</span></li>
+      <li><a href="pdfs-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="pdfs-web-scraping.html">web-scraping</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>post-mortems</strong></summary>
+    <ul>
+      <li><a href="post-mortems-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="post-mortems-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="post-mortems-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="post-mortems-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="post-mortems-startups.html">startups</a> <span class="count">(4)</span></li>
+      <li><a href="post-mortems-winloss.html">winloss</a> <span class="count">(1)</span></li>
+      <li><a href="post-mortems-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>postgres</strong></summary>
+    <ul>
+      <li><a href="postgres-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="postgres-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="postgres-rubyonrails.html">rubyonrails</a> <span class="count">(10)</span></li>
+      <li><a href="postgres-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="postgres-sql.html">sql</a> <span class="count">(3)</span></li>
+      <li><a href="postgres-ubuntu.html">ubuntu</a> <span class="count">(4)</span></li>
+      <li><a href="postgres-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sports</strong></summary>
+    <ul>
+      <li><a href="sports-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="sports-streaming.html">streaming</a> <span class="count">(4)</span></li>
+      <li><a href="sports-teamwork.html">teamwork</a> <span class="count">(1)</span></li>
+      <li><a href="sports-tickets.html">tickets</a> <span class="count">(4)</span></li>
+      <li><a href="sports-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="sports-wv.html">wv</a> <span class="count">(1)</span></li>
+      <li><a href="sports-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>activations</strong></summary>
+    <ul>
+      <li><a href="activations-algorithms-math.html">algorithms-math</a> <span class="count">(1)</span></li>
+      <li><a href="activations-classification.html">classification</a> <span class="count">(1)</span></li>
+      <li><a href="activations-deep-learning.html">deep-learning</a> <span class="count">(8)</span></li>
+      <li><a href="activations-image-classification.html">image-classification</a> <span class="count">(1)</span></li>
+      <li><a href="activations-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="activations-physics.html">physics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>addiction</strong></summary>
+    <ul>
+      <li><a href="addiction-auctions.html">auctions</a> <span class="count">(1)</span></li>
+      <li><a href="addiction-behaviors.html">behaviors</a> <span class="count">(3)</span></li>
+      <li><a href="addiction-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="addiction-habits.html">habits</a> <span class="count">(1)</span></li>
+      <li><a href="addiction-stickiness.html">stickiness</a> <span class="count">(1)</span></li>
+      <li><a href="addiction-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>adversarial</strong></summary>
+    <ul>
+      <li><a href="adversarial-bayes.html">bayes</a> <span class="count">(1)</span></li>
+      <li><a href="adversarial-deep-learning.html">deep-learning</a> <span class="count">(8)</span></li>
+      <li><a href="adversarial-feature-engineering.html">feature-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="adversarial-gans.html">gans</a> <span class="count">(4)</span></li>
+      <li><a href="adversarial-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="adversarial-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>affinity</strong></summary>
+    <ul>
+      <li><a href="affinity-analytics.html">analytics</a> <span class="count">(1)</span></li>
+      <li><a href="affinity-apriori.html">apriori</a> <span class="count">(1)</span></li>
+      <li><a href="affinity-conjoint.html">conjoint</a> <span class="count">(1)</span></li>
+      <li><a href="affinity-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="affinity-market-basket.html">market-basket</a> <span class="count">(1)</span></li>
+      <li><a href="affinity-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>authenticity</strong></summary>
+    <ul>
+      <li><a href="authenticity-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="authenticity-books.html">books</a> <span class="count">(1)</span></li>
+      <li><a href="authenticity-due-diligence.html">due-diligence</a> <span class="count">(1)</span></li>
+      <li><a href="authenticity-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="authenticity-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="authenticity-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bandits</strong></summary>
+    <ul>
+      <li><a href="bandits-bayes.html">bayes</a> <span class="count">(1)</span></li>
+      <li><a href="bandits-golang.html">golang</a> <span class="count">(1)</span></li>
+      <li><a href="bandits-machine-learning.html">machine-learning</a> <span class="count">(8)</span></li>
+      <li><a href="bandits-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="bandits-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="bandits-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>boosting</strong></summary>
+    <ul>
+      <li><a href="boosting-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="boosting-gaussian.html">gaussian</a> <span class="count">(1)</span></li>
+      <li><a href="boosting-machine-learning.html">machine-learning</a> <span class="count">(22)</span></li>
+      <li><a href="boosting-pose-estimation.html">pose-estimation</a> <span class="count">(1)</span></li>
+      <li><a href="boosting-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="boosting-r.html">r</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>choices</strong></summary>
+    <ul>
+      <li><a href="choices-decisions.html">decisions</a> <span class="count">(2)</span></li>
+      <li><a href="choices-defaults.html">defaults</a> <span class="count">(1)</span></li>
+      <li><a href="choices-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="choices-nudging.html">nudging</a> <span class="count">(1)</span></li>
+      <li><a href="choices-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="choices-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>comics</strong></summary>
+    <ul>
+      <li><a href="comics-datasets.html">datasets</a> <span class="count">(1)</span></li>
+      <li><a href="comics-fonts-typography.html">fonts-typography</a> <span class="count">(1)</span></li>
+      <li><a href="comics-magazines.html">magazines</a> <span class="count">(1)</span></li>
+      <li><a href="comics-memes.html">memes</a> <span class="count">(1)</span></li>
+      <li><a href="comics-movies-television.html">movies-television</a> <span class="count">(2)</span></li>
+      <li><a href="comics-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>compilers</strong></summary>
+    <ul>
+      <li><a href="compilers-cpus.html">cpus</a> <span class="count">(1)</span></li>
+      <li><a href="compilers-llms-claude.html">llms-claude</a> <span class="count">(1)</span></li>
+      <li><a href="compilers-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="compilers-ruby.html">ruby</a> <span class="count">(3)</span></li>
+      <li><a href="compilers-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="compilers-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>debugging</strong></summary>
+    <ul>
+      <li><a href="debugging-git.html">git</a> <span class="count">(1)</span></li>
+      <li><a href="debugging-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="debugging-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="debugging-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="debugging-reading.html">reading</a> <span class="count">(1)</span></li>
+      <li><a href="debugging-ruby.html">ruby</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>expressjs</strong></summary>
+    <ul>
+      <li><a href="expressjs-javascript.html">javascript</a> <span class="count">(3)</span></li>
+      <li><a href="expressjs-meteorjs.html">meteorjs</a> <span class="count">(1)</span></li>
+      <li><a href="expressjs-mongodb.html">mongodb</a> <span class="count">(2)</span></li>
+      <li><a href="expressjs-nodejs.html">nodejs</a> <span class="count">(4)</span></li>
+      <li><a href="expressjs-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="expressjs-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>focus-distractions</strong></summary>
+    <ul>
+      <li><a href="focus-distractions-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="focus-distractions-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="focus-distractions-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="focus-distractions-productivity-gtd.html">productivity-gtd</a> <span class="count">(2)</span></li>
+      <li><a href="focus-distractions-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="focus-distractions-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fpgas</strong></summary>
+    <ul>
+      <li><a href="fpgas-gpus.html">gpus</a> <span class="count">(2)</span></li>
+      <li><a href="fpgas-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="fpgas-open-source.html">open-source</a> <span class="count">(1)</span></li>
+      <li><a href="fpgas-semiconductors.html">semiconductors</a> <span class="count">(5)</span></li>
+      <li><a href="fpgas-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="fpgas-tpu.html">tpu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>furniture</strong></summary>
+    <ul>
+      <li><a href="furniture-ideas.html">ideas</a> <span class="count">(2)</span></li>
+      <li><a href="furniture-materials.html">materials</a> <span class="count">(2)</span></li>
+      <li><a href="furniture-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="furniture-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="furniture-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="furniture-retail.html">retail</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>genetics</strong></summary>
+    <ul>
+      <li><a href="genetics-hacking.html">hacking</a> <span class="count">(1)</span></li>
+      <li><a href="genetics-health-medicine.html">health-medicine</a> <span class="count">(10)</span></li>
+      <li><a href="genetics-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="genetics-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="genetics-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="genetics-optimization.html">optimization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>geofencing</strong></summary>
+    <ul>
+      <li><a href="geofencing-geography.html">geography</a> <span class="count">(3)</span></li>
+      <li><a href="geofencing-html.html">html</a> <span class="count">(1)</span></li>
+      <li><a href="geofencing-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="geofencing-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="geofencing-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="geofencing-spatial.html">spatial</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>graphql</strong></summary>
+    <ul>
+      <li><a href="graphql-graphs.html">graphs</a> <span class="count">(1)</span></li>
+      <li><a href="graphql-nodejs.html">nodejs</a> <span class="count">(1)</span></li>
+      <li><a href="graphql-postgres.html">postgres</a> <span class="count">(1)</span></li>
+      <li><a href="graphql-reactjs.html">reactjs</a> <span class="count">(2)</span></li>
+      <li><a href="graphql-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="graphql-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-generation</strong></summary>
+    <ul>
+      <li><a href="image-generation-llms.html">llms</a> <span class="count">(6)</span></li>
+      <li><a href="image-generation-midjourney.html">midjourney</a> <span class="count">(5)</span></li>
+      <li><a href="image-generation-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="image-generation-stable-diffusion.html">stable-diffusion</a> <span class="count">(3)</span></li>
+      <li><a href="image-generation-video.html">video</a> <span class="count">(2)</span></li>
+      <li><a href="image-generation-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>labeling</strong></summary>
+    <ul>
+      <li><a href="labeling-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="labeling-machine-learning.html">machine-learning</a> <span class="count">(5)</span></li>
+      <li><a href="labeling-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="labeling-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="labeling-sentiment-analysis.html">sentiment-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="labeling-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>leadgen-leadmgmt</strong></summary>
+    <ul>
+      <li><a href="leadgen-leadmgmt-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="leadgen-leadmgmt-objections.html">objections</a> <span class="count">(1)</span></li>
+      <li><a href="leadgen-leadmgmt-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="leadgen-leadmgmt-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+      <li><a href="leadgen-leadmgmt-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="leadgen-leadmgmt-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>listening</strong></summary>
+    <ul>
+      <li><a href="listening-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="listening-negotiation.html">negotiation</a> <span class="count">(3)</span></li>
+      <li><a href="listening-politeness.html">politeness</a> <span class="count">(1)</span></li>
+      <li><a href="listening-reading.html">reading</a> <span class="count">(1)</span></li>
+      <li><a href="listening-social-skills.html">social-skills</a> <span class="count">(2)</span></li>
+      <li><a href="listening-speaking.html">speaking</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-claude</strong></summary>
+    <ul>
+      <li><a href="llms-claude-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="llms-claude-prompt-engineering.html">prompt-engineering</a> <span class="count">(6)</span></li>
+      <li><a href="llms-claude-readability.html">readability</a> <span class="count">(1)</span></li>
+      <li><a href="llms-claude-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="llms-claude-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="llms-claude-typescript.html">typescript</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>magnets</strong></summary>
+    <ul>
+      <li><a href="magnets-maps.html">maps</a> <span class="count">(1)</span></li>
+      <li><a href="magnets-materials.html">materials</a> <span class="count">(4)</span></li>
+      <li><a href="magnets-motors.html">motors</a> <span class="count">(1)</span></li>
+      <li><a href="magnets-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="magnets-physics.html">physics</a> <span class="count">(5)</span></li>
+      <li><a href="magnets-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>markdown</strong></summary>
+    <ul>
+      <li><a href="markdown-pdfs.html">pdfs</a> <span class="count">(3)</span></li>
+      <li><a href="markdown-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="markdown-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="markdown-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="markdown-visualization.html">visualization</a> <span class="count">(4)</span></li>
+      <li><a href="markdown-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>moats</strong></summary>
+    <ul>
+      <li><a href="moats-platforms.html">platforms</a> <span class="count">(10)</span></li>
+      <li><a href="moats-prodmgmt.html">prodmgmt</a> <span class="count">(11)</span></li>
+      <li><a href="moats-semiconductors.html">semiconductors</a> <span class="count">(3)</span></li>
+      <li><a href="moats-toys.html">toys</a> <span class="count">(1)</span></li>
+      <li><a href="moats-tpu.html">tpu</a> <span class="count">(1)</span></li>
+      <li><a href="moats-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nvidia</strong></summary>
+    <ul>
+      <li><a href="nvidia-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="nvidia-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="nvidia-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="nvidia-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="nvidia-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="nvidia-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>open-source</strong></summary>
+    <ul>
+      <li><a href="open-source-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="open-source-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="open-source-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="open-source-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="open-source-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="open-source-terraform.html">terraform</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>productivity-gtd</strong></summary>
+    <ul>
+      <li><a href="productivity-gtd-projmgmt.html">projmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="productivity-gtd-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="productivity-gtd-stoicism.html">stoicism</a> <span class="count">(1)</span></li>
+      <li><a href="productivity-gtd-teamwork.html">teamwork</a> <span class="count">(2)</span></li>
+      <li><a href="productivity-gtd-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="productivity-gtd-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>quality</strong></summary>
+    <ul>
+      <li><a href="quality-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="quality-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="quality-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="quality-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="quality-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="quality-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reactjs</strong></summary>
+    <ul>
+      <li><a href="reactjs-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="reactjs-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="reactjs-vue.html">vue</a> <span class="count">(1)</span></li>
+      <li><a href="reactjs-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="reactjs-webpacker.html">webpacker</a> <span class="count">(3)</span></li>
+      <li><a href="reactjs-websockets.html">websockets</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sales-salesmgmt</strong></summary>
+    <ul>
+      <li><a href="sales-salesmgmt-social-proof.html">social-proof</a> <span class="count">(1)</span></li>
+      <li><a href="sales-salesmgmt-speaking.html">speaking</a> <span class="count">(1)</span></li>
+      <li><a href="sales-salesmgmt-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="sales-salesmgmt-triggers.html">triggers</a> <span class="count">(1)</span></li>
+      <li><a href="sales-salesmgmt-winloss.html">winloss</a> <span class="count">(2)</span></li>
+      <li><a href="sales-salesmgmt-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ui-ux</strong></summary>
+    <ul>
+      <li><a href="ui-ux-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="ui-ux-visualization.html">visualization</a> <span class="count">(9)</span></li>
+      <li><a href="ui-ux-webdev.html">webdev</a> <span class="count">(36)</span></li>
+      <li><a href="ui-ux-white-label.html">white-label</a> <span class="count">(1)</span></li>
+      <li><a href="ui-ux-wireframes.html">wireframes</a> <span class="count">(4)</span></li>
+      <li><a href="ui-ux-wordclouds.html">wordclouds</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>webdev</strong></summary>
+    <ul>
+      <li><a href="webdev-webpack.html">webpack</a> <span class="count">(1)</span></li>
+      <li><a href="webdev-webpacker.html">webpacker</a> <span class="count">(1)</span></li>
+      <li><a href="webdev-websockets.html">websockets</a> <span class="count">(2)</span></li>
+      <li><a href="webdev-wireframes.html">wireframes</a> <span class="count">(1)</span></li>
+      <li><a href="webdev-yaml.html">yaml</a> <span class="count">(2)</span></li>
+      <li><a href="webdev-yarn.html">yarn</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>acting</strong></summary>
+    <ul>
+      <li><a href="acting-comedy-fun-humor.html">comedy-fun-humor</a> <span class="count">(1)</span></li>
+      <li><a href="acting-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="acting-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="acting-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="acting-movies-television.html">movies-television</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>affordance</strong></summary>
+    <ul>
+      <li><a href="affordance-behaviors.html">behaviors</a> <span class="count">(1)</span></li>
+      <li><a href="affordance-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="affordance-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="affordance-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="affordance-gaslighting.html">gaslighting</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ambiguity</strong></summary>
+    <ul>
+      <li><a href="ambiguity-behaviors.html">behaviors</a> <span class="count">(2)</span></li>
+      <li><a href="ambiguity-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="ambiguity-forecasting-predictions.html">forecasting-predictions</a> <span class="count">(1)</span></li>
+      <li><a href="ambiguity-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="ambiguity-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>anomalies-outliers</strong></summary>
+    <ul>
+      <li><a href="anomalies-outliers-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="anomalies-outliers-machine-learning.html">machine-learning</a> <span class="count">(11)</span></li>
+      <li><a href="anomalies-outliers-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="anomalies-outliers-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="anomalies-outliers-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>arbitrage</strong></summary>
+    <ul>
+      <li><a href="arbitrage-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="arbitrage-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="arbitrage-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="arbitrage-pricing.html">pricing</a> <span class="count">(2)</span></li>
+      <li><a href="arbitrage-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>arguments</strong></summary>
+    <ul>
+      <li><a href="arguments-behaviors.html">behaviors</a> <span class="count">(4)</span></li>
+      <li><a href="arguments-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="arguments-feedback.html">feedback</a> <span class="count">(2)</span></li>
+      <li><a href="arguments-influence-persuasion.html">influence-persuasion</a> <span class="count">(4)</span></li>
+      <li><a href="arguments-negotiation.html">negotiation</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>azure</strong></summary>
+    <ul>
+      <li><a href="azure-cloud.html">cloud</a> <span class="count">(3)</span></li>
+      <li><a href="azure-devops.html">devops</a> <span class="count">(2)</span></li>
+      <li><a href="azure-flask.html">flask</a> <span class="count">(1)</span></li>
+      <li><a href="azure-google-cloud.html">google-cloud</a> <span class="count">(1)</span></li>
+      <li><a href="azure-python.html">python</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bicycles</strong></summary>
+    <ul>
+      <li><a href="bicycles-craftsmanship.html">craftsmanship</a> <span class="count">(1)</span></li>
+      <li><a href="bicycles-design.html">design</a> <span class="count">(1)</span></li>
+      <li><a href="bicycles-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="bicycles-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="bicycles-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>camping</strong></summary>
+    <ul>
+      <li><a href="camping-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="camping-hiking.html">hiking</a> <span class="count">(2)</span></li>
+      <li><a href="camping-houses.html">houses</a> <span class="count">(1)</span></li>
+      <li><a href="camping-travel.html">travel</a> <span class="count">(5)</span></li>
+      <li><a href="camping-wv.html">wv</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>checklists</strong></summary>
+    <ul>
+      <li><a href="checklists-execution.html">execution</a> <span class="count">(5)</span></li>
+      <li><a href="checklists-growth-hacks.html">growth-hacks</a> <span class="count">(1)</span></li>
+      <li><a href="checklists-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="checklists-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="checklists-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>compression-encoding</strong></summary>
+    <ul>
+      <li><a href="compression-encoding-crypto.html">crypto</a> <span class="count">(1)</span></li>
+      <li><a href="compression-encoding-deep-learning.html">deep-learning</a> <span class="count">(2)</span></li>
+      <li><a href="compression-encoding-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="compression-encoding-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="compression-encoding-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>controversy</strong></summary>
+    <ul>
+      <li><a href="controversy-copywriting.html">copywriting</a> <span class="count">(1)</span></li>
+      <li><a href="controversy-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="controversy-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="controversy-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="controversy-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>creepy</strong></summary>
+    <ul>
+      <li><a href="creepy-folklore-myths.html">folklore-myths</a> <span class="count">(1)</span></li>
+      <li><a href="creepy-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="creepy-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="creepy-mysteries.html">mysteries</a> <span class="count">(2)</span></li>
+      <li><a href="creepy-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>curiosity</strong></summary>
+    <ul>
+      <li><a href="curiosity-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="curiosity-doubt.html">doubt</a> <span class="count">(1)</span></li>
+      <li><a href="curiosity-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="curiosity-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="curiosity-psychology.html">psychology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dictionary</strong></summary>
+    <ul>
+      <li><a href="dictionary-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="dictionary-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="dictionary-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="dictionary-premature-optimization.html">premature-optimization</a> <span class="count">(1)</span></li>
+      <li><a href="dictionary-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>distance-metrics</strong></summary>
+    <ul>
+      <li><a href="distance-metrics-gans.html">gans</a> <span class="count">(1)</span></li>
+      <li><a href="distance-metrics-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="distance-metrics-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="distance-metrics-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="distance-metrics-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>distributions</strong></summary>
+    <ul>
+      <li><a href="distributions-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="distributions-prob-stats.html">prob-stats</a> <span class="count">(13)</span></li>
+      <li><a href="distributions-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="distributions-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="distributions-scipy.html">scipy</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>experiments</strong></summary>
+    <ul>
+      <li><a href="experiments-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="experiments-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="experiments-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="experiments-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="experiments-prodmgmt.html">prodmgmt</a> <span class="count">(7)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>folklore-myths</strong></summary>
+    <ul>
+      <li><a href="folklore-myths-goodreads.html">goodreads</a> <span class="count">(3)</span></li>
+      <li><a href="folklore-myths-history.html">history</a> <span class="count">(3)</span></li>
+      <li><a href="folklore-myths-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="folklore-myths-mysteries.html">mysteries</a> <span class="count">(5)</span></li>
+      <li><a href="folklore-myths-storytelling.html">storytelling</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>forensics</strong></summary>
+    <ul>
+      <li><a href="forensics-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="forensics-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="forensics-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="forensics-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="forensics-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fusion</strong></summary>
+    <ul>
+      <li><a href="fusion-gold.html">gold</a> <span class="count">(1)</span></li>
+      <li><a href="fusion-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="fusion-lasers.html">lasers</a> <span class="count">(2)</span></li>
+      <li><a href="fusion-physics.html">physics</a> <span class="count">(7)</span></li>
+      <li><a href="fusion-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gifts</strong></summary>
+    <ul>
+      <li><a href="gifts-museums.html">museums</a> <span class="count">(1)</span></li>
+      <li><a href="gifts-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="gifts-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="gifts-stickers.html">stickers</a> <span class="count">(1)</span></li>
+      <li><a href="gifts-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>interrogations</strong></summary>
+    <ul>
+      <li><a href="interrogations-interviewing.html">interviewing</a> <span class="count">(4)</span></li>
+      <li><a href="interrogations-legal.html">legal</a> <span class="count">(1)</span></li>
+      <li><a href="interrogations-listening.html">listening</a> <span class="count">(2)</span></li>
+      <li><a href="interrogations-lying.html">lying</a> <span class="count">(2)</span></li>
+      <li><a href="interrogations-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>json</strong></summary>
+    <ul>
+      <li><a href="json-linux.html">linux</a> <span class="count">(5)</span></li>
+      <li><a href="json-pandas.html">pandas</a> <span class="count">(1)</span></li>
+      <li><a href="json-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="json-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="json-yaml.html">yaml</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>kubernetes</strong></summary>
+    <ul>
+      <li><a href="kubernetes-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="kubernetes-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="kubernetes-netlify.html">netlify</a> <span class="count">(1)</span></li>
+      <li><a href="kubernetes-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+      <li><a href="kubernetes-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>langchain</strong></summary>
+    <ul>
+      <li><a href="langchain-llms.html">llms</a> <span class="count">(7)</span></li>
+      <li><a href="langchain-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="langchain-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="langchain-openai.html">openai</a> <span class="count">(2)</span></li>
+      <li><a href="langchain-pdfs.html">pdfs</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lidar</strong></summary>
+    <ul>
+      <li><a href="lidar-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="lidar-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+      <li><a href="lidar-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="lidar-sensors.html">sensors</a> <span class="count">(1)</span></li>
+      <li><a href="lidar-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>maps</strong></summary>
+    <ul>
+      <li><a href="maps-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="maps-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="maps-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="maps-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="maps-visualization.html">visualization</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>matplotlib</strong></summary>
+    <ul>
+      <li><a href="matplotlib-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="matplotlib-python.html">python</a> <span class="count">(19)</span></li>
+      <li><a href="matplotlib-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+      <li><a href="matplotlib-seaborn.html">seaborn</a> <span class="count">(4)</span></li>
+      <li><a href="matplotlib-visualization.html">visualization</a> <span class="count">(22)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mistral</strong></summary>
+    <ul>
+      <li><a href="mistral-ocr.html">ocr</a> <span class="count">(3)</span></li>
+      <li><a href="mistral-ollama.html">ollama</a> <span class="count">(1)</span></li>
+      <li><a href="mistral-pdfs.html">pdfs</a> <span class="count">(2)</span></li>
+      <li><a href="mistral-reasoning.html">reasoning</a> <span class="count">(1)</span></li>
+      <li><a href="mistral-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mobile</strong></summary>
+    <ul>
+      <li><a href="mobile-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="mobile-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="mobile-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="mobile-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="mobile-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>naming</strong></summary>
+    <ul>
+      <li><a href="naming-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="naming-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="naming-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="naming-trademarks.html">trademarks</a> <span class="count">(1)</span></li>
+      <li><a href="naming-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>networking</strong></summary>
+    <ul>
+      <li><a href="networking-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="networking-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="networking-satellite.html">satellite</a> <span class="count">(1)</span></li>
+      <li><a href="networking-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="networking-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>onboarding</strong></summary>
+    <ul>
+      <li><a href="onboarding-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="onboarding-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+      <li><a href="onboarding-shopify.html">shopify</a> <span class="count">(1)</span></li>
+      <li><a href="onboarding-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="onboarding-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pinterest</strong></summary>
+    <ul>
+      <li><a href="pinterest-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="pinterest-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="pinterest-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="pinterest-vision.html">vision</a> <span class="count">(1)</span></li>
+      <li><a href="pinterest-visualization.html">visualization</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>privacy</strong></summary>
+    <ul>
+      <li><a href="privacy-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="privacy-security.html">security</a> <span class="count">(2)</span></li>
+      <li><a href="privacy-statecraft.html">statecraft</a> <span class="count">(2)</span></li>
+      <li><a href="privacy-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="privacy-whatsapp.html">whatsapp</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prompt-engineering</strong></summary>
+    <ul>
+      <li><a href="prompt-engineering-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="prompt-engineering-quality.html">quality</a> <span class="count">(1)</span></li>
+      <li><a href="prompt-engineering-reasoning.html">reasoning</a> <span class="count">(3)</span></li>
+      <li><a href="prompt-engineering-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="prompt-engineering-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reading</strong></summary>
+    <ul>
+      <li><a href="reading-storytelling.html">storytelling</a> <span class="count">(4)</span></li>
+      <li><a href="reading-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="reading-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="reading-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="reading-writing.html">writing</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reputation</strong></summary>
+    <ul>
+      <li><a href="reputation-reviews.html">reviews</a> <span class="count">(2)</span></li>
+      <li><a href="reputation-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="reputation-shaming.html">shaming</a> <span class="count">(2)</span></li>
+      <li><a href="reputation-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="reputation-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>risk</strong></summary>
+    <ul>
+      <li><a href="risk-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="risk-rockets.html">rockets</a> <span class="count">(1)</span></li>
+      <li><a href="risk-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="risk-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="risk-startups.html">startups</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>scikit-learn</strong></summary>
+    <ul>
+      <li><a href="scikit-learn-survival-analysis.html">survival-analysis</a> <span class="count">(1)</span></li>
+      <li><a href="scikit-learn-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="scikit-learn-unbalanced.html">unbalanced</a> <span class="count">(1)</span></li>
+      <li><a href="scikit-learn-venv.html">venv</a> <span class="count">(1)</span></li>
+      <li><a href="scikit-learn-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spycraft</strong></summary>
+    <ul>
+      <li><a href="spycraft-statecraft.html">statecraft</a> <span class="count">(14)</span></li>
+      <li><a href="spycraft-stickers.html">stickers</a> <span class="count">(1)</span></li>
+      <li><a href="spycraft-storytelling.html">storytelling</a> <span class="count">(3)</span></li>
+      <li><a href="spycraft-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="spycraft-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>airstream-and-rvs</strong></summary>
+    <ul>
+      <li><a href="airstream-and-rvs-batteries.html">batteries</a> <span class="count">(2)</span></li>
+      <li><a href="airstream-and-rvs-camping.html">camping</a> <span class="count">(3)</span></li>
+      <li><a href="airstream-and-rvs-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="airstream-and-rvs-travel.html">travel</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>anger</strong></summary>
+    <ul>
+      <li><a href="anger-attitude.html">attitude</a> <span class="count">(1)</span></li>
+      <li><a href="anger-behaviors.html">behaviors</a> <span class="count">(2)</span></li>
+      <li><a href="anger-emotions.html">emotions</a> <span class="count">(3)</span></li>
+      <li><a href="anger-stoicism.html">stoicism</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>apologies</strong></summary>
+    <ul>
+      <li><a href="apologies-behaviors.html">behaviors</a> <span class="count">(4)</span></li>
+      <li><a href="apologies-custsvc.html">custsvc</a> <span class="count">(1)</span></li>
+      <li><a href="apologies-excuses.html">excuses</a> <span class="count">(1)</span></li>
+      <li><a href="apologies-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>apriori</strong></summary>
+    <ul>
+      <li><a href="apriori-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="apriori-market-basket.html">market-basket</a> <span class="count">(3)</span></li>
+      <li><a href="apriori-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="apriori-sets.html">sets</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>austin</strong></summary>
+    <ul>
+      <li><a href="austin-climate-weather.html">climate-weather</a> <span class="count">(1)</span></li>
+      <li><a href="austin-conservation.html">conservation</a> <span class="count">(1)</span></li>
+      <li><a href="austin-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="austin-music.html">music</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cables</strong></summary>
+    <ul>
+      <li><a href="cables-networking.html">networking</a> <span class="count">(1)</span></li>
+      <li><a href="cables-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="cables-repair.html">repair</a> <span class="count">(2)</span></li>
+      <li><a href="cables-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>channels</strong></summary>
+    <ul>
+      <li><a href="channels-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="channels-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="channels-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="channels-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>charity</strong></summary>
+    <ul>
+      <li><a href="charity-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="charity-happiness.html">happiness</a> <span class="count">(1)</span></li>
+      <li><a href="charity-kindness.html">kindness</a> <span class="count">(1)</span></li>
+      <li><a href="charity-morality.html">morality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chatbots-llms</strong></summary>
+    <ul>
+      <li><a href="chatbots-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-llms-bert.html">bert</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-llms-claude.html">claude</a> <span class="count">(1)</span></li>
+      <li><a href="chatbots-llms-gpt.html">gpt</a> <span class="count">(7)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chess</strong></summary>
+    <ul>
+      <li><a href="chess-game-theory.html">game-theory</a> <span class="count">(1)</span></li>
+      <li><a href="chess-games.html">games</a> <span class="count">(3)</span></li>
+      <li><a href="chess-gaming.html">gaming</a> <span class="count">(1)</span></li>
+      <li><a href="chess-llms.html">llms</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chills</strong></summary>
+    <ul>
+      <li><a href="chills-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="chills-emotions.html">emotions</a> <span class="count">(2)</span></li>
+      <li><a href="chills-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="chills-music.html">music</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>coaching-mentoring</strong></summary>
+    <ul>
+      <li><a href="coaching-mentoring-feedback.html">feedback</a> <span class="count">(1)</span></li>
+      <li><a href="coaching-mentoring-influence-persuasion.html">influence-persuasion</a> <span class="count">(4)</span></li>
+      <li><a href="coaching-mentoring-leadership.html">leadership</a> <span class="count">(3)</span></li>
+      <li><a href="coaching-mentoring-learning.html">learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>command-line-llms</strong></summary>
+    <ul>
+      <li><a href="command-line-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-llms-claude.html">claude</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-llms-gpt.html">gpt</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-llms-willison.html">willison</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>contracts</strong></summary>
+    <ul>
+      <li><a href="contracts-entity-resolution.html">entity-resolution</a> <span class="count">(1)</span></li>
+      <li><a href="contracts-intellectual-property.html">intellectual-property</a> <span class="count">(1)</span></li>
+      <li><a href="contracts-legal.html">legal</a> <span class="count">(1)</span></li>
+      <li><a href="contracts-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>copper</strong></summary>
+    <ul>
+      <li><a href="copper-interconnects.html">interconnects</a> <span class="count">(1)</span></li>
+      <li><a href="copper-materials.html">materials</a> <span class="count">(2)</span></li>
+      <li><a href="copper-optics-photonics.html">optics-photonics</a> <span class="count">(2)</span></li>
+      <li><a href="copper-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>correlation</strong></summary>
+    <ul>
+      <li><a href="correlation-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="correlation-numpy.html">numpy</a> <span class="count">(1)</span></li>
+      <li><a href="correlation-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="correlation-regressions.html">regressions</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>criticism</strong></summary>
+    <ul>
+      <li><a href="criticism-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="criticism-feedback.html">feedback</a> <span class="count">(8)</span></li>
+      <li><a href="criticism-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="criticism-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deep-learning-image</strong></summary>
+    <ul>
+      <li><a href="deep-learning-image-classification.html">classification</a> <span class="count">(4)</span></li>
+      <li><a href="deep-learning-image-compression.html">compression</a> <span class="count">(3)</span></li>
+      <li><a href="deep-learning-image-generation.html">generation</a> <span class="count">(12)</span></li>
+      <li><a href="deep-learning-image-segmentation.html">segmentation</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deep-learning-llms</strong></summary>
+    <ul>
+      <li><a href="deep-learning-llms-attention.html">attention</a> <span class="count">(1)</span></li>
+      <li><a href="deep-learning-llms-bert.html">bert</a> <span class="count">(10)</span></li>
+      <li><a href="deep-learning-llms-gpt.html">gpt</a> <span class="count">(6)</span></li>
+      <li><a href="deep-learning-llms-llama.html">llama</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>drawing</strong></summary>
+    <ul>
+      <li><a href="drawing-ideas.html">ideas</a> <span class="count">(1)</span></li>
+      <li><a href="drawing-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="drawing-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="drawing-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>elasticsearch</strong></summary>
+    <ul>
+      <li><a href="elasticsearch-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="elasticsearch-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+      <li><a href="elasticsearch-search.html">search</a> <span class="count">(3)</span></li>
+      <li><a href="elasticsearch-vector-databases.html">vector-databases</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>entropy</strong></summary>
+    <ul>
+      <li><a href="entropy-info-theory.html">info-theory</a> <span class="count">(3)</span></li>
+      <li><a href="entropy-machine-learning.html">machine-learning</a> <span class="count">(3)</span></li>
+      <li><a href="entropy-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="entropy-unbalanced.html">unbalanced</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fanclubs-fandom</strong></summary>
+    <ul>
+      <li><a href="fanclubs-fandom-grocery.html">grocery</a> <span class="count">(1)</span></li>
+      <li><a href="fanclubs-fandom-motivation.html">motivation</a> <span class="count">(2)</span></li>
+      <li><a href="fanclubs-fandom-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="fanclubs-fandom-sports.html">sports</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>filters</strong></summary>
+    <ul>
+      <li><a href="filters-kalman-filters.html">kalman-filters</a> <span class="count">(2)</span></li>
+      <li><a href="filters-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="filters-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+      <li><a href="filters-sets.html">sets</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>finland</strong></summary>
+    <ul>
+      <li><a href="finland-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="finland-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="finland-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="finland-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>firebase</strong></summary>
+    <ul>
+      <li><a href="firebase-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="firebase-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="firebase-reactjs.html">reactjs</a> <span class="count">(1)</span></li>
+      <li><a href="firebase-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gamification</strong></summary>
+    <ul>
+      <li><a href="gamification-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="gamification-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="gamification-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="gamification-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gemini</strong></summary>
+    <ul>
+      <li><a href="gemini-llms.html">llms</a> <span class="count">(5)</span></li>
+      <li><a href="gemini-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="gemini-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="gemini-rubygems.html">rubygems</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>genius</strong></summary>
+    <ul>
+      <li><a href="genius-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+      <li><a href="genius-ideation.html">ideation</a> <span class="count">(1)</span></li>
+      <li><a href="genius-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+      <li><a href="genius-learning.html">learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gensim</strong></summary>
+    <ul>
+      <li><a href="gensim-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="gensim-nlp.html">nlp</a> <span class="count">(5)</span></li>
+      <li><a href="gensim-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="gensim-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gifs</strong></summary>
+    <ul>
+      <li><a href="gifs-images.html">images</a> <span class="count">(3)</span></li>
+      <li><a href="gifs-matplotlib.html">matplotlib</a> <span class="count">(1)</span></li>
+      <li><a href="gifs-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="gifs-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>github-awesome</strong></summary>
+    <ul>
+      <li><a href="github-awesome-glossaries.html">glossaries</a> <span class="count">(1)</span></li>
+      <li><a href="github-awesome-mcp.html">mcp</a> <span class="count">(1)</span></li>
+      <li><a href="github-awesome-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="github-awesome-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gratitude</strong></summary>
+    <ul>
+      <li><a href="gratitude-happiness.html">happiness</a> <span class="count">(2)</span></li>
+      <li><a href="gratitude-kindness.html">kindness</a> <span class="count">(2)</span></li>
+      <li><a href="gratitude-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="gratitude-motivation.html">motivation</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>grep</strong></summary>
+    <ul>
+      <li><a href="grep-linux.html">linux</a> <span class="count">(5)</span></li>
+      <li><a href="grep-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="grep-regexes.html">regexes</a> <span class="count">(2)</span></li>
+      <li><a href="grep-sed.html">sed</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>groupthink</strong></summary>
+    <ul>
+      <li><a href="groupthink-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="groupthink-propaganda.html">propaganda</a> <span class="count">(1)</span></li>
+      <li><a href="groupthink-signaling.html">signaling</a> <span class="count">(2)</span></li>
+      <li><a href="groupthink-values.html">values</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hashtags</strong></summary>
+    <ul>
+      <li><a href="hashtags-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+      <li><a href="hashtags-propaganda.html">propaganda</a> <span class="count">(1)</span></li>
+      <li><a href="hashtags-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="hashtags-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>houses</strong></summary>
+    <ul>
+      <li><a href="houses-hvac.html">hvac</a> <span class="count">(2)</span></li>
+      <li><a href="houses-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="houses-repair.html">repair</a> <span class="count">(1)</span></li>
+      <li><a href="houses-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hyperparameters</strong></summary>
+    <ul>
+      <li><a href="hyperparameters-machine-learning.html">machine-learning</a> <span class="count">(6)</span></li>
+      <li><a href="hyperparameters-ml-ops.html">ml-ops</a> <span class="count">(1)</span></li>
+      <li><a href="hyperparameters-optimization.html">optimization</a> <span class="count">(3)</span></li>
+      <li><a href="hyperparameters-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-classification</strong></summary>
+    <ul>
+      <li><a href="image-classification-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="image-classification-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="image-classification-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="image-classification-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>influencers</strong></summary>
+    <ul>
+      <li><a href="influencers-marketing.html">marketing</a> <span class="count">(2)</span></li>
+      <li><a href="influencers-reddit.html">reddit</a> <span class="count">(1)</span></li>
+      <li><a href="influencers-streaming.html">streaming</a> <span class="count">(1)</span></li>
+      <li><a href="influencers-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>jazz</strong></summary>
+    <ul>
+      <li><a href="jazz-leadership.html">leadership</a> <span class="count">(1)</span></li>
+      <li><a href="jazz-music.html">music</a> <span class="count">(33)</span></li>
+      <li><a href="jazz-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="jazz-tshirts.html">tshirts</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>jobdef</strong></summary>
+    <ul>
+      <li><a href="jobdef-negotiation.html">negotiation</a> <span class="count">(1)</span></li>
+      <li><a href="jobdef-prodmgmt.html">prodmgmt</a> <span class="count">(9)</span></li>
+      <li><a href="jobdef-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="jobdef-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-agents-llms</strong></summary>
+    <ul>
+      <li><a href="llms-agents-llms-claude.html">claude</a> <span class="count">(10)</span></li>
+      <li><a href="llms-agents-llms-gpt.html">gpt</a> <span class="count">(2)</span></li>
+      <li><a href="llms-agents-llms-rag.html">rag</a> <span class="count">(1)</span></li>
+      <li><a href="llms-agents-llms-willison.html">willison</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-llama</strong></summary>
+    <ul>
+      <li><a href="llms-llama-nlp.html">nlp</a> <span class="count">(1)</span></li>
+      <li><a href="llms-llama-pdfs.html">pdfs</a> <span class="count">(1)</span></li>
+      <li><a href="llms-llama-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="llms-llama-triton.html">triton</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>loneliness</strong></summary>
+    <ul>
+      <li><a href="loneliness-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="loneliness-rituals.html">rituals</a> <span class="count">(1)</span></li>
+      <li><a href="loneliness-robotics.html">robotics</a> <span class="count">(1)</span></li>
+      <li><a href="loneliness-sports.html">sports</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>memes</strong></summary>
+    <ul>
+      <li><a href="memes-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="memes-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="memes-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+      <li><a href="memes-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mysql</strong></summary>
+    <ul>
+      <li><a href="mysql-postgres.html">postgres</a> <span class="count">(2)</span></li>
+      <li><a href="mysql-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="mysql-sql.html">sql</a> <span class="count">(1)</span></li>
+      <li><a href="mysql-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mysteries</strong></summary>
+    <ul>
+      <li><a href="mysteries-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="mysteries-radio.html">radio</a> <span class="count">(1)</span></li>
+      <li><a href="mysteries-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="mysteries-truecrime.html">truecrime</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nosql</strong></summary>
+    <ul>
+      <li><a href="nosql-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="nosql-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="nosql-sql.html">sql</a> <span class="count">(3)</span></li>
+      <li><a href="nosql-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>object-detection</strong></summary>
+    <ul>
+      <li><a href="object-detection-opencv.html">opencv</a> <span class="count">(1)</span></li>
+      <li><a href="object-detection-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="object-detection-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="object-detection-vision.html">vision</a> <span class="count">(7)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ocr</strong></summary>
+    <ul>
+      <li><a href="ocr-pdfs.html">pdfs</a> <span class="count">(2)</span></li>
+      <li><a href="ocr-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="ocr-qr.html">qr</a> <span class="count">(1)</span></li>
+      <li><a href="ocr-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>presentations-presenting</strong></summary>
+    <ul>
+      <li><a href="presentations-presenting-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="presentations-presenting-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="presentations-presenting-speaking.html">speaking</a> <span class="count">(10)</span></li>
+      <li><a href="presentations-presenting-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prospect-theory</strong></summary>
+    <ul>
+      <li><a href="prospect-theory-reciprocity.html">reciprocity</a> <span class="count">(1)</span></li>
+      <li><a href="prospect-theory-regret.html">regret</a> <span class="count">(1)</span></li>
+      <li><a href="prospect-theory-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="prospect-theory-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>psychology</strong></summary>
+    <ul>
+      <li><a href="psychology-rejection.html">rejection</a> <span class="count">(1)</span></li>
+      <li><a href="psychology-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+      <li><a href="psychology-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="psychology-tricks.html">tricks</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>radio</strong></summary>
+    <ul>
+      <li><a href="radio-spectrum.html">spectrum</a> <span class="count">(1)</span></li>
+      <li><a href="radio-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+      <li><a href="radio-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="radio-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rbenv</strong></summary>
+    <ul>
+      <li><a href="rbenv-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="rbenv-rubygems.html">rubygems</a> <span class="count">(2)</span></li>
+      <li><a href="rbenv-rubyonrails.html">rubyonrails</a> <span class="count">(4)</span></li>
+      <li><a href="rbenv-ubuntu.html">ubuntu</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>recommenders</strong></summary>
+    <ul>
+      <li><a href="recommenders-reputation.html">reputation</a> <span class="count">(1)</span></li>
+      <li><a href="recommenders-search.html">search</a> <span class="count">(3)</span></li>
+      <li><a href="recommenders-tiktok.html">tiktok</a> <span class="count">(1)</span></li>
+      <li><a href="recommenders-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>satellite</strong></summary>
+    <ul>
+      <li><a href="satellite-spycraft.html">spycraft</a> <span class="count">(2)</span></li>
+      <li><a href="satellite-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="satellite-statecraft.html">statecraft</a> <span class="count">(3)</span></li>
+      <li><a href="satellite-stickers.html">stickers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>semantic-search</strong></summary>
+    <ul>
+      <li><a href="semantic-search-similarity-search.html">similarity-search</a> <span class="count">(2)</span></li>
+      <li><a href="semantic-search-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="semantic-search-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="semantic-search-vector-databases.html">vector-databases</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>streaming</strong></summary>
+    <ul>
+      <li><a href="streaming-subscriptions.html">subscriptions</a> <span class="count">(1)</span></li>
+      <li><a href="streaming-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="streaming-video.html">video</a> <span class="count">(4)</span></li>
+      <li><a href="streaming-youtube.html">youtube</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>analogies</strong></summary>
+    <ul>
+      <li><a href="analogies-cognition-neurology-perception.html">cognition-neurology-perception</a> <span class="count">(1)</span></li>
+      <li><a href="analogies-mental-models.html">mental-models</a> <span class="count">(2)</span></li>
+      <li><a href="analogies-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>anki</strong></summary>
+    <ul>
+      <li><a href="anki-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="anki-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="anki-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>archeology</strong></summary>
+    <ul>
+      <li><a href="archeology-fakes.html">fakes</a> <span class="count">(1)</span></li>
+      <li><a href="archeology-history.html">history</a> <span class="count">(1)</span></li>
+      <li><a href="archeology-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>association-rules</strong></summary>
+    <ul>
+      <li><a href="association-rules-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="association-rules-market-basket.html">market-basket</a> <span class="count">(1)</span></li>
+      <li><a href="association-rules-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>backups</strong></summary>
+    <ul>
+      <li><a href="backups-command-line.html">command-line</a> <span class="count">(2)</span></li>
+      <li><a href="backups-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="backups-ssh.html">ssh</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bystander-effect</strong></summary>
+    <ul>
+      <li><a href="bystander-effect-decisions.html">decisions</a> <span class="count">(1)</span></li>
+      <li><a href="bystander-effect-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="bystander-effect-whistleblowing.html">whistleblowing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cdns</strong></summary>
+    <ul>
+      <li><a href="cdns-devops.html">devops</a> <span class="count">(3)</span></li>
+      <li><a href="cdns-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="cdns-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cellular</strong></summary>
+    <ul>
+      <li><a href="cellular-automata-python.html">automata-python</a> <span class="count">(1)</span></li>
+      <li><a href="cellular-circuits-electronics.html">circuits-electronics</a> <span class="count">(1)</span></li>
+      <li><a href="cellular-open-source.html">open-source</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cms</strong></summary>
+    <ul>
+      <li><a href="cms-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="cms-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="cms-wordpress.html">wordpress</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cohorts</strong></summary>
+    <ul>
+      <li><a href="cohorts-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="cohorts-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="cohorts-python.html">python</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>command-line-web</strong></summary>
+    <ul>
+      <li><a href="command-line-web-crawlers.html">crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-web-scraping.html">scraping</a> <span class="count">(1)</span></li>
+      <li><a href="command-line-web-servers.html">servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>complexity</strong></summary>
+    <ul>
+      <li><a href="complexity-debugging.html">debugging</a> <span class="count">(1)</span></li>
+      <li><a href="complexity-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="complexity-reading.html">reading</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>concurrency</strong></summary>
+    <ul>
+      <li><a href="concurrency-linux.html">linux</a> <span class="count">(1)</span></li>
+      <li><a href="concurrency-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="concurrency-ruby.html">ruby</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>consensus</strong></summary>
+    <ul>
+      <li><a href="consensus-crypto.html">crypto</a> <span class="count">(1)</span></li>
+      <li><a href="consensus-ethereum.html">ethereum</a> <span class="count">(1)</span></li>
+      <li><a href="consensus-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>content-syndication</strong></summary>
+    <ul>
+      <li><a href="content-syndication-marketing.html">marketing</a> <span class="count">(1)</span></li>
+      <li><a href="content-syndication-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="content-syndication-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>crowdfunding</strong></summary>
+    <ul>
+      <li><a href="crowdfunding-finance.html">finance</a> <span class="count">(2)</span></li>
+      <li><a href="crowdfunding-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="crowdfunding-startups.html">startups</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cults</strong></summary>
+    <ul>
+      <li><a href="cults-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+      <li><a href="cults-language-linguistics.html">language-linguistics</a> <span class="count">(2)</span></li>
+      <li><a href="cults-psychology.html">psychology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>curl</strong></summary>
+    <ul>
+      <li><a href="curl-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="curl-linux.html">linux</a> <span class="count">(2)</span></li>
+      <li><a href="curl-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dash</strong></summary>
+    <ul>
+      <li><a href="dash-plotly.html">plotly</a> <span class="count">(1)</span></li>
+      <li><a href="dash-python.html">python</a> <span class="count">(2)</span></li>
+      <li><a href="dash-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>data-augmentation</strong></summary>
+    <ul>
+      <li><a href="data-augmentation-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="data-augmentation-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="data-augmentation-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>de-minimus</strong></summary>
+    <ul>
+      <li><a href="de-minimus-ecommerce.html">ecommerce</a> <span class="count">(1)</span></li>
+      <li><a href="de-minimus-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+      <li><a href="de-minimus-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>decision-trees</strong></summary>
+    <ul>
+      <li><a href="decision-trees-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="decision-trees-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="decision-trees-sql.html">sql</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>decorators</strong></summary>
+    <ul>
+      <li><a href="decorators-llms.html">llms</a> <span class="count">(1)</span></li>
+      <li><a href="decorators-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="decorators-python.html">python</a> <span class="count">(8)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>delegation</strong></summary>
+    <ul>
+      <li><a href="delegation-feedback.html">feedback</a> <span class="count">(4)</span></li>
+      <li><a href="delegation-leadership.html">leadership</a> <span class="count">(2)</span></li>
+      <li><a href="delegation-management.html">management</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dignity</strong></summary>
+    <ul>
+      <li><a href="dignity-emotions.html">emotions</a> <span class="count">(2)</span></li>
+      <li><a href="dignity-empathy.html">empathy</a> <span class="count">(1)</span></li>
+      <li><a href="dignity-kindness.html">kindness</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dogs</strong></summary>
+    <ul>
+      <li><a href="dogs-food-drink.html">food-drink</a> <span class="count">(1)</span></li>
+      <li><a href="dogs-goodreads.html">goodreads</a> <span class="count">(4)</span></li>
+      <li><a href="dogs-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>doubt</strong></summary>
+    <ul>
+      <li><a href="doubt-emotions.html">emotions</a> <span class="count">(1)</span></li>
+      <li><a href="doubt-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="doubt-thinking.html">thinking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>drones</strong></summary>
+    <ul>
+      <li><a href="drones-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="drones-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="drones-swarms.html">swarms</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dropshipping</strong></summary>
+    <ul>
+      <li><a href="dropshipping-ecommerce.html">ecommerce</a> <span class="count">(5)</span></li>
+      <li><a href="dropshipping-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="dropshipping-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>entity-resolution</strong></summary>
+    <ul>
+      <li><a href="entity-resolution-legal.html">legal</a> <span class="count">(1)</span></li>
+      <li><a href="entity-resolution-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="entity-resolution-vision.html">vision</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>eols</strong></summary>
+    <ul>
+      <li><a href="eols-features-benefits.html">features-benefits</a> <span class="count">(1)</span></li>
+      <li><a href="eols-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="eols-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ethics</strong></summary>
+    <ul>
+      <li><a href="ethics-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+      <li><a href="ethics-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="ethics-safety.html">safety</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>exercise</strong></summary>
+    <ul>
+      <li><a href="exercise-health-medicine.html">health-medicine</a> <span class="count">(51)</span></li>
+      <li><a href="exercise-influencers.html">influencers</a> <span class="count">(1)</span></li>
+      <li><a href="exercise-yoga.html">yoga</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>face-recognition</strong></summary>
+    <ul>
+      <li><a href="face-recognition-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="face-recognition-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="face-recognition-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fastapi</strong></summary>
+    <ul>
+      <li><a href="fastapi-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="fastapi-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="fastapi-starlette.html">starlette</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>federated-learning</strong></summary>
+    <ul>
+      <li><a href="federated-learning-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="federated-learning-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="federated-learning-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>figma</strong></summary>
+    <ul>
+      <li><a href="figma-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="figma-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="figma-ui-ux.html">ui-ux</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fourier</strong></summary>
+    <ul>
+      <li><a href="fourier-github.html">github</a> <span class="count">(1)</span></li>
+      <li><a href="fourier-music.html">music</a> <span class="count">(1)</span></li>
+      <li><a href="fourier-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>france</strong></summary>
+    <ul>
+      <li><a href="france-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="france-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="france-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fraud</strong></summary>
+    <ul>
+      <li><a href="fraud-risk.html">risk</a> <span class="count">(1)</span></li>
+      <li><a href="fraud-rnns.html">rnns</a> <span class="count">(1)</span></li>
+      <li><a href="fraud-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gaming</strong></summary>
+    <ul>
+      <li><a href="gaming-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="gaming-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="gaming-risk.html">risk</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gaussian</strong></summary>
+    <ul>
+      <li><a href="gaussian-machine-learning.html">machine-learning</a> <span class="count">(9)</span></li>
+      <li><a href="gaussian-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="gaussian-regressions.html">regressions</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>github-llms</strong></summary>
+    <ul>
+      <li><a href="github-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="github-llms-gpt.html">gpt</a> <span class="count">(1)</span></li>
+      <li><a href="github-llms-llama.html">llama</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gradio</strong></summary>
+    <ul>
+      <li><a href="gradio-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="gradio-pycaret.html">pycaret</a> <span class="count">(1)</span></li>
+      <li><a href="gradio-python.html">python</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gsi</strong></summary>
+    <ul>
+      <li><a href="gsi-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="gsi-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="gsi-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ideas-commish</strong></summary>
+    <ul>
+      <li><a href="ideas-commish-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="ideas-commish-sports.html">sports</a> <span class="count">(4)</span></li>
+      <li><a href="ideas-commish-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-segmentation</strong></summary>
+    <ul>
+      <li><a href="image-segmentation-machine-vision.html">machine-vision</a> <span class="count">(3)</span></li>
+      <li><a href="image-segmentation-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="image-segmentation-scikit-image.html">scikit-image</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>imagination</strong></summary>
+    <ul>
+      <li><a href="imagination-play.html">play</a> <span class="count">(1)</span></li>
+      <li><a href="imagination-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="imagination-toys.html">toys</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>india</strong></summary>
+    <ul>
+      <li><a href="india-public-policy.html">public-policy</a> <span class="count">(1)</span></li>
+      <li><a href="india-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="india-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ipod</strong></summary>
+    <ul>
+      <li><a href="ipod-music.html">music</a> <span class="count">(2)</span></li>
+      <li><a href="ipod-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="ipod-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>kalman-filters</strong></summary>
+    <ul>
+      <li><a href="kalman-filters-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="kalman-filters-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="kalman-filters-time-series.html">time-series</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lasers</strong></summary>
+    <ul>
+      <li><a href="lasers-optics-photonics.html">optics-photonics</a> <span class="count">(3)</span></li>
+      <li><a href="lasers-physics.html">physics</a> <span class="count">(3)</span></li>
+      <li><a href="lasers-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lda</strong></summary>
+    <ul>
+      <li><a href="lda-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="lda-nlp.html">nlp</a> <span class="count">(2)</span></li>
+      <li><a href="lda-topic-modeling.html">topic-modeling</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lean</strong></summary>
+    <ul>
+      <li><a href="lean-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="lean-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="lean-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linear-models</strong></summary>
+    <ul>
+      <li><a href="linear-models-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+      <li><a href="linear-models-optimization.html">optimization</a> <span class="count">(1)</span></li>
+      <li><a href="linear-models-regressions.html">regressions</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linux-llms</strong></summary>
+    <ul>
+      <li><a href="linux-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="linux-llms-gpt.html">gpt</a> <span class="count">(1)</span></li>
+      <li><a href="linux-llms-willison.html">willison</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lithography</strong></summary>
+    <ul>
+      <li><a href="lithography-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="lithography-semiconductors.html">semiconductors</a> <span class="count">(6)</span></li>
+      <li><a href="lithography-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>logging</strong></summary>
+    <ul>
+      <li><a href="logging-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="logging-testing.html">testing</a> <span class="count">(1)</span></li>
+      <li><a href="logging-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>logos</strong></summary>
+    <ul>
+      <li><a href="logos-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+      <li><a href="logos-sports.html">sports</a> <span class="count">(1)</span></li>
+      <li><a href="logos-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>menus</strong></summary>
+    <ul>
+      <li><a href="menus-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="menus-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="menus-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>network-effects</strong></summary>
+    <ul>
+      <li><a href="network-effects-platforms.html">platforms</a> <span class="count">(11)</span></li>
+      <li><a href="network-effects-prodmgmt.html">prodmgmt</a> <span class="count">(14)</span></li>
+      <li><a href="network-effects-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ngrok</strong></summary>
+    <ul>
+      <li><a href="ngrok-prompt-engineering.html">prompt-engineering</a> <span class="count">(1)</span></li>
+      <li><a href="ngrok-ssh.html">ssh</a> <span class="count">(1)</span></li>
+      <li><a href="ngrok-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>npm</strong></summary>
+    <ul>
+      <li><a href="npm-packages.html">packages</a> <span class="count">(2)</span></li>
+      <li><a href="npm-webdev.html">webdev</a> <span class="count">(2)</span></li>
+      <li><a href="npm-yarn.html">yarn</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>patents</strong></summary>
+    <ul>
+      <li><a href="patents-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+      <li><a href="patents-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="patents-trademarks.html">trademarks</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>piracy</strong></summary>
+    <ul>
+      <li><a href="piracy-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="piracy-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="piracy-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>positioning</strong></summary>
+    <ul>
+      <li><a href="positioning-pricing.html">pricing</a> <span class="count">(1)</span></li>
+      <li><a href="positioning-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="positioning-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>quantum</strong></summary>
+    <ul>
+      <li><a href="quantum-security.html">security</a> <span class="count">(1)</span></li>
+      <li><a href="quantum-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="quantum-topology.html">topology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rack</strong></summary>
+    <ul>
+      <li><a href="rack-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="rack-rubyonrails.html">rubyonrails</a> <span class="count">(1)</span></li>
+      <li><a href="rack-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>realestate</strong></summary>
+    <ul>
+      <li><a href="realestate-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="realestate-retire.html">retire</a> <span class="count">(1)</span></li>
+      <li><a href="realestate-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reasoning</strong></summary>
+    <ul>
+      <li><a href="reasoning-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(2)</span></li>
+      <li><a href="reasoning-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="reasoning-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ruby-web</strong></summary>
+    <ul>
+      <li><a href="ruby-web-crawlers.html">crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="ruby-web-scraping.html">scraping</a> <span class="count">(4)</span></li>
+      <li><a href="ruby-web-servers.html">servers</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>semiconductor-memory</strong></summary>
+    <ul>
+      <li><a href="semiconductor-memory-semiconductors.html">semiconductors</a> <span class="count">(7)</span></li>
+      <li><a href="semiconductor-memory-sram.html">sram</a> <span class="count">(1)</span></li>
+      <li><a href="semiconductor-memory-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>seo</strong></summary>
+    <ul>
+      <li><a href="seo-startups.html">startups</a> <span class="count">(1)</span></li>
+      <li><a href="seo-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="seo-web-crawlers.html">web-crawlers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>speaking</strong></summary>
+    <ul>
+      <li><a href="speaking-speech-recognition.html">speech-recognition</a> <span class="count">(2)</span></li>
+      <li><a href="speaking-storytelling.html">storytelling</a> <span class="count">(6)</span></li>
+      <li><a href="speaking-writing.html">writing</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spotify</strong></summary>
+    <ul>
+      <li><a href="spotify-streaming.html">streaming</a> <span class="count">(2)</span></li>
+      <li><a href="spotify-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+      <li><a href="spotify-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sram</strong></summary>
+    <ul>
+      <li><a href="sram-superconductors.html">superconductors</a> <span class="count">(1)</span></li>
+      <li><a href="sram-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="sram-tpu.html">tpu</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>statecraft</strong></summary>
+    <ul>
+      <li><a href="statecraft-stickers.html">stickers</a> <span class="count">(1)</span></li>
+      <li><a href="statecraft-supply-chain.html">supply-chain</a> <span class="count">(3)</span></li>
+      <li><a href="statecraft-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>storytelling</strong></summary>
+    <ul>
+      <li><a href="storytelling-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+      <li><a href="storytelling-video.html">video</a> <span class="count">(4)</span></li>
+      <li><a href="storytelling-writing.html">writing</a> <span class="count">(24)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>supply-chain</strong></summary>
+    <ul>
+      <li><a href="supply-chain-transformers.html">transformers</a> <span class="count">(1)</span></li>
+      <li><a href="supply-chain-wv.html">wv</a> <span class="count">(1)</span></li>
+      <li><a href="supply-chain-yawl.html">yawl</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>svg</strong></summary>
+    <ul>
+      <li><a href="svg-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="svg-visualization.html">visualization</a> <span class="count">(3)</span></li>
+      <li><a href="svg-webdev.html">webdev</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>video</strong></summary>
+    <ul>
+      <li><a href="video-visualization.html">visualization</a> <span class="count">(1)</span></li>
+      <li><a href="video-webdev.html">webdev</a> <span class="count">(1)</span></li>
+      <li><a href="video-youtube.html">youtube</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>visualization</strong></summary>
+    <ul>
+      <li><a href="visualization-voila.html">voila</a> <span class="count">(1)</span></li>
+      <li><a href="visualization-webdev.html">webdev</a> <span class="count">(3)</span></li>
+      <li><a href="visualization-yellowbrick.html">yellowbrick</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>web-scraping</strong></summary>
+    <ul>
+      <li><a href="web-scraping-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+      <li><a href="web-scraping-webdev.html">webdev</a> <span class="count">(6)</span></li>
+      <li><a href="web-scraping-wordclouds.html">wordclouds</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>airflow</strong></summary>
+    <ul>
+      <li><a href="airflow-devops.html">devops</a> <span class="count">(1)</span></li>
+      <li><a href="airflow-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>algorithms-math-llms</strong></summary>
+    <ul>
+      <li><a href="algorithms-math-llms-attention.html">attention</a> <span class="count">(1)</span></li>
+      <li><a href="algorithms-math-llms-rag.html">rag</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>algorithms-math-machine</strong></summary>
+    <ul>
+      <li><a href="algorithms-math-machine-learning.html">learning</a> <span class="count">(89)</span></li>
+      <li><a href="algorithms-math-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>analytics-llms</strong></summary>
+    <ul>
+      <li><a href="analytics-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-llms-willison.html">willison</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>analytics-sales</strong></summary>
+    <ul>
+      <li><a href="analytics-sales-ops-planning.html">ops-planning</a> <span class="count">(1)</span></li>
+      <li><a href="analytics-sales-salesmgmt.html">salesmgmt</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>arxiv-machine</strong></summary>
+    <ul>
+      <li><a href="arxiv-machine-learning.html">learning</a> <span class="count">(12)</span></li>
+      <li><a href="arxiv-machine-vision.html">vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>behaviors-social</strong></summary>
+    <ul>
+      <li><a href="behaviors-social-proof.html">proof</a> <span class="count">(4)</span></li>
+      <li><a href="behaviors-social-skills.html">skills</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>best-practices-llms</strong></summary>
+    <ul>
+      <li><a href="best-practices-llms-agents.html">agents</a> <span class="count">(2)</span></li>
+      <li><a href="best-practices-llms-claude.html">claude</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>books-machine</strong></summary>
+    <ul>
+      <li><a href="books-machine-learning.html">learning</a> <span class="count">(22)</span></li>
+      <li><a href="books-machine-vision.html">vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>boxplots</strong></summary>
+    <ul>
+      <li><a href="boxplots-r.html">r</a> <span class="count">(1)</span></li>
+      <li><a href="boxplots-visualization.html">visualization</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>brainstorming</strong></summary>
+    <ul>
+      <li><a href="brainstorming-creativity.html">creativity</a> <span class="count">(1)</span></li>
+      <li><a href="brainstorming-ideation.html">ideation</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>browsers-llms</strong></summary>
+    <ul>
+      <li><a href="browsers-llms-agents.html">agents</a> <span class="count">(2)</span></li>
+      <li><a href="browsers-llms-gpt.html">gpt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cheating</strong></summary>
+    <ul>
+      <li><a href="cheating-chess.html">chess</a> <span class="count">(1)</span></li>
+      <li><a href="cheating-games.html">games</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>clothes-machine</strong></summary>
+    <ul>
+      <li><a href="clothes-machine-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="clothes-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>codecs</strong></summary>
+    <ul>
+      <li><a href="codecs-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="codecs-networking.html">networking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>command-line-machine</strong></summary>
+    <ul>
+      <li><a href="command-line-machine-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="command-line-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>conformal</strong></summary>
+    <ul>
+      <li><a href="conformal-deep-learning.html">deep-learning</a> <span class="count">(1)</span></li>
+      <li><a href="conformal-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>conjoint</strong></summary>
+    <ul>
+      <li><a href="conjoint-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="conjoint-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>conspiracies</strong></summary>
+    <ul>
+      <li><a href="conspiracies-hbm.html">hbm</a> <span class="count">(1)</span></li>
+      <li><a href="conspiracies-influence-persuasion.html">influence-persuasion</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>convex-hulls</strong></summary>
+    <ul>
+      <li><a href="convex-hulls-machine-vision.html">machine-vision</a> <span class="count">(1)</span></li>
+      <li><a href="convex-hulls-topology.html">topology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cpus-llms</strong></summary>
+    <ul>
+      <li><a href="cpus-llms-attention.html">attention</a> <span class="count">(1)</span></li>
+      <li><a href="cpus-llms-rag.html">rag</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>datasets-machine</strong></summary>
+    <ul>
+      <li><a href="datasets-machine-learning.html">learning</a> <span class="count">(8)</span></li>
+      <li><a href="datasets-machine-vision.html">vision</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>debt</strong></summary>
+    <ul>
+      <li><a href="debt-finance.html">finance</a> <span class="count">(1)</span></li>
+      <li><a href="debt-india.html">india</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deep-learning-machine</strong></summary>
+    <ul>
+      <li><a href="deep-learning-machine-learning.html">learning</a> <span class="count">(51)</span></li>
+      <li><a href="deep-learning-machine-vision.html">vision</a> <span class="count">(18)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>defaults</strong></summary>
+    <ul>
+      <li><a href="defaults-nudging.html">nudging</a> <span class="count">(1)</span></li>
+      <li><a href="defaults-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>delusions</strong></summary>
+    <ul>
+      <li><a href="delusions-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+      <li><a href="delusions-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>demand-mgmt</strong></summary>
+    <ul>
+      <li><a href="demand-mgmt-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="demand-mgmt-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>devops-web</strong></summary>
+    <ul>
+      <li><a href="devops-web-hosting.html">hosting</a> <span class="count">(2)</span></li>
+      <li><a href="devops-web-servers.html">servers</a> <span class="count">(19)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>diffusion</strong></summary>
+    <ul>
+      <li><a href="diffusion-hugging-face.html">hugging-face</a> <span class="count">(1)</span></li>
+      <li><a href="diffusion-variational.html">variational</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>discord</strong></summary>
+    <ul>
+      <li><a href="discord-image-generation.html">image-generation</a> <span class="count">(1)</span></li>
+      <li><a href="discord-midjourney.html">midjourney</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>disobedience</strong></summary>
+    <ul>
+      <li><a href="disobedience-loyalty.html">loyalty</a> <span class="count">(1)</span></li>
+      <li><a href="disobedience-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>disruption-llms</strong></summary>
+    <ul>
+      <li><a href="disruption-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="disruption-llms-claude.html">claude</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>django</strong></summary>
+    <ul>
+      <li><a href="django-github-awesome.html">github-awesome</a> <span class="count">(1)</span></li>
+      <li><a href="django-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>documentaries</strong></summary>
+    <ul>
+      <li><a href="documentaries-japan.html">japan</a> <span class="count">(1)</span></li>
+      <li><a href="documentaries-movies-television.html">movies-television</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dogwhistles</strong></summary>
+    <ul>
+      <li><a href="dogwhistles-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="dogwhistles-language-linguistics.html">language-linguistics</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>dunning-kruger</strong></summary>
+    <ul>
+      <li><a href="dunning-kruger-imposter-syndrome.html">imposter-syndrome</a> <span class="count">(1)</span></li>
+      <li><a href="dunning-kruger-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ecommerce-machine</strong></summary>
+    <ul>
+      <li><a href="ecommerce-machine-learning.html">learning</a> <span class="count">(11)</span></li>
+      <li><a href="ecommerce-machine-vision.html">vision</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>elixir</strong></summary>
+    <ul>
+      <li><a href="elixir-erlang.html">erlang</a> <span class="count">(1)</span></li>
+      <li><a href="elixir-graphql.html">graphql</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>emojis</strong></summary>
+    <ul>
+      <li><a href="emojis-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="emojis-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fabric</strong></summary>
+    <ul>
+      <li><a href="fabric-fashion.html">fashion</a> <span class="count">(1)</span></li>
+      <li><a href="fabric-history.html">history</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fallacies</strong></summary>
+    <ul>
+      <li><a href="fallacies-mental-models.html">mental-models</a> <span class="count">(1)</span></li>
+      <li><a href="fallacies-thinking.html">thinking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fascination</strong></summary>
+    <ul>
+      <li><a href="fascination-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="fascination-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>firecrawl</strong></summary>
+    <ul>
+      <li><a href="firecrawl-llms.html">llms</a> <span class="count">(2)</span></li>
+      <li><a href="firecrawl-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fortran</strong></summary>
+    <ul>
+      <li><a href="fortran-hpc.html">hpc</a> <span class="count">(2)</span></li>
+      <li><a href="fortran-physics.html">physics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>freemium</strong></summary>
+    <ul>
+      <li><a href="freemium-pricing.html">pricing</a> <span class="count">(4)</span></li>
+      <li><a href="freemium-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>friends</strong></summary>
+    <ul>
+      <li><a href="friends-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+      <li><a href="friends-social-skills.html">social-skills</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gallium-nitride</strong></summary>
+    <ul>
+      <li><a href="gallium-nitride-semiconductors.html">semiconductors</a> <span class="count">(10)</span></li>
+      <li><a href="gallium-nitride-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gatsby</strong></summary>
+    <ul>
+      <li><a href="gatsby-javascript.html">javascript</a> <span class="count">(1)</span></li>
+      <li><a href="gatsby-netlify.html">netlify</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gemini-llms</strong></summary>
+    <ul>
+      <li><a href="gemini-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="gemini-llms-willison.html">willison</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>github-machine</strong></summary>
+    <ul>
+      <li><a href="github-machine-learning.html">learning</a> <span class="count">(6)</span></li>
+      <li><a href="github-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gmail</strong></summary>
+    <ul>
+      <li><a href="gmail-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="gmail-ruby.html">ruby</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>google</strong></summary>
+    <ul>
+      <li><a href="google-cloud-terraform.html">cloud-terraform</a> <span class="count">(1)</span></li>
+      <li><a href="google-docs-sqlite.html">docs-sqlite</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gpus-machine</strong></summary>
+    <ul>
+      <li><a href="gpus-machine-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="gpus-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hashing</strong></summary>
+    <ul>
+      <li><a href="hashing-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+      <li><a href="hashing-recommenders.html">recommenders</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hdmi</strong></summary>
+    <ul>
+      <li><a href="hdmi-interconnects.html">interconnects</a> <span class="count">(1)</span></li>
+      <li><a href="hdmi-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>health-medicine-machine</strong></summary>
+    <ul>
+      <li><a href="health-medicine-machine-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="health-medicine-machine-vision.html">vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hugo</strong></summary>
+    <ul>
+      <li><a href="hugo-ruby.html">ruby</a> <span class="count">(1)</span></li>
+      <li><a href="hugo-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ideas-semex</strong></summary>
+    <ul>
+      <li><a href="ideas-semex-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="ideas-semex-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-augmentation</strong></summary>
+    <ul>
+      <li><a href="image-augmentation-images.html">images</a> <span class="count">(1)</span></li>
+      <li><a href="image-augmentation-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-augmentation-machine</strong></summary>
+    <ul>
+      <li><a href="image-augmentation-machine-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="image-augmentation-machine-vision.html">vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image-generation-machine</strong></summary>
+    <ul>
+      <li><a href="image-generation-machine-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="image-generation-machine-vision.html">vision</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>images-machine</strong></summary>
+    <ul>
+      <li><a href="images-machine-learning.html">learning</a> <span class="count">(5)</span></li>
+      <li><a href="images-machine-vision.html">vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>info-theory</strong></summary>
+    <ul>
+      <li><a href="info-theory-machine-learning.html">machine-learning</a> <span class="count">(7)</span></li>
+      <li><a href="info-theory-prob-stats.html">prob-stats</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>introverts</strong></summary>
+    <ul>
+      <li><a href="introverts-presentations-presenting.html">presentations-presenting</a> <span class="count">(1)</span></li>
+      <li><a href="introverts-speaking.html">speaking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>iphone</strong></summary>
+    <ul>
+      <li><a href="iphone-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="iphone-wifi.html">wifi</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>knots</strong></summary>
+    <ul>
+      <li><a href="knots-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="knots-topology.html">topology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lang</strong></summary>
+    <ul>
+      <li><a href="lang-language-linguistics.html">language-linguistics</a> <span class="count">(1)</span></li>
+      <li><a href="lang-memory-recall.html">memory-recall</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>langchain-llms</strong></summary>
+    <ul>
+      <li><a href="langchain-llms-agents.html">agents</a> <span class="count">(1)</span></li>
+      <li><a href="langchain-llms-gpt.html">gpt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>langgraph</strong></summary>
+    <ul>
+      <li><a href="langgraph-llms-agents.html">llms-agents</a> <span class="count">(2)</span></li>
+      <li><a href="langgraph-llms.html">llms</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>leaks</strong></summary>
+    <ul>
+      <li><a href="leaks-marketing.html">marketing</a> <span class="count">(3)</span></li>
+      <li><a href="leaks-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linear-algebra-machine</strong></summary>
+    <ul>
+      <li><a href="linear-algebra-machine-learning.html">learning</a> <span class="count">(9)</span></li>
+      <li><a href="linear-algebra-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linux-machine</strong></summary>
+    <ul>
+      <li><a href="linux-machine-learning.html">learning</a> <span class="count">(2)</span></li>
+      <li><a href="linux-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>linux-web</strong></summary>
+    <ul>
+      <li><a href="linux-web-crawlers.html">crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="linux-web-servers.html">servers</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-claude-llms</strong></summary>
+    <ul>
+      <li><a href="llms-claude-llms-gpt.html">gpt</a> <span class="count">(2)</span></li>
+      <li><a href="llms-claude-llms-willison.html">willison</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-gpt-llms</strong></summary>
+    <ul>
+      <li><a href="llms-gpt-llms-llama.html">llama</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-llms-willison.html">willison</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-gpt-machine</strong></summary>
+    <ul>
+      <li><a href="llms-gpt-machine-learning.html">learning</a> <span class="count">(1)</span></li>
+      <li><a href="llms-gpt-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>llms-machine</strong></summary>
+    <ul>
+      <li><a href="llms-machine-learning.html">learning</a> <span class="count">(3)</span></li>
+      <li><a href="llms-machine-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>logistic-regression</strong></summary>
+    <ul>
+      <li><a href="logistic-regression-machine-learning.html">machine-learning</a> <span class="count">(4)</span></li>
+      <li><a href="logistic-regression-regressions.html">regressions</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>loyalty</strong></summary>
+    <ul>
+      <li><a href="loyalty-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="loyalty-trust.html">trust</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>luck</strong></summary>
+    <ul>
+      <li><a href="luck-morality.html">morality</a> <span class="count">(1)</span></li>
+      <li><a href="luck-psychology.html">psychology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lying</strong></summary>
+    <ul>
+      <li><a href="lying-propaganda.html">propaganda</a> <span class="count">(1)</span></li>
+      <li><a href="lying-speaking.html">speaking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>machine-learning-scikit</strong></summary>
+    <ul>
+      <li><a href="machine-learning-scikit-image.html">image</a> <span class="count">(1)</span></li>
+      <li><a href="machine-learning-scikit-learn.html">learn</a> <span class="count">(22)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>machine-vision-semantic</strong></summary>
+    <ul>
+      <li><a href="machine-vision-semantic-search.html">search</a> <span class="count">(1)</span></li>
+      <li><a href="machine-vision-semantic-segmentation.html">segmentation</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mailchimp</strong></summary>
+    <ul>
+      <li><a href="mailchimp-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="mailchimp-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mastodon</strong></summary>
+    <ul>
+      <li><a href="mastodon-rss.html">rss</a> <span class="count">(1)</span></li>
+      <li><a href="mastodon-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mcp</strong></summary>
+    <ul>
+      <li><a href="mcp-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="mcp-security.html">security</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mergers</strong></summary>
+    <ul>
+      <li><a href="mergers-movies-television.html">movies-television</a> <span class="count">(1)</span></li>
+      <li><a href="mergers-streaming.html">streaming</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>meteorjs</strong></summary>
+    <ul>
+      <li><a href="meteorjs-nodejs.html">nodejs</a> <span class="count">(1)</span></li>
+      <li><a href="meteorjs-vue.html">vue</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>minerals</strong></summary>
+    <ul>
+      <li><a href="minerals-startups.html">startups</a> <span class="count">(2)</span></li>
+      <li><a href="minerals-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ml-ops</strong></summary>
+    <ul>
+      <li><a href="ml-ops-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="ml-ops-testing.html">testing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>monopoly</strong></summary>
+    <ul>
+      <li><a href="monopoly-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="monopoly-public-policy.html">public-policy</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>monte-carlo</strong></summary>
+    <ul>
+      <li><a href="monte-carlo-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+      <li><a href="monte-carlo-python.html">python</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>morality</strong></summary>
+    <ul>
+      <li><a href="morality-psychology.html">psychology</a> <span class="count">(1)</span></li>
+      <li><a href="morality-values.html">values</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>museums</strong></summary>
+    <ul>
+      <li><a href="museums-travel.html">travel</a> <span class="count">(1)</span></li>
+      <li><a href="museums-truecrime.html">truecrime</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mvp</strong></summary>
+    <ul>
+      <li><a href="mvp-prodmgmt.html">prodmgmt</a> <span class="count">(5)</span></li>
+      <li><a href="mvp-startups.html">startups</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>netlify</strong></summary>
+    <ul>
+      <li><a href="netlify-sales-ops-planning.html">sales-ops-planning</a> <span class="count">(1)</span></li>
+      <li><a href="netlify-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>newsletters</strong></summary>
+    <ul>
+      <li><a href="newsletters-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="newsletters-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nft</strong></summary>
+    <ul>
+      <li><a href="nft-platforms.html">platforms</a> <span class="count">(1)</span></li>
+      <li><a href="nft-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ngrok-web</strong></summary>
+    <ul>
+      <li><a href="ngrok-web-hosting.html">hosting</a> <span class="count">(1)</span></li>
+      <li><a href="ngrok-web-servers.html">servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nltk</strong></summary>
+    <ul>
+      <li><a href="nltk-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="nltk-spacy.html">spacy</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>notetaking</strong></summary>
+    <ul>
+      <li><a href="notetaking-post-mortems.html">post-mortems</a> <span class="count">(1)</span></li>
+      <li><a href="notetaking-writing.html">writing</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>objections</strong></summary>
+    <ul>
+      <li><a href="objections-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="objections-sales-salesmgmt.html">sales-salesmgmt</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>okrs</strong></summary>
+    <ul>
+      <li><a href="okrs-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="okrs-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>opencv</strong></summary>
+    <ul>
+      <li><a href="opencv-python.html">python</a> <span class="count">(1)</span></li>
+      <li><a href="opencv-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>origami</strong></summary>
+    <ul>
+      <li><a href="origami-physics.html">physics</a> <span class="count">(1)</span></li>
+      <li><a href="origami-toys.html">toys</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>paperswithcode</strong></summary>
+    <ul>
+      <li><a href="paperswithcode-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="paperswithcode-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pawnshops</strong></summary>
+    <ul>
+      <li><a href="pawnshops-physical-products.html">physical-products</a> <span class="count">(2)</span></li>
+      <li><a href="pawnshops-pricing.html">pricing</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pca</strong></summary>
+    <ul>
+      <li><a href="pca-pytorch.html">pytorch</a> <span class="count">(1)</span></li>
+      <li><a href="pca-svd.html">svd</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>permission</strong></summary>
+    <ul>
+      <li><a href="permission-privacy.html">privacy</a> <span class="count">(1)</span></li>
+      <li><a href="permission-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>personas</strong></summary>
+    <ul>
+      <li><a href="personas-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+      <li><a href="personas-ui-ux.html">ui-ux</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>photography</strong></summary>
+    <ul>
+      <li><a href="photography-places.html">places</a> <span class="count">(1)</span></li>
+      <li><a href="photography-satellite.html">satellite</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>places</strong></summary>
+    <ul>
+      <li><a href="places-statecraft.html">statecraft</a> <span class="count">(1)</span></li>
+      <li><a href="places-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>play</strong></summary>
+    <ul>
+      <li><a href="play-retail.html">retail</a> <span class="count">(1)</span></li>
+      <li><a href="play-toys.html">toys</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>plotly</strong></summary>
+    <ul>
+      <li><a href="plotly-python.html">python</a> <span class="count">(3)</span></li>
+      <li><a href="plotly-visualization.html">visualization</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>policy-gradients</strong></summary>
+    <ul>
+      <li><a href="policy-gradients-reinforcement-learning.html">reinforcement-learning</a> <span class="count">(1)</span></li>
+      <li><a href="policy-gradients-risk.html">risk</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pose-estimation</strong></summary>
+    <ul>
+      <li><a href="pose-estimation-semantic-segmentation.html">semantic-segmentation</a> <span class="count">(1)</span></li>
+      <li><a href="pose-estimation-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prds-requirements</strong></summary>
+    <ul>
+      <li><a href="prds-requirements-prodmgmt.html">prodmgmt</a> <span class="count">(3)</span></li>
+      <li><a href="prds-requirements-quality.html">quality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>premature-optimization</strong></summary>
+    <ul>
+      <li><a href="premature-optimization-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+      <li><a href="premature-optimization-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prod-mkt-fit</strong></summary>
+    <ul>
+      <li><a href="prod-mkt-fit-prodmgmt.html">prodmgmt</a> <span class="count">(15)</span></li>
+      <li><a href="prod-mkt-fit-startups.html">startups</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>projmgmt</strong></summary>
+    <ul>
+      <li><a href="projmgmt-risk.html">risk</a> <span class="count">(2)</span></li>
+      <li><a href="projmgmt-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>propaganda</strong></summary>
+    <ul>
+      <li><a href="propaganda-signaling.html">signaling</a> <span class="count">(1)</span></li>
+      <li><a href="propaganda-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prophet</strong></summary>
+    <ul>
+      <li><a href="prophet-python.html">python</a> <span class="count">(4)</span></li>
+      <li><a href="prophet-time-series.html">time-series</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pufs</strong></summary>
+    <ul>
+      <li><a href="pufs-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="pufs-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pycaret</strong></summary>
+    <ul>
+      <li><a href="pycaret-python.html">python</a> <span class="count">(10)</span></li>
+      <li><a href="pycaret-time-series.html">time-series</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>python-scikit</strong></summary>
+    <ul>
+      <li><a href="python-scikit-image.html">image</a> <span class="count">(5)</span></li>
+      <li><a href="python-scikit-learn.html">learn</a> <span class="count">(15)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>python-web</strong></summary>
+    <ul>
+      <li><a href="python-web-crawlers.html">crawlers</a> <span class="count">(1)</span></li>
+      <li><a href="python-web-scraping.html">scraping</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>railroads-trains</strong></summary>
+    <ul>
+      <li><a href="railroads-trains-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+      <li><a href="railroads-trains-travel.html">travel</a> <span class="count">(5)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rake</strong></summary>
+    <ul>
+      <li><a href="rake-ruby.html">ruby</a> <span class="count">(4)</span></li>
+      <li><a href="rake-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reddit</strong></summary>
+    <ul>
+      <li><a href="reddit-search.html">search</a> <span class="count">(2)</span></li>
+      <li><a href="reddit-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>regexes</strong></summary>
+    <ul>
+      <li><a href="regexes-sublime-text.html">sublime-text</a> <span class="count">(1)</span></li>
+      <li><a href="regexes-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reinforcement-learning</strong></summary>
+    <ul>
+      <li><a href="reinforcement-learning-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+      <li><a href="reinforcement-learning-transformers.html">transformers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>riscv</strong></summary>
+    <ul>
+      <li><a href="riscv-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+      <li><a href="riscv-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>robotics</strong></summary>
+    <ul>
+      <li><a href="robotics-spatial.html">spatial</a> <span class="count">(1)</span></li>
+      <li><a href="robotics-startups.html">startups</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rspec</strong></summary>
+    <ul>
+      <li><a href="rspec-ruby.html">ruby</a> <span class="count">(7)</span></li>
+      <li><a href="rspec-rubyonrails.html">rubyonrails</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rss</strong></summary>
+    <ul>
+      <li><a href="rss-static-sites.html">static-sites</a> <span class="count">(1)</span></li>
+      <li><a href="rss-webdev.html">webdev</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>scifi</strong></summary>
+    <ul>
+      <li><a href="scifi-storytelling.html">storytelling</a> <span class="count">(2)</span></li>
+      <li><a href="scifi-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>seaborn</strong></summary>
+    <ul>
+      <li><a href="seaborn-vis.html">vis</a> <span class="count">(1)</span></li>
+      <li><a href="seaborn-visualization.html">visualization</a> <span class="count">(12)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>search-web</strong></summary>
+    <ul>
+      <li><a href="search-web-crawlers.html">crawlers</a> <span class="count">(3)</span></li>
+      <li><a href="search-web-scraping.html">scraping</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sentiment-analysis</strong></summary>
+    <ul>
+      <li><a href="sentiment-analysis-spacy.html">spacy</a> <span class="count">(1)</span></li>
+      <li><a href="sentiment-analysis-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>signaling</strong></summary>
+    <ul>
+      <li><a href="signaling-symbols.html">symbols</a> <span class="count">(1)</span></li>
+      <li><a href="signaling-values.html">values</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>similarity-search</strong></summary>
+    <ul>
+      <li><a href="similarity-search-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="similarity-search-vector-databases.html">vector-databases</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>simplicity</strong></summary>
+    <ul>
+      <li><a href="simplicity-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="simplicity-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>social-proof</strong></summary>
+    <ul>
+      <li><a href="social-proof-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="social-proof-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spatial</strong></summary>
+    <ul>
+      <li><a href="spatial-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="spatial-visualization.html">visualization</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spreadsheets</strong></summary>
+    <ul>
+      <li><a href="spreadsheets-sqlite.html">sqlite</a> <span class="count">(1)</span></li>
+      <li><a href="spreadsheets-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ssh</strong></summary>
+    <ul>
+      <li><a href="ssh-web-servers.html">web-servers</a> <span class="count">(2)</span></li>
+      <li><a href="ssh-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>static-sites</strong></summary>
+    <ul>
+      <li><a href="static-sites-web-hosting.html">web-hosting</a> <span class="count">(1)</span></li>
+      <li><a href="static-sites-webdev.html">webdev</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>steel</strong></summary>
+    <ul>
+      <li><a href="steel-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+      <li><a href="steel-transformers.html">transformers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>storyboards</strong></summary>
+    <ul>
+      <li><a href="storyboards-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+      <li><a href="storyboards-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>survival-analysis</strong></summary>
+    <ul>
+      <li><a href="survival-analysis-time-series.html">time-series</a> <span class="count">(1)</span></li>
+      <li><a href="survival-analysis-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>teamwork</strong></summary>
+    <ul>
+      <li><a href="teamwork-trust.html">trust</a> <span class="count">(1)</span></li>
+      <li><a href="teamwork-whistleblowing.html">whistleblowing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>thinking</strong></summary>
+    <ul>
+      <li><a href="thinking-values.html">values</a> <span class="count">(1)</span></li>
+      <li><a href="thinking-writing.html">writing</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>tiktok</strong></summary>
+    <ul>
+      <li><a href="tiktok-video.html">video</a> <span class="count">(1)</span></li>
+      <li><a href="tiktok-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>time-series</strong></summary>
+    <ul>
+      <li><a href="time-series-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+      <li><a href="time-series-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>travel</strong></summary>
+    <ul>
+      <li><a href="travel-video.html">video</a> <span class="count">(3)</span></li>
+      <li><a href="travel-wv.html">wv</a> <span class="count">(8)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>trust</strong></summary>
+    <ul>
+      <li><a href="trust-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+      <li><a href="trust-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>web-crawlers-web</strong></summary>
+    <ul>
+      <li><a href="web-crawlers-web-scraping.html">scraping</a> <span class="count">(2)</span></li>
+      <li><a href="web-crawlers-web-servers.html">servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>web</strong></summary>
+    <ul>
+      <li><a href="web-hosting-webdev.html">hosting-webdev</a> <span class="count">(1)</span></li>
+      <li><a href="web-servers-webdev.html">servers-webdev</a> <span class="count">(8)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>antimatter</strong></summary>
+    <ul>
+      <li><a href="antimatter-physics.html">physics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bloom</strong></summary>
+    <ul>
+      <li><a href="bloom-filters-prob-stats.html">filters-prob-stats</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>bragging</strong></summary>
+    <ul>
+      <li><a href="bragging-trust.html">trust</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>burnout</strong></summary>
+    <ul>
+      <li><a href="burnout-emotions.html">emotions</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>censorship</strong></summary>
+    <ul>
+      <li><a href="censorship-music.html">music</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>chivalry</strong></summary>
+    <ul>
+      <li><a href="chivalry-goodreads.html">goodreads</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>codex</strong></summary>
+    <ul>
+      <li><a href="codex-openai.html">openai</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>concept</strong></summary>
+    <ul>
+      <li><a href="concept-drift-machine-learning.html">drift-machine-learning</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>courage</strong></summary>
+    <ul>
+      <li><a href="courage-influence-persuasion.html">influence-persuasion</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cpython</strong></summary>
+    <ul>
+      <li><a href="cpython-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>cython</strong></summary>
+    <ul>
+      <li><a href="cython-python.html">python</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>deno</strong></summary>
+    <ul>
+      <li><a href="deno-javascript.html">javascript</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>depth</strong></summary>
+    <ul>
+      <li><a href="depth-estimation-machine-vision.html">estimation-machine-vision</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>disgust</strong></summary>
+    <ul>
+      <li><a href="disgust-emotions.html">emotions</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>domains</strong></summary>
+    <ul>
+      <li><a href="domains-keywords-ppc-seo.html">keywords-ppc-seo</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>evolutionary</strong></summary>
+    <ul>
+      <li><a href="evolutionary-machine-learning.html">machine-learning</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>exclusivity</strong></summary>
+    <ul>
+      <li><a href="exclusivity-scarcity.html">scarcity</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>experience</strong></summary>
+    <ul>
+      <li><a href="experience-maps-ui-ux.html">maps-ui-ux</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>explosives</strong></summary>
+    <ul>
+      <li><a href="explosives-physics.html">physics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>fear</strong></summary>
+    <ul>
+      <li><a href="fear-health-medicine.html">health-medicine</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>file</strong></summary>
+    <ul>
+      <li><a href="file-formats-linux.html">formats-linux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gallium</strong></summary>
+    <ul>
+      <li><a href="gallium-arsenide-semiconductors.html">arsenide-semiconductors</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>garbage</strong></summary>
+    <ul>
+      <li><a href="garbage-collection-rubyonrails.html">collection-rubyonrails</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gaslighting</strong></summary>
+    <ul>
+      <li><a href="gaslighting-psychology.html">psychology</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gcc</strong></summary>
+    <ul>
+      <li><a href="gcc-linux.html">linux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>geology</strong></summary>
+    <ul>
+      <li><a href="geology-inventions-innovation.html">inventions-innovation</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gitlab</strong></summary>
+    <ul>
+      <li><a href="gitlab-python.html">python</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gkeep</strong></summary>
+    <ul>
+      <li><a href="gkeep-html.html">html</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>go</strong></summary>
+    <ul>
+      <li><a href="go-game-movies-television.html">game-movies-television</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gold</strong></summary>
+    <ul>
+      <li><a href="gold-goodreads.html">goodreads</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gossip</strong></summary>
+    <ul>
+      <li><a href="gossip-influence-persuasion.html">influence-persuasion</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>gradients</strong></summary>
+    <ul>
+      <li><a href="gradients-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>guilt</strong></summary>
+    <ul>
+      <li><a href="guilt-regret.html">regret</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>headphones</strong></summary>
+    <ul>
+      <li><a href="headphones-music.html">music</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hiking</strong></summary>
+    <ul>
+      <li><a href="hiking-travel.html">travel</a> <span class="count">(16)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hobbies</strong></summary>
+    <ul>
+      <li><a href="hobbies-toys.html">toys</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>humility</strong></summary>
+    <ul>
+      <li><a href="humility-learning.html">learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>hvac</strong></summary>
+    <ul>
+      <li><a href="hvac-repair.html">repair</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>image</strong></summary>
+    <ul>
+      <li><a href="image-compression-stable-diffusion.html">compression-stable-diffusion</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>instinct</strong></summary>
+    <ul>
+      <li><a href="instinct-intuition-speaking.html">intuition-speaking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>insurance</strong></summary>
+    <ul>
+      <li><a href="insurance-risk.html">risk</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>iot</strong></summary>
+    <ul>
+      <li><a href="iot-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>jobstobedone</strong></summary>
+    <ul>
+      <li><a href="jobstobedone-prodmgmt.html">prodmgmt</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>kanban</strong></summary>
+    <ul>
+      <li><a href="kanban-productivity-gtd.html">productivity-gtd</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>keyboards</strong></summary>
+    <ul>
+      <li><a href="keyboards-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>kitty</strong></summary>
+    <ul>
+      <li><a href="kitty-linux.html">linux</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>knapsack</strong></summary>
+    <ul>
+      <li><a href="knapsack-machine-learning.html">machine-learning</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>lagrange</strong></summary>
+    <ul>
+      <li><a href="lagrange-machine-learning.html">machine-learning</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>laplace</strong></summary>
+    <ul>
+      <li><a href="laplace-semiconductors.html">semiconductors</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>latex</strong></summary>
+    <ul>
+      <li><a href="latex-markdown.html">markdown</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>magazines</strong></summary>
+    <ul>
+      <li><a href="magazines-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>magic</strong></summary>
+    <ul>
+      <li><a href="magic-practice.html">practice</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mail</strong></summary>
+    <ul>
+      <li><a href="mail-prodmgmt.html">prodmgmt</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>make</strong></summary>
+    <ul>
+      <li><a href="make-python.html">python</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>maze</strong></summary>
+    <ul>
+      <li><a href="maze-search.html">search</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>meetings</strong></summary>
+    <ul>
+      <li><a href="meetings-speech-recognition.html">speech-recognition</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>messaging</strong></summary>
+    <ul>
+      <li><a href="messaging-telephony-whatsapp.html">telephony-whatsapp</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>model</strong></summary>
+    <ul>
+      <li><a href="model-compression-tensorflow.html">compression-tensorflow</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>motors</strong></summary>
+    <ul>
+      <li><a href="motors-physical-products.html">physical-products</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>mp3</strong></summary>
+    <ul>
+      <li><a href="mp3-music.html">music</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>navigation</strong></summary>
+    <ul>
+      <li><a href="navigation-optics-photonics.html">optics-photonics</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>neuromorphic</strong></summary>
+    <ul>
+      <li><a href="neuromorphic-semiconductors.html">semiconductors</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nginx</strong></summary>
+    <ul>
+      <li><a href="nginx-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>nudging</strong></summary>
+    <ul>
+      <li><a href="nudging-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>numba</strong></summary>
+    <ul>
+      <li><a href="numba-python.html">python</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>p2p</strong></summary>
+    <ul>
+      <li><a href="p2p-video.html">video</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>payments</strong></summary>
+    <ul>
+      <li><a href="payments-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>perfume</strong></summary>
+    <ul>
+      <li><a href="perfume-smell.html">smell</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pip</strong></summary>
+    <ul>
+      <li><a href="pip-python.html">python</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pivots</strong></summary>
+    <ul>
+      <li><a href="pivots-prodmgmt.html">prodmgmt</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>plex</strong></summary>
+    <ul>
+      <li><a href="plex-streaming.html">streaming</a> <span class="count">(3)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pocket</strong></summary>
+    <ul>
+      <li><a href="pocket-python.html">python</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>poker</strong></summary>
+    <ul>
+      <li><a href="poker-prob-stats.html">prob-stats</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>politeness</strong></summary>
+    <ul>
+      <li><a href="politeness-values.html">values</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>polymaths</strong></summary>
+    <ul>
+      <li><a href="polymaths-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>prioritization</strong></summary>
+    <ul>
+      <li><a href="prioritization-prodmgmt.html">prodmgmt</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>purpose</strong></summary>
+    <ul>
+      <li><a href="purpose-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pyspark</strong></summary>
+    <ul>
+      <li><a href="pyspark-python.html">python</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>pytest</strong></summary>
+    <ul>
+      <li><a href="pytest-python.html">python</a> <span class="count">(6)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>queues</strong></summary>
+    <ul>
+      <li><a href="queues-retail.html">retail</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>radiation</strong></summary>
+    <ul>
+      <li><a href="radiation-steel.html">steel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>readability</strong></summary>
+    <ul>
+      <li><a href="readability-rss.html">rss</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>reciprocity</strong></summary>
+    <ul>
+      <li><a href="reciprocity-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>regressions</strong></summary>
+    <ul>
+      <li><a href="regressions-scikit-learn.html">scikit-learn</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>retire</strong></summary>
+    <ul>
+      <li><a href="retire-travel.html">travel</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>returns</strong></summary>
+    <ul>
+      <li><a href="returns-supply-chain.html">supply-chain</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rituals</strong></summary>
+    <ul>
+      <li><a href="rituals-scarcity.html">scarcity</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rnns</strong></summary>
+    <ul>
+      <li><a href="rnns-transformers.html">transformers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rockets</strong></summary>
+    <ul>
+      <li><a href="rockets-startups.html">startups</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rubygems</strong></summary>
+    <ul>
+      <li><a href="rubygems-rubyonrails.html">rubyonrails</a> <span class="count">(9)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>rust</strong></summary>
+    <ul>
+      <li><a href="rust-search.html">search</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sabotage</strong></summary>
+    <ul>
+      <li><a href="sabotage-spycraft.html">spycraft</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sales</strong></summary>
+    <ul>
+      <li><a href="sales-ops-planning-supply-chain.html">ops-planning-supply-chain</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sankey</strong></summary>
+    <ul>
+      <li><a href="sankey-visualization.html">visualization</a> <span class="count">(4)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sap</strong></summary>
+    <ul>
+      <li><a href="sap-supply-chain.html">supply-chain</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sass</strong></summary>
+    <ul>
+      <li><a href="sass-startups.html">startups</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>scams</strong></summary>
+    <ul>
+      <li><a href="scams-storytelling.html">storytelling</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>secrecy</strong></summary>
+    <ul>
+      <li><a href="secrecy-security.html">security</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>semi</strong></summary>
+    <ul>
+      <li><a href="semi-supervised-sram.html">supervised-sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sensitivity</strong></summary>
+    <ul>
+      <li><a href="sensitivity-value-prop.html">value-prop</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sensors</strong></summary>
+    <ul>
+      <li><a href="sensors-sram.html">sram</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>shopify</strong></summary>
+    <ul>
+      <li><a href="shopify-twitter.html">twitter</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>snobbery</strong></summary>
+    <ul>
+      <li><a href="snobbery-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>social</strong></summary>
+    <ul>
+      <li><a href="social-skills-speaking.html">skills-speaking</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>solitude</strong></summary>
+    <ul>
+      <li><a href="solitude-thinking.html">thinking</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spam</strong></summary>
+    <ul>
+      <li><a href="spam-wordpress.html">wordpress</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>spin</strong></summary>
+    <ul>
+      <li><a href="spin-subterfuge.html">subterfuge</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sql</strong></summary>
+    <ul>
+      <li><a href="sql-sqlite.html">sqlite</a> <span class="count">(10)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>sqlite</strong></summary>
+    <ul>
+      <li><a href="sqlite-web-scraping.html">web-scraping</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>stickiness</strong></summary>
+    <ul>
+      <li><a href="stickiness-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>streamlit</strong></summary>
+    <ul>
+      <li><a href="streamlit-tensorflow.html">tensorflow</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>symbols</strong></summary>
+    <ul>
+      <li><a href="symbols-writing.html">writing</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>taxes</strong></summary>
+    <ul>
+      <li><a href="taxes-travel.html">travel</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>taxonomy</strong></summary>
+    <ul>
+      <li><a href="taxonomy-ui-ux.html">ui-ux</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>telephones</strong></summary>
+    <ul>
+      <li><a href="telephones-whatsapp.html">whatsapp</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>text</strong></summary>
+    <ul>
+      <li><a href="text-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>thermodynamics</strong></summary>
+    <ul>
+      <li><a href="thermodynamics-virality.html">virality</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>tickets</strong></summary>
+    <ul>
+      <li><a href="tickets-ui-ux.html">ui-ux</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>topology</strong></summary>
+    <ul>
+      <li><a href="topology-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>transformers</strong></summary>
+    <ul>
+      <li><a href="transformers-vision.html">vision</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>truecrime</strong></summary>
+    <ul>
+      <li><a href="truecrime-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>tshirts</strong></summary>
+    <ul>
+      <li><a href="tshirts-wv.html">wv</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>ubuntu</strong></summary>
+    <ul>
+      <li><a href="ubuntu-web-servers.html">web-servers</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>umap</strong></summary>
+    <ul>
+      <li><a href="umap-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>vagrant</strong></summary>
+    <ul>
+      <li><a href="vagrant-virtualbox.html">virtualbox</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>venv</strong></summary>
+    <ul>
+      <li><a href="venv-virtualization.html">virtualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>vis</strong></summary>
+    <ul>
+      <li><a href="vis-visualization.html">visualization</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>web-crawlers</strong></summary>
+    <ul>
+      <li><a href="web-crawlers-webdev.html">webdev</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>webassembly</strong></summary>
+    <ul>
+      <li><a href="webassembly-webdev.html">webdev</a> <span class="count">(2)</span></li>
+    </ul>
+  </details>
+  <details>
+    <summary><strong>webpack</strong></summary>
+    <ul>
+      <li><a href="webpack-webpacker.html">webpacker</a> <span class="count">(1)</span></li>
+    </ul>
+  </details>
+</body>
+</html>
+# raindrop-snapshots
